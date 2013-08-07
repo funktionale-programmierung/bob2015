@@ -1,0 +1,23 @@
+.bob h3 {
+  font-size: 28px;
+}
+
+.bob h3, h4 {
+  text-align: center;
+}
+
+.bob .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+  background-color: #fb0b0b;
+  border-color: #ec0505;
+}
+
+.bob .btn:hover,
+.bob .btn:focus {
+  background-color: #d40202;
+  border-color: #d40202;
+}
+
+.bob-name {
+}
