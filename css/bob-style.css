@@ -27,3 +27,12 @@
     height: auto;
     width: auto\9; /* ie8 */
 }
+
+.pc-row { margin-top:20px; }
+
+h2.pc-member { 
+  text-align: left;
+}
+
+p.pc-data { 
+}
