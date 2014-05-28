@@ -1,0 +1,26 @@
+markdown: kramdown
+encoding: UTF-8
+permalink: date
+paginate: 3
+pygments: true
+safe: true
+lsi: false
+
+sharing :
+  twitter :
+    size :
+    via :
+    count :
+  facebook :
+    appid : 205602882797935 # FIXME HARD
+    layout : button_count
+    font :
+    faces : false
+    width : 90
+  googleplus :
+    size : medium
+    width :
+    annotation : bubble
+  linkedin :
+    counter : right
+
