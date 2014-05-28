@@ -10,18 +10,48 @@
     <title>BOB 2015</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="jumbotron-narrow.css" rel="stylesheet">
-    
-    <link href="bob-style.css" rel="stylesheet">
+    <link href="/css/navbar.css" rel="stylesheet">
 
-    <script type='text/javascript' src='bob.js'></script>
+    <!-- BOB custom -->
+    <link href="/css/bob-style.css" rel="stylesheet">
+
+    <script type='text/javascript' src='/js/bob.js'></script>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   </head>
 
   <body>
+
+    <div class="container">
+
+      <!-- Static navbar -->
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><img
+          src="/images/bob_head_tiny.png" alt="FARM"></img></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+	    {% include navbar.html %}
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+
       {{ content }}
+
+    </div> <!-- /container -->
   </body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 </html>

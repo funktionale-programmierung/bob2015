@@ -1,0 +1,16 @@
+{% if page.active == "home" %}
+<li class="active"><a href="/">Home</a></li>
+{% else %}
+<li><a href="/">Home</a></li>
+{% endif %}
+{% if page.active == "bob2015" %}
+<li class="active"><a href="/2015/">BOB 2015</a></li>
+{% else %}
+<li><a href="/2015/">BOB 2015</a></li>
+{% endif %}
+{% if page.active == "impressum" %}
+<li class="active"><a href="/impressum.html">Impressum</a></li>
+{% else %}
+<li><a href="/impressum.html">Impressum</a></li>
+{% endif %}
+
