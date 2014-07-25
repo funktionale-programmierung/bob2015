@@ -44,7 +44,7 @@ Redezeit + 5 Minuten Fragen) sowie für 90minütige Tutorials mit
 Einführungen für Einsteiger. Die Vorträge können auf Deutsch oder auf
 Englisch gehalten werden.
 
-Zu einem Vorschlag [senden Sie uns](https://docs.google.com/spreadsheet/viewform?formkey=dHJ0TjR1cEhUWmdBZFVITGVRVWN5VEE6MA3) in der Sprache des Vortrags:
+Zu einem Vorschlag [senden Sie uns](https://docs.google.com/spreadsheet/viewform?formkey=dHJ0TjR1cEhUWmdBZFVITGVRVWN5VEE6MA) in der Sprache des Vortrags:
 
 * ein Abstract von maximal 1500 Zeichen
 * Ihre Kurzbiografie
