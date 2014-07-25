@@ -51,7 +51,6 @@ Zu einem Vorschlag [senden Sie uns](https://docs.google.com/spreadsheet/viewform
 * Kontaktinformationen (mindestens Email)
 * eine Liste von 3-5 konkreten Aspekten, die Zuhörende in ihren Alltag mitnehmen können
 * Zusatzmaterialien d.h. Links zu Webseiten, Blogs, Folien oder Videos vergangener Vorträge
-* Organisation
 
 ## Organisation
 
