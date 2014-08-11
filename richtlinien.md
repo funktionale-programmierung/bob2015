@@ -1,0 +1,84 @@
+---
+layout: default
+active: richtlinien
+title: Richtlinien
+---
+
+**(Go [here](policies.html) for English-language version.)**
+
+### Vielfalt
+
+Wir wollen Sie dabeihaben.
+
+Wir wollen alle einschließen, einladen und unterstützen, die guten
+Willens zur BOB kommen.
+
+Wir laden Menschen jeder geschlechtlichen Identität ein, jeden
+geschlechtlichen Ausdrucks oder ethnischen Hintergrunds, unabhängig
+von Größe, Nationalität, sexueller Ausrichtung, Fähigkeit, Neurotypus,
+Religion, Alter, Seniorität, Familienstruktur, Kultur, Subkultur,
+politischer Meinung, Identität und Selbst-Einordnung. Wir laden
+Aktivisten ein, Künstler, Blogger, Kunsthandwerker, Dilettanten,
+Musiker, Fotografen, Leser, Autoren, normale Menschen,
+außerordentliche Menschen und alle, die dazwischen liegen.
+
+Sie mögen ein Baby-Tragetuch tragen, Hidschab, Kippa, Leder,
+Piercings, Pentagramm, ein politisch gefärbtes Abzeichen, einen
+Regenbogen, Rosenkranz, Tätowierungen oder sonst irgendwas, wovon wir
+nur träumen können. Sie mögen eine Gitarre mitbringen oder
+Stricknadeln oder einen Zeichenblock. Sie mögen links, rechts,
+liberal, sozialistisch oder außerhalb dieser Kategorien politisch
+eingeordnet sein.
+
+Wir werden Ihre Rechte, was Meinungsfreiheit und Privatsphäre
+betrifft, kennen und schützen.Wir haben genug Erfahrung, um zu wissen,
+dass uns beim ersten Versuch nicht alles perfekt gelingen wird. Aber
+wir haben genug Hoffnung, Energie und Idealismus, um die Dinge zu
+lernen, die wir noch nicht wissen oder können. Wir werden nicht allen
+gerecht werden können, aber wir werden alles tun, niemanden zu
+verletzen. Außerdem versprechen wir, falls uns Fehler unterlaufen,
+dass wir Ihnen sorgfältig und respektvoll zuhören werden, wenn Sie uns
+darauf hinweisen, und wir werden unser bestes tun, unsere Fehler zu
+korrigieren.
+
+### Gegen Belästigung
+
+Wir sind entschlossen, den Besuch der BOB für alle frei von
+Belästigung zu gestalten. Wir werden die Belästigung von
+Konferenzteilnehmern nicht hinnehmen, gleich in welcher
+Form. Sexualisierte Sprache und andere Darstellungen sind in keinem
+Teil der Konferenz angemessen.  Konferenzteilnehmer, die diese Regeln
+verletzen, können nach dem Ermessen der Veranstalter von der Konferenz
+ohne Gebührenerstattung ausgeschlossen werden.
+
+Jegliche Form von schriftlicher oder verbaler Kommunikation,
+insbesondere in sozialen Medien, die Teilnehmende, Vortragende oder
+Organisatoren verletzen oder belästigen können, ist bei der BOB
+unerwünscht. Bitte informieren Sie die Organisatoren, falls Sie den
+Eindruck haben, dass diese Richtlinien verletzt wurden, und die
+Konferenzleitung wird sich darum kümmern.
+
+Unter “Belästigung” fallen verletzende Bemerkungen zu Geschlecht,
+sexueller Orientierung, Behinderung, Erscheinungsbild, Körpergroße,
+ethnischen Merkmalen, Religion sowie sexualisierte Bilder in
+öffentlichen Räumen, absichtliche Einschüchterung, Stalking,
+Verfolgung, belästigende Fotografie oder andere Aufnahmen,
+fortgesetzte Unterbrechungen von Vorträgen und anderen Aspekten der
+Konferenz, unangemessener Körperkontakt sowie unterwünschte sexuelle
+Zuwendung. Von Teilnehmenden wird erwartet, dass sie belästigendes
+Verhalten umgehend stoppen, wenn sie darum gebeten werden.
+
+Aussteller unterliegen ebenfalls den Richtlinien gegen
+Belästigung. Das heißt, dass Aussteller keine sexualisierte Bilder,
+Aktivitäten oder Material ausstellen sollten. Personal (auch
+Freiwillige) sollten keine sexualisierte Kleidung/Uniformen/Kostüme
+tragen oder eine anderweitig sexuell aufgeladene Atmosphäre erzeugen.
+
+Falls Sie belästigt werden oder bemerken, dass jemand belästigt wird,
+oder andere Anliegen haben - bitte wenden Sie sich an Organisatoren
+der Konferenz, die durch Kleidung oder spezielle Namensschilder
+kenntlich sein werden.
+
+(hervorgegangen aus den [LambdaJam-Richtlinien](http://www.lambdajam.com/policies.html))
+
+[![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/)
