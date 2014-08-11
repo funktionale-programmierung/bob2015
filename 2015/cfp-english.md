@@ -19,7 +19,7 @@ use to immediately improve your daily life as a software developer.
 
 If you share our vision and want to contribute, submit a proposal for a talk or tutorial!
 
-## Topics
+### Topics
 
 We are looking for talks about best-of-breed software technology,
 e.g.:
@@ -36,7 +36,7 @@ Presenters should provide the audience with information that is practically usef
 * introductory talks on technical background
 * demos and how-tos
 
-## Formal requirements
+### Formal requirements
 
 We accept proposals for presentations of 45 minutes (40 minutes talk +
 5 minutes questions), as well as 90 minute tutorials for beginners.
@@ -52,17 +52,17 @@ should include (in your presentation language of choice):
 * additional material (websites, blogs, slides, videos of past
   presentations, …)
 
-# Organisation
+### Organisation
 
 * submit your proposal [here](https://docs.google.com/spreadsheet/viewform?formkey=dHJ0TjR1cEhUWmdBZFVITGVRVWN5VEE6MA)
 * direct questions to `bobkonf at active minus group dot de`
 * proposal deadline: **September 30, 2014**
 * notification: October 15, 2014
-* program: October 2014, 2014	
+* program: October 2014, 2014
 
 *NOTE:* The conference fee will be waived for presenters, but travel expenses will not be covered.
 
-## Program Committee
+### Program Committee
 
 (more information [here](/2015/programmkomitee.html))
 
@@ -71,7 +71,7 @@ should include (in your presentation language of choice):
 * Michael Sperber, [Active Group](http://www.active-group.de/)
 * Stefan Wehr, [factis research](http://www.factisresearch.com/)
 
-### Scientific Advisory Board
+#### Scientific Advisory Board
     
 * [Annette Bieniusa](http://www-user.rhrk.uni-kl.de/~bieniusa/), TU Kaiserslautern
 * [Torsten Grust](http://db.inf.uni-tuebingen.de/team/TorstenGrust.html), Uni Tübingen

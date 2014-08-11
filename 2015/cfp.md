@@ -21,7 +21,7 @@ Entwicklungsumfeld mit nach Hause nehmen.
 
 Um dieses Ziel zu realisieren suchen wir noch Vortragende!
 
-## Themen
+### Themen
 
 Wir freuen uns über Beiträge zum Besten, was die Softwaretechnik zu bieten hat:
 
@@ -37,7 +37,7 @@ Vorträge sollten den Zuhörern nützliche Informationen für ihren Entwickleral
 * Einführungen in technische Hintergründe
 * Demos und How-Tos
 
-## Format
+### Format
 
 Wir wünschen uns Vorschläge für Vorträge à 45 Minuten (40 Minuten
 Redezeit + 5 Minuten Fragen) sowie für 90minütige Tutorials mit
@@ -52,7 +52,7 @@ Zu einem Vorschlag [senden Sie uns](https://docs.google.com/spreadsheet/viewform
 * eine Liste von 3-5 konkreten Aspekten, die Zuhörende in ihren Alltag mitnehmen können
 * Zusatzmaterialien d.h. Links zu Webseiten, Blogs, Folien oder Videos vergangener Vorträge
 
-## Organisation
+### Organisation
 
 * Einreichungen [hier](https://docs.google.com/spreadsheet/viewform?formkey=dHJ0TjR1cEhUWmdBZFVITGVRVWN5VEE6MA).
 * Fragen an `bobkonf at active minus group dot de`
@@ -62,7 +62,7 @@ Zu einem Vorschlag [senden Sie uns](https://docs.google.com/spreadsheet/viewform
 
 *Wichtig*: Für Vortragende ist die Konferenzteilnahme kostenlos; Reisekosten können allerdings nicht erstattet werden.
 
-## Programmkommitee
+### Programmkommitee
 
 (mehr Informationen [hier](/2015/programmkomitee.html))
 
@@ -71,7 +71,7 @@ Zu einem Vorschlag [senden Sie uns](https://docs.google.com/spreadsheet/viewform
 * Michael Sperber, [Active Group](http://www.active-group.de/)
 * Stefan Wehr, [factis research](http://www.factisresearch.com/)
 
-### Wissenschaftlicher Beirat
+#### Wissenschaftlicher Beirat
     
 * [Annette Bieniusa](http://www-user.rhrk.uni-kl.de/~bieniusa/), TU Kaiserslautern
 * [Torsten Grust](http://db.inf.uni-tuebingen.de/team/TorstenGrust.html), Uni Tübingen
