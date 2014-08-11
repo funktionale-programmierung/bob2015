@@ -29,7 +29,7 @@ Wir freuen uns über Beiträge zum Besten, was die Softwaretechnik zu bieten hat
 * reaktive Programmierung
 * Mikroservice-Architekturen
 * persistente Datenstrukturen und Datenbanken
-* … und alles, was es sonst noch an tollen Technologien, Werkzeugen und Techniken jenseits der Mainstream-Programmierung gibt
+* … und über alles, was es sonst noch an tollen Technologien, Werkzeugen und Techniken jenseits der Mainstream-Programmierung gibt
 
 Vorträge sollten den Zuhörern nützliche Informationen für ihren Entwickleralltag mitgeben. Denkbar sind zum Beispiel:
 
