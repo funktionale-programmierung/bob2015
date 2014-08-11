@@ -19,7 +19,7 @@ gibt. Unser Ziel ist, dass Sie die Konferenz mit vielen neuen
 Erfahrungen verlassen, und Verbesserungen für Ihr eigenes
 Entwicklungsumfeld mit nach Hause nehmen.
 
-Um dieses Ziel zu realisieren suchen wir noch Vortragende!
+Um dieses Ziel zu realisieren, suchen wir noch Vortragende!
 
 ### Themen
 
@@ -29,7 +29,7 @@ Wir freuen uns über Beiträge zum Besten, was die Softwaretechnik zu bieten hat
 * reaktive Programmierung
 * Mikroservice-Architekturen
 * persistente Datenstrukturen und Datenbanken
-* … und alles, wo es sonst noch tolle Technologien, Werkzeuge und Techniken jenseits der Mainstream-Programmierung gibt
+* … und alles, was es sonst noch an tollen Technologien, Werkzeugen und Techniken jenseits der Mainstream-Programmierung gibt
 
 Vorträge sollten den Zuhörern nützliche Informationen für ihren Entwickleralltag mitgeben. Denkbar sind zum Beispiel:
 
@@ -50,7 +50,7 @@ Zu einem Vorschlag [senden Sie uns](https://docs.google.com/spreadsheet/viewform
 * Ihre Kurzbiografie
 * Kontaktinformationen (mindestens Email)
 * eine Liste von 3-5 konkreten Aspekten, die Zuhörende in ihren Alltag mitnehmen können
-* Zusatzmaterialien d.h. Links zu Webseiten, Blogs, Folien oder Videos vergangener Vorträge
+* Zusatzmaterialien, d.h. Links zu Webseiten, Blogs, Folien oder Videos vergangener Vorträge
 
 ### Organisation
 
