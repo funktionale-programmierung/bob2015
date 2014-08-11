@@ -57,3 +57,14 @@ a:hover,
 a:focus {
   color: #8C4646;
 }
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  color: #8C4646;
+  border-width: 10px;
+  border-bottom-width: 10px;
+  border-top-width: 10px;
+  border-color: #ff0000;
+  border-top: solid;
+  border-bottom: solid;
+}
