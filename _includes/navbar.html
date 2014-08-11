@@ -8,9 +8,12 @@
 {% else %}
 <li><a href="/2015/">BOB 2015</a></li>
 {% endif %}
-{% if page.active == "impressum" %}
-<li class="active"><a href="/impressum.html">Impressum</a></li>
-{% else %}
-<li><a href="/impressum.html">Impressum</a></li>
-{% endif %}
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle"
+  data-toggle="dropdown">Fakten<b class="caret"></b></a>
+  <ul class="dropdown-menu">
+    <li><a href="/richtlinien.html">Richtlinien</a></li>
+    <li><a href="/impressum.html">Impressum</a></li>
+  </ul>
+</li>
 
