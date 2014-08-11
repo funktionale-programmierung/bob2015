@@ -56,7 +56,9 @@ should include (in your presentation language of choice):
 
 * submit your proposal [here](https://docs.google.com/spreadsheet/viewform?formkey=dHJ0TjR1cEhUWmdBZFVITGVRVWN5VEE6MA)
 * direct questions to `bobkonf at active minus group dot de`
-* proposal deadline: 2014/08/31 FIXME
+* proposal deadline: **September 30, 2014**
+* notification: October 15, 2014
+* program: October 2014, 2014	
 
 *NOTE:* The conference fee will be waived for presenters, but travel expenses will not be covered.
 

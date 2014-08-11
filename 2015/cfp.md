@@ -56,7 +56,9 @@ Zu einem Vorschlag [senden Sie uns](https://docs.google.com/spreadsheet/viewform
 
 * Einreichungen [hier](https://docs.google.com/spreadsheet/viewform?formkey=dHJ0TjR1cEhUWmdBZFVITGVRVWN5VEE6MA).
 * Fragen an `bobkonf at active minus group dot de`
-* Absendeschluss: FIXME 31.8.2014
+* Einsendeschluss: **30. September 2014**
+* Benachrichtigung über Annahme: 15. Oktober 2014
+* Programm: 31. Oktober 2014
 
 *Wichtig*: Für Vortragende ist die Konferenzteilnahme kostenlos; Reisekosten können allerdings nicht erstattet werden.
 
