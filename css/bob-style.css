@@ -68,3 +68,7 @@ a:focus {
   border-top: solid;
   border-bottom: solid;
 }
+
+#portrait {
+  float: right;
+}
