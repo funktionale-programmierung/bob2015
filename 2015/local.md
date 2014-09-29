@@ -6,47 +6,42 @@ title: Veranstaltungsort / Local Information BOB 2015
 
 # Veranstaltungsort
 
-BOB 2015 findet bei der
+BOB 2015 findet in den Räumen der
 [Lohmann & Birkner GmbH](http://www.lohmann-birkner.de/) statt
 ([Karte](http://goo.gl/SuAcYU)).
 
-## Adresse
+### Adresse
 
-> Lohmann & Birkner
-> Health Care Consulting GmbH
-> Alt-Reinickendorf 25
-> D-13407 Berlin
+Lohmann & Birkner
+Health Care Consulting GmbH
+Alt-Reinickendorf 25
+D-13407 Berlin
 
-## Anfahrt
+### Anfahrt
 
 Sie finden Details zur Anfahrt auch in folgendem
 [PDF](http://www.lohmann-birkner.de/de-wAssets/docs/LuB_Anfahrt.pdf).
 
-### Zug
+#### Zug
 
-#### Vom Hauptbahnhof
-
+**Vom Hauptbahnhof:**
 Mit der S5 Richtung Strausberg, S7 Richtung Ahrensfelde oder S75 Richtung
 Wartenberg bis zum Alexanderplatz fahren. Dort in die U8 Richtung Wittenau
 umsteigen und bis zur Station Paracelsus-Bad fahren. Die Fahrt dauert
-ca. 40 Minuten.
+ca. 40 Minuten. Die Fahrt mit dem Taxi dauert vom Hauptbahnhof aus etwa 30 Minuten.
 
-Die Fahrt mit dem Taxi dauert vom Hauptbahnhof aus etwa 30 Minuten.
-
-#### U-Bahn
-
+**U-Bahn:**
 U8 Richtung Wittenau, Ausstieg Paracelsus-Bad, Ausgang Roedernallee.
 
-#### S-Bahn
-
+**S-Bahn:**
 S25, Ausstieg Alt-Reinickendorf.
 
-### Flugzeug
+#### Flugzeug
 
 Vom Flughafen Tegel sind es etwa 20 Minuten mit dem Taxi, vom
 Flighafen Schönefeld benötigen Sie mit dem Taxi ca. 45 Minuten.
 
-### Auto
+#### Auto
 
 A 111, Autobahnabfahrt Holzhauser Straße, ca. 500 m Richtung Norden
 fahren, dann rechts abbiegen in die Wittestraße, nach ca. 4 km links
@@ -55,7 +50,7 @@ Alt-Reinickendorf, nach ca. 150 m liegt das Gebäude auf der linken Seite,
 hinter dem Dorfanger. Auf dem Gelände selbst stehen keine Parkplätze zur
 Verfügung, sie können aber an der Straße parken.
 
-## Unterkunft
+### Unterkunft
 
 * [ibis Hotel Berlin Airport Tegel](http://www.hotel-berlin-city.de/). Der
   Veranstaltungsort ist lediglich etwa 500 Meter entfernt.
