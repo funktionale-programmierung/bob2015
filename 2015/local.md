@@ -54,12 +54,12 @@ Verfügung, sie können aber an der Straße parken.
   Um zum Veranstaltungsort zu kommen, fahren Sie mit dem Bus 122 ab
   Haltstelle "Auguste-Viktoria-A./Humboldtstr." in Richtung
   "Waidmannslust, Titiseestr". Fahren Sie dann 3 Haltestellen bis
-  Paracelsus-Bad.
+  Paracelsus-Bad (etwa 5 Minuten).
 * [Meininger Hotel Berlin Alexanderplatz](http://www.meininger-hotels.com/de/hotels/berlin/alexanderplatz/).
-  Fahren Sie von Haltestelle Sehnefelderplatz mit der U2 Richtung
+  Fahren Sie von Haltestelle Senefelderplatz mit der U2 Richtung
   Ruhleben. Steigen Sie am Alexanderplatz in die U8 Richtung Wittenau,
-  Ausstieht Paracelsus-Bad.
+  Ausstieg Paracelsus-Bad (etwa 40 Minuten).
 * [City Hostel](City Hostel). Fahren sie mit der U6 von Stadtmitte bis
   "Kurt-Schumacher-Platz". Dort steigen Sie in den Bus 122 Richtung
-  "Waidmannslust, Titiseestr."). Der Ausstieg ist dann an der Haltestelle
-  Paracelsus-Bad.
+  "Waidmannslust, Titiseestr". Der Ausstieg ist dann an der Haltestelle
+  Paracelsus-Bad (etwa 30 Minuten).
