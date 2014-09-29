@@ -8,14 +8,10 @@ title: Veranstaltungsort / Local Information BOB 2015
 
 BOB 2015 findet in den Räumen der
 [Lohmann & Birkner GmbH](http://www.lohmann-birkner.de/) statt
-([Karte](http://goo.gl/SuAcYU)).
-
-### Adresse
-
-Lohmann & Birkner
-Health Care Consulting GmbH
-Alt-Reinickendorf 25
-D-13407 Berlin
+([Karte](http://goo.gl/SuAcYU)). Die Adresse ist:
+Lohmann & Birkner,
+Alt-Reinickendorf 25,
+D-13407 Berlin.
 
 ### Anfahrt
 
