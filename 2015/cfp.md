@@ -6,7 +6,7 @@ title: Call for Contributions 2015
 
 ## [BOB 2015](/2015/) - Berlin, 23.1.2015
 
-# Call for Contributions 
+# Call for Contributions (abgelaufen)
 
 **(Go [here](cfp-english.html) for English-language version.)**
 

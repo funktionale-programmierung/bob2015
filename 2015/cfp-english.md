@@ -6,7 +6,7 @@ title: Call for Contributions 2015
 
 ## [BOB 2015](/2015/) - Berlin, January 23, 2015
 
-# Call for Contributions 
+# Call for Contributions (expired)
 
 **(Deutsche Fassung [hier](cfp.html).)**
 
