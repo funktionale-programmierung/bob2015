@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<h4>{{page.type}}: {{page.time}}</h4>
+
+<div class="row">
+      <div class="col-lg-8">
+	  <h3>{{page.speaker}}</h2>
+	  <h2 style="text-align: left">{{page.title}}</h2>
+	{{ content }}
+      </div>
+{% if page.portrait %}
+      <div class="col-lg-4">
+	<img src="portrait/{{page.portrait}}"></img>
+      </div>
+{% endif %}
+</div> 
