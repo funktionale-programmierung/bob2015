@@ -30,6 +30,9 @@ Platform](https://www.haskell.org/platform/) on your laptop.
 Knowledge of Haskell is not required, but a certain aptitude in at
 least one other programming language will be helpful.
 
+Presentation language will be English, but we are happy to discuss
+your questions in German.
+
 #### Matthias Fischmann
 
 Matthias Fischmann has implemented his thesis at the Max Planck
