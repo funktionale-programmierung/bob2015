@@ -44,7 +44,7 @@ geförderte Projekt SASER. Gabor Greif und Philip Ottinger sind bei der
 Alcatel-Lucent Deutschland AG beschäftigt.
 
 
-## Kurzbiografie / Bio statement
+#### Gabor Greif
 
 Gabors erste Bewährungsprobe war die Entwicklung eines vernetzten
 Softwaresystems für die väterliche Neurologiepraxis. Nach Erlangung
