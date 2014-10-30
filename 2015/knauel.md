@@ -34,3 +34,16 @@ Die vorgestellte Abfragesprache und der Query-Compiler gehören zum
 Kern der Enterprise-Content-Management-Suite ImageMaster, die von
 T-Systems International GmbH hergestellt wird und in zahlreichen
 Produktivumgebungen zum Einsatz kommt.
+
+#### Eric Knauel
+
+Dr. Eric Knauel ist seit 2008 Software-Architekt bei T-Systems
+International GmbH in Leinfelden-Echterdingen.  Er arbeitet
+schwerpunktmäßig in der Produktentwicklung des Kernes der
+Enterprise-Content-Management-Suite ImageMaster.
+
+Von 1997 bis 2008 hat er in Tübingen Informatik studiert und war
+wissenschaftlicher Angestellter im Arbeitsbereich Programmiersprachen
+und Compilerbau. 2008 hat er seine Dissertation zum Thema
+Kontrollflußanalysen für Programmiersprachen höherer Ordnung fertig
+gestellt.
