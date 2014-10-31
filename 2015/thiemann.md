@@ -16,21 +16,21 @@ Deshalb benötigt man ein Werkzeug das schnelle Entwicklungsgeschwindigkeit
 und gute Performance bietet - ohne dass die Entwickler von Komplexität
 überwältigt werden und dabei beispielsweise triviale Sicherheitsprobleme
 übersehen. Haskell ist die perfekte Lösung dafür: Das Typsystem der Sprache
-leitet den Entwickler auch bei großen Refactorings vertrauensvoll zum Ziel
+leitet den Entwickler auch bei großen Refactorings sicher zum Ziel
 und verhindert dabei diverse verschiedene Sicherheitslücken.
 
 Das Tutorial soll eine Einleitung in Webprogrammierung mit Haskell und dem
 Framework "Spock" geben. Dabei werden verschiedene Themen und Möglichkeiten
-wie zum Beispiel typsichere Routen, Hyperlinks, Datenbank Abfragen,
+wie zum Beispiel typsichere Routen, Hyperlinks, Datenbankabfragen,
 Templates und JSON parsen/generieren besprochen. Außerdem wird auf
 REST-Schnittstellen und Background-Worker eingegangen. Als Referenzprojekt
 dient eine kleine Bloganwendung mit Features wie Posten, Kommentieren,
-Spamverarbeitung und Email-Newsletter.
+Spamverarbeitung und E-Mail-Newsletter.
 
 #### Alexander Thiemann
 
 Alexander Thiemann studiert an der Albert-Ludwigs-Universität Freiburg
-Informatik. Er arbeitet nebenbei mit einer halben Stelle als
-Haskell/iOS/JavaScript-Entwickler bei der factis research
-GmbH. Außerdem ist er Gründer eines StartUps für
-Straßenbahntechnologie und Maintainer des Haskell-Webframeworks Spock.
+Informatik. Er arbeitet nebenbei als Haskell/iOS/JavaScript-Entwickler
+bei der factis research GmbH. Außerdem ist er Gründer eines StartUps
+für Straßenbahntechnologie und Maintainer des Haskell-Webframeworks
+Spock.
