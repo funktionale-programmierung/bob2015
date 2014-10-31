@@ -27,4 +27,10 @@ REST-Schnittstellen und Background-Worker eingegangen. Als Referenzprojekt
 dient eine kleine Bloganwendung mit Features wie Posten, Kommentieren,
 Spamverarbeitung und Email-Newsletter.
 
+#### Alexander Thiemann
 
+Alexander Thiemann studiert an der Albert-Ludwigs-Universität Freiburg
+Informatik. Er arbeitet nebenbei mit einer halben Stelle als
+Haskell/iOS/JavaScript-Entwickler bei der factis research
+GmbH. Außerdem ist er Gründer eines StartUps für
+Straßenbahntechnologie und Maintainer des Haskell-Webframeworks Spock.
