@@ -34,7 +34,7 @@ Programming in Swift](http://www.objc.io/books/).
 #### Florian Kugler
 
 Florian is a software developer from Berlin. He’s currently working on
-[Deckset](http://decksetapp.com <http://decksetapp.com/>) and on other
+[Deckset](http://decksetapp.com/) and on other
 projects on the iOS and Mac platforms. He’s also one of the
 co-founders of [objc.io](http://www.objc.io <http://www.objc.io/>), a
 monthly online magazine for iOS and OS X developers, and a co-author
