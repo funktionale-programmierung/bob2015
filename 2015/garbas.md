@@ -26,6 +26,6 @@ completely declarative, makes upgrading systems reliable.
 Rok Garbas is a web programmer, when not writing Javascript, he
 usually scripts in Python.  He started using Nix and later NixOS
 (linux distribution built around Nix) 3 years ago. Currently he is
-working at RhodeCode, where her solves packaging problems for large
+working at RhodeCode, where he solves packaging problems for large
 enterprises.
 
