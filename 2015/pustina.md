@@ -21,7 +21,7 @@ Dokumentenmenge feststellen, dass diese Lösung nicht für Millionen von
 Dokumenten geeignet ist. Aus diesem Grund haben wir das verteilte
 Dateisystem gegen den Open Source Object Store ~Ceph~ ausgetauscht.
 
-In diesem Vortrag möchten wir unserer Erfahrungen aufzuzeigen, wann
+In diesem Vortrag möchten wir unsere Erfahrungen aufzuzeigen, wann
 sich der Einsatz eines Object Stores lohnt und welche Implikationen
 damit verbunden sind. Zunächst werden wir die ursprüngliche
 Architektur zur Dokumentenspeicherung skizzieren und deren
@@ -33,7 +33,7 @@ unserer Anwendungsarchitektur beschrieben und so ein Evolutionspfad
 aufgezeigt werden. Abschließend möchten wir unsere Leistungsbewertung
 vorstellen und ggf. einen Einblick in unser Produktionssystem geben.
 
-Am Ende unserer Vortrags sollen die Zuhörer zum Einen die Probleme der
+Am Ende unseres Vortrags sollen die Zuhörer zum Einen die Probleme der
 Speicherung großer Datenmengen erkennen und zum Anderen selbst
 entscheiden können, ob Ceph eine mögliche Technologie für ihre
 Umgebung ist.
