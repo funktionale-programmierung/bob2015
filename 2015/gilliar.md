@@ -17,7 +17,7 @@ und vor allem Zustandsänderungen, strukturiert durchführen zu
 können. ClojureScript bietet hier mit der von Clojure bekannten
 Trennung von Value, Identity und State genau die passende Struktur,
 die, wie der Zufall es so will, hervorragend zu den Konzepten von
-Reacts.js passt. React.js ist eine von Facebbook entwickelte Library
+React.js passt. React.js ist eine von Facebbook entwickelte Library
 die sich rein auf den View-Layer beschränkt und mit einigen
 innovativen Details aufwarten kann. Diese Details und das
 Zusammenspiel zwischen ClojureScript und React.js sind Thema des
