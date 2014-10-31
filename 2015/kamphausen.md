@@ -26,9 +26,6 @@ Implementationsdetails und Fallstricke.
 
 #### Stefan Kamphausen
 
-Stefan Kamphausen is a long-time Lisp addict which is reflected by
-several articles and talks on Emacs and Clojure and his authoring of
-the first German Clojure book.
-
-Currently he works at Acrolinx in Berlin, focussing on DevOps and
-natural language processing.
+Stefan ist Director DevOps & NLP bei der Firma Acrolinx in Berlin. Er
+ist Autor des deutschen Clojure Buchs und ein langjähriger Liebhaber der
+Familie der Lisp-artigen Programmiersprachen.
