@@ -3,7 +3,7 @@ layout: talk
 active: bob2015
 title: Break the Monolith - Service Extraction at SoundCloud
 speaker: Jan Kischkel
-time: 17:15-18:00
+time: 17:00-17:45
 portrait: kischkel.jpg
 type: Vortrag
 ---

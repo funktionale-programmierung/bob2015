@@ -3,7 +3,7 @@ layout: talk
 active: bob2015
 title: Clojure Redeployed
 speaker: Jan Stępień
-time: 17:15-18:00
+time: 17:00-17:45
 portrait: stepien.jpg
 type: Vortrag
 ---
