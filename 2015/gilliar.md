@@ -8,7 +8,7 @@ portrait: gilliar.jpg
 type: Tutorial
 ---
 
-Funktionale Konzepte bei der Entwicklung von Benutzeroberfluachen? ist
+Funktionale Konzepte bei der Entwicklung von Benutzeroberflächen? ist
 das nicht ein Wiederspruch in sich? Benutzeroberflächen benötigen
 Zustand (state) den man, zumindest bei der rein funktionalen
 Programmierung, vermeiden möchte. Wenn man Zustand also schon nicht
