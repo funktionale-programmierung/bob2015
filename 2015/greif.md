@@ -21,7 +21,7 @@ Die "naive" (d.h. links-nach-rechts) Abarbeitung der zwei Teilaktionen
 kann dazu führen dass der Wecker (transient) losgeht, sofern er vorher
 
 - auf eine andere Zeit gestellt war (und deshalb gerade ruhig)
- aber der Alarm aktiv war
+- zugleich der Alarm aktiv war
 
 Das ist offenbar gegen den Willen des Users, der den Wecker ausmachen
 will. Die Reihenfolge der Teilaktionen ist also kontext-sensitiv.
