@@ -83,7 +83,7 @@ depends on when you register. We also offer a student discount.
     <tr>
       <th class="text-nowrap text-center"></th>
       <th class="text-nowrap text-center">Student</th>
-      <th class="text-nowrap text-center">Full</th>
+      <th class="text-nowrap text-center">regular</th>
     </tr>
   </thead>
   <tbody>
