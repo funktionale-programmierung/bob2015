@@ -5,29 +5,42 @@ title: Programming Workflows with Grammars
 speaker: Arie Middelkoop
 time: 12:15-13:00
 type: Vortrag
+portrait: middelkoop.jpg
 ---
 
-Assistants, a specific form of workflows and a classical part of
-content management systems, are a means to implement business
-processes by guiding and also restricting a user in performing some
-sequence of tasks within the system (e.g. filling out a form). Such
-assistants are typically described in terms of control flow graphs:
-the nodes represent concrete tasks in the system and the edges
-represent conditional transitions. Such a description is imperative,
-relying on a careful sequencing of side effects.
+This talk applies compiler techniques to financial consultancy
+software: We present a workflow framework for the implementation of
+wizards/assistents tailored to consultancy processes. This type of
+application requires that the user can revert or refine previous
+inputs, thereby affecting the structure of the workflow.
 
-In this talk, we propose a more declarative description that is
-related to functional reactive programming (FRP) and is (loosely)
-based on attribute grammars. The key insights are:
+Usually, such frameworks model workflows with control flow graphs,
+which do not capture the influence of data changes. To deal with this
+problem, we propose a model based on data flow graphs instead, meaning
+that workflows can be seen as functions in a functionally reactive
+program.
 
-* The grammar specifies allowed sequences of symbols, and a symbol represents a task. The grammar does not only specify how to interpret performed tasks (i.e. parsing), but also which tasks still need to be performed to complete the process (i.e. generating).
-* The tasks can be arranged in a tree, as specified by the productions of the grammar.
-* The attribute grammar represents an arrow (hence the link to FRP) with attributes describing the data flow between tasks.
+In our type of application, typically a lot of the inputs are needed
+at the end of the workflow to generate a report. Consequently,
+hundreds of values need to be passed around explicitly. The sheer
+amount of data to be propagated is a challenge that needs to be
+adressed. This is complicated by the fact that workflows should to be
+composable (function composition, fold/map, etc.), and thus require
+context information to be passed around.
 
-An important advantage compared to imperative descriptions is
-compositionality. Moreover, grammar-related techniques provide
-solutions to several common implementation challenges of Assistants.
+Since the composition of workflows forms a tree structure in general,
+we describe the workflows using a particularly suitable formalism
+known from compiler construction: higher-order reference attribute
+grammars. Using this formalism, the propagation of values can be
+described in an aspect-oriented fashion. Moreover, convenient
+abstractions are available for particular propagation patterns,
+similarly to what reader/writer/state monads offer in functional
+programming. The formalism does not only adress the challenge, but is
+also of a declarative nature.
 
+We present our ideas at a high level, sketching the implementation of
+the framework, with the intent of promoting the use of compiler
+techniques in the development of frameworks.
 
 #### Arie Middelkoop
 
