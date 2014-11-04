@@ -2,7 +2,7 @@
 layout: talk
 active: bob2015
 title: Scalable consistency for replicated data
-speaker: Annette Bieniusa, Christopher Meiklejohn
+speaker: Annette Bieniusa
 portrait: bieniusa.jpg
 time: 16:15-17:45
 type: Tutorial
@@ -43,10 +43,3 @@ Annette was involved in several national and international research
 projects, and is currently collaborating with Chris Meiklejohn in the
 EU-Project „SyncFree: Large-scale Computation without
 Synchronization“.
-
-#### Christopher Meiklejohn
-
-Christopher Meiklejohn is a Senior Software Engineer with Basho
-Technologies, Inc. and a graduate student in the College of Computing
-at Georgia Tech. Christopher is also a contributing member of the
-European research project, SyncFree.
