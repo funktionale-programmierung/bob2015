@@ -23,9 +23,9 @@ Es gelten folgende Tarife:
     <tr>
       <th class="text-nowrap text-center"></th>
       <th class="text-nowrap text-center">Student(in)</th>
-      <th class="text-nowrap text-center">Student(in), Teilnehmer(in) der :clojured</th>
+      <th class="text-nowrap text-center">Student(in) :clojured</th>
       <th class="text-nowrap text-center">regulär</th>
-      <th class="text-nowrap text-center">regulär, Teilnehmer(in) der :clojured</th>
+      <th class="text-nowrap text-center">regulär :clojured</th>
     </tr>
   </thead>
   <tbody>
@@ -41,7 +41,7 @@ Es gelten folgende Tarife:
       <td class="text-nowrap text-right">90 EUR</td>
       <td class="text-nowrap text-right">80 EUR</td>
       <td class="text-nowrap text-right">180 EUR</td>
-      <td class="text-nowrap text-right">120 EUR</td>
+      <td class="text-nowrap text-right">160 EUR</td>
     </tr>
     <tr>
       <td class="text-nowrap text-center">vor Ort, am 23.01.2015</td>
@@ -99,6 +99,7 @@ a discount for participants of
 <table class="table table-bordered table-striped">
   <thead>
     <tr>
+      <th class="text-nowrap text-center"></th>
       <th class="text-nowrap text-center">Student</th>
       <th class="text-nowrap text-center">Student, participant of :clojured</th>
       <th class="text-nowrap text-center">regular</th>
