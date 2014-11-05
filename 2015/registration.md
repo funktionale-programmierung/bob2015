@@ -146,7 +146,7 @@ a valid, current student ID at the day of the conference. If you fail to
 provide a student ID, you have to pay the full registration fee.
 
 If you pay the reduced fee for
-[:clojured](http://projekt.beuth-hochschule.de/clojured/).
+[:clojured](http://projekt.beuth-hochschule.de/clojured/)
 participants, you also have to
 register for
 [:clojured](http://projekt.beuth-hochschule.de/clojured/).
