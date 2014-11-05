@@ -5,6 +5,7 @@ title: Praktische Erfahrungen mit GPU-Programmierung in Haskell
 speaker: Henning Thielemann
 time: 15:00-15:45
 type: Vortrag
+language: deutsch
 ---
 
 Man hört in den letzten Jahren zunehmend von modernen massiv parallel

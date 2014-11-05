@@ -6,6 +6,7 @@ speaker: Arie Middelkoop
 time: 12:15-13:00
 type: Vortrag
 portrait: middelkoop.jpg
+language: english
 ---
 
 This talk applies compiler techniques to financial consultancy

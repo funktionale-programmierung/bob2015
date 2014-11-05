@@ -6,6 +6,7 @@ speaker: Roger Gilliar
 time: 14:00-15:30
 portrait: gilliar.jpg
 type: Tutorial
+language: german
 ---
 
 Funktionale Konzepte bei der Entwicklung von Benutzeroberflächen? ist

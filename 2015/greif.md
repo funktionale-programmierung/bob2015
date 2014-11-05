@@ -6,6 +6,7 @@ speaker: Gabor Greif
 time: 12:15-13:00
 portrait: greif.jpg
 type: Vortrag
+language: german
 ---
 
 Das Konfigurieren von eingebetteten Devices ist nach wie vor ein

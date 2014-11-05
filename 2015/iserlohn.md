@@ -6,6 +6,7 @@ speaker: Christoph Iserlohn
 time: 11:30-12:15
 portrait: iserlohn.jpg
 type: Vortrag
+language: german
 ---
 
 Mikroservice-Architekuren sind zur Zeit in aller Munde. Und obwohl es

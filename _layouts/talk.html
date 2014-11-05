@@ -2,7 +2,15 @@
 layout: default
 ---
 
-<h4>{{page.type}}: {{page.time}}</h4>
+{% if page.language == null or page.language == "german" %}
+<h4>{{page.type}}: {{page.time}} (deutsch)</h4>
+{% else %}
+{% if page.type == "Vortrag" %}
+<h4>Talk: {{page.time}} (English)</h4>
+{% else %}
+<h4>Tutorial: {{page.time}} (English)</h4>
+{% endif %}
+{% endif %}
 
 <div class="row">
       <div class="col-lg-8">

@@ -6,6 +6,7 @@ speaker: Matthias Fischmann, Alexander Ulrich
 portrait: fischmann.jpg
 time: 10:00-11:30
 type: Tutorial
+language: english
 ---
 
 Haskell is an elegant and fascinating language that has made purely

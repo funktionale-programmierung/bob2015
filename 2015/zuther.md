@@ -6,6 +6,7 @@ speaker: Bernd Zuther
 time: 10:15-11:00
 portrait: zuther.jpg
 type: Vortrag
+language: german
 ---
 
 Softwareentwicklung wandelt sich derzeit: Es reicht nicht mehr

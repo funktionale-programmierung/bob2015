@@ -6,6 +6,7 @@ speaker: José Pedro Magalhães
 time: 11:30-12:15
 portrait: magalhaes.jpg
 type: Vortrag
+language: english
 ---
 
 Advanced functional programming is commonplace in academia. In this

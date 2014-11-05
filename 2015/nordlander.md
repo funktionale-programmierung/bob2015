@@ -6,6 +6,7 @@ speaker: Johan Nordlander
 time: 16:15-17:00
 portrait: nordlander.jpg
 type: Vortrag
+language: english
 ---
 
 AUTOSAR is a software component standard for the automotive

@@ -6,6 +6,7 @@ speaker: Rok Garbas
 time: 14:00-14:45
 portrait: garbas.jpg
 type: Vortrag
+language: english
 ---
 
 Allow me to introduce you to Nix - The Purely Functional Package Manager.

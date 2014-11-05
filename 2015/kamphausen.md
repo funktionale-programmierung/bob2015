@@ -6,6 +6,7 @@ speaker: Stefan Kamphausen
 time: 16:15-17:00
 portrait: kamphausen.jpg
 type: Vortrag
+language: german
 ---
 
 In Clojure, der Lisp-artigen, funktionalen Programmiersprache auf der

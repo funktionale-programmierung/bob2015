@@ -6,6 +6,7 @@ speaker: Annette Bieniusa
 portrait: bieniusa.jpg
 time: 16:15-17:45
 type: Tutorial
+language: english
 ---
 
 Replicating modifiable data is a challenge in large-scale

@@ -6,6 +6,7 @@ speaker: Jan Kischkel
 time: 17:00-17:45
 portrait: kischkel.jpg
 type: Vortrag
+language: english
 ---
 
 Often, in the life of a successful software project comes a time when

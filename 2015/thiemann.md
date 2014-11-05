@@ -6,6 +6,7 @@ speaker: Alexander Thiemann
 portrait: thiemann.jpg
 time: 11:30-13:00
 type: Tutorial
+language: german
 ---
 
 Funktionale Programmierung und Haskell wachsen schneller denn je zuvor und

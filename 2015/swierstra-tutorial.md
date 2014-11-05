@@ -6,6 +6,7 @@ speaker: Wouter Swierstra, Chris Eidhof, Florian Kugler
 portrait: swierstra.jpg
 time: 16:15-17:45
 type: Tutorial
+language: english
 ---
 
 At this year's WWDC, Apple announced Swift: a new language for iOS and

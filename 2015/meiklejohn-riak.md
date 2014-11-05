@@ -6,6 +6,7 @@ speaker: Christopher Meiklejohn
 portrait: meiklejohn.jpg
 time: 14:00-15:30
 type: Tutorial
+language: english
 ---
 
 Riak is a highly-available, fault-tolerant, distributed
