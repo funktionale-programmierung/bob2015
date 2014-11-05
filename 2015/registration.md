@@ -101,9 +101,9 @@ a discount for participants of
     <tr>
       <th class="text-nowrap text-center"></th>
       <th class="text-nowrap text-center">Student</th>
-      <th class="text-nowrap text-center">Student, participant of :clojured</th>
+      <th class="text-nowrap text-center">Student :clojured</th>
       <th class="text-nowrap text-center">regular</th>
-      <th class="text-nowrap text-center">regular, participant of :clojured</th>
+      <th class="text-nowrap text-center">regular :clojured</th>
     </tr>
   </thead>
   <tbody>
