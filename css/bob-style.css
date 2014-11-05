@@ -97,6 +97,10 @@ a:focus {
   height: 150px;
 }
 
+.talkfill {
+  height: 60px;
+}
+
 .talktitle {  
   font-size: 24px;
 }
