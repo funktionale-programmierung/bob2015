@@ -1,0 +1,87 @@
+---
+layout: default
+active: bob2015
+---
+
+<h4>Keynote: 10:00-11:00 (English)</h4>
+
+<div class="row">
+      <div class="col-lg-8">
+	  <h3></h3>
+	  <h2 style="text-align: left">Towards Functional Operating Systems</h2>
+
+<p>The current state of the art in the security of networked system is an
+absolute disaster, with buffer overflows and logical flaws regularly
+exposing critical infrastructure to external attack.  Mirage proposes
+a radically different way to deploy safer Internet
+applications. Rather than the traditional OS model where functionality
+is provided in layers, building up from a feature-rich kernel through
+userspace and language runtimes, Mirage progressively specialises
+application code written in OCaml, replacing traditional OS components
+such as the filesystem, network stack and scheduler, with type-safe
+libraries. This allows you to code using your usual tools, only making
+the final push to the cloud once you are happy your code works.</p>
+
+<p>The end result is that your application becomes a “unikernel”: a
+sealed, fixed-purpose bootable image that runs directly on the Xen
+hypervisor without need for a guest OS such as Linux. As unikernels
+only link in the libraries explicitly required by the application
+code, rather than having to include all the functionality that might
+ever be requested by a running process, they are very compact: the
+complete self-hosting Mirage web server image is less than a megabyte
+in size!</p>
+
+<p>In this talk, I’ll explain how the OCaml module system enables the
+construction of such large scale OS software, and also the resulting
+portability benefits: the talk will be given from a low-power ARM
+board running Mirage, and the same logic can also be compiled into
+JavaScript, kernel modules or Unix binaries.  Finally, I’ll show some
+of the open-source ecosystem that has built around Mirage, such as a
+clean-slate OCaml TLS stack and the Irmin branch-consistent Git-like
+datastore.</p>
+
+<h1 id="anil-madhavapeddy">Anil Madhavapeddy</h1>
+
+<p><a href="http://anil.recoil.org/">Dr. Anil Madhavapeddy</a> leitet die
+<a href="http://www.cl.cam.ac.uk/projects/ocamllabs/">OCaml-Labs-Gruppe</a> an der
+<a href="http://cl.cam.ac.uk/">Universität Cambridge</a> in England.  Er ist
+Architekt, Autor, Organisator und Manager gleich einer ganzen Reihe
+von Software- und Hardware-Projekten, die Vorreiterrollen in ihren
+jeweiligen Bereichen darstellen.  Um nur ein paar zu nennen: Er hat am
+<a href="http://xenproject.org/">Xen-Virtualisierungs-System</a> gearbeitet,
+leitet die Entwicklung des
+<a href="http://www.openmirage.org/">Mirage-Unikernels</a> (der es erlaubt,
+Anwendungen in der Cloud ohne Betriebssystem laufen zu lassen) und ist
+Co-Autor des Buchs <a href="https://realworldocaml.org/">Real-World OCaml</a>
+(bei O’Reilly).  Er ist einer der Entwickler hinter dem
+<a href="http://opam.ocamlpro.com/">OPAM-Package-Manager</a> für
+<a href="http://ocaml-lang.org/">OCaml</a> und hat entscheidend dazu beigetragen,
+OCaml zu einem der effektivsten Werkzeuge in der industriellen
+Softwareentwicklung zu machen.  Dr. Madhavapeddy leitet außerdem
+derzeitig den Lenkungsausschuss der internationalen Konferenz
+<a href="http://cufp.org/">Commercial Users of Functional Programming</a>.</p>
+
+<h1 id="anil-madhavapeddy-1">Anil Madhavapeddy</h1>
+
+<p><a href="http://anil.recoil.org/">Dr. Anil Madhavapeddy</a> leads the <a href="http://www.cl.cam.ac.uk/projects/ocamllabs/">OCaml Labs
+group</a> at the <a href="http://cl.cam.ac.uk/">University
+of Cambridge</a> in the UK.  He is a prolific
+architect, author, organizer, and manager of many cutting-edge
+software and hardware projects.  To name just a few, he worked on Xen
+virtualization system, leads the Mirage unikernel project that allows
+running applications without an OS, and co-authored the book
+<a href="https://realworldocaml.org/">Real-World OCaml</a> (O’Reilly).  He is one
+of the maintainers of the <a href="http://opam.ocamlpro.com/">OPAM package
+manager</a> for
+<a href="http://ocaml-lang.org/">OCaml</a> that has has been instrumental in
+making OCaml an effective tool in industrial software
+development. Dr. Madhavapeddy also currently chairs the Steering
+Committee of the international <a href="http://cufp.org/">Commercial Users of Functional
+Programming</a> conference.</p>
+
+      </div>
+      <div class="col-lg-4">
+	<img src="portrait/madhavapeddy.jpg"></img>
+      </div>
+
+</div> 
