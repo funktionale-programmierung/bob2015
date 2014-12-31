@@ -4,6 +4,7 @@ active: bob2015
 title: Introductory Haskell
 speaker: Matthias Fischmann, Alexander Ulrich
 portrait: fischmann.jpg
+portrait2: ulrich.jpg
 time: 10:00-11:30
 type: Tutorial
 language: english
