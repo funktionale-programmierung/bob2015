@@ -30,13 +30,6 @@ Es gelten folgende Tarife:
   </thead>
   <tbody>
     <tr>
-      <td class="text-nowrap text-center">Online, bis 19.12.2014 (early bird)</td>
-      <td class="text-nowrap text-right">75 EUR</td>
-      <td class="text-nowrap text-right">65 EUR</td>
-      <td class="text-nowrap text-right">150 EUR</td>
-      <td class="text-nowrap text-right">130 EUR</td>
-    </tr>
-    <tr>
       <td class="text-nowrap text-center">Online, bis 19.01.2015</td>
       <td class="text-nowrap text-right">90 EUR</td>
       <td class="text-nowrap text-right">80 EUR</td>
@@ -108,13 +101,6 @@ a discount for participants of
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td class="text-nowrap text-center">Online, until 19.12.2014 (early bird)</td>
-      <td class="text-nowrap text-right">75 EUR</td>
-      <td class="text-nowrap text-right">65 EUR</td>
-      <td class="text-nowrap text-right">150 EUR</td>
-      <td class="text-nowrap text-right">130 EUR</td>
-    </tr>
     <tr>
       <td class="text-nowrap text-center">Online, until 19.01.2015</td>
       <td class="text-nowrap text-right">90 EUR</td>
