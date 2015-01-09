@@ -19,6 +19,22 @@ moderne Mechanismen für Nebenläufigkeit und Parallelität.  Das Tutorial
 gibt einen Streifzug durch durch die Sprache Clojure und das
 dazugehörige Ökosystem.
 
+### Vorbereitung
+
+Teilnehmer, die den Beispielen folgen wollten, sollten vorher auf
+ihrem Rechner ein [JDK
+installieren](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+und dann die Tools [Leiningen](http://leiningen.org/) und
+[Nightcode](https://nightcode.info/).  Es ist außerdem empfehlenswert,
+folgende Befehle laufenzulassen:
+
+	lein new clojure-test
+	cd clojure-test
+	lein test
+
+Der letzte Befehl sollten Output mit einem fehlgeschlagenen Testfall
+produzieren.
+
 ### Michael Sperber
 
 Michael Sperber ist CTO der Active Group GmbH.  Er ist international
