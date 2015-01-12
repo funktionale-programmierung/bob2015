@@ -24,7 +24,15 @@ Erlang's inner workings and we will dispel some myths along the way.
 Presentation language will be English, but I am happy to discuss your
 questions in German.
 
-#### Martin Rehfeld
+### Preparations
+
+1. Install Erlang for your Platform from [`https://www.erlang-solutions.com/downloads/download-erlang-otp`](https://www.erlang-solutions.com/downloads/download-erlang-otp).
+   Any Release after and including R16B03 will work just fine for our purposes.
+
+2. Clone the workspace from [`https://github.com/martinrehfeld/bob-erlang-2014`](https://github.com/martinrehfeld/bob-erlang-2014), e.g.
+   `git clone https://github.com/martinrehfeld/bob-erlang-2014.git`
+
+### Martin Rehfeld
 
 Martin is a fan of Functional Programming and has been using Erlang
 as his main workhorse for the last couple of years at Wooga.
