@@ -26,7 +26,23 @@ Workshops. Zum Ende des Workshops haben Sie die Grundlagen von
 React.js und ClojureScript verstanden und eine (kleine) Anwendung zur
 Darstellung von Präsentationen in Browser entwickelt.
 
-#### Roger Gilliar
+### Vorbereitung
+
+Kenntnisse in zumindest einer funktionalen Programmiersprache werden
+vorausgesetzt.  Außerdem:
+
+Java 1.7 installiert, Leiningen installiert
+([`http://leiningen.org`](http://leiningen.org)). Dann bitte:
+
+	lein new mies-om hello-world
+	cd hello-world
+	lein deps
+	lein cljsbuild auto
+
+jeweils in der Kommandozeile ausführen, damit schonmal alle
+Abhängigkeiten geladen werden.
+
+### Roger Gilliar
 
 Roger Gilliar ist Autor, Ausbilder und Senior-Software-Engineer bei MCS in
 Hamburg. Sein Schwerpunkt liegt schon seit mehr als 10 Jahren beim Einsatz
