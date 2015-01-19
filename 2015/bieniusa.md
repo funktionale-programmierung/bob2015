@@ -28,7 +28,12 @@ In this tutorial, we will explain and justify the theoretical
 foundation of CRDTs and see how they are integrated and used in Riak
 2.0.
 
-#### Annette Bieniusa
+### Preparations
+
+Participants should install Riak 2.0 - instructions are
+[here](http://docs.basho.com/riak/latest/ops/building/installing/).
+
+### Annette Bieniusa
 
 Annette Bieniusa is a lecturer and researcher at the University of
 Kaiserslautern. She received a PhD in Computer Science from the
