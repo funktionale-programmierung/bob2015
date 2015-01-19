@@ -59,6 +59,9 @@ Editor zu
 installieren. [Hier](https://www.haskell.org/haskellwiki/Editors) ist
 eine Liste.
 
+Rückfragen zur Vorbeitung können an `mail at athiemann punkt net`
+gestellt werden.
+
 ### Alexander Thiemann
 
 Alexander Thiemann studiert an der Albert-Ludwigs-Universität Freiburg
