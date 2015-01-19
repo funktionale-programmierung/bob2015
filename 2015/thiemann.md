@@ -28,7 +28,38 @@ REST-Schnittstellen und Background-Worker eingegangen. Als Referenzprojekt
 dient eine kleine Bloganwendung mit Features wie Posten, Kommentieren,
 Spamverarbeitung und E-Mail-Newsletter.
 
-#### Alexander Thiemann
+### Vorbereitung
+
+1. Haskell-Plattform von [`https://www.haskell.org/platform/`](https://www.haskell.org/platform/) installieren
+
+2. Cabal installieren
+
+       cabal install cabal-install
+
+3. Repository holen
+
+       git clone https://github.com/agrafix/funblog.git
+
+4. Dependencies installieren
+
+       cd funblog
+	   <path>/cabal sandbox init
+	   <path>/cabal install -j8 —only-dependencies`
+
+5. Projekt einmal bauen
+
+	   <path>/cabal configure
+	   <path>/cabal build
+
+Dabei ist `<path>` auf Unix/Mac-Systemen `~/.cabal/bin/cabal`, auf
+Windows-Systemen `<drive>:\<username>\AppData\Roaming\cabal\bin`.
+
+Außerdem lohnt es sich noch den Haskell-Mode für den entsprechenden
+Editor zu
+installieren. [Hier](https://www.haskell.org/haskellwiki/Editors) ist
+eine Liste.
+
+### Alexander Thiemann
 
 Alexander Thiemann studiert an der Albert-Ludwigs-Universität Freiburg
 Informatik. Er arbeitet nebenbei als Haskell/iOS/JavaScript-Entwickler
