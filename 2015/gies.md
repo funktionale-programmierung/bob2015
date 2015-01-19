@@ -20,7 +20,7 @@ installation on their system. If time permits, we can join those to
 create a larger system and experiment with failover characteristics by
 disabling and destroying components.
 
-#### Attendees should bring:
+### Attendees should bring:
 
 - A moderately powerful laptop with at least 8GB of memory (to spare 4 for the virtual machine)
 - Virtualization software such as as [VMWare Player](http://www.vmware.com/products/player) or [VirtualBox](https://www.virtualbox.org/)
