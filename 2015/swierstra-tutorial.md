@@ -19,7 +19,7 @@ that make it suitable for functional programming.
 ### Preparations
 
 Participants will work in pairs; every pair should have a Mac with
-[Xcode 6.1](https://itunes.apple.com/en/app/xcode/id497799835?mt=12)
+[Xcode 6.1.1](https://itunes.apple.com/en/app/xcode/id497799835?mt=12)
 installed.
 
 ### Wouter Swierstra
