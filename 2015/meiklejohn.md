@@ -23,7 +23,19 @@ features while building out an application that is used by browsers
 and API clients alike. Knowledge of Erlang is not necessary for this
 workshop, but experience with a functional language is recommended.
 
-#### Christopher Meiklejohn
+### Preparations
+
+For the tutorial, you should have a C compiler, and Erlang R16B02.
+
+Here are detailed instructions:
+
+[`http://docs.basho.com/riak/latest/ops/building/installing/erlang/`](http://docs.basho.com/riak/latest/ops/building/installing/erlang/)
+
+Note: This is the same preparation as for the [Riak
+tutorial](meiklejohn-riak.html), and is also sufficient preparation
+for the [Erlang tutorial](rehfeld.html).
+
+### Christopher Meiklejohn
 
 Christopher Meiklejohn is a Senior Software Engineer with Basho
 Technologies, Inc. and a graduate student in the College of Computing

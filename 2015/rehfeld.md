@@ -27,7 +27,13 @@ questions in German.
 ### Preparations
 
 1. Install Erlang for your Platform from [`https://www.erlang-solutions.com/downloads/download-erlang-otp`](https://www.erlang-solutions.com/downloads/download-erlang-otp).
-   Any Release after and including R16B03 will work just fine for our purposes.
+   Any Release after and including R16B02 will work just fine for our
+   purposes.
+   
+   *Note*: If you're attending the [Webmachine
+   tutorial](meiklejohn.html) or the [Riak
+   tutorial](meiklejohn-riak.html), follow the instructions there and
+   install Erlang 16B02 instead of a later version.
 
 2. Clone the workspace from [`https://github.com/martinrehfeld/bob-erlang-2014`](https://github.com/martinrehfeld/bob-erlang-2014), e.g.
    `git clone https://github.com/martinrehfeld/bob-erlang-2014.git`
