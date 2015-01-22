@@ -34,7 +34,7 @@ Participants should install Riak 2.0 - instructions are
 [here](http://docs.basho.com/riak/latest/ops/building/installing/).
 
 Moreover, participants should install `riak_playground` from
-[here](https://github.com/cmeiklejohn/riak-playground ).
+[here](https://github.com/cmeiklejohn/riak-playground).
 
 ### Annette Bieniusa
 
