@@ -33,6 +33,9 @@ foundation of CRDTs and see how they are integrated and used in Riak
 Participants should install Riak 2.0 - instructions are
 [here](http://docs.basho.com/riak/latest/ops/building/installing/).
 
+Moreover, participants should install `riak_playground` from
+[here](https://github.com/cmeiklejohn/riak-playground ).
+
 ### Annette Bieniusa
 
 Annette Bieniusa is a lecturer and researcher at the University of
