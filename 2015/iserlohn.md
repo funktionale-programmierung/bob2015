@@ -7,6 +7,7 @@ time: 11:30-12:15
 portrait: iserlohn.jpg
 type: Vortrag
 language: german
+slides-file: iserlohn.pdf
 ---
 
 Mikroservice-Architekuren sind zur Zeit in aller Munde. Und obwohl es

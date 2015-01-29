@@ -7,6 +7,7 @@ time: 12:15-13:00
 type: Vortrag
 portrait: middelkoop.jpg
 language: english
+slides-file: middelkoop.pptx
 ---
 
 This talk applies compiler techniques to financial consultancy

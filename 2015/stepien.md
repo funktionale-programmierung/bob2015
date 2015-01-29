@@ -7,6 +7,7 @@ time: 17:00-17:45
 portrait: stepien.jpg
 type: Vortrag
 language: english
+slides-file: stepien.pdf
 ---
 
 At stylefruits we've been using Clojure on production since late

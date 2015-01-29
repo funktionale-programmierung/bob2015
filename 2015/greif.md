@@ -7,6 +7,7 @@ time: 12:15-13:00
 portrait: greif.jpg
 type: Vortrag
 language: german
+slides-file: greif.pdf
 ---
 
 Das Konfigurieren von eingebetteten Devices ist nach wie vor ein

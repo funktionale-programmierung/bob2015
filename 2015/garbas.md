@@ -7,6 +7,7 @@ time: 14:00-14:45
 portrait: garbas.jpg
 type: Vortrag
 language: english
+slides-link: http://slides.com/garbas/bobkonf2015#/
 ---
 
 Allow me to introduce you to Nix - The Purely Functional Package Manager.

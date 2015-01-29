@@ -7,6 +7,7 @@ time: 16:15-17:00
 portrait: kamphausen.jpg
 type: Vortrag
 language: german
+slides-link: https://github.com/ska2342/de.skamphausen.bobkonf15
 ---
 
 In Clojure, der Lisp-artigen, funktionalen Programmiersprache auf der
