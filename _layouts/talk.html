@@ -17,6 +17,25 @@ layout: default
 	  <h3>{{page.speaker}}</h3>
 	  <h2 style="text-align: left">{{page.title}}</h2>
 	{{ content }}
+{% if page.slides-file or page.slides-link %}
+	<dl>
+	  <dt>
+{% if page.language == null or page.language == "german" %}
+	    Folien
+{% else %}
+	    Slides
+{% endif %}
+	  </dt>
+	  <dd>
+{% if page.slides-file %}
+	    <a href="slides/{{page.slides-file}}">{{page.slides-file}}</a>
+{% endif %}
+{% if page.slides-link %}
+	    <a href="{{page.slides-link}}">{{page.slides-link}}</a>
+{% endif %}
+	  </dd>
+	</dl>
+{% endif %}
       </div>
 {% if page.portrait %}
       <div class="col-lg-4">
