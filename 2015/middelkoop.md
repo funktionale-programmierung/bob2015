@@ -8,6 +8,7 @@ type: Vortrag
 portrait: middelkoop.jpg
 language: english
 slides-file: middelkoop.pptx
+youtube: vDjg6XPgjxQ
 ---
 
 This talk applies compiler techniques to financial consultancy
