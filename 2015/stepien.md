@@ -8,6 +8,7 @@ portrait: stepien.jpg
 type: Vortrag
 language: english
 slides-file: stepien.pdf
+youtube: 5VOYa1R_vHI
 ---
 
 At stylefruits we've been using Clojure on production since late
