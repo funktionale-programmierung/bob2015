@@ -8,6 +8,7 @@ time: 10:15-11:00
 type: Vortrag
 language: english
 slides-file: swierstra.pdf
+youtube: ZtnLzxyn2Lg
 ---
 
 At this year's WWDC, Apple announced Swift: a new language for iOS and
