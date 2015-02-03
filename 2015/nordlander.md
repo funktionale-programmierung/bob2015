@@ -8,6 +8,7 @@ portrait: nordlander.jpg
 type: Vortrag
 language: english
 slides-file: nordlander.pdf
+youtube: 4OUwfQga2Jw
 ---
 
 AUTOSAR is a software component standard for the automotive

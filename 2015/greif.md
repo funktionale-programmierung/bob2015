@@ -8,6 +8,7 @@ portrait: greif.jpg
 type: Vortrag
 language: german
 slides-file: greif.pdf
+youtube: UflO7YBdhYA
 ---
 
 Das Konfigurieren von eingebetteten Devices ist nach wie vor ein

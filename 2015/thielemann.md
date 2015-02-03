@@ -7,6 +7,7 @@ time: 15:00-15:45
 type: Vortrag
 language: deutsch
 slides-file: thielemann.pdf
+youtube: 1kCZzDSnVL0
 ---
 
 Man hört in den letzten Jahren zunehmend von modernen massiv parallel
