@@ -8,6 +8,7 @@ portrait: magalhaes.jpg
 type: Vortrag
 language: english
 slides-file: magalhaes.pdf
+youtube: vWiQdZeY2Bk
 ---
 
 Advanced functional programming is commonplace in academia. In this
