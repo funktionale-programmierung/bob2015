@@ -36,6 +36,16 @@ layout: default
 	  </dd>
 	</dl>
 {% endif %}
+{% if page.youtube %}
+	<dl>
+	  <dt>Video</dt>
+	  <dd>
+	    <div class="video">
+              <iframe src="https://www.youtube.com/embed/{{page.youtube}}" frameborder="0" allowfullscreen></iframe>
+	    </div>
+          </dd>
+	</dl>
+{% endif %}
       </div>
 {% if page.portrait %}
       <div class="col-lg-4">
