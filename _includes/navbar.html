@@ -1,3 +1,6 @@
+{% if page.language == "de" or page.language == null %}
+<ul class="nav navbar-nav">
+
 {% if page.active == "home" %}
 <li class="active"><a href="/">Home</a></li>
 {% else %}
@@ -27,7 +30,56 @@
   <a href="#" class="dropdown-toggle"
   data-toggle="dropdown">Fakten<b class="caret"></b></a>
   <ul class="dropdown-menu">
-    <li><a href="/richtlinien.html">Richtlinien</a></li>
+    <li><a href="/de/policies.html">Richtlinien</a></li>
     <li><a href="/impressum.html">Impressum</a></li>
   </ul>
 </li>
+</ul>
+{% if page.language == "de" %}
+<ul class="nav navbar-right">
+<li><a href="{{ page.url | replace_first: '/de/', '/en/' }}">en</a></li>
+</ul>
+{% endif %}
+{% endif %}
+
+{% if page.language == "en" %}
+<ul class="nav navbar-nav">
+
+{% if page.active == "home" %}
+<li class="active"><a href="/">Home</a></li>
+{% else %}
+<li><a href="/">Home</a></li>
+{% endif %}
+{% if page.active == "bob2015" %}
+<li class="dropdown active">
+  <a href="/2015/" class="dropdown-toggle"
+  data-toggle="dropdown">BOB 2015<b class="caret"></b></a>
+  <ul class="dropdown-menu">
+{% else %}
+<li class="dropdown">
+  <a href="/2015/" class="dropdown-toggle"
+  data-toggle="dropdown">BOB 2015<b class="caret"></b></a>
+  <ul class="dropdown-menu">
+{% endif %}
+    <li><a href="/2015/">Frontseite</a></li>
+    <li><a href="/2015/programm.html">Programm</a></li>
+    <li><a href="/2015/registration.html">Anmeldung / Registration</a></li>
+    <li><a href="/2015/local.html">Veranstaltungsort / Local information</a></li>
+    <li><a href="/2015/cfp.html">Call for Contributions (deutsch)</a></li>
+    <li><a href="/2015/cfp-english.html">Call for Contributions (english)</a></li>
+    <li><a href="/2015/programmkomitee.html">Programmkomitee</a></li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle"
+  data-toggle="dropdown">Fakten<b class="caret"></b></a>
+  <ul class="dropdown-menu">
+    <li><a href="/en/policies.html">Policies</a></li>
+    <li><a href="/impressum.html">Impressum</a></li>
+  </ul>
+</li>
+</ul>
+<ul class="nav navbar-right">
+<li><a href="{{ page.url | replace_first: '/en/', '/de/' }}">de</a></li>
+</ul>
+{% endif %}

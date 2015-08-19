@@ -2,9 +2,8 @@
 layout: default
 active: richtlinien
 title: Richtlinien
+language: de
 ---
-
-**(Go [here](policies.html) for English-language version.)**
 
 ### Vielfalt
 

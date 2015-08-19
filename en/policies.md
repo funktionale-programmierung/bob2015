@@ -2,9 +2,8 @@
 layout: default
 active: richtlinien
 title: Policies
+language: en
 ---
-
-**(Deutsche Fassung [hier](richtlinien.html).)**
 
 ### Diversity Policy
 
