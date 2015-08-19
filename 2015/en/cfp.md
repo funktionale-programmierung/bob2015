@@ -2,13 +2,12 @@
 layout: default
 active: bob2015
 title: Call for Contributions 2015
+language: en
 ---
 
 ## [BOB 2015](/2015/) - Berlin, January 23, 2015
 
 # Call for Contributions (expired)
-
-**(Deutsche Fassung [hier](cfp.html).)**
 
 You drive advanced software engineering methods, implement ambitious
 architectures and are open to cutting-edge innovation? Attend this

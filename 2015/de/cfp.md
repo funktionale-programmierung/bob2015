@@ -2,13 +2,12 @@
 layout: default
 active: bob2015
 title: Call for Contributions 2015
+language: de
 ---
 
 ## [BOB 2015](/2015/) - Berlin, 23.1.2015
 
 # Call for Contributions (abgelaufen)
-
-**(Go [here](cfp-english.html) for English-language version.)**
 
 Sie treiben Software-Entwicklung voran, setzen anspruchsvolle
 Architekturen um und sind Innovationen jenseits des Mainstreams
