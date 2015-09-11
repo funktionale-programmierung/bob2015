@@ -1,13 +1,13 @@
 ---
 layout: default
-active: bob2015
-title: Call for Contributions 2015
+active: bob2016
+title: Call for Contributions 2016
 language: en
 ---
 
-## [BOB 2015](/2015/) - Berlin, January 23, 2015
+## [BOB 2016](/2016/) - Berlin, February 19, 2016
 
-# Call for Contributions (expired)
+# Call for Contributions
 
 You drive advanced software engineering methods, implement ambitious
 architectures and are open to cutting-edge innovation? Attend this
@@ -25,8 +25,9 @@ e.g.:
 
 * functional programming
 * reactive programming
-* micro-service architectures
 * persistent data structures and databases
+* types
+* formal methods for correctness and robustness
 * …  everything really that isn’t mainstream, but you think should be.
 
 Presenters should provide the audience with information that is practically useful for software developers.  This could take the form of e.g.:
@@ -55,24 +56,24 @@ should include (in your presentation language of choice):
 
 * submit your proposal [here](https://docs.google.com/spreadsheet/viewform?formkey=dHJ0TjR1cEhUWmdBZFVITGVRVWN5VEE6MA)
 * direct questions to `bobkonf at active minus group dot de`
-* proposal deadline: **September 30, 2014**
-* notification: October 15, 2014
-* program: October 2014, 2014
+* proposal deadline: **October 30, 2015**
+* notification: November 15, 2015
+* program: December 1, 2015
 
 *NOTE:* The conference fee will be waived for presenters, but travel expenses will not be covered.
 
 ### Program Committee
 
-(more information [here](/2015/programmkomitee.html))
+(more information [here](/2016/programmkomitee.html))
 
 * Matthias Fischmann, [zerobuzz UG](http://zerobuzz.net/)
 * Matthias Neubauer, [SICK AG](http://www.sick.com/)
+* Nicole Rauch, [Softwareentwicklung und Entwicklungscoaching](http://nicole-rauch.de/)
 * Michael Sperber, [Active Group](http://www.active-group.de/)
 * Stefan Wehr, [factis research](http://www.factisresearch.com/)
 
 #### Scientific Advisory Board
     
 * [Annette Bieniusa](http://www-user.rhrk.uni-kl.de/~bieniusa/), TU Kaiserslautern
-* [Torsten Grust](http://db.inf.uni-tuebingen.de/team/TorstenGrust.html), Uni Tübingen
 * [Peter Thiemann](http://www2.informatik.uni-freiburg.de/~thiemann/), Uni Freiburg
 

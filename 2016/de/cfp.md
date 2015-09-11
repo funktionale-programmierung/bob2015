@@ -1,13 +1,13 @@
 ---
 layout: default
-active: bob2015
-title: Call for Contributions 2015
+active: bob2016
+title: Call for Contributions 2016
 language: de
 ---
 
-## [BOB 2015](/2015/) - Berlin, 23.1.2015
+## [BOB 2016](/2016/) - Berlin, 19.2.2016
 
-# Call for Contributions (abgelaufen)
+# Call for Contributions
 
 Sie treiben Software-Entwicklung voran, setzen anspruchsvolle
 Architekturen um und sind Innovationen jenseits des Mainstreams
@@ -26,8 +26,9 @@ Wir freuen uns über Beiträge zum Besten, was die Softwaretechnik zu bieten hat
 
 * funktionale Programmierung
 * reaktive Programmierung
-* Mikroservice-Architekturen
 * persistente Datenstrukturen und Datenbanken
+* Typen
+* formale Methoden für korrekte und robuste Software
 * … und über alles, was es sonst noch an tollen Technologien, Werkzeugen und Techniken jenseits der Mainstream-Programmierung gibt
 
 Vorträge sollten den Zuhörern nützliche Informationen für ihren Entwickleralltag mitgeben. Denkbar sind zum Beispiel:
@@ -43,7 +44,7 @@ Redezeit + 5 Minuten Fragen) sowie für 90minütige Tutorials mit
 Einführungen für Einsteiger. Die Vorträge können auf Deutsch oder auf
 Englisch gehalten werden.
 
-Zu einem Vorschlag [senden Sie uns](https://docs.google.com/spreadsheet/viewform?formkey=dHJ0TjR1cEhUWmdBZFVITGVRVWN5VEE6MA) in der Sprache des Vortrags:
+Zu einem Vorschlag [senden Sie uns](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform) in der Sprache des Vortrags:
 
 * ein Abstract von maximal 1500 Zeichen
 * Ihre Kurzbiografie
@@ -53,25 +54,25 @@ Zu einem Vorschlag [senden Sie uns](https://docs.google.com/spreadsheet/viewform
 
 ### Organisation
 
-* Einreichungen [hier](https://docs.google.com/spreadsheet/viewform?formkey=dHJ0TjR1cEhUWmdBZFVITGVRVWN5VEE6MA).
+* Einreichungen [hier](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform).
 * Fragen an `bobkonf at active minus group dot de`
-* Einsendeschluss: **30. September 2014**
-* Benachrichtigung über Annahme: 15. Oktober 2014
-* Programm: 31. Oktober 2014
+* Einsendeschluss: **30. Oktober 2015**
+* Benachrichtigung über Annahme: 15. November 2015
+* Programm: 1. Dezember 2015
 
 *Wichtig*: Für Vortragende ist die Konferenzteilnahme kostenlos; Reisekosten können allerdings nicht erstattet werden.
 
 ### Programmkommitee
 
-(mehr Informationen [hier](/2015/programmkomitee.html))
+(mehr Informationen [hier](/2016/programmkomitee.html))
 
 * Matthias Fischmann, [zerobuzz UG](http://zerobuzz.net/)
 * Matthias Neubauer, [SICK AG](http://www.sick.com/)
+* Nicole Rauch, [Softwareentwicklung und Entwicklungscoaching](http://nicole-rauch.de/)
 * Michael Sperber, [Active Group](http://www.active-group.de/)
 * Stefan Wehr, [factis research](http://www.factisresearch.com/)
 
 #### Wissenschaftlicher Beirat
     
 * [Annette Bieniusa](http://www-user.rhrk.uni-kl.de/~bieniusa/), TU Kaiserslautern
-* [Torsten Grust](http://db.inf.uni-tuebingen.de/team/TorstenGrust.html), Uni Tübingen
 * [Peter Thiemann](http://www2.informatik.uni-freiburg.de/~thiemann/), Uni Freiburg
