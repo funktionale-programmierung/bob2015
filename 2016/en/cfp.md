@@ -42,7 +42,7 @@ We accept proposals for presentations of 45 minutes (40 minutes talk +
 5 minutes questions), as well as 90 minute tutorials for beginners.
 The language of presentation should be either English or German. 
 
-[Your proposal](https://docs.google.com/spreadsheet/viewform?formkey=dHJ0TjR1cEhUWmdBZFVITGVRVWN5VEE6MA)
+[Your proposal](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form)
 should include (in your presentation language of choice):
 
 * an abstract of max. 1500 characters.
@@ -54,7 +54,7 @@ should include (in your presentation language of choice):
 
 ### Organisation
 
-* submit your proposal [here](https://docs.google.com/spreadsheet/viewform?formkey=dHJ0TjR1cEhUWmdBZFVITGVRVWN5VEE6MA)
+* submit your proposal [here](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form)
 * direct questions to `bobkonf at active minus group dot de`
 * proposal deadline: **October 30, 2015**
 * notification: November 15, 2015
