@@ -52,6 +52,8 @@ should include (in your presentation language of choice):
 * additional material (websites, blogs, slides, videos of past
   presentations, …)
 
+## [Submit here](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form)
+
 ### Organisation
 
 * submit your proposal [here](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form)
