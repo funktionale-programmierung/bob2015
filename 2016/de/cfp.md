@@ -12,10 +12,10 @@ language: de
 Sie treiben Software-Entwicklung voran, setzen anspruchsvolle
 Architekturen um und sind Innovationen jenseits des Mainstreams
 gegenüber aufgeschlossen? Auf der BOB treffen Sie auf Menschen, die
-diese Ziele teilen und lernen die besten Werkzeuge, Technologien und
+diese Ziele teilen.  Sie lernen die besten Werkzeuge, Technologien und
 Techniken kennen, die es heute für die Entwicklung moderner Software
 gibt. Unser Ziel ist, dass Sie die Konferenz mit vielen neuen
-Erfahrungen verlassen, und Verbesserungen für Ihr eigenes
+Erfahrungen verlassen und Verbesserungen für Ihr eigenes
 Entwicklungsumfeld mit nach Hause nehmen.
 
 Um dieses Ziel zu realisieren, suchen wir noch Vortragende!
@@ -29,7 +29,7 @@ Wir freuen uns über Beiträge zum Besten, was die Softwaretechnik zu bieten hat
 * persistente Datenstrukturen und Datenbanken
 * Typen
 * formale Methoden für korrekte und robuste Software
-* … und über alles, was es sonst noch an tollen Technologien, Werkzeugen und Techniken jenseits der Mainstream-Programmierung gibt
+* … und alles, was es sonst noch an tollen Technologien, Werkzeugen und Techniken jenseits der Mainstream-Programmierung gibt
 
 Vorträge sollten den Zuhörern nützliche Informationen für ihren Entwickleralltag mitgeben. Denkbar sind zum Beispiel:
 
@@ -46,9 +46,9 @@ Englisch gehalten werden.
 
 Zu einem Vorschlag [senden Sie uns](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform) in der Sprache des Vortrags:
 
-* ein Abstract von maximal 1500 Zeichen
+* einen Abstract von maximal 1500 Zeichen
 * Ihre Kurzbiografie
-* Kontaktinformationen (mindestens Email)
+* Kontaktinformationen (mindestens E-Mail-Adresse)
 * eine Liste von 3-5 konkreten Aspekten, die Zuhörende in ihren Alltag mitnehmen können
 * Zusatzmaterialien, d.h. Links zu Webseiten, Blogs, Folien oder Videos vergangener Vorträge
 

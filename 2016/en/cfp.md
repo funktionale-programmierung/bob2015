@@ -13,7 +13,7 @@ You drive advanced software engineering methods, implement ambitious
 architectures and are open to cutting-edge innovation? Attend this
 conference, meet people that share your goals, and get to know the
 best software tools and technologies available today. We strive to
-offer you a day full of new experiences and impressions that you can
+offer a day full of new experiences and impressions that you can
 use to immediately improve your daily life as a software developer.
 
 If you share our vision and want to contribute, submit a proposal for a talk or tutorial!
@@ -36,7 +36,7 @@ Presenters should provide the audience with information that is practically usef
 * introductory talks on technical background
 * demos and how-tos
 
-### Formal requirements
+### Requirements
 
 We accept proposals for presentations of 45 minutes (40 minutes talk +
 5 minutes questions), as well as 90 minute tutorials for beginners.
@@ -47,7 +47,7 @@ should include (in your presentation language of choice):
 
 * an abstract of max. 1500 characters.
 * a short bio/cv
-* contact information (including at least email)
+* contact information (including at least email address)
 * a list of 3-5 concrete ideas of how your work can be applied in a developer's daily life
 * additional material (websites, blogs, slides, videos of past
   presentations, …)
