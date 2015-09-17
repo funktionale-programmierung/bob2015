@@ -1,0 +1,86 @@
+Subject: Call for Contributions: BOB 2016 - Berlin, Feb 19, 2016
+
+			 BOB Conference 2016
+	 "What happens when we use what's best for a change?"
+		  http://bobkonf.de/2016/en/cfp.html
+			 Berlin, February 19
+			Call for Contributions
+		      Deadline: October 30, 2015
+
+You drive advanced software engineering methods, implement ambitious
+architectures and are open to cutting-edge innovation? Attend this
+conference, meet people that share your goals, and get to know the
+best software tools and technologies available today. We strive to
+offer a day full of new experiences and impressions that you can
+use to immediately improve your daily life as a software developer.
+
+If you share our vision and want to contribute, submit a proposal for
+a talk or tutorial!
+
+Topics
+------
+
+We are looking for talks about best-of-breed software technology,
+e.g.:
+
+- functional programming
+- reactive programming
+- persistent data structures and databases
+- types
+- formal methods for correctness and robustness
+- ... everything really that isn~t mainstream, but you think should be.
+
+Presenters should provide the audience with information that is
+practically useful for software developers.  This could take the form
+of e.g.:
+
+- experience reports
+- introductory talks on technical background
+- demos and how-tos
+
+Requirements
+------------
+
+We accept proposals for presentations of 45 minutes (40 minutes talk +
+5 minutes questions), as well as 90 minute tutorials for beginners.
+The language of presentation should be either English or German. 
+
+Your proposal should include (in your presentation language of choice):
+
+- an abstract of max. 1500 characters.
+- a short bio/cv
+- contact information (including at least email address)
+- a list of 3-5 concrete ideas of how your work can be applied in a developer's daily life
+- additional material (websites, blogs, slides, videos of past
+  presentations, ~)
+
+Submit here:
+
+https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form
+
+### Organisation
+
+- submit your proposal here
+  https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form
+- direct questions to `bobkonf at active minus group dot de`
+- proposal deadline: **October 30, 2015**
+- notification: November 15, 2015
+- program: December 1, 2015
+
+NOTE: The conference fee will be waived for presenters, but travel expenses will not be covered.
+
+Program Committee
+-----------------
+
+(more information here: http://bobkonf.de/2016/programmkomitee.html)
+
+- Matthias Fischmann, zerobuzz UG
+- Matthias Neubauer, SICK AG
+- Nicole Rauch, Softwareentwicklung und Entwicklungscoaching
+- Michael Sperber, Active Group
+- Stefan Wehr, factis research
+
+#### Scientific Advisory Board
+    
+- Annette Bieniusa, TU Kaiserslautern
+- Peter Thiemann, Uni Freiburg
