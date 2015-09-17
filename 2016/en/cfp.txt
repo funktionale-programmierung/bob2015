@@ -28,7 +28,7 @@ e.g.:
 - persistent data structures and databases
 - types
 - formal methods for correctness and robustness
-- ... everything really that isn~t mainstream, but you think should be.
+- ... everything really that isn’t mainstream, but you think should be.
 
 Presenters should provide the audience with information that is
 practically useful for software developers.  This could take the form
@@ -52,13 +52,14 @@ Your proposal should include (in your presentation language of choice):
 - contact information (including at least email address)
 - a list of 3-5 concrete ideas of how your work can be applied in a developer's daily life
 - additional material (websites, blogs, slides, videos of past
-  presentations, ~)
+  presentations, …)
 
 Submit here:
 
 https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form
 
-### Organisation
+Organisation
+------------
 
 - submit your proposal here
   https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form
@@ -67,7 +68,8 @@ https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/vie
 - notification: November 15, 2015
 - program: December 1, 2015
 
-NOTE: The conference fee will be waived for presenters, but travel expenses will not be covered.
+NOTE: The conference fee will be waived for presenters, but travel
+      expenses will not be covered.
 
 Program Committee
 -----------------
@@ -80,7 +82,9 @@ Program Committee
 - Michael Sperber, Active Group
 - Stefan Wehr, factis research
 
-#### Scientific Advisory Board
+Scientific Advisory Board
+-------------------------
     
 - Annette Bieniusa, TU Kaiserslautern
 - Peter Thiemann, Uni Freiburg
+

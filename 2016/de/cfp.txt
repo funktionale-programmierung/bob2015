@@ -9,11 +9,11 @@ Subject: Call for Contributions: BOB 2016 - Berlin, 19.2.2016
 
 Sie treiben Software-Entwicklung voran, setzen anspruchsvolle
 Architekturen um und sind Innovationen jenseits des Mainstreams
-gegenüber aufgeschlossen? Auf der BOB treffen Sie auf Menschen, die
+gegenÃ¼ber aufgeschlossen? Auf der BOB treffen Sie auf Menschen, die
 diese Ziele teilen.  Sie lernen die besten Werkzeuge, Technologien und
-Techniken kennen, die es heute für die Entwicklung moderner Software
+Techniken kennen, die es heute fÃ¼r die Entwicklung moderner Software
 gibt. Unser Ziel ist, dass Sie die Konferenz mit vielen neuen
-Erfahrungen verlassen und Verbesserungen für Ihr eigenes
+Erfahrungen verlassen und Verbesserungen fÃ¼r Ihr eigenes
 Entwicklungsumfeld mit nach Hause nehmen.
 
 Um dieses Ziel zu realisieren, suchen wir noch Vortragende!
@@ -21,27 +21,29 @@ Um dieses Ziel zu realisieren, suchen wir noch Vortragende!
 Themen
 ------
 
-Wir freuen uns über Beiträge zum Besten, was die Softwaretechnik zu bieten hat:
+Wir freuen uns Ã¼ber BeitrÃ¤ge zum Besten, was die Softwaretechnik zu bieten hat:
 
 - funktionale Programmierung
 - reaktive Programmierung
 - persistente Datenstrukturen und Datenbanken
 - Typen
-- formale Methoden für korrekte und robuste Software
-- ... und alles, was es sonst noch an tollen Technologien, Werkzeugen und Techniken jenseits der Mainstream-Programmierung gibt
+- formale Methoden fÃ¼r korrekte und robuste Software
+- ... und alles, was es sonst noch an tollen Technologien, Werkzeugen
+  und Techniken jenseits der Mainstream-Programmierung gibt
 
-Vorträge sollten den Zuhörern nützliche Informationen für ihren Entwickleralltag mitgeben. Denkbar sind zum Beispiel:
+VortrÃ¤ge sollten den ZuhÃ¶rern nÃ¼tzliche Informationen fÃ¼r ihren
+Entwickleralltag mitgeben. Denkbar sind zum Beispiel:
 
 - Erfahrungsberichte
-- Einführungen in technische Hintergründe
+- EinfÃ¼hrungen in technische HintergrÃ¼nde
 - Demos und How-Tos
 
 Format
 ------
 
-Wir wünschen uns Vorschläge für Vorträge à 45 Minuten (40 Minuten
-Redezeit + 5 Minuten Fragen) sowie für 90minütige Tutorials mit
-Einführungen für Einsteiger. Die Vorträge können auf Deutsch oder auf
+Wir wÃ¼nschen uns VorschlÃ¤ge fÃ¼r VortrÃ¤ge Ã  45 Minuten (40 Minuten
+Redezeit + 5 Minuten Fragen) sowie fÃ¼r 90minÃ¼tige Tutorials mit
+EinfÃ¼hrungen fÃ¼r Einsteiger. Die VortrÃ¤ge kÃ¶nnen auf Deutsch oder auf
 Englisch gehalten werden.
 
 Zu einem Vorschlag senden Sie uns in der Sprache des Vortrags:
@@ -49,10 +51,10 @@ Zu einem Vorschlag senden Sie uns in der Sprache des Vortrags:
 - einen Abstract von maximal 1500 Zeichen
 - Ihre Kurzbiografie
 - Kontaktinformationen (mindestens E-Mail-Adresse)
-- eine Liste von 3-5 konkreten Aspekten, die Zuhörende in ihren Alltag mitnehmen können
-- Zusatzmaterialien, d.h. Links zu Webseiten, Blogs, Folien oder Videos vergangener Vorträge
+- eine Liste von 3-5 konkreten Aspekten, die ZuhÃ¶rende in ihren Alltag mitnehmen kÃ¶nnen
+- Zusatzmaterialien, d.h. Links zu Webseiten, Blogs, Folien oder Videos vergangener VortrÃ¤ge
 
-Das Formular für Einreichgungen ist hier:
+Das Formular fÃ¼r Einreichgungen ist hier:
 
 https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form
 
@@ -63,11 +65,11 @@ Organisation
   https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form
 - Fragen an bobkonf at active minus group dot de
 - Einsendeschluss: *30. Oktober 2015*
-- Benachrichtigung über Annahme: 15. November 2015
+- Benachrichtigung Ã¼ber Annahme: 15. November 2015
 - Programm: 1. Dezember 2015
 
-Wichtig: Für Vortragende ist die Konferenzteilnahme kostenlos;
-Reisekosten können allerdings nicht erstattet werden.
+Wichtig: FÃ¼r Vortragende ist die Konferenzteilnahme kostenlos;
+Reisekosten kÃ¶nnen allerdings nicht erstattet werden.
 
 Programmkommitee
 -----------------
