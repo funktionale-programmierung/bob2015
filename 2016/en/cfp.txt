@@ -52,7 +52,7 @@ Your proposal should include (in your presentation language of choice):
 - contact information (including at least email address)
 - a list of 3-5 concrete ideas of how your work can be applied in a developer's daily life
 - additional material (websites, blogs, slides, videos of past
-  presentations, …)
+  presentations, ...)
 
 Submit here:
 
