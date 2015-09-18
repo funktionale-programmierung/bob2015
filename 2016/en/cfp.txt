@@ -28,7 +28,7 @@ e.g.:
 - persistent data structures and databases
 - types
 - formal methods for correctness and robustness
-- ... everything really that isn’t mainstream, but you think should be.
+- ... everything really that isn't mainstream, but you think should be.
 
 Presenters should provide the audience with information that is
 practically useful for software developers.  This could take the form
