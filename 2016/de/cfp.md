@@ -64,6 +64,12 @@ Zu einem Vorschlag [senden Sie uns](https://docs.google.com/forms/d/1IrCa3ilxMrO
 
 *Wichtig*: Für Vortragende ist die Konferenzteilnahme kostenlos; Reisekosten können allerdings nicht erstattet werden.
 
+### Betreuung für Vortragende
+
+Das Programmkommitee bietet allen Vortragenden sogenanntes
+*Shepherding* an, also Hilfe der bei der Vorbereitung des Vortrags und
+eine Durchsicht der Vortragsfolien.
+
 ### Programmkommitee
 
 (mehr Informationen [hier](/2016/programmkomitee.html))

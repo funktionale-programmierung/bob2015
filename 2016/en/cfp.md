@@ -64,6 +64,12 @@ should include (in your presentation language of choice):
 
 *NOTE:* The conference fee will be waived for presenters, but travel expenses will not be covered.
 
+### Shepherding
+
+The program committee offers shepherding to all speakers.  Shepherding
+offers speakers assistance with preparing their sessions, as well as a
+review of the talk slides.
+
 ### Program Committee
 
 (more information [here](/2016/programmkomitee.html))
