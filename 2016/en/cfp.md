@@ -67,8 +67,8 @@ should include (in your presentation language of choice):
 ### Shepherding
 
 The program committee offers shepherding to all speakers.  Shepherding
-offers speakers assistance with preparing their sessions, as well as a
-review of the talk slides.
+provides speakers assistance with preparing their sessions, as well as
+a review of the talk slides.
 
 ### Program Committee
 
