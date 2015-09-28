@@ -71,6 +71,16 @@ Organisation
 NOTE: The conference fee will be waived for presenters, but travel
       expenses will not be covered.
 
+Speaker Grants
+--------------
+
+BOB has Speaker Grants available to support speakers from groups
+under-represented in technology.  We specifically seek women speakers
+and speakers who not be able to attend the conference for financial
+reasons.  Details are here:
+
+http://bobkonf.de/2016/en/speaker-grants.html
+
 Shepherding
 -----------
 

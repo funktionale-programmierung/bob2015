@@ -64,6 +64,14 @@ should include (in your presentation language of choice):
 
 *NOTE:* The conference fee will be waived for presenters, but travel expenses will not be covered.
 
+### Speaker Grants
+
+BOB has [Speaker Grants](speaker-grants.html) available to support
+speakers from groups under-represented in technology.  We specifically
+seek women speakers and speakers who not be able to attend the
+conference for financial reasons.  Details are
+[here](speaker-grants.html).
+
 ### Shepherding
 
 The program committee offers shepherding to all speakers.  Shepherding

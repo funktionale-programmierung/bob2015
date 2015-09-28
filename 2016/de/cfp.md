@@ -64,6 +64,14 @@ Zu einem Vorschlag [senden Sie uns](https://docs.google.com/forms/d/1IrCa3ilxMrO
 
 *Wichtig*: Für Vortragende ist die Konferenzteilnahme kostenlos; Reisekosten können allerdings nicht erstattet werden.
 
+### Referenten-Zuschüsse
+
+Die BOB bietet [Referenten-Zuschüsse](speaker-grants.html) für die BOB
+2016 an.  Die Referenten-Zuschüsse sollen Gruppen fördern, die bei der
+BOB bisher unterrepräsentiert waren.  Dazu gehören insbesondere Frauen
+und Referenten, die die BOB aus finanziellen Gründen nicht besuchen
+könnten.  Details befinden sich [hier](speaker-grants.html).
+
 ### Betreuung für Vortragende
 
 Das Programmkommitee bietet allen Vortragenden sogenanntes
