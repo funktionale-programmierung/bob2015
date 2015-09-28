@@ -9,7 +9,7 @@ language: en
 
 BOB is pleased to announce our first round of Speaker Grants to
 support speakers from groups under-represented in technology.  We
-specifically seek women speakers and speakers who not be able to
+specifically seek women speakers and speakers who would not be able to
 attend the conference for financial reasons.  The goal is to make BOB
 a more diverse, useful and enjoyable event.
 
