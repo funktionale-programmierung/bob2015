@@ -21,7 +21,7 @@ BOB 2016 from under-represented groups in technology.
 ### Selection
 
 Applications will be reviewed by a committee consisting of
-Michael Sperber, Active Group and Stefan Wehr, factis Research, and
+Michael Sperber, Active Group, and Stefan Wehr, factis Research, and
 will be accepted based upon need and impact. All information will be
 kept confidential by the committee.
 

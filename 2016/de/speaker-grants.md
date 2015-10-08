@@ -11,21 +11,21 @@ Die BOB freut sich, zum ersten Mal Referenten-Zuschüsse für die BOB 2016
 anbieten zu können.  Die Referenten-Zuschüsse sollen Gruppen fördern,
 die bei der BOB bisher unterrepräsentiert waren.  Dazu gehören
 insbesondere Frauen und Referenten, die die BOB aus finanziellen
-Gründen nicht besuchen könnten.  Wir haben das Ziel, BOB noch
+Gründen nicht besuchen könnten.  Wir haben das Ziel, die BOB noch
 vielfältiger, nützlicher und freundlicher zu machen.
 
 ### Kriterien
 
 Alle Referenten, deren Vortrag auf der BOB 2016 akzeptiert
 wurde und die aus unterrepräsentierten Gruppen kommen, kommen für die
-Bewerbung für Referenten-Zuschüsse in frage.
+Bewerbung für Referenten-Zuschüsse in Frage.
 
 ### Auswahl
 
-Die Bewerbungen werden von einem Kommitee bestehend aus
+Die Bewerbungen werden von einem Komitee bestehend aus
 Michael Sperber (Active Group) und Stefan Wehr (factis Research)
 gesichtet.  Die Zuschüsse werden nach Bedarf und Wirkung vergeben.
-Das gesamte Verfahren wird vom Kommitee vertraulich behandelt.
+Das gesamte Verfahren wird vom Komitee vertraulich behandelt.
 
 ### Zuschüsse
 
@@ -38,17 +38,17 @@ kostenlos.
 
 ### Bewerbung
 
-Schicken Sie E-Mail an `diversity` at `bobkonf` punkt `de`, in der Sie
+Schicken Sie an E-Mail an `diversity` at `bobkonf` punkt `de`, in der Sie
 Ihren Beitrag identifizieren und kurz die Gründe darstellen, weswegen
 Sie sich um einen Zuschuss bewerben.
 
-Wir erwarten von alle Konferenzteilnehmern, dass sie sich an die
+Wir erwarten von allen Konferenzteilnehmern, dass sie sich an die
 [Konferenzrichtlinien](http://bobkonf.de/de/policies.html) halten.
 
 Bei Fragen wenden Sie sich an `diversity` at `bobkonf` punkt `de`.
 
 **Bewerbungsschluss:** *30. Oktober 2015* (also auch Deadline für [Beiträge](cfp.html))
 
-**Benachrichtigung:** Empfänger von Referenzen-Zuschüssen werden bis zum
+**Benachrichtigung:** Empfänger von Referenten-Zuschüssen werden bis zum
 *15. November 2015* über den Zuschuss sowie über die Annahme des
 Beitrags benachrichtigt.
