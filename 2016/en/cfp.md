@@ -7,7 +7,7 @@ language: en
 
 ## [BOB 2016](/2016/) - Berlin, February 19, 2016
 
-# Call for Contributions
+# Call for Contributions (expired)
 
 You drive advanced software engineering methods, implement ambitious
 architectures and are open to cutting-edge innovation? Attend this
@@ -42,8 +42,7 @@ We accept proposals for presentations of 45 minutes (40 minutes talk +
 5 minutes questions), as well as 90 minute tutorials for beginners.
 The language of presentation should be either English or German. 
 
-[Your proposal](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form)
-should include (in your presentation language of choice):
+Your proposal should include (in your presentation language of choice):
 
 * an abstract of max. 1500 characters.
 * a short bio/cv
@@ -52,11 +51,8 @@ should include (in your presentation language of choice):
 * additional material (websites, blogs, slides, videos of past
   presentations, …)
 
-## [Submit here](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form)
-
 ### Organisation
 
-* submit your proposal [here](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form)
 * direct questions to `bobkonf at active minus group dot de`
 * proposal deadline: **October 30, 2015**
 * notification: November 15, 2015

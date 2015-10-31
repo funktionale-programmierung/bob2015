@@ -7,7 +7,7 @@ language: de
 
 ## [BOB 2016](/2016/) - Berlin, 19.2.2016
 
-# Call for Contributions
+# Call for Contributions (abgelaufen)
 
 Sie treiben Software-Entwicklung voran, setzen anspruchsvolle
 Architekturen um und sind Innovationen jenseits des Mainstreams
@@ -44,7 +44,7 @@ Redezeit + 5 Minuten Fragen) sowie für 90minütige Tutorials mit
 Einführungen für Einsteiger. Die Vorträge können auf Deutsch oder auf
 Englisch gehalten werden.
 
-Zu einem Vorschlag [senden Sie uns](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form) in der Sprache des Vortrags:
+Zu einem Vorschlag senden Sie uns in der Sprache des Vortrags:
 
 * einen Abstract von maximal 1500 Zeichen
 * Ihre Kurzbiografie
@@ -52,11 +52,8 @@ Zu einem Vorschlag [senden Sie uns](https://docs.google.com/forms/d/1IrCa3ilxMrO
 * eine Liste von 3-5 konkreten Aspekten, die Zuhörende in ihren Alltag mitnehmen können
 * Zusatzmaterialien, d.h. Links zu Webseiten, Blogs, Folien oder Videos vergangener Vorträge
 
-## [Einreichen hier](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form)
-
 ### Organisation
 
-* Einreichungen [hier](https://docs.google.com/forms/d/1IrCa3ilxMrO2h1G1WC4ywoxdz8wohxaPW3dfiB0cq-8/viewform?usp=send_form).
 * Fragen an `bobkonf at active minus group dot de`
 * Einsendeschluss: **30. Oktober 2015**
 * Benachrichtigung über Annahme: 15. November 2015
