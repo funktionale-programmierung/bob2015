@@ -11,21 +11,15 @@ language: english
 ---
 
 Haskell is an elegant and fascinating language that has made purely
-functional programming practical. This tutorial aims at giving you a
-sense of direction in the Haskell eco system. We will explain and
-motivate key language concepts and introduce tools and development
-techniques as we need them for our examples.
+functional programming practical. This tutorial aims at explaining and
+motivating key language concepts.
 
 We will start by exploring basic syntax and the Haskell type system in
-an interactive Haskell environment. The need to write (slightly)
-larger programs will naturally lead us to the Haskell module
-system. We will show how to use cabal and the hackage library database
-to install packages and create our own.
-
-Key language concepts are hard to pick and will depend on the
-interests of the audience. Some candidates are algebraic data types
-and pattern matching, polymorphic functions, type classes, monads, GHC
-language extensions, or programming with typed holes.
+an interactive Haskell environment.  You will learn about algebraic
+data types, pattern matching, polymorphic functions, type classes.  We
+will also discuss purity and lazy evaluation, and how programming with
+effects works in Haskell (like database or network access or
+interaction with the user).
 
 Presentation language will be English, but we are happy to discuss
 your questions in German.
