@@ -1,7 +1,6 @@
 markdown: kramdown
 encoding: UTF-8
 permalink: date
-paginate: 3
 highlighter: pygments
 safe: true
 lsi: false
