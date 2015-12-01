@@ -4,8 +4,8 @@ active: bob2016
 title: Type the web with Servant!
 speaker: Andres Löh
 portrait: andres-loeh.jpg
-time: 
-type: Talk
+time: 15:05-15:50
+type: Vortrag
 language: english
 ---
 

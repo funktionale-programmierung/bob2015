@@ -4,8 +4,8 @@ active: bob2016
 title: How to Make Front-End More Functional
 speaker: Julia Gao
 portrait: julia-gao.jpg
-time: 
-type: Talk
+time: 16:20-17:05
+type: Vortrag
 language: english
 ---
 

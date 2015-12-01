@@ -4,7 +4,7 @@ active: bob2016
 title: Erlang overview
 speaker: Robby Raschke
 portrait: robby-raschke.jpg
-time: 
+time: 10:15-11:45
 type: Tutorial
 language: english
 ---

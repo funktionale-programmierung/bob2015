@@ -4,9 +4,9 @@ active: bob2016
 title: Specification by Example
 speaker: Nicole Rauch
 portrait: nicole-rauch.jpg
-time: 
+time: 14:15-15:45
 type: Tutorial
-language: deutsch
+language: german
 ---
 
 Bei der Softwareentwicklung wird viel Wert darauf gelegt, dass die

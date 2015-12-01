@@ -5,7 +5,7 @@ title: Introductory Haskell
 speaker: Matthias Fischmann, Andres Löh
 portrait: matthias-fischmann.png
 portrait2: andres-loeh.jpg
-time: 
+time: 10:15-11:45
 type: Tutorial
 language: english
 ---

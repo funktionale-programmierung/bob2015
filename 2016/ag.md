@@ -2,8 +2,8 @@
 layout: talk
 active: bob2016
 title: Synchronisation und Immutability
-time: 
-type: Talk
+time: 15:05-15:50
+type: Vortrag
 language: german
 ---
 

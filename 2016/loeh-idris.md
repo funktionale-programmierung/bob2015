@@ -4,7 +4,7 @@ active: bob2016
 title: An Introduction to Idris
 speaker: Andres Löh
 portrait: andres-loeh.jpg
-time: 
+time: 16:20-17:50
 type: Tutorial
 language: english
 ---

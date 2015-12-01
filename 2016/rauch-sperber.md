@@ -5,8 +5,8 @@ title: Design on Steroids
 speaker: Nicole Rauch, Michael Sperber
 portrait: nicole-rauch.jpg
 portrait2: michael-sperber.jpg
-time: 
-type: Talk
+time: 17:10-17:55
+type: Vortrag
 language: german
 ---
 

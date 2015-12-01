@@ -4,8 +4,8 @@ active: bob2016
 title:  Jackline, a secure instant messaging application, functional from the ground up
 speaker: Hannes Mehnert
 portrait: hannes-mehnert.jpg
-time: 
-type: Talk
+time: 17:10-17:55
+type: Vortrag
 language: english
 ---
 

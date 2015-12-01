@@ -3,8 +3,8 @@ layout: talk
 active: bob2016
 title: Type Classes for OO programmers, a Scala journey
 speaker: Ivan Kusalic
-time: 
-type: Talk
+time: 16:20-17:05
+type: Vortrag
 language: english
 ---
 

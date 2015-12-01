@@ -4,8 +4,8 @@ active: bob2016
 title: Elm im produktiven Einsatz
 speaker: Gregor Große-Bölting
 portrait: gregor-grosse-boelting.jpg
-time: 
-type: Talk
+time: 11:45-12:30
+type: Vortrag
 language: german
 ---
 

@@ -4,8 +4,8 @@ active: bob2016
 title: Clojure-Web-Applikationen für Beginner
 speaker: Michael Vitz
 portrait: michael-vitz.jpg
-time: 
-type: Talk
+time: 12:35-13:20
+type: Vortrag
 language: german
 ---
 

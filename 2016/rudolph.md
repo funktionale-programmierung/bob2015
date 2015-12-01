@@ -4,7 +4,7 @@ active: bob2016
 title: Programming REST APIs in Scala with Akka HTTP
 speaker: Johannes Rudolph
 portrait: johannes-rudolph.jpg
-time: 
+time: 14:15-15:45
 type: Tutorial
 language: english
 ---
