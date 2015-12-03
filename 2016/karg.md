@@ -5,7 +5,7 @@ title: "Functional Programming and the Web: Frontend Development in PureScript"
 speaker: Michael Karg, Jürgen Nicklisch-Franken
 portrait: michael-karg.jpg
 portrait2: juergen-nicklisch-franken.jpg
-time: 10:15-11:00
+time: 14:15-15:00
 type: Vortrag
 language: english
 ---

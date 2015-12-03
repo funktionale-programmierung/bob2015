@@ -4,7 +4,7 @@ active: bob2016
 title: Funktionales Design mit Swift
 speaker: Stefan Wehr
 portrait: stefan-wehr.jpg
-time: 10:15-11:00
+time: 17:10-17:55
 type: Vortrag
 language: german
 ---
