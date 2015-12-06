@@ -2,6 +2,7 @@
 layout: talk
 active: bob2016
 title: Synchronisation und Immutability
+speaker: Andreas Bernauer
 time: 15:05-15:50
 portrait: andreas-bernauer.jpg
 type: Vortrag
