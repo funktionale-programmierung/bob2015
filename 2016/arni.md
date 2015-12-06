@@ -3,6 +3,7 @@ layout: talk
 active: bob2016
 title: Verdict - Reified refinement
 speaker: Julian Arni
+portrait: julian-arni.jpg
 time: 12:35-13:20
 type: Vortrag
 language: english
