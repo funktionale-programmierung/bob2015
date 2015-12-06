@@ -53,3 +53,18 @@ be applied to every-day code, but also in how reliably it improves
 software quality in several regards. For a year now he has been working
 on building production-grade software for the web in a cutting-edge
 functional language at Symbolian GmbH.
+
+### Jürgen Nicklisch-Franken
+
+In the first period of his 30+ years of software development in industry
+(mainly finance and transportation) he had to follow the object-oriented
+paradigm professionally, but advocated functional programming with Lisp and
+Scheme. He used OCaml as main backbone language in the first company he
+founded 1998 (Persist AG) and switched to Haskell as preferred language
+sometimes later. He started the development of Leksah (a Haskell IDE
+written in Haskell) and worked his last year on generating and testing
+safety critical real time software in Haskell.
+
+He co-founded Symbolian a year ago, with the ultimate aim to marry the Web
+with derivation and computation based on advanced type systems to make it
+safe, reliable and powerful.
