@@ -4,7 +4,7 @@ active: bob2016
 title: Dynamic programming at ease - with grammars, algebras, products
 speaker: Stefanie Schirmer
 portrait: stefanie-schirmer.jpg
-time: 16:20-17:05
+time: 10:15-11:00
 type: Vortrag
 language: english
 ---
