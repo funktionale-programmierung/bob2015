@@ -75,17 +75,17 @@ folgende Fördermöglichkeiten zur Verfügung:
 <ol>
 <li><b>30% Rabatt</b> auf die Konferenzgebühr für Teilnehmer(innen) aus
 unterrepräsentierten Gruppen (z.B. Frauen). Bitte melden Sie sich <i>vor</i> der
-Registrierung per <a href="mailto:konferenz@bobkonf.de">Email</a>, Sie erhalten
+Registrierung per <a href="mailto:konferenz@bobkonf.de">E-Mail</a>, Sie erhalten
 dann einen entsprechenden Rabattcode.</li>
 <li><b>10% Rabatt</b> auf die Konferenzgebühr, falls Sie Teilnehmer(innen)
 aus unterrepräsentierten Gruppen für die BOB-Konferenz werben.
 Bitte melden Sie sich <i>vor</i> der
-Registrierung per <a href="mailto:konferenz@bobkonf.de">Email</a>, Sie erhalten
+Registrierung per <a href="mailto:konferenz@bobkonf.de">E-Mail</a>, Sie erhalten
 dann einen entsprechenden Rabattcode.</li>
 <li>Es gibt eine stark begrenzte Anzahl an <b>kostenlosen Konferenztickets</b>
 sowie <b>Unterstützung bei Reise- und Übernachtungskosten</b>.
 Bitte melden Sie sich <i>vor</i> der
-Registrierung per <a href="mailto:konferenz@bobkonf.de">Email</a> und begründen
+Registrierung per <a href="mailto:konferenz@bobkonf.de">E-Mail</a> und begründen
 Sie, warum Sie eine solche finanzielle Hilfe benötigen.</li>
 </ol>
 
@@ -119,5 +119,5 @@ Konferenzgebühr bezahlen.
 Der Link zur Anmeldung wird in Kürze freigeschaltet.
 
 Bei Fragen oder Probleme bezüglich der Anmeldung, schicken Sie uns bitte
-eine [Email](mailto:konferenz@bobkonf.de).
+eine [E-Mail](mailto:konferenz@bobkonf.de).
 
