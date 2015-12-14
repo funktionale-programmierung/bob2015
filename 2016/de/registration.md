@@ -106,8 +106,14 @@ Falls Sie den ermäßigten Betrag für Teilnehmer der
 [:clojured](http://www.clojured.de/).
 bezahlt haben, müssen Sie sich tatsächlich auch bei der
 [:clojured](http://www.clojured.de/).
-registrieren. Ansonsten müssen Sie vor Ort den Aufpreis zur regulären
+registrieren.  Ansonsten müssen Sie vor Ort den Aufpreis zur regulären
 Konferenzgebühr bezahlen.
+
+**Wichtig:** *Wenn Sie den :clojured-Rabatt für die Registrierung in
+  Anspruch nehmen, repräsentiert dies noch **nicht** eine
+  Registrierung für die :clojured - Sie müssen sich für die :clojured
+  separat registrieren (siehe oben) und auch die Teilnahmegebühr für
+  die :clojured bezahlen.*
 
 <div class="row">
   <div class="col-md-4"></div>

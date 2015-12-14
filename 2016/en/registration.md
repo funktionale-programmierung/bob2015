@@ -103,6 +103,10 @@ register for
 If you fail to do so, you have to pay
 the full registration fee.
 
+**Important:** *Take advantage of the :clojured discount for BOB does
+  **not** represent registration for :clojured.  You still need to
+  register for :clojured and pay the :clojured registration fee.*
+
 <div class="row">
   <div class="col-md-4"></div>
   <div class="col-md-4">
