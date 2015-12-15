@@ -122,8 +122,6 @@ Konferenzgebühr bezahlen.
   </div>
 </div>
 
-Der Link zur Anmeldung wird in Kürze freigeschaltet.
-
 Bei Fragen oder Probleme bezüglich der Anmeldung, schicken Sie uns bitte
 eine [E-Mail](mailto:konferenz@bobkonf.de).
 
