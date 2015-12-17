@@ -6,6 +6,7 @@ speaker: Ivan Kusalic
 time: 16:20-17:05
 type: Vortrag
 language: english
+portrait: ivan-kusalic.jpg
 ---
 
 Type Classes are one of the most powerful abstractions we have at our
