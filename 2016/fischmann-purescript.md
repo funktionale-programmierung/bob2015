@@ -4,7 +4,7 @@ active: bob2016
 title: Introduction to web programming in Purescript
 speaker: Matthias Fischmann
 portrait: matthias-fischmann.png
-time: 11:45-13:15
+time: 16:20-17:50
 type: Tutorial
 language: english
 ---
