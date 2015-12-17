@@ -4,7 +4,7 @@ active: bob2016
 title: Verifikation mit Isabelle
 speaker: Joachim Breitner
 portrait: joachim-breitner.jpg
-time: 16:20-17:50
+time: 11:45-13:15
 type: Tutorial
 language: german
 ---
