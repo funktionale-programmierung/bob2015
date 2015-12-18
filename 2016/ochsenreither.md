@@ -3,6 +3,7 @@ layout: talk
 active: bob2016
 title: Einführung in Scala
 speaker: Simon Ochsenreither
+portrait: simon-ochsenreither.jpg
 time: 11:45-13:15
 type: Tutorial
 language: german

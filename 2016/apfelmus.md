@@ -3,6 +3,7 @@ layout: talk
 active: bob2016
 title: Functional Reactive Programming
 speaker: Heinrich Apfelmus
+portrait: heinrich-apfelmus.png
 time: 16:20-17:05
 type: Vortrag
 language: english
