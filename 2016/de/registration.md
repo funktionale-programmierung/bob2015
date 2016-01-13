@@ -106,7 +106,8 @@ Falls Sie den ermäßigten Betrag für Teilnehmer der
 [:clojured](http://www.clojured.de/).
 bezahlt haben, müssen Sie sich tatsächlich auch bei der
 [:clojured](http://www.clojured.de/).
-registrieren.  Ansonsten müssen Sie vor Ort den Aufpreis zur regulären
+registrieren. Bitte bringen Sie zur BOB-Konferenz auch das Ticket
+für die :clojured mit. Ansonsten müssen Sie vor Ort den Aufpreis zur regulären
 Konferenzgebühr bezahlen.
 
 **Wichtig:** *Wenn Sie den :clojured-Rabatt für die Registrierung in
@@ -124,4 +125,3 @@ Konferenzgebühr bezahlen.
 
 Bei Fragen oder Probleme bezüglich der Anmeldung, schicken Sie uns bitte
 eine [E-Mail](mailto:konferenz@bobkonf.de).
-

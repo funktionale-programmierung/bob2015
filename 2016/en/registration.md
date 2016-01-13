@@ -100,6 +100,8 @@ If you pay the reduced fee for
 participants, you also have to
 register for
 [:clojured](http://projekt.beuth-hochschule.de/clojured/).
+Please take your :clojured ticket with you when visiting the
+BOB conference.
 If you fail to do so, you have to pay
 the full registration fee.
 
