@@ -64,13 +64,19 @@ Es gelten folgende Tarife:
 </div>
 </div>
 
-<p>
-<b>Förderprogramm:</b> Die BOB-Konferenz fördert Teilnehmergruppen, die bei
+**Wichtig:** *Wenn Sie den :clojured-Rabatt für die Registrierung in
+  Anspruch nehmen, repräsentiert dies noch **nicht** eine
+  Registrierung für die :clojured - Sie müssen sich für die :clojured
+  separat registrieren (siehe oben) und auch die Teilnahmegebühr für
+  die :clojured bezahlen.*
+
+### Förderprogramm
+
+Die BOB-Konferenz fördert Teilnehmergruppen, die bei
 der Konferenz bisher unterrepräsentiert
 waren. Dazu gehören insbesondere Frauen und Teilnehmer, die die Konferenz aus
 finanziellen Gründen anderweitig nicht besuchen könnten. Es stehen
 folgende Fördermöglichkeiten zur Verfügung:
-</p>
 
 <ol>
 <li><b>30% Rabatt</b> auf die Konferenzgebühr für Teilnehmer(innen) aus
@@ -98,6 +104,17 @@ diesen Tutorials ist in der Konferenzgebühr enthalten. Da es pro Tutorial
 aber nur eine begrenze Anzahl von Plätzen gibt, müssen Sie sich für jedes
 Tutorial extra anmelden. Bitte beachten Sie dies bei Ihrer Anmeldung.
 
+### Kinderbetreuung
+
+BOB bietet Kinderbetreuung für den ganzen Tag ohne zusätzliche Kosten
+an, falls *mindestens 4 Kinder* bis zum *10. Februar* zusammenkommen.
+Die Betreuung findet im Gebäude der Konferenz stat und wird von
+[Kinderbetreuung "Kunterbunt"](http://www.hochzeit-kinderbetreuung.de)
+durchgeführt.  Falls Sie Interesse haben, schicken Sie uns
+[E-Mail](mailto:konferenz@bobkonf.de).
+
+### Rabattbedingungen
+
 Falls Sie Student sind, müssen Sie am Tag der Konferenz einen gültigen
 Studentenausweis vorzeigen. Anderenfalls müssen Sie vor Ort den Aufpreis zur
 regulären Konferenzgebühr bezahlen.
@@ -109,12 +126,6 @@ bezahlt haben, müssen Sie sich tatsächlich auch bei der
 registrieren. Bitte bringen Sie zur BOB-Konferenz auch das Ticket
 für die :clojured mit. Ansonsten müssen Sie vor Ort den Aufpreis zur regulären
 Konferenzgebühr bezahlen.
-
-**Wichtig:** *Wenn Sie den :clojured-Rabatt für die Registrierung in
-  Anspruch nehmen, repräsentiert dies noch **nicht** eine
-  Registrierung für die :clojured - Sie müssen sich für die :clojured
-  separat registrieren (siehe oben) und auch die Teilnahmegebühr für
-  die :clojured bezahlen.*
 
 <div class="row">
   <div class="col-md-4"></div>

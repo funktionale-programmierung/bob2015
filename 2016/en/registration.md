@@ -61,11 +61,15 @@ under-represented in technology.
 </div>
 </div>
 
-<p>
-<b>Grants:</b> The BOB conference supports participants from groups
+**Important:** *Take advantage of the :clojured discount for BOB does
+  **not** represent registration for :clojured.  You still need to
+  register for :clojured and pay the :clojured registration fee.*
+
+### Grants
+
+The BOB conference supports participants from groups
 under-represented in technology (e.g. women). The following options
 are available:
-</p>
 
 <ol>
 <li><b>30% discount</b> on the conference fee for participants from groups
@@ -91,6 +95,17 @@ BOB 2016 also offer several tutorials, which are included in the conference
 fee. However, limited capacities require that you register
 for each tutorial individually.
 
+###  Child care
+
+BOB offers child care for the entire day at no additional cost, if at
+*at least 4 children* are signed up until *February 10*.  Child care
+will be in the building of the conference, and provided by
+[Kinderbetreuung "Kunterbunt"](http://www.hochzeit-kinderbetreuung.de).
+If you would like to sign up for this,
+[e-mail us](mailto:konferenz@bobkonf.de).
+
+### Discount eligibility
+
 If you are eligible for our student discount, you must provide
 a valid, current student ID at the day of the conference. If you fail to
 provide a student ID, you have to pay the full registration fee.
@@ -105,16 +120,14 @@ BOB conference.
 If you fail to do so, you have to pay
 the full registration fee.
 
-**Important:** *Take advantage of the :clojured discount for BOB does
-  **not** represent registration for :clojured.  You still need to
-  register for :clojured and pay the :clojured registration fee.*
-
 <div class="row">
   <div class="col-md-4"></div>
   <div class="col-md-4">
     <p class="text-center"><a class="btn btn-primary" href="https://ti.to/bob/bob2016/" role="button">Register &raquo;</a></p>
   </div>
 </div>
+
+### Contact
 
 Don't hesitate to [contact us](mailto:konferenz@bobkonf.de) with questions
 regarding the registration (or any other topic concerning BOB 2016).
