@@ -22,3 +22,4 @@ Tony’s professional programming journey began with C/C++, after a detour
 with Java, he is now focused on JavaScript front-end development and loving
 it. Day to day he gets to apply his passion for the front-end as a software
 developer at TIM Group.
+	 
