@@ -1,7 +1,7 @@
 markdown: kramdown
 encoding: UTF-8
 permalink: date
-highlighter: pygments
+highlighter: rouge
 safe: true
 lsi: false
 
