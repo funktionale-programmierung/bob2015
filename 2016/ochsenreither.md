@@ -22,7 +22,8 @@ Entwicklungen beschreiben.
 ### Vorbereitung
 
 Einige Tage vor der Konferenz
-[`https://github.com/soc/scala-workshopklonen`](https://github.com/soc/scala-workshopklonen),
+[`https://github.com/soc/scala-workshop`](https://github.com/soc/scala-workshop)
+klonen,
 im neuen Verzeichnis `./sbt compile` ausführen.
 
 ### Simon Ochsenreither
