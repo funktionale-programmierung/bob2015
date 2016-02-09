@@ -26,10 +26,22 @@ your questions in German.
 
 ### Preparations
 
-Prerequisites: You should install the [Haskell
-Platform](https://www.haskell.org/platform/) on your laptop.
-Knowledge of Haskell is not required, but a certain aptitude in at
-least one other programming language will be helpful.
+To participate in the practical exercises of this tutorial, you need a
+recent version of GHC (preferably 7.10.3) and a text editor suitable
+for programming.
+
+One easy way of getting GHC 7.10.3 and a number of useful tools and
+libraries is to install the current version of the [Haskell Platform][HP].
+
+There are plenty of suitable text editors, and most editors these days
+come with support for Haskell syntax highlighting. Any of these will do.
+We do not need any more advanced support for this tutorial.
+
+However, if you are interested in more advanced Haskell editing support,
+you may want to look at [ghc-mod][ghc-mod]. One good editor that has
+ghc-mod support is [Atom][Atom], for which you then will want to install
+the [language-haskell][atom-language-haskell] and 
+[haskell-ghc-mod][atom-haskell-ghc-mod] packages.
 
 ### Matthias Fischmann
 
@@ -52,3 +64,9 @@ Andres is very interested in applying functional programming to real-world
 problems, and in particular in datatype-generic programming, domain-specific
 languages, (dependent) type systems, parallel and concurrent programming, and
 the theory of version control. 
+
+[HP]: https://www.haskell.org/platform/
+[Atom]: https://atom.io/
+[ghc-mod]: https://github.com/DanielG/ghc-mod
+[atom-language-haskell]: https://atom.io/packages/language-haskell
+[atom-haskell-ghc-mod]: https://atom.io/packages/haskell-ghc-mod
