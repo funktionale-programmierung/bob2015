@@ -82,8 +82,7 @@ from groups under-represented in technology. Please write an
 <a href="mailto:konferenz@bobkonf.de">e-mail</a> <i>before</i> you
 register. You will then receive a discount code.
 </li>
-<li>We have a very limited number of <b>free tickets</b> for the conference, as well
-as <b>support for travel costs and accomodation</b>.
+<li>We have a very limited number of <b>free tickets</b> for the conference.
 Please write us an <a href="mailto:konferenz@bobkonf.de">e-mail</a>
 <i>before</i> you register and tell us why you need this kind of support.
 </li>

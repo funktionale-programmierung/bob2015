@@ -88,8 +88,7 @@ aus unterrepräsentierten Gruppen für die BOB-Konferenz werben.
 Bitte melden Sie sich <i>vor</i> der
 Registrierung per <a href="mailto:konferenz@bobkonf.de">E-Mail</a>, Sie erhalten
 dann einen entsprechenden Rabattcode.</li>
-<li>Es gibt eine stark begrenzte Anzahl an <b>kostenlosen Konferenztickets</b>
-sowie <b>Unterstützung bei Reise- und Übernachtungskosten</b>.
+<li>Es gibt eine stark begrenzte Anzahl an <b>kostenlosen Konferenztickets</b>.
 Bitte melden Sie sich <i>vor</i> der
 Registrierung per <a href="mailto:konferenz@bobkonf.de">E-Mail</a> und begründen
 Sie, warum Sie eine solche finanzielle Hilfe benötigen.</li>

@@ -26,6 +26,18 @@ Isabelle implementieren, und darauf hin interaktiv die Korrektheit des
 Programms beweisen. Nebenher wird etwas zu den Möglichkeiten und
 Grenzen von der Arbeit mit Isabelle erzählt.
 
+### Vorbereitung
+
+Installieren Sie bitte Isabelle 2015, und starten Sie es einmal vor
+dem Tutorial – der erste Start dauert immer etwas länger:
+
+[`http://isabelle.in.tum.de/installation.html`](http://isabelle.in.tum.de/installation.html)
+
+Grundlegende Kenntnisse in Funktionaler Programmierung sind sehr von
+Vorteil. Wenn Sie den Haskell-Code auf der ersten Seite des
+[Handouts](http://www.joachim-breitner.de/publications/Isabelle_BobKonf2016_2016-02-19-handout.pdf)
+in etwa verstehen, sollten Sie bestens vorbereitet sein.
+
 ### Joachim Breitner
 
 Joachim Breitner ist Doktorand am Lehrstuhl für Programmierparadigmen

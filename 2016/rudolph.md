@@ -25,6 +25,11 @@ serve as a starting point for your own projects.
 
 Some knowledge of Scala syntax would be advantageous.
 
+Participants should clone this repository (to be filled with material
+by February 17) prior to the tutorial:
+
+[`akka-http-workshop`](https://github.com/jrudolph/akka-http-workshop)
+
 ### Johannes Rudolph
 
 Johannes has been writing Scala code as a freelancer for quite a

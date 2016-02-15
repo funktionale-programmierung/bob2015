@@ -59,11 +59,44 @@ have some familiarity with Haskell might realize that programming in Idris is
 far more elegant and straight-forward than using the myriad of type system
 extensions that GHC provides.
 
-#### Zusatzmaterialien / Additional material
+#### Requirements / preparations for the tutorial
 
-Idris homepage: [`http://www.idris-lang.org/`](http://www.idris-lang.org/)
+You will need the Idris compiler itself (which includes a set
+of standard libraries that will be sufficient for the purposes
+of the tutorial), and an editor suitable for use with Idris.
 
-Preparation and installation instructions will be provided later.
+We will use version [0.10][Release] of Idris, which is the current version
+at the time of writing these instructions. Idris is in active
+development, and it is possible that a new version will be released
+prior to BOB, but I will use version 0.10 at the tutorial
+anyway. If you use a different version, expect subtle differences.
+
+Installation instructions for
+various platforms as well as binary packages are available from
+the [download page][download]. Successful installation should
+give you a binary called `idris` that you can invoke to get into
+the REPL.
+
+It is important to have an editor with actual support for Idris.
+Idris supports various language-specific interactive editing
+features which are extremely helpful during program development.
+
+As a suitable editor, I recommend to use [Atom][Atom]. Activating Idris
+support in Atom should be as easy as installing the
+[`language-idris`][language-idris]
+package via the `Preferences / Packages` menu, and making sure
+that the `idris` command is in your search path.
+
+Idris editing support is also available for Emacs and Vim. So if
+you prefer one of these editors over Atom, feel free to use them,
+and check the information near the bottom of
+the [download page][download] on how to install the Idris support
+for these.
+
+[Release]: http://www.idris-lang.org/idris-0-10-released/
+[Atom]: https://atom.io
+[language-idris]: https://atom.io/packages/language-idris
+[download]: http://www.idris-lang.org/download
 
 ### Andres Löh
 

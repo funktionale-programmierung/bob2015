@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2016
-title: Introduction to web programming in Purescript
+title: Introduction to web programming in PureScript
 speaker: Matthias Fischmann
 portrait: matthias-fischmann.png
 time: 16:20-17:50
@@ -9,7 +9,7 @@ type: Tutorial
 language: english
 ---
 
-[Purescript](http://www.purescript.org/) is a language for
+[PureScript](http://www.purescript.org/) is a language for
 functional programming in the browser designed for low adoption
 barriers.  It looks very much like somebody took static types and
 explicit effects out of Haskell and imposed them on javascript.  And
