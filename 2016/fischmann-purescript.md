@@ -24,7 +24,11 @@ context, which makes it a great tool for incremental adoption.
 
 Prerequisites: You can either come completely unprepared, or, if you
 want to participate more actively, install the tutorial setup provided
-online (coming up).  Knowledge of purescript is not required, but a
+here:
+
+[`https://github.com/fisx/bob16-psc`](https://github.com/fisx/bob16-psc)
+
+Knowledge of purescript is not required, but a
 certain aptitude in at least one other programming language will be
 helpful.  Some knowledge of the JavaScript world will help you getting
 the code to run in the browser.
