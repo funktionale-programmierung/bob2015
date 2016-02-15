@@ -74,7 +74,7 @@ Here are some suggestions:
   walk, but only has a bar for drinks and snacks.
 * [arema Cafe & Restaurant](http://arema-restaurant.de/) (Bergstr. 2) nice place to
   eat, about 20 minutes by public transport or car
-* [Z-Bar](http://z-bar.de/) (Bergstr. 2) nice place, but not a lot of space,
+* [Z-Bar](http://z-bar.de/) (Bergstr. 2) nice bar (no food), but not a lot of space,
   somewhat smoky: many other places to go to near by, 25 minutes by
   public transport or car
 * [Herman](https://www.facebook.com/bravebelgians.HERMAN/)

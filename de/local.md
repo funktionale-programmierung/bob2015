@@ -82,7 +82,7 @@ Ausgehen nach der BOB.  Hier ein paar Vorschläge:
   Bar mit Getränken und Snacks
 * [arema Cafe & Restaurant](http://arema-restaurant.de/) (Bergstr. 2)
   nettes Restaurant, ungefähr 20 Minuten mit ÖPNV oder Auto
-* [Z-Bar](http://z-bar.de/) (Bergstr. 2) nette Bar, aber nicht viel
+* [Z-Bar](http://z-bar.de/) (Bergstr. 2) nette Bar (kein Essen), aber nicht viel
   Platz und etwas verraucht, aber viele andere Läden in der Nähe, 25
   Minuten mit ÖPNV oder Auto
 * [Herman](https://www.facebook.com/bravebelgians.HERMAN/)
