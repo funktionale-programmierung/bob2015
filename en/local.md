@@ -62,3 +62,26 @@ system.
   To get to the venue, you first take the U6 at Stadtmitte to
   "Kurt-Schumacher-Platz". There, you switch to the bus 122 (direction
   "Waidmannslust, Titiseestr.") and exit at Paracelsus-Bad (~ 30 min).
+
+### Places to eat
+
+Unfornately, there aren't many nice places to eat and/or drink near
+the conference venue.  
+Here are some suggestions:
+
+* [ibis Hotel](http://www.hotel-berlin-city.de/gastronomie) (Alt
+  Reinickendorf 4-5) is a short
+  walk, but only has a bar for drinks and snacks.
+* [arema Cafe & Restaurant](http://arema-restaurant.de/) (Bergstr. 2) nice place to
+  eat, about 20 minutes by public transport or car
+* [Z-Bar](http://z-bar.de/) (Bergstr. 2) nice place, but not a lot of space,
+  somewhat smoky: many other places to go to near by, 25 minutes by
+  public transport or car
+* [Herman](https://www.facebook.com/bravebelgians.HERMAN/)
+  (Schönhauser Allee 173), Belgian beer specialist, about 30 minutes
+  by public transport or car, close to ...
+* [I Due Forni](https://www.facebook.com/pages/I-Due-Forni/154460154586282)
+  (Schönhauser Allee 12), large and noisy Italian place, about 30 minutes by public transport or car
+
+If you use public transport, get route
+information [here](https://www.bvg.de/de/Fahrinfo).

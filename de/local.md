@@ -72,3 +72,24 @@ Verfügung, sie können aber an der Straße parken.
   "Waidmannslust, Titiseestr". Der Ausstieg ist dann an der Haltestelle
   Paracelsus-Bad (etwa 30 Minuten).
 
+### Ausgehen
+
+Leider gibt es nah dem Konferenzort nicht allzuviele Läden zum
+Ausgehen nach der BOB.  Hier ein paar Vorschläge:
+
+* [ibis Hotel](http://www.hotel-berlin-city.de/gastronomie) (Alt
+  Reinickendorf 4-5) ist zu Fuß zu erreichen, hat aber leider nur eine
+  Bar mit Getränken und Snacks
+* [arema Cafe & Restaurant](http://arema-restaurant.de/) (Bergstr. 2)
+  nettes Restaurant, ungefähr 20 Minuten mit ÖPNV oder Auto
+* [Z-Bar](http://z-bar.de/) (Bergstr. 2) nette Bar, aber nicht viel
+  Platz und etwas verraucht, aber viele andere Läden in der Nähe, 25
+  Minuten mit ÖPNV oder Auto
+* [Herman](https://www.facebook.com/bravebelgians.HERMAN/)
+  (Schönhauser Allee 173), belgischer Bierspezialist, 30 Minuten
+  mit ÖPNV oder Auto, und in der Nähe von ...
+* [I Due Forni](https://www.facebook.com/pages/I-Due-Forni/154460154586282)
+  (Schönhauser Allee 12), großer und etwas lauter Italiener, 30
+  Minuten mit ÖPNV oder Auto.
+
+ÖPNV-Fahrten-Info [hier](https://www.bvg.de/de/Fahrinfo)
