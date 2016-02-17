@@ -80,6 +80,8 @@ Ausgehen nach der BOB.  Hier ein paar Vorschläge:
 * [ibis Hotel](http://www.hotel-berlin-city.de/gastronomie) (Alt
   Reinickendorf 4-5) ist zu Fuß zu erreichen, hat aber leider nur eine
   Bar mit Getränken und Snacks
+* [Restaurant Alt-Reinickendorf](http://www.restaurant-altreinickendorf.de/)
+  (Alt-Reinickendorf 3) ist zu Fuß zu erreichen.
 * [arema Cafe & Restaurant](http://arema-restaurant.de/) (Bergstr. 2)
   nettes Restaurant, ungefähr 20 Minuten mit ÖPNV oder Auto
 * [Z-Bar](http://z-bar.de/) (Bergstr. 2) nette Bar (kein Essen), aber nicht viel

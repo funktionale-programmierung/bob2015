@@ -72,6 +72,8 @@ Here are some suggestions:
 * [ibis Hotel](http://www.hotel-berlin-city.de/gastronomie) (Alt
   Reinickendorf 4-5) is a short
   walk, but only has a bar for drinks and snacks.
+* [Restaurant Alt-Reinickendorf](http://www.restaurant-altreinickendorf.de/)
+  (Alt-Reinickendorf 3) is close by.
 * [arema Cafe & Restaurant](http://arema-restaurant.de/) (Bergstr. 2) nice place to
   eat, about 20 minutes by public transport or car
 * [Z-Bar](http://z-bar.de/) (Bergstr. 2) nice bar (no food), but not a lot of space,
