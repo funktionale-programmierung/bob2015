@@ -26,6 +26,10 @@ Einige Tage vor der Konferenz
 klonen,
 im neuen Verzeichnis `./sbt compile` ausführen.
 
+Außerdem die Scala-Eclipse-IDE herunterladen:
+
+[`http://scala-ide.org/download/sdk.html`](http://scala-ide.org/download/sdk.html)
+
 ### Simon Ochsenreither
 
 Seit einigen Jahren arbeitet Simon in seiner Freizeit am
