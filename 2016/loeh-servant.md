@@ -6,6 +6,7 @@ speaker: Andres Löh
 portrait: andres-loeh.jpg
 time: 15:05-15:50
 type: Vortrag
+slides-file: loeh.pdf
 language: english
 ---
 

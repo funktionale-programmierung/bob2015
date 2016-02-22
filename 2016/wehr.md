@@ -6,6 +6,7 @@ speaker: Stefan Wehr
 portrait: stefan-wehr.jpg
 time: 17:10-17:55
 type: Vortrag
+slides-file: wehr.zip
 language: german
 ---
 

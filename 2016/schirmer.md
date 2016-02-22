@@ -6,6 +6,7 @@ speaker: Stefanie Schirmer
 portrait: stefanie-schirmer.jpg
 time: 10:15-11:00
 type: Vortrag
+slides-file: schirmer.pdf
 language: english
 ---
 

@@ -6,6 +6,7 @@ speaker: Andreas Bernauer
 time: 15:05-15:50
 portrait: andreas-bernauer.jpg
 type: Vortrag
+slides-file: bernauer.pdf
 language: german
 ---
 
