@@ -6,6 +6,7 @@ speaker: Julian Arni
 portrait: julian-arni.jpg
 time: 12:35-13:20
 type: Vortrag
+slides-link: https://raw.githubusercontent.com/jkarni/bobkonf/master/presentation.md
 language: english
 ---
 
