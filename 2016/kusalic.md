@@ -7,6 +7,7 @@ time: 16:20-17:05
 type: Vortrag
 language: english
 slides-file: ikusalic.pdf
+youtube: f8vTK61uhz8
 portrait: ivan-kusalic.jpg
 ---
 

@@ -7,6 +7,7 @@ portrait: michael-vitz.jpg
 time: 12:35-13:20
 type: Vortrag
 slides-file: vitz.pdf
+youtube: DVKafLYzCm0
 language: german
 ---
 

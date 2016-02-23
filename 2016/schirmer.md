@@ -7,6 +7,7 @@ portrait: stefanie-schirmer.jpg
 time: 10:15-11:00
 type: Vortrag
 slides-file: schirmer.pdf
+youtube: deZx15FSkEE
 language: english
 ---
 

@@ -7,6 +7,7 @@ portrait: joachim-breitner.jpg
 time: 14:15-15:00
 type: Vortrag
 slides-link: http://joachim-breitner.de/publications/MonadFix_BobKonf2016_2016-02-19.pdf
+youtube: BQzJqdNASyg
 language: german
 ---
 

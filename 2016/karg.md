@@ -8,6 +8,7 @@ portrait2: juergen-nicklisch-franken.jpg
 time: 14:15-15:00
 type: Vortrag
 slides-file: karg.pdf
+youtube: EArV7Uy-TD0
 language: english
 ---
 

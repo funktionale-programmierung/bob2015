@@ -7,6 +7,7 @@ portrait: hannes-mehnert.jpg
 time: 17:10-17:55
 type: Vortrag
 slides-file: mehnert.pdf
+youtube: 3Ca40xVciac
 language: english
 ---
 

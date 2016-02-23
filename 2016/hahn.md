@@ -7,6 +7,7 @@ portrait: soenke-hahn.jpg
 time: 11:45-12:30
 type: Vortrag
 slides-file: hahn.pdf
+youtube: ZtWzh4mBzaI
 language: english
 ---
 
