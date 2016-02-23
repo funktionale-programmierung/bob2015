@@ -6,6 +6,7 @@ speaker: Gregor Große-Bölting
 portrait: gregor-grosse-boelting.jpg
 time: 11:45-12:30
 type: Vortrag
+slides-link: http://www.graphomate.com/bobkonf16/
 language: german
 ---
 

@@ -6,6 +6,7 @@ speaker: Ivan Kusalic
 time: 16:20-17:05
 type: Vortrag
 language: english
+slides-file: ikusalic.pdf
 portrait: ivan-kusalic.jpg
 ---
 

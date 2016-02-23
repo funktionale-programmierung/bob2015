@@ -7,6 +7,7 @@ portrait: michael-karg.jpg
 portrait2: juergen-nicklisch-franken.jpg
 time: 14:15-15:00
 type: Vortrag
+slides-file: karg.pdf
 language: english
 ---
 
