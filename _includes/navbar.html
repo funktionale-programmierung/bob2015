@@ -7,45 +7,22 @@
 <li><a href="/">Home</a></li>
 {% endif %}
 
-{% if page.active == "bob2016" %}
+{% if page.active == "bob2017" %}
 <li class="dropdown active">
-  <a href="/2016/" class="dropdown-toggle"
-  data-toggle="dropdown">BOB 2016<b class="caret"></b></a>
+  <a href="/2017/" class="dropdown-toggle"
+  data-toggle="dropdown">BOB 2017<b class="caret"></b></a>
   <ul class="dropdown-menu">
 {% else %}
 <li class="dropdown">
-  <a href="/2016/" class="dropdown-toggle"
-  data-toggle="dropdown">BOB 2016<b class="caret"></b></a>
+  <a href="/2017/" class="dropdown-toggle"
+  data-toggle="dropdown">BOB 2017<b class="caret"></b></a>
   <ul class="dropdown-menu">
 {% endif %}
-    <li><a href="/2016/de/">Frontseite</a></li>
-    <li><a href="/2016/program.html">Programm</a></li>
-    <li><a href="/2016/de/registration.html">Anmeldung</a> (abgelaufen)</li>
-    <li><a href="/2016/de/cfp.html">Call for Contributions</a> (abgelaufen)</li>
-    <li><a href="/2016/de/speaker-grants.html">Referentenzuschüsse</a></li>
+    <li><a href="/2017/de/">Frontseite</a></li>
     <li><a href="/de/local.html">Veranstaltungsort</a></li>
-    <li><a href="/2016/programmkomitee.html">Programmkomitee</a></li>
   </ul>
 </li>
 
-{% if page.active == "bob2015" %}
-<li class="dropdown active">
-  <a href="/2015/" class="dropdown-toggle"
-  data-toggle="dropdown">BOB 2015<b class="caret"></b></a>
-  <ul class="dropdown-menu">
-{% else %}
-<li class="dropdown">
-  <a href="/2015/" class="dropdown-toggle"
-  data-toggle="dropdown">BOB 2015<b class="caret"></b></a>
-  <ul class="dropdown-menu">
-{% endif %}
-    <li><a href="/2015/de/">Frontseite</a></li>
-    <li><a href="/2015/programm.html">Programm</a></li>
-    <li><a href="/2015/local.html">Veranstaltungsort</a></li>
-    <li><a href="/2015/de/cfp.html">Call for Contributions</a></li>
-    <li><a href="/2015/programmkomitee.html">Programmkomitee</a></li>
-  </ul>
-</li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle"
   data-toggle="dropdown">Fakten<b class="caret"></b></a>
@@ -54,6 +31,16 @@
     <li><a href="/impressum.html">Impressum</a></li>
   </ul>
 </li>
+
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle"
+  data-toggle="dropdown">Archiv<b class="caret"></b></a>
+  <ul class="dropdown-menu">
+    <li><a href="/2016/de/">2016</a></li>
+    <li><a href="/2015/en/">2015</a></li>
+  </ul>
+</li>
+
 </ul>
 {% if page.language == "de" %}
 <ul class="nav navbar-right">
@@ -71,45 +58,22 @@
 <li><a href="/">Home</a></li>
 {% endif %}
 
-{% if page.active == "bob2016" %}
+{% if page.active == "bob2017" %}
 <li class="dropdown active">
-  <a href="/2016/" class="dropdown-toggle"
-  data-toggle="dropdown">BOB 2016<b class="caret"></b></a>
+  <a href="/2017/" class="dropdown-toggle"
+  data-toggle="dropdown">BOB 2017<b class="caret"></b></a>
   <ul class="dropdown-menu">
 {% else %}
 <li class="dropdown">
-  <a href="/2016/" class="dropdown-toggle"
-  data-toggle="dropdown">BOB 2016<b class="caret"></b></a>
+  <a href="/2017/" class="dropdown-toggle"
+  data-toggle="dropdown">BOB 2017<b class="caret"></b></a>
   <ul class="dropdown-menu">
 {% endif %}
-    <li><a href="/2016/en/">Front page</a></li>
-    <li><a href="/2016/program.html">Program</a></li>
-    <li><a href="/2016/en/registration.html">Registration</a> (expired)</li>
-    <li><a href="/2016/en/cfp.html">Call for Contributions</a> (expired)</li>
-    <li><a href="/2016/en/speaker-grants.html">Speaker Grants</a></li>
+    <li><a href="/2017/en/">Front page</a></li>
     <li><a href="/en/local.html">Local information</a></li>
-    <li><a href="/2016/programmkomitee.html">Programmkomitee</a></li>
   </ul>
 </li>
 
-{% if page.active == "bob2015" %}
-<li class="dropdown active">
-  <a href="/2015/" class="dropdown-toggle"
-  data-toggle="dropdown">BOB 2015<b class="caret"></b></a>
-  <ul class="dropdown-menu">
-{% else %}
-<li class="dropdown">
-  <a href="/2015/" class="dropdown-toggle"
-  data-toggle="dropdown">BOB 2015<b class="caret"></b></a>
-  <ul class="dropdown-menu">
-{% endif %}
-    <li><a href="/2015/en/">Front page</a></li>
-    <li><a href="/2015/programm.html">Program</a></li>
-    <li><a href="/2015/local.html">Local information</a></li>
-    <li><a href="/2015/en/cfp.html">Call for Contributions</a></li>
-    <li><a href="/2015/programmkomitee.html">Programmkomitee</a></li>
-  </ul>
-</li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle"
   data-toggle="dropdown">Facts<b class="caret"></b></a>
@@ -118,6 +82,16 @@
     <li><a href="/impressum.html">Imprint</a></li>
   </ul>
 </li>
+
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle"
+  data-toggle="dropdown">Archive<b class="caret"></b></a>
+  <ul class="dropdown-menu">
+    <li><a href="/2016/en/index.html">2016</a></li>
+    <li><a href="/2015/en/index.html">2015</a></li>
+  </ul>
+</li>
+
 </ul>
 <ul class="nav navbar-right">
 <li><a href="{{ page.url | replace_first: '/en/', '/de/' }}">de</a></li>
