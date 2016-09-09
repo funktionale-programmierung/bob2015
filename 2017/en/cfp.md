@@ -28,6 +28,9 @@ e.g.:
 * persistent data structures and databases
 * types
 * formal methods for correctness and robustness
+* high-level abstractions for concurrency and parallelism
+* metaprogramming
+* probabilistic programming
 * …  everything really that isn’t mainstream, but you think should be.
 
 Presenters should provide the audience with information that is
