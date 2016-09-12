@@ -28,7 +28,7 @@ Wir freuen uns über Beiträge zum Besten, was die Softwaretechnik zu bieten hat
 * persistente Datenstrukturen und Datenbanken
 * Typen
 * formale Methoden für korrekte und robuste Software
-* hochstehende Abstraktionen für Nebenläufigkeit und Parallelismus
+* Abstraktionen für Nebenläufigkeit und Parallelismus
 * Metaprogrammierung
 * probablistische Programmierung
 * … und alles, was es sonst noch an tollen Technologien, Werkzeugen und Techniken jenseits der Mainstream-Programmierung gibt
