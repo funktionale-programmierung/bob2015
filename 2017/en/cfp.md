@@ -49,7 +49,8 @@ We accept proposals for presentations of 45 minutes (40 minutes talk +
 5 minutes questions), as well as 90 minute tutorials for beginners.
 The language of presentation should be either English or German. 
 
-Your proposal should include (in your presentation language of choice):
+[Your proposal](https://docs.google.com/forms/d/e/1FAIpQLSfFuyBhBTCOTS0zTXBzY1KVuKpumyIBTucLcJ1ArC1XpWsG-Q/viewform)
+should include (in your presentation language of choice):
 
 * an abstract of max. 1500 characters.
 * a short bio/cv
@@ -57,6 +58,8 @@ Your proposal should include (in your presentation language of choice):
 * a list of 3-5 concrete ideas of how your work can be applied in a developer's daily life
 * additional material (websites, blogs, slides, videos of past
   presentations, …)
+
+## [Submit here](https://docs.google.com/forms/d/e/1FAIpQLSfFuyBhBTCOTS0zTXBzY1KVuKpumyIBTucLcJ1ArC1XpWsG-Q/viewform)
 
 ### Organisation
 

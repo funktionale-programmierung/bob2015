@@ -50,13 +50,15 @@ Redezeit + 5 Minuten Fragen) sowie für 90minütige Tutorials mit
 Einführungen für Einsteiger. Die Vorträge können auf Deutsch oder auf
 Englisch gehalten werden.
 
-Zu einem Vorschlag senden Sie uns in der Sprache des Vortrags:
+Zu einem Vorschlag [senden Sie uns](https://docs.google.com/forms/d/e/1FAIpQLSfFuyBhBTCOTS0zTXBzY1KVuKpumyIBTucLcJ1ArC1XpWsG-Q/viewform) in der Sprache des Vortrags:
 
 * einen Abstract von maximal 1500 Zeichen
 * Ihre Kurzbiografie
 * Kontaktinformationen (mindestens E-Mail-Adresse)
 * eine Liste von 3-5 konkreten Aspekten, die Zuhörende in ihren Alltag mitnehmen können
 * Zusatzmaterialien, d.h. Links zu Webseiten, Blogs, Folien oder Videos vergangener Vorträge
+
+## [Einreichen hier](https://docs.google.com/forms/d/e/1FAIpQLSfFuyBhBTCOTS0zTXBzY1KVuKpumyIBTucLcJ1ArC1XpWsG-Q/viewform)
 
 ### Organisation
 
