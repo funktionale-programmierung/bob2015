@@ -9,7 +9,7 @@ language: en
 
 # Call for Contributions
 
-You drive advanced software engineering methods, implement ambitious
+You are actively engaged in advanced software engineering methods, implement ambitious
 architectures and are open to cutting-edge innovation? Attend this
 conference, meet people that share your goals, and get to know the
 best software tools and technologies available today. We strive to
@@ -71,7 +71,7 @@ Your proposal should include (in your presentation language of choice):
 
 BOB has [Speaker Grants](speaker-grants.html) available to support
 speakers from groups under-represented in technology.  We specifically
-seek women speakers and speakers who not be able to attend the
+seek women speakers and speakers who are not be able to attend the
 conference for financial reasons.  Details are
 [here](speaker-grants.html).
 
