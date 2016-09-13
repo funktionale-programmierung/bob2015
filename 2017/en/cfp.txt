@@ -24,7 +24,6 @@ Topics
 We are looking for talks about best-of-breed software technology, e.g.:
 
 - functional programming
-- reactive programming
 - persistent data structures and databases
 - types
 - formal methods for correctness and robustness
