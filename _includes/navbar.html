@@ -27,15 +27,6 @@
 
 <li class="dropdown">
   <a href="#" class="dropdown-toggle"
-  data-toggle="dropdown">Fakten<b class="caret"></b></a>
-  <ul class="dropdown-menu">
-    <li><a href="/de/policies.html">Richtlinien</a></li>
-    <li><a href="/impressum.html">Impressum</a></li>
-  </ul>
-</li>
-
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle"
   data-toggle="dropdown">Archiv<b class="caret"></b></a>
   <ul class="dropdown-menu">
     <li><a href="/2016/de/">2016</a></li>
@@ -46,7 +37,7 @@
 </ul>
 {% if page.language == "de" %}
 <ul class="nav navbar-right">
-<li><a href="{{ page.url | replace_first: '/de/', '/en/' }}">en</a></li>
+<li><a href="{{ page.url | replace_first: '/de/', '/en/' }}">English</a></li>
 </ul>
 {% endif %}
 {% endif %}
@@ -78,14 +69,6 @@
   </ul>
 </li>
 
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle"
-  data-toggle="dropdown">Facts<b class="caret"></b></a>
-  <ul class="dropdown-menu">
-    <li><a href="/en/policies.html">Policies</a></li>
-    <li><a href="/impressum.html">Imprint</a></li>
-  </ul>
-</li>
 
 <li class="dropdown">
   <a href="#" class="dropdown-toggle"
@@ -98,6 +81,6 @@
 
 </ul>
 <ul class="nav navbar-right">
-<li><a href="{{ page.url | replace_first: '/en/', '/de/' }}">de</a></li>
+<li><a href="{{ page.url | replace_first: '/en/', '/de/' }}">Deutsch</a></li>
 </ul>
 {% endif %}

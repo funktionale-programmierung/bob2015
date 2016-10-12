@@ -14,17 +14,17 @@ language: de
 			 	</div>
 				<h4>Die Themen der BOB Konferenz</h4>
 				<div class="row">
-					<div class="col-md-3 bg-blue">Funktionale Programmierung</div>
-					<div class="col-md-3 bg-blue">Persistente Datenstrukturen und Datenbanken</div>
-					<div class="col-md-3 bg-blue">Typen</div>
+					<div class="col-md-3 bg-list-blue">Funktionale Programmierung</div>
+					<div class="col-md-3 bg-list-blue">Persistente Datenstrukturen und Datenbanken</div>
+					<div class="col-md-3 bg-list-blue">Typen</div>
 				</div>
 				<div class="row">
-					<div class="col-md-3 bg-blue">Formale Methoden für korrekte und robuste Software</div>
-					<div class="col-md-3 bg-blue">Abstraktionen für Nebenläufigkeit und Parallelismus</div>
-					<div class="col-md-3 bg-blue">Meta&shy;programmierung</div>
+					<div class="col-md-3 bg-list-blue">Formale Methoden für korrekte und robuste Software</div>
+					<div class="col-md-3 bg-list-blue">Abstraktionen für Nebenläufigkeit und Parallelismus</div>
+					<div class="col-md-3 bg-list-blue">Meta&shy;programmierung</div>
 				</div>
 				<div class="row">	
-					<div class="col-md-3 bg-blue">Probablistische Programmierung</div>
+					<div class="col-md-3 bg-list-blue">Probablistische Programmierung</div>
 				</div>
 			</div>
 	
@@ -36,14 +36,7 @@ language: de
 				<p>&nbsp;</p>
 				<a class="twitter-timeline"  href="https://twitter.com/BOBKonf" data-widget-id="648394288695508992" heigt="100">Tweets by @BOBKonf</a>
             	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				<h4>Organisiert von</h4>
-				<p>
-					<a href="http://funktionale-programmierung.de/" target="_blank"><img src="/images/fp-logo.png" alt="FP"></a><br>
-					<a href="http://www.active-group.de" target="_blank"><img src="/images/active-group-logo.png" alt="Active Group GmbH"></a><br>
-					<a href="http://www.factisresearch.com/" target="_blank"><img src="/images/factis-research-logo.png" alt="factis-research"></a><br>
-				</p>
-				<h4>Partner</h4>
-				<a href="http://clojured.de/" target="_blank"><img src="/images/clojured.png" alt="Clojured"></a>
+				{% include partner.html %}
 			</div>
 	</div>
 </div>
