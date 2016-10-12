@@ -12,40 +12,48 @@
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="/css/navbar.css" rel="stylesheet">
-
-    <!-- BOB custom -->
-    <link href="/css/bob-style.css" rel="stylesheet">
-
+     <!-- BOB custom -->
+     <link href="/css/navbar.css" rel="stylesheet">
+     <link href="/css/bob-style.css" rel="stylesheet">
     <script type='text/javascript' src='/js/bob.js'></script>
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
   </head>
 
   <body>
 
-    <div class="container">
+    <div class="bob"><!-- Bob Container -->
+     	<!-- BOB Head -->
+		<div class="wrapper">
+		<div class="row header">
+  	    {% include head.html %}			
+		</div>
+	</div>
+    
 
-      <!-- Static navbar -->
-      <div class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/"><img
-          src="/images/bob_head_tiny.png" alt="BOB"></img></a>
-        </div>
-        <div class="navbar-collapse collapse">
-	    {% include navbar.html %}
-        </div><!--/.nav-collapse -->
-      </div>
-      <div class="bob">
+      <!-- Sticky navbar -->
+       	<div class="navbar-container">
+		    <div class="navbar navbar-default" role="navigation">
+        		<div class="navbar-header">
+          			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+          			</button>
+		        </div>
+        		<div class="navbar-collapse collapse bob-collapse">
+	    			{% include navbar.html %}
+        		</div><!--/.nav-collapse -->
+      		</div>
+      	</div>
+      
+      <div class="wrapper">
         {{ content }}
       </div>
-    </div> <!-- /container -->
+      
+      {% include footer.html %}
+	
+	</div> <!-- /container -->
   </body>
     <!-- Bootstrap core JavaScript
     ================================================== -->

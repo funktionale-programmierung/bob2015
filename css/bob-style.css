@@ -1,29 +1,234 @@
-/* https://kuler.adobe.com/Campfire-color-theme-2528696/ */
 
+body{
+	color:#413C3C;
+	background-color:#fff;
+}
+
+
+/* Container */
+.bob{
+	margin:0px;
+	padding:0px;
+	background-color: white;
+	z-index:1;
+}
+
+.wrapper {
+  	margin-left: auto;
+  	margin-right: auto;
+ 	 margin-bottom:20px;
+ 	 margin-top:20px;
+ 	 border:0px;
+ 	 width:90%;
+ 	 z-index:2;
+}
+
+
+.header, .footer{
+	background-color: black;
+	color:#bbbbbb;
+	padding:20px;
+	z-index:2;
+}
+
+.footer{
+		position:fixed;
+		bottom:0px;
+		width:100%;
+		padding:0px;
+}
+.foot-wrapper{
+	  margin-left: auto;
+  	 margin-right: auto;
+  	 margin-bottom:0px;
+ 	 margin-top:0px;
+ 	 width:90%;
+ 	 padding:0px;
+ 	 border: 0px;
+}
+.bg-grey{
+	height:100%;
+	padding:20px;
+	background-color: #efefef;
+}
+.bg-blue{
+	display:flex;
+	align-items: center;
+	min-height:80px;
+	padding: 5px 10px;
+	margin:3px;
+	color:#bbbbbb;
+	font-size:16px;
+	background-color: #032641;
+}
+.spacer{
+	min-height:100px;
+}
+.align-rb{
+	float:right;
+	text-align:right;
+	margin-top:85px;
+	padding-bottom:10px;
+}
+.align-left{
+	float:left;
+}
+
+.teaser{
+	color:#292626;
+	opacity: 0.7;
+	-o-transition: opacity .5s ease-in-out;
+  	-ms-transition: opacity .5s ease-in-out;
+  	-moz-transition: opacity.5s ease-in-out;
+   	-webkit-transition: opacity 0.5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+	border: solid 1px #413C3C;
+	width: 90%;
+    height: auto;
+    left-margin:10px;
+    right-margin:auto;
+    background-image: url("../images/berlin-skyline.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    z-index:4;
+}
+.teaser:hover,
+.teaser:active,
+.teaser:focus {
+	opacity: 1;
+}
+
+/* imgages */
+.bob-img{
+	border: 0px;
+	width: auto;
+    height: auto;
+    max-height:170px;
+    margin:10px;
+  }
+
+img {
+	margin:10px;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+.footer img{
+	border:0px;
+	width:30px;
+	hight:30px;
+	padding:0px;
+	margin:1px;
+}
+
+/* Text Styles */
 .bob h3 {
   font-size: 28px;
 }
 
 .bob h1, h2 {
-  text-align: center;
+  text-align: left;
 }
 
 .bob h3, h4, h5 {
   text-align: left;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+h2.pc-member { 
+  text-align: left;
+}
+
+p.pc-data { 
+}
+
+
+.sr_only{
+	visibility: hidden;
+}
+
+p {
+	padding:10px;
+}
+
+.teaser .p1{
+    text-shadow: 3px -3px 3px #ffffff;
+    font-size: 32px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:40px;
+    margin-bottom:170px;
+}
+.teaser .p2{
+    text-shadow: 3px -3px 3px #ffffff;
+    font-size: 24px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:60px;
+    margin-bottom:30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/*links & buttons*/
+
+a {
+  color: #127B62;
+  text-decoration:none;
+      -o-transition: color .5s ease-in-out;
+  	-ms-transition: color .5s ease-in-out;
+  	-moz-transition: color.5s ease-in-out;
+   	-webkit-transition: color 0.5s ease-in-out;
+	transition: color .5s ease-in-out;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #03473C;
+  text-decoration: none;
+}
+
+.footer a{
+	text-decoration:none;
+ 	 color: #bbbbbb;
+      -o-transition: color .5s ease-in-out;
+  	-ms-transition: color .5s ease-in-out;
+  	-moz-transition: color.5s ease-in-out;
+   	-webkit-transition: color 0.5s ease-in-out;
+	transition: color .5s ease-in-out;
+	
+}
+.footer a:hover,
+.footer a:active,
+.footer a:focus {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .bob .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-  background-color: #588C73;
-  border-color: #588C73;
+  font-size: 16px;
+  padding: 10px 15px;
+  color:#cccccc;
+  background-color: #127B62;
+  border:0px;
+    -o-transition: background-color .5s ease-in-out;
+  	-ms-transition: background-color .5s ease-in-out;
+  	-moz-transition: background-color.5s ease-in-out;
+   	-webkit-transition: background-color 0.5s ease-in-out;
+	transition: background-color .5s ease-in-out;
 }
 
 .bob .btn:hover,
+.bob .btn:active,
 .bob .btn:focus {
-  background-color: #D96459;
-  border-color: #d40202;
+  background-color: #03473C;
 }
+
+
+/*alt*/
 
 .bob-name {
   font-weight: bold;
@@ -48,32 +253,7 @@
 
 .pc-row { margin-top:20px; }
 
-h2.pc-member { 
-  text-align: left;
-}
 
-p.pc-data { 
-}
-
-a {
-  color: #8C4646;
-}
-
-a:hover,
-a:focus {
-  color: #8C4646;
-}
-
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  color: #8C4646;
-  border-width: 10px;
-  border-bottom-width: 10px;
-  border-top-width: 10px;
-  border-color: #ff0000;
-  border-top: solid;
-  border-bottom: solid;
-}
 
 #portrait {
   float: right;
@@ -147,10 +327,6 @@ a:focus {
     .talkspeaker {  
         font-size: 16px;
     }
-}
-
-.footer {
-  margin-top: 20px;
 }
 
 .video {

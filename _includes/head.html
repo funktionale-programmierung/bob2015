@@ -1,0 +1,21 @@
+{% if page.language == "de" or page.language == null %}		
+			<div class="col-md-8 bg-grey">
+  				<img src="/images/bob_head.png" class="bob-img" alt="Hier ist das Logo der BOB Konferenz zu sehen.">
+  			</div>
+  			<div class="col-md-4">
+  				<p>Entwickler, Architekten und Macher treffen sich, um Pfade jenseits der Mainstream-Technologien zu beschreiten.
+					Sie spüren die besten Werkzeuge auf, die es heute für die Ent-wicklung moderner Software gibt.</p>
+					<p><b>Unser Ziel</b>: Jeder Teilnehmer soll viele neue Erfahrungen und Verbesserungen für sein eigenes
+					Entwicklungsumfeld mit nehmen.</p>
+			</div>
+{% else %}
+
+			<div class="col-md-8 bg-grey">
+  				<img src="/images/bob_head.png" class="bob-img" alt="Hier ist das Logo der BOB Konferenz zu sehen.">
+  			</div>
+  			<div class="col-md-4">
+  				<p>BOB is the forum for developers, architects and builders to explore technologies beyond the mainstream and to discover the best tools available today for building software.</p>
+  				<p><b>Our goal</b> is for all participants to leave the conference with new ideas to improve development back at the ranch.</p>
+			</div>
+
+{% endif %}
