@@ -61,32 +61,15 @@ body{
 	background-color: #032641;
 }
 
-.grey {
-	padding-left:20px;
-	padding-top:0px;
-	padding-right:10;
-	padding-bottom:0px;
-	margin:0px;
-	background-color: #efefef;
-	margin-bottom:20px;	
-}
-.white{
-	padding-left:20px;
-	padding-top:0px;
-	padding-right:10;
-	padding-bottom:0px;
-	margin:0px;
-	background-color: white;
-	margin-bottom:20px;	
-}
-.border-blue{
+
+.border-grey{
 	padding-left:20px;
 	padding-top:0px;
 	padding-right:10;
 	padding-bottom:0px;
 	margin:0px;
 	background-color: transparent;
-	border: 2px solid #032641;
+	border: solid 1px #413C3C;
 	margin-bottom:20px;	
 }
 
@@ -105,27 +88,26 @@ body{
 
 .teaser{
 	color:#292626;
-	opacity: 0.7;
-	-o-transition: opacity .5s ease-in-out;
-  	-ms-transition: opacity .5s ease-in-out;
-  	-moz-transition: opacity.5s ease-in-out;
-   	-webkit-transition: opacity 0.5s ease-in-out;
-	transition: opacity .5s ease-in-out;
+	opacity: 1;
+	-o-transition: opacity .3s ease-in-out;
+  	-ms-transition: opacity .3s ease-in-out;
+  	-moz-transition: opacity.3s ease-in-out;
+   	-webkit-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
 	border: solid 1px #413C3C;
 	width: 90%;
     height: auto;
-    left-margin:10px;
-    right-margin:auto;
-    background-image: url("../images/berlin-skyline.png");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position: center;
+    max-height:450px;
+    margin-top:50px;
+    margin-left:10px;
+    margin-right:auto;
+    padding:20px;
     z-index:4;
 }
 .teaser:hover,
 .teaser:active,
 .teaser:focus {
-	opacity: 1;
+	opacity: .85;
 }
 
 /* imgages */
@@ -133,12 +115,19 @@ body{
 	border: 0px;
 	width:auto;
     height:auto;
-    max-height:300px;
+    max-height:230px;
     margin-left:0px;
     margin-right:20px;
     margin-left:5px;
     margin-left:5px;
   }
+
+.berlin-img{
+	background-image: url("../images/berlin-skyline.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position: center;
+}
 
 img {
 	margin-right:10px;
@@ -193,21 +182,18 @@ p {
 
 .teaser .p1{
     text-shadow: 3px -3px 3px #ffffff;
-    font-size: 32px;
+    font-size: 18px;
     margin-left:20px;
     margin-right:20px;
-    margin-top:40px;
-    margin-bottom:170px;
 }
 .teaser .p2{
     text-shadow: 3px -3px 3px #ffffff;
-    font-size: 24px;
+    font-size: 16px;
     margin-left:20px;
     margin-right:20px;
-    margin-top:60px;
-    margin-bottom:30px;
+    margin-top:160px;
     font-weight: bolder;
-    text-align: center;
+	bottom:20px;
 }
 
 /*links & buttons*/

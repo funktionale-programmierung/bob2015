@@ -7,27 +7,33 @@
 <li><a href="/">Home</a></li>
 {% endif %}
 
-{% if page.active == "bob2017" %}
-<li class="dropdown active">
-  <a href="/2017/" class="dropdown-toggle"
-  data-toggle="dropdown">BOB 2017<b class="caret"></b></a>
-  <ul class="dropdown-menu">
+{% if page.active == "cfp" %}
+<li class="active"><a href="/2017/de/cfp.html">Call for Contributions</a></li>
 {% else %}
-<li class="dropdown">
-  <a href="/2017/" class="dropdown-toggle"
-  data-toggle="dropdown">BOB 2017<b class="caret"></b></a>
-  <ul class="dropdown-menu">
+<li><a href="/2017/de/cfp.html">Call for Contributions</a></li>
 {% endif %}
-    <li><a href="/2017/de/">Frontseite</a></li>
-    <li><a href="/2017/de/cfp.html">Call for Contributions</a></li>
-    <li><a href="/2017/programmkomitee.html">Programmkomitee</a></li>
-    <li><a href="/de/local.html">Veranstaltungsort</a></li>
-  </ul>
-</li>
+
+{% if page.active == "agenda" %}
+<li class="active"><a href="2017/de/agenda.html">Programm</a></li>
+{% else %}
+<li><a href="2017/de/agenda.html">Programm</a></li>
+{% endif %}
+
+{% if page.active == "comitee" %}
+<li class="active"><a href="/2017/programmkomitee.html"">Programmkomitee</a></li>
+{% else %}
+<li><a href="/2017/programmkomitee.html"">Programmkomitee</a></li>
+{% endif %}
+
+{% if page.active == "location" %}
+<li class="active"><a href="/de/local.html">Veranstaltungsort</a></li>
+{% else %}
+<li><a href="/de/local.html">Veranstaltungsort</a></li>
+{% endif %}
 
 <li class="dropdown">
   <a href="#" class="dropdown-toggle"
-  data-toggle="dropdown">Archiv<b class="caret"></b></a>
+  data-toggle="dropdown">Rückblick<b class="caret"></b></a>
   <ul class="dropdown-menu">
     <li><a href="/2016/de/">2016</a></li>
     <li><a href="/2015/en/">2015</a></li>
@@ -51,28 +57,33 @@
 <li><a href="/en/">Home</a></li>
 {% endif %}
 
-{% if page.active == "bob2017" %}
-<li class="dropdown active">
-  <a href="/2017/" class="dropdown-toggle"
-  data-toggle="dropdown">BOB 2017<b class="caret"></b></a>
-  <ul class="dropdown-menu">
+{% if page.active == "cfp" %}
+<li class="active"><a href="/2017/en/cfp.html">Call for Contributions</a></li>
 {% else %}
-<li class="dropdown">
-  <a href="/2017/" class="dropdown-toggle"
-  data-toggle="dropdown">BOB 2017<b class="caret"></b></a>
-  <ul class="dropdown-menu">
+<li><a href="/2017/en/cfp.html">Call for Contributions</a></li>
 {% endif %}
-    <li><a href="/2017/en/">Front page</a></li>
-    <li><a href="/2017/en/cfp.html">Call for Contributions</a></li>
-    <li><a href="/2017/programmkomitee.html">Program comittee</a></li>
-    <li><a href="/en/local.html">Local information</a></li>
-  </ul>
-</li>
 
+{% if page.active == "agenda" %}
+<li class="active"><a href="2017/en/agenda.html">Agenda</a></li>
+{% else %}
+<li><a href="2017/en/agenda.html">Agenda</a></li>
+{% endif %}
+
+{% if page.active == "comitee" %}
+<li class="active"><a href="/2017/programmkomitee.html"">Program comittee</a></li>
+{% else %}
+<li><a href="/2017/programmkomitee.html"">Program comittee</a></li>
+{% endif %}
+
+{% if page.active == "location" %}
+<li class="active"><a href="/en/local.html">Location</a></li>
+{% else %}
+<li><a href="/en/local.html">Location</a></li>
+{% endif %}
 
 <li class="dropdown">
   <a href="#" class="dropdown-toggle"
-  data-toggle="dropdown">Archive<b class="caret"></b></a>
+  data-toggle="dropdown">Retrospect<b class="caret"></b></a>
   <ul class="dropdown-menu">
     <li><a href="/2016/en/index.html">2016</a></li>
     <li><a href="/2015/en/index.html">2015</a></li>
