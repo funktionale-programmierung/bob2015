@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: bernauer.pdf
 youtube: imYJEZJ239I
 language: german
+head: 2016
 ---
 
 Was tun, wenn der Datenbestand vieler mobiler Geräte wie Handys oder

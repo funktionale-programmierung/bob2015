@@ -9,6 +9,7 @@ type: Vortrag
 slides-link: https://raw.githubusercontent.com/jkarni/bobkonf/master/presentation.md
 youtube: w9X1I1ySCCM
 language: english
+head: 2016
 ---
 
 Verdict is a Haskell library that provides a way of reifying

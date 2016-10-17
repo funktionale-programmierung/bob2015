@@ -8,6 +8,7 @@ type: Vortrag
 language: deutsch
 slides-file: thielemann.pdf
 youtube: 1kCZzDSnVL0
+head: 2015
 ---
 
 Man hört in den letzten Jahren zunehmend von modernen massiv parallel

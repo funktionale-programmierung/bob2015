@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Local Information BOB
+active: location
 language: en
 ---
 

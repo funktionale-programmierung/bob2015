@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 slides-file: stepien.pdf
 youtube: 5VOYa1R_vHI
+head: 2015
 ---
 
 At stylefruits we've been using Clojure on production since late

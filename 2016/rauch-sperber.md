@@ -8,6 +8,7 @@ portrait2: michael-sperber.jpg
 time: 10:15-11:00
 type: Vortrag
 language: german
+head: 2016
 ---
 
 Wie vom Problem zu lauffähiger Software kommen? OO-Patterns?

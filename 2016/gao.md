@@ -7,6 +7,7 @@ portrait: julia-gao.jpg
 time: 10:15-11:00
 type: Vortrag
 language: english
+head: 2016
 ---
 
 Whenever people talk about functional programming, Haskell/Clojure/Erlang

@@ -79,7 +79,7 @@ body{
 .align-rb{
 	float:right;
 	text-align:right;
-	margin-top:85px;
+	margin-top:60px;
 	padding-bottom:10px;
 }
 .align-left{
@@ -110,6 +110,41 @@ body{
 	opacity: .85;
 }
 
+.bcolor1 { 
+	color:#bbbbbb;
+	background-color: #032641;;
+}
+.bcolor2 { 
+	color:#bbbbbb;
+  	background-color: #01111d;
+}
+.bcolor3 { 
+  background-color: #efefef;
+}
+.bcolor4 { 
+  background-color: #efefef;
+}
+.bcolor5 { 
+  background-color: #b8c3cc;
+}
+
+/*table*/
+table{
+	/*border:2px solid #413C3C;*/
+	/*background-color:#413C3C;*/
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+td {
+	padding-top:10px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:10px;
+	border:3px solid #ffffff;
+	margin:0px;
+}
+
 /* imgages */
 .bg-head-grey img{
 	border: 0px;
@@ -136,28 +171,45 @@ img {
 	margin-bottom:20px;
 }
 
-.footer img{
-	border:0px;
+.social-img{
 	width:30px;
-	hight:30px;
+	height:30px;
 	padding:0px;
 	margin:1px;
+	border: 0px;
+}
+
+.img-circle{
+	border:5px solid transparent;
+}
+
+.img-circle:hover{
+	border:5px solid #cccccc;
 }
 
 /* Text Styles */
-.bob h3 {
+.bob h3{
   font-size: 28px;
 }
 
+.bob h4{
+  font-size: 22px;
+}
+
+.bob h5{
+  font-size: 18px;
+}
+
+
 .bob h1, h2 {
   text-align: left;
-  margin-bottom:30px;
+  margin-bottom:50px;
 }
 
 .bob h3, h4, h5 {
   text-align: left;
-  padding-top:20px;
-  padding-bottom:20px;
+  margin-top:20px;
+  margin-bottom:20px;
 }
 
 h2.pc-member { 
@@ -196,8 +248,19 @@ p {
 	bottom:20px;
 }
 
-/*links & buttons*/
+.talktitle {  
+		margin:0px;
+		padding:0px;
+       font-size: 18px;
+ }
+.talkspeaker {  
+			margin:0px;
+		padding:0px;
+        font-size: 14px;
+  }
 
+
+/*links & buttons*/
 a {
   color: #127B62;
   text-decoration:none;
@@ -283,21 +346,7 @@ a:focus {
   float: right;
 }
 
-.bcolor1 { 
-  background-color: #588C7E;
-}
-.bcolor2 { 
-  background-color: #F2E394;
-}
-.bcolor3 { 
-  background-color: #F2AE72;
-}
-.bcolor4 { 
-  background-color: #D96459;
-}
-.bcolor5 { 
-  background-color: #8C4646;
-}
+
 
 .talk { 
   padding-top: 1px;
@@ -341,16 +390,6 @@ a:focus {
     }
 }
 
-@media (min-width: 991px) {
-    .talkfill {
-        height: 60px;
-    }
-    .talktitle {  
-        font-size: 24px;
-    }
-    .talkspeaker {  
-        font-size: 16px;
-    }
 }
 
 .video {

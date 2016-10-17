@@ -7,6 +7,7 @@ portrait: meiklejohn.jpg
 time: 14:00-15:30
 type: Tutorial
 language: english
+head: 2015
 ---
 
 Riak is a highly-available, fault-tolerant, distributed

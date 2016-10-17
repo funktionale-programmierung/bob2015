@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: wehr.zip
 youtube: ZHcrnYZPZnQ
 language: german
+head: 2016
 ---
 
 Swift ist Apples neue Programmiersprache für iOS und Mac OS X. Das Design

@@ -8,6 +8,7 @@ portrait: kischkel.jpg
 type: Vortrag
 language: english
 slides-file: kischkel.pdf
+head: 2015
 ---
 
 Often, in the life of a successful software project comes a time when

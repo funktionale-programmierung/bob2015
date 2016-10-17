@@ -8,6 +8,7 @@ portrait2: ulrich.jpg
 time: 10:00-11:30
 type: Tutorial
 language: english
+head: 2015
 ---
 
 Haskell is an elegant and fascinating language that has made purely

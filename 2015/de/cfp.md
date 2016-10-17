@@ -3,6 +3,7 @@ layout: default
 active: bob2015
 title: Call for Contributions 2015
 language: de
+head: 2015
 ---
 
 ## [BOB 2015](/2015/) - Berlin, 23.1.2015

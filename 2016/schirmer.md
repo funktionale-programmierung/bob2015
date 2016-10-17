@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: schirmer.pdf
 youtube: deZx15FSkEE
 language: english
+head: 2016
 ---
 
 Did you recently face a combinatorial optimization problem?

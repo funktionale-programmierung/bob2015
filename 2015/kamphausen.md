@@ -9,6 +9,7 @@ type: Vortrag
 language: german
 slides-link: https://github.com/ska2342/de.skamphausen.bobkonf15
 youtube: IkvA-sz4b_M
+head: 2015
 ---
 
 In Clojure, der Lisp-artigen, funktionalen Programmiersprache auf der

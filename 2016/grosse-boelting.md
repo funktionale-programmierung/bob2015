@@ -9,6 +9,7 @@ type: Vortrag
 slides-link: http://www.graphomate.com/bobkonf16/
 youtube: hG6Q8RZKg28
 language: german
+head: 2016
 ---
 
 Die Adaption einer neuen Programmiersprache birgt viele Risiken: Wie

@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: hahn.pdf
 youtube: ZtWzh4mBzaI
 language: english
+head: 2016
 ---
 
 Datatype Generic Programming (DGP) allows to write code that operates

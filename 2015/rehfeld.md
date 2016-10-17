@@ -7,6 +7,7 @@ portrait: rehfeld.jpg
 time: 10:00-11:30
 type: Tutorial
 language: english
+head: 2015
 ---
 
 Erlang is famous for long-running interruption-free installations and

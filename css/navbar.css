@@ -1,12 +1,13 @@
 
 .navbar-container{
-	display: block;
+/*	display: block;
 	position: -webkit-sticky;
     position: -moz-sticky;
     position: -ms-sticky;
     position: -o-sticky;
-    position: sticky;
+    position: sticky;*/
     top: 0px; 
+    postion:static;
     width:100%;
     min-height:30px;
 	max-height:35px;
@@ -14,7 +15,7 @@
 	font-size: 12px;
 	color:#fff;	
     background-color:black;
-	z-index:1000;
+	z-index:1000 !important;
 }
 
 .nav {
@@ -34,8 +35,12 @@
 
 .navbar-header{
 	max-height:35px;
-	z-index:1001;
+	z-index:1001 !important;
 	
+}
+
+.navbar-default{
+	z-index:1002!important;
 }
 
 .navbar-default .navbar-nav > li > a {

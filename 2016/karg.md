@@ -10,6 +10,7 @@ type: Vortrag
 slides-file: karg.pdf
 youtube: EArV7Uy-TD0
 language: english
+head: 2016
 ---
 
 PureScript is a strongly-typed functional programming language that

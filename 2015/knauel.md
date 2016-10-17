@@ -7,6 +7,7 @@ time: 14:00-14:45
 portrait: knauel.jpg
 type: Vortrag
 language: german
+head: 2015
 ---
 
 Relationale Datenbanken sind das Rückgrat und zentrale Element vieler

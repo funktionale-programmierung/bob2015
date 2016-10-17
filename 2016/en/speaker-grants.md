@@ -3,6 +3,7 @@ layout: default
 active: bob2016
 title: Speaker Grants 2016
 language: en
+head: 2016
 ---
 
 # Speaker Grants

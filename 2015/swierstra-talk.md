@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 slides-file: swierstra.pdf
 youtube: ZtnLzxyn2Lg
+head: 2015
 ---
 
 At this year's WWDC, Apple announced Swift: a new language for iOS and

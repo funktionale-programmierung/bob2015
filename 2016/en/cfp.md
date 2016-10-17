@@ -3,6 +3,7 @@ layout: default
 active: bob2016
 title: Call for Contributions 2016
 language: en
+head: 2016
 ---
 
 ## [BOB 2016](/2016/) - Berlin, February 19, 2016

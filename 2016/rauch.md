@@ -7,6 +7,8 @@ portrait: nicole-rauch.jpg
 time: 14:15-15:45
 type: Tutorial
 language: german
+head: 2016
+head: 2016
 ---
 
 Bei der Softwareentwicklung wird viel Wert darauf gelegt, dass die

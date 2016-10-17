@@ -7,6 +7,7 @@ portrait: joachim-breitner.jpg
 time: 11:45-13:15
 type: Tutorial
 language: german
+head: 2016
 ---
 
 Der interaktive Theorembeweiser Isabelle ist nicht nur eine formidable

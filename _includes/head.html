@@ -1,6 +1,14 @@
 {% if page.language == "de" or page.language == null %}		
 			<div class="col-md-8 bg-head-grey">
-  				<img src="/images/bob_head-2017.png" alt="Hier ist das Logo der BOB Konferenz zu sehen.">
+			{% if page.head == 2015 %}
+  				<img src="/images/bob_head-2015.png" alt="Hier ist das Logo der BOB Konferenz 2015 zu sehen.">
+  			{% else %}
+  				{% if page.head == 2016 %}	
+  					<img src="/images/bob_head-2016.png" alt="Hier ist das Logo der BOB Konferenz 2016 zu sehen.">
+  				{% else %}
+  					<img src="/images/bob_head-2017.png" alt="Hier ist das Logo der BOB Konferenz 2017 zu sehen.">
+  				{% endif %}	
+  			{% endif %}	
   			</div>
   			<div class="col-md-4">
   				<p>Entwickler, Architekten und Macher treffen sich, um Pfade jenseits der Mainstream-Technologien zu beschreiten.
@@ -11,7 +19,15 @@
 {% else %}
 
 			<div class="col-md-8 bg-head-grey">
-  				<img src="/images/bob_head-2017.png" alt="Image logo Bob conference.">
+			{% if page.head == 2015 %}	
+  				<img src="/images/bob_head-2015.png" alt="Image Logo BOB conference 2015.">
+  			{% else %}
+  				{% if page.head == 2016 %}	
+  					<img src="/images/bob_head-2016.png" alt="Image Logo BOB conference 2016.">
+  				{% else %}			
+  					<img src="/images/bob_head-2017.png" alt="Image logo Bob conference 2017.">
+  				{% endif %}	
+  			{% endif %}		  			
   			</div>
   			<div class="col-md-4">
   				<p>BOB is the forum for developers, architects and builders to explore technologies beyond the mainstream and to discover the best tools available today for building software.</p>

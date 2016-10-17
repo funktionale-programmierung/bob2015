@@ -2,6 +2,7 @@
 layout: default
 active: bob2015
 title: Anmeldung / Registration
+head: 2015
 ---
 
 # Anmeldung

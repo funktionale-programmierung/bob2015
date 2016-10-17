@@ -9,6 +9,7 @@ type: Vortrag
 slides-link: http://joachim-breitner.de/publications/MonadFix_BobKonf2016_2016-02-19.pdf
 youtube: BQzJqdNASyg
 language: german
+head: 2016
 ---
 
 Man muss keine Monaden kennen, um Haskell zu programmieren, denn es

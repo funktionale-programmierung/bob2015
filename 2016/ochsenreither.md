@@ -7,6 +7,7 @@ portrait: simon-ochsenreither.jpg
 time: 11:45-13:15
 type: Tutorial
 language: german
+head: 2016
 ---
 
 Scala ist eine ausdrucksstarke, statisch typisierte Sprache, die

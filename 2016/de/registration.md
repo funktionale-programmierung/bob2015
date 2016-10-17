@@ -3,6 +3,7 @@ layout: default
 active: bob2016
 title: Anmeldung
 language: de
+head: 2016
 ---
 
 # Anmeldung

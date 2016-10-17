@@ -9,6 +9,7 @@ type: Vortrag
 language: german
 slides-file: greif.pdf
 youtube: UflO7YBdhYA
+head: 2015
 ---
 
 Das Konfigurieren von eingebetteten Devices ist nach wie vor ein

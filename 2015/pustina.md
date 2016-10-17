@@ -7,6 +7,7 @@ time: 15:00-15:45
 portrait: pustina.jpg
 type: Vortrag
 language: german
+head: 2015
 ---
 
 CenterDevice ist ein cloudbasiertes Dokumenten-Managementsystem, in

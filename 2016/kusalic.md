@@ -9,6 +9,7 @@ language: english
 slides-file: ikusalic.pdf
 youtube: f8vTK61uhz8
 portrait: ivan-kusalic.jpg
+head: 2016
 ---
 
 Type Classes are one of the most powerful abstractions we have at our

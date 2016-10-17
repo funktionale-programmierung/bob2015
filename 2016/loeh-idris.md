@@ -7,6 +7,7 @@ portrait: andres-loeh.jpg
 time: 16:20-17:50
 type: Tutorial
 language: english
+head: 2016
 ---
 
 Idris is a strongly typed functional programming languages with dependent

@@ -9,6 +9,7 @@ type: Vortrag
 language: german
 slides-file: iserlohn.pdf
 youtube: 8c3-rOXxBnI
+head: 2015
 ---
 
 Mikroservice-Architekuren sind zur Zeit in aller Munde. Und obwohl es

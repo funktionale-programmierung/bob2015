@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 slides-file: magalhaes.pdf
 youtube: vWiQdZeY2Bk
+head: 2015
 ---
 
 Advanced functional programming is commonplace in academia. In this

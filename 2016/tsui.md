@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: tsui.pdf
 youtube: 1275641lpkI
 language: english
+head: 2016
 ---
 
 Over the last year Facebook’s React JavaScript library has had a meteoric

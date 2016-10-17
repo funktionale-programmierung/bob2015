@@ -2,6 +2,7 @@
 layout: default
 active: bob2015
 title: Veranstaltungsort / Local Information BOB 2015
+head: 2015
 ---
 
 # Veranstaltungsort

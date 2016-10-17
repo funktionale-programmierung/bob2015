@@ -3,6 +3,7 @@ layout: default
 active: bob2016
 title: Registration
 language: en
+head: 2016
 ---
 
 # Registration

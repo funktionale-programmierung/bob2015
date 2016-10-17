@@ -7,6 +7,7 @@ portrait: matthias-fischmann.png
 time: 16:20-17:50
 type: Tutorial
 language: english
+head: 2016
 ---
 
 [PureScript](http://www.purescript.org/) is a language for

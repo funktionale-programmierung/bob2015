@@ -7,6 +7,7 @@ portrait: johannes-rudolph.jpg
 time: 14:15-15:45
 type: Tutorial
 language: english
+head: 2016
 ---
 
 Akka HTTP is a modern toolkit for all things HTTP in Scala. It

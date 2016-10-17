@@ -3,6 +3,7 @@ layout: default
 active: bob2016
 title: Referentenzuschüsse 2016
 language: de
+head: 2016
 ---
 
 # Referenten-Zuschüsse

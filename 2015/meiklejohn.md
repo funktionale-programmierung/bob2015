@@ -7,6 +7,7 @@ portrait: meiklejohn.jpg
 time: 11:30-13:00
 type: Tutorial
 language: english
+head: 2015
 ---
 
 Webmachine is a system for easily and declaratively building

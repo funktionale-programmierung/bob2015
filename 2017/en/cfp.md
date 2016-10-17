@@ -1,6 +1,6 @@
 ---
 layout: default
-active: bob2017
+active: cfp
 title: Call for Contributions 2017
 language: en
 ---

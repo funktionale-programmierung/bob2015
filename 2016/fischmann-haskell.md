@@ -8,6 +8,7 @@ portrait2: andres-loeh.jpg
 time: 10:15-11:45
 type: Tutorial
 language: english
+head: 2016
 ---
 
 Haskell is an elegant and fascinating language that has made purely

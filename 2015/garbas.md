@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 slides-link: http://slides.com/garbas/bobkonf2015#/
 youtube: yi8OnijT93I
+head: 2015
 ---
 
 Allow me to introduce you to Nix - The Purely Functional Package Manager.

@@ -7,6 +7,7 @@ portrait: robby-raschke.jpg
 time: 10:15-11:45
 type: Tutorial
 language: english
+head: 2016
 ---
 
 This brief tutorial introduces Erlang and focuses mainly on the

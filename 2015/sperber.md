@@ -7,6 +7,7 @@ time: 11:30-13:00
 portrait: sperber.jpg
 type: Tutorial
 language: german
+head: 2015
 ---
 
 Clojure ist neben Scala die führende funktionale Programmiersprache

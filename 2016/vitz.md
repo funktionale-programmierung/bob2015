@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: vitz.pdf
 youtube: DVKafLYzCm0
 language: german
+head: 2016
 ---
 
 Clojure ist eine JVM-Sprache, die das Unmögliche möglich macht: Ein
