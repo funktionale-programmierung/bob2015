@@ -87,27 +87,57 @@ body{
 }
 
 .teaser{
+	display:table;
 	color:#292626;
-	opacity: 1;
+	opacity: .9;
 	-o-transition: opacity .3s ease-in-out;
   	-ms-transition: opacity .3s ease-in-out;
   	-moz-transition: opacity.3s ease-in-out;
    	-webkit-transition: opacity .3s ease-in-out;
 	transition: opacity .3s ease-in-out;
 	border: solid 1px #413C3C;
-	width: 90%;
-    height: auto;
+	border-radius:4px;
+	width: 100%;
+   height:100%;
+    min-height: 100%;
     max-height:450px;
     margin-top:50px;
     margin-left:10px;
-    margin-right:auto;
+    margin-right:0px;
     padding:20px;
     z-index:4;
 }
 .teaser:hover,
 .teaser:active,
 .teaser:focus {
-	opacity: .85;
+	opacity: 1;
+}
+
+.btn-teaser{
+	display:table;
+  color:#cccccc;
+  background-color: #13886d;
+	-o-transition: background-color .3s ease-in-out;
+  	-ms-transition: background-color .3s ease-in-out;
+  	-moz-transition: background-color.3s ease-in-out;
+   	-webkit-transition: background-color .3s ease-in-out;
+	transition: background-color .3s ease-in-out;
+	border: 0px;
+	border-radius:4px;
+	width: 100%;
+	height:100%;
+    min-height: 100%;
+    max-height:450px;
+    margin-top:50px;
+    margin-left:10px;
+    margin-right:20px;
+    padding:20px;
+    z-index:4;
+}
+.btn-teaser:hover,
+.btn-teaser:active,
+.btn-teaser:focus {
+	 background-color: #0f6b56;
 }
 
 .bcolor1 { 
@@ -179,13 +209,7 @@ img {
 	border: 0px;
 }
 
-.img-circle{
-	border:5px solid transparent;
-}
 
-.img-circle:hover{
-	border:5px solid #cccccc;
-}
 
 /* Text Styles */
 .bob h3{
@@ -232,20 +256,24 @@ p {
 	
 }
 
-.teaser .p1{
-    text-shadow: 3px -3px 3px #ffffff;
-    font-size: 18px;
+.p1{
+    font-size: 24px;
     margin-left:20px;
     margin-right:20px;
+    margin-top:20px;
+    margin-bottom:200px;
+    opacity: 1;
 }
-.teaser .p2{
-    text-shadow: 3px -3px 3px #ffffff;
-    font-size: 16px;
-    margin-left:20px;
-    margin-right:20px;
-    margin-top:160px;
+.p2{
+    font-size: 20px;
+    margin-top:30px;
     font-weight: bolder;
-	bottom:20px;
+}
+
+.p3{
+    font-size: 20px;
+    margin-top:135px;
+    opacity: 1;
 }
 
 .talktitle {  
@@ -262,8 +290,9 @@ p {
 
 /*links & buttons*/
 a {
-  color: #127B62;
+  color: #13886d;
   text-decoration:none;
+  font-weight:bold;
       -o-transition: color .3s ease-in-out;
   	-ms-transition: color .3s ease-in-out;
   	-moz-transition: color.3s ease-in-out;
@@ -274,7 +303,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #18a382;
+  color: #0f6b56;
   text-decoration: none;
 }
 
@@ -297,9 +326,9 @@ a:focus {
 
 .bob .btn {
   font-size: 16px;
-  padding: 10px 15px;
+  padding: 50px 150px;
   color:#cccccc;
-  background-color: #127B62;
+  background-color: #13886d;
   border:0px;
     -o-transition: background-color .3s ease-in-out;
   	-ms-transition: background-color .3s ease-in-out;
@@ -311,7 +340,7 @@ a:focus {
 .bob .btn:hover,
 .bob .btn:active,
 .bob .btn:focus {
-  background-color: #18a382;
+  background-color: #0f6b56;
 }
 
 

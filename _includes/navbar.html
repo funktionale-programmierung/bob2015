@@ -12,13 +12,16 @@
 {% else %}
 <li><a href="/2017/de/cfp.html">Call for Contributions</a></li>
 {% endif %}
-
 {% if page.active == "agenda" %}
 <li class="active"><a href="/2017/de/agenda.html">Programm</a></li>
 {% else %}
 <li><a href="/2017/de/agenda.html">Programm</a></li>
 {% endif %}
-
+{% if page.active == "richtlinien" %}
+<li class="active"><a href="/de/policies.html">Richtlinien</a></li>
+{% else %}
+	<li> <a href="/de/policies.html">Richtlinien</a></li>	
+{% endif %}					
 {% if page.active == "comitee" %}
 <li class="active"><a href="/2017/programmkomitee.html"">Programmkomitee</a></li>
 {% else %}
@@ -52,7 +55,7 @@
 <ul class="nav navbar-nav">
 
 {% if page.active == "home" %}
-<li class="active"><a href="/">Home</a></li>
+<li class="active"><a href="/en/">Home</a></li>
 {% else %}
 <li><a href="/en/">Home</a></li>
 {% endif %}
@@ -68,6 +71,11 @@
 {% else %}
 <li><a href="/2017/en/agenda.html">Agenda</a></li>
 {% endif %}
+{% if page.active == "richtlinien" %}
+<li class="active"><a href="/en/policies.html">Policies</a></li>
+{% else %}
+	<li> <a href="/en/policies.html">Richtlinien</a></li>	
+{% endif %}					
 
 {% if page.active == "comitee" %}
 <li class="active"><a href="/2017/programmkomitee.html"">Program comittee</a></li>

@@ -4,30 +4,31 @@
 		<div class="spacer"></div>
 		<div class="footer">
 			<div class="foot-wrapper">
-	{% if page.language == "de" or page.language == null %}
-				<div class="align-left">
-					<p><b>Folge BOB</b>
-					<br /><img src="/images/twitter.png" alt="Das Logo von Twitter" class="social-img" >
-					<a href="https://twitter.com/bobkonf" target="_blank">Twitter</a>
-					<br /><a href="http://lanyrd.com/2017/bob2017/" style="margin-left:35px;" target="_blank">Lanyrd</a></p>
+			<div class="row">
+		{% if page.language == "de" or page.language == null %}
+					<div class="col-md-6 align-left">
+						<p><b>Folge BOB</b>
+						<br /><img src="/images/twitter.png" alt="Das Logo von Twitter" class="social-img" >
+						<a href="https://twitter.com/bobkonf" target="_blank">Twitter</a>&nbsp;&nbsp;&nbsp;
+						<a class="twitter-follow-button" href="https://twitter.com/BOBKonf"> Folge @BOBKonf</a>
+						<br /><a href="http://lanyrd.com/2017/bob2017/" style="margin-left:35px;" target="_blank">Lanyrd</a></p>
+					</div>
+					<div class="col-md-6 align-rb">
+					    <a href="/impressum.html">Impressum</a>
+					</div>
+		{% else %}
+					<div class="col-md-6 align-left">
+						<p><b>Follow BOB</b>
+						<br /><img src="/images/twitter.png" alt="Logo Twitter" class="social-img">
+						<a href="https://twitter.com/bobkonf" target="_blank">Twitter</a>&nbsp;&nbsp;&nbsp;
+						<a class="twitter-follow-button" href="https://twitter.com/BOBKonf"> Follow @BOBKonf</a>
+						<br /><a href="http://lanyrd.com/2017/bob2017/" style="margin-left:35px;" target="_blank">Lanyrd</a></p>
+					</div>
+					<div class="col-md-6 align-rb">
+					    <a href="/en/impressum.html">Imprint</a>
+					</div>
+	
+		{% endif %}			
 				</div>
-				<div class="align-rb">
-					<a href="/de/policies.html">Richtlinien</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				    <a href="/impressum.html">Impressum</a>
-				</div>
-	{% else %}
-				<div class="align-left">
-					<p><b>Follow BOB</b>
-					<br /><img src="/images/twitter.png" alt="Logo Twitter" class="social-img">
-					<a href="https://twitter.com/bobkonf" target="_blank">Twitter</a>
-					<br /><a href="http://lanyrd.com/2017/bob2017/" style="margin-left:35px;" target="_blank">Lanyrd</a></p>
-				</div>
-				<div class="align-rb">
-					<a href="/en/policies.html">Policies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				    <a href="/en/impressum.html">Imprint</a>
-				</div>
-
-	{% endif %}			
-		
 			</div>
 		 </div>

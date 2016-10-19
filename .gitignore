@@ -1,1 +1,8 @@
 _site
+.lock
+.project
+.log
+.metadata
+*.
+.dat.nosync1ba2.QqnpkL
+.settings
