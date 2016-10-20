@@ -76,6 +76,9 @@ body{
 .spacer{
 	min-height:100px;
 }
+.spacer2{
+	min-height:200px;
+}
 .align-rb{
 	float:right;
 	text-align:right;
@@ -240,9 +243,6 @@ h2.pc-member {
   text-align: left;
 }
 
-p.pc-data { 
-}
-
 
 .sr_only{
 	visibility: hidden;
@@ -255,17 +255,21 @@ p {
 	margin-left:10px;
 	
 }
+.tiny {
+	font-size:12px;
+	text-align: right;
+}
 
 .p1{
     font-size: 24px;
     margin-left:20px;
     margin-right:20px;
     margin-top:20px;
-    margin-bottom:200px;
+    margin-bottom:107px;
     opacity: 1;
 }
 .p2{
-    font-size: 20px;
+    font-size: 22px;
     margin-top:30px;
     font-weight: bolder;
 }
@@ -274,6 +278,9 @@ p {
     font-size: 20px;
     margin-top:135px;
     opacity: 1;
+}
+.p4 {
+ 	font-size: 16px;	
 }
 
 .talktitle {  
@@ -306,6 +313,7 @@ a:focus {
   color: #0f6b56;
   text-decoration: none;
 }
+
 
 .footer a{
 	text-decoration:none;
