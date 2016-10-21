@@ -23,9 +23,9 @@
 	<li> <a href="/de/policies.html">Richtlinien</a></li>	
 {% endif %}					
 {% if page.active == "comitee" %}
-<li class="active"><a href="/2017/programmkomitee.html"">Programmkomitee</a></li>
+<li class="active"><a href="/2017/de/programmkomitee.html"">Programmkomitee</a></li>
 {% else %}
-<li><a href="/2017/programmkomitee.html"">Programmkomitee</a></li>
+<li><a href="/2017/de/programmkomitee.html"">Programmkomitee</a></li>
 {% endif %}
 
 {% if page.active == "location" %}
@@ -44,12 +44,12 @@
 </li>
 
 </ul>
-{% if page.language == "de" %}
 <ul class="nav navbar-right">
 <li><a href="{{ page.url | replace_first: '/de/', '/en/' }}">English</a></li>
 </ul>
+
 {% endif %}
-{% endif %}
+
 
 {% if page.language == "en" %}
 <ul class="nav navbar-nav">
@@ -74,13 +74,13 @@
 {% if page.active == "richtlinien" %}
 <li class="active"><a href="/en/policies.html">Policies</a></li>
 {% else %}
-	<li> <a href="/en/policies.html">Richtlinien</a></li>	
+	<li> <a href="/en/policies.html">Policies</a></li>	
 {% endif %}					
 
 {% if page.active == "comitee" %}
-<li class="active"><a href="/2017/programmkomitee.html"">Program comittee</a></li>
+<li class="active"><a href="/2017/en/programmkomitee.html"">Program comittee</a></li>
 {% else %}
-<li><a href="/2017/programmkomitee.html"">Program comittee</a></li>
+<li><a href="/2017/en/programmkomitee.html"">Program comittee</a></li>
 {% endif %}
 
 {% if page.active == "location" %}

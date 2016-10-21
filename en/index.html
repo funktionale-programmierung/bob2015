@@ -3,43 +3,62 @@ layout: default
 active: home
 title: Homepage
 language: en
+head: 2017
 ---
 
 <div class="wrapper">
 	<div class="row">
 			  	
-			<div class="col-md-9"> <!-- linke Hauptspalte -->
-			  	<div class="teaser">
-					<p class="p1">February 24, 2017 in Berlin</p>
-					<p class="p2">What happens when we use what's best for a change?</p>
-			 	</div>
-				<h4>Topics</h4>
-				<div class="row">
-					<div class="col-md-3 bg-list-blue">functional programming</div>
-					<div class="col-md-3 bg-list-blue">persistent data structures and databases</div>
-					<div class="col-md-3 bg-list-blue">types</div>
+		<div class="col-md-9"> <!-- linke Hauptspalte -->
+			<div class="row">	  	
+				<div class="col-md-6"> 
+	 			 	<a href="/2017/en/cfp.html">
+				 	<div class="btn-teaser">
+						<h3>Call for Contributions</h3>
+						<p class="p2">open until:</p>
+						<p class="p1">October 30</p>
+		 			</div>
+				</div>
+				
+				<div class="col-md-6"> <!-- rechte Hauptspalte -->
+					<a href="http://www.cse.chalmers.se/~rjmh/" target="_new"><div class="btn-teaser">
+						<h3>Keynote</h3>
+						<p align="center">
+						<img src="/2017/portrait/keynote2017.jpg" alt="Portrait von John Hughes" class="img-circle" width="120" height="120" align="center">
+						<br /> <span class="p2">John Hughes</span></p>
+					</div></a>
+			   </div>
+			 </div>
 
-				</div>
-				<div class="row">
-					<div class="col-md-3 bg-list-blue">formal methods for correctness and robustness</div>
-					<div class="col-md-3 bg-list-blue">abstractions for concurrency and parallelism</div>
-					<div class="col-md-3 bg-list-blue">meta&shy;programming</div>
-				</div>
-				<div class="row">	
-					<div class="col-md-3 bg-list-blue">probabilistic programming</div>
+			<div class="row">
+				<div class="col-md-12">
+						<a href="/en/local.html"><div class="teaser berlin-img">
+						<h3>Februar 24, 2017 in Berlin</h3>
+						<p class="sr_only">The conference take place in Berlin, the background shows an image with the skyline of Berlin.
+						<div class="spacer2">&nbsp;</div>
+						</div>
+						</a>
+						<p class="tiny">Many thanks to <a href="http://www.artPause.com" target="_new"artPause.com>artPause.com</a>.
 				</div>
 			</div>
+		</div>
 	
-			<div class="col-md-3"><!-- rechte Hauptspalte -->
-				<h4>Neuigkeiten</h4>
-				<a class="btn" href="/2017/de/cfp.html">Call for Contributions</a>
-				<p>Open until Oktober 30</p>
-				<a class="btn" href="http://www.cse.chalmers.se/~rjmh/" target="_blank">Keynote<br />John Hughes</a>
+		<div class="col-md-3"><!-- rechte Hauptspalte -->
+			<h4>Tweets</h4>
+				<p><a class="twitter-timeline"  href="https://twitter.com/BOBKonf"
+					data-widget-id="648394288695508992"
+					width="300" height="150"
+					data-chrome="nofooter noheader"
+					data-tweet-limit="2">Tweets by @BOBKonf</a>
+
+				</p>
 				<p>&nbsp;</p>
-				<a class="twitter-timeline"  href="https://twitter.com/BOBKonf" data-widget-id="648394288695508992" heigt="100">Tweets by @BOBKonf</a>
-            	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				{% include partner.html %}
-			</div>
+				<p>
+					<a class="twitter-follow-button" href="https://twitter.com/BOBKonf"> Follow @BOBKonf</a>
+				</p>
+				<p>&nbsp;</p>
+			{% include partner.html %}
+		</div>
 	</div>
 </div>
 
