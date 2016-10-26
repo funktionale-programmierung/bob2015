@@ -16,4 +16,4 @@ function make () {
   return r + '.de';
 }
 
-var e = make ('konf', 'ob', 'onf');
+var e = make ('konf', 'ob', 'onf');                       

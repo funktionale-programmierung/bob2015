@@ -370,6 +370,48 @@ a:focus {
   background-color: #0f6b56;
 }
 
+@media (max-width: 480px) {
+    .talkfill {
+        height: 20px;
+    }
+    .talktitle {  
+        font-size: 8px;
+    }
+    .talkspeaker {  
+        font-size: 6px;
+    }
+    .footer {
+    	position:static;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .talkfill {
+        height: 30px;
+    }
+    .talktitle {  
+        font-size: 14px;
+    }
+    .talkspeaker {  
+        font-size: 10px;
+    }
+    .footer {
+    	position:static;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .talkfill {
+        height: 40px;
+    }
+    .talktitle {  
+        font-size: 20px;
+    }
+    .talkspeaker {  
+        font-size: 14px;
+    }
+}
+
+
+
 /*alt*/
 
 .bob-name {
@@ -411,41 +453,7 @@ a:focus {
   height: 150px;
 }
 
-@media (max-width: 480px) {
-    .talkfill {
-        height: 20px;
-    }
-    .talktitle {  
-        font-size: 8px;
-    }
-    .talkspeaker {  
-        font-size: 6px;
-    }
-}
-@media (min-width: 481px) and (max-width: 767px) {
-    .talkfill {
-        height: 30px;
-    }
-    .talktitle {  
-        font-size: 14px;
-    }
-    .talkspeaker {  
-        font-size: 10px;
-    }
-}
-@media (min-width: 768px) and (max-width: 990px) {
-    .talkfill {
-        height: 40px;
-    }
-    .talktitle {  
-        font-size: 20px;
-    }
-    .talkspeaker {  
-        font-size: 14px;
-    }
-}
 
-}
 
 .video {
   position: relative;

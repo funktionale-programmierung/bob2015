@@ -32,7 +32,7 @@
     
 
       <!-- Sticky navbar -->
-       	<div class="navbar-container" data-spy="affix" data-offset-top="320">
+       	<div class="navbar-container" id="sticky-navbar">
 		    <div class="navbar navbar-default" role="navigation">
         		<div class="navbar-header">
           			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -61,4 +61,21 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script>
+      var h = document.getElementById("sticky-navbar");
+      var initial = h.offsetTop;
+      var sticky = false;
+
+      window.onscroll = function(e){
+        var distance = h.offsetTop - window.pageYOffset;
+        if((distance <= 0 ) && !sticky) {
+              h.style.position = 'fixed';
+              h.style.top = '0px';
+              sticky = true;
+        } else if (sticky && (window.pageYOffset <= initial)){
+              h.style.position = 'static';
+              sticky = false;
+        }
+      }                             
+    </script>
 </html>
