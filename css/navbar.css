@@ -1,3 +1,7 @@
+.nav-wrapper {
+	min-height:30px;
+	max-height:35px;
+}
 
 .navbar-container{
 /*	display: block;
@@ -11,7 +15,7 @@
     min-height:30px;
 	max-height:35px;
 	opacity: 0.95;
-	font-size: 15px;
+	font-size: 13px;
 	color:#fff;	
     background-color:black;
 	z-index:1000 !important;
