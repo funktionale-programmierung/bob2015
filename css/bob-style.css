@@ -9,8 +9,18 @@ body{
 .bob{
 	margin:0px;
 	padding:0px;
+	width:90%;
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top:20px;
+	margin-bottom:0px;
+	padding-bottom:0px;
 	background-color: white;
 	z-index:1;
+}
+.head{
+	margin:0px;
+	padding:0px;
 }
 
 .wrapper {
@@ -24,22 +34,19 @@ body{
 }
 
 
-.header, .footer{
-	background-color: black;
-	color:#bbbbbb;
-	padding:20px;
-	z-index:2;
-}
-
 .footer{
+		background-color: black;
+	color:#bbbbbb;
 		font-size:11px;
 		position:fixed;
 		bottom:0px;
 		width:100%;
 		padding:0px;
+		margin:0px;
 }
 .foot-wrapper{
-	  margin-left: auto;
+	 background-color: black;
+	 margin-left: auto;
   	 margin-right: auto;
   	 margin-bottom:0px;
  	 margin-top:0px;
@@ -80,15 +87,12 @@ body{
 .spacer2{
 	min-height:200px;
 }
-.align-rb{
-	float:right;
+.align-right{
 	text-align:right;
-	margin-top:52px;
-	padding-bottom:10px;
+	margin-top:14px;
+	float:right;
 }
-.align-left{
-	float:left;
-}
+
 
 .teaser{
 	display:table;
@@ -196,6 +200,8 @@ td {
     background-size:100%;
     background-repeat:no-repeat;
     background-position: center;
+    /*color:#13886d;*/
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);
 }
 
 img {
@@ -209,7 +215,10 @@ img {
 	width:30px;
 	height:30px;
 	padding:0px;
-	margin:1px;
+	margin-left:1px;
+	margin-right:1px;
+	margin-top:0px;
+	margin-bottom:0px;
 	border: 0px;
 }
 
@@ -266,7 +275,7 @@ p {
     margin-left:20px;
     margin-right:20px;
     margin-top:20px;
-    margin-bottom:107px;
+    margin-bottom:97px;
     opacity: 1;
 }
 .p2{
@@ -285,7 +294,7 @@ p {
 }
 
 .footer p{
-	margin-bottom: 10px;	
+	margin-bottom: 0px;	
 }
 
 .talktitle {  
@@ -323,18 +332,23 @@ a:focus {
 .footer a{
 	text-decoration:none;
  	 color: #bbbbbb;
+ 	 font-weight:normal;
       -o-transition: color .3s ease-in-out;
   	-ms-transition: color .3s ease-in-out;
   	-moz-transition: color.3s ease-in-out;
    	-webkit-transition: color .3s ease-in-out;
 	transition: color .3s ease-in-out;
-	
 }
 .footer a:hover,
 .footer a:active,
 .footer a:focus {
   color: #ffffff;
   text-decoration: underline;
+}
+
+.twitter-follow-button{
+	margin-top:5px;
+	padding:0px;
 }
 
 .bob .btn {
@@ -387,6 +401,9 @@ a:focus {
     }
     .footer {
     	position:static;
+    		background-color: black;
+	color:#bbbbbb;
+	padding-bottom:20px;
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -400,7 +417,10 @@ a:focus {
         font-size: 10px;
     }
     .footer {
+    	background-color: black;
+	color:#bbbbbb;
     	position:static;
+    	padding-bottom:20px;
     }
 }
 @media (min-width: 768px) and (max-width: 990px) {

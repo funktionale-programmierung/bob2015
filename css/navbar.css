@@ -57,7 +57,8 @@
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: red;
+  color: #ff4800;
+  font-weight:bold;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -140,7 +141,7 @@
 .navbar-right  a {
 	margin-right:20px;
 	font-weight:bold;
-    color: #ff0000;
+    color: #ff4800;
     -o-transition: color .5s ease-in-out;
   	-ms-transition: color .5s ease-in-out;
   	-moz-transition: color.5s ease-in-out;
@@ -150,7 +151,7 @@
 .navbar-right  a:hover,
 .navbar-right  a:active,
 .navbar-right  a:focus {
-  color: #ffaaaa;
+  color: #ffb463;
 }
 
 .dropdown-menu{
@@ -183,7 +184,7 @@
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: red;
+  color: #ff4800;
   text-decoration: none;
   background-color: black;
   outline: 0;

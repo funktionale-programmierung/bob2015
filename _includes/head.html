@@ -1,39 +1,28 @@
 {% if page.language == "de" or page.language == null %}		
-			<div class="col-md-8 bg-head-grey">
+			<div class="col-md-12 head">
 			{% if page.head == 2015 %}
-  				<a href="/2015/de/"><img src="/images/bob_head-2015.png" alt="Hier ist das Logo der BOB Konferenz 2015 zu sehen."></a>
+  				<a href="/2015/de/"><img src="/images/bob_head-2015.png" class="head" alt="Hier ist das Logo der BOB Konferenz 2015 zu sehen."></a>
   			{% else %}
   				{% if page.head == 2016 %}	
-  					<a href="/2016/de/"><img src="/images/bob_head-2016.png" alt="Hier ist das Logo der BOB Konferenz 2016 zu sehen."></a>
+  					<a href="/2016/de/"><img src="/images/bob_head-2016.png" class="head" alt="Hier ist das Logo der BOB Konferenz 2016 zu sehen."></a>
   				{% else %}
-  					<a href="/2017/de/"><img src="/images/bob_head-2017.png" alt="Hier ist das Logo der BOB Konferenz 2017 zu sehen."></a>
+  					<a href="/2017/de/"><img src="/images/bob_head-2017-date.png" class="head" alt="Hier ist das Logo der BOB Konferenz 2017 zu sehen."></a>
   				{% endif %}	
   			{% endif %}	
   			</div>
-  			<div class="col-md-4">
-  				<p class="p4">Entwickler, Architekten und Macher treffen sich, um Pfade jenseits der Mainstream-Technologien zu beschreiten.
-					Sie spüren die besten Werkzeuge auf, die es heute für die Entwicklung moderner Software gibt.</p>
-					<p class="p4"><b>Unser Ziel</b>: Jeder Teilnehmer soll viele neue Erfahrungen und Verbesserungen für sein eigenes
-					Entwicklungsumfeld mit nehmen.</p>
-					<p class="p2">Was passiert, wenn wir einfach mal das Beste nehmen?</p>
-			</div>
+  			
 {% else %}
 
-			<div class="col-md-8 bg-head-grey">
+			<div class="col-md-12 head"">
 			{% if page.head == 2015 %}	
-  				<a href="/2015/en/"><img src="/images/bob_head-2015.png" alt="Image Logo BOB conference 2015."></a>
+  				<a href="/2015/en/"><img src="/images/bob_head-2015.png" class="head" alt="Image Logo BOB conference 2015."></a>
   			{% else %}
   				{% if page.head == 2016 %}	
-  					<a href="/2016/en/"><img src="/images/bob_head-2016.png" alt="Image Logo BOB conference 2016."></a>
+  					<a href="/2016/en/"><img src="/images/bob_head-2016.png" class="head" alt="Image Logo BOB conference 2016."></a>
   				{% else %}			
-  					<a href="/2017/en/"><img src="/images/bob_head-2017.png" alt="Image logo Bob conference 2017."></a>
+  					<a href="/2017/en/"><img src="/images/bob_head-2017-date-en.png" class="head" alt="Image logo Bob conference 2017."></a>
   				{% endif %}	
   			{% endif %}		  			
   			</div>
-  			<div class="col-md-4">
-  				<p class="p4">BOB is the forum for developers, architects and builders to explore technologies beyond the mainstream and to discover the best tools available today for building software.</p>
-  				<p class="p4"><b>Our goal</b> is for all participants to leave the conference with new ideas to improve development back at the ranch.</p>
-				<p class="p2">What happens when we use what's best for a change?</p>
-			</div>
-
+ 
 {% endif %}
