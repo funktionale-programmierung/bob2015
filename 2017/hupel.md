@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2017
-title: Tausend auf einen Streich 
+title: "Tausend auf einen Streich: Einführung in QuickCheck"
 speaker: Lars Hupel
 portrait: lars-hupel.jpg
 time: 14:15-15:45
