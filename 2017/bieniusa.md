@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2017
-title: Einführung in CRDTs
+title: Mehr Konsistenz für replizierte Daten!
 speaker: Anette Bieniusa
 portrait: annette-bieniusa.jpg
 time: 11:45-13:15
