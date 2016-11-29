@@ -41,10 +41,9 @@ einer verteilten Anwendung zum Einsatz kommen können.
 
 ### Annette Bieniusa
 
-Annette Bieniusa studierte Mathematik, Latein und Informatik in
-Saarbrücken, Leeds und Freiburg.  Nach ihrer Promotion zu Software
-Transactional Memory in Freiburg (2011) und einem Postdoc bei INRIA
-(Paris) ist sie Akademische Rätin an der TU Kaiserslautern.  Ihr
-Forschungsgebiet ist die Semantik verteilter und nebenläufiger
-Systeme, mit einem Fokus auf (Geo-)Replikation, Synchronisation und
-Programmiersprachenkonzepte.
+Annette Bieniusa ist Akademische Rätin an der TU Kaiserslautern in der
+Arbeitsgruppe Software-Technik. Ihr Forschungsgebiet ist die Semantik
+verteilter und nebenläufiger Systeme, mit einem Fokus auf
+(Geo-)Replikation, Synchronisation und Programmiersprachenkonzepte zur
+Konsistenz.
+
