@@ -3,7 +3,6 @@ layout: talk
 active: bob2017
 title: Shell-Scripting mit Haskell
 speaker: Franz Thoma
-portrait: franz-thoma.jpg
 time: 11:45-12:30
 type: Vortrag
 language: german
