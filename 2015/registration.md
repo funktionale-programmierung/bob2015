@@ -12,7 +12,7 @@ Konferenz teilzunehmen, müssen Sie sich anmelden.
 Die Anmeldegebühr zur BOB 2015 ist gestaffelt nach Zeitpunkt der
 Anmeldung. Zusätzlich gibt es noch einen Rabatt für Studenten sowie
 für Teilnehmer unserer Partnerkonferenz
-[:clojured](http://projekt.beuth-hochschule.de/clojured/)
+[:clojured](http://www.clojured.de/)
 Es gelten folgende Tarife:
 
 <div class="row">
@@ -63,9 +63,9 @@ Studentenausweis vorzeigen. Anderenfalls müssen Sie vor Ort den Aufpreis zur
 regulären Konferenzgebühr bezahlen.
 
 Falls Sie den ermäßigten Betrag für Teilnehmer der
-[:clojured](http://projekt.beuth-hochschule.de/clojured/)
+[:clojured](http://www.clojured.de/)
 bezahlt haben, müssen Sie sich tatsächlich auch bei der
-[:clojured](http://projekt.beuth-hochschule.de/clojured/)
+[:clojured](http://www.clojured.de/)
 registrieren. Ansonsten müssen Sie vor Ort den Aufpreis zur regulären
 Konferenzgebühr bezahlen.
 
@@ -85,7 +85,7 @@ BOB 2015 takes place 23rd January 2015 in Berlin. Participation in the
 conference requires a registration. The registration fee of BOB 2015
 depends on when you register. We also offer a student discount and
 a discount for participants of
-[:clojured](http://projekt.beuth-hochschule.de/clojured/).
+[:clojured](http://www.clojured.de/).
 
 <div class="row">
 <div class="col-md-3"></div>
@@ -133,10 +133,10 @@ a valid, current student ID at the day of the conference. If you fail to
 provide a student ID, you have to pay the full registration fee.
 
 If you pay the reduced fee for
-[:clojured](http://projekt.beuth-hochschule.de/clojured/)
+[:clojured](http://www.clojured.de/)
 participants, you also have to
 register for
-[:clojured](http://projekt.beuth-hochschule.de/clojured/).
+[:clojured](http://www.clojured.de/).
 If you fail to do so, you have to pay
 the full registration fee.
 

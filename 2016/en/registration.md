@@ -111,10 +111,10 @@ a valid, current student ID at the day of the conference. If you fail to
 provide a student ID, you have to pay the full registration fee.
 
 If you pay the reduced fee for
-[:clojured](http://projekt.beuth-hochschule.de/clojured/)
+[:clojured](http://www.clojured.de/)
 participants, you also have to
 register for
-[:clojured](http://projekt.beuth-hochschule.de/clojured/).
+[:clojured](http://www.clojured.de/).
 Please take your :clojured ticket with you when visiting the
 BOB conference.
 If you fail to do so, you have to pay
