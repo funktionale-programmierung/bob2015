@@ -7,6 +7,11 @@
 <li><a href="/">Home</a></li>
 {% endif %}
 
+{% if page.active == "registration" %}
+<li class="active"><a href="/2017/de/registration.html">Registrierung</a></li>
+{% else %}
+<li><a href="/2017/de/registration.html">Registrierung</a></li>
+{% endif %}
 {% if page.active == "program" %}
 <li class="active"><a href="/2017/program.html">Programm</a></li>
 {% else %}
@@ -53,6 +58,12 @@
 <li class="active"><a href="/en/">Home</a></li>
 {% else %}
 <li><a href="/en/">Home</a></li>
+{% endif %}
+
+{% if page.active == "registration" %}
+<li class="active"><a href="/2017/en/registration.html">Registration</a></li>
+{% else %}
+<li><a href="/2017/en/registration.html">Registration</a></li>
 {% endif %}
 
 {% if page.active == "program" %}
