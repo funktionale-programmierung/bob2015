@@ -1,6 +1,6 @@
 ---
 layout: default
-active: bob2017
+active: registration
 title: Anmeldung
 language: de
 head: 2017
@@ -104,6 +104,7 @@ diesen Tutorials ist in der Konferenzgebühr enthalten. Da es pro Tutorial
 aber nur eine begrenze Anzahl von Plätzen gibt, müssen Sie sich für jedes
 Tutorial extra anmelden. Bitte beachten Sie dies bei Ihrer Anmeldung.
 
+{% comment %}
 ### Kinderbetreuung
 
 BOB bietet Kinderbetreuung für den ganzen Tag ohne zusätzliche Kosten
@@ -112,6 +113,7 @@ Die Betreuung findet im Gebäude der Konferenz statt und wird von
 [Kinderbetreuung "Kunterbunt"](http://www.hochzeit-kinderbetreuung.de)
 durchgeführt.  Falls Sie Interesse haben, schicken Sie uns
 [E-Mail](mailto:konferenz@bobkonf.de).
+{% endcomment %}
 
 ### Rabattbedingungen
 
