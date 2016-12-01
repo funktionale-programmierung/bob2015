@@ -6,7 +6,7 @@ speaker: Anette Bieniusa
 portrait: annette-bieniusa.jpg
 time: 11:45-13:15
 type: Tutorial
-language: english
+language: german
 head: 2017
 ---
 

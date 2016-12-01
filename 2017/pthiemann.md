@@ -6,7 +6,7 @@ speaker: Peter Thiemann
 portrait: peter-thiemann.jpg
 time: 16:20-17:50
 type: Tutorial
-language: english
+language: german
 head: 2017
 ---
 
