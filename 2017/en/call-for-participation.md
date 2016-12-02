@@ -7,6 +7,8 @@
 
 <hr/>
 
+![BOB Logo](/images/bob_head.png)
+
 # BOB 2017
 
 ## Conference
