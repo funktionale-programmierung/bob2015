@@ -3,6 +3,7 @@ layout: talk
 active: bob2017
 title: Shell-Scripting mit Haskell
 speaker: Franz Thoma
+portrait: franz-thoma.jpg
 time: 11:45-12:30
 type: Vortrag
 language: german
@@ -23,3 +24,16 @@ Shell-Skripten. Standard-Befehle wie `ls` und `cd` werden emuliert oder an
 das Betriebssystem delegiert, Pipes bekommen dank `do`-Notation
 Steroide, und Kommandozeilenparameter werden deklarativ definiert und
 automatisch geparst – mit kostenloser Bash-Completion.
+
+### Franz Thoma
+
+ist ursprünglich Physiker und arbeitet als Consultant und
+Softwareentwickler bei TNG Technology Consulting in München. Dort hat
+er sich mit Compilerbau und domänenspezifischen Sprachen beschäftigt
+und dabei sein Interesse für funktionale Sprachen und Typsysteme
+entdeckt.
+
+In Haskell hat er eine robuste und elegante Sprache gefunden, wenn es
+um Skripting und Tooling für die Erleichterung der täglichen Arbeit
+geht. Zudem nutzt er Haskell auch gerne als Thinking Tool, um
+Problemstellungen und Lösungsansätze zu formulieren.
