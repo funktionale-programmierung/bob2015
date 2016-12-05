@@ -95,7 +95,6 @@ BOB 2017 also offer several tutorials, which are included in the conference
 fee. However, limited capacities require that you register
 for each tutorial individually.
 
-{% comment %}
 ###  Child care
 
 BOB offers child care for the entire day at no additional cost, if at
@@ -104,7 +103,6 @@ will be in the building of the conference, and provided by
 [Kinderbetreuung "Kunterbunt"](http://www.hochzeit-kinderbetreuung.de).
 If you would like to sign up for this,
 [e-mail us](mailto:konferenz@bobkonf.de).
-{% endcomment %}
 
 ### Discount eligibility
 
