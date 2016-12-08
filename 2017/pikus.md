@@ -33,9 +33,9 @@ assets of bimodal architecture for combining IoT and BPM.
 
 ### Yevgen Pikus
 
-I studied computer since at TU Braunschweig. During the study I was an
-active member of Scala User Group Braunschweig. Since December 2015 I
-am a researcher and a Ph.D. student at Fraunhofer ISST in Dortmund and
-I am working on the development of IoT ecosystems, BigData platforms
-and business processes management applications.
-
+Yevgen Pikus studied computer since at TU Braunschweig. During the
+study he was an active member of Scala User Group Braunschweig. Since
+December 2015 he is a researcher and a Ph.D. student at Fraunhofer
+ISST in Dortmund and he is working on the development of IoT
+ecosystems, BigData platforms and business processes management
+applications.
