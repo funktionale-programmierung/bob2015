@@ -91,7 +91,7 @@ Please write us an <a href="mailto:konferenz@bobkonf.de">e-mail</a>
 
 The conference fee includes snacks, drinks and lunch.
 
-BOB 2017 also offer several tutorials, which are included in the conference
+BOB 2017 also offers several tutorials, which are included in the conference
 fee. However, limited capacities require that you register
 for each tutorial individually.
 
