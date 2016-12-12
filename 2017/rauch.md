@@ -6,7 +6,7 @@ speaker: Nicole Rauch
 portrait: nicole-rauch.jpg
 time: 14:15-15:45
 type: Tutorial
-language: german
+language: english
 head: 2017
 ---
 
