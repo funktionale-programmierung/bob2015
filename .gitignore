@@ -6,3 +6,5 @@ _site
 *.
 .dat.nosync1ba2.QqnpkL
 .settings
+*~
+.DS_Store
