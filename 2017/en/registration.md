@@ -120,6 +120,24 @@ BOB conference.
 If you fail to do so, you have to pay
 the full registration fee.
 
+### Conference dinner
+
+To celebrate BOB 2017, we have organized a dinner directly after the
+conference. The dinner event takes place at ["Cafe Morgenrot"](https://goo.gl/maps/6iM4KAmffvC2).
+You can reach the cafe from
+the conference venue in approx 30 minutes (U8 from Paracelsus-Bad direction Hermannstraße to
+Rosenthaler Platz; from there two stops with Tram M1 direction
+Niederschönhausen to Schwedter Straße). The dinner starts between
+6:30pm and 7pm.
+
+The dinner event is not included in the conference fee, it costs 20 Euro extra.
+Included is vegetarian/vegan food and drinks for about
+10 Euro. Please make sure that you pay drinks for yourself once you get
+over the 10 Euro limit.
+
+Important: You need to register for the dinner event. Tickets are
+available from the registration site of the conference.
+
 <div class="row">
   <div class="col-md-4"></div>
   <div class="col-md-4">
