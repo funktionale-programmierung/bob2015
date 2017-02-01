@@ -135,7 +135,7 @@ Included is vegetarian/vegan food and drinks for about
 10 Euro. Please make sure that you pay drinks for yourself once you get
 over the 10 Euro limit.
 
-<b>Important:</br> You need to register for the conference dinner.
+<b>Important:</b> You need to register for the conference dinner.
 
 <div class="row">
   <div class="col-md-4"></div>
