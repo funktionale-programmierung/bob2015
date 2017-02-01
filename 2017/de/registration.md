@@ -136,7 +136,8 @@ reserviert. Das Cafe ist mit
 erreichbar (U8 von Paracelsus-Bad Richtung Hermannstraße bis Haltestelle
 Rosenthaler Platz; von dort zwei Haltestellen mit Tram M1 Richtung
 Niederschönhausen bis Schwedter Straße).
-Beginn der Abendveranstaltung ist zwischen 18:30 und 19 Uhr.
+Beginn der Abendveranstaltung ist zwischen 18:30 und 19 Uhr, direkt nach
+Ende der Konferenz.
 
 Das Abendessen ist nicht in der Konferenzgebühr enthalten.
 Essen und Getränke kosten pro Person 20 Euro. Darin enthalten sind ein
