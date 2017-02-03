@@ -146,7 +146,7 @@ Euro. Bitte achten Sie selbst auf das Limit bei den
 Getränken. Selbstverständlich können Sie auch mehr Getränke konsumieren,
 bitte bezahlen Sie diese dann aber selbst direkt im Cafe.
 
-<b>Wichtig:</b> Für die Abendveranstaltung am 24.2.2017 ist ebenfalls ein
+<b>Wichtig:</b> Für die Abendveranstaltung am 24.2.2017 ist ebenfalls eine
 Registrierung nötig.
 
 <div class="row">
