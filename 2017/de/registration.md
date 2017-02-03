@@ -127,32 +127,19 @@ registrieren. Bitte bringen Sie zur BOB-Konferenz auch das Ticket
 für die :clojured mit. Ansonsten müssen Sie vor Ort den Aufpreis zur regulären
 Konferenzgebühr bezahlen.
 
-### Conference Dinner
+### Abendessen vorher und nachher
 
-Zum Ausklang der BOB 2017 findet im Anschluss an die Konferenz ein
-gemeinsames Abendessen statt. Wir haben dazu Plätze im [Cafe Morgenrot](https://goo.gl/maps/6iM4KAmffvC2)
-reserviert. Das Cafe ist mit
-öffentlichen Verkehrsmitteln in 30 Minuten vom Konferenzort
-erreichbar (U8 von Paracelsus-Bad Richtung Hermannstraße bis Haltestelle
-Rosenthaler Platz; von dort zwei Haltestellen mit Tram M1 Richtung
-Niederschönhausen bis Schwedter Straße).
-Beginn der Abendveranstaltung ist zwischen 18:30 und 19 Uhr, direkt nach
-Ende der Konferenz.
+Wir treffen uns zum Abendessen am Abend des Vortags und am Abend der
+BOB selbst.
 
-Das Abendessen ist nicht in der Konferenzgebühr enthalten.
-Essen und Getränke kosten pro Person 20 Euro. Darin enthalten sind ein
-Buffet mit vegetarischem/veganen Essen sowie Getränke im Wert von ca. 10
-Euro. Bitte achten Sie selbst auf das Limit bei den
-Getränken. Selbstverständlich können Sie auch mehr Getränke konsumieren,
-bitte bezahlen Sie diese dann aber selbst direkt im Cafe.
+Für das Abendessen nach der BOB ist eine Registrierung erforderlich.
 
-<b>Wichtig:</b> Für die Abendveranstaltung am 24.2.2017 ist ebenfalls eine
-Registrierung nötig.
 
 <div class="row">
   <div class="col-md-4"></div>
   <div class="col-md-4">
-    <p class="text-center"><a class="btn btn-primary" href="https://ti.to/bob/bob2017/" role="button">Anmelden &raquo;</a></p>
+    <p class="text-center"><a class="btn btn-primary"
+  href="evening.html" role="button">Mehr Informationen &raquo;</a></p>
   </div>
 </div>
 
