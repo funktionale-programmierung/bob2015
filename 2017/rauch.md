@@ -26,6 +26,16 @@ React.js.
 In this workshop, the participants create a single-page-app with
 React.js and Redux in small steps.
 
+### Preparation
+
+1. Please install Node.js 6.x LTS (e.g. from
+   [`https://nodejs.org/en/download/`](https://nodejs.org/en/download/))
+   
+2. Please download or clone this
+   repo:
+   [`https://github.com/NicoleRauch/VortragReactUndRedux`](https://github.com/NicoleRauch/VortragReactUndRedux)
+
+
 ### Nicole Rauch
 
 Nicole Rauch ist freiberufliche Softwareentwicklerin und
