@@ -22,6 +22,11 @@ wird.  In diesem Vortrag wird es um die Bibliothek „QuickCheck“ und
 einige weiterführende Techniken gehen, mit denen man – mit
 vertretbarem Aufwand – Tests deutlich zuverlässiger machen kann.
 
+Teilnehmer sollten das
+Repositorium
+[`https://github.com/larsrh/bobkonf2017`](https://github.com/larsrh/bobkonf2017) clonen.
+Dort befinden sich weitere Instruktionen.
+
 ### Lars Hupel
 
 Lars is a PhD student in Munich, Germany, working in the area of
