@@ -39,6 +39,13 @@ Datentypen und ihrer Strategien zur Konfliktauflösung werden wir
 anhand von Beispielen diskutieren und dabei verstehen, wie CRDTs in
 einer verteilten Anwendung zum Einsatz kommen können.
 
+### Vorbereitung
+
+Es gibt ein Docker-Image mit allem, was für das Tutorial nötig ist.
+Es wird installiert mit:
+
+`docker run -i -t cmeiklejohn/crdt-tutorial`  
+
 ### Annette Bieniusa
 
 Annette Bieniusa ist Akademische Rätin an der TU Kaiserslautern in der
