@@ -25,6 +25,10 @@ wichtigsten Features von Agda vor. Zum Abschluss beleuchten wir einige
 Anwendungen von Agda und geben Hinweise auf Informationsquellen zum
 Thema.
 
+### Vorbereitung
+
+Eine Installationsanleitung für Agda befindet sich [hier](https://www.stackage.org/package/Agda).
+
 ### Peter Thiemann
 
 Peter Thiemann ist Professor für Informatik an der Universität
