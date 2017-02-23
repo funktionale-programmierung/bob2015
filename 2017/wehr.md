@@ -14,7 +14,10 @@ Apples inzwischen nicht mehr ganz so neue Programmiersprache Swift
 beinhaltet viele Elemente der funktionalen Programmierung. Wir schauen uns
 in diesem Tutorial genauer die funktionalen Elemente von Swift an und
 bringen sie zur praktischen Anwendung. Die Teilnehmer benötigen einen Mac
-mit Version 8.1 von [Xcode](https://developer.apple.com/xcode/).
+mit Version 8.2 von
+[Xcode](https://developer.apple.com/xcode/). Alternativ
+können einige wenige Teilnehmer per Remote-Desktop auf einem
+bereitgestellten Mac arbeiten. Das müssen wir aber vor Ort ausprobieren.
 
 ### Stefan Wehr
 
