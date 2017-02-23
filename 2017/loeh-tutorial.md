@@ -43,6 +43,11 @@ go. However, some basic familiarity with Haskell or at least
 another statically typed functional programming language is
 going to be helpful.
 
+### Preparation
+
+[This GitHub repository](https://github.com/kosmikus/servant-bobkonf-2017) has
+instructions for following along with the tutorial.
+
 ### Andres Löh
 
 Andres Löh is a Haskell consultant and co-owner of Well-Typed LLP. He is based

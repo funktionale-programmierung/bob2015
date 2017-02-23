@@ -30,9 +30,6 @@ how far this can be turned into a more general programming technique
 that is applicable to a wide variety of situations (and programming
 languages).
 
-[This GitHub repository](https://github.com/kosmikus/servant-bobkonf-2017) has
-instructions for following along with the tutorial.
-
 ### Andres Löh
 
 Andres Löh is a Haskell consultant and co-owner of Well-Typed LLP. He
