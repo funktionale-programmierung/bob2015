@@ -25,3 +25,7 @@ Stefan Wehr entwirft und entwickelt bei der factis research GmbH komplexe
 Anwendungen und verteilte Systeme, meistens in der funktionalen
 Programmiersprache Haskell. Er ist mitverantwortlich für die clientseitige
 Entwicklung der [Checkpad MED App](http://cp-med.com) auf iOS.
+
+### Resourcen
+
+[Beispielprojekt](resources/Diagrams.tar.gz)
