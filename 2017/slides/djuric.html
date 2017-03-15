@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html class=" js no-mobile desktop no-ie ff ff51 talks-section bobkonferenz2017-section w-1920 gt-240 gt-320 gt-480 gt-640 gt-768 gt-800 gt-1024 gt-1280 gt-1440 gt-1680 portrait no-landscape gradient rgba opacity textshadow multiplebgs boxshadow borderimage borderradius no-cssreflections csstransforms csstransitions no-touch no-retina fontface domloaded" id="bayadera-bob-page" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>&lt;font color = "OrangeRed"&gt;Bayadera&lt;/font&gt;&lt;br/&gt; 
+&lt;font color = "red"&gt;Bayes&lt;/font&gt; + &lt;font color = 
+"lime"&gt;Clojure&lt;/font&gt; + &lt;font color = 
+"yellow"&gt;GPU&lt;/font&gt;</title>
+<meta name="author" content="(Dragan Djuric)">
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="djuric_files/reveal.css">
+
+<link rel="stylesheet" href="djuric_files/black.css" id="theme">
+
+<link rel="stylesheet" href="djuric_files/noborder.css">
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="djuric_files/MathJax.js"></script><script type="text/javascript" src="djuric_files/zoom.js"></script><script type="text/javascript" src="djuric_files/notes.js"></script>
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax_LineBox {display: table!important}
+.MathJax_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+<body style="transition: -webkit-transform 0.8s ease 0s;"><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px none; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"><br><br><br><br><br><br></div></div><div id="MathJax_Message" style="display: none;"></div>
+<div class="reveal default center ready" role="application" data-transition-speed="default" data-background-transition="fade">
+<div class="slides" style="width: 960px; height: 700px; left: 50%; top: 50%; bottom: auto; right: auto; transform: translate(-50%, -50%) scale(1.92);">
+<section id="sec-title-slide" style="top: 169.5px; display: block;" class="present"><h2><font color="OrangeRed">Bayadera</font><br> <font color="red">Bayes</font> + <font color="lime">Clojure</font> + <font color="yellow">GPU</font></h2><h3>Dragan Djuric</h3><strong><a href="mailto:dragandj@gmail.com">dragandj@gmail.com</a></strong>
+</section>
+<aside class="notes">
+<p>
+Hello. This is a presentation of Bayadera. It's a Bayesian statistics and machine learning library,
+implemented in Clojure, that get its speed from GPU's.
+</p>
+
+</aside>
+<section style="top: 0px; display: block;" aria-hidden="true" class="stack future" hidden="">
+<section id="slide-orgheadline1" style="top: 34px; display: block;">
+<h2 id="orgheadline1">Dragan Djuric</h2>
+<ul>
+<li>blog <a href="http://dragan.rocks/">http://dragan.rocks</a></li>
+<li>twitter <a href="https://twitter.com/draganrocks">@draganrocks</a></li>
+<li>Professor of Software Engineering</li>
+<li>University of Belgrade</li>
+<li>Clojure as a primary language since <b>2009</b></li>
+<li>Interested in Bayesian methods in ML.</li>
+<li>dragandj@gmail.com</li>
+<li>github: blueberry / uncomplicate</li>
+<li><a href="http://uncomplicate.org/">http://uncomplicate.org</a></li>
+
+</ul>
+
+<aside class="notes">
+<p>
+My name is Dragan Djuric, I am a professor of software engineering at
+the University of Belgrade.
+</p>
+
+<p>
+ I've been using Clojure as my primary programming language since 2009,
+and I teach it since 2010.
+</p>
+
+<p>
+I am interested in ML, especially the bayesian kind.
+</p>
+
+<p>
+You can find me on github, or read my blog at dragan.rocks, where you can also find this presentation.
+</p>
+
+</aside>
+
+</section>
+</section>
+<section style="top: 0px; display: block;" aria-hidden="true" class="stack future" hidden="">
+<section id="slide-orgheadline8" style="top: 198px; display: block;">
+<h2 id="orgheadline8">A little background</h2>
+<ul>
+<li>Clojure</li>
+<li>GPU computing</li>
+<li>Bayesian Data Analysis</li>
+
+</ul>
+
+<aside class="notes">
+<p>
+There are 3 topics in this talk:
+</p>
+<ul>
+<li>Clojure</li>
+<li>GPU computing</li>
+<li>Bayesian Data Analysis</li>
+
+</ul>
+
+</aside>
+</section>
+<section id="slide-orgheadline2" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline2">Clojure - a modern lisp</h3>
+<ul>
+<li>Dynamic <b>and</b> fast</li>
+<li>First-class functions</li>
+<li>Great abstractions and data structures</li>
+<li>Many useful libraries</li>
+<li>Even more experimental libraries</li>
+<li>Seamless access to Java and the JVM</li>
+<li>ClojureScript in browsers, node etc.</li>
+
+</ul>
+
+
+<aside class="notes">
+<p>
+Clojure is great! It's a modern, pragmatical lisp, that integrates well into today's most popular platforms.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline3" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline3">Are Java and Clojure good at number crunching?</h3>
+<ul>
+<li>Good? maybe.</li>
+<li>Great? NO!</li>
+<li>JVM - no access to hardware-specific optimizations</li>
+
+<li>We can make it great!</li>
+
+</ul>
+
+<aside class="notes">
+<p>
+But, is it good at number crunching?
+</p>
+
+<p>
+It is certainly not bad, but compared to what's available elsewhere, it is not great either.
+</p>
+
+<p>
+One of my goals is to make Clojure great for implementing numerical-heavy algorithms.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline4" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline4">CPU is not so great either!</h3>
+<ul>
+<li>R, Python? Even worse than Java.</li>
+<li>C? complicated, verbose platform-specific optimizations.</li>
+<li>CPU? too beefed-up. Burns as the Sun!</li>
+
+</ul>
+
+<aside class="notes">
+<p>
+What about other managed platforms? Those are even worse than JVM when it comes
+to number crunching. It is true that they have rich libraries that fall back
+to native code, but… writing <b>custom</b> algorithms is very difficult…
+</p>
+
+<p>
+And CPU itself is not so great either! CPUs have rich instruction sets, but
+that requires lots of transistors that devours energy.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline5" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline5">GPU has a lot to offer …at a price</h3>
+<ul>
+<li>many dumb computing units</li>
+<li>but, power-efficient for number crunching</li>
+<li>hardware support for massive parallelism</li>
+<li>faster and cheaper each year</li>
+<li><b>notoriously difficult to program</b></li>
+
+</ul>
+
+<aside class="notes">
+<p>
+…which brings us to GPUs. GPUs contain very simple computing units, but it is
+possible to pack many of those on one chip!
+The features that are provided are exactly the numerical operations and parallelization
+support that we need! They are more powerful and cheaper each year.
+It's a shame that the programming platforms are from the stone age!
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline6" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline6">Uncomplicate</h3>
+<dl>
+<dt><font color="yellow">Fluokitten</font></dt><dd>fluorescent monadic fuzzy little things</dd>
+<dt><font color="yellow">ClojureCL</font></dt><dd>take control of the GPU and CPU from Clojure</dd>
+<dt><font color="yellow">Neanderthal</font></dt><dd>optimized vectors and matrices on CPU and GPU</dd>
+<dt><font color="OrangeRed">Bayadera</font></dt><dd>high performance Bayesian statistics and data analysis on the GPU</dd>
+
+</dl>
+
+<aside class="notes">
+<p>
+Uncomplicate is a family of open-source Clojure libraries for scientific and high-performance computing.
+</p>
+
+<p>
+My main goal was to create a state-of-the art Bayesian machine learning infrastructure. For that to fly,
+I also had to provide lower-level libraries, since what was available at the time on JVM, was lot worse
+than the best tools available elsewhere.
+</p>
+
+<p>
+ClojureCL is a Clojure library for taking <b>full</b> control of the GPU with minimal overhead.
+</p>
+
+<p>
+Neanderthal leverages battle-tested native linear algebra libraries for the CPU and latest GPU libraries
+to provide the full-speed matrix support tailored to Clojure with almost no overhead.
+</p>
+
+<p>
+Bayadera goes beyond that - a library for Bayesian statistics on the GPU that is much faster than
+the fastest available mainstream offerings!
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline7" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline7">What does all this has to do with Bayes?</h3>
+<ul>
+<li>BDA is conceptually simple</li>
+<li>Real models must be calculated numerically</li>
+<li>MCMC sampling and related methods</li>
+<li>In higher dimensions, requires huge samples</li>
+<li>Analyses typically run in minutes, hours, weeks</li>
+
+</ul>
+<p>
+.
+</p>
+<ul>
+<li>Good: Clojure and GPU FTW</li>
+<li>Challenge: <b>MCMC is sequential</b></li>
+
+</ul>
+
+<aside class="notes">
+<p>
+Bayesian methods are conceptually simple and elegant (although not always easy to learn).
+</p>
+
+<p>
+The main challenge is that <b>real-world</b> models are not possible to solve analytically, and require
+<b>enormous</b> computational resources. Main numerical methods are variants of MCMC simulation, and analyses
+typically run in minutes, hours, days, weeks or even more.
+</p>
+
+<p>
+GPU are an obvious help. Numerical methods can typically be fast on GPU's.
+</p>
+
+<p>
+But there's a challenge: <b>MCMC is inherently sequential</b> so it is difficult to parallelize.
+</p>
+
+</aside>
+
+</section>
+</section>
+<section style="top: 350px; display: none;" aria-hidden="true" class="stack future" hidden="">
+<section id="slide-orgheadline15" style="top: 350px; display: none;">
+<h2 id="orgheadline15">A Bayesian Data Analysis Primer</h2>
+<p>
+How to know something we cannot observe?
+</p>
+
+<ul>
+<li>Probabilities of all answers (<b>prior</b>)</li>
+<li>Probability of measured data (<b>evidence</b> and <b>likelihood</b>)</li>
+<li>Calculate "backwards", using Bayes' rule and get</li>
+<li><b>posterior</b> probabilities of answers</li>
+
+</ul>
+<div>
+<span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mo movablelimits=&quot;true&quot; form=&quot;prefix&quot;&gt;Pr&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;|&lt;/mo&gt;&lt;/mrow&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mo movablelimits=&quot;true&quot; form=&quot;prefix&quot;&gt;Pr&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;|&lt;/mo&gt;&lt;/mrow&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;&amp;#x00D7;&lt;/mo&gt;&lt;mo movablelimits=&quot;true&quot; form=&quot;prefix&quot;&gt;Pr&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mo movablelimits=&quot;true&quot; form=&quot;prefix&quot;&gt;Pr&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 13.178em; display: inline-block;"><span style="display: inline-block; position: relative; width: 11.881em; height: 0px; font-size: 111%;"><span style="position: absolute; clip: rect(1.055em, 1011.88em, 3.622em, -1000em); top: -2.59em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mo" id="MathJax-Span-3" style="font-family: STIXGeneral;">Pr</span><span class="mo" id="MathJax-Span-4" style="font-family: STIXGeneral;">(</span><span class="mi" id="MathJax-Span-5" style="font-family: STIXGeneral; font-style: italic;">H<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.047em;"></span></span><span class="texatom" id="MathJax-Span-6"><span class="mrow" id="MathJax-Span-7"><span class="mo" id="MathJax-Span-8" style="font-family: STIXVariants;">|</span></span></span><span class="mi" id="MathJax-Span-9" style="font-family: STIXGeneral; font-style: italic;">D</span><span class="mo" id="MathJax-Span-10" style="font-family: STIXGeneral;">)</span><span class="mo" id="MathJax-Span-11" style="font-family: STIXGeneral; padding-left: 0.313em;">=</span><span class="mfrac" id="MathJax-Span-12" style="padding-left: 0.313em;"><span style="display: inline-block; position: relative; width: 6.952em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.139em, 1006.78em, 4.356em, -1000em); top: -4.674em; left: 50%; margin-left: -3.416em;"><span class="mrow" id="MathJax-Span-13"><span class="mo" id="MathJax-Span-14" style="font-family: STIXGeneral;">Pr</span><span class="mo" id="MathJax-Span-15" style="font-family: STIXGeneral;">(</span><span class="mi" id="MathJax-Span-16" style="font-family: STIXGeneral; font-style: italic;">D</span><span class="texatom" id="MathJax-Span-17"><span class="mrow" id="MathJax-Span-18"><span class="mo" id="MathJax-Span-19" style="font-family: STIXVariants;">|</span></span></span><span class="mi" id="MathJax-Span-20" style="font-family: STIXGeneral; font-style: italic;">H<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.047em;"></span></span><span class="mo" id="MathJax-Span-21" style="font-family: STIXGeneral;">)</span><span class="mo" id="MathJax-Span-22" style="font-family: STIXGeneral; padding-left: 0.25em;">×</span><span class="mo" id="MathJax-Span-23" style="font-family: STIXGeneral; padding-left: 0.25em;">Pr</span><span class="mo" id="MathJax-Span-24" style="font-family: STIXGeneral;">(</span><span class="mi" id="MathJax-Span-25" style="font-family: STIXGeneral; font-style: italic;">H<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.047em;"></span></span><span class="mo" id="MathJax-Span-26" style="font-family: STIXGeneral;">)</span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; clip: rect(3.153em, 1002.23em, 4.344em, -1000em); top: -3.312em; left: 50%; margin-left: -1.139em;"><span class="mrow" id="MathJax-Span-27"><span class="mo" id="MathJax-Span-28" style="font-family: STIXGeneral;">Pr</span><span class="mo" id="MathJax-Span-29" style="font-family: STIXGeneral;">(</span><span class="mi" id="MathJax-Span-30" style="font-family: STIXGeneral; font-style: italic;">D</span><span class="mo" id="MathJax-Span-31" style="font-family: STIXGeneral;">)</span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; clip: rect(0.831em, 1006.95em, 1.239em, -1000em); top: -1.29em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 6.952em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.07em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.59em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -1.02em; border-left: 0px solid; width: 0px; height: 2.6em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo movablelimits="true" form="prefix">Pr</mo><mo stretchy="false">(</mo><mi>H</mi><mrow class="MJX-TeXAtom-ORD"><mo stretchy="false">|</mo></mrow><mi>D</mi><mo stretchy="false">)</mo><mo>=</mo><mfrac><mrow><mo movablelimits="true" form="prefix">Pr</mo><mo stretchy="false">(</mo><mi>D</mi><mrow class="MJX-TeXAtom-ORD"><mo stretchy="false">|</mo></mrow><mi>H</mi><mo stretchy="false">)</mo><mo>×</mo><mo movablelimits="true" form="prefix">Pr</mo><mo stretchy="false">(</mo><mi>H</mi><mo stretchy="false">)</mo></mrow><mrow><mo movablelimits="true" form="prefix">Pr</mo><mo stretchy="false">(</mo><mi>D</mi><mo stretchy="false">)</mo></mrow></mfrac></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-1">\begin{equation*}
+\Pr(H|D) = \frac{\Pr(D|H)\times \Pr(H)}{\Pr(D)}
+\end{equation*}</script>
+
+</div>
+
+<aside class="notes">
+<p>
+When could BDA be useful? Whenever we have too little data and too much uncertainty.
+</p>
+
+<p>
+Often we cannot directly measure what we are interested in.
+</p>
+
+<p>
+We can only measure something <b>else</b>, that we think influences it.
+There is <b>rarely</b> one true answer. More likely, possible answers are more or less probable.
+</p>
+
+<p>
+BDA helps us discover the probability of each potential answer by taking into
+account what we knew previously (<b>prior</b>), our knowledge of the random process itself (<b>likelihoodh</b>),
+and what we measured in the data (<b>evience</b>). We do that calculation using Bayes' rule.
+</p>
+
+</aside>
+</section>
+<section id="slide-orgheadline9" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline9">Doing Bayesian Data Analysis</h3>
+<ul>
+<li>John Kruschke</li>
+<li>Excellent tutorial, even for beginners</li>
+<li>Real-world examples through the book!</li>
+
+</ul>
+
+
+<div class="figure">
+<p><img src="djuric_files/dbda-book.png" alt="dbda-book.png" width="30%" height="30%,">
+</p>
+</div>
+
+<aside class="notes">
+<p>
+This book is what I would recommend as the best learning resource. It is approachable by (strong) beginners,
+but the examples are still from the real world analysis.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline10" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline10">Hello World: Fair or Trick coin?</h3>
+<ul>
+<li>Coin bias, tendency to fall on head: θ</li>
+<li>We can <b>not</b> measure θ directly</li>
+<li>We can only know sample data (D)</li>
+<li>θ is general; θ<sub>1</sub>, θ<sub>2</sub>, …, θ<sub>n</sub> are specific values</li>
+<li>D is general; 3 heads out of 10 specific</li>
+
+</ul>
+
+<p>
+By Bayes' rule:
+</p>
+
+<div>
+<span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mo movablelimits=&quot;true&quot; form=&quot;prefix&quot;&gt;Pr&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;&amp;#x03B8;&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;|&lt;/mo&gt;&lt;/mrow&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mo movablelimits=&quot;true&quot; form=&quot;prefix&quot;&gt;Pr&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;|&lt;/mo&gt;&lt;/mrow&gt;&lt;mi&gt;&amp;#x03B8;&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;&amp;#x00D7;&lt;/mo&gt;&lt;mo movablelimits=&quot;true&quot; form=&quot;prefix&quot;&gt;Pr&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;&amp;#x03B8;&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mo movablelimits=&quot;true&quot; form=&quot;prefix&quot;&gt;Pr&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-32" style="width: 12.278em; display: inline-block;"><span style="display: inline-block; position: relative; width: 11.036em; height: 0px; font-size: 111%;"><span style="position: absolute; clip: rect(1.055em, 1011.04em, 3.622em, -1000em); top: -2.59em; left: 0em;"><span class="mrow" id="MathJax-Span-33"><span class="mo" id="MathJax-Span-34" style="font-family: STIXGeneral;">Pr</span><span class="mo" id="MathJax-Span-35" style="font-family: STIXGeneral;">(</span><span class="mi" id="MathJax-Span-36" style="font-family: STIXGeneral; font-style: italic;">θ<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.014em;"></span></span><span class="texatom" id="MathJax-Span-37"><span class="mrow" id="MathJax-Span-38"><span class="mo" id="MathJax-Span-39" style="font-family: STIXVariants;">|</span></span></span><span class="mi" id="MathJax-Span-40" style="font-family: STIXGeneral; font-style: italic;">D</span><span class="mo" id="MathJax-Span-41" style="font-family: STIXGeneral;">)</span><span class="mo" id="MathJax-Span-42" style="font-family: STIXGeneral; padding-left: 0.313em;">=</span><span class="mfrac" id="MathJax-Span-43" style="padding-left: 0.313em;"><span style="display: inline-block; position: relative; width: 6.402em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.139em, 1006.23em, 4.356em, -1000em); top: -4.674em; left: 50%; margin-left: -3.141em;"><span class="mrow" id="MathJax-Span-44"><span class="mo" id="MathJax-Span-45" style="font-family: STIXGeneral;">Pr</span><span class="mo" id="MathJax-Span-46" style="font-family: STIXGeneral;">(</span><span class="mi" id="MathJax-Span-47" style="font-family: STIXGeneral; font-style: italic;">D</span><span class="texatom" id="MathJax-Span-48"><span class="mrow" id="MathJax-Span-49"><span class="mo" id="MathJax-Span-50" style="font-family: STIXVariants;">|</span></span></span><span class="mi" id="MathJax-Span-51" style="font-family: STIXGeneral; font-style: italic;">θ<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.014em;"></span></span><span class="mo" id="MathJax-Span-52" style="font-family: STIXGeneral;">)</span><span class="mo" id="MathJax-Span-53" style="font-family: STIXGeneral; padding-left: 0.25em;">×</span><span class="mo" id="MathJax-Span-54" style="font-family: STIXGeneral; padding-left: 0.25em;">Pr</span><span class="mo" id="MathJax-Span-55" style="font-family: STIXGeneral;">(</span><span class="mi" id="MathJax-Span-56" style="font-family: STIXGeneral; font-style: italic;">θ<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.014em;"></span></span><span class="mo" id="MathJax-Span-57" style="font-family: STIXGeneral;">)</span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; clip: rect(3.153em, 1002.23em, 4.344em, -1000em); top: -3.312em; left: 50%; margin-left: -1.139em;"><span class="mrow" id="MathJax-Span-58"><span class="mo" id="MathJax-Span-59" style="font-family: STIXGeneral;">Pr</span><span class="mo" id="MathJax-Span-60" style="font-family: STIXGeneral;">(</span><span class="mi" id="MathJax-Span-61" style="font-family: STIXGeneral; font-style: italic;">D</span><span class="mo" id="MathJax-Span-62" style="font-family: STIXGeneral;">)</span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; clip: rect(0.831em, 1006.4em, 1.239em, -1000em); top: -1.29em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 6.402em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.07em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.59em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -1.02em; border-left: 0px solid; width: 0px; height: 2.6em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo movablelimits="true" form="prefix">Pr</mo><mo stretchy="false">(</mo><mi>θ</mi><mrow class="MJX-TeXAtom-ORD"><mo stretchy="false">|</mo></mrow><mi>D</mi><mo stretchy="false">)</mo><mo>=</mo><mfrac><mrow><mo movablelimits="true" form="prefix">Pr</mo><mo stretchy="false">(</mo><mi>D</mi><mrow class="MJX-TeXAtom-ORD"><mo stretchy="false">|</mo></mrow><mi>θ</mi><mo stretchy="false">)</mo><mo>×</mo><mo movablelimits="true" form="prefix">Pr</mo><mo stretchy="false">(</mo><mi>θ</mi><mo stretchy="false">)</mo></mrow><mrow><mo movablelimits="true" form="prefix">Pr</mo><mo stretchy="false">(</mo><mi>D</mi><mo stretchy="false">)</mo></mrow></mfrac></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-2">\begin{equation*}
+\Pr(\theta|D) = \frac{\Pr(D|\theta)\times \Pr(\theta)}{\Pr(D)}
+\end{equation*}</script>
+
+</div>
+
+<aside class="notes">
+<p>
+Since we are programmers, we would like to start with the Hello World! In BDA, hello world example
+is the coin throwing experiment.
+</p>
+
+<p>
+We are interested in the coin's "fairness", the tendency to fall on the head, or tale. We describe
+that with the parameter θ.
+</p>
+
+<p>
+Unfortunately, θ is not directly accessible. However, we can make experimet, in which we know
+that the process of coin throwing have binomial <b>likelihood</b>. We measure outcomes, that we know
+(by the construction of the experiment) are influenced by θ, - we gather <b>evidence</b>.
+</p>
+
+<p>
+Using Bayes' rule, posterior = likelihood × prior divided by evidence.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline11" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline11">Analytical solution</h3>
+<p>
+Likelihood:
+</p>
+<p>
+Pr(z,N|θ) = θ<sup>z</sup> (1 - θ)<sup>N-z</sup>
+</p>
+
+<p>
+(conjugate) prior
+</p>
+<p>
+Pr(θ|a,b) = beta(θ|a,b) = θ<sup>(a-1)</sup>(1-θ)<sup>(b-1)</sup>/B(a,b)
+</p>
+
+<p>
+Posterior, conveniently:
+</p>
+<p>
+Pr(θ|z,N) = beta(θ|z+a, N - z + b)
+</p>
+
+<aside class="notes">
+<p>
+Fortunately, for this simple setup, we can calculate the posterior <b>analytically</b>, and the
+result is a general formula.
+</p>
+
+<p>
+By the design of the experiment, likelihood is binomial.
+</p>
+
+<p>
+Then, if we conveniently choose a prior that "fits" with this likelihood, we can easily calculate
+the general formula for the posterior distribution of probabilities.
+</p>
+
+<p>
+In this case, we choose  the Beta distribution, which is a conjugate prior of binomial likelihood,
+and give another Beta distribution as the answer.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline12" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline12">Example from Kruschke's book</h3>
+
+<div class="figure">
+<p><img src="djuric_files/coin-analytical.png" alt="coin-analytical.png" width="50%" height="50%,">
+</p>
+</div>
+<aside class="notes">
+<p>
+Kruschke's book gives an example with specific numbers. Fe first believe that the coin is most
+probably fair (θ around 0.5), but we are not very convinced that it is. That prior is in the first diagram.
+</p>
+
+<p>
+On the middle diagram, we see what the likelihood of the actual data, 1 head out of 10 flips is, <b>for each possible θ</b>
+If just one head comes out of 10 throws, it is much more likely that theta is, say. 0.1 or 0.18 than 7.45. However,
+7.65 is still somewhat likely, just much less likely than 0.1.
+</p>
+
+<p>
+So, do we trust our prior knowledge, or the specific data outcome?
+</p>
+
+<p>
+Actually, <b>both</b>. The posterior is actually a compromise that includes both prior knowledge and the
+actual data that happened.
+</p>
+
+</aside>
+</section>
+<section id="slide-orgheadline13" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline13">Easy computation</h3>
+<p>
+Q: What is Pr(0.4&lt;θ&lt;0.6)?
+</p>
+
+<p>
+A: Pr(θ&lt;0.6) - Pr(θ&lt;0.4)
+</p>
+
+
+<aside class="notes">
+<p>
+Since we have analytical solution for this model, it is very easy to quickly get the answer when we
+plug in the specific numbers.
+</p>
+
+<p>
+In this case, we consider the coin somewhat fair if the θ is "around" 0.5. Arbitrarily, we set the
+wide bounds of 0.4 - 0.6. The probability of that range can be calculated by computing <b>cumulate probability</b>.
+</p>
+
+<p>
+Bayadera and other statistical software usually have CDF functions of all common probability distributions.
+</p>
+
+<p>
+Result: 0.15. It is possible that this coin is fair, but I wouldn't bet on it.
+</p>
+
+</aside>
+<div class="org-src-container">
+
+<pre class="src src-clojure"><span style="color: #8b0000;">(</span><span style="color: #4c83ff; font-weight: bold;">let</span> <span style="color: #006400;">[</span>a-prior 5
+      b-prior 5
+      z 1
+      <span style="color: #96CBFE;">N</span> 10
+      a-post <span style="color: #ff1493;">(</span>+ a-prior z<span style="color: #ff1493;">)</span>
+      b-post <span style="color: #ff1493;">(</span>+ b-prior <span style="color: #ffff00;">(</span>- <span style="color: #96CBFE;">N</span> z<span style="color: #ffff00;">)</span><span style="color: #ff1493;">)</span><span style="color: #006400;">]</span>
+
+<span style="color: #006400;">(</span>- <span style="color: #ff1493;">(</span>beta-cdf a-post b-post 0.6<span style="color: #ff1493;">)</span>
+   <span style="color: #ff1493;">(</span>beta-cdf a-post b-post 0.4<span style="color: #ff1493;">)</span><span style="color: #006400;">)</span><span style="color: #8b0000;">)</span>
+</pre>
+</div>
+
+<pre class="example">0.15985465263144316
+</pre>
+
+</section>
+<section id="slide-orgheadline14" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline14">Never happens in practice</h3>
+<ul>
+<li>Only the simplest models are "nice"</li>
+<li>The curse of dimensionality</li>
+
+</ul>
+
+<aside class="notes">
+<p>
+Unfortunately, only the simplest models are such "nice". Usually, we do not have analytical solution.
+</p>
+
+</aside>
+</section>
+</section>
+<section style="top: 350px; display: none;" aria-hidden="true" class="stack future" hidden="">
+<section id="slide-orgheadline19" style="top: 350px; display: none;">
+<h2 id="orgheadline19"><font color="orangered">Bayadera</font></h2>
+<ul>
+<li>a Clojure library
+<ul>
+<li>highly opinionated - Bayesian</li>
+<li>probabilistic</li>
+<li>need to NOT be super slow - thus <b>GPU</b></li>
+<li>actually is the fastest I have seen</li>
+
+</ul></li>
+<li>use cases:
+<ul>
+<li>Bayesian data analysis (more stats-oriented)</li>
+<li>a foundation for machine learning algorithms</li>
+<li>lots of statistical number crunching</li>
+<li>risk assessment, decision analysis, etc.</li>
+
+</ul></li>
+
+</ul>
+
+<aside class="notes">
+<p>
+
+</p>
+
+<p>
+Bayadera is a highly opinionated Bayesian probabilistic Clojure library, that is
+much faster than the state-of-the-art established environments.
+</p>
+
+<p>
+I built it primarily for doing Bayesian data analysis, but plan to
+build on it to do machine learning.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline16" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline16">Bayadera Goals</h3>
+<ul>
+<li><b>programmers are the first-class citizens</b></li>
+<li><b>not</b> a "me too, just in Clojure"</li>
+<li><b>different</b> and better (for what I want to do)</li>
+<li>for interactive <b>and server</b> use</li>
+
+</ul>
+
+<aside class="notes">
+<p>
+Bayadera aims at being a well-designed software product.
+</p>
+
+<p>
+Programmers should feel at home and be able to do both the usual scientific
+stuff, but also to build robust software running on servers!
+</p>
+
+<p>
+It does NOT to try to catch up to what R and Python (and Julia) already do.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline17" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline17">HARD to compute</h3>
+<p>
+Usually:
+</p>
+
+<div>
+<span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mo movablelimits=&quot;true&quot; form=&quot;prefix&quot;&gt;Pr&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;|&lt;/mo&gt;&lt;/mrow&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;munder&gt;&lt;mo&gt;&amp;#x220F;&lt;/mo&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/munder&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;msub&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;&amp;#x00D7;&lt;/mo&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mo&gt;&amp;#x222B;&lt;/mo&gt;&lt;mo&gt;&amp;#x22EF;&lt;/mo&gt;&lt;mo&gt;&amp;#x222B;&lt;/mo&gt;&lt;munder&gt;&lt;mo&gt;&amp;#x220F;&lt;/mo&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/munder&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;msub&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mspace width=&quot;thinmathspace&quot; /&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-63" style="width: 14.417em; display: inline-block;"><span style="display: inline-block; position: relative; width: 12.95em; height: 0px; font-size: 111%;"><span style="position: absolute; clip: rect(0.422em, 1012.95em, 4.277em, -1000em); top: -2.59em; left: 0em;"><span class="mrow" id="MathJax-Span-64"><span class="mo" id="MathJax-Span-65" style="font-family: STIXGeneral;">Pr</span><span class="mo" id="MathJax-Span-66" style="font-family: STIXGeneral;">(</span><span class="texatom" id="MathJax-Span-67"><span class="mrow" id="MathJax-Span-68"><span class="munderover" id="MathJax-Span-69"><span style="display: inline-block; position: relative; width: 0.5em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.48em, 4.176em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-70" style="font-family: STIXGeneral; font-style: italic;">h</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -4.274em; left: 0.032em;"><span style="height: 0em; vertical-align: 0em; width: 0.453em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-71" style="font-family: STIXGeneral;">⃗&nbsp;<span style="height: 0em; vertical-align: 0em; margin-left: -0.225em;"></span></span><span style="display: inline-block; overflow: hidden; height: 1px; width: 0em;"></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span><span class="texatom" id="MathJax-Span-72"><span class="mrow" id="MathJax-Span-73"><span class="mo" id="MathJax-Span-74" style="font-family: STIXVariants;">|</span></span></span><span class="texatom" id="MathJax-Span-75"><span class="mrow" id="MathJax-Span-76"><span class="munderover" id="MathJax-Span-77"><span style="display: inline-block; position: relative; width: 0.527em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.53em, 4.18em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-78" style="font-family: STIXGeneral; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.027em;"></span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -4.274em; left: 0.088em;"><span style="height: 0em; vertical-align: 0em; width: 0.453em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-79" style="font-family: STIXGeneral;">⃗&nbsp;<span style="height: 0em; vertical-align: 0em; margin-left: -0.225em;"></span></span><span style="display: inline-block; overflow: hidden; height: 1px; width: 0em;"></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span><span class="mo" id="MathJax-Span-80" style="font-family: STIXGeneral;">)</span><span class="mo" id="MathJax-Span-81" style="font-family: STIXGeneral; padding-left: 0.313em;">=</span><span class="mfrac" id="MathJax-Span-82" style="padding-left: 0.313em;"><span style="display: inline-block; position: relative; width: 8.516em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(2.614em, 1007.17em, 4.471em, -1000em); top: -4.783em; left: 50%; margin-left: -3.61em;"><span class="mrow" id="MathJax-Span-83"><span class="munderover" id="MathJax-Span-84"><span style="display: inline-block; position: relative; width: 1.272em; height: 0px;"><span style="position: absolute; clip: rect(3.068em, 1000.95em, 4.428em, -1000em); top: -3.998em; left: 0em;"><span class="mo" id="MathJax-Span-85" style="font-family: STIXGeneral; vertical-align: -0.002em;">∏</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -3.701em; left: 1em;"><span class="mi" id="MathJax-Span-86" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">i</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span><span class="mi" id="MathJax-Span-87" style="font-family: STIXGeneral; font-style: italic; text-rendering: optimizelegibility; padding-left: 0.188em;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.146em;"></span></span><span class="mo" id="MathJax-Span-88" style="font-family: STIXGeneral;">(</span><span class="texatom" id="MathJax-Span-89"><span class="mrow" id="MathJax-Span-90"><span class="munderover" id="MathJax-Span-91"><span style="display: inline-block; position: relative; width: 0.926em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.77em, 4.324em, -1000em); top: -3.998em; left: 0.077em;"><span class="msubsup" id="MathJax-Span-92"><span style="display: inline-block; position: relative; width: 0.772em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.53em, 4.18em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-93" style="font-family: STIXGeneral; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.027em;"></span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -3.848em; left: 0.5em;"><span class="mi" id="MathJax-Span-94" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">i</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; clip: rect(3.381em, 1000.86em, 4.11em, -1000em); top: -4.765em; left: 0em;"><span class="mo" id="MathJax-Span-95" style="font-family: STIXGeneral;">→</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span><span class="mo" id="MathJax-Span-96" style="font-family: STIXGeneral;">,</span><span class="texatom" id="MathJax-Span-97" style="padding-left: 0.188em;"><span class="mrow" id="MathJax-Span-98"><span class="munderover" id="MathJax-Span-99"><span style="display: inline-block; position: relative; width: 0.5em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.48em, 4.176em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-100" style="font-family: STIXGeneral; font-style: italic;">h</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -4.274em; left: 0.032em;"><span style="height: 0em; vertical-align: 0em; width: 0.453em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-101" style="font-family: STIXGeneral;">⃗&nbsp;<span style="height: 0em; vertical-align: 0em; margin-left: -0.225em;"></span></span><span style="display: inline-block; overflow: hidden; height: 1px; width: 0em;"></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span><span class="mo" id="MathJax-Span-102" style="font-family: STIXGeneral;">)</span><span class="mo" id="MathJax-Span-103" style="font-family: STIXGeneral; padding-left: 0.25em;">×</span><span class="mi" id="MathJax-Span-104" style="font-family: STIXGeneral; font-style: italic; padding-left: 0.25em;">g</span><span class="mo" id="MathJax-Span-105" style="font-family: STIXGeneral;">(</span><span class="texatom" id="MathJax-Span-106"><span class="mrow" id="MathJax-Span-107"><span class="munderover" id="MathJax-Span-108"><span style="display: inline-block; position: relative; width: 0.5em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.48em, 4.176em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-109" style="font-family: STIXGeneral; font-style: italic;">h</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -4.274em; left: 0.032em;"><span style="height: 0em; vertical-align: 0em; width: 0.453em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-110" style="font-family: STIXGeneral;">⃗&nbsp;<span style="height: 0em; vertical-align: 0em; margin-left: -0.225em;"></span></span><span style="display: inline-block; overflow: hidden; height: 1px; width: 0em;"></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span><span class="mo" id="MathJax-Span-111" style="font-family: STIXGeneral;">)</span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; clip: rect(2.614em, 1008.37em, 4.489em, -1000em); top: -2.802em; left: 50%; margin-left: -4.198em;"><span class="mrow" id="MathJax-Span-112"><span class="mo" id="MathJax-Span-113" style="font-family: STIXGeneral; text-rendering: optimizelegibility; vertical-align: -0.002em;">∫<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.18em;"></span></span><span class="mo" id="MathJax-Span-114" style="font-family: STIXGeneral; padding-left: 0.188em;">⋯</span><span class="mo" id="MathJax-Span-115" style="font-family: STIXGeneral; text-rendering: optimizelegibility; vertical-align: -0.002em; padding-left: 0.188em;">∫<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.18em;"></span></span><span class="munderover" id="MathJax-Span-116" style="padding-left: 0.188em;"><span style="display: inline-block; position: relative; width: 1.272em; height: 0px;"><span style="position: absolute; clip: rect(3.068em, 1000.95em, 4.428em, -1000em); top: -3.998em; left: 0em;"><span class="mo" id="MathJax-Span-117" style="font-family: STIXGeneral; vertical-align: -0.002em;">∏</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -3.701em; left: 1em;"><span class="mi" id="MathJax-Span-118" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">i</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span><span class="mi" id="MathJax-Span-119" style="font-family: STIXGeneral; font-style: italic; text-rendering: optimizelegibility; padding-left: 0.188em;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.146em;"></span></span><span class="mo" id="MathJax-Span-120" style="font-family: STIXGeneral;">(</span><span class="texatom" id="MathJax-Span-121"><span class="mrow" id="MathJax-Span-122"><span class="munderover" id="MathJax-Span-123"><span style="display: inline-block; position: relative; width: 0.926em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.77em, 4.324em, -1000em); top: -3.998em; left: 0.077em;"><span class="msubsup" id="MathJax-Span-124"><span style="display: inline-block; position: relative; width: 0.772em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.53em, 4.18em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-125" style="font-family: STIXGeneral; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.027em;"></span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -3.848em; left: 0.5em;"><span class="mi" id="MathJax-Span-126" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">i</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; clip: rect(3.381em, 1000.86em, 4.11em, -1000em); top: -4.765em; left: 0em;"><span class="mo" id="MathJax-Span-127" style="font-family: STIXGeneral;">→</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span><span class="mo" id="MathJax-Span-128" style="font-family: STIXGeneral;">,</span><span class="texatom" id="MathJax-Span-129" style="padding-left: 0.188em;"><span class="mrow" id="MathJax-Span-130"><span class="munderover" id="MathJax-Span-131"><span style="display: inline-block; position: relative; width: 0.5em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.48em, 4.176em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-132" style="font-family: STIXGeneral; font-style: italic;">h</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -4.274em; left: 0.032em;"><span style="height: 0em; vertical-align: 0em; width: 0.453em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-133" style="font-family: STIXGeneral;">⃗&nbsp;<span style="height: 0em; vertical-align: 0em; margin-left: -0.225em;"></span></span><span style="display: inline-block; overflow: hidden; height: 1px; width: 0em;"></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span><span class="mo" id="MathJax-Span-134" style="font-family: STIXGeneral;">)</span><span class="mspace" id="MathJax-Span-135" style="height: 0em; vertical-align: 0em; width: 0.188em; display: inline-block; overflow: hidden;"></span><span class="mi" id="MathJax-Span-136" style="font-family: STIXGeneral; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.027em;"></span></span><span class="texatom" id="MathJax-Span-137"><span class="mrow" id="MathJax-Span-138"><span class="munderover" id="MathJax-Span-139"><span style="display: inline-block; position: relative; width: 0.5em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.48em, 4.176em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-140" style="font-family: STIXGeneral; font-style: italic;">h</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -4.274em; left: 0.032em;"><span style="height: 0em; vertical-align: 0em; width: 0.453em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-141" style="font-family: STIXGeneral;">⃗&nbsp;<span style="height: 0em; vertical-align: 0em; margin-left: -0.225em;"></span></span><span style="display: inline-block; overflow: hidden; height: 1px; width: 0em;"></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; clip: rect(0.831em, 1008.52em, 1.239em, -1000em); top: -1.29em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 8.516em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.07em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.59em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -1.747em; border-left: 0px solid; width: 0px; height: 4.029em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo movablelimits="true" form="prefix">Pr</mo><mo stretchy="false">(</mo><mrow class="MJX-TeXAtom-ORD"><mover><mi>h</mi><mo stretchy="false">→</mo></mover></mrow><mrow class="MJX-TeXAtom-ORD"><mo stretchy="false">|</mo></mrow><mrow class="MJX-TeXAtom-ORD"><mover><mi>d</mi><mo stretchy="false">→</mo></mover></mrow><mo stretchy="false">)</mo><mo>=</mo><mfrac><mrow><munder><mo>∏</mo><mi>i</mi></munder><mi>f</mi><mo stretchy="false">(</mo><mrow class="MJX-TeXAtom-ORD"><mover><msub><mi>d</mi><mi>i</mi></msub><mo stretchy="false">→</mo></mover></mrow><mo>,</mo><mrow class="MJX-TeXAtom-ORD"><mover><mi>h</mi><mo stretchy="false">→</mo></mover></mrow><mo stretchy="false">)</mo><mo>×</mo><mi>g</mi><mo stretchy="false">(</mo><mrow class="MJX-TeXAtom-ORD"><mover><mi>h</mi><mo stretchy="false">→</mo></mover></mrow><mo stretchy="false">)</mo></mrow><mrow><mo>∫</mo><mo>⋯</mo><mo>∫</mo><munder><mo>∏</mo><mi>i</mi></munder><mi>f</mi><mo stretchy="false">(</mo><mrow class="MJX-TeXAtom-ORD"><mover><msub><mi>d</mi><mi>i</mi></msub><mo stretchy="false">→</mo></mover></mrow><mo>,</mo><mrow class="MJX-TeXAtom-ORD"><mover><mi>h</mi><mo stretchy="false">→</mo></mover></mrow><mo stretchy="false">)</mo><mspace width="thinmathspace"></mspace><mi>d</mi><mrow class="MJX-TeXAtom-ORD"><mover><mi>h</mi><mo stretchy="false">→</mo></mover></mrow></mrow></mfrac></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-3">\begin{equation*}
+\Pr(\vec{h}|\vec{d}) = \frac{\prod_i f(\vec{d_i},\vec{h})\times g(\vec{h})}{\idotsint \prod_i f(\vec{d_i},\vec{h})\,d \vec{h}}
+\end{equation*}</script>
+
+</div>
+
+<p>
+computationally:
+</p>
+
+<div>
+<span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-4-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;w&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mo&gt;&amp;#x00D7;&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-142" style="width: 13.347em; display: inline-block;"><span style="display: inline-block; position: relative; width: 11.993em; height: 0px; font-size: 111%;"><span style="position: absolute; clip: rect(1.052em, 1011.99em, 3.65em, -1000em); top: -2.59em; left: 0em;"><span class="mrow" id="MathJax-Span-143"><span class="mi" id="MathJax-Span-144" style="font-family: STIXGeneral; font-style: italic;">a</span><span class="mi" id="MathJax-Span-145" style="font-family: STIXGeneral; font-style: italic;">n</span><span class="mi" id="MathJax-Span-146" style="font-family: STIXGeneral; font-style: italic;">s</span><span class="mi" id="MathJax-Span-147" style="font-family: STIXGeneral; font-style: italic;">w</span><span class="mi" id="MathJax-Span-148" style="font-family: STIXGeneral; font-style: italic;">e</span><span class="mi" id="MathJax-Span-149" style="font-family: STIXGeneral; font-style: italic;">r<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.023em;"></span></span><span class="mo" id="MathJax-Span-150" style="font-family: STIXGeneral; padding-left: 0.313em;">=</span><span class="mfrac" id="MathJax-Span-151" style="padding-left: 0.313em;"><span style="display: inline-block; position: relative; width: 7.557em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.146em, 1007.41em, 4.372em, -1000em); top: -4.684em; left: 50%; margin-left: -3.719em;"><span class="mrow" id="MathJax-Span-152"><span class="mi" id="MathJax-Span-153" style="font-family: STIXGeneral; font-style: italic;">h</span><span class="mi" id="MathJax-Span-154" style="font-family: STIXGeneral; font-style: italic;">a</span><span class="mi" id="MathJax-Span-155" style="font-family: STIXGeneral; font-style: italic;">r<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.023em;"></span></span><span class="mi" id="MathJax-Span-156" style="font-family: STIXGeneral; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.027em;"></span></span><span class="mo" id="MathJax-Span-157" style="font-family: STIXGeneral; padding-left: 0.25em;">×</span><span class="mi" id="MathJax-Span-158" style="font-family: STIXGeneral; font-style: italic; padding-left: 0.25em;">a</span><span class="mi" id="MathJax-Span-159" style="font-family: STIXGeneral; font-style: italic;">c</span><span class="mi" id="MathJax-Span-160" style="font-family: STIXGeneral; font-style: italic;">c</span><span class="mi" id="MathJax-Span-161" style="font-family: STIXGeneral; font-style: italic;">e</span><span class="mi" id="MathJax-Span-162" style="font-family: STIXGeneral; font-style: italic;">p</span><span class="mi" id="MathJax-Span-163" style="font-family: STIXGeneral; font-style: italic;">t<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.018em;"></span></span><span class="mi" id="MathJax-Span-164" style="font-family: STIXGeneral; font-style: italic;">a</span><span class="mi" id="MathJax-Span-165" style="font-family: STIXGeneral; font-style: italic;">b</span><span class="mi" id="MathJax-Span-166" style="font-family: STIXGeneral; font-style: italic;">l<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.001em;"></span></span><span class="mi" id="MathJax-Span-167" style="font-family: STIXGeneral; font-style: italic;">e</span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; clip: rect(3.146em, 1004.25em, 4.372em, -1000em); top: -3.312em; left: 50%; margin-left: -2.142em;"><span class="mrow" id="MathJax-Span-168"><span class="mi" id="MathJax-Span-169" style="font-family: STIXGeneral; font-style: italic;">i</span><span class="mi" id="MathJax-Span-170" style="font-family: STIXGeneral; font-style: italic;">m</span><span class="mi" id="MathJax-Span-171" style="font-family: STIXGeneral; font-style: italic;">p</span><span class="mi" id="MathJax-Span-172" style="font-family: STIXGeneral; font-style: italic;">o</span><span class="mi" id="MathJax-Span-173" style="font-family: STIXGeneral; font-style: italic;">s</span><span class="mi" id="MathJax-Span-174" style="font-family: STIXGeneral; font-style: italic;">s</span><span class="mi" id="MathJax-Span-175" style="font-family: STIXGeneral; font-style: italic;">i</span><span class="mi" id="MathJax-Span-176" style="font-family: STIXGeneral; font-style: italic;">b</span><span class="mi" id="MathJax-Span-177" style="font-family: STIXGeneral; font-style: italic;">l<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.001em;"></span></span><span class="mi" id="MathJax-Span-178" style="font-family: STIXGeneral; font-style: italic;">e</span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; clip: rect(0.831em, 1007.56em, 1.239em, -1000em); top: -1.29em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 7.557em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.07em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.59em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -1.051em; border-left: 0px solid; width: 0px; height: 2.633em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>a</mi><mi>n</mi><mi>s</mi><mi>w</mi><mi>e</mi><mi>r</mi><mo>=</mo><mfrac><mrow><mi>h</mi><mi>a</mi><mi>r</mi><mi>d</mi><mo>×</mo><mi>a</mi><mi>c</mi><mi>c</mi><mi>e</mi><mi>p</mi><mi>t</mi><mi>a</mi><mi>b</mi><mi>l</mi><mi>e</mi></mrow><mrow><mi>i</mi><mi>m</mi><mi>p</mi><mi>o</mi><mi>s</mi><mi>s</mi><mi>i</mi><mi>b</mi><mi>l</mi><mi>e</mi></mrow></mfrac></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-4">\begin{equation*}
+answer = \frac{hard\times acceptable}{impossible}
+\end{equation*}</script>
+
+</div>
+
+<aside class="notes">
+<p>
+The main problem that held Bayesian methods dormant for 200 years,
+until a decade or two ago was that it is ridiculouslyhard to compute in the general case!
+</p>
+
+<p>
+Usually, we do not have a nice unimodal one-dimensional problems that nicely fit into
+analytical formulas and lead to simple results.
+We have to explore this multi-dimensional continuous space numerically.
+</p>
+
+<p>
+So, to get the answer, we have to multiply something that is hard to compute with
+something that is acceptably simpler, do this many (millions, billions) of times, and
+divide by something that is practically impossible to compute by brute force.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline18" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline18">Markov Chain Monte Carlo (MCMC)</h3>
+<ul>
+<li>a family of simulation algorithms</li>
+<li>draws samples from <b>unknown</b> probability distributions</li>
+<li>(enough) samples approximate the distribution</li>
+
+</ul>
+
+<div>
+<span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mo movablelimits=&quot;true&quot; form=&quot;prefix&quot;&gt;Pr&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo stretchy=&quot;false&quot;&gt;|&lt;/mo&gt;&lt;/mrow&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;&amp;#x221D;&lt;/mo&gt;&lt;mi&gt;exp&lt;/mi&gt;&lt;mo&gt;&amp;#x2061;&lt;/mo&gt;&lt;mrow&gt;&lt;mo&gt;(&lt;/mo&gt;&lt;mrow&gt;&lt;munder&gt;&lt;mo&gt;&amp;#x2211;&lt;/mo&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/munder&gt;&lt;mi&gt;log&lt;/mi&gt;&lt;mo&gt;&amp;#x2061;&lt;/mo&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;msub&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;log&lt;/mi&gt;&lt;mo&gt;&amp;#x2061;&lt;/mo&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mover&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;&amp;#x2192;&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-179" style="width: 19.372em; display: inline-block;"><span style="display: inline-block; position: relative; width: 17.455em; height: 0px; font-size: 111%;"><span style="position: absolute; clip: rect(2.267em, 1017.33em, 5.679em, -1000em); top: -4.223em; left: 0em;"><span class="mrow" id="MathJax-Span-180"><span class="mo" id="MathJax-Span-181" style="font-family: STIXGeneral;">Pr</span><span class="mo" id="MathJax-Span-182" style="font-family: STIXGeneral;">(</span><span class="texatom" id="MathJax-Span-183"><span class="mrow" id="MathJax-Span-184"><span class="munderover" id="MathJax-Span-185"><span style="display: inline-block; position: relative; width: 0.5em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.48em, 4.176em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-186" style="font-family: STIXGeneral; font-style: italic;">h</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -4.274em; left: 0.032em;"><span style="height: 0em; vertical-align: 0em; width: 0.453em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-187" style="font-family: STIXGeneral;">⃗&nbsp;<span style="height: 0em; vertical-align: 0em; margin-left: -0.225em;"></span></span><span style="display: inline-block; overflow: hidden; height: 1px; width: 0em;"></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span><span class="texatom" id="MathJax-Span-188"><span class="mrow" id="MathJax-Span-189"><span class="mo" id="MathJax-Span-190" style="font-family: STIXVariants;">|</span></span></span><span class="texatom" id="MathJax-Span-191"><span class="mrow" id="MathJax-Span-192"><span class="munderover" id="MathJax-Span-193"><span style="display: inline-block; position: relative; width: 0.527em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.53em, 4.18em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-194" style="font-family: STIXGeneral; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.027em;"></span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -4.274em; left: 0.088em;"><span style="height: 0em; vertical-align: 0em; width: 0.453em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-195" style="font-family: STIXGeneral;">⃗&nbsp;<span style="height: 0em; vertical-align: 0em; margin-left: -0.225em;"></span></span><span style="display: inline-block; overflow: hidden; height: 1px; width: 0em;"></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span><span class="mo" id="MathJax-Span-196" style="font-family: STIXGeneral;">)</span><span class="mo" id="MathJax-Span-197" style="font-family: STIXGeneral; padding-left: 0.313em;">∝</span><span class="mi" id="MathJax-Span-198" style="font-family: STIXGeneral; padding-left: 0.313em;">exp</span><span class="mo" id="MathJax-Span-199"></span><span class="mrow" id="MathJax-Span-200"><span class="mo" id="MathJax-Span-201" style="vertical-align: -0.778em;"><span style="font-family: STIXSizeFourSym;">(</span></span><span class="mrow" id="MathJax-Span-202"><span class="munderover" id="MathJax-Span-203"><span style="display: inline-block; position: relative; width: 1.292em; height: 0px;"><span style="position: absolute; clip: rect(2.854em, 1001.2em, 4.642em, -1000em); top: -3.998em; left: 0em;"><span class="mo" id="MathJax-Span-204" style="font-family: STIXSizeOneSym; vertical-align: -0.524em;">∑</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; clip: rect(3.366em, 1000.19em, 4.274em, -1000em); top: -2.848em; left: 0.548em;"><span class="mi" id="MathJax-Span-205" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">i</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span><span class="mi" id="MathJax-Span-206" style="font-family: STIXGeneral; padding-left: 0.188em;">log</span><span class="mo" id="MathJax-Span-207"></span><span class="mi" id="MathJax-Span-208" style="font-family: STIXGeneral; font-style: italic; text-rendering: optimizelegibility; padding-left: 0.188em;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.146em;"></span></span><span class="mo" id="MathJax-Span-209" style="font-family: STIXGeneral;">(</span><span class="texatom" id="MathJax-Span-210"><span class="mrow" id="MathJax-Span-211"><span class="munderover" id="MathJax-Span-212"><span style="display: inline-block; position: relative; width: 0.926em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.77em, 4.324em, -1000em); top: -3.998em; left: 0.077em;"><span class="msubsup" id="MathJax-Span-213"><span style="display: inline-block; position: relative; width: 0.772em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.53em, 4.18em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-214" style="font-family: STIXGeneral; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.027em;"></span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -3.848em; left: 0.5em;"><span class="mi" id="MathJax-Span-215" style="font-size: 70.7%; font-family: STIXGeneral; font-style: italic;">i</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; clip: rect(3.381em, 1000.86em, 4.11em, -1000em); top: -4.765em; left: 0em;"><span class="mo" id="MathJax-Span-216" style="font-family: STIXGeneral;">→</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span><span class="mo" id="MathJax-Span-217" style="font-family: STIXGeneral;">,</span><span class="texatom" id="MathJax-Span-218" style="padding-left: 0.188em;"><span class="mrow" id="MathJax-Span-219"><span class="munderover" id="MathJax-Span-220"><span style="display: inline-block; position: relative; width: 0.5em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.48em, 4.176em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-221" style="font-family: STIXGeneral; font-style: italic;">h</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -4.274em; left: 0.032em;"><span style="height: 0em; vertical-align: 0em; width: 0.453em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-222" style="font-family: STIXGeneral;">⃗&nbsp;<span style="height: 0em; vertical-align: 0em; margin-left: -0.225em;"></span></span><span style="display: inline-block; overflow: hidden; height: 1px; width: 0em;"></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span><span class="mo" id="MathJax-Span-223" style="font-family: STIXGeneral;">)</span><span class="mo" id="MathJax-Span-224" style="font-family: STIXGeneral; padding-left: 0.25em;">+</span><span class="mi" id="MathJax-Span-225" style="font-family: STIXGeneral; padding-left: 0.25em;">log</span><span class="mo" id="MathJax-Span-226"></span><span class="mi" id="MathJax-Span-227" style="font-family: STIXGeneral; font-style: italic; padding-left: 0.188em;">g</span><span class="mo" id="MathJax-Span-228" style="font-family: STIXGeneral;">(</span><span class="texatom" id="MathJax-Span-229"><span class="mrow" id="MathJax-Span-230"><span class="munderover" id="MathJax-Span-231"><span style="display: inline-block; position: relative; width: 0.5em; height: 0px;"><span style="position: absolute; clip: rect(3.146em, 1000.48em, 4.176em, -1000em); top: -3.998em; left: 0em;"><span class="mi" id="MathJax-Span-232" style="font-family: STIXGeneral; font-style: italic;">h</span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span><span style="position: absolute; top: -4.274em; left: 0.032em;"><span style="height: 0em; vertical-align: 0em; width: 0.453em; display: inline-block; overflow: hidden;"></span><span class="mo" id="MathJax-Span-233" style="font-family: STIXGeneral;">⃗&nbsp;<span style="height: 0em; vertical-align: 0em; margin-left: -0.225em;"></span></span><span style="display: inline-block; overflow: hidden; height: 1px; width: 0em;"></span><span style="display: inline-block; width: 0px; height: 3.998em;"></span></span></span></span></span></span><span class="mo" id="MathJax-Span-234" style="font-family: STIXGeneral;">)</span></span><span class="mo" id="MathJax-Span-235" style="vertical-align: -0.778em;"><span style="font-family: STIXSizeFourSym;">)</span></span></span></span><span style="display: inline-block; width: 0px; height: 4.223em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -1.492em; border-left: 0px solid; width: 0px; height: 3.538em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo movablelimits="true" form="prefix">Pr</mo><mo stretchy="false">(</mo><mrow class="MJX-TeXAtom-ORD"><mover><mi>h</mi><mo stretchy="false">→</mo></mover></mrow><mrow class="MJX-TeXAtom-ORD"><mo stretchy="false">|</mo></mrow><mrow class="MJX-TeXAtom-ORD"><mover><mi>d</mi><mo stretchy="false">→</mo></mover></mrow><mo stretchy="false">)</mo><mo>∝</mo><mi>exp</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><munder><mo>∑</mo><mi>i</mi></munder><mi>log</mi><mo>⁡</mo><mi>f</mi><mo stretchy="false">(</mo><mrow class="MJX-TeXAtom-ORD"><mover><msub><mi>d</mi><mi>i</mi></msub><mo stretchy="false">→</mo></mover></mrow><mo>,</mo><mrow class="MJX-TeXAtom-ORD"><mover><mi>h</mi><mo stretchy="false">→</mo></mover></mrow><mo stretchy="false">)</mo><mo>+</mo><mi>log</mi><mo>⁡</mo><mi>g</mi><mo stretchy="false">(</mo><mrow class="MJX-TeXAtom-ORD"><mover><mi>h</mi><mo stretchy="false">→</mo></mover></mrow><mo stretchy="false">)</mo></mrow><mo>)</mo></mrow></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-5">\begin{equation*}
+\Pr(\vec{h}|\vec{d}) \propto \exp \left(\sum_i \log f(\vec{d_i},\vec{h}) + \log g(\vec{h})\right)
+\end{equation*}</script>
+
+</div>
+
+<p>
+computationally:
+</p>
+
+<div>
+<span class="MathJax_Preview" style="color: inherit; display: none;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;w&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mo&gt;&amp;#x221D;&lt;/mo&gt;&lt;mi&gt;z&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mo&gt;&amp;#x00D7;&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mo&gt;&amp;#x00D7;&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-236" style="width: 18.133em; display: inline-block;"><span style="display: inline-block; position: relative; width: 16.329em; height: 0px; font-size: 111%;"><span style="position: absolute; clip: rect(1.738em, 1016.28em, 2.964em, -1000em); top: -2.59em; left: 0em;"><span class="mrow" id="MathJax-Span-237"><span class="mi" id="MathJax-Span-238" style="font-family: STIXGeneral; font-style: italic;">a</span><span class="mi" id="MathJax-Span-239" style="font-family: STIXGeneral; font-style: italic;">n</span><span class="mi" id="MathJax-Span-240" style="font-family: STIXGeneral; font-style: italic;">s</span><span class="mi" id="MathJax-Span-241" style="font-family: STIXGeneral; font-style: italic;">w</span><span class="mi" id="MathJax-Span-242" style="font-family: STIXGeneral; font-style: italic;">e</span><span class="mi" id="MathJax-Span-243" style="font-family: STIXGeneral; font-style: italic;">r<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.023em;"></span></span><span class="mo" id="MathJax-Span-244" style="font-family: STIXGeneral; padding-left: 0.313em;">∝</span><span class="mi" id="MathJax-Span-245" style="font-family: STIXGeneral; font-style: italic; padding-left: 0.313em;">z</span><span class="mi" id="MathJax-Span-246" style="font-family: STIXGeneral; font-style: italic;">i</span><span class="mi" id="MathJax-Span-247" style="font-family: STIXGeneral; font-style: italic;">l<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.001em;"></span></span><span class="mi" id="MathJax-Span-248" style="font-family: STIXGeneral; font-style: italic;">l<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.001em;"></span></span><span class="mi" id="MathJax-Span-249" style="font-family: STIXGeneral; font-style: italic;">i</span><span class="mi" id="MathJax-Span-250" style="font-family: STIXGeneral; font-style: italic;">o</span><span class="mi" id="MathJax-Span-251" style="font-family: STIXGeneral; font-style: italic;">n</span><span class="mi" id="MathJax-Span-252" style="font-family: STIXGeneral; font-style: italic;">s</span><span class="mo" id="MathJax-Span-253" style="font-family: STIXGeneral; padding-left: 0.25em;">×</span><span class="mo" id="MathJax-Span-254" style="font-family: STIXGeneral; padding-left: 0.25em;">(</span><span class="mi" id="MathJax-Span-255" style="font-family: STIXGeneral; font-style: italic;">h</span><span class="mi" id="MathJax-Span-256" style="font-family: STIXGeneral; font-style: italic;">a</span><span class="mi" id="MathJax-Span-257" style="font-family: STIXGeneral; font-style: italic;">r<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.023em;"></span></span><span class="mi" id="MathJax-Span-258" style="font-family: STIXGeneral; font-style: italic;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.027em;"></span></span><span class="mo" id="MathJax-Span-259" style="font-family: STIXGeneral; padding-left: 0.25em;">×</span><span class="mi" id="MathJax-Span-260" style="font-family: STIXGeneral; font-style: italic; padding-left: 0.25em;">a</span><span class="mi" id="MathJax-Span-261" style="font-family: STIXGeneral; font-style: italic;">c</span><span class="mi" id="MathJax-Span-262" style="font-family: STIXGeneral; font-style: italic;">c</span><span class="mi" id="MathJax-Span-263" style="font-family: STIXGeneral; font-style: italic;">e</span><span class="mi" id="MathJax-Span-264" style="font-family: STIXGeneral; font-style: italic;">p</span><span class="mi" id="MathJax-Span-265" style="font-family: STIXGeneral; font-style: italic;">t<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.018em;"></span></span><span class="mi" id="MathJax-Span-266" style="font-family: STIXGeneral; font-style: italic;">a</span><span class="mi" id="MathJax-Span-267" style="font-family: STIXGeneral; font-style: italic;">b</span><span class="mi" id="MathJax-Span-268" style="font-family: STIXGeneral; font-style: italic;">l<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.001em;"></span></span><span class="mi" id="MathJax-Span-269" style="font-family: STIXGeneral; font-style: italic;">e</span><span class="mo" id="MathJax-Span-270" style="font-family: STIXGeneral;">)</span></span><span style="display: inline-block; width: 0px; height: 2.59em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.29em; border-left: 0px solid; width: 0px; height: 1.111em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>a</mi><mi>n</mi><mi>s</mi><mi>w</mi><mi>e</mi><mi>r</mi><mo>∝</mo><mi>z</mi><mi>i</mi><mi>l</mi><mi>l</mi><mi>i</mi><mi>o</mi><mi>n</mi><mi>s</mi><mo>×</mo><mo stretchy="false">(</mo><mi>h</mi><mi>a</mi><mi>r</mi><mi>d</mi><mo>×</mo><mi>a</mi><mi>c</mi><mi>c</mi><mi>e</mi><mi>p</mi><mi>t</mi><mi>a</mi><mi>b</mi><mi>l</mi><mi>e</mi><mo stretchy="false">)</mo></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-6">\begin{equation*}
+answer \propto zillions \times (hard\times acceptable)
+\end{equation*}</script>
+
+</div>
+
+<aside class="notes">
+<p>
+Long story short, MCMC can simulate and draw samples from an unknown distribution.
+With enough samples, we can approximate that distribution -
+the impossible-to-compute posterior that we were looking for!
+</p>
+
+<p>
+By using the MCMC algorithm, we are left with "just"
+computing zillions of "only" hard to compute things.
+</p>
+
+<p>
+That's why CPU-based Bayesian tools are notoriously slow. Luckily,
+GPU can help us in bringing that time to acceptable levels.
+</p>
+
+</aside>
+
+</section>
+</section>
+<section style="top: 350px; display: none;" aria-hidden="true" class="stack future" hidden="">
+<section id="slide-orgheadline22" style="top: 350px; display: none;">
+<h2 id="orgheadline22">The coin example through simulation</h2>
+<ul>
+<li>MCMC not necessary in this case</li>
+<li>Good as a hello world example</li>
+<li>Comparison with analytical solution</li>
+
+</ul>
+
+<aside class="notes">
+<p>
+Now, we will compute the same coin model as before, but now with Bayadera's MCMC engine,
+as if we didin't have analytical solution. It is good for illustration, and the bonus is that we can
+compare it with the analytical solution and see whether it is correct.
+</p>
+
+</aside>
+</section>
+<section id="slide-orgheadline20" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline20">Run the analysis on the GPU</h3>
+<div class="org-src-container">
+
+<pre class="src src-clojure"><span style="color: #8b0000;">(</span><span style="color: #4c83ff; font-weight: bold;">def</span> <span style="color: #ff69b4;">result</span> <span style="color: #006400;">(</span>atom
+<span style="color: #ff1493;">(</span>with-default-bayadera
+  <span style="color: #ffff00;">(</span><span style="color: #4c83ff; font-weight: bold;">let</span> <span style="color: #00ff00;">[</span>a 5 b 5
+        z 1 <span style="color: #96CBFE;">N</span> 10<span style="color: #00ff00;">]</span>
+    <span style="color: #00ff00;">(</span>with-release
+      <span style="color: #add8e6;">[</span>prior-dist <span style="color: #ffa500;">(</span>beta a b<span style="color: #ffa500;">)</span>
+       prior-sampler <span style="color: #ffa500;">(</span>sampler prior-dist<span style="color: #ffa500;">)</span>
+       prior-sample <span style="color: #ffa500;">(</span>dataset <span style="color: #6a5acd;">(</span>sample! prior-sampler<span style="color: #6a5acd;">)</span><span style="color: #ffa500;">)</span>
+       prior-pdf <span style="color: #ffa500;">(</span>pdf prior-dist prior-sample<span style="color: #ffa500;">)</span>
+       post <span style="color: #ffa500;">(</span>posterior <span style="color: #6a5acd;">(</span>posterior-model <span style="color: #d3d3d3;">(</span><span style="color: #96CBFE;">:binomial</span> likelihoods<span style="color: #d3d3d3;">)</span>
+                                        <span style="color: #d3d3d3;">(</span><span style="color: #96CBFE;">:beta</span> distributions<span style="color: #d3d3d3;">)</span><span style="color: #6a5acd;">)</span><span style="color: #ffa500;">)</span>
+       post-dist <span style="color: #ffa500;">(</span>post <span style="color: #6a5acd;">(</span>sv <span style="color: #d3d3d3;">(</span>op <span style="color: #8b0000;">(</span>binomial-lik-params <span style="color: #96CBFE;">N</span> z<span style="color: #8b0000;">)</span> <span style="color: #8b0000;">(</span>beta-params a b<span style="color: #8b0000;">)</span><span style="color: #d3d3d3;">)</span><span style="color: #6a5acd;">)</span><span style="color: #ffa500;">)</span>
+       post-sampler <span style="color: #ffa500;">(</span>time <span style="color: #6a5acd;">(</span><span style="color: #4c83ff; font-weight: bold;">doto</span> <span style="color: #d3d3d3;">(</span>sampler post-dist<span style="color: #d3d3d3;">)</span> <span style="color: #d3d3d3;">(</span>mix!<span style="color: #d3d3d3;">)</span><span style="color: #6a5acd;">)</span><span style="color: #ffa500;">)</span>
+       post-sample <span style="color: #ffa500;">(</span>dataset <span style="color: #6a5acd;">(</span>sample! post-sampler<span style="color: #6a5acd;">)</span><span style="color: #ffa500;">)</span>
+       post-pdf <span style="color: #ffa500;">(</span>scal! <span style="color: #6a5acd;">(</span>/ 1.0 <span style="color: #d3d3d3;">(</span>evidence post-dist prior-sample<span style="color: #d3d3d3;">)</span><span style="color: #6a5acd;">)</span>
+                       <span style="color: #6a5acd;">(</span>pdf post-dist post-sample<span style="color: #6a5acd;">)</span><span style="color: #ffa500;">)</span><span style="color: #add8e6;">]</span>
+
+      <span style="color: #add8e6;">{</span><span style="color: #96CBFE;">:prior</span> <span style="color: #ffa500;">{</span><span style="color: #96CBFE;">:sample</span> <span style="color: #6a5acd;">(</span>native <span style="color: #d3d3d3;">(</span>row <span style="color: #8b0000;">(</span><span style="color: #afd8af;">p</span><span style="color: #d3d3d3; background-color: #000000;">/</span>data prior-sample<span style="color: #8b0000;">)</span> 0<span style="color: #d3d3d3;">)</span><span style="color: #6a5acd;">)</span>
+               <span style="color: #96CBFE;">:pdf</span> <span style="color: #6a5acd;">(</span>native prior-pdf<span style="color: #6a5acd;">)</span><span style="color: #ffa500;">}</span>
+       <span style="color: #96CBFE;">:posterior</span> <span style="color: #ffa500;">{</span><span style="color: #96CBFE;">:sample</span> <span style="color: #6a5acd;">(</span>native <span style="color: #d3d3d3;">(</span>row <span style="color: #8b0000;">(</span><span style="color: #afd8af;">p</span><span style="color: #d3d3d3; background-color: #000000;">/</span>data post-sample<span style="color: #8b0000;">)</span> 0<span style="color: #d3d3d3;">)</span><span style="color: #6a5acd;">)</span>
+                   <span style="color: #96CBFE;">:pdf</span> <span style="color: #6a5acd;">(</span>native post-pdf<span style="color: #6a5acd;">)</span><span style="color: #ffa500;">}</span><span style="color: #add8e6;">}</span><span style="color: #00ff00;">)</span><span style="color: #ffff00;">)</span><span style="color: #ff1493;">)</span><span style="color: #006400;">)</span><span style="color: #8b0000;">)</span>
+</pre>
+</div>
+
+<aside class="notes">
+<p>
+This listing shows a real code, an I purposefully made it low-level, to
+show you important steps in Bayadera architecture. Once you create a model,
+you can use all usual Clojure abstractions, to encapsulate most of those details,
+so they could be used with a line or two of code.
+</p>
+
+<ul>
+<li>Distribution</li>
+<li>Sampler</li>
+<li>Pdf</li>
+<li>Models</li>
+<li>Posterior (beta * binomial)</li>
+<li><b>mix!</b> - running MCMC</li>
+
+</ul>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline21" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline21">Prior and posterior - samples!</h3>
+
+<div class="figure">
+<p><img src="djuric_files/coin.png" alt="coin.png">
+</p>
+</div>
+
+<aside class="notes">
+<p>
+So, once we take many thousands of (almost free!) samples, we can simply plot each of those,
+and we get perfectly fine-grained plots. Yes, it is an overkill :)
+</p>
+
+</aside>
+</section>
+</section>
+<section style="top: 350px; display: none;" aria-hidden="true" class="stack future" hidden="">
+<section id="slide-orgheadline32" style="top: 350px; display: none;">
+<h2 id="orgheadline32">Real-World: Robust Linear Regression</h2>
+
+<div class="figure">
+<p><img src="djuric_files/kruschke-hlr-data.png" alt="kruschke-hlr-data.png" width="50%" height="50%,">
+</p>
+</div>
+<aside class="notes">
+<p>
+But, it is not an overkill in difficult multidimensional model. There, the more samples we can get, the better.
+</p>
+
+<p>
+Here is another example from Kruschke's book. We have a sample data of 300 measures of people's height and weight.
+</p>
+
+<p>
+We would like to know what's correlation between them. Since data obviously does not fall on one line,
+we decide that we'll try to find a <b>distribution</b> of all lines that could approximate this linear correlation.
+</p>
+
+<p>
+Blue lines represent some of the most probable lines, and the noise at each region.
+</p>
+
+</aside>
+</section>
+<section id="slide-orgheadline23" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline23">Hierarchical Model</h3>
+
+<div class="figure">
+<p><img src="djuric_files/kruschke-hlr-model.png" alt="kruschke-hlr-model.png">
+</p>
+</div>
+
+<aside class="notes">
+<p>
+Here's the model.
+</p>
+
+<ul>
+<li>x(i) is <b>height</b> of person i</li>
+<li>y(i) is <b>weight</b> of person i</li>
+
+</ul>
+
+<p>
+We suppose that there is a connection x -&gt; y, such that y(i) is t-distributed around β<sub>0</sub> + β<sub>1</sub> * x<sub>i</sub>.
+That t distribution <b>also</b> has uncertain parameters ν and σ.
+</p>
+
+<p>
+ν is exponentially distributed
+σ comes from an uniform distribution
+</p>
+
+<p>
+β<sub>0</sub> and β<sub>1</sub> are themselves uncertain, they are normally distributed
+</p>
+
+<p>
+Practically, this model is *4-dimensional: β<sub>0</sub>, beta<sub>1</sub>, ν and σ are the 4 dimensions
+of that joint random variable, while K, M<sub>0</sub>, S<sub>0</sub>, M<sub>1</sub>, S<sub>1</sub>, L and H are parameters of that 4-dimensional distribution.
+</p>
+
+<p>
+Don't forget those 300 data points. We'd have to fit the whole thing with them!
+</p>
+
+</aside>
+</section>
+<section id="slide-orgheadline24" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline24">Resulting Posterior</h3>
+
+<div class="figure">
+<p><img src="djuric_files/kruschke-hlr-posterior.png" alt="kruschke-hlr-posterior.png">
+</p>
+</div>
+
+<aside class="notes">
+<p>
+Kruschke calculates this model using Stan, and gets those quite <b>rough</b> histograms, that show
+the marginal probabilities of the 4 dimensions. Black line denotes the region that contains 95% probability
+(note: NOT the same as confidence intervals).
+</p>
+
+<p>
+We see that β<sub>0</sub> is between -200 and -80, β<sub>1</sub> between 3.5 and 5.3, σ around 24 and ν around 5.
+</p>
+
+<p>
+It took Kruschke <b>several hundred seconds</b> to complete this calculation with Stan/JAGS!
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline25" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline25">Read the data</h3>
+<div class="org-src-container">
+
+<pre class="src src-clojure"><span style="color: #8b0000;">(</span><span style="color: #4c83ff; font-weight: bold;">defn</span> <span style="color: #ff1493;">read-data</span> <span style="color: #006400;">[</span>in-file<span style="color: #006400;">]</span>
+  <span style="color: #006400;">(</span><span style="color: #4c83ff; font-weight: bold;">loop</span> <span style="color: #ff1493;">[</span>c 0 data <span style="color: #ffff00;">(</span>drop 1 <span style="color: #00ff00;">(</span><span style="color: #afd8af;">csv</span><span style="color: #d3d3d3; background-color: #000000;">/</span>read-csv in-file<span style="color: #00ff00;">)</span><span style="color: #ffff00;">)</span> hw <span style="color: #ffff00;">(</span>transient <span style="color: #00ff00;">[]</span><span style="color: #ffff00;">)</span><span style="color: #ff1493;">]</span>
+    <span style="color: #ff1493;">(</span><span style="color: #4c83ff; font-weight: bold;">if</span> data
+      <span style="color: #ffff00;">(</span><span style="color: #4c83ff; font-weight: bold;">let</span> <span style="color: #00ff00;">[</span><span style="color: #add8e6;">[</span>_ h w<span style="color: #add8e6;">]</span> <span style="color: #add8e6;">(</span>first data<span style="color: #add8e6;">)</span><span style="color: #00ff00;">]</span>
+        <span style="color: #00ff00;">(</span><span style="color: #4c83ff; font-weight: bold;">recur</span> <span style="color: #add8e6;">(</span>inc c<span style="color: #add8e6;">)</span> <span style="color: #add8e6;">(</span>next data<span style="color: #add8e6;">)</span>
+               <span style="color: #add8e6;">(</span><span style="color: #4c83ff; font-weight: bold;">-&gt;</span> hw <span style="color: #ffa500;">(</span>conj! <span style="color: #6a5acd;">(</span>double <span style="color: #d3d3d3;">(</span>read-string h<span style="color: #d3d3d3;">)</span><span style="color: #6a5acd;">)</span><span style="color: #ffa500;">)</span>
+                   <span style="color: #ffa500;">(</span>conj! <span style="color: #6a5acd;">(</span>double <span style="color: #d3d3d3;">(</span>read-string w<span style="color: #d3d3d3;">)</span><span style="color: #6a5acd;">)</span><span style="color: #ffa500;">)</span><span style="color: #add8e6;">)</span><span style="color: #00ff00;">)</span><span style="color: #ffff00;">)</span>
+      <span style="color: #ffff00;">(</span>op <span style="color: #00ff00;">[</span>c<span style="color: #00ff00;">]</span> <span style="color: #00ff00;">(</span>persistent! hw<span style="color: #00ff00;">)</span><span style="color: #ffff00;">)</span><span style="color: #ff1493;">)</span><span style="color: #006400;">)</span><span style="color: #8b0000;">)</span>
+
+<span style="color: #8b0000;">(</span><span style="color: #4c83ff; font-weight: bold;">def</span> <span style="color: #ff69b4;">params-300</span> <span style="color: #006400;">(</span>sv <span style="color: #ff1493;">(</span>read-data <span style="color: #ffff00;">(</span>slurp <span style="color: #00ff00;">(</span><span style="color: #afd8af;">io</span><span style="color: #d3d3d3; background-color: #000000;">/</span>file <span style="color: #61CE3C;">"ht-wt-data-300.csv"</span><span style="color: #00ff00;">)</span><span style="color: #ffff00;">)</span><span style="color: #ff1493;">)</span><span style="color: #006400;">)</span><span style="color: #8b0000;">)</span>
+</pre>
+</div>
+
+<aside class="notes">
+<p>
+Let's do the same thing with Bayadera. I'm writing quite plain and low-level code here
+to show that even without additional Clojure abstractions, it is still not more complex
+than the alternative R/Python models.
+</p>
+
+<p>
+First, we use <b>plain Clojure</b> to read the data and put it into a vector of parameters that
+we will feed to Bayadera's engine.
+</p>
+
+</aside>
+<pre class="example">#'user/read-data#'user/params-300
+</pre>
+
+</section>
+<section id="slide-orgheadline26" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline26">Create a custom model</h3>
+<div class="org-src-container">
+
+<pre class="src src-clojure"><span style="color: #8b0000;">(</span><span style="color: #4c83ff; font-weight: bold;">def</span> <span style="color: #ff69b4;">rlr-source</span> <span style="color: #006400;">(</span>slurp <span style="color: #ff1493;">(</span><span style="color: #afd8af;">io</span><span style="color: #d3d3d3; background-color: #000000;">/</span>file <span style="color: #61CE3C;">"robust-linear-regression.h"</span><span style="color: #ff1493;">)</span><span style="color: #006400;">)</span><span style="color: #8b0000;">)</span>
+
+<span style="color: #8b0000;">(</span><span style="color: #4c83ff; font-weight: bold;">def</span> <span style="color: #ff69b4;">rlr-prior</span>
+  <span style="color: #006400;">(</span>cl-distribution-model <span style="color: #ff1493;">[</span><span style="color: #ffff00;">(</span><span style="color: #96CBFE;">:gaussian</span> source-library<span style="color: #ffff00;">)</span>
+                          <span style="color: #ffff00;">(</span><span style="color: #96CBFE;">:uniform</span> source-library<span style="color: #ffff00;">)</span>
+                          <span style="color: #ffff00;">(</span><span style="color: #96CBFE;">:exponential</span> source-library<span style="color: #ffff00;">)</span>
+                          <span style="color: #ffff00;">(</span><span style="color: #96CBFE;">:t</span> source-library<span style="color: #ffff00;">)</span>
+                          rlr-source<span style="color: #ff1493;">]</span>
+                         <span style="color: #96CBFE;">:name</span> <span style="color: #61CE3C;">"rlr"</span> <span style="color: #96CBFE;">:mcmc-logpdf</span> <span style="color: #61CE3C;">"rlr_mcmc_logpdf"</span>
+                         <span style="color: #96CBFE;">:params-size</span> 7 <span style="color: #96CBFE;">:dimension</span> 4<span style="color: #006400;">)</span><span style="color: #8b0000;">)</span>
+
+<span style="color: #8b0000;">(</span><span style="color: #4c83ff; font-weight: bold;">defn</span> <span style="color: #ff1493;">rlr-likelihood</span> <span style="color: #006400;">[</span>n<span style="color: #006400;">]</span>
+  <span style="color: #006400;">(</span>cl-likelihood-model rlr-source <span style="color: #96CBFE;">:name</span> <span style="color: #61CE3C;">"rlr"</span> <span style="color: #96CBFE;">:params-size</span> n<span style="color: #006400;">)</span><span style="color: #8b0000;">)</span>
+</pre>
+</div>
+
+<aside class="notes">
+<p>
+We use some Bayadera's built-in models of common distribution and combine them
+into GPU code of this specific hierarchical model.
+</p>
+
+<p>
+Although we use some stock distribution, the actual hierarchy is specific for this model.
+We have to specify that in some <b>straightforward</b> OpenCL C code.
+</p>
+
+</aside>
+
+<pre class="example">#'user/rlr-source#'user/rlr-prior#'user/rlr-likelihood
+</pre>
+
+</section>
+<section id="slide-orgheadline27" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline27">Model's likelihood function</h3>
+<div class="org-src-container">
+
+<pre class="src src-c"><span style="color: #afd8af;">REAL</span> <span style="color: #ff1493;">rlr_loglik</span>(<span style="color: #afd8af;">__constant</span> <span style="color: #4c83ff; font-weight: bold;">const</span> <span style="color: #ff69b4;">REAL</span>* params, <span style="color: #afd8af;">REAL</span>* <span style="color: #ff69b4;">x</span>) {
+    <span style="color: #4c83ff; font-weight: bold;">const</span> <span style="color: #afd8af;">REAL</span> <span style="color: #ff69b4;">nu</span> = x[0];
+    <span style="color: #4c83ff; font-weight: bold;">const</span> <span style="color: #afd8af;">REAL</span> <span style="color: #ff69b4;">b0</span> = x[1];
+    <span style="color: #4c83ff; font-weight: bold;">const</span> <span style="color: #afd8af;">REAL</span> <span style="color: #ff69b4;">b1</span> = x[2];
+    <span style="color: #4c83ff; font-weight: bold;">const</span> <span style="color: #afd8af;">REAL</span> <span style="color: #ff69b4;">sigma</span> = x[3];
+    <span style="color: #4c83ff; font-weight: bold;">const</span> <span style="color: #afd8af;">uint</span> <span style="color: #ff69b4;">n</span> = (<span style="color: #afd8af;">uint</span>)params[0];
+    <span style="color: #4c83ff; font-weight: bold;">const</span> <span style="color: #afd8af;">bool</span> <span style="color: #ff69b4;">valid</span> = (0.0f &lt; nu) &amp;&amp; (0.0f &lt; sigma);
+    <span style="color: #4c83ff; font-weight: bold;">if</span> (valid) {
+        <span style="color: #4c83ff; font-weight: bold;">const</span> <span style="color: #afd8af;">REAL</span> <span style="color: #ff69b4;">scale</span> = t_log_scale(nu, sigma);
+        <span style="color: #afd8af;">REAL</span> <span style="color: #ff69b4;">res</span> = 0.0;
+        <span style="color: #4c83ff; font-weight: bold;">for</span> (<span style="color: #afd8af;">uint</span> <span style="color: #ff69b4;">i</span> = 0; i &lt; n; i = i+2) {
+            res += t_log_unscaled(nu,
+                                  b0 + b1 * params[i+1],
+                                  sigma, params[i+2])
+                + scale;
+        }
+        <span style="color: #4c83ff; font-weight: bold;">return</span> res;
+    }
+    <span style="color: #4c83ff; font-weight: bold;">return</span> NAN;
+}
+</pre>
+</div>
+
+<aside class="notes">
+<p>
+Here is the likelihood function corresponding to the model from the diagrams. We use
+built-in t<sub>log</sub><sub>unscaled</sub> function and feed it the appropriate parameters, and do this in
+the loop for all 300 data points.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline28" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline28">Model's prior function</h3>
+<div class="org-src-container">
+
+<pre class="src src-c"><span style="color: #afd8af;">REAL</span> <span style="color: #ff1493;">rlr_logpdf</span>(<span style="color: #afd8af;">__constant</span> <span style="color: #4c83ff; font-weight: bold;">const</span> <span style="color: #ff69b4;">REAL</span>* params, <span style="color: #afd8af;">REAL</span>* <span style="color: #ff69b4;">x</span>) {
+    <span style="color: #4c83ff; font-weight: bold;">return</span> exponential_log(params[0], x[0] - 1)
+        + gaussian_log(params[1], params[2], x[1])
+        + gaussian_log(params[3], params[4], x[2])
+        + uniform_log(params[5], params[6], x[3]);
+
+}
+</pre>
+</div>
+
+<aside class="notes">
+<p>
+Prior is much easier. You can recognize that distributions from the hierarchical
+diagram are simply combined to compute the probability for any combination of parameters
+that we give it.
+</p>
+
+<p>
+The user does not call those functions explicitly. They are just specific parts of the
+engine that will be automagically compiled into GPU code by Bayadera.
+</p>
+
+<p>
+In the coin model, we did not have to do this step, because we could just reuse stock
+models that are already built in Bayadera. Once we created <b>this</b> model, we can also reuse
+it in a similar way.
+</p>
+
+</aside>
+</section>
+<section id="slide-orgheadline29" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline29">Running the inference on the GPU</h3>
+<div class="org-src-container">
+
+<pre class="src src-clojure"><span style="color: #8b0000;">(</span><span style="color: #4c83ff; font-weight: bold;">def</span> <span style="color: #ff69b4;">result</span> <span style="color: #006400;">(</span>atom
+<span style="color: #ff1493;">(</span>with-default-bayadera
+  <span style="color: #ffff00;">(</span>with-release
+    <span style="color: #00ff00;">[</span>prior <span style="color: #add8e6;">(</span>distribution rlr-prior<span style="color: #add8e6;">)</span>
+     prior-dist <span style="color: #add8e6;">(</span>prior <span style="color: #ffa500;">(</span>sv 10 -100 100 5 10 0.001 1000<span style="color: #ffa500;">)</span><span style="color: #add8e6;">)</span>
+
+     post <span style="color: #add8e6;">(</span>posterior <span style="color: #61CE3C;">"rlr_300"</span> <span style="color: #ffa500;">(</span>rlr-likelihood <span style="color: #6a5acd;">(</span>dim params-300<span style="color: #6a5acd;">)</span><span style="color: #ffa500;">)</span> prior-dist<span style="color: #add8e6;">)</span>
+     post-dist <span style="color: #add8e6;">(</span>post params-300<span style="color: #add8e6;">)</span>
+     post-sampler <span style="color: #add8e6;">(</span>sampler post-dist <span style="color: #ffa500;">{</span><span style="color: #96CBFE;">:limits</span> <span style="color: #6a5acd;">(</span>sge 2 4 <span style="color: #d3d3d3;">[</span>1 10 -400 100 0 20 0.01 100<span style="color: #d3d3d3;">]</span><span style="color: #6a5acd;">)</span><span style="color: #ffa500;">}</span><span style="color: #add8e6;">)</span><span style="color: #00ff00;">]</span>
+
+    <span style="color: #00ff00;">(</span>mix! post-sampler <span style="color: #add8e6;">{</span><span style="color: #96CBFE;">:step</span> 384<span style="color: #add8e6;">}</span><span style="color: #00ff00;">)</span>
+
+    <span style="color: #00ff00;">(</span>histogram! post-sampler 1000<span style="color: #00ff00;">)</span><span style="color: #ffff00;">)</span><span style="color: #ff1493;">)</span><span style="color: #006400;">)</span><span style="color: #8b0000;">)</span>
+</pre>
+</div>
+
+
+<aside class="notes">
+<p>
+Running the inference is even simpler than in the coin example.
+</p>
+
+<p>
+The new thing is that the sample itself is multidimensional, so we must make histogram to
+calculate marginal probabilities that we are interested in. But, this is something that Bayadera
+can do blazingly fast with its built in functions.
+</p>
+
+</aside>
+</section>
+<section id="slide-orgheadline30" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline30">Generate posterior diagrams</h3>
+<div class="org-src-container">
+
+<pre class="src src-clojure"><span style="color: #8b0000;">(</span><span style="color: #4c83ff; font-weight: bold;">defn</span> <span style="color: #ff1493;">var-plot</span> <span style="color: #006400;">[]</span> <span style="color: #006400;">(</span>plot2d <span style="color: #ff1493;">(</span><span style="color: #afd8af;">qa</span><span style="color: #d3d3d3; background-color: #000000;">/</span>current-applet<span style="color: #ff1493;">)</span> <span style="color: #ff1493;">{</span><span style="color: #96CBFE;">:width</span> 480 <span style="color: #96CBFE;">:height</span> 240<span style="color: #ff1493;">}</span><span style="color: #006400;">)</span><span style="color: #8b0000;">)</span>
+
+<span style="color: #8b0000;">(</span><span style="color: #4c83ff; font-weight: bold;">defn</span> <span style="color: #ff1493;">setup</span> <span style="color: #006400;">[]</span>
+  <span style="color: #006400;">(</span><span style="color: #afd8af;">q</span><span style="color: #d3d3d3; background-color: #000000;">/</span>background 0<span style="color: #006400;">)</span>
+  <span style="color: #006400;">(</span><span style="color: #afd8af;">q</span><span style="color: #d3d3d3; background-color: #000000;">/</span>image <span style="color: #ff1493;">(</span>show <span style="color: #ffff00;">(</span>render-histogram <span style="color: #00ff00;">(</span>var-plot<span style="color: #00ff00;">)</span> @result 1<span style="color: #ffff00;">)</span><span style="color: #ff1493;">)</span> 0 0<span style="color: #006400;">)</span>
+  <span style="color: #006400;">(</span><span style="color: #afd8af;">q</span><span style="color: #d3d3d3; background-color: #000000;">/</span>image <span style="color: #ff1493;">(</span>show <span style="color: #ffff00;">(</span>render-histogram <span style="color: #00ff00;">(</span>var-plot<span style="color: #00ff00;">)</span> @result 2<span style="color: #ffff00;">)</span><span style="color: #ff1493;">)</span> 480 0<span style="color: #006400;">)</span>
+  <span style="color: #006400;">(</span><span style="color: #afd8af;">q</span><span style="color: #d3d3d3; background-color: #000000;">/</span>image <span style="color: #ff1493;">(</span>show <span style="color: #ffff00;">(</span>render-histogram <span style="color: #00ff00;">(</span>var-plot<span style="color: #00ff00;">)</span> @result 3<span style="color: #ffff00;">)</span><span style="color: #ff1493;">)</span> 0 260<span style="color: #006400;">)</span>
+  <span style="color: #006400;">(</span><span style="color: #afd8af;">q</span><span style="color: #d3d3d3; background-color: #000000;">/</span>image <span style="color: #ff1493;">(</span>show <span style="color: #ffff00;">(</span>render-histogram <span style="color: #00ff00;">(</span>var-plot<span style="color: #00ff00;">)</span> @result 0<span style="color: #ffff00;">)</span><span style="color: #ff1493;">)</span> 480 260<span style="color: #006400;">)</span>
+
+  <span style="color: #006400;">(</span><span style="color: #afd8af;">q</span><span style="color: #d3d3d3; background-color: #000000;">/</span>save <span style="color: #61CE3C;">"robust-linear-regression.png"</span><span style="color: #006400;">)</span><span style="color: #8b0000;">)</span>
+
+#_<span style="color: #8b0000; font-style: italic;">(</span><span style="color: #8B8989; font-style: italic;">q/defsketch diagrams :renderer :p2d :size :fullscreen</span>
+<span style="color: #8B8989; font-style: italic;">    :setup setup :middleware </span><span style="color: #006400; font-style: italic;">[</span><span style="color: #8B8989; font-style: italic;">pause-on-error</span><span style="color: #006400; font-style: italic;">]</span><span style="color: #8b0000; font-style: italic;">)</span>
+</pre>
+</div>
+
+</section>
+<section id="slide-orgheadline31" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline31">Fine grained histograms!</h3>
+<p>
+Posteriors: β<sub>0</sub>, β<sub>1,σ</sub>, and ν
+<img src="djuric_files/robust-linear-regression.png" alt="robust-linear-regression.png">
+</p>
+<aside class="notes">
+<p>
+The diagram.
+</p>
+
+</aside>
+</section>
+</section>
+<section style="top: 350px; display: none;" aria-hidden="true" class="stack future" hidden="">
+<section id="slide-orgheadline34" style="top: 350px; display: none;">
+<h2 id="orgheadline34">How fast is it?</h2>
+<ul>
+<li>Bayadera
+<ul>
+<li>61,208,576 samples in 267 ms.</li>
+<li>4.36 ns per (computationally heavy) sample</li>
+<li>very precise histogram</li>
+
+</ul></li>
+<li>JAGS/Stan (state-of-the-art bayesian C++ tools)
+<ul>
+<li>20,000 samples in 180/485 seconds</li>
+<li>9 ms per sample</li>
+<li>rough histogram</li>
+
+</ul></li>
+<li><font color="red">2,000,000 ×</font> faster per sample</li>
+<li>more precise results, <font color="red">1000 ×</font> faster</li>
+
+</ul>
+
+<aside class="notes">
+<p>
+What I really wanted to show you is this: despite <b>MCMC being sequential by nature</b>,
+Bayadera runs circles around the best state of the art Bayesian environments!
+</p>
+
+<p>
+For this particular analysis, Bayadera took 60 M samples during the
+exploration of that complex multi-dimensional space in just 267 ms, which is 4 ns per sample!
+</p>
+
+<p>
+JAGS and Stan, two best popular R/Python tools implemented in C++ spent 180/485 seconds
+to get 20K samples.
+</p>
+
+<p>
+This is 2 million times less per sample. However, it is not fair to compare those
+directly, since Stan tries to spend more time on getting supposedly better convergence.
+</p>
+
+<p>
+But, when we compare the <b>whole analysis</b>, we can see that Bayadera was roughly
+1000 times faster, and yet produced a better result with much more precise histograms
+(not shown here)!
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orgheadline33" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgheadline33">In real life</h3>
+<ul>
+<li>1 second vs a couple of hours</li>
+<li>1 minute vs several days!</li>
+<li>1 hour vs couple months/ a year</li>
+
+</ul>
+
+<aside class="notes">
+<p>
+Now, you might think - but who cares if something is 1000 times faster or slower?
+So what if it takes a couple of milliseconds instead of a few nanoseconds? Both are
+faster than the blink of an eye.
+</p>
+
+<p>
+Well, considering number of seconds in a day, hours in a month, etc…
+This is a difference of having to wait 1 second instead of an hour,
+or 1 minute instead of a few days, or 1 hour instead of months or even a year!
+</p>
+
+</aside>
+
+
+</section>
+</section>
+<section style="top: 350px; display: none;" aria-hidden="true" class="stack future" hidden="">
+<section id="slide-orgheadline35" style="top: 350px; display: none;">
+<h2 id="orgheadline35">Thank You</h2>
+<p>
+The presentation can be reached through my blog:
+</p>
+<ul>
+<li><a href="http://dragan.rocks/">http://dragan.rocks</a></li>
+
+</ul>
+
+<p>
+Find more at:
+</p>
+<ul>
+<li><a href="http://bayadera.uncomplicate.org/">http://bayadera.uncomplicate.org</a></li>
+<li><a href="http://clojurecl.uncomplicate.org/">http://clojurecl.uncomplicate.org</a></li>
+<li><a href="http://neanderthal.uncomplicate.org/">http://neanderthal.uncomplicate.org</a></li>
+<li><a href="http://fluokitten.uncomplicate.org/">http://fluokitten.uncomplicate.org</a></li>
+
+</ul>
+</section>
+</section>
+</div>
+<div class="backgrounds"><div class="slide-background present" style="display: block;" data-loaded="true"></div><div class="slide-background stack future" style="display: block;" data-loaded="true"><div class="slide-background present" style="display: block;" data-loaded="true"></div></div><div class="slide-background stack future" style="display: block;" data-loaded="true"><div class="slide-background present" style="display: block;" data-loaded="true"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div></div></div><div class="progress" style="display: block;"><span style="width: 0px;"></span></div><aside class="controls" style="display: block;"><button class="navigate-left" aria-label="previous slide" disabled="disabled"></button><button class="navigate-right enabled" aria-label="next slide"></button><button class="navigate-up" aria-label="above slide" disabled="disabled"></button><button class="navigate-down" aria-label="below slide" disabled="disabled"></button></aside><div class="slide-number" style="display: block;"><span class="slide-number-a">1</span></div><div class="speaker-notes" data-prevent-swipe="" tabindex="0"></div><div class="pause-overlay"></div><div style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);" id="aria-status-div" aria-live="polite" aria-atomic="true">Bayadera Bayes + Clojure + GPUDragan Djuricdragandj@gmail.com
+</div></div>
+<script src="djuric_files/head.js"></script>
+<script src="djuric_files/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+
+
+<div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px none; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px none; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-size-adjust: none; font-family: STIXSizeOneSym,sans-serif;"></div></div></body></html>
