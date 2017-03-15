@@ -9,6 +9,7 @@ time: 12:35-13:20
 type: Vortrag
 language: english
 head: 2017
+slides-file: schuck.pdf
 ---
 
 The Hash Array Mapped Trie (HAMT) has become the standard

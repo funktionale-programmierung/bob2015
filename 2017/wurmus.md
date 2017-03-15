@@ -8,6 +8,7 @@ time: 15:05-15:50
 type: Vortrag
 language: english
 head: 2017
+slides-file: wurmus.pdf
 ---
 
 Package management seems to quickly become a thing of the past as

@@ -8,6 +8,7 @@ time: 16:20-17:05
 type: Vortrag
 language: german
 head: 2017
+slides-file: ketchum.markdown
 ---
 
 Funktionale Programmierung spielt in der

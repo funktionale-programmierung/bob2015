@@ -8,6 +8,7 @@ time: 17:10-17:55
 type: Vortrag
 language: english
 head: 2017
+slides-file: kuehl.pdf
 ---
 
 Encapsulation is a pillar of object-oriented programming, but how

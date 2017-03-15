@@ -8,6 +8,7 @@ time: 10:15-11:00
 type: Vortrag
 language: german
 head: 2017
+slides-file: dienst.pdf
 ---
 
 Eine Testabdeckung von 50-80% ermöglicht es eine Codebasis wartbar zu

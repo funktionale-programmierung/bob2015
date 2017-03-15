@@ -8,6 +8,7 @@ time: 10:15-11:00
 type: Vortrag
 language: english
 head: 2017
+slides-file: thiemann.pdf
 ---
 
 This talk will give a practical insight into front-end web development

@@ -8,6 +8,7 @@ time: 16:20-16:50
 type: Vortrag
 language: german
 head: 2017
+slides-file: warda.pdf
 ---
 
 From graph theory through the history of computing and how it affected

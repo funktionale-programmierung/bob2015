@@ -8,6 +8,7 @@ time: 15:05-15:50
 type: Vortrag
 language: english
 head: 2017
+slides-file: loeh.pdf
 ---
 
 Many programming problems are data conversion problems. Data has to be
