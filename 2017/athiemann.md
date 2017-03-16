@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2017
 slides-file: thiemann.pdf
+youtube: BZfvoW8wixU
 ---
 
 This talk will give a practical insight into front-end web development
