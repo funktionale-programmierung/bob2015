@@ -9,6 +9,7 @@ type: Vortrag
 language: german
 head: 2017
 slides-file: thoma.pdf
+youtube: 6MJ2jlY2-R4
 ---
 
 Scripting in Hochsprachen bringt gegenüber blankem Shell-Scripting viele
