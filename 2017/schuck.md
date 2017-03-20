@@ -2,7 +2,7 @@
 layout: talk
 active: bob2017
 title: "Immutable Hash Maps: Plenty of room at the bottom"
-speaker: Peter Schuck
+speaker: Peter Schuck, Cliff Rodgers
 portrait: peter-schuck.jpg
 portrait2: cliff-rodgers.jpg
 time: 12:35-13:20
