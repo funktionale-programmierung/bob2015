@@ -8,7 +8,8 @@ time: 12:35-13:20
 type: Vortrag
 language: english
 head: 2017
-sldies-file: kant.html
+slides-file: kant.html
+youtube: 8Y78eTaEkBU
 ---
 
 No one should ever be forced to choose between performant and robust
