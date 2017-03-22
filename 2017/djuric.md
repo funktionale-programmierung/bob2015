@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2017
 slides-file: djuric.html
+youtube: TGxYfi3Vi3s
 ---
 
 Have you ever seen hierarchical probabilistic models computed in
