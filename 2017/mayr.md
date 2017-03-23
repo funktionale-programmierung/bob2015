@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2017
 slides-file: mayr.pdf
+youtube: bFr4NntxsEc
 ---
 
 Haskell is a superb language for implementing Mac applications with
