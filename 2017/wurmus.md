@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2017
 slides-file: wurmus.pdf
+youtube: PEuGVhRWTbA
 ---
 
 Package management seems to quickly become a thing of the past as
