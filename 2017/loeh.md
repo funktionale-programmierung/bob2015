@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2017
 slides-file: loeh.pdf
+youtube: w43kve1zeoI
 ---
 
 Many programming problems are data conversion problems. Data has to be
