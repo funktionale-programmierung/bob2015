@@ -9,6 +9,7 @@ type: Vortrag
 language: german
 head: 2017
 slides-file: ketchum.markdown
+youtube: S9U9FWntv_8
 ---
 
 Funktionale Programmierung spielt in der
