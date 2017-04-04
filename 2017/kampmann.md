@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2017
 slides-link: http://slides.com/benjaminkampmann/bob2017-privacy-first-data-structures#/
+youtube: ND1UhSzvgAk
 ---
 
 Blockchain technology like Bitcoin popularised the concept of decentralised
