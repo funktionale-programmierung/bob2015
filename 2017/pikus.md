@@ -8,6 +8,7 @@ time: 11:45-12:30
 type: Vortrag
 language: english
 head: 2017
+slides-file: pikus.pdf
 ---
 
 #### IoT Analytics Platform on Top of SMACK
