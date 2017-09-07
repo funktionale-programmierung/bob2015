@@ -19,7 +19,11 @@
 <li><a href="/2017/program.html">Programm</a></li>
 {% endif %}
 -->
-
+{% if page.active == "cfp" %}
+<li class="active"><a href="/2018/de/cfp.html">Call for Contributions</a></li>
+{% else %}
+<li><a href="/2018/de/cfp.html">Call for Contributions</a></li>
+{% endif %}
 {% if page.active == "richtlinien" %}
 <li class="active"><a href="/2018/de/policies.html">Richtlinien</a></li>
 {% else %}
@@ -89,6 +93,11 @@ c<li><a href="/2017/program.html">Program</a></li>
 {% endif %}
 -->
 
+{% if page.active == "cfp" %}
+<li class="active"><a href="/2018/en/cfp.html">Call for Contributions</a></li>
+{% else %}
+<li><a href="/2018/en/cfp.html">Call for Contributions</a></li>
+{% endif %}
 {% if page.active == "richtlinien" %}
 <li class="active"><a href="/2017/en/policies.html">Policies</a></li>
 {% else %}

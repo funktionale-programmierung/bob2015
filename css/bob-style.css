@@ -147,6 +147,11 @@ body{
 	 background-color: #0f6b56;
 }
 
+.btn-bang {
+    font-size: 36px;
+    text-align: center;
+}
+
 .bcolor1 { 
 	color:#bbbbbb;
 	background-color: #032641;;
