@@ -9,10 +9,10 @@ language: english
 head: 2018
 ---
 
-TidalCycles (or Tidal for short) is a language for live coding patterns.
-It allows you to make musical patterns with text, describing sequences
-and ways of transforming and combining them, exploring complex
-interactions between simple parts. 
+[TidalCycles](https://tidalcycles.org/) (or Tidal for short) is a
+language for live coding patterns.  It allows you to make musical
+patterns with text, describing sequences and ways of transforming and
+combining them, exploring complex interactions between simple parts.
 
 Tidal is embedded in the Haskell language.
 
