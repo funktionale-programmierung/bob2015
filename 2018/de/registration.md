@@ -112,7 +112,7 @@ Tutorial extra anmelden. Bitte beachten Sie dies bei Ihrer Anmeldung.
 BOB bietet Kinderbetreuung für den ganzen Tag ohne zusätzliche Kosten
 an, falls *mindestens 4 Kinder* bis zum *5. Februar 2018* zusammenkommen.
 Die Betreuung findet im Gebäude der Konferenz statt. 
-Falls Sie Interesse haben, schicken Sie uns
+Falls Sie Interesse haben, schicken Sie uns eine
 [E-Mail](mailto:konferenz@bobkonf.de).
 
 ### Rabattbedingungen
