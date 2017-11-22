@@ -87,6 +87,10 @@ register. You will then receive a discount code.
 Please write us an <a href="mailto:konferenz@bobkonf.de">e-mail</a>
 <i>before</i> you register and tell us why you need this kind of support.
 </li>
+<li>We have a limited budget for travel assistance for the conference.
+Please write an <a href="mailto:konferenz@bobkonf.de">e-mail</a>
+<i>before Dec. 15, 2017</i> and tell us why you need this kind of support.
+</li>
 </ol>
 
 The conference fee includes snacks, drinks and lunch.
