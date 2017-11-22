@@ -14,7 +14,7 @@ Die Anmeldegebühr zur BOB 2018 ist gestaffelt nach Zeitpunkt der
 Anmeldung. Zusätzlich gibt es noch einen Rabatt für Studenten sowie
 für Teilnehmer unserer Partnerkonferenz
 [:clojured](http://www.clojured.de/).
-Außerdem möchten die BOB-Konferenz Teilnehmergruppen fördern, die bei der BOB bisher unterrepräsentiert
+Außerdem möchte die BOB-Konferenz Teilnehmergruppen fördern, die bei der BOB bisher unterrepräsentiert
 waren. Dazu gehören insbesondere Frauen und Teilnehmer, die die BOB aus
 finanziellen Gründen anderweitig nicht besuchen könnten.
 Es gelten folgende Tarife:
