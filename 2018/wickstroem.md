@@ -7,6 +7,7 @@ type: Vortrag
 language: english
 head: 2018
 time: 16:35-17:20
+portrait: oskar-wickstroem.jpg
 ---
 
 When modeling problem domains, we collect different possible states,
