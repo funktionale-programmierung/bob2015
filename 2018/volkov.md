@@ -7,6 +7,7 @@ type: Vortrag
 language: english
 head: 2018
 time: 15:20-16:05
+portrait: nikita-volkov.png
 ---
 
 This talk will present the upcoming release of Hasql, the Postgres
