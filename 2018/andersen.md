@@ -7,6 +7,7 @@ portrait: leif-andersen.jpg
 type: Vortrag
 language: english
 head: 2018
+time: 09:15-10:15
 ---
 
 [Video](https://lang.video/) is a language for making movies. It
