@@ -7,6 +7,7 @@ type: Vortrag
 language: english
 head: 2018
 time: 14:30-15:15
+portrait: adam-lindberg.jpg
 ---
 
 We present a new hardware platform called GRiSP. It allows you to run
