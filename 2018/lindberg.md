@@ -10,7 +10,7 @@ time: 14:30-15:15
 portrait: adam-lindberg.jpg
 ---
 
-We present a new hardware platform called GRiSP. It allows you to run
+We present a new hardware platform called [GRiSP](https://www.grisp.org). It allows you to run
 Erlang on bare metal hardware, without a kernel. It is specifically
 made for rapid prototyping of Internet of Things devices and has a
 wide range of hardware access ports. We will introduce the hardware,
