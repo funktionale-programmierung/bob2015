@@ -22,9 +22,12 @@ performed by software engineers. These two activities require different
 skillsets, as well as different levels of abstraction. Bridging this gap
 while preserving the correctness guarantees is a non-trivial task.
 
-At IOHK, we use the Psi calculus to translate the cryptographic protocols
-described in research papers into a formal language, producing a
-machine-readable, executable specification. This has multiple benefits:
+At IOHK, we use the Psi calculus to translate the cryptographic
+protocols described in research papers (main protocol
+[here](https://eprint.iacr.org/2016/889.pdf), related papers
+[here](https://iohk.io/research/library/)) into a formal language,
+producing a machine-readable, executable specification. This has
+multiple benefits:
 
 - It creates a common language for the researchers and engineers.
 - It forces the specification to be complete and unambiguous.
@@ -39,8 +42,8 @@ that each of these steps.
 
 ## Philipp Kant
 
-During his postdoc years in theoretical particle physics, Philipp developed
-a passion for Haskell, and finally made the switch to software development
-in 2014. Early in 2017, he joined IOHK, a company that is bridging the gap
-between research and development in cryptocurrencies.
+During his postdoc years in theoretical particle physics, Philipp
+developed a passion for Haskell, and finally made the switch to software
+development in 2014. Early in 2017, he joined IOHK, a cryptocurrency
+research and development company.
 
