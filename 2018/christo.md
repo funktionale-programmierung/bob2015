@@ -7,6 +7,7 @@ type: Vortrag
 language: english
 head: 2018
 time: 17:25-18:05
+portrait: christo.jpg
 ---
 
 The human rights sector is increasingly complementing its more traditional
