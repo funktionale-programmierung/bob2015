@@ -10,11 +10,11 @@ time: 10:30-11:15
 ---
 
 I would like to show how one can apply property based testing to
-"real-world" program, such as a CRUD web server application. I'm
+"real-world" programs, such as a CRUD web server application. I'm
 interested in properties about the system as a whole, not merely some
 pure parts of it (e.g. serialising and deserisalising to and from JSON).
 
-To achieve this I've implemented a Haskell library on top of QuickCheck
+To achieve this I've implemented a [Haskell library](https://github.com/advancedtelematic/quickcheck-state-machine) on top of QuickCheck
 that makes it possible to specify the correctness of the system using
 pre- and post-conditions over a state machine model a la Erlang's
 proprietary version of QuickCheck.
