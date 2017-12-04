@@ -30,5 +30,12 @@ No previous knowledge about functional programming is assumed, but some experien
 To follow along and try their own ideas, participants will need the GHC compiler (which can be installed as part of the [Haskell Platform](https://www.haskell.org/platform/)).
 Please make sure to set it up beforehand so we can start on time! You should be able to start the interactive interpreter GHCi.
 
+## Matthias Heinzel
 
+Matthias Heinzel started programming with C on microcontrollers, but
+soon fell under the spell of immutability, purity and principled
+abstraction.
 
+He likes to share his passion for functional programming, e.g. as a
+teaching assistant at the Technical University of Berlin and organizer
+of Haskell meetups in Berlin.
