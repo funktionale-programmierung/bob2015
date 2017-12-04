@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2018
-title: ""
+title: "Solving NP-Hard Problems: An Example of Universal Portfolios"
 speaker: Jenny Hung
 type: Vortrag
 language: english
