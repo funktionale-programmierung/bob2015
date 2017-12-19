@@ -7,7 +7,7 @@ portrait: heinrich-apfelmus.png
 type: Tutorial
 language: german
 head: 2018
-time: 16:35-18:05
+time: 14:30-16:00
 ---
 
 

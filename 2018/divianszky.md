@@ -7,7 +7,7 @@ portrait: peter-divianszky.jpg
 type: Tutorial
 language: english
 head: 2018
-time: 14:30-16:00
+time: 16:35-18:05
 ---
 
 I am interested in higher-order Functional Reactive Programming
