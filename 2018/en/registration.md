@@ -102,8 +102,10 @@ for each tutorial individually.
 ###  Child care
 
 BOB offers child care for the entire day at no additional cost, if at
-*at least 4 children* are signed up until *February 6*.  Child care
-will be in the building of the conference.
+*at least 4 children* are signed up until *February 6*.
+Child care
+will be in the building of the conference, and provided by
+[Kinderbetreuung "Kunterbunt"](http://www.hochzeit-kinderbetreuung.de).
 If you would like to sign up for this,
 [e-mail us](mailto:konferenz@bobkonf.de).
 
