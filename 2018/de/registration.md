@@ -93,9 +93,6 @@ dann einen entsprechenden Rabattcode.</li>
 Bitte melden Sie sich <i>vor</i> der
 Registrierung per <a href="mailto:konferenz@bobkonf.de">E-Mail</a> und begründen
 Sie, warum Sie eine solche finanzielle Hilfe benötigen.</li>
-<li>Es gibt ein begrenztes Budget für <b>Reisekosten-Zugschüsse</b>.
-Bitte melden Sie sich <i>vor dem 15.12.2017</i> per <a href="mailto:konferenz@bobkonf.de">E-Mail</a> und begründen
-Sie, warum Sie eine solche finanzielle Hilfe benötigen.</li>
 </ol>
 
 
