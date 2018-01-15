@@ -3,7 +3,7 @@
 
 <head><meta charset="utf-8"></head>
 
-# Call for Participation: BOB 2018 (February 23, Berlin)
+# 2nd Call for Participation: BOB 2018 (February 23, Berlin)
 
 <hr/>
 
