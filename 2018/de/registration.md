@@ -71,6 +71,13 @@ Es gelten folgende Tarife:
   separat registrieren (siehe oben) und auch die Teilnahmegebühr für
   die :clojured bezahlen.*
 
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <p class="text-center"><a class="btn btn-primary" href="https://ti.to/bob/bob2018/" role="button">Anmelden &raquo;</a></p>
+  </div>
+</div>
+
 ### Förderprogramm
 
 Die BOB-Konferenz fördert Teilnehmergruppen, die bei
@@ -128,12 +135,20 @@ registrieren. Bitte bringen Sie zur BOB-Konferenz auch das Ticket
 für die :clojured mit. Ansonsten müssen Sie vor Ort den Aufpreis zur regulären
 Konferenzgebühr bezahlen.
 
-<div class="row">
-  <div class="col-md-4"></div>
-  <div class="col-md-4">
-    <p class="text-center"><a class="btn btn-primary" href="https://ti.to/bob/bob2018/" role="button">Anmelden &raquo;</a></p>
-  </div>
-</div>
+### Vorabend- und Konferenz-Essen
+
+Wir haben einen Tisch im  [I Due
+Forni](https://www.tripadvisor.com/Restaurant_Review-g187323-d886780-Reviews-I_Due_Forni-Berlin.html)
+für den Abend vor der Konferenz (22. Februar) reserviert, um 19:00.  (Pay your
+own way.)
+
+Außerdem veranstaltet BOB ein Konferenz-Abendessen im [Max &
+Moritz](http://www.maxundmoritzberlin.de/), das zwischen 18:30 und
+19:00 anfängt, direkt nach der Konferenz also.  
+Dies erfordert vorherige Registrierung auf unserer
+[Registrierungsseite](https://ti.to/bob/bob2018/).
+
+### Weitere Informationen
 
 Bei Fragen oder Probleme bezüglich der Anmeldung, schicken Sie uns bitte
 eine [E-Mail](mailto:konferenz@bobkonf.de).

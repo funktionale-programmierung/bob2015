@@ -66,6 +66,13 @@ under-represented in technology.
   **not** represent registration for :clojured.  You still need to
   register for :clojured and pay the :clojured registration fee.*
 
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <p class="text-center"><a class="btn btn-primary" href="https://ti.to/bob/bob2018/" role="button">Register &raquo;</a></p>
+  </div>
+</div>
+
 ### Grants
 
 The BOB conference supports participants from groups
@@ -95,16 +102,6 @@ BOB 2018 also offers several tutorials, which are included in the conference
 fee. However, limited capacities require that you register
 for each tutorial individually.
 
-###  Child care
-
-BOB offers child care for the entire day at no additional cost, if at
-*at least 4 children* are signed up until *February 6*.
-Child care
-will be in the building of the conference, and provided by
-[Kinderbetreuung "Kunterbunt"](http://www.hochzeit-kinderbetreuung.de).
-If you would like to sign up for this,
-[e-mail us](mailto:konferenz@bobkonf.de).
-
 ### Discount eligibility
 
 If you are eligible for our student discount, you must provide
@@ -121,12 +118,30 @@ BOB conference.
 If you fail to do so, you have to pay
 the full registration fee.
 
-<div class="row">
-  <div class="col-md-4"></div>
-  <div class="col-md-4">
-    <p class="text-center"><a class="btn btn-primary" href="https://ti.to/bob/bob2018/" role="button">Register &raquo;</a></p>
-  </div>
-</div>
+###  Child care
+
+BOB offers child care for the entire day at no additional cost, if at
+*at least 4 children* are signed up until *February 6*.
+Child care
+will be in the building of the conference, and provided by
+[Kinderbetreuung "Kunterbunt"](http://www.hochzeit-kinderbetreuung.de).
+If you would like to sign up for this,
+[e-mail us](mailto:konferenz@bobkonf.de).
+
+
+### Pre-conference and conference dinner
+
+We've reserved a table at the [I Due
+Forni](https://www.tripadvisor.com/Restaurant_Review-g187323-d886780-Reviews-I_Due_Forni-Berlin.html)
+for the evening before the conference (Feb 22) at 19:00.  (Pay your
+own way.)
+
+Moreover, BOB is hosting a conference dinner at the [Max &
+Moritz](http://www.maxundmoritzberlin.de/) starting between 18:30 and
+19:00 - i.e. right after the conference.  This requires advance
+registration on our [registration page](https://ti.to/bob/bob2018/).
+
+### Further information
 
 Don't hesitate to [contact us](mailto:konferenz@bobkonf.de) with questions
 regarding the registration (or any other topic concerning BOB 2018).
