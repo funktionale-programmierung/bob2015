@@ -130,7 +130,7 @@ regulären Konferenzgebühr bezahlen.
 Falls Sie den ermäßigten Betrag für Teilnehmer der
 [:clojured](http://www.clojured.de/).
 bezahlt haben, müssen Sie sich tatsächlich auch bei der
-[:clojured](http://www.clojured.de/).
+[:clojured](http://www.clojured.de/)
 registrieren. Bitte bringen Sie zur BOB-Konferenz auch das Ticket
 für die :clojured mit. Ansonsten müssen Sie vor Ort den Aufpreis zur regulären
 Konferenzgebühr bezahlen.
