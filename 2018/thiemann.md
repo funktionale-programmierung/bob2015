@@ -4,7 +4,7 @@ active: bob2018
 title: Einführung in Agda
 speaker: Peter Thiemann
 portrait: peter-thiemann.jpg
-time: 16:35-18:05
+time: 12:00-13:30
 type: Tutorial
 language: german
 head: 2018
