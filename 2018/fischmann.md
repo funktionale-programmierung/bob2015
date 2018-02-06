@@ -7,7 +7,7 @@ portrait: matthias-fischmann.png
 type: Tutorial
 language: english
 head: 2018
-time: 12:00-13:30
+time: 16:35-18:05
 ---
 
 Hedgehog is a Haskell library for writing property-based tests
