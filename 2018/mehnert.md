@@ -4,7 +4,7 @@ active: bob2018
 title: "Engineering TCP/IP with logic"
 speaker: Hannes Mehnert
 type: Vortrag
-language: german
+language: english
 head: 2018
 time: 17:25-18:05
 ---
