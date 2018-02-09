@@ -120,8 +120,7 @@ the full registration fee.
 
 ###  Child care
 
-BOB offers child care for the entire day at no additional cost, if at
-*at least 4 children* are signed up until *February 6*.
+BOB offers child care for the entire day at no additional cost.
 Child care
 will be in the building of the conference, and provided by
 [Kinderbetreuung "Kunterbunt"](http://www.hochzeit-kinderbetreuung.de).

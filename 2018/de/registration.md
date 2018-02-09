@@ -114,7 +114,7 @@ Tutorial extra anmelden. Bitte beachten Sie dies bei Ihrer Anmeldung.
 ### Kinderbetreuung
 
 BOB bietet Kinderbetreuung für den ganzen Tag ohne zusätzliche Kosten
-an, falls *mindestens 4 Kinder* bis zum *5. Februar 2018* zusammenkommen.
+an.
 Die Betreuung findet im Gebäude der Konferenz statt und wird von
 [Kinderbetreuung "Kunterbunt"](http://www.hochzeit-kinderbetreuung.de)
 durchgeführt.
