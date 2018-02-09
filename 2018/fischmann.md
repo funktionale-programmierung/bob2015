@@ -25,10 +25,12 @@ better error reporting and sound shrinking for free.  With a little
 luck we'll get as far as state machine testing like in [the BOB
 QuickCheck talk](andjelkovic.html).
 
-Some experience with software development and writing tests would be
-great.  Knowledge of QuickCheck is not required.  [Material and
-exercises](https://github.com/fisx/bob18-tutorial-hedgehog) will be
-provided soon.
+Some experience with software development and writing tests in Haskell
+would be great.  Knowledge of QuickCheck is not required.
+[Instructions on how to get ready are on
+github](https://github.com/fisx/bob18-tutorial-hedgehog).  (Material
+and exercises will be provided from the same repository in the
+beginning of the tutorial.)
 
 ### Matthias Fischmann
 
