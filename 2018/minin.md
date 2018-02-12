@@ -11,7 +11,7 @@ portrait: maxim-minin.jpg
 ---
 
 
-Durch stätig fortschreitende Globalisierung und Regulierung herrscht
+Durch stetig fortschreitende Globalisierung und Regulierung herrscht
 in der Finanzwelt einerseits der enorme Kostendruck, andererseits die
 wachsende Kommunikationsprotokollevielfalt. Unter diesen Umständen
 muss der Entwickler bei der Implementierung der Börsenschnittstellen
