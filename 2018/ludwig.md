@@ -16,11 +16,20 @@ an, um dann einen einfachen Web-Service mit Datenbankanbindung in
 Clojure zu entwickeln, den man als Grundlage für weitere Arbeiten mit
 Clojure verwenden kann.
 
-Wer das Tutorial am eigenen Laptop nachvollziehen will, sollte vorher
-Leiningen aufgesetzt haben: 
+### Vorbereitung
+
+Um dem Tutorial zu folgen, sollte man Leiningen installiert haben:
 
 [`https://leiningen.org/`](https://leiningen.org/)
 
+Außerdem sollte man sich das Repository unter
+[`https://github.com/ThorstenLudwig/bobkonf2018`](https://github.com/ThorstenLudwig/bobkonf2018)
+klonen und den Anweisungen folgen, um sicherzustellen, dass alle
+Abhängigkeiten installiert sind. Wer mit einer passenden
+Entwicklungsumgebung arbeiten will, kann sich z.B.  Cursive anschauen
+(Plugin für IntelliJ,
+[`https://cursive-ide.com`](https://cursive-ide.com) oder CIDER (baut
+auf Emacs auf, [`https://cider.readthedocs.io`](https://cider.readthedocs.io).
 
 ## Thorsten Ludwig
 
