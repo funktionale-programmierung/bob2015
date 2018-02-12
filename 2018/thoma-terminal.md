@@ -22,6 +22,17 @@ manage.
 After a short introduction to the basics of event handling and terminal
 rendering in Haskell, we're going to play »Pong« on the terminal!
 
+### Prerequisites:
+
+* Linux/Unix machine or VM: Unfortunately, Vty does not support
+  Windows currently. You can try with Win10 and WSL, but I'd rather
+  recommend a Linux VM if you're on Windows.
+* You'll need a working [Stack](http://haskellstack.org/) installation to
+  build the project.
+* Clone or download the Github repository
+  ([https://github.com/fmthoma/vty-workshop](https://github.com/fmthoma/vty-workshop))
+  and follow the README instructions to check that the build works.
+
 ## Franz Thoma
 
 Franz Thoma is originally a physicist and works as a consultant and software
