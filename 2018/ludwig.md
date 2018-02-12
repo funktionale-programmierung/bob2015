@@ -28,7 +28,9 @@ klonen und den Anweisungen folgen, um sicherzustellen, dass alle
 Abhängigkeiten installiert sind. Wer mit einer passenden
 Entwicklungsumgebung arbeiten will, kann sich z.B.  Cursive anschauen
 (Plugin für IntelliJ,
-[`https://cursive-ide.com`](https://cursive-ide.com) oder CIDER (baut
+[`https://cursive-ide.com`](https://cursive-ide.com),
+Counterclockwise für Eclipse, [`http://doc.ccw-ide.org/`](http://doc.ccw-ide.org/)
+oder CIDER (baut
 auf Emacs auf, [`https://cider.readthedocs.io`](https://cider.readthedocs.io).
 
 ## Thorsten Ludwig
