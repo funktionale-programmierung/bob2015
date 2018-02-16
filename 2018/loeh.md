@@ -40,11 +40,19 @@ In particular, the tutorial does *not* expect any previous knowledge of:
 
 ## Software requirements
 
-We will need GHC as a Haskell compiler, as well as Liquid Haskell, which in
-turn requires a theorem prover (we will use Z3). We will probably use version
-8.2.2 of GHC. As Liquid Haskell itself is in very active development, I will
-communicate the version of Liquid Haskell that we will use about a week before
-the conference.
+It is *not* necessary to install Liquid Haskell in order to follow the
+tutorial. Just bring your computer. There will be a website that you
+can point your browser to that will allow you to work on the tutorial
+exercises interactively.
+
+That being said, you are of course welcome to also install a version
+of Liquid Haskell locally on your machine.
+
+If you want to reproduce my environment as closely as possible: I will
+be using ghc-8.2.2 and liquidhaskell-0.8.2.3. Liquid Haskell needs a
+theorem prover to function properly, preferably z3. I'm using
+z3-4.6.0, but I don't think that the z3 version is particularly
+critical.
 
 ## Andres Löh
 
