@@ -380,7 +380,10 @@ a:focus {
 
 .btn-small {
   font-size: 16px;
-  padding: 20px 50px;
+  padding: 20px 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
   color:#cccccc;
   background-color: #13886d;
   border:0px;
