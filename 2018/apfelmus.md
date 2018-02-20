@@ -28,6 +28,10 @@ the end, we will look at how the paradigm of functional reactive
 programming (FRP), a radical departure from the traditional imperative
 paradigm, can simplify GUI programming.
 
+Source code for the examples and installation instructions for the
+tutorial can be found on
+<https://apfelmus.nfshost.com/temp/bobkonf.zip>.
+
 ## Heinrich Apfelmus
 
 Heinrich Apfelmus has been programming in Haskell for more than 10
@@ -36,5 +40,3 @@ on graphical user interfaces (GUI) and functional reactive programming
 (FRP). Heinrich has studied mathematics and currently works in
 theoretical physics. As a student, he has participated in
 international programming competitions.
-
-
