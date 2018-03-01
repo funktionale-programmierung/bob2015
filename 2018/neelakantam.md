@@ -8,6 +8,8 @@ language: english
 head: 2018
 time: 15:20-16:05
 portrait: srushtika-neelakantam.jpg
+slides-link: https://speakerdeck.com/srushtika/understanding-the-realtime-ecosystem-1
+youtube: o8DUat_EUrI
 ---
 
 It’s 2018, the time of data-driven realtime applications. With the

@@ -8,6 +8,8 @@ language: english
 head: 2018
 time: 10:30-11:15
 portrait: franz-thoma.jpg
+slides-link: https://github.com/fmthoma/akka-streams-slides/blob/master/Akka%20Streams.pdf
+youtube: ozqDrYRmmsE
 ---
 
 A lot of data processing can be decomposed into sequential stages of iterating

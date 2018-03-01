@@ -8,6 +8,7 @@ type: Tutorial
 language: english
 head: 2018
 time: 12:00-13:30
+youtube: ZGnTCyEaXXw
 ---
 
 [TidalCycles](https://tidalcycles.org/) (or Tidal for short) is a

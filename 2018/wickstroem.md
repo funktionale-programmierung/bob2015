@@ -8,6 +8,8 @@ language: english
 head: 2018
 time: 16:35-17:20
 portrait: oskar-wickstroem.jpg
+slides-file: wickstrom.jpg
+youtube: 5KvsuwspXZI
 ---
 
 When modeling problem domains, we collect different possible states,

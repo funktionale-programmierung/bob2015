@@ -8,6 +8,8 @@ language: english
 head: 2018
 time: 14:30-15:15
 portrait: nadezda-zryanina.jpg
+slides-file: zryanina.pdf
+youtube: 2IRfcDLGfJo
 ---
 
 We present a new hardware platform called [GRiSP](https://www.grisp.org). It allows you to run

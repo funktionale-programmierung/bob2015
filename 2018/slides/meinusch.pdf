@@ -1,0 +1,52 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>GitPitch Markdown Presentations for Developers on Git.</title>
+        <meta name="Description" content="Markdown Presentations for Developers on Git.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site Description Here">
+        <link href="/assets/libs/pro/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/assets/libs/pro/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/assets/libs/pro/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/assets/libs/pro/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/assets/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+    </head>
+    <body class=" ">
+        <a id="start"></a>
+        <div class="main-container">
+            <section class="height-100 imagebg text-center" data-overlay="4">
+                <div class="background-image-holder">
+                    <img alt="background" src="/assets/images/audience.jpg" />
+                </div>
+                <div class="container pos-vertical-center">
+                    <div class="row">
+                        <div class="col-sm-7 col-md-5">
+                            <h1><strong>Git<span class="gold">Pitch</span> Pro</strong></h1>
+                            <p>
+                            <i class="fa fa-user-secret fa-5x" aria-hidden="true"></i>
+                            </p>
+                            <p class="lead">
+                                Slideshow Presentation Access Expired
+                            </p>
+                            <p class=" ">
+                                Refresh presentation browser window and try again.
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+        </div>
+        <!--<div class="loader"></div>-->
+        <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+            <i class="stack-interface stack-up-open-big"></i>
+        </a>
+        <script src="/assets/libs/pro/js/jquery-3.1.1.min.js"></script>
+        <script src="/assets/libs/pro/js/smooth-scroll.min.js"></script>
+        <script src="/assets/libs/pro/js/scripts.js"></script>
+    </body>
+</html>

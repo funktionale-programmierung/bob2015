@@ -7,6 +7,7 @@ type: Vortrag
 language: english
 head: 2018
 time: 17:25-18:05
+youtube: AYDws2Nqcgs
 ---
 
 TCP/IP is a complex protocol, which is specified in a series of RFCs.
