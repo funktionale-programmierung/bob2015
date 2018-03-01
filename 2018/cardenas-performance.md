@@ -1,21 +1,15 @@
 ---
 layout: talk
 active: bob2018
-title: Live Coding with TidalCycles
+title: Opening Performance
 speaker: Alexandra Cárdenas
 portrait: alexandra-cardenas.jpg
-type: Tutorial
+type: Vortrag
 language: english
 head: 2018
-time: 12:00-13:30
+time: 09:00-09:15
+youtube: ZGnTCyEaXXw
 ---
-
-[TidalCycles](https://tidalcycles.org/) (or Tidal for short) is a
-language for live coding patterns.  It allows you to make musical
-patterns with text, describing sequences and ways of transforming and
-combining them, exploring complex interactions between simple parts.
-
-Tidal is embedded in the Haskell language.
 
 ### [Alexandra Cárdenas](http://cargocollective.com/tiemposdelruido)
 
