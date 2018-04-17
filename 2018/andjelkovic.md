@@ -7,6 +7,7 @@ type: Vortrag
 language: english
 head: 2018
 time: 10:30-11:15
+slides-file: andjelkovic.pdf
 ---
 
 I would like to show how one can apply property based testing to

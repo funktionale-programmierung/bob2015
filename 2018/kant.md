@@ -8,6 +8,8 @@ language: english
 head: 2018
 time: 12:50-13:35
 portrait: philipp-kant.jpg
+slides-file: kant.pdf
+youtube: dYTangDsias
 ---
 
 Blockchains are distributed systems, with actors that adhere to agreed-upon

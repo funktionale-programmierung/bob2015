@@ -8,6 +8,7 @@ language: german
 head: 2018
 time: 12:00-12:45
 portrait: michael-wiedeking.jpg
+youtube: XFtrL5ixLOk
 ---
 
 Mal ganz unabhängig von den Problemen mit der Parallelität ist es auch

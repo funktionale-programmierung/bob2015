@@ -8,6 +8,7 @@ language: english
 head: 2018
 time: 16:35-17:20
 portrait: raichoo-ketchum.jpg
+youtube: kMSUYFFN6oU
 ---
 
 Systems are getting increasingly complex and it's getting harder to

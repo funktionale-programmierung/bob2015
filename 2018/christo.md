@@ -8,6 +8,8 @@ language: english
 head: 2018
 time: 17:25-18:05
 portrait: christo.jpg
+slides-file: christo.pdf
+youtube: _tjY6HOPKTo
 ---
 
 The human rights sector is increasingly complementing its more traditional

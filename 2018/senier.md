@@ -7,6 +7,8 @@ type: Vortrag
 language: english
 head: 2018
 time: 12:00-12:45
+slides-file: senier.pdf
+youtube: ZtML-iZ5xB4
 ---
 
 Fuzzing. Bug bounties. ASLR. Code reviews. Despite the immense efforts put into improving the robustness of our software and the security of our systems, we don't seem to make good progress here. Have a look at a recent update to your favorite smartphone OS. Every single month, dozens of flaws get fixed. But even more are still lurking in the code bases. Many of them allow for total system compromise. What is the reason that the situation does not seem to improve?

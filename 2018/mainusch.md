@@ -9,6 +9,8 @@ head: 2018
 time: 14:30-15:15
 portrait: johannes-mainusch.jpg
 portrait2: ole-langbehn.jpg
+slides-file: mainusch.pdf
+youtube: WQi2cBIIhwc
 ---
 
 
