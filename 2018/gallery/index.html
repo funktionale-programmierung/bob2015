@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo album - Home</title>
+      <link rel="stylesheet" href="public/reset.css" />
+      <link rel="stylesheet" href="public/viewer.css" />
+      <link rel="stylesheet" href="public/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="public/light-gallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/style.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <a href="index.html">
+        <h1>Photo album</h1>
+        <h2></h2>
+      </a>
+    </header>
+    
+    <!--
+      Breadcrumbs of parent albums
+    -->
+    
+    <ul id="galleries">
+    </ul>
+    
+    <ul id="media">
+        
+          <li data-src="media/large/IMG_6014.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_6014.JPG">
+            <a href="media/large/IMG_6014.JPG">
+              <img src="media/thumbs/IMG_6014.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_6014.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_6700.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_6700.JPG">
+            <a href="media/large/IMG_6700.JPG">
+              <img src="media/thumbs/IMG_6700.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_6700.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5601.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5601.JPG">
+            <a href="media/large/IMG_5601.JPG">
+              <img src="media/thumbs/IMG_5601.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5601.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5020.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5020.JPG">
+            <a href="media/large/IMG_5020.JPG">
+              <img src="media/thumbs/IMG_5020.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5020.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5023.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5023.JPG">
+            <a href="media/large/IMG_5023.JPG">
+              <img src="media/thumbs/IMG_5023.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5023.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_2669.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_2669.JPG">
+            <a href="media/large/IMG_2669.JPG">
+              <img src="media/thumbs/IMG_2669.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_2669.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_4731.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_4731.JPG">
+            <a href="media/large/IMG_4731.JPG">
+              <img src="media/thumbs/IMG_4731.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_4731.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_7003.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_7003.JPG">
+            <a href="media/large/IMG_7003.JPG">
+              <img src="media/thumbs/IMG_7003.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_7003.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_8713.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_8713.JPG">
+            <a href="media/large/IMG_8713.JPG">
+              <img src="media/thumbs/IMG_8713.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_8713.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5031.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5031.JPG">
+            <a href="media/large/IMG_5031.JPG">
+              <img src="media/thumbs/IMG_5031.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5031.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5034.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5034.JPG">
+            <a href="media/large/IMG_5034.JPG">
+              <img src="media/thumbs/IMG_5034.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5034.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5040.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5040.JPG">
+            <a href="media/large/IMG_5040.JPG">
+              <img src="media/thumbs/IMG_5040.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5040.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5041.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5041.JPG">
+            <a href="media/large/IMG_5041.JPG">
+              <img src="media/thumbs/IMG_5041.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5041.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5042.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5042.JPG">
+            <a href="media/large/IMG_5042.JPG">
+              <img src="media/thumbs/IMG_5042.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5042.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5043.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5043.JPG">
+            <a href="media/large/IMG_5043.JPG">
+              <img src="media/thumbs/IMG_5043.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5043.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5046.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5046.JPG">
+            <a href="media/large/IMG_5046.JPG">
+              <img src="media/thumbs/IMG_5046.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5046.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5048.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5048.JPG">
+            <a href="media/large/IMG_5048.JPG">
+              <img src="media/thumbs/IMG_5048.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5048.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5051.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5051.JPG">
+            <a href="media/large/IMG_5051.JPG">
+              <img src="media/thumbs/IMG_5051.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5051.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5055.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5055.JPG">
+            <a href="media/large/IMG_5055.JPG">
+              <img src="media/thumbs/IMG_5055.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5055.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5057.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5057.JPG">
+            <a href="media/large/IMG_5057.JPG">
+              <img src="media/thumbs/IMG_5057.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5057.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5058.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5058.JPG">
+            <a href="media/large/IMG_5058.JPG">
+              <img src="media/thumbs/IMG_5058.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5058.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5060.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5060.JPG">
+            <a href="media/large/IMG_5060.JPG">
+              <img src="media/thumbs/IMG_5060.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5060.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5062.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5062.JPG">
+            <a href="media/large/IMG_5062.JPG">
+              <img src="media/thumbs/IMG_5062.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5062.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5063.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5063.JPG">
+            <a href="media/large/IMG_5063.JPG">
+              <img src="media/thumbs/IMG_5063.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5063.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_0515.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_0515.JPG">
+            <a href="media/large/IMG_0515.JPG">
+              <img src="media/thumbs/IMG_0515.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_0515.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_2030.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_2030.JPG">
+            <a href="media/large/IMG_2030.JPG">
+              <img src="media/thumbs/IMG_2030.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_2030.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5079.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5079.JPG">
+            <a href="media/large/IMG_5079.JPG">
+              <img src="media/thumbs/IMG_5079.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5079.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5080.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5080.JPG">
+            <a href="media/large/IMG_5080.JPG">
+              <img src="media/thumbs/IMG_5080.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5080.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_9576.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_9576.JPG">
+            <a href="media/large/IMG_9576.JPG">
+              <img src="media/thumbs/IMG_9576.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_9576.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_9343 2.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_9343 2.JPG">
+            <a href="media/large/IMG_9343 2.JPG">
+              <img src="media/thumbs/IMG_9343 2.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_9343 2.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_9343.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_9343.JPG">
+            <a href="media/large/IMG_9343.JPG">
+              <img src="media/thumbs/IMG_9343.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_9343.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_4032 2.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_4032 2.JPG">
+            <a href="media/large/IMG_4032 2.JPG">
+              <img src="media/thumbs/IMG_4032 2.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_4032 2.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_4032.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_4032.JPG">
+            <a href="media/large/IMG_4032.JPG">
+              <img src="media/thumbs/IMG_4032.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_4032.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5693.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5693.JPG">
+            <a href="media/large/IMG_5693.JPG">
+              <img src="media/thumbs/IMG_5693.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5693.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_6812.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_6812.JPG">
+            <a href="media/large/IMG_6812.JPG">
+              <img src="media/thumbs/IMG_6812.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_6812.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_6164.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_6164.JPG">
+            <a href="media/large/IMG_6164.JPG">
+              <img src="media/thumbs/IMG_6164.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_6164.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5086.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5086.JPG">
+            <a href="media/large/IMG_5086.JPG">
+              <img src="media/thumbs/IMG_5086.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5086.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5088.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5088.JPG">
+            <a href="media/large/IMG_5088.JPG">
+              <img src="media/thumbs/IMG_5088.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5088.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5089.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5089.JPG">
+            <a href="media/large/IMG_5089.JPG">
+              <img src="media/thumbs/IMG_5089.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5089.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5091.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5091.JPG">
+            <a href="media/large/IMG_5091.JPG">
+              <img src="media/thumbs/IMG_5091.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5091.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_1272.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_1272.JPG">
+            <a href="media/large/IMG_1272.JPG">
+              <img src="media/thumbs/IMG_1272.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_1272.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_1272 2.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_1272 2.JPG">
+            <a href="media/large/IMG_1272 2.JPG">
+              <img src="media/thumbs/IMG_1272 2.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_1272 2.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_5923.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_5923.JPG">
+            <a href="media/large/IMG_5923.JPG">
+              <img src="media/thumbs/IMG_5923.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_5923.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_4096.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_4096.JPG">
+            <a href="media/large/IMG_4096.JPG">
+              <img src="media/thumbs/IMG_4096.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_4096.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_0068.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_0068.JPG">
+            <a href="media/large/IMG_0068.JPG">
+              <img src="media/thumbs/IMG_0068.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_0068.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_7104.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_7104.JPG">
+            <a href="media/large/IMG_7104.JPG">
+              <img src="media/thumbs/IMG_7104.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_7104.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_7033.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_7033.JPG">
+            <a href="media/large/IMG_7033.JPG">
+              <img src="media/thumbs/IMG_7033.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_7033.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_4606.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_4606.JPG">
+            <a href="media/large/IMG_4606.JPG">
+              <img src="media/thumbs/IMG_4606.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_4606.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_9993.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_9993.JPG">
+            <a href="media/large/IMG_9993.JPG">
+              <img src="media/thumbs/IMG_9993.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_9993.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_8302.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_8302.JPG">
+            <a href="media/large/IMG_8302.JPG">
+              <img src="media/thumbs/IMG_8302.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_8302.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_8236.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_8236.JPG">
+            <a href="media/large/IMG_8236.JPG">
+              <img src="media/thumbs/IMG_8236.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_8236.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_9092.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_9092.JPG">
+            <a href="media/large/IMG_9092.JPG">
+              <img src="media/thumbs/IMG_9092.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_9092.JPG" />
+            </a>
+          </li>    
+          <li data-src="media/large/IMG_1200.JPG"
+              data-sub-html=""
+              data-download-url="media/large/IMG_1200.JPG">
+            <a href="media/large/IMG_1200.JPG">
+              <img src="media/thumbs/IMG_1200.JPG"
+                   width="120"
+                   height="120"
+                   alt="IMG_1200.JPG" />
+            </a>
+          </li></ul>
+    
+    <!--
+      Optional footer
+    -->
+
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.js"></script>
+    <!-- LightGallery -->
+    <script src="public/light-gallery/js/lightgallery.js"></script>
+    <script src="public/light-gallery/js/lg-autoplay.js"></script>
+    <script src="public/light-gallery/js/lg-pager.js"></script>
+    <script src="public/light-gallery/js/lg-thumbnail.js"></script>
+    <script src="public/light-gallery/js/lg-video.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
