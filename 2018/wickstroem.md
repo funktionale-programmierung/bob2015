@@ -10,6 +10,7 @@ time: 16:35-17:20
 portrait: oskar-wickstroem.jpg
 slides-file: wickstrom.jpg
 youtube: 5KvsuwspXZI
+sketchnote: wickstroem.jpeg
 ---
 
 When modeling problem domains, we collect different possible states,

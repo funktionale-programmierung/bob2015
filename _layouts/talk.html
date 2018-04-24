@@ -47,6 +47,16 @@ layout: default
           </dd>
 	</dl>
 {% endif %}
+{% if page.sketchnote %}
+	<dl>
+	  <dt>Sketchnote</dt>
+	  <img src="sketchnotes/{{page.sketchnote}}"
+         width="75%"
+         height="75%"></img>
+    <dd>Sketchnote by Joy Clark</dd>
+    <a href="https://joyclark.org/" target="_blank">https://joyclark.org/</a>
+	</dl>
+{% endif %}
       </div>
 {% if page.portrait %}
       <div class="col-lg-4">

@@ -10,6 +10,7 @@ head: 2018
 time: 09:15-10:15
 slides-file: andersen.pdf
 youtube: C_aVkKZxj3o
+sketchnote: andersen.jpeg
 ---
 
 [Video](https://lang.video/) is a language for making movies. It

@@ -10,6 +10,7 @@ time: 14:30-15:15
 portrait: nadezda-zryanina.jpg
 slides-file: zryanina.pdf
 youtube: 2IRfcDLGfJo
+sketchnote: zryanina.jpeg
 ---
 
 We present a new hardware platform called [GRiSP](https://www.grisp.org). It allows you to run
@@ -31,6 +32,3 @@ to interact with hardware components.
 Software engineer and a lucky friend of the GRiSP.org project. I always had
 an interest in IoT and tried building remotely intellectual robots on
 Arduino. Now overly excited to show what you can do with the GRiSP board.
-
-
-

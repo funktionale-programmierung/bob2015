@@ -9,6 +9,7 @@ head: 2018
 time: 12:00-12:45
 portrait: michael-wiedeking.jpg
 youtube: XFtrL5ixLOk
+sketchnote: wiedeking.jpeg
 ---
 
 Mal ganz unabhängig von den Problemen mit der Parallelität ist es auch
@@ -29,4 +30,3 @@ bedienen kann, um jene möglichst effizient zu gestalten.
 ## Michael Wiedeking
 
 Michael Wiedeking ist Gründer der MATHEMA Software GmbH. Er ist Java-Programmierer der ersten Stunde, schreibt regelmäßig Artikel und spricht auf Konferenzen. Am liebsten aber "sammelt" er Programmiersprachen und beschäftigt sich mit ihrem Design und ihrer Implementierung – neuerdings mit seiner eigenen: Aalgola.
-

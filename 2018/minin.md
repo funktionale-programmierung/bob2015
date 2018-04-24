@@ -8,6 +8,7 @@ language: german
 head: 2018
 time: 12:50-13:35
 portrait: maxim-minin.jpg
+sketchnote: minin.jpeg
 ---
 
 
@@ -38,4 +39,3 @@ arbeitete er bei einem der ältesten Wertpapierhäusern Deutschlands,
 bis er sich entschieden hat, das Softwareteam der Baader Bank AG zu
 verstärken. 2015 übernahm er die Leitung von „Trading Systems“ der
 Baaderbank AG.
-

@@ -8,6 +8,7 @@ language: english
 head: 2018
 time: 10:30-11:15
 slides-file: andjelkovic.pdf
+sketchnote: andjelkovic.jpeg
 ---
 
 I would like to show how one can apply property based testing to
@@ -40,5 +41,3 @@ does software updates to cars, while I spend most of the time working on
 end-to-end testing. The end-to-end tests involve several micro services
 and clients (cars), and they run as part of continuous integration to
 give us a picture of if the system as a whole is working as it should.
-
-
