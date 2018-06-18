@@ -1,15 +1,15 @@
 	
 ---
-title: Sponsoring BOB-Konferenz 2018
+title: Sponsoring BOB-Konferenz 2019
 author: http://bobkonf.de
 geometry: margin=2cm
 papersize: a4
 ---
-[comment]: <> (pandoc -o bob-sponsoring-2018.pdf bob-sponsoring-2018.md)
+[comment]: <> (pandoc -o bob-sponsoring-de.pdf bob-sponsoring-de.md)
 
 \pagenumbering{gobble}
 
-![Active Group GmbH](bob_head-2018-date.png){ height=2.6cm }\
+![Active Group GmbH](../images/bob_head-2019-date-de.png){ height=2.6cm }\
 
 
 Bei der BOB-Konferenz treffen sich Entwicklerinnen, Architekten und Macherinnen,

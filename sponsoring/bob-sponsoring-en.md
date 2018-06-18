@@ -1,15 +1,15 @@
 	
 ---
-title: Sponsorship for BOB-Konferenz 2018
+title: Sponsorship for BOB-Konferenz 2019
 author: http://bobkonf.de
 geometry: margin=2cm
 papersize: a4
 ---
-[comment]: <> (pandoc -o bob-sponsoring-2018-english.pdf bob-sponsoring-2018-english.md)
+[comment]: <> (pandoc -o bob-sponsoring-en.pdf bob-sponsoring-en.md)
 
 \pagenumbering{gobble}
 
-![Active Group GmbH](bob_head-2018-date.png){ height=2.6cm }\
+![Active Group GmbH](../images/bob_head-2019-date-en.png){ height=2.6cm }\
 
 BOB is the forum for developers, architects and builders to explore
 and discover the best tools available today for building software. Our
