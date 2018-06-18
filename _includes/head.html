@@ -1,44 +1,54 @@
 {% if page.language == "de" or page.language == null %}		
 <div class="col-md-12 head">
-  {% if page.head == 2015 %}
-  <a href="/2015/de/"><img src="/images/bob_head-2015.png" class="head" alt="Hier ist das Logo der BOB Konferenz 2015 zu sehen."></a>
-  {% else %}
-  {% if page.head == 2016 %}	
-  <a href="/2016/de/"><img src="/images/bob_head-2016.png" class="head" alt="Hier ist das Logo der BOB Konferenz 2016 zu sehen."></a>
-  {% else %}
-  {%if page.head == 2017 %}
-  <a href="/2017/de/"><img src="/images/bob_head-2017-date.png"
-  class="head" alt="Hier ist das Logo der BOB Konferenz 2017 zu
-		    sehen."></a>
-  {%else %}
-  <a href="/2018/de/"><img src="/images/bob_head-2018-date.png"
-  class="head" alt="Hier ist das Logo der BOB Konferenz 2018 zu
-		    sehen."></a>
-  {% endif %}	
-  {% endif %}	
-  {% endif %}	
+    {% if page.head == 2015 %}
+    <a href="/2015/de/"><img src="/images/bob_head-2015.png" class="head" alt="Hier ist das Logo der BOB Konferenz 2015 zu sehen."></a>
+    {% else %}
+    {% if page.head == 2016 %}	
+    <a href="/2016/de/"><img src="/images/bob_head-2016.png" class="head" alt="Hier ist das Logo der BOB Konferenz 2016 zu sehen."></a>
+    {% else %}
+    {%if page.head == 2017 %}
+    <a href="/2017/de/"><img src="/images/bob_head-2017-date.png"
+                             class="head" alt="Hier ist das Logo der BOB Konferenz 2017 zu
+		                              sehen."></a>
+    {% else %}
+    {%if page.head == 2018 %}
+    <a href="/2018/de/"><img src="/images/bob_head-2018-date.png"
+                             class="head" alt="Hier ist das Logo der BOB Konferenz 2018 zu
+		                              sehen."></a>
+    {%else %}
+    <a href="/2019/de/"><img src="/images/bob_head-2019-date-de.png"
+                             class="head" alt="Hier ist das Logo der BOB Konferenz 2019 zu
+		                              sehen."></a>
+    {% endif %}
+    {% endif %}
+    {% endif %}	
+    {% endif %}	
 </div>
 
 
 {% else %}
 
 <div class="col-md-12 head">
-  {% if page.head == 2015 %}	
-  <a href="/2015/en/"><img src="/images/bob_head-2015.png" class="head" alt="Image Logo BOB conference 2015."></a>
-  {% else %}
-  {% if page.head == 2016 %}	
-  <a href="/2016/en/"><img src="/images/bob_head-2016.png" class="head" alt="Image Logo BOB conference 2016."></a>
-  {% else %}
-  {% if page.head == 2017 %}
-  <a href="/2017/en/"><img src="/images/bob_head-2017-date-en.png"
-			   class="head" alt="Image logo Bob conference 2017."></a>
-  
-  {% else %}
-  <a href="/2018/en/"><img src="/images/bob_head-2018-date-en.png"
-			   class="head" alt="Image logo Bob conference 2018."></a>
-  {% endif %}	
-  {% endif %}	
-  {% endif %}		  			
+    {% if page.head == 2015 %}	
+    <a href="/2015/en/"><img src="/images/bob_head-2015.png" class="head" alt="Image Logo BOB conference 2015."></a>
+    {% else %}
+    {% if page.head == 2016 %}	
+    <a href="/2016/en/"><img src="/images/bob_head-2016.png" class="head" alt="Image Logo BOB conference 2016."></a>
+    {% else %}
+    {% if page.head == 2017 %}
+    <a href="/2017/en/"><img src="/images/bob_head-2017-date-en.png"
+			                       class="head" alt="Image logo Bob conference 2017."></a>
+    {% else %}
+    {% if page.head == 2018 %}
+    <a href="/2018/en/"><img src="/images/bob_head-2018-date-en.png"
+			                       class="head" alt="Image logo Bob conference 2018."></a>
+    {% else %}
+    <a href="/2019/en/"><img src="/images/bob_head-2019-date-en.png"
+			                       class="head" alt="Image logo Bob conference 2019."></a>
+    {% endif %}	
+    {% endif %}	
+    {% endif %}	
+    {% endif %}		  			
 </div>
 
 {% endif %}
