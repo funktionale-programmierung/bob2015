@@ -49,6 +49,12 @@
     <li><a href="/2019/de/local.html">Veranstaltungsort</a></li>
     {% endif %}
 
+    {% if page.active == "sponsoring" %}
+    <li class="active"><a href="/2019/de/sponsoring.html">Sponsoring</a></li>
+    {% else %}
+    <li><a href="/2019/de/local.html">Sponsoring</a></li>
+    {% endif %}
+
     <!--
          {% if page.active == "evening" %}
          <li class="active"><a href="/2017/de/evening.html">Abendprogramm</a></li>
@@ -128,6 +134,12 @@
     <li class="active"><a href="/2019/en/local.html">Location</a></li>
     {% else %}
     <li><a href="/2019/en/local.html">Location</a></li>
+    {% endif %}
+
+    {% if page.active == "sponsoring" %}
+    <li class="active"><a href="/2019/en/sponsoring.html">Sponsorship</a></li>
+    {% else %}
+    <li><a href="/2019/de/local.html">Sponsorship</a></li>
     {% endif %}
 
     <!--
