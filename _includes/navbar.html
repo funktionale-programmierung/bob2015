@@ -36,13 +36,12 @@
     <li> <a href="/2019/de/policies.html">Richtlinien</a></li>	
     {% endif %}
 
-    <!--
-         {% if page.active == "comitee" %}
-         <li class="active"><a href="/2018/de/programmkomitee.html"">Programmkomitee</a></li>
-         {% else %}
-         <li><a href="/2018/de/programmkomitee.html"">Programmkomitee</a></li>
-         {% endif %}
-    -->
+    {% if page.active == "comitee" %}
+    <li class="active"><a href="/2019/de/programmkomitee.html"">Programmkomitee</a></li>
+    {% else %}
+    <li><a href="/2019/de/programmkomitee.html"">Programmkomitee</a></li>
+    {% endif %}
+
     {% if page.active == "location" %}
     <li class="active"><a href="/2019/de/local.html">Veranstaltungsort</a></li>
     {% else %}
@@ -122,13 +121,11 @@
     <li> <a href="/2019/en/policies.html">Policies</a></li>
     {% endif %}
 
-    <!--
-         {% if page.active == "comitee" %}
-         <li class="active"><a href="/2018/en/programmkomitee.html"">Program committee</a></li>
-         {% else %}
-         <li><a href="/2018/en/programmkomitee.html"">Program committee</a></li>
-         {% endif %}
-    -->
+    {% if page.active == "comitee" %}
+    <li class="active"><a href="/2019/en/programmkomitee.html"">Program committee</a></li>
+    {% else %}
+    <li><a href="/2019/en/programmkomitee.html"">Program committee</a></li>
+    {% endif %}
 
     {% if page.active == "location" %}
     <li class="active"><a href="/2019/en/local.html">Location</a></li>
