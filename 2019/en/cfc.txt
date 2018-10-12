@@ -1,0 +1,107 @@
+Subject: Call for Contributions: BOB 2019 - Berlin, Mar 22, 2019
+
+                         BOB Conference 2019
+         "What happens when we use what's best for a change?"
+                  http://bobkonf.de/2019/en/cfc.html
+                         Berlin, March 22
+                        Call for Contributions
+                     Deadline: November 23, 2017
+
+
+You are actively engaged in advanced software engineering methods,
+implement ambitious architectures and are open to cutting-edge
+innovation? Attend this conference, meet people that share your goals,
+and get to know the best software tools and technologies available
+today. We strive to offer a day full of new experiences and
+impressions that you can use to immediately improve your daily life as
+a software developer.
+
+If you share our vision and want to contribute, submit a proposal for
+a talk or tutorial!
+
+NOTE: The conference fee will be waived for presenters. Travel
+expenses will not be covered (for exceptions see "Speaker Grants").
+Speaker Grants
+
+BOB has Speaker Grants available to support speakers from groups
+under-represented in technology. We specifically seek women speakers
+and speakers who are not be able to attend the conference for
+financial reasons.  Shepherding
+
+The program committee offers shepherding to all speakers. Shepherding
+provides speakers assistance with preparing their sessions, as well as
+a review of the talk slides.
+
+Topics
+------
+
+We are looking for talks about best-of-breed software technology, e.g.:
+
+- functional programming
+- persistent data structures and databases
+- types
+- formal methods for correctness and robustness
+- abstractions for concurrency and parallelism
+- metaprogramming
+- probabilistic programming
+- math and programming
+- controlled side effects
+- beyond REST and SOAP
+- effective abstractions for data analytics
+- ... everything really that isn’t mainstream, but you think should be.
+
+Presenters should provide the audience with information that is
+practically useful for software developers.
+
+We're especially interested in experience reports.
+Other topics are also relevant, e.g.:
+
+- introductory talks on technical background
+- overviews of a given field
+- demos and how-tos
+
+Requirements
+-------------
+
+We accept proposals for presentations of 45 minutes (40 minutes talk +
+5 minutes questions), as well as 90 minute tutorials for
+beginners. The language of presentation should be either English or
+German.
+
+Your proposal should include (in your presentation language of choice):
+
+- An abstract of max. 1500 characters.
+- A short bio/cv
+- Contact information (including at least email address)
+- A list of 3-5 concrete ideas of how your work can be applied in a developer's daily life
+- additional material (websites, blogs, slides, videos of past presentations, …)
+
+Submit here:
+
+https://bobcfc.active-group.de/en/bob2019/cfp
+
+Organisation
+------------
+
+- Direct questions to contact at bobkonf dot de
+- Proposal deadline: November 23, 2018
+- Notification: December 7, 2018
+- Program: December 21, 2018
+
+Program Committee
+-----------------
+
+(more information here: http://bobkonf.de/2019/en/programmkomitee.html)
+
+- Matthias Fischmann, zerobuzz UG
+- Matthias Neubauer, SICK AG
+- Nicole Rauch, Softwareentwicklung und Entwicklungscoaching
+- Michael Sperber, Active Group
+- Stefan Wehr, factis research
+
+Scientific Advisory Board
+
+- Annette Bieniusa, TU Kaiserslautern
+- Torsten Grust, Uni Tübingen
+- Peter Thiemann, Uni Freiburg
+
