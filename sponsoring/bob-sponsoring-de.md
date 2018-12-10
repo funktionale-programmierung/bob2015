@@ -34,7 +34,7 @@ enthalten ist:
 - Logo und Erwähnung auf der BOB-Webseite
 
 - Logo auf dem Programmflyer (Den Programmflyer gibt es als PDF online, er wird
-  bei der Konferenz verteilt und als vergrößert als Poster aufgehängt.)
+  bei der Konferenz verteilt und vergrößert als Poster aufgehängt.)
 
 *Silberstatus* erreicht man ab einem Sponsoring-Budget von 1.000€.  Darin ist
 alles aus dem Bronzestatus enthalten und zusätzlich:
