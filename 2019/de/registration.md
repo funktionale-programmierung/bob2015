@@ -62,6 +62,20 @@ Es gelten folgende Tarife:
   </div>
 </div>
 
+Im Konferenzbeitrag sind Snacks und Getränke sowie ein Mittagessen
+enthalten.
+
+Die BOB 2019 bietet auch verschiedene Tutorials an. Die Teilnahme an
+diesen Tutorials ist in der Konferenzgebühr enthalten. Da es pro Tutorial
+aber nur eine begrenze Anzahl von Plätzen gibt, müssen Sie sich für jedes
+Tutorial extra anmelden. Bitte beachten Sie dies bei Ihrer Anmeldung.
+
+### Rabattbedingungen
+
+Falls Sie Student sind, müssen Sie am Tag der Konferenz einen gültigen
+Studentenausweis vorzeigen. Anderenfalls müssen Sie vor Ort den Aufpreis zur
+regulären Konferenzgebühr bezahlen.
+
 ### Förderprogramm
 
 Die BOB-Konferenz fördert Teilnehmergruppen, die bei
@@ -87,14 +101,6 @@ Sie, warum Sie eine solche finanzielle Hilfe benötigen.</li>
 </ol>
 
 
-Im Konferenzbeitrag sind Snacks und Getränke sowie ein Mittagessen
-enthalten.
-
-Die BOB 2019 bietet auch verschiedene Tutorials an. Die Teilnahme an
-diesen Tutorials ist in der Konferenzgebühr enthalten. Da es pro Tutorial
-aber nur eine begrenze Anzahl von Plätzen gibt, müssen Sie sich für jedes
-Tutorial extra anmelden. Bitte beachten Sie dies bei Ihrer Anmeldung.
-
 ### Kinderbetreuung
 
 BOB bietet Kinderbetreuung für den ganzen Tag ohne zusätzliche Kosten
@@ -104,12 +110,6 @@ Die Betreuung findet im Gebäude der Konferenz statt und wird von
 durchgeführt.
 Falls Sie Interesse haben, schicken Sie uns eine
 [E-Mail](mailto:konferenz@bobkonf.de).
-
-### Rabattbedingungen
-
-Falls Sie Student sind, müssen Sie am Tag der Konferenz einen gültigen
-Studentenausweis vorzeigen. Anderenfalls müssen Sie vor Ort den Aufpreis zur
-regulären Konferenzgebühr bezahlen.
 
 ### Vorabend- und Konferenz-Essen
 

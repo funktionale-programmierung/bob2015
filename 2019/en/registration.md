@@ -59,6 +59,18 @@ under-represented in technology.
   </div>
 </div>
 
+The conference fee includes snacks, drinks and lunch.
+
+BOB 2019 also offers several tutorials, which are included in the conference
+fee. However, limited capacities require that you register
+for each tutorial individually.
+
+### Discount eligibility
+
+If you are eligible for our student discount, you must provide
+a valid, current student ID at the day of the conference. If you fail to
+provide a student ID, you have to pay the full registration fee.
+
 ### Grants
 
 The BOB conference supports participants from groups
@@ -81,18 +93,6 @@ Please write us an <a href="mailto:konferenz@bobkonf.de">e-mail</a>
 <i>before</i> you register and tell us why you need this kind of support.
 </li>
 </ol>
-
-The conference fee includes snacks, drinks and lunch.
-
-BOB 2019 also offers several tutorials, which are included in the conference
-fee. However, limited capacities require that you register
-for each tutorial individually.
-
-### Discount eligibility
-
-If you are eligible for our student discount, you must provide
-a valid, current student ID at the day of the conference. If you fail to
-provide a student ID, you have to pay the full registration fee.
 
 ###  Child care
 
