@@ -1,12 +1,12 @@
 ---
 layout: default
 active: registration
-Kindertitle: Anmeldung
+Kindertitle: Registrierung
 language: de
 head: 2019
 ---
 
-# Anmeldung
+# Registrierung
 
 Die BOB 2019 findet am 22. März 2019 in Berlin statt. Um an der
 Konferenz teilzunehmen, müssen Sie sich anmelden.
