@@ -41,8 +41,6 @@ to Haskell at Chalmers University. I also did my master's degree at
 Chalmers, before moving to Strathclyde University in 2011 to do a PhD on
 the topic of reasoning about effectful programs in type theory.
 
-I now work at Advanced Telematic Systems here in Berlin. The company
-does software updates to cars, while I spend most of the time working on
-end-to-end testing. The end-to-end tests involve several micro services
-and clients (cars), and they run as part of continuous integration to
-give us a picture of if the system as a whole is working as it should.
+I now work at HERE Technologies here in Berlin. Our group, previously
+know as Advanced Telematic Systems, does software updates for devices
+in general and for cars in particular.
