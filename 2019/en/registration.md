@@ -97,16 +97,11 @@ Please write us an <a href="mailto:konferenz@bobkonf.de">e-mail</a>
 ###  Child care
 
 BOB offers child care for the entire day at no additional cost.
-<!--
 Child care
 will be in the building of the conference, and provided by
-[Kinderbetreuung -->
-<!--"Kunterbunt"](http://www.hochzeit-kinderbetreuung.de).
--->
+[Kinderbetreuung "Kunterbunt"](http://www.hochzeit-kinderbetreuung.de).
 If you would like to sign up for this,
 [e-mail us](mailto:konferenz@bobkonf.de).
-
-
 
 ### Pre-conference and conference dinner
 

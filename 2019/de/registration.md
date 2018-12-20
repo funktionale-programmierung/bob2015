@@ -105,11 +105,9 @@ Sie, warum Sie eine solche finanzielle Hilfe benötigen.</li>
 
 BOB bietet Kinderbetreuung für den ganzen Tag ohne zusätzliche Kosten
 an.
-<!--
 Die Betreuung findet im Gebäude der Konferenz statt und wird von
 [Kinderbetreuung "Kunterbunt"](http://www.hochzeit-kinderbetreuung.de)
 durchgeführt.
--->
 Falls Sie Interesse haben, schicken Sie uns eine
 [E-Mail](mailto:konferenz@bobkonf.de).
 
