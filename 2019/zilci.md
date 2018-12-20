@@ -2,7 +2,7 @@
 layout: talk
 active: bob2019
 title: Learn FP with Code Katas
-speaker: Ilke Zilci
+speaker: İlke Zilci
 portrait: ilke-zilci.jpg
 time: 10:05-11:35
 type: Tutorial
