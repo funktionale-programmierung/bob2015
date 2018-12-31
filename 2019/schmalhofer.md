@@ -22,26 +22,20 @@ Probabilistische Programme sind lernfähige Simulationen
 Kurz vorgestellt - alte Bekannte als Probabilistische Programme:
 
 - Naive Bayes
-
 - Markov-Kette
-
 - Bayes-Netze
-
 - Gauß-Prozesse
 
 Basics:
 
 
 - Eigenbau einer diskreten Wahrscheinlichkeitsmonade (Scala)
-
 - die Sampling-Variante von Rainier (Scala))
-
 - Olegs Freie Wahrscheinlichkeitsmonade (Haskell))
 
 Kurze Vorstellung der Algorithmen:
 
 - MCMC
-
 - Variational Bayesian Methods
 
 Deep Probabilistic Programming: kann Tensorflow Probability wirklich mehr?
@@ -49,7 +43,6 @@ Deep Probabilistic Programming: kann Tensorflow Probability wirklich mehr?
 Erfahrungsbericht - Probabilistische Logik für Fahrzeugkonfiguration:
 
 - Principle of Explosion: "ex falso quodlibet"
-
 - Markov-Logic mit Figaro (Scala)
 
 
