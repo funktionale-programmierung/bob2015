@@ -4,7 +4,7 @@ active: bob2019
 title: Einstieg in die Probabilistische Programmierung
 speaker: Christoph Schmalhofer
 portrait: christoph-schmalhofer.jpg
-time: 16:20-17:55
+time: 16:20-17:50
 type: Tutorial
 language: german
 head: 2019
