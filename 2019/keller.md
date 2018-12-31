@@ -7,7 +7,7 @@ portrait: gabriele-keller.jpg
 type: Vortrag
 language: english
 head: 2019
-time: 09:15-10:15
+time: 09:00-10:00
 ---
 
 Functional languages are becoming increasingly popular, not least due
