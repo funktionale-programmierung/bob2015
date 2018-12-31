@@ -4,7 +4,7 @@ active: bob2019
 title: Writing Hardware in Haskell
 speaker: Matthias Heinzel
 portrait: matthias-heinzel.jpg
-time: 16:20-17:55
+time: 16:20-17:50
 type: Tutorial
 language: english
 head: 2019
