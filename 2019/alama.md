@@ -35,3 +35,33 @@ Racket. In my private life, I hack the web with Racket and have
 authored a moderately successful book on the subject, [Server:
 Racket](https://serverracket.com), and am working on an upcoming
 [course on introductory web programming using Racket](https://racketwebcourse.com).
+
+### Prerequisites
+
+Participants will need a text editor of their choice, as well as
+Racket on their machines. It can be downloaded at
+
+[`https://download.racket-lang.org`](https://download.racket-lang.org)
+
+Alternatively, Racket is likely to be available using various package
+manages for many OSs and distributions (Homebrew for macOS, all sorts
+of Linux distributions, *BSD, etc.). After installing, this command
+line command
+
+
+    $ racket --version
+
+should work, as well as
+
+    $ raco
+
+<!--
+Given that Racket and its command line tool (the aforementioned raco)
+are installed, they will additionally need to install a Racket package
+that I'm currently preparing for the tutorial. It can be installed
+like this:
+
+    $ raco pkg install --auto package-i-am-working-on
+
+(Of course, I'll come up with a more appropriate name.)
+-->
