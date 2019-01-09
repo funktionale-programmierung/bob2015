@@ -2,7 +2,7 @@
 layout: talk
 active: bob2019
 title: The Way of APL
-speaker:  Aaaron W. Hsu
+speaker:  Aaron W. Hsu
 time: 14:15-15:00
 type: Vortrag
 language: english

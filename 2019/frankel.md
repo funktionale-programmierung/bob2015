@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2019
-title: Clojure, Getting Your Feed Wet
+title: Clojure, Getting Your Feet Wet
 speaker: Nicolas Frankel
 portrait: nicolas-frankel.jpg
 time: 11:45-13:15

@@ -103,8 +103,6 @@ will be in the building of the conference, and provided by
 If you would like to sign up for this,
 [e-mail us](mailto:konferenz@bobkonf.de).
 
-
-
 ### Pre-conference and conference dinner
 
 We will have a pre-conference dinner the evening before the conference
@@ -126,4 +124,4 @@ registration on our [registration page](https://ti.to/bob/bob2018/).
 ### Further information
 
 Don't hesitate to [contact us](mailto:konferenz@bobkonf.de) with questions
-regarding the registration (or any other topic concerning BOB 2018).
+regarding the registration (or any other topic concerning BOB 2019).

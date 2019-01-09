@@ -2,7 +2,7 @@
 layout: talk
 active: bob2019
 title: Learn FP with Code Katas
-speaker: Ilke Zilci
+speaker: İlke Zilci
 portrait: ilke-zilci.jpg
 time: 10:05-11:35
 type: Tutorial
@@ -17,10 +17,16 @@ train pair programming and functional thinking such as ping pong,
 navigator-driver, verbs instead of nouns. Each pair will pick up a
 language which supports functional programming and a constraint based
 on their self evaluated experience level. The idea is to use
-constraints to trigger creative problem solving. Please bring your
-laptop which should be ready for development, with everything you need
-installed i.e. IDE and unit testing framework. Make sure it is set up
-properly by having a new project with a failing test.
+constraints to trigger creative problem solving.
+
+Please bring your laptop which should be ready for development, with
+everything you need installed i.e. IDE and unit testing framework for
+languages such as Scala, Haskell, Clojure. Make sure it is set up
+properly by having a new project with a failing test. The workshop
+assumes basic programming skills and participants should be already
+able to solve problems using them. You can consider this a mini
+version of a coderetreat, and read more about it
+[here](https://www.coderetreat.org/).
 
 ### Ilke Zilci
 

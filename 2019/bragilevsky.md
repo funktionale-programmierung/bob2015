@@ -10,7 +10,7 @@ language: english
 head: 2019
 ---
 
-#### How types helps us to solve real-world problems
+#### How types help us solve real-world problems
 
 The Haskell type system is good for specifying user intentions and
 helping the compiler to check code correctness. Unfortunately, there
