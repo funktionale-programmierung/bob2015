@@ -15,7 +15,7 @@ In this hands-on session, we will write Haskell programs, compile them
 into digital circuits, and flash them onto an FPGA (field programmable
 gate array).
 
-PGAs are computer chips containing logic and memory cells that can be
+FPGAs are computer chips containing logic and memory cells that can be
 dynamically reconfigured to implement various digital circuits. This
 allows to iteratively develop processors, highly parallel
 high-performance computations, networking stacks and more without
