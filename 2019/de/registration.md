@@ -119,7 +119,7 @@ für den Abend vor der Konferenz (21. März) um 19 Uhr reserviert. Hier
 bezahlt jeder für sich selbst.
 
 Außerdem veranstaltet die BOB ein Konferenz-Abendessen im [Max &
-Moritz](http://www.maxundmoritzberlin.de/), Beginn ist um 19 Uhr, direkt nach der Konferenz also.
+Moritz](http://www.maxundmoritzberlin.de/), Beginn ist am 22. März um 19 Uhr, direkt nach der Konferenz also.
 Das Konferenz-Abendessen erfordert vorherige Registrierung auf unserer
 [Registrierungsseite](https://ti.to/bob/bob2019/).
 

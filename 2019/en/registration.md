@@ -107,10 +107,11 @@ If you would like to sign up for this,
 
 We've reserved a table at the [I Due
 Forni](https://www.tripadvisor.com/Restaurant_Review-g187323-d886780-Reviews-I_Due_Forni-Berlin.html)
-for the evening before the conference (Mar 21) at 19:00 (pay your own).
+for the evening before the conference (Mar 21) at 19:00. Everyone pays on
+her own.
 
 Moreover, BOB is hosting a conference dinner at the [Max &
-Moritz](http://www.maxundmoritzberlin.de/) starting at
+Moritz](http://www.maxundmoritzberlin.de/) starting March 22nd at
 7pm - i.e. right after the conference.  The conference dinner requires advance
 registration on our [registration page](https://ti.to/bob/bob2019/).
 
