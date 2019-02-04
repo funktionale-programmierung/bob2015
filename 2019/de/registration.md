@@ -113,9 +113,6 @@ Falls Sie Interesse haben, schicken Sie uns eine
 
 ### Vorabend- und Konferenz-Essen
 
-Aktuell laufen noch die Planungen für ein gemeinsames Abendessen am Vorabend und
-am Abend nach der Konferenz. Wir werden Sie darüber auf dem laufenden halten.
-
 Wir haben Tische im  [I Due
 Forni](https://www.tripadvisor.com/Restaurant_Review-g187323-d886780-Reviews-I_Due_Forni-Berlin.html)
 für den Abend vor der Konferenz (21. März) um 19 Uhr reserviert. Hier
