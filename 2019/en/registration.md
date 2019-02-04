@@ -105,21 +105,14 @@ If you would like to sign up for this,
 
 ### Pre-conference and conference dinner
 
-We will have a pre-conference dinner the evening before the conference
-(March 21) and a conference dinner right after the conference (March
-22). We will announce further details soon.
-
-<!--
 We've reserved a table at the [I Due
 Forni](https://www.tripadvisor.com/Restaurant_Review-g187323-d886780-Reviews-I_Due_Forni-Berlin.html)
-for the evening before the conference (Feb 22) at 19:00.  (Pay your
-own way.)
+for the evening before the conference (Mar 21) at 19:00 (pay your own).
 
 Moreover, BOB is hosting a conference dinner at the [Max &
-Moritz](http://www.maxundmoritzberlin.de/) starting between 18:30 and
-19:00 - i.e. right after the conference.  This requires advance
-registration on our [registration page](https://ti.to/bob/bob2018/).
--->
+Moritz](http://www.maxundmoritzberlin.de/) starting at
+7pm - i.e. right after the conference.  The conference dinner requires advance
+registration on our [registration page](https://ti.to/bob/bob2019/).
 
 ### Further information
 

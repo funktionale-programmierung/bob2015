@@ -116,18 +116,16 @@ Falls Sie Interesse haben, schicken Sie uns eine
 Aktuell laufen noch die Planungen für ein gemeinsames Abendessen am Vorabend und
 am Abend nach der Konferenz. Wir werden Sie darüber auf dem laufenden halten.
 
-<!--
-Wir haben einen Tisch im  [I Due
+Wir haben Tische im  [I Due
 Forni](https://www.tripadvisor.com/Restaurant_Review-g187323-d886780-Reviews-I_Due_Forni-Berlin.html)
-für den Abend vor der Konferenz (22. Februar) reserviert, um 19:00.  (Pay your
-own way.)
+für den Abend vor der Konferenz (21. März) um 19 Uhr reserviert. Hier
+bezahlt jeder für sich selbst.
 
-Außerdem veranstaltet BOB ein Konferenz-Abendessen im [Max &
-Moritz](http://www.maxundmoritzberlin.de/), das zwischen 18:30 und
-19:00 anfängt, direkt nach der Konferenz also.  
-Dies erfordert vorherige Registrierung auf unserer
-[Registrierungsseite](https://ti.to/bob/bob2018/).
--->
+Außerdem veranstaltet die BOB ein Konferenz-Abendessen im [Max &
+Moritz](http://www.maxundmoritzberlin.de/), Beginn ist um 19 Uhr, direkt nach der Konferenz also.
+Das Konferenz-Abendessen erfordert vorherige Registrierung auf unserer
+[Registrierungsseite](https://ti.to/bob/bob2019/).
+
 ### Weitere Informationen
 
 Bei Fragen oder Probleme bezüglich der Anmeldung, schicken Sie uns bitte
