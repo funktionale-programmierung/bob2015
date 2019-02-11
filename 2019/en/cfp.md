@@ -37,7 +37,7 @@ The program features 14 talks and 8 tutorials on current topics:
 [`http://bobkonf.de/2019/en/program.html`](http://bobkonf.de/2019/en/program.html)
 
 The subject range of talks includes functional programming,
-formal methods, event sourcing, music, advanced SQL, logic, and feeling
+formal methods, event sourcing, music, advanced SQL, logic, and feelings.
 
 The tutorials feature introductions to Racket, Clojure, Functional
 Programming, TypeScript, type-level programming, SQL indexing,

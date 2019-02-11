@@ -1,4 +1,4 @@
-Subject: Call for Participation: BOB 2019 (March 22, Berlin)
+Subject: 2nd Call for Participation: BOB 2019 (March 22, Berlin)
 
 ================================================================================
 			       BOB 2019
@@ -22,7 +22,7 @@ The program features 14 talks and 8 tutorials on current topics:
 http://bobkonf.de/2019/en/program.html
 
 The subject range of talks includes functional programming, formal
-methods, event sourcing, music, advanced SQL, logic, and feeling
+methods, event sourcing, music, advanced SQL, logic, and feelings.
 
 The tutorials feature introductions to Racket, Clojure, Functional
 Programming, TypeScript, type-level programming, SQL indexing,
