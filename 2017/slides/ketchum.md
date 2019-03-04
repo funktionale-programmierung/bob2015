@@ -1,13 +1,15 @@
-{{{ Der Widerspenstigen Zähmung
-===============================
+---
+---
+
+Der Widerspenstigen Zähmung
+===========================
 
 Funktionale Programmierung in einer kleinen Firma
 
 @raichoo
 
-}}}
-{{{ Über mich
-=============
+Über mich
+=========
 
   - @raichoo auf Twitter
 
@@ -21,9 +23,8 @@ Funktionale Programmierung in einer kleinen Firma
 
   - Seit ca. 3 Jahren mehr oder weniger Vollzeit Haskell
 
-}}}
-{{{ Der Status Quo
-==================
+Der Status Quo
+==============
 
 - Software Industrie in Deutschland bewegt sich sehr langsam
   Beispiel:
@@ -36,9 +37,8 @@ Funktionale Programmierung in einer kleinen Firma
   akademisch" empfunden (Universitäten sind daran vermutlich nicht ganz
   unschuldig).
 
-}}}
-{{{ Saltation
-=============
+Saltation
+=========
 
 - Um die 25 Mitarbeiter (in den letzten 5 Jahren knapp verdoppelt)
 
@@ -48,9 +48,8 @@ Funktionale Programmierung in einer kleinen Firma
 
 - Damals primär: PHP, JavaScript, C++, Java
 
-}}}
-{{{ Experimente
-===============
+Experimente
+===========
 
 - Scala
     - sbt
@@ -65,9 +64,8 @@ Funktionale Programmierung in einer kleinen Firma
 
 - Haskell
 
-}}}
-{{{ Herausragende Features
-==========================
+Herausragende Features
+======================
 
 - Haskell ist "langweilig".
 
@@ -84,9 +82,8 @@ Funktionale Programmierung in einer kleinen Firma
 
 - Laziness (Youtube: Working hard to keep things lazy)
 
-}}}
-{{{ Startschwierigkeiten
-========================
+Startschwierigkeiten
+====================
 
 - Wie setzt man eine Sprache durch die kaum jemand auf der Arbeit beherrscht?
 
@@ -96,9 +93,8 @@ Funktionale Programmierung in einer kleinen Firma
 
 - Einsatz (es ist einfacher Haskell einzusetzen als es vorher zu lernen)
 
-}}}
-{{{ Web-Frameworks
-==================
+Web-Frameworks
+==============
 
 - Yesod
     - Vollwertiges Web-Framework (Haskell on Rails)
@@ -112,9 +108,8 @@ Funktionale Programmierung in einer kleinen Firma
     - unkompliziertes Aufsetzen von JSON REST-Services in
       Kombination mit Aeson (vs Express.js).
 
-}}}
-{{{ Tooling
-===========
+Tooling
+=======
 
 - stack
     - stark reduzierte Build-Zeiten auf Entwicklungsmascheinen.
@@ -128,9 +123,8 @@ Funktionale Programmierung in einer kleinen Firma
 
 - Neovim, Atom
 
-}}}
-{{{ Testing
-===========
+Testing
+=======
 
 - Typen helfen, aber reichen nicht.
 
@@ -141,10 +135,9 @@ Funktionale Programmierung in einer kleinen Firma
 
 - tasty (komibinert unit tests, property test etc.)
 
-}}}
-{{{ Sprachlandschaft heute
-==========================
-
+Sprachlandschaft heute
+======================
+	
 - primär immer noch großteils PHP.
 
 - JavaScript wurde für neue Projekte von TypeScript abglöst.
@@ -157,9 +150,8 @@ Funktionale Programmierung in einer kleinen Firma
 
 - Insgesamt 5 Haskeller (und ein paar die lauern).
 
-}}}
-{{{ Danke
-=========
+Danke
+=====
 
 - Vielen Dank für Eure Aufmerksamkeit!
 
@@ -167,4 +159,3 @@ Funktionale Programmierung in einer kleinen Firma
 
 - Oder fragt mich auf Twitter unter @raichoo
 
-}}}
