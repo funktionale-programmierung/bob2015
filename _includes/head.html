@@ -1,54 +1,78 @@
 {% if page.language == "de" or page.language == null %}		
-<div class="col-md-12 head">
-    {% if page.head == 2015 %}
-    <a href="/2015/de/"><img src="/images/bob_head-2015.png" class="head" alt="Hier ist das Logo der BOB Konferenz 2015 zu sehen."></a>
-    {% else %}
-    {% if page.head == 2016 %}	
-    <a href="/2016/de/"><img src="/images/bob_head-2016.png" class="head" alt="Hier ist das Logo der BOB Konferenz 2016 zu sehen."></a>
-    {% else %}
-    {%if page.head == 2017 %}
-    <a href="/2017/de/"><img src="/images/bob_head-2017-date.png"
-                             class="head" alt="Hier ist das Logo der BOB Konferenz 2017 zu
-		                              sehen."></a>
-    {% else %}
-    {%if page.head == 2018 %}
-    <a href="/2018/de/"><img src="/images/bob_head-2018-date.png"
-                             class="head" alt="Hier ist das Logo der BOB Konferenz 2018 zu
-		                              sehen."></a>
-    {%else %}
-    <a href="/2019/de/"><img src="/images/bob_head-2019-date-de.png"
-                             class="head" alt="Hier ist das Logo der BOB Konferenz 2019 zu
-		                              sehen."></a>
-    {% endif %}
-    {% endif %}
-    {% endif %}	
-    {% endif %}	
+<!-- GERMAN -->
+<div class="header-wrapper">
+    <div class="container">
+        
+    <div class="language">
+        Language
+        <a href="/2019/de" class="selected">Deutsch</a>
+        <a href="/2019/en">English</a>
+    </div>
+    <div class="twitter">
+	      <a class="twitter-follow-button" href="https://twitter.com/BOBKonf">
+	          @BOBKonf folgen</a>
+    </div>
+    <div class="clearfix"></div>
+    <div class="counter">
+        <h3> 22. März, Berlin </h3>
+        <div class="counter-elem">
+            <div class="value" id="counter-elem-days">  </div>
+            <div class="unit"> Tage </div>
+        </div>
+        <div class="counter-elem">
+            <div class="value" id="counter-elem-hours"> </div>
+            <div class="unit"> Stunden </div>
+        </div>
+        <div class="counter-elem">
+            <div class="value" id="counter-elem-minutes">  </div>
+            <div class="unit"> Minuten </div>
+        </div>
+        <div class="counter-elem">
+            <div class="value" id="counter-elem-seconds">  </div>
+            <div class="unit"> Sekunden </div>
+        </div>
+    </div>
+    </div>
 </div>
 
 
 {% else %}
+<!-- ENGLISH -->
+<div class="header-wrapper">
+    <div class="container">
 
-<div class="col-md-12 head">
-    {% if page.head == 2015 %}	
-    <a href="/2015/en/"><img src="/images/bob_head-2015.png" class="head" alt="Image Logo BOB conference 2015."></a>
-    {% else %}
-    {% if page.head == 2016 %}	
-    <a href="/2016/en/"><img src="/images/bob_head-2016.png" class="head" alt="Image Logo BOB conference 2016."></a>
-    {% else %}
-    {% if page.head == 2017 %}
-    <a href="/2017/en/"><img src="/images/bob_head-2017-date-en.png"
-			                       class="head" alt="Image logo Bob conference 2017."></a>
-    {% else %}
-    {% if page.head == 2018 %}
-    <a href="/2018/en/"><img src="/images/bob_head-2018-date-en.png"
-			                       class="head" alt="Image logo Bob conference 2018."></a>
-    {% else %}
-    <a href="/2019/en/"><img src="/images/bob_head-2019-date-en.png"
-			                       class="head" alt="Image logo Bob conference 2019."></a>
-    {% endif %}	
-    {% endif %}	
-    {% endif %}	
-    {% endif %}		  			
+    <div class="language">
+        Language
+        <a href="/2019/de" >Deutsch</a>
+        <a href="/2019/en" class="selected">English</a>
+    </div>
+    <div class="twitter">
+	      <a class="twitter-follow-button" href="https://twitter.com/BOBKonf">
+	          Follow @BOBKonf</a>
+    </div>
+    <div class="clearfix"></div>
+    <div class="counter">
+        <h3> March 22, Berlin </h3>
+        <div class="counter-elem">
+            <div class="value" id="counter-elem-days">  </div>
+            <div class="unit"> Days </div>
+        </div>
+        <div class="counter-elem">
+            <div class="value" id="counter-elem-hours"> </div>
+            <div class="unit"> Hours </div>
+        </div>
+        <div class="counter-elem">
+            <div class="value" id="counter-elem-minutes">  </div>
+            <div class="unit"> Minutes </div>
+        </div>
+        <div class="counter-elem">
+            <div class="value" id="counter-elem-seconds">  </div>
+            <div class="unit"> Seconds </div>
+        </div>
+    </div>
+    </div>
 </div>
+
+
 
 {% endif %}

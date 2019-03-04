@@ -2,68 +2,75 @@
 layout: default
 ---
 
-{% if page.language == null or page.language == "german" %}
-<h4>{{page.type}}: {{page.time}} (deutsch)</h4>
-{% else %}
-{% if page.type == "Vortrag" %}
-<h4>Talk: {{page.time}} (English)</h4>
-{% else %}
-<h4>Tutorial: {{page.time}} (English)</h4>
-{% endif %}
-{% endif %}
+<div class="content talk mb-5">
+    <div class="container">
+        {% if page.language == null or page.language == "german" %}
+        <h4>{{page.type}}: {{page.time}} (deutsch)</h4>
+        {% else %}
+        {% if page.type == "Vortrag" %}
+        <h4>Talk: {{page.time}} (English)</h4>
+        {% else %}
+        <h4>Tutorial: {{page.time}} (English)</h4>
+        {% endif %}
+        {% endif %}
+    </div>
 
-<div class="row">
-      <div class="col-lg-8">
-	  <h3>{{page.speaker}}</h3>
-	  <h2 style="text-align: left">{{page.title}}</h2>
-	{{ content }}
-{% if page.slides-file or page.slides-link %}
-	<dl>
-	  <dt>
-{% if page.language == null or page.language == "german" %}
-	    Folien
-{% else %}
-	    Slides
-{% endif %}
-	  </dt>
-	  <dd>
-{% if page.slides-file %}
-	    <a href="slides/{{page.slides-file}}">{{page.slides-file}}</a>
-{% endif %}
-{% if page.slides-link %}
-	    <a href="{{page.slides-link}}">{{page.slides-link}}</a>
-{% endif %}
-	  </dd>
-	</dl>
-{% endif %}
-{% if page.youtube %}
-	<dl>
-	  <dt>Video</dt>
-	  <dd>
-	    <div class="video">
-              <iframe src="https://www.youtube.com/embed/{{page.youtube}}" frameborder="0" allowfullscreen></iframe>
-	    </div>
-	    <a href="http://youtu.be/{{page.youtube}}">http://youtu.be/{{page.youtube}}</a>
-          </dd>
-	</dl>
-{% endif %}
-{% if page.sketchnote %}
-	<dl>
-	  <dt>Sketchnote</dt>
-	  <img src="sketchnotes/{{page.sketchnote}}"
-         width="75%"
-         height="75%"></img>
-    <dd>Sketchnote by Joy Clark</dd>
-    <a href="https://joyclark.org/" target="_blank">https://joyclark.org/</a>
-	</dl>
-{% endif %}
-      </div>
-{% if page.portrait %}
-      <div class="col-lg-4">
-	<img src="portrait/{{page.portrait}}"></img>
-{% if page.portrait2 %}
-	<img src="portrait/{{page.portrait2}}"></img>
-{% endif %}
-      </div>
-{% endif %}
-</div> 
+    <div class="container" >
+        <div class="row">
+            <div class="col-lg-8">
+	              <h1 style="text-align: left">{{page.title}}</h1>
+	              {{ content }}
+                {% if page.slides-file or page.slides-link %}
+	              <dl>
+	                  <dt>
+                        {% if page.language == null or page.language == "german" %}
+	                      Folien
+                        {% else %}
+	                      Slides
+                        {% endif %}
+	                  </dt>
+	                  <dd>
+                        {% if page.slides-file %}
+	                      <a href="slides/{{page.slides-file}}">{{page.slides-file}}</a>
+                        {% endif %}
+                        {% if page.slides-link %}
+	                      <a href="{{page.slides-link}}">{{page.slides-link}}</a>
+                        {% endif %}
+	                  </dd>
+	              </dl>
+                {% endif %}
+                {% if page.youtube %}
+	              <dl>
+	                  <dt>Video</dt>
+	                  <dd>
+	                      <div class="video">
+                            <iframe src="https://www.youtube.com/embed/{{page.youtube}}" frameborder="0" allowfullscreen></iframe>
+	                      </div>
+	                      <a href="http://youtu.be/{{page.youtube}}">http://youtu.be/{{page.youtube}}</a>
+                    </dd>
+	              </dl>
+                {% endif %}
+                {% if page.sketchnote %}
+	              <dl>
+	                  <dt>Sketchnote</dt>
+	                  <img src="sketchnotes/{{page.sketchnote}}"
+                         width="75%"
+                         height="75%"></img>
+                    <dd>Sketchnote by Joy Clark</dd>
+                    <a href="https://joyclark.org/" target="_blank">https://joyclark.org/</a>
+	              </dl>
+                {% endif %}
+            </div>
+            {% if page.portrait %}
+            <div class="col-lg-4">
+	              <img src="portrait/{{page.portrait}}"></img>
+                {% if page.portrait2 %}
+	              <img src="portrait/{{page.portrait2}}"></img>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div> 
+
+    </div>
+
+</div>

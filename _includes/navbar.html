@@ -1,157 +1,119 @@
 {% if page.language == "de" or page.language == null %}
-<ul class="nav navbar-nav">
 
-    {% if page.active == "home" %}
-    <li class="active"><a href="/de/">Home</a></li>
-    {% else %}
-    <li><a href="/de/">Home</a></li>
-    {% endif %}
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-static-top">
+    <div class="container" >
+        <div class="row w-100" >
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbar-collapse-area" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-collapse-area">
+                <ul class="navbar-nav mr-auto">
 
-    {% if page.active == "registration" %}
-    <li class="active"><a href="/2019/de/registration.html">Registrierung</a></li>
-    {% else %}
-    <li><a href="/2019/de/registration.html">Registrierung</a></li>
-    {% endif %}
+                    <li class="nav-item"><a class="nav-link bob" href="/de/">
+                        <img alt="" src="/images/bob_navigation.png"/>
 
-    {% if page.active == "program" %}
-    <li class="active"><a href="/2019/de/program.html">Programm</a></li>
-    {% else %}
-    <li><a href="/2019/de/program.html">Programm</a></li>
-    {% endif %}
+                    </a></li>
 
-    <!--
-    {% if page.active == "cfp" %}
-    <li class="active"><a href="/2019/de/cfc.html">Call for Contributions</a></li>
-    {% else %}
-    <li><a href="/2019/de/cfc.html">Call for Contributions</a></li>
-    {% endif %}
-    -->
-    {% if page.active == "richtlinien" %}
-    <li class="active"><a href="/2019/de/policies.html">Richtlinien</a></li>
-    {% else %}
-    <li> <a href="/2019/de/policies.html">Richtlinien</a></li>	
-    {% endif %}
+                    <li class="nav-item"><a class="nav-link" href="/2019/de/registration.html">Registrierung</a></li>
 
-    {% if page.active == "comitee" %}
-    <li class="active"><a href="/2019/de/programmkomitee.html"">Programmkomitee</a></li>
-    {% else %}
-    <li><a href="/2019/de/programmkomitee.html"">Programmkomitee</a></li>
-    {% endif %}
+                    <li class="nav-item"><a class="nav-link" href="/2019/de/program.html">Programm</a></li>
 
-    {% if page.active == "location" %}
-    <li class="active"><a href="/2019/de/local.html">Veranstaltungsort</a></li>
-    {% else %}
-    <li><a href="/2019/de/local.html">Veranstaltungsort</a></li>
-    {% endif %}
+                    <!--
+                         {% if page.active == "cfp" %}
+                         <li class="active"><a href="/2019/de/cfc.html">Call for Contributions</a></li>
+                         {% else %}
+                         <li><a href="/2019/de/cfc.html">Call for Contributions</a></li>
+                         {% endif %}
+                    -->
+                    <li class="nav-item"><a class="nav-link" href="/2019/de/policies.html">Richtlinien</a></li>
 
-    {% if page.active == "sponsoring" %}
-    <li class="active"><a href="/2019/de/sponsoring.html">Sponsoring</a></li>
-    {% else %}
-    <li><a href="/2019/de/sponsoring.html">Sponsoring</a></li>
-    {% endif %}
+                    <li class="nav-item"><a class="nav-link" href="/2019/de/programmkomitee.html"">Programmkomitee</a></li>
 
-    <!--
-         {% if page.active == "evening" %}
-         <li class="active"><a href="/2017/de/evening.html">Abendprogramm</a></li>
-         {% else %}
-         <li><a href="/2017/de/evening.html">Abendprogramm</a></li>
-         {% endif %}
+                    <li class="nav-item"><a class="nav-link" href="/2019/de/local.html">Veranstaltungsort</a></li>
 
-    -->
-
-    <li class="dropdown">
-        <a href="#" class="dropdown-toggle"
-           data-toggle="dropdown">Rückblick<b class="caret"></b></a>
-        <ul class="dropdown-menu">
-            <li><a href="/2018/de/">2018</a></li>
-            <li><a href="/2017/de/">2017</a></li>
-            <li><a href="/2016/de/">2016</a></li>
-            <li><a href="/2015/de/">2015</a></li>
-        </ul>
-    </li>
-
-</ul>
-<ul class="nav navbar-right">
-    <li><a href="{{ page.url | replace_first: '/de/', '/en/' }}">English</a></li>
-</ul>
-
-{% endif %}
+                    <li class="nav-item"><a class="nav-link" href="/2019/de/sponsoring.html">Sponsoring</a></li>
 
 
-{% if page.language == "en" %}
-<ul class="nav navbar-nav">
+                </ul>
+                <ul class="navbar-nav menu-right">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle"
+                           data-toggle="dropdown">Rückblick<b class="caret"></b></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/2018/de/">2018</a>
+                            <a class="dropdown-item" href="/2017/de/">2017</a>
+                            <a class="dropdown-item" href="/2016/de/">2016</a>
+                            <a class="dropdown-item" href="/2015/de/">2015</a>
+                        </div>
+                    </li>
 
-    {% if page.active == "home" %}
-    <li class="active"><a href="/en/">Home</a></li>
-    {% else %}
-    <li><a href="/en/">Home</a></li>
-    {% endif %}
+                </ul>
 
-    {% if page.active == "registration" %}
-    <li class="active"><a href="/2019/en/registration.html">Registration</a></li>
-    {% else %}
-    <li><a href="/2019/en/registration.html">Registration</a></li>
-    {% endif %}
+                </span>
+            </div>
+        </div>
+    </div>
+</nav>
 
-    {% if page.active == "program" %}
-    <li class="active"><a href="/2019/en/program.html">Program</a></li>
-    {% else %}
-    <li><a href="/2019/en/program.html">Program</a></li>
-    {% endif %}
+{% else %}
 
-    <!--
-    {% if page.active == "cfp" %}
-    <li class="active"><a href="/2019/en/cfc.html">Call for Contributions</a></li>
-    {% else %}
-    <li><a href="/2019/en/cfc.html">Call for Contributions</a></li>
-    {% endif %}
-    -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-static-top">
+    <div class="container" >
+        <div class="row w-100" >
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbar-collapse-area" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-collapse-area">
+                <ul class="navbar-nav mr-auto">
 
-    {% if page.active == "richtlinien" %}
-    <li class="active"><a href="/2019/en/policies.html">Policies</a></li>
-    {% else %}
-    <li> <a href="/2019/en/policies.html">Policies</a></li>
-    {% endif %}
+                    <li class="nav-item"><a class="nav-link bob" href="/en/">
+                        <img alt="" src="/images/bob_navigation.png"/>
 
-    {% if page.active == "comitee" %}
-    <li class="active"><a href="/2019/en/programmkomitee.html"">Program committee</a></li>
-    {% else %}
-    <li><a href="/2019/en/programmkomitee.html"">Program committee</a></li>
-    {% endif %}
+                    </a></li>
 
-    {% if page.active == "location" %}
-    <li class="active"><a href="/2019/en/local.html">Location</a></li>
-    {% else %}
-    <li><a href="/2019/en/local.html">Location</a></li>
-    {% endif %}
+                    <li class="nav-item"><a class="nav-link" href="/2019/en/registration.html">Registration</a></li>
 
-    {% if page.active == "sponsoring" %}
-    <li class="active"><a href="/2019/en/sponsoring.html">Sponsorship</a></li>
-    {% else %}
-    <li><a href="/2019/en/sponsoring.html">Sponsorship</a></li>
-    {% endif %}
+                    <li class="nav-item"><a class="nav-link" href="/2019/en/program.html">Program</a></li>
 
-    <!--
-         {% if page.active == "evening" %}
-         <li class="active"><a href="/2017/en/evening.html">Evening</a></li>
-         {% else %}
-         <li><a href="/2017/en/evening.html">Evening</a></li>
-         {% endif %}
-    -->
+                    <!--
+                         {% if page.active == "cfp" %}
+                         <li class="active"><a href="/2019/de/cfc.html">Call for Contributions</a></li>
+                         {% else %}
+                         <li><a href="/2019/de/cfc.html">Call for Contributions</a></li>
+                         {% endif %}
+                    -->
+                    <li class="nav-item"><a class="nav-link" href="/2019/en/policies.html">Policies</a></li>
 
-    <li class="dropdown">
-        <a href="#" class="dropdown-toggle"
-           data-toggle="dropdown">Archive<b class="caret"></b></a>
-        <ul class="dropdown-menu">
-            <li><a href="/2018/en/index.html">2018</a></li>
-            <li><a href="/2017/en/index.html">2017</a></li>
-            <li><a href="/2016/en/index.html">2016</a></li>
-            <li><a href="/2015/en/index.html">2015</a></li>
-        </ul>
-    </li>
+                    <li class="nav-item"><a class="nav-link" href="/2019/en/programmkomitee.html"">Program committee</a></li>
 
-</ul>
-<ul class="nav navbar-right">
-    <li><a href="{{ page.url | replace_first: '/en/', '/de/' }}">Deutsch</a></li>
-</ul>
+                    <li class="nav-item"><a class="nav-link" href="/2019/en/local.html">Location</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="/2019/en/sponsoring.html">Sponsorship</a></li>
+
+
+                </ul>
+                <ul class="navbar-nav menu-right">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle"
+                           data-toggle="dropdown">Archive<b class="caret"></b></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/2018/de/">2018</a>
+                            <a class="dropdown-item" href="/2017/de/">2017</a>
+                            <a class="dropdown-item" href="/2016/de/">2016</a>
+                            <a class="dropdown-item" href="/2015/de/">2015</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                </span>
+            </div>
+        </div>
+    </div>
+</nav>
+
 {% endif %}

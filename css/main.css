@@ -1,0 +1,671 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    height:100%;
+
+}
+
+
+
+/* We need this for positioning the footer properly */
+.main {
+    position: relative;
+    min-height: 100%;
+    /* This is the footer height, since it is positioned absolute */
+    padding-bottom: 55px;
+}
+
+
+a, a:hover {
+    color: #d6214a;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+
+.container {
+    width: 1140px;
+    max-width: 95%;
+}
+
+
+
+/* NAVBAR STUFF */
+
+
+.navbar {
+    background-color: black!important;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-item {
+    float: left;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding: 0.8rem 0.6rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-expand-lg .menu-right {
+    margin-right: -15px;
+}
+
+.navbar-expand-lg .menu-right .nav-link {
+    padding-right: 0;
+}
+
+.nav-item .bob {
+    padding: 0!important;
+    margin-top: 4px;
+    margin-bottom: -15px;
+    margin-right: -60px;
+    margin-left: -50px;
+}
+
+
+
+/* HEADER RELATED */
+
+.header-wrapper {
+    height: 320px; /* this is shrinked with media query above 768 */
+}
+
+.header-wrapper .twitter {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    float: right;
+}
+
+.language {
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-top: 0.9rem;
+    float: right;
+}
+
+.language a {
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 0.7rem;
+    color: black;
+}
+
+.splash .language {
+    margin-top: -40px;
+}
+
+.language .selected {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.header-wrapper a {
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 0.7rem;
+    color: black;
+}
+
+.header-wrapper {
+    background-image: url('/images/bobkonf_header.jpg');
+    background-repeat: no-repeat;
+    background-position: top 90px  left 20px;
+    background-size: 720px 105px;
+}
+
+
+@media(min-width: 768px){
+    .header-wrapper {
+        background-image: url('/images/bobkonf_header.jpg');
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: auto;
+    }
+}
+
+.twitter-follow-button{
+	  margin-top:5px;
+	  padding:0px;
+}
+
+.counter {
+    float: right;
+    margin-top: 180px; /* this is shrinked with media query above 768 */
+    font-family: 'Poppins';
+}
+
+
+@media(min-width: 768px){
+    .counter {
+        margin-top: 130px;
+    }
+
+    .header-wrapper {
+        height: 360px;
+    }
+}
+
+.counter h3 {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: #d6214a;
+}
+
+.counter .counter-elem {
+    text-align: center;
+    float: left;
+    width: 4rem;
+    margin-left: 1.2rem;
+}
+
+.counter .counter-elem .unit {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.counter .counter-elem .value {
+    font-size: 2.8rem;
+    margin-bottom: -0.8rem;
+}
+
+
+.content {
+    margin-top: 90px;
+}
+
+
+.content h1 {
+    font-weight: 400;
+}
+
+
+.content .front-page-col h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.content .front-page-col p {
+    font-size: 0.95rem;
+    line-height: 1.6rem;
+    margin-bottom: 30px;
+}
+
+.splash .container {
+    position: relative;
+}
+
+.splash .top {
+    height: 10px;
+    width: 100%;
+    margin-bottom: -3px;
+    background-image: url('/images/bobkonf_border_top.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+
+.splash .bottom {
+    height: 20px;
+    width: 100%;
+    margin-top: -10px;
+    background-image: url('/images/bobkonf_border_bottom.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.splash .content {
+    background-color: #ddddd3;
+    margin: 0;
+    padding: 100px 0;
+}
+
+.splash {
+    margin-top: 6rem;
+}
+
+.splash h2 {
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+.splash .short-text {
+    text-align: right;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.splash .long-text {
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+
+.splash .bulb .bulb-image {
+    background-image: url('/images/bobkonf_lightbulb.png');
+    background-repeat: no-repeat;
+    width: 193px;
+    height: 292px;
+    position: absolute;
+    left: 0;
+    bottom: -100px; 
+}
+
+.splash .bulb .container {
+    padding-left: 0px;
+    padding-bottom: 220px;
+}
+
+@media(min-width: 768px){
+    .splash .bulb .container {
+        padding-left: 240px;
+        padding-bottom: 0
+    }
+}
+
+
+.btn-success {
+    background-color:  #d6214a;
+    color: white!important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    font-family: 'Poppins';
+    border: 0;
+    padding: 8px 8px;
+}
+
+.btn-success:hover {
+    background-color: #bd1038;
+}
+
+.btn-success:not(:disabled):not(.disabled):active {
+    background-color: #bd1038;
+    box-shadow: none;
+    border: 0;
+}
+.btn-success:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.sponsors {
+    margin-top: 5rem;
+}
+
+.sponsors .row {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ccc;
+}
+
+.sponsors h2, .sponsors h3 {
+    text-transform: uppercase;
+}
+
+.sponsors h3 {
+    font-size: 1.3rem;
+}
+
+.splash .partners h2 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: black;
+    padding: 15px 0;
+    color: white;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    position: absolute;
+    height: 55px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .twitter-follow-button {
+    margin-top: 0;
+    margin-bottom: -5px;
+}
+
+.footer a {
+    color: white;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.footer .social-img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer .link {
+    padding: 0 15px;
+    border-left: 1px solid white;
+}
+
+
+
+/* Registration page */
+
+.splash .pen {
+    padding: 50px;
+}
+
+
+.splash .pen .pen-image {
+    background-image: url('/images/bobkonf_pen.png');
+    background-repeat: no-repeat;
+    background-position: bottom 0px center 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 224px;
+    height: 284px;
+    bottom: -60px;
+    left: 0;
+}
+
+.splash .pen .container {
+    padding-left: 0px;
+    padding-bottom: 250px;
+    min-height: 200px;
+}
+
+@media(min-width: 768px){
+    .splash .pen .container {
+        padding-left: 280px;
+        padding-bottom: 0px;
+
+    }
+}
+
+
+.splash .support {
+    padding: 50px;
+}
+
+.splash .support ol {
+    margin-top: 30px;
+    padding-left: 0
+}
+
+.splash .support li {
+    padding: 10px 0
+}
+
+.splash .support .support-image {
+    background-image: url('/images/bobkonf_questionmark.png');
+    background-repeat: no-repeat;
+    background-position: bottom 0px center 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 233px;
+    height: 192px;
+}
+
+.splash .support .container {
+    padding-left: 0px;
+    padding-bottom: 200px;
+}
+
+@media(min-width: 768px){
+    .splash .support .support-image {
+        bottom: 30%;
+    }
+}
+
+@media(min-width: 768px){
+    .splash .support .container {
+        padding-left: 320px;
+        padding-bottom: 0px;
+    }
+}
+
+
+.registration-table {
+    padding: 0 0;
+}
+.registration-table table {
+    margin-bottom: 2rem;
+}
+
+@media(min-width: 768px){
+    .registration-table {
+        padding: 0 160px;
+        margin-top: 60px;
+    }
+}
+
+.registration-table .btn-success {
+    font-size: 1.2rem;
+    padding: 15px;
+}
+
+
+
+
+/* Policies */
+
+.policies h1 {
+    font-weight: 400;
+}
+
+.policies h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin: 30px 0
+}
+
+
+
+/* commitee */
+
+.committee .member {
+    position: relative;
+}
+
+.committee .member .portrait  {
+    float: left;
+}
+
+.committee .member .info  {
+    font-size: 1.2rem;
+    font-face: 'Poppins';
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.committee .member .info a {
+    font-size: 0.9rem;
+    font-face: 'Poppins';
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.committee .member .portrait img  {
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Location */
+
+
+
+@media(min-width: 768px){
+    .splash .support .support-image {
+        bottom: 30%;
+    }
+}
+
+@media(min-width: 768px){
+    .splash .support .container {
+        padding-left: 320px;
+        padding-bottom: 0px;
+    }
+}
+
+
+/* Sponsoring */
+
+
+
+.splash .gear {
+    padding: 50px;
+}
+
+.splash .gear .gear-image {
+    background-image: url('/images/bobkonf_sponsors.png');
+    background-repeat: no-repeat;
+    background-position: bottom 0px center 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 152px;
+    height: 152px;
+    bottom: 60px;
+    left: 50px;
+}
+
+.splash .gear .container {
+    padding-left: 0px;
+    padding-bottom: 250px;
+}
+
+.splash .gear ul {
+    padding-left: 0px;
+}
+
+.splash .gear li {
+    padding: 0.5rem 0px;
+}
+
+@media(min-width: 768px){
+    .splash .gear .container {
+        padding-left: 280px;
+        padding-bottom: 0px;
+    }
+}
+
+
+.content .front-page-col ul {
+    padding-left: 0
+}
+
+.content .front-page-col li {
+    padding: 0.3rem 0
+}
+
+
+
+/* Programm */
+
+.program table th {
+    padding: 20px 0 0 5px;
+}
+
+.program table tr {
+    border-bottom: 1px solid #b9b9b9;
+}
+
+.program table h3 {
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+
+.program table .bcolor1 {
+}
+
+.program table .bcolor5 {
+    background-color: #f1f1f0;
+}
+
+.program table h4 {
+    text-transform: uppercase;
+    color: #111;
+    letter-spacing: 0.4rem;
+    font-size: 0.8rem;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+.program table h5 {
+    text-transform: uppercase;
+    color: #111;
+    font-size: 1rem;
+    padding-top: 10px;
+}
+
+.program table .talktitle {
+    color: black;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.program table td {
+    padding: 20px 20px;
+    vertical-align: top;
+}
+
+.program table .room-row {
+    border-bottom: 3px double #b9b9b9;
+}
+
+.program table .room-row td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.program table .room-row h5 {
+    color: #aaa;
+}
+
+
+.talk h3 {
+    text-transform: uppercase;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+
+.talk h4 {
+    text-transform: uppercase;
+}

@@ -6,92 +6,121 @@ language: en
 head: 2019
 ---
 
-<div class="wrapper">
-  <div class="row">
+{% include head.html %}
 
-    
-    
-      <div class="col-md-9">
-          <!-- linke Hauptspalte -->
 
-          <div class="row">
-	            <div class="col-md-12">
-	                <div class="teaser">
-	                    <p class="p2">What happens when we use
-	                        what's best for a change?</p>
-	                    <p class="p4">Are you interested in
-	                        technologies beyond the mainstream,
-	                        that a are a pleasure to use, and
-	                        effective at getting the job done?</p>
-	                    <p class="p4">BOB is the forum for developers, architects and
-	                        builders to explore and
-	                        discover the best tools available today for building software.
-	                        Our goal is for all participants to leave the conference
-	                        with new ideas to improve development back at the ranch.
-	                    </p>
-	                    <p class="p4">We are committed to
-	                        diversity: We aim at exploring a wide
-	                        range of tools in a welcoming and
-	                        friendly crowd of diverse people.  To
-	                        that end, a number of support options
-	                        for participants from groups
-	                        under-represented in tech are available.
-	                    </p>
-	                </div>
-	            </div>
-          </div>
-	  <div class="teaser row">
-	    <div class="col-md-4">
-	      <h4>Info</h4>
-	      <p><a href="registration.html">Registration</a>
-		is open!</p>
-	      <p>Our <a href="programmkomitee.html">committee</a>
-	      consisting of experts from academia and industry 
-	      assembled the program.</p>
-	    </div>
-	    <div class="col-md-4">
-	      <h4>Program</h4>
-	      <p>The <a href="program.html">program</a> is
-		up!</p>
-	      <p><a href="https://www.uu.nl/staff/GKKeller">Gabriele
-		  Keller</a> will do
-		  the <a href="/2019/keller.html">keynote</a>!</p>
-	    </div>
-	    <div class="col-md-4">
-	      <h4>News</h4>
-	      <p>
-		BOB will be directly followed by our partner
-		conference <a href="https://racketfest.com">Racketfest</a>,
-		also in Berlin!
-	      </p>
-	      <p>
-	       There will be an additional, special-occasion <i>Summer BOB</i> in 2019 co-located with
-              <a href="https://www.icfpconference.org/index.html">ICFP 2019</a>.
-                          Save the date for Wednesday, August 21 2019, at
-                          <a href="https://www.scandichotels.com/hotels/germany/berlin/scandic-berlin-potsdamer-platz">Scandic Hotel Potsdamer Platz</a>
-                          in Berlin.</p>
-	    </div>
-	  </div>
-      </div>
-      <div class="col-md-3">
-          <!-- rechte Hauptspalte -->
-          <h4>Tweets</h4>
-          <p>
-	            <a class="twitter-timeline" href="https://twitter.com/BOBKonf"
-	               data-widget-id="648394288695508992" width="300" height="150"
-	               data-chrome="nofooter noheader" data-tweet-limit="2">Tweets by
-	  @BOBKonf</a>
-	
-      </p>
-      <p>&nbsp;</p>
-      <p>
-	<a class="twitter-follow-button" href="https://twitter.com/BOBKonf">
-	  Follow @BOBKonf</a>
-      </p>
-      <p>&nbsp;</p>
-      {% include partner2019.html %}
+<div class="container content">
+    <div class="row">
+        <div class="col-md-9 col-sm-12">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 front-page-col pr-lg-5" > <h3> Program </h3> <p> This year we have a number of great speakers, once more. We are especially looking forward to Gabriele Keller's keynote speech. As the years before, in each slot there will be a contribution in English and German. </p>
+                    <a class="btn btn-success btn-block d-md-none mb-5" href="/2019/de/program.html"> View program </a>
+                </div>
+
+                <div class="col-md-4 col-sm-12 front-page-col pr-lg-5" >
+                    <h3> Location </h3>
+                    <p> The building of Lohmann & Birkner Health Care Consulting GmbH in Alt-Reinickendorf offers a professional, athmospheric and barrier-free ambience. </p>
+                    <a class="btn btn-success btn-block d-md-none mb-5" href="/2019/de/local.html"> How to find us </a>
+                </div>
+
+                <div class="col-md-4 col-sm-12 front-page-col pr-lg-5" >
+                    <h3> Tickets </h3>
+                    <p> Whether ordinary tickets, student tickets or tickets for underrepresented groups, such as women or the financially disadvantaged, quickly get one before they are all gone.  </p>
+                    <a class="btn btn-success btn-block d-md-none mb-5" href="/2019/de/registration.html"> Get a ticket </a>
+                </div>
+            </div>
+            <div class="row d-none d-md-flex">
+                <!-- we show the buttons as a row for alignment for everything bigger sm  -->
+                <div class="col-md-4 pr-lg-5" >
+                    <a class="btn btn-success btn-block" href="/2019/de/program.html"> View program </a>
+                </div>
+
+                <div class="col-md-4 pr-lg-5" >
+                    <a class="btn btn-success btn-block" href="/2019/de/local.html"> How to find us </a>
+                </div>
+
+                <div class="col-md-4 pr-lg-5" >
+                    <a class="btn btn-success btn-block" href="/2019/de/registration.html"> Get a ticket </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-12 front-page-col pr-lg-5" >
+            <h3> News </h3>
+	          <p>
+		            BOB will be directly followed by our partner
+		            conference <a href="https://racketfest.com">Racketfest</a>,
+		            also in Berlin!
+	          </p>
+	          <p>
+	              There will be an additional, special-occasion <i>Summer BOB</i> co-located with
+                <a href="https://www.icfpconference.org/index.html">ICFP 2019</a>.
+                Save the date for Wednesday, August 21 2019, at
+                <a href="https://www.scandichotels.com/hotels/germany/berlin/scandic-berlin-potsdamer-platz">Scandic Hotel Potsdamer Platz</a>
+                in Berlin.</p>
+        </div>
     </div>
-  </div>
+</div>
+
+<div class="splash">
+    <div class="top"></div>
+    <div class="content bulb">
+        <div class="container">
+            <div class="bulb-image" ></div>
+            <h2> What happens when we use what's best for a change?</h2>
+            <div class="row">
+                <div class="col-lg-4 short-text">
+                    Are you interested in <b><u>technologies beyond the mainstream</u></b>, that a are a pleasure to use, and effective at getting the job done?
+                </div>
+                <div class="col-lg-8 long-text">
+	                  <p class="p4">BOB is the forum for developers, architects and
+	                      builders to explore and
+	                      discover the best tools available today for building software.
+	                      Our goal is for all participants to leave the conference
+	                      with new ideas to improve development back at the ranch.
+	                  </p>
+	                  <p class="p4">We are committed to
+	                      diversity: We aim at exploring a wide
+	                      range of tools in a welcoming and
+	                      friendly crowd of diverse people.  To
+	                      that end, a number of support options
+	                      for participants from groups
+	                      under-represented in tech are available.
+	                  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom"> </div>
+</div>
+
+<div class="container sponsors">
+    {% include partner2019.html %}
+</div>
+
+
+<div class="splash">
+    <div class="top"></div>
+    <div class="content partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 pb-sm-5 pb-md-0">
+                    <h2> Organized by </h2>
+	                  <a href="http://funktionale-programmierung.de/" target="_blank" class="pr-5"><img src="/images/fp-logo.png" alt="FP"></a>
+	                  <a href="http://www.active-group.de" target="_blank" class="pr-5"><img src="/images/active-group-logo.png" alt="Active Group GmbH"></a>
+	                  <a href="http://www.factisresearch.com/" target="_blank" class="pr-5"><img src="/images/factis-research-logo.png" alt="factis-research"></a>
+                </div>
+
+                <div class="col-md-6 col-sm-12 pt-sm-5 pt-md-0">
+                    <h2> Partners </h2>
+                    <a href="http://racketfest.com/" target="_blank" class="pr-5"><img src="/images/racketfest-logo.png" alt="Racketfest"></a>
+                    <a href="http://clojured.de/" target="_blank" class="pr-5"><img src="/images/clojured.png" alt=":clojureD"></a>
+                    <a href="http://www.lambdadays.org/" target="_blank" class="pr-5"><img src="/images/lambda-days-logo.png" alt="Lambda Days"></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
 
 

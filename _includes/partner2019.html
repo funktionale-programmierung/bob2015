@@ -1,48 +1,54 @@
 {% if page.language == "de" or page.language == null %}		
-<h4>Sponsoren</h4>
-{% else %}
-<h4>Sponsors</h4>
-{% endif %}
-{% if page.language == "de" or page.language == null %}		
-<h5>Silber</h5>
-{% else %}
-<h5>Silver</h5>
-{% endif %}
-<p>
-    <a href="https://www.innoq.com" target="_blank"><img src="/images/innoq.png" height="40" alt="INNOQ"></a><br>
-    <a href="https://wunder.dog/" target="_blank"><img src="/images/wunderdog.png" height="110" alt="wunderdog"></a><br>
-</p>
-{% if page.language == "de" or page.language == null %}
-<h5>Bronze</h5>
-{% else %}
-<h5>Bronze</h5>
-{% endif %}
-<p>
-    <a href="https://www.exoscale.ch/" target="_blank"><img src="/images/exoscale.png" alt="exoscale"></a><br>
-    <a href="https://frobese.de/" target="_blank"><img src="/images/frobese-logo.jpeg" height="70" alt="frobese"></a><br>
-    <a href="https://inoio.de/" target="_blank"><img src="/images/inoio.jpg" height="32" alt="inoio"></a><br>
-    <a href="https://www.kommitment.works" target="_blank"><img src="/images/kommitment.png" height="60" style="background-color:gray;" alt="Kommitment"></a><br>
-    <a href="https://www.tngtech.com" target="_blank"><img src="/images/tng-logo.gif" height="32" alt="TNG"></a>
-</p>
-{% if page.language == "de" or page.language == null %}
-<h4>Organisiert von</h4>
-{% else %}
-<h4>Organized by</h4>
-{% endif %}
-<p>
-	  <a href="http://funktionale-programmierung.de/" target="_blank"><img src="/images/fp-logo.png" alt="FP"></a><br>
-	  <a href="http://www.active-group.de" target="_blank"><img src="/images/active-group-logo.png" alt="Active Group GmbH"></a><br>
-	  <a href="http://www.factisresearch.com/" target="_blank"><img src="/images/factis-research-logo.png" alt="factis-research"></a><br>
-</p>
+<h2> Sponsoren </h2>
+<div class="row" >
+    <div class="col-md-2 col-sm-12">
+        <h3>Silber</h3>
+    </div>
+    <div class="col-md-10 col-sm-12">
+        <a href="https://www.innoq.com" target="_blank" class="mr-md-5"><img src="/images/innoq.png" height="60" alt="INNOQ"></a>
+        <a href="https://wunder.dog/" target="_blank"><img src="/images/wunderdog.png" height="170" alt="wunderdog"></a>
+    </div>
+</div>
 
-<h4>Partner</h4>
-<a href="http://racketfest.com/"
-   target="_blank"><img src="/images/racketfest-logo.png"
-			                  alt="Racketfest"></a>
-<br>
+<div class="row" >
+    <div class="col-md-2 col-sm-12">
+        <h3>Bronze</h3>
+    </div>
+    <div class="col-md-10 col-sm-12">
+        <a href="https://www.exoscale.ch/" target="_blank" class="mr-md-2"><img src="/images/exoscale.png" alt="exoscale"></a>
+        <a href="https://frobese.de/" target="_blank" class="mr-md-2"><img src="/images/frobese-logo.jpeg" height="70" alt="frobese"></a>
+        <a href="https://inoio.de/" target="_blank" class="mr-md-2"><img src="/images/inoio.jpg" height="32" alt="inoio"></a>
+        <a href="https://www.kommitment.works" target="_blank" class="mr-md-2"><img src="/images/kommitment.png" height="60" style="background-color:gray;" alt="Kommitment"></a>
+        <a href="https://www.tngtech.com" target="_blank"><img src="/images/tng-logo.gif" height="32" alt="TNG"></a>
+    </div>
+</div>
 
-<a href="http://clojured.de/"
-   target="_blank"><img src="/images/clojured.png"
-			                  alt=":clojureD"></a>
-<br>
-<a href="http://www.lambdadays.org/" target="_blank"><img src="/images/lambda-days-logo.png" alt="Lambda Days"></a>
+
+{% else %}
+
+<h2> Sponsors </h2>
+<div class="row" >
+    <div class="col-md-2 col-sm-12">
+        <h3> Silver </h3>
+    </div>
+    <div class="col-md-10 col-sm-12">
+        <a href="https://www.innoq.com" target="_blank" class="mr-md-5"><img src="/images/innoq.png" height="60" alt="INNOQ"></a>
+        <a href="https://wunder.dog/" target="_blank"><img src="/images/wunderdog.png" height="170" alt="wunderdog"></a>
+    </div>
+</div>
+
+<div class="row" >
+    <div class="col-md-2 col-sm-12">
+        <h3>Bronze</h3>
+    </div>
+    <div class="col-md-10 col-sm-12">
+        <a href="https://www.exoscale.ch/" target="_blank" class="mr-md-2"><img src="/images/exoscale.png" alt="exoscale"></a>
+        <a href="https://frobese.de/" target="_blank" class="mr-md-2"><img src="/images/frobese-logo.jpeg" height="70" alt="frobese"></a>
+        <a href="https://inoio.de/" target="_blank" class="mr-md-2"><img src="/images/inoio.jpg" height="32" alt="inoio"></a>
+        <a href="https://www.kommitment.works" target="_blank" class="mr-md-2"><img src="/images/kommitment.png" height="60" style="background-color:gray;" alt="Kommitment"></a>
+        <a href="https://www.tngtech.com" target="_blank"><img src="/images/tng-logo.gif" height="32" alt="TNG"></a>
+    </div>
+</div>
+
+{% endif %}
+

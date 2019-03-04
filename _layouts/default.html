@@ -9,59 +9,35 @@
 
     <title>BOB - {{ page.title }}</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
-
-     <!-- BOB custom -->
-     <link href="/css/bob-style.css" rel="stylesheet">
-          <link href="/css/navbar.css" rel="stylesheet">
-    <script type='text/javascript' src='/js/bob.js'></script>
-    	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    {% if page.head < 2019 %}
+    {% include old_head_section.html %}
+    {% else %}
+    {% include head_section.html %}
+    {% endif %}
   </head>
 
   <body>
 
-    <div class="bob"><!-- Bob Container -->
-     	<!-- BOB Head -->
-		<div class="row head">
-  	    {% include head.html %}			
-		</div>
-	</div>
-    
-
-      <!-- Sticky navbar -->
-      <div class="nav-wrapper" id="static-navi">
-       	<div class="navbar-container" id="sticky-navbar">
-		    <div class="navbar navbar-default" role="navigation">
-        		<div class="navbar-header">
-          			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-			            <span class="sr-only">Toggle navigation</span>
-			            <span class="icon-bar"></span>
-			            <span class="icon-bar"></span>
-			            <span class="icon-bar"></span>
-          			</button>
-		        </div>
-        		<div class="navbar-collapse collapse bob-collapse">
-	    			{% include navbar.html %}
-        		</div><!--/.nav-collapse -->
-      		</div>
-      	</div>
-		</div>
-      
-      <div class="wrapper">
-        {{ content }}
-      </div>
-      
+      {% if page.head < 2019 %}
+      {% include old_body.html %}
       {% include footer.html %}
+      {% else %}
+      <div class="main" >
+          {% include body.html %}
+          {% include footer.html %}
+      </div>
+      {% endif %}
 	
 	<!-- /div --> <!-- / bob container -->
+
   </body>
+
+  {% if page.head < 2019 %}
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/old/bootstrap.min.js"></script>
     <script>
       var h = document.getElementById("sticky-navbar");
       var nch = document.getElementById("static-navi")
@@ -95,4 +71,23 @@
         }
         
     </script>
+
+    {% else %}
+    <script type='text/javascript' src='/js/jquery-3.3.1.min.js'></script>
+    <script type='text/javascript' src='/js/bootstrap.bundle.min.js'></script>
+    <script type='text/javascript' src="/js/countdown.js"></script>
+    <script>
+        window.onload = function() {
+            // UTC = GMT and Berlin is GMT+1. Dont forget to subtract one hour.
+            var countDownDate = new Date(Date.UTC(2019, 2, 22, 8-1, 0, 0)).getTime();
+            initCountdown(
+                countDownDate,
+                "counter-elem-days",
+                "counter-elem-hours",
+                "counter-elem-minutes",
+                "counter-elem-seconds"
+            );
+        };
+    </script>
+    {% endif %}
 </html>
