@@ -215,29 +215,13 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-.splash .top {
-    height: 10px;
-    width: 100%;
-    margin-bottom: -3px;
-    background-image: url('/images/bobkonf_border_top.jpg');
-    background-repeat: no-repeat;
-    background-position: top center;
-}
 
 
-.splash .bottom {
-    height: 20px;
-    width: 100%;
-    margin-top: -10px;
-    background-image: url('/images/bobkonf_border_bottom.jpg');
-    background-repeat: no-repeat;
-    background-position: top center;
-}
 
 .splash .content {
-    background-color: #ddddd3;
+    background-color: #f1f1e5;
     margin: 0;
-    padding: 100px 0;
+    padding: 90px 0;
 }
 
 .splash {
@@ -270,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 292px;
     position: absolute;
     left: 0;
-    bottom: -100px; 
+    bottom: -90px; 
 }
 
 .splash .bulb .container {
@@ -326,6 +310,10 @@ h1, h2, h3, h4, h5, h6 {
     border-top: 1px solid #ccc;
 }
 
+.sponsors img {
+    margin: 20px 10px;
+}
+
 .sponsors h2, .sponsors h3 {
     text-transform: uppercase;
 }
@@ -343,15 +331,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer {
     background-color: black;
-    padding: 15px 0;
+    padding: 1rem 0;
     color: white;
     font-family: 'Poppins';
     text-transform: uppercase;
     font-size: 0.8rem;
     position: absolute;
-    height: 55px;
+    min-height: 3rem;
     bottom: 0;
     width: 100%;
+}
+
+.footer > .float-right {
+    vertical-align: middle;
 }
 
 .footer .twitter-follow-button {
@@ -615,7 +607,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .program table .bcolor5 {
-    background-color: #f1f1f0;
+    background-color: #f1f1e5;
 }
 
 .program table h4 {
