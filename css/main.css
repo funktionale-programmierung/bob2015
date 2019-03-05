@@ -302,7 +302,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .sponsors {
     margin-top: 5rem;
-    overflow-x: auto;
 }
 
 .sponsors .row {
@@ -313,6 +312,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .sponsors img {
     margin: 20px 10px;
+    max-width: 80%;
 }
 
 .sponsors h2, .sponsors h3 {
