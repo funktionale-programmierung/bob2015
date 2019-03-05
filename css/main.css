@@ -610,6 +610,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #f1f1e5;
 }
 
+.program table .bcolor5 h4 {
+    color: #67675c;
+}
+
 .program table h4 {
     text-transform: uppercase;
     color: #111;
