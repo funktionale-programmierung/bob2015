@@ -69,7 +69,7 @@ indian cuisine and functional programming in JavaScript, but also a
 barista and likes to travel and repair his recumbent bicycle.
 
 Since beginning of 2018, Hannes works on a non-profit to put MirageOS
-into production at (robur)[https://robur.io]. He used to be a postdoc
+into production at [robur](https://robur.io). He used to be a postdoc
 at University of Cambridge working with the semantics, systems, and
 security group.
 
