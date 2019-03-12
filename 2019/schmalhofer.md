@@ -45,6 +45,22 @@ Erfahrungsbericht - Probabilistische Logik für Fahrzeugkonfiguration:
 - Principle of Explosion: "ex falso quodlibet"
 - Markov-Logic mit Figaro (Scala)
 
+### Vorbereitung
+
+Ich werde den interaktiven Teil des Tutorials auf Julia/Turing
+aufbauen. Die Installation von Turing ist recht gut dokumentiert und
+ist sowohl unter Julia 1.0 als auch Julia 1.1 möglich.
+
+[`http://turing.ml/docs/get-started/`](http://turing.ml/docs/get-started/)
+
+Für Fedora User habe ich noch den Tipp:
+
+    dnf install openblas-dev
+
+Installiert man Julia 1.1 ohne Paketmanager, kann ein expliziter
+Build-Schritt notwendig sein:
+
+[`https://github.com/TuringLang/Libtask.jl/issues/18`](https://github.com/TuringLang/Libtask.jl/issues/18)
 
 ### Christoph Schmalhofer
 
