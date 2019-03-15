@@ -29,7 +29,7 @@ Check out the Github repo:
 
 [`https://github.com/bravit/bob19-tutorial-types`](https://github.com/bravit/bob19-tutorial-types)
 
-
+This will be populated with more material as BOB approaches.
 
 
 ### Vitaly Bragilevsky
