@@ -69,7 +69,7 @@ Zu einem Vorschlag [senden Sie uns](https://docs.google.com/spreadsheet/viewform
 * Matthias Fischmann, [zerobuzz UG](http://zerobuzz.net/)
 * Matthias Neubauer, [SICK AG](http://www.sick.com/)
 * Michael Sperber, [Active Group](http://www.active-group.de/)
-* Stefan Wehr, [factis research](http://www.factisresearch.com/)
+* Stefan Wehr, [factis research](http://www.checkpad.de/)
 
 #### Wissenschaftlicher Beirat
     

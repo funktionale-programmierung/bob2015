@@ -69,7 +69,7 @@ should include (in your presentation language of choice):
 * Matthias Fischmann, [zerobuzz UG](http://zerobuzz.net/)
 * Matthias Neubauer, [SICK AG](http://www.sick.com/)
 * Michael Sperber, [Active Group](http://www.active-group.de/)
-* Stefan Wehr, [factis research](http://www.factisresearch.com/)
+* Stefan Wehr, [factis research](http://www.checkpad.de/)
 
 #### Scientific Advisory Board
     
