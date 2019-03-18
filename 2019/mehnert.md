@@ -44,14 +44,35 @@ and the programming environment - the mirage command line utility takes
 care of target-specific dependency, initialization order, etc. by
 generating code. Afterwards, we'll dig deep down further examples.
 
-Please bring a laptop with OCaml (>= 4.06.0), opam (>= 2.0.0), and
-mirage preinstalled.
-
 Further information:
 
 - [`https://mirage.io`](https://mirage.io)
 - [`https://opam.ocaml.org`](https://opam.ocaml.org)
 - [`https://github.com/solo5/solo5`](https://github.com/solo5/solo5)
+
+### Preparation
+
+You can follow the tutorial on a Linux, FreeBSD, OpenBSD, or macOS
+box.  You won't need a hypervisor to follow the tutorial, but will be
+able to utilize Linux KVM during the tutorial.
+
+You will need the OCaml package manager,
+[opam](https://opam.ocaml.org/).  To prepare:
+
+- [install opam](https://opam.ocaml.org/doc/Install.html) >= 2.0.0
+- run `opam init` and follow the instructions
+- make sure you have OCaml >= 4.06.0 by running `ocaml`
+- install MirageOS with `opam install mirage`
+
+For testing purposes, the [mirage-skeleton
+repository](https://github.com/mirage/mirage-skeleton) hosts various
+example unikernels. Clone that and do a
+
+    mirage configure ; make depend ; make
+
+in any of the subdirectories, and you should end up with a
+`./main.native` (use `mirage configure -t hvt` to produce an unikernel
+image that runs on KVM).
 
 ### [Hannes Mehnert](https://hannes.nqsb.io)
 
