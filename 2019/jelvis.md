@@ -4,7 +4,7 @@ active: bob2019
 title: Analyzing Programs with SMT Solvers
 speaker:  Tikhon Jelvis
 portrait: tikhon-jelvis.jpg
-time: 15:05-15:50
+time: 12:35-13:20
 type: Vortrag
 language: english
 head: 2019
