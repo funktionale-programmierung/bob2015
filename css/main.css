@@ -87,17 +87,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 250px; /* this is shrinked with media query above 768 */
 }
 
-.header-wrapper-2019-summer {
-    height: 250px; /* this is shrinked with media query above 768 */
-}
-
 .header-wrapper .twitter {
-    margin-top: 0.5rem;
-    margin-right: 1rem;
-    float: right;
-}
-
-.header-wrapper-2019-summer .twitter {
     margin-top: 0.5rem;
     margin-right: 1rem;
     float: right;
@@ -134,21 +124,14 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
-.header-wrapper {
+.header-background-2019 {
     background-image: url('/images/bobkonf_header.jpg');
     background-repeat: no-repeat;
     background-position: top 90px  left -50px;
     background-size: 720px 105px;
 }
 
-.header-wrapper-2019-summer a {
-    font-weight: 700;
-    text-decoration: none;
-    margin-left: 0.7rem;
-    color: black;
-}
-
-.header-wrapper-2019-summer {
+.header-background-2019-summer {
     background-image: url('/images/bobkonf_header_2019-summer.jpg');
     background-repeat: no-repeat;
     background-position: top 90px  left -50px;
@@ -159,16 +142,10 @@ h1, h2, h3, h4, h5, h6 {
     .header-wrapper {
         height: 320px;
     }
-    .header-wrapper-2019-summer {
-        height: 320px;
-    }
 }
 
 @media(min-width: 440px){
     .header-wrapper {
-        background-position: top 90px left 20px;
-    }
-    .header-wrapper-2019-summer {
         background-position: top 90px left 20px;
     }
 }
@@ -176,10 +153,6 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(min-width: 768px){
     .header-wrapper {
-        background-position: bottom center;
-        background-size: auto;
-    }
-    .header-wrapper-2019-summer {
         background-position: bottom center;
         background-size: auto;
     }
@@ -209,10 +182,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .header-wrapper {
-        height: 360px;
-    }
-
-    .header-wrapper-2019-summer {
         height: 360px;
     }
 }
