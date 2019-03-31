@@ -1,9 +1,10 @@
-Subject: Call for Contributions: Summer BOB 2019 [Deadline May 17]
+Subject: Call for Contributions: Summer BOB 2019 [Aug 21, Berlin, deadline May 17]
 
 		      Summer BOB Conference 2019
 	 "What happens when we use what's best for a change?"
 		http://bobkonf.de/2019-summer/cfc.html
 			  Berlin, August 21
+		      co-located with ICFP 2019
 			Call for Contributions
 			Deadline: May 17, 2019
 
@@ -13,8 +14,16 @@ have an interesting story to tell about an advanced tools, technique,
 language or technology that you're using? Or a gnarly problems that
 these tools fail to address but should?
 
-If you share our vision and want to contribute, submit a proposal for
-a talk!
+Summer BOB is a one-time-only event, in the spirit of the spectacular
+Winter BOB. The International Conference on Functional Programming is
+coming to town, and Summer BOB will be right in the middle of it, on
+the last day of ICFP proper, prior to all the workshops. Summer BOB
+will feature two tracks: one from practitioners, and one from
+researchers, and foster communication and cross-pollination between
+these communities.
+
+If you share our vision and want to contribute,
+submit a proposal for a talk!
 
 NOTE: The conference fee will be waived for presenters. Travel
 expenses will not be covered (for exceptions see "Speaker Grants").
