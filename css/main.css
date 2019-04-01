@@ -699,3 +699,8 @@ h1, h2, h3, h4, h5, h6 {
 .talk h4 {
     text-transform: uppercase;
 }
+
+
+.content .intro {
+    font-size: 1.3em;
+}
