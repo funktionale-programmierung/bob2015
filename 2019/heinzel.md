@@ -47,7 +47,18 @@ Participants will
 - more generally experience the versatility and expressiveness of
   functional programming, inspiring them to solve problems in a
   multitude of domains outside of what they thought is possible.
-  
+
+### Preparation
+
+Please prepare for the workshop by cloning [this
+repository](https://github.com/mheinzel/clash-yosys-icestick-examples)
+and following the installation instructions in the `README`. Doing this
+now will help to avoid unexpected tooling problems and allow us to
+start on time.
+
+If you get stuck or something looks incorrect, please open an issue on
+GitHub and I will look into it as soon as possible.
+
 ### Matthias Heinzel
 
 Matthias started programming with C on microcontrollers, but during

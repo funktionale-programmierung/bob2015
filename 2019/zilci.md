@@ -17,16 +17,16 @@ train pair programming and functional thinking such as ping pong,
 navigator-driver, verbs instead of nouns. Each pair will pick up a
 language which supports functional programming and a constraint based
 on their self evaluated experience level. The idea is to use
-constraints to trigger creative problem solving.
-
-Please bring your laptop which should be ready for development, with
-everything you need installed i.e. IDE and unit testing framework for
-languages such as Scala, Haskell, Clojure. Make sure it is set up
-properly by having a new project with a failing test. The workshop
-assumes basic programming skills and participants should be already
-able to solve problems using them. You can consider this a mini
+constraints to trigger creative problem solving.  You can consider this a mini
 version of a coderetreat, and read more about it
 [here](https://www.coderetreat.org/).
+
+### Preparations
+
+Preparation instructions are in this [Github
+repo](https://github.com/ilke-zilci/learn-fp-with-katas/blob/master/bobkonf2019_instructions.md).
+Clone it and follow the instructions there.
+
 
 ### Ilke Zilci
 

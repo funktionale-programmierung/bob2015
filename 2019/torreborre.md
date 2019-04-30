@@ -8,6 +8,7 @@ time: 15:05-15:50
 type: Vortrag
 language: english
 head: 2019
+youtube: xKgII4ggo-4
 ---
 
 At Symbiont, we use a "modules-as-records-of-functions" to structure

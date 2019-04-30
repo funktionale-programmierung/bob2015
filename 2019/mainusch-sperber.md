@@ -5,10 +5,11 @@ title: Emotional Programming
 speaker:  Johannes Mainusch vs. Michael Sperber
 portrait: johannes-mainusch.png
 portrait2: sperber.jpg
-time: 11:45-12:30
+time: 17:10-17:55
 type: Vortrag
 language: english
 head: 2019
+youtube: hF9shqLE1S4
 ---
 
 We model the real world, we program behaviour, we build intelligent

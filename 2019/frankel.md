@@ -24,6 +24,12 @@ learning Clojure as an OOP guy, I'll be happy to show you strange
 beasts such as Dynamic Dispatch, Threading, Contract-Based
 Programming, and much much more.
 
+### Preparations
+
+Clone the
+[repository](https://github.com/exoscale-labs/clojure-workshop) for
+the tutorial and follow the instructions there.
+
 ### Nicolas Frankel
 
 Developer Advocate with 15+ years experience consulting for many

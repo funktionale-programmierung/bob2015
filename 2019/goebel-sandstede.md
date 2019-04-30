@@ -2,13 +2,14 @@
 layout: talk
 active: bob2019
 title: "Across Time and Space: Building Explorative UIs Using a Many-Worlds Interpretation of State"
-speaker:  Nikolas Göbel, Malte Sandstede 
+speaker:  Nikolas Göbel, Malte Sandstede
 portrait: nikolas-goebel.jpg
 portrait2: malte-sandstede.png
 time: 16:20-17:05
 type: Vortrag
 language: english
 head: 2019
+youtube: QsbxwdfiO5c
 ---
 
 The functional approach to state management in the frontend was first

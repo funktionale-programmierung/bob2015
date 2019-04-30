@@ -8,6 +8,7 @@ type: Vortrag
 language: english
 head: 2019
 time: 09:00-10:00
+youtube: qBoaE4diJbY
 ---
 
 Functional languages are becoming increasingly popular, not least due
@@ -29,9 +30,9 @@ over programming in Accelerate, demonstrate some applications, and
 show how advanced features of the Haskell type system, like type
 families, play a crucial role in the implementation.
 
-### [Gabriele Keller](https://www.uu.nl/staff/GKKeller) 
+### [Gabriele Keller](https://www.uu.nl/staff/GKKeller)
 
-Gabriele Keller has recently been appointed as chair of the 
+Gabriele Keller has recently been appointed as chair of the
 [Software Technology Group](https://www.uu.nl/staff/organizationalchart/BETA/87/849/858)
 at Utrecht University. Before moving to the
 Netherlands, she co-founded the Programming Languages & Systems Group

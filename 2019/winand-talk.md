@@ -4,10 +4,11 @@ active: bob2019
 title: Modern SQL
 speaker: Markus Winand
 portrait: markus-winand.jpg
-time: 17:10-17:55
+time: 11:45-12:30
 type: Vortrag
 language: english
 head: 2019
+youtube: TqludABncnE
 ---
 
 Purely relational SQL has been abandoned in 1999. Since then, SQL has

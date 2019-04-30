@@ -1,0 +1,40 @@
+{% if page.language == "de" or page.language == null %}		
+<!-- GERMAN -->
+<div class="header-wrapper header-background-2019">
+    <div class="container">
+        
+    <div class="language">
+        Language
+        <a href="/2019/de" class="selected">Deutsch</a>
+        <a href="/2019/en">English</a>
+    </div>
+    <div class="twitter">
+	      <a class="twitter-follow-button" href="https://twitter.com/BOBKonf">
+	          @BOBKonf folgen</a>
+    </div>
+    <div class="clearfix"></div>
+    </div>
+</div>
+
+
+{% else %}
+<!-- ENGLISH -->
+<div class="header-wrapper header-background-2019">
+    <div class="container">
+
+    <div class="language">
+        Language
+        <a href="/2019/de" >Deutsch</a>
+        <a href="/2019/en" class="selected">English</a>
+    </div>
+    <div class="twitter">
+	      <a class="twitter-follow-button" href="https://twitter.com/BOBKonf">
+	          Follow @BOBKonf</a>
+    </div>
+    <div class="clearfix"></div>
+    </div>
+</div>
+
+
+
+{% endif %}

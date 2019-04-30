@@ -23,6 +23,15 @@ kinds, and others all way down to 'almost' dependent types. Their
 description will be given together with practical examples as used in
 the modern Haskell libraries.
 
+### Preparation
+
+Check out the Github repo:
+
+[`https://github.com/bravit/bob19-tutorial-types`](https://github.com/bravit/bob19-tutorial-types)
+
+This will be populated with more material as BOB approaches.
+
+
 ### Vitaly Bragilevsky
 
 Vitaly Bragilevsky works as a Senior Lecturer at the Southern Federal

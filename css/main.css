@@ -124,8 +124,15 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
-.header-wrapper {
-    background-image: url('/images/bobkonf_header.jpg');
+.header-background-2019 {
+    background-image: url('/images/bobkonf_header_2019.jpg');
+    background-repeat: no-repeat;
+    background-position: top 90px  left -50px;
+    background-size: 720px 105px;
+}
+
+.header-background-2019-summer {
+    background-image: url('/images/bobkonf_header_2019-summer.jpg');
     background-repeat: no-repeat;
     background-position: top 90px  left -50px;
     background-size: 720px 105px;
@@ -691,4 +698,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .talk h4 {
     text-transform: uppercase;
+}
+
+
+.content .intro {
+    font-size: 1.3em;
 }

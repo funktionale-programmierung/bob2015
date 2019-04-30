@@ -4,10 +4,11 @@ active: bob2019
 title: Logic in the Service of System Configurations
 speaker:  Shriram Krishnamurthi
 portrait: shriram-krishnamurthi.jpg
-time: 12:35-13:20
+time: 15:05-15:50
 type: Vortrag
 language: english
 head: 2019
+youtube: x3bOGQkKq4A
 ---
 
 Programming is glamorous; everyone has ideas for how it should be done
