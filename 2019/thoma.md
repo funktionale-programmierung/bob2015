@@ -8,6 +8,7 @@ time: 10:15-11:00
 type: Vortrag
 language: english
 head: 2019
+youtube: EcbF_LO837I
 ---
 
 Monadic DSLs are ubiquitous in functional programming: Parser

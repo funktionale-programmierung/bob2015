@@ -8,9 +8,10 @@ time: 11:45-12:30
 type: Vortrag
 language: english
 head: 2019
+youtube: RBB9f5xN_c8
 ---
 
-#### A Promise Checked is a Promise Kept 
+#### A Promise Checked is a Promise Kept
 
 Some high-quality Haskell libraries, including old friends like
 [`text`](https://github.com/haskell/text) and new kids on the block

@@ -8,6 +8,7 @@ time: 11:45-12:30
 type: Vortrag
 language: english
 head: 2019
+youtube: TqludABncnE
 ---
 
 Purely relational SQL has been abandoned in 1999. Since then, SQL has

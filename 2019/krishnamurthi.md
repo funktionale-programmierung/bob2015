@@ -8,6 +8,7 @@ time: 15:05-15:50
 type: Vortrag
 language: english
 head: 2019
+youtube: x3bOGQkKq4A
 ---
 
 Programming is glamorous; everyone has ideas for how it should be done
