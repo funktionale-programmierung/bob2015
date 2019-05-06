@@ -9,6 +9,7 @@ time: 17:10-17:55
 type: Vortrag
 language: english
 head: 2019
+youtube: hF9shqLE1S4
 ---
 
 We model the real world, we program behaviour, we build intelligent

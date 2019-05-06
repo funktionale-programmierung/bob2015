@@ -8,6 +8,7 @@ time: 12:35-13:20
 type: Vortrag
 language: english
 head: 2019
+youtube: PgZCzDveh1Q
 ---
 
 Prolog is one of the most underrated programming languages around;

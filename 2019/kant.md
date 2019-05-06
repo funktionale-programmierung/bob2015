@@ -8,6 +8,7 @@ time: 14:15-15:00
 type: Vortrag
 language: english
 head: 2019
+youtube: hJvD62rPKuE
 ---
 
 The flagship product of IOHK is *Cardano*, the Proof-of-Stake (PoS)

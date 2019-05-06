@@ -2,12 +2,13 @@
 layout: talk
 active: bob2019
 title: Checking Musical Correctness
-speaker: Chris Ford 
+speaker: Chris Ford
 portrait: chris-ford.jpg
 time: 10:15-11:00
 type: Vortrag
 language: english
 head: 2019
+youtube: Xm6Fa7nhACM
 ---
 
 Music theorists have a questionable history of taking tendencies

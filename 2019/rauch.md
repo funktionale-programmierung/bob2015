@@ -8,6 +8,7 @@ time: 16:20-17:05
 type: Vortrag
 language: english
 head: 2019
+youtube: 928_OFDTxgs
 ---
 
 By now EventSourcing is an established alternative to handle and store

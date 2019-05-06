@@ -8,6 +8,7 @@ time: 12:35-13:20
 type: Vortrag
 language: english
 head: 2019
+youtube: sY0px-LXtGI
 ---
 
 Have you ever wanted to prove non-trivial properties of your programs
