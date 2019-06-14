@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2019-summer
-title: Software Perfection
+title: In Search of Software Perfection
 speaker: Xavier Leroy
 portrait: xavier-leroy.jpg
 type: Vortrag
