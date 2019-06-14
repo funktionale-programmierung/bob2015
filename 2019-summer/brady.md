@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2019-summer
-title: Programming as a Conversation: Type-driven Development in Action
+title: "Programming as a Conversation: Type-driven Development in Action"
 speaker: Edwin Brady
 portrait: edwin-brady.jpg
 type: Vortrag
