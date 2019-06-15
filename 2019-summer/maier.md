@@ -19,7 +19,7 @@ solution within 7 days.
 
 I was lying. It actually took me 9 days to deliver the first
 end-to-end working solution and another 20 days for the polished up
-MVP. Nevertheless, using existing services and writing as little as
+MVP. Nevertheless, using existing services and writing as little
 glue code as possible let me focus on the core domain: making it
 easier to register assistance requests.
 
