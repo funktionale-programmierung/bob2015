@@ -5,6 +5,7 @@ Subject: Call for Participation: Summer BOB 2019 (August 21, Berlin)
 			      Conference
 	     “What happens if we simply use what’s best?”
 		       August 21, 2019, Berlin
+		       co-located with ICFP 2019
 		    http://bobkonf.de/2019-summer/
 	 Program: http://bobkonf.de/2019-summer/program.html
     Registration: http://bobkonf.de/2019-summer/registration.html

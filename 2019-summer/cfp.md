@@ -17,6 +17,8 @@
 
 ## August 21, 2019, Berlin
 
+## Co-located with [ICFP 2019](https://icfp19.sigplan.org/)
+
 ## [`http://bobkonf.de/2019-summer/`](http://bobkonf.de/2019-summer/)
 
 ### Program: [`http://bobkonf.de/2019-summer/program.html`](http://bobkonf.de/2019-summer/program.html)
