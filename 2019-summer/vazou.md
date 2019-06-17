@@ -11,6 +11,8 @@ head: 2019
 
 ## Niki Vazou
 
+[@nikivazou](http://twitter.com/#!/nikivazou)
+
 Niki Vazou is an Assistant Professor at IMDEA. I started my computer
 science education in NTUA, Athens, Greece. She received her Ph.D. from
 UCSD, San Diego where she developed [Liquid

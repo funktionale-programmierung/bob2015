@@ -19,7 +19,9 @@ the process, I will use this example to analyze what it means for a practical
 programming language to be "dependently typed."
  
 ## Stephanie Weirich 
- 
+
+[@fancytypes](http://twitter.com/#!/fancytypes)
+
 Stephanie Weirich is a Professor of Computer and Information Science at the
 University of Pennsylvania. She joined Penn after receiving her Ph.D. from
 Cornell University in 2002. She works in the areas of functional programming,
