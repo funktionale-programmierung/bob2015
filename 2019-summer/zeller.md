@@ -1,14 +1,16 @@
 ---
 layout: talk
 active: bob2019-summer
-title: Creating maintainable mobile games in Haskell
+title: Cleaning the big picture
 speaker: Christina Zeller
+portrait: christina-zeller.jpg
 type: Vortrag
 language: english
 head: 2019
 ---
 
-### Cleaning the big picture
+### Creating maintainable mobile games in Haskell
+
 As game-app developers we want to create many games that are easy to maintain.
 Creation and maintenance gets easier when we can focus on:
 
@@ -54,7 +56,7 @@ background with photography and volunteering at an Impact Hub.
 Among her recent goals are:
 
 * the investigation and discussion of Haskell in real world applications.
-*the creation of beautiful games (in programming and player perspective).
+* the creation of beautiful games (in programming and player perspective).
 * the education with games in a natural, positive and playful way.
 * making the world a better place.
 
