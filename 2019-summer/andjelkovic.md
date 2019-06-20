@@ -46,7 +46,7 @@ specification captured by the state machine.
 
 The demo I'll show will be using the Haskell library
 [quickcheck-state-machine](https://github.com/advancedtelematic/quickcheck-state-machine) which I've helped develop, but one could also
-use the Java program [JUMBL](http://jumbl.sourceforge.net/jumblTop.html] developed by Mills' collaborators.
+use the Java program [JUMBL](http://jumbl.sourceforge.net/jumblTop.html) developed by Mills' collaborators.
 
 ## Stevan Andjelkovic
 
