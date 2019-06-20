@@ -9,9 +9,9 @@ head: 2019
 ---
 How does one effectively measure the quality of software?
 
-In this talk I'll give a summary of how the literature on Cleanroom
-Software Engineering (Harlan Mills et al) and the Software Reliability
-Engineering (John Musa et al) answer this question.
+In this talk I'll give a summary of how the literature on [Cleanroom
+Software Engineering](https://en.wikipedia.org/wiki/Cleanroom_software_engineering) ([Harlan Mills](https://en.wikipedia.org/wiki/Harlan_mills) et al) and the [Software Reliability](https://en.wikipedia.org/wiki/Software_reliability_testing)
+Engineering ([John Musa](https://doi.ieeecomputersociety.org/10.1109/MS.2009.132) et al) answer this question.
 
 The general principle, shared by both Mills' and Musa's approaches,
 consists of four steps:
@@ -45,8 +45,8 @@ model, then in 90% of the cases the system will act according to the
 specification captured by the state machine.
 
 The demo I'll show will be using the Haskell library
-[quickcheck-state-machine](FIXME) which I've helped develop, but one could also
-use the Java program [JUMBL](FIXME] developed by Mills' collaborators.
+[quickcheck-state-machine](https://github.com/advancedtelematic/quickcheck-state-machine) which I've helped develop, but one could also
+use the Java program [JUMBL](http://jumbl.sourceforge.net/jumblTop.html] developed by Mills' collaborators.
 
 ## Stevan Andjelkovic
 
