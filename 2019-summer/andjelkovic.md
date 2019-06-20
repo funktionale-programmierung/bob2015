@@ -10,8 +10,8 @@ head: 2019
 How does one effectively measure the quality of software?
 
 In this talk I'll give a summary of how the literature on [Cleanroom
-Software Engineering](https://en.wikipedia.org/wiki/Cleanroom_software_engineering) ([Harlan Mills](https://en.wikipedia.org/wiki/Harlan_mills) et al) and the [Software Reliability](https://en.wikipedia.org/wiki/Software_reliability_testing)
-Engineering ([John Musa](https://doi.ieeecomputersociety.org/10.1109/MS.2009.132) et al) answer this question.
+Software Engineering](https://en.wikipedia.org/wiki/Cleanroom_software_engineering) ([Harlan Mills](https://en.wikipedia.org/wiki/Harlan_mills) et al) and the [Software Reliability Engineering](https://en.wikipedia.org/wiki/Software_reliability_testing)
+([John Musa](https://doi.ieeecomputersociety.org/10.1109/MS.2009.132) et al) answer this question.
 
 The general principle, shared by both Mills' and Musa's approaches,
 consists of four steps:
