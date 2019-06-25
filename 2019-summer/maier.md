@@ -38,7 +38,7 @@ server for the Haskell backend and Selenium.
 
 ### Philipp Maier
 
-[@AkiiZedd](http://twitter.com/#!/AkiiZedd)
+[@AkiiZedd](http://twitter.com/AkiiZedd)
 
 Philipp likes domain events. So much that he stores them, sends them
 on journeys and folds over them. In his free time, he does exactly

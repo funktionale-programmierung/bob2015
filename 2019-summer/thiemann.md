@@ -11,7 +11,7 @@ head: 2019
 
 ## Peter Thiemann
 
-[@pthie](http://twitter.com/#!/pthie)
+[@pthie](http://twitter.com/pthie)
 
 Peter Thiemann is a professor for Computer Science at the University
 of Freiburg where he heads the research group for programming

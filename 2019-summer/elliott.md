@@ -11,7 +11,7 @@ head: 2019
 
 ## Conal Elliott
 
-[@conal](http://twitter.com/#!/conal)
+[@conal](http://twitter.com/conal)
 
 Conal Elliott is a Distinguished Scientist at Target.  Conal explores
 elegant and principled techniques from math and programming language

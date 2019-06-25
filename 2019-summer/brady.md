@@ -24,7 +24,7 @@ directed program synthesis, and type safe concurrent programming.
 
 ## Edwin Brady
 
-[@edwinbrady](http://twitter.com/#!/edwinbrady)
+[@edwinbrady](http://twitter.com/edwinbrady)
 
 Edwin Brady is a Lecturer in Computer Science at the University of St
 Andrews, interested in type theory, dependently typed functional

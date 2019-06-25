@@ -20,7 +20,7 @@ programming language to be "dependently typed."
  
 ## Stephanie Weirich 
 
-[@fancytypes](http://twitter.com/#!/fancytypes)
+[@fancytypes](http://twitter.com/fancytypes)
 
 Stephanie Weirich is a Professor of Computer and Information Science at the
 University of Pennsylvania. She joined Penn after receiving her Ph.D. from
