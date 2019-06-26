@@ -1,13 +1,31 @@
 ---
 layout: talk
 active: bob2019-summer
-title: Title to Be Announced
+title: Deriving Probabilistic Programming using Denotational Design
 speaker: Conal Elliott
 portrait: conal-elliott.jpg
 type: Vortrag
 language: english
 head: 2019
 ---
+
+It is fairly well-known that discrete probability distributions form a
+monad, and so probabilistic programs can be written monadically. The
+monadic operation definitions look quite unlike most other monads, and one
+may wonder how they might emerge from familiar, generally useful
+principles. This talk illustrates denotational design by deriving
+probability distributions from the simpler and more familiar function
+monad. Distribution operations are required to satisfy a standard set of
+equations (as a “monad homomorphism”), the solution of which is a correct
+implementation of probabilistic computation. As usual with denotational
+design, the code then follows inevitably. The only creative decision is the
+function/distribution relationship, which is simple (while pleasantly
+non-computable) and intuitively compelling.
+
+Continuous distributions have a very similar specification. Moreover,
+probabilistic computation itself turns out to generalize much further while
+retaining simplicity. Other specializations include general convolution and
+efficient language recognition.
 
 ## Conal Elliott
 
