@@ -33,6 +33,9 @@ code samples in my prototype RFRP library written in Haskell.
 
 ## Adriaan Leijnse
 
+[@aidlns](http://twitter.com/aidlns)
+
+
 I'm in love with finding ways to express correct programs as
 succinctly and clearly as possible. I also dream of a future in which
 people own their data and can collaborate without corporate
