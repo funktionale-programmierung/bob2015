@@ -21,6 +21,8 @@ look at future support of Type Classes in Scala 3 (Dotty).
 
 ## Alexey Novakov
 
+[@alexey_novakov](https://twitter.com/alexey_novakov)
+
 Alexey Novakov is an experienced Scala and Java Developer, who has
 worked for more than 10 years in product-based and IT-consultancy
 companies. Alexey has been teaching Java via his own online courses
