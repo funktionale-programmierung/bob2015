@@ -1,13 +1,34 @@
 ---
 layout: talk
 active: bob2019-summer
-title: Theorem Proving in Haskell
+title: Liquidate your Assets
 speaker: Niki Vazou
 portrait: niki-vazou.jpg
 type: Vortrag
 language: english
 head: 2019
 ---
+
+[Liquid Haskell](https://ucsd-progsys.github.io/liquidhaskell-blog/) is an extension of Haskell’s Type system that allows
+annotating types with refinement predicates. It's great for ensuring
+correctness of your code, but it can also be used to improve the
+performance of your code.
+
+If you track your resources then Liquid Haskell can be used to
+statically bound the resources needed at runtime, thus statically
+deciding how performent your code is. You are liquidating your assets.
+
+To track resource we define a `Tick monad that ticks each time a
+resource (ranging recursive calls to thunks) is used. Then we use
+refinement types to statically approximate the number of ticks that
+can occur at runtime. This reasoning aids runtime code optimization,
+since it can be used to compare resource usage of two different
+programs.
+
+In this talk I will presen this technique through small examples
+(sorting algorithms and mapping) and discuss the advantage and current
+limitations on real world code adaptation.
+
 
 ## Niki Vazou
 
