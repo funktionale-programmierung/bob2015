@@ -3,7 +3,7 @@
 
 <head><meta charset="utf-8"></head>
 
-# Call for Participation: Summer BOB 2019 (August 21, Berlin)
+# Summer BOB 2019 2nd Call for Participation (Aug 21, Berlin, early reg until Jul 19)
 
 <hr/>
 
