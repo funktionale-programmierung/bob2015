@@ -9,6 +9,16 @@ language: english
 head: 2019
 ---
 
+Types are the single most widely used formal method.  Using types is a
+success story that avoids millions of bugs every day.  But most uses
+of types are restricted to static APIs.
+
+This presentation introduces session types, which extend the
+compile-time guarantees of types to protocols: a program that checks
+against a session type cannot violate the protocol described by the
+type. We demonstrate session types with an example and give an
+overview over features of existing and future systems.
+
 ## Peter Thiemann
 
 [@pthie](http://twitter.com/pthie)
