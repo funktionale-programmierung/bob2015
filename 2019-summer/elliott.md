@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2019-summer
-title: Deriving Probabilistic Programming using Denotational Design
+title: A Functional Reboot for Deep Learning
 speaker: Conal Elliott
 portrait: conal-elliott.jpg
 type: Vortrag
@@ -9,23 +9,16 @@ language: english
 head: 2019
 ---
 
-It is fairly well-known that discrete probability distributions form a
-monad, and so probabilistic programs can be written monadically. The
-monadic operation definitions look quite unlike most other monads, and one
-may wonder how they might emerge from familiar, generally useful
-principles. This talk illustrates denotational design by deriving
-probability distributions from the simpler and more familiar function
-monad. Distribution operations are required to satisfy a standard set of
-equations (as a “monad homomorphism”), the solution of which is a correct
-implementation of probabilistic computation. As usual with denotational
-design, the code then follows inevitably. The only creative decision is the
-function/distribution relationship, which is simple (while pleasantly
-non-computable) and intuitively compelling.
-
-Continuous distributions have a very similar specification. Moreover,
-probabilistic computation itself turns out to generalize much further while
-retaining simplicity. Other specializations include general convolution and
-efficient language recognition.
+In this talk, I want to begin a conversation about what is the essence of
+deep learning and how we can optimally support this essence in the form of
+a programming interface or language. I’ll give you my own impressions, and
+I hope to provoke an ongoing conversation. Despite the phenomenal success
+of deep learning, it’s my sense that most of the choices made in the theory
+and practice of deep learning are nonessential and even harmful
+(unnecessarily complex and limited). I’ll suggest that a very small
+addition to a modern typed functional programming language such as Haskell
+yields an ideal basis for deep learning that is much simpler, more general,
+and more rigorous that currently popular approaches.
 
 ## Conal Elliott
 
