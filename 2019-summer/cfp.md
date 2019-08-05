@@ -3,7 +3,7 @@
 
 <head><meta charset="utf-8"></head>
 
-# Summer BOB 2019 2nd Call for Participation (Aug 21, Berlin, early bird until Jul 18)
+# Summer BOB 2019 Final Call for Participation (Aug 21, Berlin)
 
 <hr/>
 
@@ -42,23 +42,56 @@ town, and Summer BOB will be right in the middle of it, on the last
 day of ICFP proper, prior to all the workshops.  BOB participants will
 be able to attend ICFP talks on Aug 21 and vice versa.
 
-BOB features two tracks of seven talk each.  One research track with
-invited talks, and one track by practitioners, designed to
-cross-pollinate and inspire.
-
-[`http://bobkonf.de/2019-summer/program.html`](http://bobkonf.de/2019-summer/program.html)
-
-Topics include distributed programming, testing, linear algebra,
-functional design patterns, type systems, formal methods, and
-interactive development.
-
 We are committed to diversity: We aim at exploring a wide range of
 tools in a welcoming and friendly crowd of diverse people. To that
 end, a number of support options for participants from groups
 under-represented in tech are available.
 
-Registration is open:
+Summer BOB will feature two tracks: one from practitioners, and one
+from researchers, designed to cross-pollinate and inspire.
 
-[`http://bobkonf.de/2019-summer/registration.html`](http://bobkonf.de/2019-summer/registration.html)
+Topics include distributed programming, testing, linear algebra,
+functional design patterns, type systems, formal methods, and
+interactive development:
 
-NOTE: The early-bird rates expire on July 18, 2019!
+## Using Formal Methods to Eliminate Exploitable Bugs
+### Kathleen Fisher
+	
+## Purely functional distributed programming for collaborative applications
+###  Adriaan Leijnse
+	
+## Statistical testing of software
+### Stevan Andjelkovic
+	
+## Dependent Types in Haskell
+### Stephanie Weirich
+	
+## From idea to working product in 7 days
+### Philipp Maier
+	
+## In Search of Software Perfection
+### Xavier Leroy
+	
+## Expressive Linear Algebra in Haskell
+### Henning Thielemann
+	
+## Type-driven Development in Action
+### Edwin Brady
+	
+## Functional Design Patterns
+### Franz Thoma
+	
+## Liquidate your Assets
+### Niki Vazou
+	
+## Scala Type Classes
+### Alexey Novakov
+	
+## Types for Protocols
+### Peter Thiemann
+	
+## Creating maintainable mobile games in Haskell
+### Christina Zeller
+	
+## A Functional Reboot for Deep Learning
+### Conal Elliott
