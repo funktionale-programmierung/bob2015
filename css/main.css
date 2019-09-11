@@ -139,6 +139,13 @@ h1, h2, h3, h4, h5, h6 {
     background-size: 720px 105px;
 }
 
+.header-background-2020 {
+    background-image: url('/images/bobkonf_header_2020.jpg');
+    background-repeat: no-repeat;
+    background-position: top 90px  left -50px;
+    background-size: 720px 105px;
+}
+
 @media(min-width: 400px){
     .header-wrapper {
         height: 320px;
@@ -155,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 @media(min-width: 768px){
     .header-wrapper {
         background-position: bottom center;
-        background-size: auto;
+        background-size: 1440px;
     }
 }
 
