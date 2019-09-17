@@ -26,7 +26,10 @@ Speaker Grants
 BOB has Speaker Grants available to support speakers from groups
 under-represented in technology. We specifically seek women speakers
 and speakers who are not be able to attend the conference for
-financial reasons.  Shepherding
+financial reasons.
+
+Shepherding
+-----------
 
 The program committee offers shepherding to all speakers. Shepherding
 provides speakers assistance with preparing their sessions, as well as
