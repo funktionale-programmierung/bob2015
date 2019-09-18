@@ -1,0 +1,119 @@
+Subject: Call for Contributions: BOB 2020 [28. Feb, Deadline 8. Nov]
+
+                         BOB Conference 2020
+         "Was passiert, wenn wir einfach mal das Beste nehmen?"
+                  http://bobkonf.de/2020/cfc.html
+                         Berlin, 28. Februar
+                        Call for Contributions
+                     Deadline: 8. November 2019
+
+Sie treiben Software-Entwicklung voran, setzen anspruchsvolle
+Architekturen um und sind Innovationen jenseits des Mainstreams
+gegenüber aufgeschlossen? Auf der BOB treffen Sie auf Menschen, die
+diese Ziele teilen. Sie lernen die besten Werkzeuge, Technologien und
+Techniken kennen, die es heute für die Entwicklung moderner Software
+gibt. Unser Ziel ist, dass Sie die Konferenz mit vielen neuen
+Erfahrungen verlassen und Verbesserungen für Ihr eigenes
+Entwicklungsumfeld mit nach Hause nehmen.
+
+Wenn Sie unsere Vision teilen, schicken Sie uns einen Vorschlag für
+einen Vortrag oder für ein Tutorial!
+
+WICHTIG: Für Vortragende ist die Konferenzteilnahme
+kostenlos. Reisekosten können allerdings nicht erstattet werden. (Für
+Ausnahmen siehe "Referentinnen- und Referenten-Zuschüsse".)
+
+Referentinnen- und Referenten-Zuschüsse
+---------------------------------------
+
+Die BOB bietet Referentinnen- und Referenten-Zuschüsse an. Die
+Zuschüsse sollen Gruppen fördern, die bei der BOB bisher
+unterrepräsentiert waren. Dazu gehören insbesondere Frauen und
+Referenten, die die BOB aus finanziellen Gründen nicht besuchen
+könnten.
+
+Betreuung für Vortragende
+-------------------------
+
+Das Programmkomitee bietet allen Vortragenden sogenanntes Shepherding
+an, also Hilfe bei der Vorbereitung des Vortrags und eine Durchsicht
+der Vortragsfolien.
+
+Themen
+------
+
+Wir freuen uns über Beiträge zum Besten, was die Softwaretechnik zu
+bieten hat:
+
+- Funktionale Programmierung
+- Persistente Datenstrukturen und Datenbanken
+- Event-basierte Modellierung und Architektur
+- Typen
+- Formale Methoden für korrekte und robuste Software
+- Abstraktionen für Nebenläufigkeit und Parallelismus
+- Metaprogrammierung
+- Probabilistische Programmierung
+- Mathematik und Programmierung
+- Kontrollierte Seiteneffekte
+- Jenseits von REST und SOAP
+- Effektive Abstraktionen für Datenanalytik
+- ... und alles, was es sonst noch an tollen Technologien, Werkzeugen
+  und Techniken jenseits der Mainstream-Programmierung gibt
+
+Die Vorträge sollen den Zuhörern nützliche Informationen für ihren
+Entwickleralltag mitgeben.
+
+Wir sind besonders an Erfahrungsberichten interessiert.
+
+Des weiteren sind auch andere Inhalte denkbar, zum Beispiel:
+
+- Einführungen in technische Hintergründe
+- Überblicke über ein bestimmtes Gebiet
+- Demos und How-Tos
+
+Format
+------
+
+Wir wünschen uns Vorschläge für Vorträge à 45 Minuten (40 Minuten
+Redezeit + 5 Minuten Fragen) sowie für 90-minütige Tutorials mit
+Einführungen für Einsteiger. Die Vorträge können auf Deutsch oder auf
+Englisch gehalten werden.
+
+Zur Vortragseinreichung senden Sie uns in der Sprache des Vortrags:
+
+- Einen Abstract von maximal 1500 Zeichen
+- Ihre Kurzbiografie
+- Kontaktinformationen (mindestens E-Mail-Adresse)
+- Eine Liste von 3-5 konkreten Aspekten, die Zuhörende in ihren Alltag mitnehmen können
+- Zusatzmaterialien, d.h. Links zu Webseiten, Blogs, Folien oder Videos vergangener Vorträge
+- Nicht verwirren lassen: eine Einreichung heißt im System Event.
+
+Einreichung hier:
+
+https://bobcfc.active-group.de/en/bob2020/cfp
+
+Organisation
+------------
+
+- Fragen an contact at bobkonf dot de
+- Einsendeschluss: 8. November 2019
+- Benachrichtigung über Annahme: 22. November 2019
+- Programm: 6. Dezember 2019
+
+Programmkomitee
+---------------
+
+(mehr Informationen hier: https://bobkonf.de/2020/programmkomitee.html)
+
+- Matthias Fischmann, Wire
+- Matthias Neubauer, SICK AG
+- Nicole Rauch, Softwareentwicklung und Entwicklungscoaching
+- Michael Sperber, Active Group
+- Stefan Wehr, factis research
+
+Wissenschaftlicher Beirat:
+
+- Annette Bieniusa, TU Kaiserslautern
+- Torsten Grust, Uni Tübingen
+- Peter Thiemann, Uni Freiburg
+
