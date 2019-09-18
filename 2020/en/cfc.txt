@@ -21,7 +21,9 @@ a talk or tutorial!
 
 NOTE: The conference fee will be waived for presenters. Travel
 expenses will not be covered (for exceptions see "Speaker Grants").
+
 Speaker Grants
+--------------
 
 BOB has Speaker Grants available to support speakers from groups
 under-represented in technology. We specifically seek women speakers
