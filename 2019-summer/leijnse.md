@@ -6,6 +6,8 @@ speaker: Adriaan Leijnse
 type: Vortrag
 language: english
 head: 2019
+youtube: YcV3f9FLMMw
+slides-file: adriaan-leijnse.pdf
 ---
 
 Wouldn't it be wonderful if we could program distributed applications
