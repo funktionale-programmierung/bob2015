@@ -7,6 +7,8 @@ portrait: stephanie-weirich.jpg
 type: Vortrag
 language: english
 head: 2019
+slides-file: stephanie-weirich.pdf
+youtube: J8iitZtNeJk
 ---
 
 ### Why should programmers care about dependent types? 

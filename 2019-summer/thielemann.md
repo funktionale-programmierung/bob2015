@@ -6,6 +6,8 @@ speaker:  Henning Thielemann
 type: Vortrag
 language: english
 head: 2019
+slides-file: henning-thielemann.pdf
+youtube: Y2bM3n03z_I
 ---
 
 ### A new type-safe Haskell interface to BLAS and LAPACK
@@ -14,7 +16,7 @@ Although Haskell is strictly built on mathematical principles, much
 more than more popular languages, Haskell is still not in common use
 by mathematicians and engineers.  Numeric computations are dominated
 by MatLab/Octave, R, Excel/LibreOffice Calc, and in recent times
-NumPy.  Haskell has the [hmatrix](FIXME) suite of packages.  However, these
+NumPy.  Haskell has the [hmatrix](https://hackage.haskell.org/package/hmatrix) suite of packages.  However, these
 solutions are more or less tailored to the use in an interactive
 environment, because they are weakly or dynamically typed and use
 short unqualified function names.  

@@ -7,6 +7,8 @@ portrait: peter-thiemann.jpg
 type: Vortrag
 language: english
 head: 2019
+slides-file: peter-thiemann.pdf
+youtube: weOaECxYX6o
 ---
 
 Types are the single most widely used formal method.  Using types is a

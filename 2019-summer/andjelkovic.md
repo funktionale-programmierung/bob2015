@@ -6,6 +6,7 @@ speaker:  Stevan Andjelkovic
 type: Vortrag
 language: english
 head: 2019
+slides-file: stevan-andjelkovic.pdf
 ---
 How does one effectively measure the quality of software?
 

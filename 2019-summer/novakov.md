@@ -7,6 +7,7 @@ portrait: alexey-novakov.jpg
 type: Vortrag
 language: english
 head: 2019
+youtube: BpDIbkG_lbU
 ---
 
 Scala Type Classes are often used in different Scala libraries. Type

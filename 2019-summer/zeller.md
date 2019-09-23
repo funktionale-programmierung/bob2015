@@ -7,6 +7,8 @@ portrait: christina-zeller.jpg
 type: Vortrag
 language: english
 head: 2019
+slides-file: christina-zeller.pdf
+youtube: 4MAOLlh020c
 ---
 
 ### Creating maintainable mobile games in Haskell

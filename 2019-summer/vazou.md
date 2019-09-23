@@ -7,6 +7,7 @@ portrait: niki-vazou.jpg
 type: Vortrag
 language: english
 head: 2019
+youtube: yrA8kkXprHM
 ---
 
 [Liquid Haskell](https://ucsd-progsys.github.io/liquidhaskell-blog/) is an extension of Haskell’s Type system that allows

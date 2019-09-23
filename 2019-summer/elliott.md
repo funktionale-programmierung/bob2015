@@ -7,6 +7,8 @@ portrait: conal-elliott.jpg
 type: Vortrag
 language: english
 head: 2019
+slides-file: conal-elliott.pdf
+youtube: Ns3DxUeCvRg
 ---
 
 In this talk, I want to begin a conversation about what is the essence of

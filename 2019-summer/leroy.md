@@ -7,6 +7,8 @@ portrait: xavier-leroy.jpg
 type: Vortrag
 language: english
 head: 2019
+slides-file: xavier-leroy.pdf
+youtube: g87uPt7mEAw
 ---
 
 How to prove the correctness of a program with mathematical certainty?
