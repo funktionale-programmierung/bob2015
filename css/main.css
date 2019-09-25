@@ -727,3 +727,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 14px;
     margin-right: 10px;
 }
+
+
+.container > .small-date {
+    float: left;
+    margin-top: 0.9rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #d6214a;
+    text-transform: uppercase;
+}
