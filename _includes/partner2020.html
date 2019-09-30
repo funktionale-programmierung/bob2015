@@ -1,1 +1,28 @@
- 
+{% if page.language == "de" or page.language == null %}		
+<h2> Sponsoren </h2>
+
+<div class="row" >
+    <div class="col-md-2 col-sm-12">
+        <h3>Bronze</h3>
+    </div>
+    <div class="col-md-10 col-sm-12">
+        <a href="https://www.gfu.net" target="_blank"><img src="/images/gfu-logo.png" height="80" alt="GFU"></a>
+    </div>
+</div>
+
+
+{% else %}
+
+<h2> Sponsors </h2>
+
+<div class="row" >
+    <div class="col-md-2 col-sm-12">
+        <h3>Bronze</h3>
+    </div>
+    <div class="col-md-10 col-sm-12">
+        <a href="https://www.gfu.net" target="_blank"><img src="/images/gfu-logo.png" height="80" alt="GFU"></a>
+    </div>
+</div>
+
+{% endif %}
+
