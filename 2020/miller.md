@@ -21,7 +21,7 @@ Clinical Professor in the College of Computer and Information Science
 at Northeastern University.
 
 
-Some of my projects include programming models and type systems to
+Some of her projects include programming models and type systems to
 facilitate the design of new, functional distributed systems, such as
 [distributable closures](https://speakerdeck.com/heathermiller/spores-distributable-functions-in-scala), 
 [flexible, extensible, and performant serialization](https://speakerdeck.com/heathermiller/instant-pickles-generating-object-oriented-pickler-combinators-for-fast-and-extensible-serialization), asynchronous and
