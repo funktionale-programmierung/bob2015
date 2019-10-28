@@ -7,6 +7,8 @@ portrait: philipp-maier.png
 type: Vortrag
 language: english
 head: 2019
+slides-link: https://stoic-stonebraker-fc3eec.netlify.com/
+youtube: 5_az2Chxpqw
 ---
 
 ### How I created Hilfeleistung als Service 
