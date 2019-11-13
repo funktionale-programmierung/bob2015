@@ -103,11 +103,10 @@ Program Committee
 - Matthias Neubauer, SICK AG
 - Nicole Rauch, Softwareentwicklung und Entwicklungscoaching
 - Michael Sperber, Active Group
-- Stefan Wehr, factis research
+- Stefan Wehr, medilyse
 
 Scientific Advisory Board
 
 - Annette Bieniusa, TU Kaiserslautern
 - Torsten Grust, Uni Tübingen
 - Peter Thiemann, Uni Freiburg
-
