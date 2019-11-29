@@ -342,7 +342,6 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: none;
 }
 
-
 .sponsors {
     margin-top: 5rem;
 }
@@ -370,6 +369,10 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+.splash .partners img {
+    margin-bottom: 2em;
 }
 
 
