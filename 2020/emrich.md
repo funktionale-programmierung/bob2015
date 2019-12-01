@@ -6,7 +6,7 @@ speaker: Marco Emrich
 portrait: marco-emrich.jpg
 time: 10:30-11:15
 type: Talk
-language: german
+language: english
 head: 2020
 ---
 
