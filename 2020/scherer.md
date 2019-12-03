@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2020
-title: The Object-Oriented/Functional-Programming symmetry: theory and practice
+title: "The Object-Oriented/Functional-Programming symmetry: theory and practice"
 speaker: Gabriel Scherer
 portrait: 
 time: 14:30-15:15
@@ -13,7 +13,7 @@ head: 2020
 Much gets written on the internet about comparisons between
 Object-Oriented (OO) and Functional-Programming (FP) approaches
 software: which one is going to solve all your programming problems?
-If we concentrate on <it>precise</it>, <it>objective</it> comparisons
+If we concentrate on <i>precise</i>, <i>objective</i> comparisons
 and relations between the two sides, the programming-language folklore
 mentions a symmetry (often called a "duality") between object-oriented
 and functional-programming styles. More precisely, a symmetry between
