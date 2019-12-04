@@ -2,8 +2,9 @@
 layout: talk
 active: bob2020
 title: Criminally fast Rust
-speaker: Darrach Ennis, Heinz Gies
-portrait:
+speaker: Darach Ennis, Heinz Gies
+portrait: darach-ennis.jpg
+portrait2: heinz-gies.jpg
 time: 12:50-13:35
 type: Talk
 language: english
