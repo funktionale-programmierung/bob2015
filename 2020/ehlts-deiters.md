@@ -20,10 +20,14 @@ Ein Erfahrungsbericht über …
 Umsetzung einer technischen Vison</li><li>die Migration und Integration
 von Legacy-Anwendungen in eine funktionale Umgebung.</li>
 
+Die Hoffnung ist, Argumente zu liefern, um den üblichen Bedenken beim
+Wechsel in die funktionale Welt entgegenzutreten.
+
 ### Christoph Ehlts
 
 info coming soon
 
 ### Marcus Deiters
 
-info coming soon
+Marcus Deiters ist der Programmleiter der Wertgarantie für den Umzug
+in die funktionale Welt.
