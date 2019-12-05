@@ -29,7 +29,7 @@ Studio_ unter Windows betrachten. Um plattformunabhängig allen
 Interessierten die Möglichkeit zu geben, mit zu programmieren,
 verwenden wir zu Beginn _Visual Studio **Code**_. Weiter benötigen
 wir die _Dotnet-SDK_ (siehe z. B. [für
-Ubuntu](https://www.techrepublic.com/article/how-to-install-dotnet-core-on-ubuntu-18-04/)). Alterntiv
+Ubuntu](https://www.techrepublic.com/article/how-to-install-dotnet-core-on-ubuntu-18-04/)). Alternativ
 lässt sich das komplette Setup unter Linux non-invasiv mit Hilfe von
 [Nix](https://nixos.org/nix/download.html) mit diesen Schritten
 herstellen:
