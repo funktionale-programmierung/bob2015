@@ -34,20 +34,21 @@ lässt sich das komplette Setup unter Linux non-invasiv mit Hilfe von
 [Nix](https://nixos.org/nix/download.html) mit diesen Schritten
 herstellen:
 
-    # Install Nix Package Manager, siehe
-    # https://nixos.org/nix/download.html Nix is available for Linux &
-    # MacOS Create a playground mkdir -p ~/fsharp-tutorial && cd
-    # ~/fsharp-tutorial This will download some nix packages and
-    # starts a sub shell Unfortunately dotnet-sdk isn't available for
-    # MacOS NIXPKGS_ALLOW_UNFREE=1 nix-shell -p dotnet-sdk -p vscode
-    # -p fsharp
+    # Install Nix Package Manager, see https://nixos.org/nix/download.html
+    # Nix is available for Linux &  MacOS
+    # Create a playground
+     mkdir -p ~/fsharp-tutorial && cd ~/fsharp-tutorial
+    # This will download some nix packages and starts a sub shell
+    # Unfortunately dotnet-sdk isn't available for MacOS
+    NIXPKGS_ALLOW_UNFREE=1 nix-shell -p dotnet-sdk -p vscode -p fsharp
     
-    # Create a new F#-project export
-    DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true dotnet new console -lang F#
-    -i MyProject
+    # Create a new F#-project
+    export DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true
+    dotnet new console -lang F# -i MyProject
     
-    # Start Visual Studio Code code .  # Install Extension:
-    Ionide-fsharp
+    # Start Visual Studio Code
+    code .
+    # Install Extension: Ionide-fsharp
 
 In _Visual Studio Code_ benötigen wir dann noch die Erweiterung
 _Ionide-fsharp_.
