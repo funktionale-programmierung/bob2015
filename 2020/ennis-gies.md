@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2020
-title: Criminally fast Rust
+title: Criminally fast Rust and Breaking Safety for Fun and Profit
 speaker: Darach Ennis, Heinz Gies
 portrait: darach-ennis.jpg
 portrait2: heinz-gies.jpg
@@ -15,6 +15,16 @@ In this talk, we confess our rusty sins: memory manipulation, unsafe
 code, lying to the borrow tracker, lifetime crimes, and many
 more. Criminally fast rust is possible, and we share what worked for
 us, what didn’t, and why we broke the safe.
+
+Over the past year we’ve been building Tremor - an event processing
+system used at Wayfair to process billions of messages per minute
+24x7x365. This is our first project as an organization and as
+individuals with the Rust programming language.
+
+We’ve learned a lot: to hate rust, to love it, to hate and love it
+again; there are things we did badly, some we did terribly as we bent
+to the borrow trackers demands, before bending the borrow tracker to
+our needs.
 
 ### Darach Ennis
 

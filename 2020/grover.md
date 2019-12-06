@@ -11,10 +11,16 @@ head: 2020
 ---
 
 According to a recent survey by Github, only 4&nbsp;% of open source
-participants & ideators are women and/or non-binary. This
-disconcerting disparity can & should be eliminated. This talk opens
-the open source world beyond the perspective of coding & encourages
-fellow female to dive into FOSS !
+participants & ideators are women and/or non-binary. 
+
+This might be due to the fact that women especially find it
+intimidating to get started with contributing to open source. The talk
+will answer questions, throwing light on the issues that women usually
+have. It aims at introducing the audience to the world of FOSS and
+elaborate the vast range of opportunities ranging from coding to
+documentation, design, outreach and research.  The talk aspires to
+inspire budding girl developers and showcase women who’ve made
+significant contributions to technology.
 
 ### Jigyasa Grover
 

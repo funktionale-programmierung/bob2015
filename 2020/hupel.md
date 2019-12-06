@@ -3,7 +3,7 @@ layout: talk
 active: bob2020
 title: JS, Rust, Python and the Holy Graal
 speaker: Lars Hupel
-portrait:
+portrait: lars-hupel.jpg
 time: 17:25-18:10
 type: Talk
 language: english

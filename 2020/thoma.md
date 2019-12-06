@@ -3,7 +3,7 @@ layout: talk
 active: bob2020
 title: Leveraging Algebraic Data Types
 speaker: Franz Thoma
-portrait: 
+portrait: franz-thoma.jpg
 time: 14:30-15:15
 type: Talk
 language: english

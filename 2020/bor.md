@@ -3,7 +3,7 @@ layout: talk
 active: bob2020
 title: Einführung in Haskell
 speaker: Erika Bor
-portrait: 
+portrait: erika-bor.jpg
 time: 10:30-11:50
 type: Tutorial
 language: german

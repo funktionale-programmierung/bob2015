@@ -24,6 +24,9 @@ using FRP.
 
 ### Tikhon Jelvis
 
+[@tikhonjelvis](https://twitter.com/tikhonjelvis)
+
+
 Tikhon picked up Haskell as his first functional language on a whim,
 and it's stuck with him ever since. He's worked with other functional
 languages too – a compiler in Racket, a backend service in

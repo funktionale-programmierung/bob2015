@@ -3,7 +3,7 @@ layout: talk
 active: bob2020
 title: "The Object-Oriented/Functional-Programming symmetry: theory and practice"
 speaker: Gabriel Scherer
-portrait: 
+portrait: gabriel-scherer.png
 time: 14:30-15:15
 type: Talk
 language: english
@@ -22,9 +22,7 @@ on sum types (also called variant types or algebraic datatypes). In
 this talk we propose to revisit this symmetry, discussing both
 practical and theoretical aspects.
 
-### Gabriel Scherer
-
-[Personal webpage](http://gallium.inria.fr/~scherer/)
+### [Gabriel Scherer](http://gallium.inria.fr/~scherer/)
 
 Gabriel does programming and research about programming languages and
 writes free software. He works at INRIA, a French public institute

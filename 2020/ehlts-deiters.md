@@ -3,7 +3,8 @@ layout: talk
 active: bob2020
 title: Integration und Migration von systemkritischen Legacy-Anwendungen
 speaker: Christoph Ehlts, Marcus Deiters
-portrait:
+portrait: christoph-ehlts.jpg
+portrait2: marcus-deiters.jpg
 time: 12:50-13:35
 type: Talk
 language: german
@@ -16,16 +17,15 @@ erlebten wir viele technische und organisatorische Überraschungen,
 viele erfreulich, einige nicht.
 
 Ein Erfahrungsbericht über …
-<li>die organisatorischen Hürden in der
-Umsetzung einer technischen Vison</li><li>die Migration und Integration
-von Legacy-Anwendungen in eine funktionale Umgebung.</li>
+
+- die organisatorischen Hürden in der Umsetzung einer technischen Vision
+
+- die Migration und Integration von Legacy-Anwendungen in eine funktionale Umgebung.
 
 Die Hoffnung ist, Argumente zu liefern, um den üblichen Bedenken beim
 Wechsel in die funktionale Welt entgegenzutreten.
 
 ### Christoph Ehlts
-
-info coming soon
 
 ### Marcus Deiters
 
