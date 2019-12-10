@@ -41,7 +41,7 @@ formal methods, architecture documentation, functional-reactive
 programming, and language design.
 
 The tutorials feature introductions to Idris, Haskell, F#, TLA+,
-ReasonML, probabilistic programming, and hardware.
+ReasonML, and probabilistic programming.
 
 Heather Miller will give the keynote talk.
 
