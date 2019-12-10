@@ -3,6 +3,7 @@ layout: talk
 active: bob2020
 title: Bringing experimentation to JavaScript
 speaker: Yulia Startsev
+portrait: yulia-startsev.jpg
 time: 16:35-17:20
 type: Talk
 language: english
