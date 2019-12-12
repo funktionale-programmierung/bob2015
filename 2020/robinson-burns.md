@@ -16,12 +16,12 @@ together, they can best fulfil the business function, while meeting
 personal emotional needs.
 
 In the past few years, at five companies, I've experienced a lot of
-different ways of working. Finally, at Previse, I'm part of a team
+different ways of working. Finally, at Previse, I was part of a team
 that solves problems together effectively. Sounds simple, but it's
-taken a combined 80+ years of experience for us to get here!
+taken a combined 80+ years of experience to get there!
 
-Our engineering team identified a methodology that guides our
-collaboration. Every day we engage in the process of evolving it and
+My engineering team at Previse identified a methodology that guides our
+collaboration. Every day we engaged in the process of evolving it and
 embodying continuous learning.
 
 This talk is about better ways of working together. It's worth
