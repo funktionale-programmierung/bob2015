@@ -5,7 +5,7 @@ title: A Nokia&nbsp;3310 Ringtone Player in Elm
 speaker: Ju Liu
 portrait: ju-liu.png
 time: 12:00-12:45
-type: Talk
+type: Vortrag
 language: english
 head: 2020
 ---

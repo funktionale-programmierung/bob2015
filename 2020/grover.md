@@ -5,7 +5,7 @@ title: Opening Doors to Open Source
 speaker: Jigyasa Grover 
 portrait: 
 time: 12:00-12:45
-type: Talk
+type: Vortrag
 language: english
 head: 2020
 ---

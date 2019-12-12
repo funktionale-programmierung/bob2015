@@ -5,7 +5,7 @@ title: Effizient arbeiten mit Architecture Decision Records (ADR)
 speaker: Johannes Dienst
 portrait: johannes-dienst.jpg
 time: 10:30-11:15
-type: Talk
+type: Vortrag
 language: german
 head: 2020
 ---

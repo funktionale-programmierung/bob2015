@@ -5,7 +5,7 @@ title: What is Functional Reactive Programming?
 speaker: Tikhon Jelvis
 portrait: tikhon-jelvis.jpg
 time: 15:20-16:05
-type: Talk
+type: Vortrag
 language: english
 head: 2020
 ---

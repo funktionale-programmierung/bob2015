@@ -5,7 +5,7 @@ title: "The Object-Oriented/Functional-Programming symmetry: theory and practice
 speaker: Gabriel Scherer
 portrait: gabriel-scherer.png
 time: 14:30-15:15
-type: Talk
+type: Vortrag
 language: english
 head: 2020
 ---
