@@ -5,7 +5,7 @@ title: Bringing experimentation to JavaScript
 speaker: Yulia Startsev
 portrait: yulia-startsev.jpg
 time: 16:35-17:20
-type: Talk
+type: Vortrag
 language: english
 head: 2020
 ---

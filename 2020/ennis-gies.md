@@ -6,7 +6,7 @@ speaker: Darach Ennis, Heinz Gies
 portrait: darach-ennis.jpg
 portrait2: heinz-gies.jpg
 time: 12:50-13:35
-type: Talk
+type: Vortrag
 language: english
 head: 2020
 ---

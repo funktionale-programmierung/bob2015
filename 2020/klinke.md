@@ -5,7 +5,7 @@ title: Self-Documenting Computation
 speaker: Olaf Klinke
 portrait: olaf-klinke.png
 time: 15:20-16:05
-type: Talk
+type: Vortrag
 language: english
 head: 2020
 ---

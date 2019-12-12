@@ -6,7 +6,7 @@ speaker: Christoph Ehlts, Marcus Deiters
 portrait: christoph-ehlts.jpg
 portrait2: marcus-deiters.jpg
 time: 12:50-13:35
-type: Talk
+type: Vortrag
 language: german
 head: 2020
 ---

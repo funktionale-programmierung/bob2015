@@ -5,7 +5,7 @@ title: JS, Rust, Python and the Holy Graal
 speaker: Lars Hupel
 portrait: lars-hupel.jpg
 time: 17:25-18:10
-type: Talk
+type: Vortrag
 language: english
 head: 2020
 ---

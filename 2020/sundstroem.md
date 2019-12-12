@@ -5,7 +5,7 @@ title: The Essence of Programming
 speaker: Ludvig Sundström
 portrait:
 time: 16:35-17:20
-type: Talk
+type: Vortrag
 language: english
 head: 2020
 ---

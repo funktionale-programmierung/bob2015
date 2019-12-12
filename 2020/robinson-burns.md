@@ -5,7 +5,7 @@ title: Engineering Principles of a highly effective team
 speaker: Steve Robinson-Burns
 portrait:
 time: 17:25-18:10
-type: Talk
+type: Vortrag
 language: english
 head: 2020
 ---
