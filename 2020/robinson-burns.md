@@ -30,7 +30,8 @@ your team's unique characteristics, and get everyone on board.
 
 ### Steve Robinson-Burns
 
-Steve works at Previse, a fintech startup, where he's a Software
+Steve gathered the material for this talk at Previse, a fintech
+startup, where he worked as a a Software
 Engineer. They use Clojure, which is a great problem solving tool, but
 he believes that as tools go, teamwork is even better. He's also a big
 fan of deleting code. Based in Edinburgh, he enjoys long walks with
