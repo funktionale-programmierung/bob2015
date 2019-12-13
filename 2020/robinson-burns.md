@@ -15,13 +15,13 @@ individual. But... how about as a team? When a team works well
 together, they can best fulfil the business function, while meeting
 personal emotional needs.
 
-In the past few years, at five companies, I've experienced a lot of
-different ways of working. Finally, at Previse, I was part of a team
-that solves problems together effectively. Sounds simple, but it's
-taken a combined 80+ years of experience to get there!
+In the past few years, at five companies, I’ve experienced a lot of
+different ways of working. Finally, at Previse, I was part of a team that
+solved problems together effectively. Sounds simple, but it had taken them
+a combined 80+ years of expertise to get there!
 
-My engineering team at Previse identified a methodology that guides our
-collaboration. Every day we engaged in the process of evolving it and
+The engineering team at Previse identified a methodology that guided their
+collaboration. Every day they engaged in the process of evolving it and
 embodying continuous learning.
 
 This talk is about better ways of working together. It's worth
