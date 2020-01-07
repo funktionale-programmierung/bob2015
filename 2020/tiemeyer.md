@@ -4,7 +4,7 @@ active: bob2020
 title: Graphen@Problemlösen
 speaker: Holger Tiemeyer
 portrait: holger-tiemeyer.jpg
-time: 10:20-11:50
+time: 12:00-13:30
 type: Tutorial
 language: german
 head: 2020
