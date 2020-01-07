@@ -4,7 +4,7 @@ active: bob2020
 title: Introduction to TLA+
 speaker: Annette Bieniusa
 portrait: annette-bieniusa.jpg
-time: 14:30-16:05
+time: 14:30-16:00
 type: Tutorial
 language: english
 head: 2020

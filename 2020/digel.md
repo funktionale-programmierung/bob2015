@@ -4,7 +4,7 @@ active: bob2020
 title: Einführung in F#
 speaker: Tim Digel
 portrait: tim-digel.jpg
-time: 14:30-16:05
+time: 14:30-16:00
 type: Tutorial
 language: german
 head: 2020
