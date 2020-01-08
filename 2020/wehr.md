@@ -4,7 +4,7 @@ active: bob2020
 title: Introduction to Idris
 speaker: Stefan Wehr
 portrait: stefan-wehr.jpg
-time: 10:30-11:50
+time: 10:20-11:50
 type: Tutorial
 language: english
 head: 2020
