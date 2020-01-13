@@ -3,7 +3,7 @@
 
 <head><meta charset="utf-8"></head>
 
-# Call for Participation: BOB 2020 (February 28, Berlin)
+# 2nd Call for Participation: BOB 2020 (February 28, Berlin, early-bird until Jan 20)
 
 <hr/>
 
