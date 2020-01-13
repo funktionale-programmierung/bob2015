@@ -36,6 +36,10 @@ http://bobkonf.de/2020/en/registration.html
 
 NOTE: The early-bird rates expire on January 20, 2020!
 
+BOB cooperates with the Racketfest conference on the day before BOB:
+
+https://racketfest.com/
+
 BOB cooperates with the :clojureD conference on the day after BOB:
 
 https://clojured.de/

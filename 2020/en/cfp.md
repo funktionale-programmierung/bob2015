@@ -51,6 +51,10 @@ Registration is open online:
 
 NOTE: The early-bird rates expire on January 20, 2020!
 
-BOB cooperates with the :clojureD conference on the day after BOB:
+BOB cooperates with the Racketfest conference on the day before BOB:
+
+[`https://racketfest.com/'](https://racketfest.com/)
+
+BOB also cooperates with the :clojureD conference on the day after BOB:
 
 [`https://clojured.de/`](https://clojured.de/)
