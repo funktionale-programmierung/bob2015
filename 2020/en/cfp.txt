@@ -34,7 +34,7 @@ Registration is open online:
 
 http://bobkonf.de/2020/en/registration.html
 
-NOTE: The early-bird rates expire on February 19, 2020!
+NOTE: The early-bird rates expire on January 20, 2020!
 
 BOB cooperates with the :clojureD conference on the day after BOB:
 
