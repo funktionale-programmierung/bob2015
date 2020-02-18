@@ -29,7 +29,7 @@ Wechsel in die funktionale Welt entgegenzutreten.
 
 Christoph Ehlts hat Wirtschaftsinformatik an der Hochschule Wismar
 studiert. Er ist Clean Architecuture-Verfechter und ambitionierter
-ProblemlÃ¶ser fÃ¼r die komplexen Fragestellungen. Seine jahrelangen
+Problemlöser für die komplexen Fragestellungen. Seine jahrelangen
 JEE-Erfahrungen, kompensiert er durch grenzenlosen Enthusiasmus fÃ¼r
 Erlang und funktionale Programmierung.  Seine Freizeit verbringt
 bevorzugt in der Boulder-Halle, auf dem Surfboard oder entspannt bei
