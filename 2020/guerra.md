@@ -21,7 +21,7 @@ maxima?  Which technologies will be replaced by obviously superior
 ones, which ones will survive the test of time?  What if the computer
 revolution hasn't happened yet?  Do we know how to compute?  Have you
 heard of [Unison](https://www.unisonweb.org/),
-[Darklang](http://darklang.org/),
+[Darklang](https://darklang.com/),
 [Lasp](https://lasp-lang.readme.io/),
 [NetLogo](http://www.netlogoweb.org/launch), 
 [Glamourous Toolkit](https://gtoolkit.com/), [Hazel](https://hazel.org/),
