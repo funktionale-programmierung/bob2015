@@ -19,7 +19,13 @@ look primitive from a future perspective.
 What if the current state of computing is just a really low local
 maxima?  Which technologies will be replaced by obviously superior
 ones, which ones will survive the test of time?  What if the computer
-revolution hasn't happened yet?  Do we know how to compute?
+revolution hasn't happened yet?  Do we know how to compute?  Have you
+heard of [Unison](https://www.unisonweb.org/),
+[Darklang](http://darklang.org/),
+[Lasp](https://lasp-lang.readme.io/),
+[NetLogo](http://www.netlogoweb.org/launch), 
+[Glamourous Toolkit](https://gtoolkit.com/), [Hazel](https://hazel.org/),
+[Dynamic Land](https://dynamicland.org/)?
 
 Someone said that "The future is already here – it's just not evenly
 distributed", in this talk we will see if it is in fact here, which tools
