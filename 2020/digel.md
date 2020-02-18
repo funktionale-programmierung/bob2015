@@ -29,7 +29,7 @@ Studio_ unter Windows betrachten. Um plattformunabhängig allen
 Interessierten die Möglichkeit zu geben, mit zu programmieren,
 verwenden wir zu Beginn _Visual Studio **Code**_. Weiter benötigen
 wir die _Dotnet-SDK_ (siehe z. B. [für
-Ubuntu](https://www.techrepublic.com/article/how-to-install-dotnet-core-on-ubuntu-18-04/)). Alternativ
+Ubuntu](https://www.techrepublic.com/article/how-to-install-dotnet-core-on-ubuntu-18-04/)) und _Mono_. Alternativ
 lässt sich das komplette Setup unter Linux non-invasiv mit Hilfe von
 [Nix](https://nixos.org/nix/download.html) mit diesen Schritten
 herstellen:
@@ -40,7 +40,7 @@ herstellen:
      mkdir -p ~/fsharp-tutorial && cd ~/fsharp-tutorial
     # This will download some nix packages and starts a sub shell
     # Unfortunately dotnet-sdk isn't available for MacOS
-    NIXPKGS_ALLOW_UNFREE=1 nix-shell -p dotnet-sdk -p vscode -p fsharp
+    NIXPKGS_ALLOW_UNFREE=1 nix-shell -p dotnet-sdk -p vscode -p fsharp -p mono
     
     # Create a new F#-project
     export DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true
@@ -48,10 +48,10 @@ herstellen:
     
     # Start Visual Studio Code
     code .
-    # Install Extension: Ionide-fsharp
+    # Install Extensions: Ionide-fsharp, C#
 
-In _Visual Studio Code_ benötigen wir dann noch die Erweiterung
-_Ionide-fsharp_.
+In _Visual Studio Code_ benötigen wir dann noch die Erweiterungen
+_Ionide-fsharp_ und _C#_.
 
 ## Tim Digel
 
