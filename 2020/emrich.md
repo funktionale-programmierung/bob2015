@@ -24,6 +24,12 @@ TypeScript on one side or Elm on the other?  We tried it in real
 projects, and the talk will be about our experience, which projects
 are worth using Reason and when you should rather do without it.
 
+## Preparation
+
+Please bring your own notebook with a working
+[NodeJS](https://nodejs.org) and [Git](https://git-scm.com/downloads)
+installation.
+
 ### Marco Emrich
 
 [@marcoemrich](http://twitter.com/marcoemrich)
