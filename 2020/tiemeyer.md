@@ -32,6 +32,32 @@ können wir mit ihnen Problemlösungsbarrieren überwinden und anhand von
 effektiver Informationsvisualisierung unsere Problemdomänen erklären
 und erfassen?
 
+## Vorbereitung
+
+Voraussetzung: Installiertes JDK 8+
+
+1. Download der [Neo4J-Community-Edition](https://neo4j.com/download-center/#community)
+
+2. Zip in ein Verzeichnis entpacken und unter `<neo4j-home>/bin` die
+   folgende Befehle aufrufen  
+   Windows:  
+```
+.\neo4j.bat install-service
+=> Neo4j service installed
+.\neo4j.bat start
+=> Neo4j service started
+```
+ Linux/Unix/macOS:
+```
+./neo4j start
+=> Neo4j service started
+```
+ 
+3. Im Browser die Seite:
+   [`http://localhost:7474`](http://localhost:7474) aufrufen.  
+   Username (default): `neo4j`  
+   Password: `neo4j`
+
 ## Holger Tiemeyer
 
 Holger Tiemeyer ist Senior Software-Architekt bei der Pentasys AG
