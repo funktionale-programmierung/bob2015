@@ -23,6 +23,11 @@ correctness conditions using temporal logic.  We will further apply
 the model-checker TLC and discuss typical pitfalls when working with
 TLA+.
 
+### Preparation
+
+Please install the TLA Toolbox on your machine by following the
+instructions on [this page](https://lamport.azurewebsites.net/tla/toolbox.html).
+
 ## Annette Bieniusa
 
 [@anne_biene](http://twitter.com/anne_biene)
