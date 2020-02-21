@@ -24,7 +24,9 @@ Ordnung vor. Dabei liegt der Schwerpunkt darin, Erfahrungen, die mir
 beim Einstieg geholfen haben, mit den TeilnehmerInnen zu teilen.
 
 ### Vorbereitung
-Informationen zu den für dieses Tutorial benötigten Tools folgen.
+
+Checken Sie [dieses Github-Repo](https://github.com/active-group/haskell-tutorial-bob-2020/)
+und folgen den Instruktionen im [README](https://github.com/active-group/haskell-tutorial-bob-2020/).
 
 
 ## Erika Bor
