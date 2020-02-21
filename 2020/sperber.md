@@ -26,6 +26,13 @@ of effects libraries.  Should you jump on one of those bandwagons or
 plod on with trusty old monad transformers?  This tutorial will help
 you out!
 
+### Preparations
+
+Check out [this Github repo](https://github.com/mikesperber/haskell-effects-tutorial) 
+and
+follow the instructions in the
+[README](https://github.com/mikesperber/haskell-effects-tutorial).
+
 ## Mike Sperber
 
 [@sperbsen](http://twitter.com/sperbsen)
