@@ -36,6 +36,12 @@ In this workshop we will
  * build a simple frontend application in ReasonReact
  * write unit-tests with bs-jest
 
+## Preparation
+
+Please bring your own notebook with a working
+[NodeJS](https://nodejs.org) and [Git](https://git-scm.com/downloads)
+installation.
+
 ### Marco Emrich
 
 [@marcoemrich](http://twitter.com/marcoemrich)
