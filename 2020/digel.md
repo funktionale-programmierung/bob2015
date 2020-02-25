@@ -24,10 +24,10 @@ Programmierung sind hilfreich, aber nicht zwingend erforderlich.
 
 ### Vorbereitung
 
-Um möglichst praxisnah zu arbeiten werden wir einiges in _Visual
-Studio_ unter Windows betrachten. Um plattformunabhängig allen
+Die Entwicklung findet in der Regel mit _Visual Studio_ unter Windows statt.
+Um plattformunabhängig allen
 Interessierten die Möglichkeit zu geben, mit zu programmieren,
-verwenden wir zu Beginn _Visual Studio **Code**_. Weiter benötigen
+verwenden wir _Visual Studio **Code**_. Weiter benötigen
 wir die _Dotnet-SDK_ (siehe z. B. [für
 Ubuntu](https://www.techrepublic.com/article/how-to-install-dotnet-core-on-ubuntu-18-04/)) und _Mono_. Alternativ
 lässt sich das komplette Setup unter Linux non-invasiv mit Hilfe von
@@ -39,8 +39,8 @@ herstellen:
     # Create a playground
      mkdir -p ~/fsharp-tutorial && cd ~/fsharp-tutorial
     # This will download some nix packages and starts a sub shell
-    # Unfortunately dotnet-sdk isn't available for MacOS
-    NIXPKGS_ALLOW_UNFREE=1 nix-shell -p dotnet-sdk -p vscode -p fsharp -p mono
+    # Unfortunately dotnet-sdk_3 isn't available for MacOS
+    NIXPKGS_ALLOW_UNFREE=1 nix-shell -p dotnet-sdk_3 -p vscode -p fsharp -p mono
     
     # Create a new F#-project
     export DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true
