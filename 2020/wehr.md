@@ -53,6 +53,10 @@ we won't have enough time discussing the features of Idris. Please contact
 the instructor should you have problems with the installation or the
 setup.
 
+## Material
+
+[Download](idris-tutorial-bob2020.tar.gz)
+
 ## Stefan Wehr
 
 [@skogsbaer](http://twitter.com/skogsbaer)
