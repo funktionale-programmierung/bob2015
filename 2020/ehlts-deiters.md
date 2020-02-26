@@ -39,3 +39,10 @@ dem ein oder anderen Bier in ausgedehnten Nerd-Brettspiel-Runden.
 
 Marcus Deiters ist der Programmleiter der Wertgarantie für den Umzug
 in die funktionale Welt.
+
+Als angehender Agile Coach trägt er dazu bei, die traditionellen Werte
+und Qualitäten in der Welt der Versicherung durch Digitalisierung,
+Flexibilisierung und Vielfalt zu transformieren. Er vereint sein
+kaufmännisches und betriebswirtschaftliches Know-how mit aktuellen
+IT-Lösungen, um die Kundenbedürfnisse innerhalb der Versicherungswelt
+durch automatisierte Prozesse zu befriedigen.
