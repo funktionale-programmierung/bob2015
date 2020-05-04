@@ -39,7 +39,19 @@ layout: default
 	                  </dd>
 	              </dl>
                 {% endif %}
-                {% if page.youtube %}
+                {% if page.video %}
+	              <dl>
+	                  <dt>Video</dt>
+	                  <dd>
+	                      <div class="video">
+                            <iframe src="https://media.ccc.de/v/bob2020-{{page.video}}/oembed/"
+                            width="720" height="405"
+                            allowfullscreen></iframe>
+	                      </div>
+	                      <a href="https://media.ccc.de/v/bob2020-{{page.video}}">https://media.ccc.de/v/bob2020-{{page.video}}</a>
+                    </dd> 
+                 {% endif %}
+                 {% if page.youtube %}
 	              <dl>
 	                  <dt>Video</dt>
 	                  <dd>
@@ -60,8 +72,9 @@ layout: default
                     <a href="https://joyclark.org/" target="_blank">https://joyclark.org/</a>
 	              </dl>
                 {% endif %}
+                
             </div>
-            {% if page.portrait %}
+             {% if page.portrait %}
             <div class="col-lg-4">
 	              <img src="portrait/{{page.portrait}}"></img>
                 {% if page.portrait2 %}
