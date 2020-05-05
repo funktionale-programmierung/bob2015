@@ -8,6 +8,7 @@ time: 12:00-12:45
 type: Vortrag
 language: english
 head: 2020
+video: bob2020-95-a_nokia_3310_ringtone_player_in_elm
 ---
 
 In this talk we build a web application in Elm that reads some good

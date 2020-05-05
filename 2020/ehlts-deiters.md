@@ -9,6 +9,7 @@ time: 12:50-13:35
 type: Vortrag
 language: german
 head: 2020
+video: bob2020-107-integration_und_migration_von_unternehmenskritischen_legacy-anwendungen
 ---
 
 Vor zwei Jahren sind wir mit einer PL/SQL-Anwendung aufgebrochen in

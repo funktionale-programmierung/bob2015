@@ -8,6 +8,7 @@ time: 14:30-15:15
 type: Vortrag
 language: english
 head: 2020
+video: bob2020-93-the_object-oriented_functional-programming_symmetry_theory_and_practice
 ---
 
 Much gets written on the internet about comparisons between

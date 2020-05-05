@@ -9,6 +9,7 @@ time: 12:50-13:35
 type: Vortrag
 language: english
 head: 2020
+video: bob2020-101-criminally_fast_rust_and_breaking_safety_for_fun_and_profit
 ---
 
 In this talk, we confess our rusty sins: memory manipulation, unsafe

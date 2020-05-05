@@ -8,6 +8,7 @@ time: 10:30-11:15
 type: Vortrag
 language: german
 head: 2020
+video: bob2020-108-effizient_arbeiten_mit_architecture_decision_records_adr
 ---
 
 Dokumentation gehört oft nicht zu den Lieblingsaufgaben im

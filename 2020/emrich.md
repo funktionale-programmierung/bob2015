@@ -8,6 +8,7 @@ time: 10:30-11:15
 type: Vortrag
 language: english
 head: 2020
+video: bob2020-109-practical_reasonml
 ---
 
 <i>Static type systems</i> have arrived in the frontend! <i>Typescript</i>

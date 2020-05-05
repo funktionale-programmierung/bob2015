@@ -7,6 +7,8 @@ portrait: heather-miller.jpg
 type: Vortrag
 language: english
 head: 2020
+video: bob2020-97-open_source_numbers_everybody_should_know
+slides-file: miller.pdf
 ---
 
 ### [Heather Miller](https://heather.miller.am/)

@@ -8,6 +8,7 @@ time: 17:25-18:10
 type: Vortrag
 language: english
 head: 2020
+video: bob2020-114-programming_by_any_other_name
 ---
 
 Programmers enjoy looking back and learning about the primitive

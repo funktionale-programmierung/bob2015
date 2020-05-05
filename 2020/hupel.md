@@ -8,6 +8,8 @@ time: 17:25-18:10
 type: Vortrag
 language: english
 head: 2020
+video: bob2020-88-js_rust_python_and_the_holy_graal
+slides-file: hupel.pdf
 ---
 
 In the old times, way back, Java used to be the only JVM

@@ -8,6 +8,8 @@ time: 16:35-17:20
 type: Vortrag
 language: english
 head: 2020
+video: bob2020-97-the_essence_of_programming
+slides-file: sundstroem.pdf
 ---
 
 Referential transparency is a property that lets us better understand

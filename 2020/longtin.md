@@ -8,6 +8,7 @@ time: 15:20-16:05
 type: Vortrag
 language: english
 head: 2020
+video: bob2020-110_implicitcad_haskell_all_of_the_things
 ---
 
 ImplicitCAD is a 3D modelling system used for designing objects using CSG

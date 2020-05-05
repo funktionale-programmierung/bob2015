@@ -8,6 +8,7 @@ time: 15:20-16:05
 type: Vortrag
 language: english
 head: 2020
+video: bob2020-98-self-documenting_computation
 ---
 
 Undoubtedly, the standard format of sharing computations in the
