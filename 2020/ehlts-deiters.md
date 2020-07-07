@@ -10,6 +10,7 @@ type: Vortrag
 language: german
 head: 2020
 video: bob2020-107-integration_und_migration_von_unternehmenskritischen_legacy-anwendungen
+slides-file: Deiters-Ehlts-Piper.pdf
 ---
 
 Vor zwei Jahren sind wir mit einer PL/SQL-Anwendung aufgebrochen in

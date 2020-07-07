@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2020
 video: bob2020-111_the_lessons_of_14_years_of_open_source_haskell
+slides-file: krewinkel-14-years-of-open-source-haskell.html
 ---
 
 Haskell is part of the open source ecosystem and is here to stay. We

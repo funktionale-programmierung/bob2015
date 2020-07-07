@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2020
 video: bob2020-98-self-documenting_computation
+slides-file: Klinke-Self_documenting_computation.pdf
 ---
 
 Undoubtedly, the standard format of sharing computations in the

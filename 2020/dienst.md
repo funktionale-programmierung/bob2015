@@ -9,6 +9,7 @@ type: Vortrag
 language: german
 head: 2020
 video: bob2020-108-effizient_arbeiten_mit_architecture_decision_records_adr
+slides-file: Dienst-Effizient_arbeiten_mit_ADRs.pdf
 ---
 
 Dokumentation gehört oft nicht zu den Lieblingsaufgaben im
