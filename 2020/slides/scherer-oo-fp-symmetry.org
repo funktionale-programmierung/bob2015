@@ -1,0 +1,555 @@
+# Config
+# toggle-menu-bar-mode-from-frame
+# org-tree-slide-mode
+# (org-tree-slide-display-header-toggle)
+
+* This talk
+
+The Object-Oriented/Functional-Programming symmetry: theory and practice
+
+Gabriel Scherer
+
+BOB 2020, February 28th, Berlin
+
+** The speaker (Gabriel Scherer)
+
+Researcher at INRIA Saclay (France), team Partout
+programming language theory and proof theory
+
+Active contributor to the OCaml implementation
+(open development, code reviews, making the code better)
+
+Member of the [[https://ocaml-sf.github.io/][OCaml Software Foundation]]
+
+** Motivated by the keynote: Foundations
+
+[[https://ocaml-sf.github.io/][OCaml Software Foundation]]
+
+[[https://reason-association.org/][Reason Association]]
+
+We get money from industry sponsors, and use
+it to strengthen the community, for example:
+
+- maintenance and release-management work
+- developer sprints
+- teaching material and teaching tools
+- [[https://www.reason-conf.com/][ReasonConf]]
+- [[https://www.outreachy.org/][Outreachy]] internships (diverse onboarding)
+
+If your company wants to support
+the OCaml/ReasonML ecosystem, talk to us!
+
+* OO/functional symmetry
+
+Typical problem domain:
+- data fits in several possible cases
+- we define operations on the data by case analysis
+
+** Typical FP (functional programming) style
+
+- one type with all cases
+- a function for each operation
+
+#+BEGIN_SRC ocaml
+type 'a tree =
+  | Leaf of 'a
+  | Node of 'a tree * 'a tree
+
+let rec count = function
+  | Leaf _ -> 1
+  | Node (left, right) -> count left + count right
+
+let rec height = function
+  | Leaf _ -> 0
+  | Node (left, right) -> 1 + max (height left) (height right)
+
+let example = Node(Leaf 1, Leaf 2)
+let () = assert (count example = 2)
+#+END_SRC
+
+** Typical OO (object-oriented programming) style
+
+- one interface with all operations
+- a class for each case
+
+#+BEGIN_SRC ocaml
+class type ['a] tree = object
+  method count : int
+  method height : int
+end
+
+class ['a] leaf (v : 'a) = object
+  method count = 1
+  method height = 0
+end
+
+class node left right = object
+  method count = left#count + right#count
+  method height = 1 + max left#height right#height
+end
+
+let example = new node (new leaf 1) (new leaf 3)
+let () = assert (example#count = 2)
+#+END_SRC
+
+** Symmetry/Duality 
+
+Symmetry (or duality):
+- OO: product of functions
+- functional: functions over sums
+
+For example:
+- two data cases C1, C2
+- two operations with results R1, R2
+
+#+BEGIN_SRC OO
+(C1 -> (R1 * R2)) *
+(C2 -> (R1 * R2))
+
+((C1 + C2) -> R1) *
+((C1 + C2) -> R2)
+#+END_SRC
+
+Relations:
+  A -> (B * C)
+≡ (A -> B) * (A -> C)
+
+  ((A + B) -> C)
+≡ ((A -> C) * (B -> C))
+
+
+* Axes of extension
+** Axes of evolution
+
+
+#+BEGIN_SRC ocaml
+let rec count = function
+  | Leaf _ -> 1
+  | Node (left, right) -> count left + count right
+
+class node left right = object
+  method count = left#count + right#count
+  method height = 1 + max left#height right#height
+end
+#+END_SRC
+
+Adding a new case (Node3 ?):
+- functional: extend the type and update each function
+- OO: just add a new class
+
+Adding a new operation:
+- functional: just add a new function
+- OO: extend the interface and update each class
+
+** Easy evolution
+
+Usual lessons:
+- FP style makes adding new operations easy
+- OO style makes adding new cases easy
+
+Because:
+evolutions that only requires code addition is "easier"
+than evolutions that require modifications.
+
+Because:
+We prefer to reuse other people's code (libraries)
+by adding our code on the side, rather than modifying their code.
+
+** Hard research: the extensibility/expression problem
+
+In FP style, adding operations is easy.
+In OO style, adding cases is easy.
+
+Late 90s, the Extensibility Problem (Expression Problem):
+  can we make both additions easy at the same time?
+
+More precisely: what language features support
+- adding operations without modifying code
+- adding cases without modifying code
+- while checking (statically) that all operations handle all cases
+
+1990s, 2000s, 2010s: several solutions proposed in the research literature.
+(Not this talk!)
+
+Proposed designs are rarely used in practice: over the complexity budget.
+
+** Locality
+
+Evolution by addition results in logic spread over many places.
+
+But *locality* helps for code comprehension.
+
+A compiler: I would rather have the code for all instructions in a single place. (=> FP approach)
+A GUI: I would rather have all operations for a given element in a single place. (=> OO approach)
+
+Counter-lessons:
+- FP style gives a readable, local view of operations
+- OO style gives a readable, local view of data cases
+
+Remark: this seems to be able to tools we use to browse code.
+  (IDE feature: providing a "slice" view that shows the symmetric/transerve organization)
+
+
+* Going to the other style
+** FP to OO: products
+
+All functional programming languages provide good support for
+products / structs / records.
+
+#+BEGIN_SRC ocaml
+type open_tree = {
+  count : int;
+  height : int;
+}
+
+let node left right = {
+  count = left.count + right.count;
+  height = 1 + left.height + right.height;
+}
+#+END_SRC
+
+Advanced design pattern: closed list of cases, plus record for partial extensibility.
+#+BEGIN_SRC ocaml
+type 'a tree =
+  | Leaf of 'a
+  | Node of 'a tree * 'a tree
+  | Open of { count: int; height: int }
+#+END_SRC
+Downside: both cases and operations get written in stone.
+Only use when strongly required.
+** OO to FP: sum types, visitors
+
+Nice OO languages provide support for sum types / variants.
+
+#+BEGIN_SRC scala
+sealed trait Tree[+A]
+case class Leaf[A](v: A) extends Tree[A]
+case class Node[A](v: A, l: Tree[A], r: Tree[A]) extends Tree[A]
+#+END_SRC
+
+*** Or: visitor pattern
+
+Most OO languages force you to encode them by turning cases into methods.
+
+#+BEGIN_SRC 
+A_consumer<R> := A -> R
+B_consumer<R> := B -> R
+AorB_consumer<R> := A_consumer<R> * B_consumer<R>
+AorB := (forall R. AorB_consumer<R> -> R)
+#+END_SRC
+
+   (A + B) ≡ (∀R. (A → R) * (B → R) → R)
+
+**** In code
+
+(A + B) ≡ (∀R. (A → R) * (B → R) → R)
+
+#+BEGIN_SRC ocaml
+class type ['a, 'r] tree_fold = object
+  method on_leaf : 'a -> 'r
+  method on_node : 'r -> 'r -> 'r
+end
+class type ['a] tree_like = object
+  method visit : 'r . ('a, 'r) tree_fold -> 'r
+end
+let count tree_like =
+  tree_like#visit (object
+    method on_leaf _ = 1
+    method on_node count_left count_right = count_left + count_right
+  end)
+#+END_SRC
+
+It feels more complex than sums *because it is*.
+
+Lesson: sum types are a fundamental part of domain modeling.
+Having them in the language makes the code simpler.
+
+*** Product visitor pattern? (1)
+
+Yes we can!
+
+With just currying:
+#+BEGIN_SRC ocaml
+type ('a, 'b, 'r) prod_consumer = ('a -> 'b -> 'r
+
+let pair a b = fun consumer -> consumer a b
+let fst p = p (fun x y -> x)
+let snd p = p (fun x y -> y)
+
+let () =
+  assert (fst (pair 1 true) = 1);
+  assert (snd (pair false "foo") = "foo");
+#+END_SRC
+
+*** Product visitor pattern? (2)
+
+Or with sums:
+#+BEGIN_SRC ocaml
+type ('a, 'b) either = Left of 'a | Right of 'b
+type ('a, 'b, 'r) prod_consumer = ('a -> 'r, 'b -> 'r) either
+
+let pair a b = function
+  | Left a_consumer -> a_consumer a
+  | Right b_consumer -> b_consumer b
+let fst p = p (Left (fun x -> x))
+let snd p = p (Right (fun y -> y))
+
+let () =
+  assert (fst (pair 1 true) = 1);
+  assert (snd (pair false "foo") = "foo");
+#+END_SRC
+
+** With differences
+*** Open Recursion
+
+Self-calls in OO are "late bound", which implicitly uses "open recursion".
+
+#+BEGIN_SRC ocaml
+type 'a tree =
+| Leaf of 'a
+| Node of 'a tree * 'a tree
+
+class type ['a, 'r] tree_visitor = object
+  method on_leaf : 'a -> 'r
+  method on_node : 'a tree -> 'a tree -> 'r
+end
+
+class ['a, 'b] tree_mapper (f : 'a -> 'b) : ['a, 'b tree] tree_visitor
+
+class ['b] int_logging_mapper f = object
+  inherit [int, 'b] tree_mapper f as super
+  method! on_leaf v =
+    Printf.eprintf "on_leaf %d\n" v;
+    super#on_leaf v
+end
+#+END_SRC
+
+**** Open recursion in FP
+
+In FP, open recursion has to be modelled explicitly.
+
+#+BEGIN_SRC ocaml
+let open_map map f = function
+| Leaf v -> Leaf (f v)
+| Node (left, right) ->
+   let l = map f left in
+   let r = map f right in
+   Node (l, r)
+
+let rec map f tree = open_map map f tree
+#+END_SRC
+#+BEGIN_SRC ocaml
+let rec int_logging_map f tree =
+  let super = open_map int_logging_map f in
+  match tree with
+    | Leaf v ->
+       Printf.eprintf "on_leaf %d\n%!" v;
+       super tree
+    | _ ->
+       super tree
+#+END_SRC
+
+My personal experience:
+- open recursion is rarely useful, but sometimes important
+- recognizing and documenting the pattern is important
+- using OO explictly makes sense here (if the language allows)
+*** Pattern matching
+
+The visitor pattern gives a form of pattern-matching.
+
+#+BEGIN_SRC ocaml
+let rec count = function
+| Leaf _ -> 1
+| Node (left, right) -> count left + count right
+
+let count tree =
+  tree#visit (object (self)
+    method on_leaf _ = 1
+    method on_node left right = left#visit self + right#visit self
+  end)
+#+END_SRC
+
+Good news: exhaustivity is checked by existing missing-method checks.
+
+Bad news: in-depth matching is impossible or difficult.
+
+#+BEGIN_SRC ocaml
+let rec rebalance = function
+| Leaf v -> Leaf v
+| Node (Leaf _, _) as tree -> tree
+| Node (Node (ll, lr), r) ->
+  rebalance (Node (ll, Node (lr, r))
+#+END_SRC
+** Lessons
+
+We typically favor one style when writing a program.
+
+If you recognize the need for the "other style" for a certain part,
+do not hesitate!
+
+Language designers: please implement good support for sum/variant types!
+"Either a Foo or a Bar" is pretty damn common in most problem domains.
+
+* Guards!
+
+Some functional languages provide Generalized/Guarded Algebraic Datatypes, GADTs.
+
+What is the OO counterpart of GADTs?
+
+** Guarded Algebraic Datatypes
+
+Classic example:
+
+#+BEGIN_SRC ocaml
+type _ expr =
+| Int : int -> int expr
+| Pair : 'b expr * 'c expr -> ('b * 'c) expr
+#+END_SRC
+
+to be understood as (invalid syntax)
+
+#+BEGIN_SRC ocaml
+type 'a expr =
+| Int of int with 'a = int
+| Pair of ('b * 'c) expr for 'b 'c with 'a = ('b * 'c)
+#+END_SRC
+Existential types + type equality constraints.
+
+#+BEGIN_SRC ocaml
+let rec eval : type a . a expr -> a = function
+| Int n -> n
+| Pair (b, c) -> (eval b, eval c)
+
+let example = Pair (Int 3, Pair (Int 3, Int 4))
+let () = assert (eval example = (3, (3, 4)))
+#+END_SRC
+
+*** Use-cases
+
+Data with a rich type, yet still easy to manipulate as data:
+
+      'a input_query
+  A query I received from a client, for which I will need to
+  compute  and return a value of type 'a.
+  
+      (int -> string -> 'a, 'a) format_string
+  The type of the printf-style format string "%s %d".
+  
+      (z s s s, z s s) iteration_space
+  The type-checked dimensions of a nested array-operator built in a combinator language.
+
+Proofs evince in a very limited logical fragment:
+
+      ('a, 'b) eq
+  A static proof that 'a and 'b are the same type.
+#+BEGIN_SRC ocaml
+type (_, _) eq = Refl : ('a, 'a) eq
+
+let convert_list : type a b . (a, b) eq -> a list -> b list =
+  fun eq_witness list ->
+    match eq_witness with
+    | Refl -> list
+#+END_SRC
+  
+     (z s, z s, z s s) plus
+  A static proof that 1+1=2...
+
+** No need for GADT with OO programs?
+
+#+BEGIN_SRC ocaml
+class type ['a] expr = object
+  method eval : 'a
+end
+
+class eint (n : int) : [int] expr = object
+  method eval = n
+end
+
+class ['b, 'c] epair eb ec : ['b * 'c] expr = object
+  method eval = (eb#eval, ec#eval)
+end
+
+let example = new epair (new eint 3) (new epair (new eint 3) (new eint 4))
+let () = assert (example#eval = (3, (3, 4))
+#+END_SRC
+
+https://stackoverflow.com/questions/29454528/what-does-gadt-offer-that-cannot-be-done-with-oop-and-generics
+
+** Yes need for GADTs
+
+Generic instantiation works for some examples, but not all.
+You cannot use the same trick for expressive type-equality constraints
+#+BEGIN_SRC ocaml
+type (_, _) eq = Refl : ('a, 'a) eq
+#+END_SRC
+
+Lesson: some "guarded" types are easily converted to the OO world, some are not.
+
+** What's the OO equivalent?
+
+Is there a program that is trivial to write in FP style, but requires advanced OO trickery?
+
+Let's consider List.flatten...
+#+BEGIN_SRC ocaml
+type 'a list = ...
+let rec length : 'a list -> int = ...
+let rec concat : 'a list -> 'a list = ...
+
+let rec flatten : 'a list list -> 'a list = function
+  | [] -> []
+  | x::xs -> x @ flatten xs
+
+let example = [[1; 2]; []; [3; 4]]
+let () = assert (flatten example = [1; 2; 3; 4]) 
+#+END_SRC
+
+*** In OO?
+
+#+BEGIN_SRC ocaml
+class type ['a] olist = object
+  method length : int
+  method concat : 'a olist -> 'a olist
+
+  method flatten : ???
+end
+#+END_SRC
+
+What you need: guarded methods
+#+BEGIN_SRC ocaml
+  method flatten : 'b list with 'a = 'b list
+#+END_SRC
+(in general: guards may be subtyping constraints, trait constraints, etc.)
+
+Most OO languages provide workarounds:
+- extension methods (outside the class)
+- dynamic equality witness (eg. as a Scala implicit)
+
+Clearly explained in:
+
+  Generalized Algebraic Data Type and Object-Oriented Programming
+  Andrew Kennedy and Claudio Russo, 2005
+
+** Stepping back, a lesson
+
+There is a nice symmetry between typical FP and OO design approaches.
+
+It is possible to switch from one to the other when useful.
+
+Surprisingly, the needs for guards are *not* symmetric:
+- guarded sum types may become unguarded product programs
+- unguarded sum operations may become guarded methods
+* Conclusion
+
+We should separate code organization choices coming from *language* and from the *code style*.
+
+OO and FP favor symmetric code styles for cases/operations organization.
+
+A strong language lets you use the best time for each domain.
+
+Static constraints (guards) come up naturally in the wild, they are not only for advanced stuff.
+But a different style can make the same program use simpler features.
+
+
+                                       Thanks!
+
+                                      Questions ?
