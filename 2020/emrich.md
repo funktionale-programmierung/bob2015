@@ -9,7 +9,7 @@ type: Vortrag
 language: english
 head: 2020
 video: bob2020-109-practical_reasonml
-slides-file: emrich-reasonml_big.pdf
+slides-file: emrich-reasonml.pdf
 ---
 
 <i>Static type systems</i> have arrived in the frontend! <i>Typescript</i>
