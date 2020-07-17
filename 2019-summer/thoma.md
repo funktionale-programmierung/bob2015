@@ -8,6 +8,7 @@ type: Vortrag
 language: english
 head: 2019
 youtube: qPzwUXErcSE
+slides-file: thoma.pdf
 ---
 
 While design patterns seem to be an integral part of OOP, the term is
