@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2020
 video: bob2020-104-leveraging_algebraic_data_types_in_any_programming_language
+slides-file: thoma.pdf
 ---
 
 In functional programming languages, Algebraic Data Types and Pattern
