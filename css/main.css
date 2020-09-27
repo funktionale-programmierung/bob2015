@@ -305,6 +305,29 @@ h1, h2, h3, h4, h5, h6 {
     bottom: -90px; 
 }
 
+.splash .corona .corona-image {
+    background-image: url('/images/corona.png');
+    background-repeat: no-repeat;
+    width: 193px;
+    height: 292px;
+    position: absolute;
+    left: 0;
+    bottom: -90px; 
+}
+
+.splash .corona .container {
+    padding-left: 0px;
+    padding-bottom: 220px;
+}
+
+@media(min-width: 768px){
+    .splash .corona .container {
+        padding-left: 240px;
+        padding-bottom: 0
+    }
+}
+
+
 .splash .bulb .container {
     padding-left: 0px;
     padding-bottom: 220px;
