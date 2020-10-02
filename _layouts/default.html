@@ -13,26 +13,8 @@
     {% include old_head_section.html %}
     {% else %}
     {% include head_section.html %}
-    {% endif %}
-  </head>
-
-  <body>
-
-      {% if page.head < 2019 %}
-      {% include old_body.html %}
-      {% include footer.html %}
-      {% else %}
-      <div class="main" >
-          {% include body.html %}
-          {% include footer.html %}
-      </div>
-      {% endif %}
-	
-	<!-- /div --> <!-- / bob container -->
-
-  </body>
-
-  {% if page.head < 2019 %}
+		      {% endif %}
+		        {% if page.head < 2019 %}
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -92,4 +74,23 @@
     </script>
 
     {% endif %}
+  </head>
+
+  <body>
+
+      {% if page.head < 2019 %}
+      {% include old_body.html %}
+      {% include footer.html %}
+      {% else %}
+      <div class="main" >
+          {% include body.html %}
+          {% include footer.html %}
+      </div>
+      {% endif %}
+	
+	<!-- /div --> <!-- / bob container -->
+
+  </body>
+
+
 </html>
