@@ -33,9 +33,9 @@ Speaker Grants
 --------------
 
 BOB has Speaker Grants available to support speakers from groups
-under-represented in technology. We specifically seek women speakers
-and speakers who are not be able to attend the conference for
-financial reasons.
+under-represented in technology. We specifically seek women speakers,
+speakers of color, and speakers who are not be able to attend the
+conference for financial reasons.
 
 Shepherding
 -----------
