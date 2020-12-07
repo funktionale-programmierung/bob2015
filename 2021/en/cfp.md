@@ -3,7 +3,7 @@
 
 <head><meta charset="utf-8"></head>
 
-# Call for Participation: BOB 2021 (February 26, Berlin, early-bird until Dec 31)
+# Call for Participation: BOB 2021 (February 26, online, early-bird until Dec 31)
 
 <hr/>
 
@@ -15,7 +15,7 @@
 
 ### “What happens if we simply use what’s best?”
 
-## February 26, 2021, Berlin
+## February 26, 2021, online (UCT+0100)
 
 ## [`http://bobkonf.de/2021/`](http://bobkonf.de/2021/)
 
@@ -25,12 +25,12 @@
 
 <hr/>
 
-BOB is the conference for developers, architects and decision-makers
+BOB conference is a place for developers, architects and decision-makers
 to explore technologies beyond the mainstream in software development,
 and to find the best tools available to software developers today. Our
 goal is for all participants of BOB to return home with new insights
 that enable them to improve their own software development
-experiences.
+experience.
 
 The program features 14 talks and 8 tutorials on current topics:
 
@@ -50,7 +50,7 @@ Registration is open online:
 
 [`http://bobkonf.de/2021/registration.html`](http://bobkonf.de/2021/registration.html)
 
-The early-bird registration is 10€ for a regular ticket, 5€ for a
+The early-bird registration is €10 for a regular ticket, €5 for a
 student ticket.  (If you need financial aid, let us know.)  We intend
 to make this the most diverse, colorful, fun BOB ever!
 
