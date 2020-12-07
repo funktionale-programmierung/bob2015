@@ -15,7 +15,7 @@
 
 ### “What happens if we simply use what’s best?”
 
-## February 26, 2021, online (UCT+0100)
+## February 26, 2021, online (0100+UTC)
 
 ## [`http://bobkonf.de/2021/`](http://bobkonf.de/2021/)
 

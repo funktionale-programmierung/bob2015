@@ -5,7 +5,7 @@ Subject: Call for Participation: BOB 2021 (February 26, Berlin, early-bird until
 			      Conference
 	     “What happens if we simply use what’s best?”
 		      February 26, 2021, online
-		              (UCT+0100)
+		              (UTC+0100)
 		       http://bobkonf.de/2021/
 	   Program: http://bobkonf.de/2021/program.html
       Registration: http://bobkonf.de/2021/registration.html
