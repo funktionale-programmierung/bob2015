@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2021
-title: 
+title: Darcs, because git won
 speaker: Raichoo Ketchum
 portrait: raichoo-ketchum.jpg
 time: 
@@ -10,7 +10,7 @@ language: english
 head: 2021
 ---
 
-darcs is one of the oldest distributed version control systems which
+Darcs is one of the oldest distributed version control systems which
 are currently in use, yet it remains a somewhat obscure choice. In
 this talk I want to highlight why darcs is a viable choice due to its
 unique, and surprisingly fresh and straightforward, approach which is
