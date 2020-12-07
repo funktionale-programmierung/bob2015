@@ -23,7 +23,7 @@ welche Optionen hat man?
 
 ## Christoph Schmalhofer
 
-Christoph Schmalhofer works as Software Architect for InNuce Solutions
+Christoph Schmalhofer arbeitet als Software Architect für InNuce Solutions
 in Hamburg. 
 
 Er hat Philosophie und Physik studiert und arbeitet seit 20 Jahren in
