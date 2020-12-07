@@ -34,7 +34,7 @@ diskutieren verschiedene Ansätze.
   Modelling zu verwenden, sondern auch die Kommunikation mit
   POs/Kunden/Stakeholdern etc. zu üben.
 
-* Wir arbeiten mit [sketch.sh](https://sketch.sh/) im Browser - keine Installation erforderlich
+* Wir arbeiten mit [sketch.sh](https://sketch.sh/) im Browser - keine Installation erforderlich.
 
 
 
@@ -42,10 +42,11 @@ diskutieren verschiedene Ansätze.
 
 [@marcoemrich](http://twitter.com/marcoemrich)
 
-Marco is a Senior Consultant at codecentric. As a passionate advocate
-of software crafting and code quality, Marco has many years of
-experience in architecture and development. He regularly lectures at
-well-known conferences and is author of several programming
-books. When he is not organizing the Softwerkskammer Nuremberg
-(developer meetup), he is probably explaining to his son how to
-program robotic turtles.
+Marco ist Senior Consultant bei codecentric. Er ist ein
+leidenschaftlicher Fürsprecher für Softwareentwicklung und
+Codequalität und hat viele Jahre Erfahrung im Bereich
+Softwarearchitektur und -entwicklung. Er spricht regelmäßig bei
+Konferenzen und hat mehrere Bücher übers Programmieren
+geschrieben. Wenn er nicht dabei ist, die Softwerkskammer Nürnberg zu
+organisieren, erklärt er vermutlich seinem Sohn, wie man
+Roboterschildkröten programmiert.
