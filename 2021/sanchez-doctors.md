@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2021
-title: "Sylvester: computer-based math via F# meta-programming"
+title: "Combining clojure.spec with design recipes"
 speaker: Diego Sánchez, Lenadro Doctors
 portrait: diego-sanchez.jpg
 portrait2: leandro-doctors.jpg
