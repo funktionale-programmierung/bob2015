@@ -38,7 +38,7 @@ show, a video feed, and a logo.
   (hopefully) select your camera.
 
 - Start up whatever software you use to display slides, make it
-  display the slides in a window.  Then go back to OPS, again click
+  display the slides in a window.  Then go back to OBS, again click
   the `+` button in the `Sources` window in the bottom row, select
   `Window Capture`, select `Create new`, and give it a name.  In
   the next screen, you can (hopefully) select your window.  If it
