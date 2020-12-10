@@ -32,19 +32,23 @@ show, a video feed, and a logo.
   and give it a name.  In the next screen, you can (hopefully) select
   your audio device.
   
+- Start up whatever software you use to display slides, make it
+  display the slides in a window.  Then go back to OBS, again click
+  the `+` button in the `Sources` window in the bottom row, select
+  `Window Capture`, select `Create new`, and give it a name.  In the
+  next screen, you can (hopefully) select your window.  If it doesn't
+  show up in the list, you may need to select `Show Windows with empty
+  names`.
+  
+- If you have multiple displays, you can also do a `Display Capture`
+  instead of a `Window Capture`, which is better suited for coding
+  demos, as it also shows popup menus, the mouse pointer etc.
+  
 - Similarly, add a video source. click the `+` button in the `Sources`
   window in the bottom row, select `Video Capture Device`, select
   `Create new`, and give it a name.  In the next screen, you can
   (hopefully) select your camera.
 
-- Start up whatever software you use to display slides, make it
-  display the slides in a window.  Then go back to OBS, again click
-  the `+` button in the `Sources` window in the bottom row, select
-  `Window Capture`, select `Create new`, and give it a name.  In
-  the next screen, you can (hopefully) select your window.  If it
-  doesn't show up in the list, you may need to select `Show Windows
-  with empty names`.
-  
 - You can now arrange and resize the video and window feeds to your
   satisfaction.
   
@@ -56,6 +60,10 @@ show, a video feed, and a logo.
   OBS will just start and pick a file name automatically.  There's a
   menu item `File` -> `Show Recordings` that will show you where it
   is.
+  
+- Generally, YouTube is full of OBS tutorials.
+  [Here's](https://www.youtube.com/watch?v=zTjVBlnEiNI) one that
+  explains the basics.
   
 - If you encounter any issues, get in touch with
   `michael-sperber@active-group.de`.
