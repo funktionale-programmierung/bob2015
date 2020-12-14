@@ -9,6 +9,8 @@ For your BOB talk, we'll need to you to provide a pre-recorded video.
 If you have a working setup that you like, you can use that, as long
 as it provides reasonable output in a reasonably standard format.
 
+The preferred format is 16:9 at 1280x720 at 30FPS.
+
 If you don't, here are some notes on a working setup using [Open
 Broadcaster Software](https://obsproject.com/), which is available for
 all major platforms.  It allows you to combine slides, a video of your
@@ -19,6 +21,9 @@ you up and running with a simple setup consisting of audio, a slide
 show, a video feed, and a logo.
 
 - Download and start OBS.
+
+- Go to `Preferences` -> `Video`, set both base and output resolution
+  to 1280x720, 30FPS.
 
 - You'll see a window with a blank area representing a *scene*, which
   is a particular arrangement of audio and video sources.  For a
