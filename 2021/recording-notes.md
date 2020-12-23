@@ -11,6 +11,9 @@ as it provides reasonable output in a reasonably standard format.
 
 The preferred format is 16:9 at 1280x720 at 30FPS.
 
+Talk slots are 45 minutes.  Ideally your recording is 35 minutes,
+leaving 10 minutes for Q&A.
+
 If you don't, here are some notes on a working setup using [Open
 Broadcaster Software](https://obsproject.com/), which is available for
 all major platforms.  It allows you to combine slides, a video of your
