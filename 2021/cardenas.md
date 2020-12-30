@@ -48,7 +48,7 @@ As prerequisites, you will need
 
 - [ghc Haskell compiler](https://www.haskell.org/ghc/) and [cabal](https://www.haskell.org/cabal/)  (a Nix-based installation
   is supported)
-- [SuperCollider](https://supercollider.github.io/), at least version 3.7z
+- [SuperCollider](https://supercollider.github.io/), at least version 3.7
 - [Atom](https://atom.io/) (TidalCycles supports other editors, but this is what
   we'll be using in the tutorial)
   
