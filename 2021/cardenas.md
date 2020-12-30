@@ -46,10 +46,10 @@ You should install TidalCycles before the tutorial.
 
 As prerequisites, you will need
 
-- [ghc Haskell compiler]() and [cabal](...)  (a Nix-based installation
+- [ghc Haskell compiler](https://www.haskell.org/ghc/) and [cabal](https://www.haskell.org/cabal/)  (a Nix-based installation
   is supported)
-- [SuperCollider](...), at least version 3.7z
-- [Atom](...) (TidalCycles supports other editors, but this is what
+- [SuperCollider](https://supercollider.github.io/), at least version 3.7z
+- [Atom](https://atom.io/) (TidalCycles supports other editors, but this is what
   we'll be using in the tutorial)
   
 Note that, you'll need a reasonably recent version of SuperCollider.
