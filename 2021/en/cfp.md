@@ -3,7 +3,7 @@
 
 <head><meta charset="utf-8"></head>
 
-# Call for Participation: BOB 2021 (February 26, online, early-bird until Dec 31)
+# 2nd Call for Participation: BOB 2021 (February 26, online)
 
 <hr/>
 
@@ -50,8 +50,7 @@ Registration is open online:
 
 [`http://bobkonf.de/2021/registration.html`](http://bobkonf.de/2021/registration.html)
 
-The early-bird registration is €10 for a regular ticket, €5 for a
+Registration is €30 for a regular ticket, €15 for a
 student ticket.  (If you need financial aid, let us know.)  We intend
 to make this the most diverse, colorful, fun BOB ever!
 
-NOTE: The early-bird rates expire on December 31, 2020!
