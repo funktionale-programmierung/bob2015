@@ -24,11 +24,11 @@ else – including the mathematics – will be introduced.
 
 [@larsr_h](http://www.twitter.com/larsr_h)
 
-Lars is a consultant with INNOQ in Munich, Germany. He has been using
-Scala for quite a while now, and is known as one of the founders of
+Lars is a consultant with INNOQ in Munich, Germany. They have been using
+Scala for quite a while now, and are known as one of the founders of
 the Typelevel initiative which is dedicated to providing principled,
 type-driven Scala libraries in a friendly, welcoming environment. A
 frequent conference speaker and community representative at the Scala
-Center Advisory Board, he is active in the open source community,
-particularly in Scala. He also enjoys programming in and talking about
+Center Advisory Board, they are active in the open source community,
+particularly in Scala. They also enjoy programming in and talking about
 Haskell, Prolog, and Rust.
