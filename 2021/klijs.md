@@ -4,7 +4,7 @@ active: bob2021
 title: Event in, events out?
 speaker: Gerard Klijs
 portrait: gerard-klijs.jpg
-time: 
+time: 10:05-11:35
 type: Tutorial
 language: english
 head: 2021

@@ -5,7 +5,7 @@ title: "Combining clojure.spec with design recipes"
 speaker: Diego Sánchez, Lenadro Doctors
 portrait: diego-sanchez.jpg
 portrait2: leandro-doctors.jpg
-time: 
+time: 16:15-17:45
 type: Tutorial
 language: english
 head: 2021
