@@ -9,6 +9,18 @@ head: 2021
 portrait: jeremy-gibbons.jpg
 ---
 
+Functional programming is full of "folk tricks" that seem inscrutable
+to novices.  Many of them can be traced back to John Reynolds, who
+showed us how to use continuation-passing style and
+defunctionalization to transform a recursive interpreter for a
+language into an abstract machine for programs in that language. The
+same techniques explain zippers and accumulating parameters.  Buried
+within all those applications there is usually a hidden appeal to the
+algebraic property of associativity. In this talk, I will entice
+associativity out of the shadows and into the limelight.
+
+### Jeremy Gibbons
+
 Jeremy Gibbons is a professor at Oxford University, where he leads the
 Algebra of Programming research group.  His main research interest is
 in programming methodology - that is, in better languages for writing
