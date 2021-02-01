@@ -31,7 +31,7 @@ cognitive and organizational overhead in project management.
 
 [@raichoo](http://www.twitter.com/raichoo)
 
-raichoo is a co-founder of [`antei.de`](http://antei.de) and has been working
+raichoo is a co-founder of [`antei.de`](https://antei.de) and has been working
 for functional programming languages throughout the past decade. He
 has been involved in contributing to many open source projects, such
 as the Idris programming languages, GHC and others. He's also the
