@@ -4,7 +4,7 @@ active: bob2021
 title: Pipes, Arrows, and the Universe
 speaker: Albert Schimpf
 portrait: albert-schimpf.jpg
-time: 
+time: 15:05–15:50
 type: Vortrag
 language: english
 head: 2021
