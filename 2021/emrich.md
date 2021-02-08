@@ -4,7 +4,7 @@ active: bob2021
 title: Funktionale Domänen-Modellierung in der Praxis
 speaker: Marco Emrich
 portrait: marco-emrich.jpg
-time: 
+time: 11:45–13:15
 type: Tutorial
 language: german
 head: 2021

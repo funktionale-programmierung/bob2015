@@ -4,7 +4,7 @@ active: bob2021
 title: Darcs, because git won
 speaker: Raichoo Ketchum
 portrait: raichoo-ketchum.jpg
-time: 
+time:  11:45–12:30
 type: Vortrag
 language: english
 head: 2021

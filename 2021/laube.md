@@ -4,6 +4,7 @@ active: bob2021
 title: D.A.R.E. more, F.E.A.R. less - Journaling for Tech People
 speaker: Cosima Laube
 portrait: cosima-laube.jpg
+time: 14:15–15:45
 type: Tutorial
 language: english
 head: 2020

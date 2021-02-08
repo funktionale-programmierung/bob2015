@@ -4,7 +4,7 @@ active: bob2021
 title: Theorems for Free
 speaker: Lars Hupel
 portrait: lars-hupel.jpg
-time: 
+time: 10:15–11:00
 type: Vortrag
 language: english
 head: 2021

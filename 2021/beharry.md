@@ -4,7 +4,7 @@ active: bob2021
 title: "Sylvester: computer-based math via F# meta-programming"
 speaker: Allister Beharry
 portrait: allister-beharry.jpg
-time: 
+time:  11:45–13:15
 type: Tutorial
 language: english
 head: 2021
