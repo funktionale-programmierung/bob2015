@@ -4,7 +4,7 @@ active: bob2021
 title: Developing declarative and functional iOS apps with SwiftUI and Combine
 speaker: Max Tharr
 portrait: max-tharr.jpg
-time: 
+time: 14:15–15:45
 type: Tutorial
 language: english
 head: 2021

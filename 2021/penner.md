@@ -4,7 +4,7 @@ active: bob2021
 title: Higher-Kinded Data Types By Example
 speaker: Chris Penner
 portrait: chris-penner.jpg
-time: 
+time: 14:15–15:00
 type: Vortrag
 language: english
 head: 2021
