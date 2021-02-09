@@ -3,7 +3,7 @@
 
 <head><meta charset="utf-8"></head>
 
-# 2nd Call for Participation: BOB 2021 (February 26, online)
+# Final Call for Participation: BOB 2021 (February 26, online)
 
 <hr/>
 
