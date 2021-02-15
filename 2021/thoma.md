@@ -4,7 +4,7 @@ active: bob2021
 title: Guarding your IO Boundaries
 speaker: Franz Thoma
 portrait: franz-thoma.jpg
-time: 
+time: 16:15–17:00
 type: Vortrag
 language: english
 head: 2021

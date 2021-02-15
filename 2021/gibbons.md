@@ -3,6 +3,7 @@ layout: talk
 active: bob2021
 title: "How I Design Programs"
 speaker: Jeremy Gibbons
+time: 09:00-10:05
 type: Vortrag
 language: english
 head: 2021

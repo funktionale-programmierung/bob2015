@@ -4,7 +4,7 @@ active: bob2021
 title: Musical Patterns with TidalCycles 
 speaker: Alexandra Cardenas
 portrait: alexandra-cardenas.jpg
-time: 
+time: 16:15–17:45
 type: Tutorial
 language: english
 head: 2021

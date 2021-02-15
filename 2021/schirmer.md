@@ -4,7 +4,7 @@ active: bob2021
 title: A Firewall for Your Radical Network
 speaker: Stefanie Schirmer
 portrait: stefanie-schirmer.jpg
-time: 
+time: 17:05–17:50
 type: Vortrag
 language: english
 head: 2021

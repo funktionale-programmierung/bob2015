@@ -4,7 +4,7 @@ active: bob2021
 title: "Show case: STG backend for Idris2"
 speaker: Andor Penzes
 portrait: andor-penzes.jpg
-time: 
+time: 17:05–17:50
 type: Vortrag
 language: english
 head: 2021

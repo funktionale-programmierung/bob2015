@@ -4,6 +4,7 @@ active: bob2021
 title: Haskell Bytes – A guided tour through the heap of a Haskell program
 speaker: Joachim Breitner
 portrait: joachim-breitner.jpg
+time: 10:05–11:35
 type: Tutorial
 language: english
 head: 2020

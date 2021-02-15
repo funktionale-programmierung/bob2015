@@ -4,7 +4,7 @@ active: bob2021
 title: React Performance
 speaker: Christoph-Schmalhofer
 portrait: christoph-schmalhofer.jpg
-time: 
+time: 16:15–17:00
 type: Vortrag
 language: german
 head: 2021

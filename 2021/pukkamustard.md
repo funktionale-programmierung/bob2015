@@ -4,7 +4,7 @@ active: bob2021
 title: Logic Programming and Databases
 speaker: pukkamustard
 portrait: pukkamustard.png
-time: 
+time: 12:35–13:20
 type: Vortrag
 language: english
 head: 2021

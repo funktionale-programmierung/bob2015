@@ -4,7 +4,7 @@ active: bob2021
 title: SIMD in higher level programming languages
 speaker: Matthias Wahl
 portrait: matthias-wahl.jpg
-time: 
+time: 14:15–15:00
 type: Vortrag
 language: english
 head: 2021

@@ -4,7 +4,7 @@ active: bob2021
 title: Nach 20 Jahren Agilität - wird Achtsam das neue Agil?
 speaker: Markus Wittwer
 portrait: markus-wittwer.jpg
-time: 
+time: 10:15–11:00
 type: Vortrag
 language: german
 head: 2021

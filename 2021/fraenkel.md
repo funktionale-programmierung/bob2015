@@ -4,7 +4,7 @@ active: bob2021
 title: A gentle introduction to Stream Processing
 speaker: Nicolas Fränkel
 portrait: nicolas-fraenkel.jpg
-time: 
+time: 11:45–12:30
 type: Vortrag
 language: english
 head: 2021

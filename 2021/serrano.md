@@ -4,7 +4,7 @@ active: bob2021
 title: "Servant vs. Mu: A Type-Level Battle"
 speaker: Alejandro Serrano Mena
 portrait: alejandro-serrano.jpg
-time: 
+time: 15:05–15:50
 type: Vortrag
 language: english
 head: 2021
