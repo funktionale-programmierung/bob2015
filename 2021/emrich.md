@@ -2,7 +2,7 @@
 layout: talk
 active: bob2021
 title: Funktionale Domänen-Modellierung in der Praxis
-speaker: Marco Emrich
+speaker: Marco Emrich, Mike Figura
 portrait: marco-emrich.jpg
 time: 11:45–13:15
 type: Tutorial
@@ -50,3 +50,10 @@ Konferenzen und hat mehrere Bücher übers Programmieren
 geschrieben. Wenn er nicht dabei ist, die Softwerkskammer Nürnberg zu
 organisieren, erklärt er vermutlich seinem Sohn, wie man
 Roboterschildkröten programmiert.
+
+### Maik Figura
+
+Maik is an introvert, stammers and loves to give talks. What could
+possibly go wrong? At codecentric AG, Maik helps customers to
+establish Chaos Engineering practices. In his +1 time he’s maintaining
+Chaos Monkey for Spring Boot.
