@@ -26,9 +26,9 @@ enough.
 
 ## Setup
 
-Precise details to follow, but probably not more than GHC and cabal in
-a to be determined version, e.g. installed via ghcup, plus a text
-editor of your choice.
+Instructions can be found here:
+
+[`https://github.com/nomeata/haskell-bytes-bobkonf2021`](https://github.com/nomeata/haskell-bytes-bobkonf2021)
 
 ### Joachim Breitner
 
