@@ -26,6 +26,12 @@ types, and even gracefully deprecate when needed.
 We will work on example which is easy to setup with docker, and
 continue to make modifications to the model to add new features.
 
+### Material
+
+Instructions for running the tutorial code is here:
+
+[`https://github.com/gklijs/bob2021/blob/main/TUTORIAL.md`](https://github.com/gklijs/bob2021/blob/main/TUTORIAL.md)
+
 ### Gerard Klijs
 
 [@GKlijs](http://twitter.com/GKlijs)
