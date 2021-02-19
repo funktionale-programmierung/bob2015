@@ -3,6 +3,7 @@ layout: talk
 active: bob2021
 title: Raspberry Pi, Reflex and Haskell
 speaker: Tristan McLeay
+portrait: tristan-mcleay.jpg
 time: 12:35–13:20
 type: Vortrag
 language: english
