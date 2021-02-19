@@ -17,6 +17,8 @@ difficulties I encountered.
 
 ### Tristan McLeay
 
+[@tmcll](http://www.twitter.com/tmcll)
+
 Tristan is a full stack software developer who has been programming in
 Haskell in his own time for several years. He is from Australia, but
 he and his wife have been living in Germany for about a year.
