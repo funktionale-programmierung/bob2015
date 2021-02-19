@@ -3,6 +3,7 @@ layout: talk
 active: bob2021
 title: Raspberry Pi, Reflex and Haskell
 speaker: Tristan McLeay
+portrait: tristan-mcleay.jpg
 time: 12:35–13:20
 type: Vortrag
 language: english
@@ -16,6 +17,8 @@ interfaces to C libraries, cross compiling with Nix, and some of the
 difficulties I encountered.
 
 ### Tristan McLeay
+
+[@tmcll](http://www.twitter.com/tmcll)
 
 Tristan is a full stack software developer who has been programming in
 Haskell in his own time for several years. He is from Australia, but
