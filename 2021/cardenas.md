@@ -67,7 +67,7 @@ Get in touch if you encounter problems!
 ### TidalCycles Meetup
 
 There'll be a [TidalCycles Meetup](https://www.facebook.com/events/450484782753326/) 
-on February 27 at 6PM
+on February 27 at 7PM MET
 featuring talks by Alex McLean (the creator of Tidal Cycles),
 Alexandra Cardenas, and Will Rinkoff.
 
