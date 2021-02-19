@@ -63,3 +63,14 @@ From there, follow the [installation instructions
 here](https://tidalcycles.org/Installation).
 
 Get in touch if you encounter problems!
+
+### TidalCycles Meetup
+
+There'll be a [TidalCycles Meetup](https://www.facebook.com/events/450484782753326/) 
+on February 27 at 6PM
+featuring talks by Alex McLean (the creator of Tidal Cycles),
+Alexandra Cardenas, and Will Rinkoff.
+
+Talks will be followed by an extended show-and-tell session for
+participants to share their TidalCycles-related work with fellow
+meetup attendees.
