@@ -30,3 +30,33 @@ language: en
 - during the break enter the new links of the moderator (webcam) and speaker (webcam and screenshare) into the ```Q&A``` and ```Talk Announcement``` scenes
 - also update the **names** and **talk title** on the ```Q&A``` scene
 - for the outro integrate Mike's link into your ```Outro``` scene with the same procedure as the ```Welcome``` scene
+
+
+### YouTube Links
+
+#### Live Stream Links
+- ```Talks #1```: https://youtube.com/video/KXULWsntvdA
+- ```Talks #2```: https://youtube.com/video/r1v-WeP_oCw
+
+#### Backup Video Links
+As a backup the videos are already uploaded to YouTube and marked unlisted.
+
+##### Talks #1
+ - Lars Hupel: https://youtu.be/sR1tEk5nTFU
+ - Nicolas Fränkel: https://youtu.be/hv0Ssqqi71A
+ - Johannes Dienst (Ersatz für Tristan McLeay): 
+ - Matthias Wahl: https://youtu.be/2cGhwV_sf14
+ - Albert Schimpf: 
+ - Franz Thoma: 
+ - Stefanie Schirmer: 
+
+##### Talks #2
+ - Markus Wittwer: 
+ - Raichoo Ketchum: 
+ - pukkamustard: https://youtu.be/q88UBpFN_QY
+ - Chris Penner: https://youtu.be/sIqZEmnFer8
+ - Alejandro Serrano Mena: https://youtu.be/BCGrtSEGyTA
+ - Christoph Schmalhofer: 
+ - Andor Penzes: https://youtu.be/WjFIcr2ruYc
+
+ 
