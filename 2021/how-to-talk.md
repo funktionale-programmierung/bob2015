@@ -22,7 +22,7 @@ language: en
   - In the top left enter the room name: ```bob_talks_1``` or ```bob_talks_2```.
   - Enter password: ```bobig_talks_1``` or ```bobig_talks_2```.
 - Select **Join Room with Camera** and follow the on screen dialog.
-- Please join the room ath the beginning of your talk, in case there are any
+- Please join the room at the beginning of your talk, in case there are any
   technical difficulties.
 - The moderator will be also in the room during the talk video streams.
 - Once in the room the moderator and speaker can see and hear each other.
