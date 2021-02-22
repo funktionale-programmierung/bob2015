@@ -35,8 +35,8 @@ language: en
 ### YouTube Links
 
 #### Live Stream Links
-- ```Talks #1```: https://youtube.com/video/KXULWsntvdA
-- ```Talks #2```: https://youtube.com/video/r1v-WeP_oCw
+- ```Talks #1```: https://www.youtube.com/watch?v=KXULWsntvdA
+- ```Talks #2```: https://www.youtube.com/watch?v=r1v-WeP_oCw
 
 #### Backup Video Links
 As a backup the videos are already uploaded to YouTube and marked unlisted.
