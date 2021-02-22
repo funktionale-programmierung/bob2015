@@ -41,6 +41,9 @@ language: en
 #### Backup Video Links
 As a backup the videos are already uploaded to YouTube and marked unlisted.
 
+##### Keynote
+ 
+
 ##### Talks #1
  - Lars Hupel: https://youtu.be/sR1tEk5nTFU
  - Nicolas Fränkel: https://youtu.be/hv0Ssqqi71A
@@ -48,7 +51,7 @@ As a backup the videos are already uploaded to YouTube and marked unlisted.
  - Matthias Wahl: https://youtu.be/2cGhwV_sf14
  - Albert Schimpf: 
  - Franz Thoma: 
- - Stefanie Schirmer: 
+ - Stefanie Schirmer: https://youtu.be/m8D2tigNVcM
 
 ##### Talks #2
  - Markus Wittwer: 
