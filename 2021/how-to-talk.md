@@ -9,10 +9,13 @@ language: en
 
 ### Process
 
-- Moderator will announce your talk.
+- A moderator has been assigned to you, and will contact you via chat
+  early during the day.
+- Be in the room of your talk at least 5 minutes before the talk starts.
+- The moderator will announce your talk.
 - The talk video will play in the live stream.
-- Moderator will collect questions via private Gather chat during your talk.
-- Moderator will relay questions to you in the live Q&A session after your talk.
+- The moderator will collect questions via private Gather chat during your talk.
+- The moderator will relay questions to you in the live Q&A session after your talk.
 
 ### Q&A session: Connect to [obs.ninja](https://obs.ninja) at the beginning of your talk
 
