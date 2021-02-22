@@ -9,6 +9,10 @@ language: en
 
 ### Preparations
 
+- set the YouTube steam key in obs
+  - go to **File** -> **Settings** -> **Stream**
+  - select ```YouTube - RTMP```, ```Primary YouTube ingest server``` and enter the stream key for your room
+  - ask Felix for the stream key for your room
 - create ```obs.ninja``` room for your track
   - room name: ```bob_talks_1``` or ```bob_talks_2```
   - password: ```bobig_talks_1``` or ```bobig_talks_2```
