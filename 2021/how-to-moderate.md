@@ -7,6 +7,10 @@ language: en
 
 ## How to moderate
 
+### Early in the conference
+
+- DM your speakers with a short greeting, informing them you're the moderator.
+
 ### 10 minutes before your session: Connect to [obs.ninja](https://obs.ninja)
 
 - There are two ```obs.ninja``` rooms, one for **talks #1** and one for **talks #2**.
