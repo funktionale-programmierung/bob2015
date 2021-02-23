@@ -4,7 +4,6 @@ active: bob2021
 title: "Lessons Learned: Architekturdokumentation mit arc42"
 speaker: Johannes Dienst
 portrait: johannes-dienst.jpg
-portrait2: ralf-mueller.jpg
 time: 12:35–13:20
 type: Vortrag
 language: german
@@ -14,7 +13,7 @@ head: 2021
 Produktentwicklung ist geprägt von kurzen Iterationszyklen und wird
 darum gerne agil betrieben, wie in meinem Team. Dort wurde die
 vorhandene unstrukturierte Architekturdokumentation in das
-arc42-Template überführt und in einem Wiki abgelegt. Das Template hat
+[arc42](https://arc42.org/)-Template überführt und in einem Wiki abgelegt. Das Template hat
 den Vorteil leichtgewichtig und in sehr vielen Formaten - darunter
 Word, LaTeX und AsciiDoc - verfügbar zu sein. Das nimmt die
 Einstiegshürde und verhindert, dass Architekturdokumentation sich zur
@@ -37,13 +36,3 @@ Architekturentscheidungen.
 Johannes Dienst ist ein Softwarecraftsman aus Leidenschaft bei der DB
 Systel GmbH. Sein Tätigkeitsschwerpunkt liegt im Bereich Content
 Management, DevOps und Softwarequalität.
-
-## Ralf D. Müller
-
-[@ralfdmueller](http://www.twitter.com/ralfdmueller)
-
-Ralf D. Müller ist ambitionierter Groovy-Entwickler und versucht
-stetig, seine Arbeit weiter zu vereinfachen. Deshalb hat er das
-Open-Source-Projekt docToolchain ins Leben gerufen, um den Prozess zur
-Dokumentation eines Softwareprojekts noch einfacher zu gestalten. Er
-arbeitet als Software-Architekt bei der DB Systel GmbH.
