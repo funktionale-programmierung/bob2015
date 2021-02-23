@@ -43,7 +43,7 @@ language: en
 As a backup the videos are already uploaded to YouTube and marked unlisted.
 
 ##### Keynote
- 
+ https://youtu.be/vE1NB8z8ly8
 
 ##### Talks #1
  - Lars Hupel: https://youtu.be/sR1tEk5nTFU
