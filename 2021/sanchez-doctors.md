@@ -39,6 +39,12 @@ This approach is based on combining the main ideas of two books: [How
 to Design Programs](https://htdp.org/) (Felleisen et. al.) , and [Domain Modeling made
 Functional](https://fsharpforfunandprofit.com/books/) (Wlaschin).
 
+### Material
+
+Instructions for running the tutorial code is here:
+
+[`https://github.com/diegosanchez/bob-2021--combining-clojure-spec-with-design-recipes/blob/main/GET_READY.md`](https://github.com/diegosanchez/bob-2021--combining-clojure-spec-with-design-recipes/blob/main/GET_READY.md)
+
 ### Diego Sanchez
 
 [@dsminotauro](http://twitter.com/dsminotauro)
