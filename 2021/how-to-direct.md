@@ -16,6 +16,7 @@ language: en
 - create ```obs.ninja``` room for your track
   - room name: ```bob_talks_1``` or ```bob_talks_2```
   - password: ```bobig_talks_1``` or ```bobig_talks_2```
+- set output to hd ???
 
 ### Introduction, Keynote & Outro
 - are streamed in both rooms
