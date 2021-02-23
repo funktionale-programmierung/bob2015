@@ -41,14 +41,17 @@ language: en
 #### Backup Video Links
 As a backup the videos are already uploaded to YouTube and marked unlisted.
 
+##### Keynote
+ 
+
 ##### Talks #1
  - Lars Hupel: https://youtu.be/sR1tEk5nTFU
  - Nicolas Fränkel: https://youtu.be/hv0Ssqqi71A
  - Johannes Dienst (Ersatz für Tristan McLeay): 
  - Matthias Wahl: https://youtu.be/2cGhwV_sf14
- - Albert Schimpf: 
+ - Albert Schimpf: https://youtu.be/kHkpan4HVtk
  - Franz Thoma: 
- - Stefanie Schirmer: 
+ - Stefanie Schirmer: https://youtu.be/m8D2tigNVcM
 
 ##### Talks #2
  - Markus Wittwer: 
@@ -56,7 +59,7 @@ As a backup the videos are already uploaded to YouTube and marked unlisted.
  - pukkamustard: https://youtu.be/q88UBpFN_QY
  - Chris Penner: https://youtu.be/sIqZEmnFer8
  - Alejandro Serrano Mena: https://youtu.be/BCGrtSEGyTA
- - Christoph Schmalhofer: 
+ - Christoph Schmalhofer: https://youtu.be/zd2giHn7dXQ
  - Andor Penzes: https://youtu.be/WjFIcr2ruYc
 
  
