@@ -52,7 +52,7 @@ As a backup the videos are already uploaded to YouTube and marked unlisted.
  - Matthias Wahl: https://youtu.be/2cGhwV_sf14
  - Albert Schimpf: https://youtu.be/kHkpan4HVtk
  - Franz Thoma: 
- - Stefanie Schirmer: https://youtu.be/m8D2tigNVcM
+ - Stefanie Schirmer: https://youtu.be/Vmw22ewiXio
 
 ##### Talks #2
  - Markus Wittwer: 
