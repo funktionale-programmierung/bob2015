@@ -27,6 +27,7 @@ language: en
 
 ### Before the talk: announce speaker and talk
 
+- Get up on the state so the speaker can find you.
 - Prepare speaker and talk announcement.
 - Announce that the audience can submit questions during the talk by chatting
   via Gather's private chat to you.

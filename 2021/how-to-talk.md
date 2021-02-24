@@ -7,11 +7,25 @@ language: en
 
 ## How to give a talk
 
+### Preparation
+
+- Please try joining OBS Ninja beforehand.
+- Go to [obs.ninja](https://obs.ninja).
+- In the top left corner enter a fantasy room name, click Cancel for
+  password.
+- Confirm camera, audio selection.
+- If you want to show slides or share your screen, click the button
+  with the screen icon (tooltip is "Create a Secondary Stream").
+- You may have to give your browser permission for screen recording:
+  follow the instructions.
+- If there are problems, please get in touch.
+
 ### Process
 
 - A moderator has been assigned to you, and will contact you via chat
   early during the day.
-- Be in the room of your talk at least 5 minutes before the talk starts.
+- Be in the room of your talk at least 5 minutes before the talk
+  starts.  The moderator will be on the stage - go up to them.
 - The moderator will announce your talk.
 - The talk video will play in the live stream.
 - The moderator will collect questions via private Gather chat during your talk.
@@ -26,7 +40,9 @@ language: en
   - Enter password: ```bobig_talks_1``` or ```bobig_talks_2```.
 - Select **Join Room with Camera** and follow the on screen dialog.
 - Please join the room at the beginning of your talk, in case there are any
-  technical difficulties.
+  technical difficulties
+- If you want to show slides or share your screen, click the button
+  with the screen icon in OBS Ninja.  (Tooltip is "Create a Secondary Stream".)
 - The moderator will be also in the room during the talk video streams.
 - Once in the room the moderator and speaker can see and hear each other.
 - They can also talk to the room director.
