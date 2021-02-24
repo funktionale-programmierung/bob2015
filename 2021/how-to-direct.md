@@ -17,7 +17,7 @@ language: en
 - set the YouTube steam key in obs
   - go to **File** -> **Settings** -> **Stream**
   - select ```YouTube - RTMP```, ```Primary YouTube ingest server``` and enter the stream key for your room
-  - ask Felix for the stream key for your room
+  - ask Felix for the stream key for your room / pinned comment in mattermost BOB-Regie
 - set stream qualitiy in obs
   - go to **File** -> **Settings** -> **Video**
   - Set ``Output Scaled Resolution`` to 1280x720
@@ -27,7 +27,7 @@ language: en
   - room name: ```bob_talks_1``` or ```bob_talks_2```
   - password: ```bobig_talks_1``` or ```bobig_talks_2```
   - Screen share your OBS application to the room
-  - Backup directory should also join the room as directors
+  - Backup directors should also join the room as directors
 - schedule
   - Talk #1: [`https://bobkonf.de/2021/program-talk-1.html`](https://bobkonf.de/2021/program-talk-1.html)
   - Talk #2: [`https://bobkonf.de/2021/program-talk-2.html`](https://bobkonf.de/2021/program-talk-2.html)
@@ -40,7 +40,7 @@ language: en
 ### Introduction and Keynote
 
 - are streamed in both rooms
-  FIXME: how does director of **talks #2** get all the links and timings?
+- the director of room **#2** also joins **talks #1**
 - Prepare scene: ```Welcome to BOBKonf```
 - Mike and Stephan join **talks #1** with **video**
 - From **talks #1** copy Mike's link into Mike's source
@@ -66,6 +66,7 @@ language: en
 - Prepare scene: ```Talk Announcement```
 - Moderator joins **obs.ninja room** with **video**
 - From **obs.ninja room** copy moderator's **video** into moderator's source
+- for talk of **Raichoo Ketchum** also insert Raichoo's **video** and **screen sharing** into the **talk** scene
 - Show scene: ```Talk Announcement```
 - Prepare scene: ```Talk```
 - After the moderator's introduction start talk
@@ -80,10 +81,11 @@ language: en
 
 ### Outro
 - streams in both rooms
-  FIXME: how does director of **talks #2** get all the links and timings?
+- director from room **#2** also joins **talks #1**
 - Prepare scene: `Outro`
 - Mike and Stephan join **talks #1** with **video**
 - From **talks #1** copy Mike's link into Mike's source
+- From **talks #1** copy Stephan's link into Stephan's source
 - Show scene: `Outro`
 
 ### YouTube Links
@@ -102,7 +104,7 @@ https://youtu.be/vE1NB8z8ly8
 ##### Talks #1
  - Lars Hupel: https://youtu.be/sR1tEk5nTFU
  - Nicolas Fränkel: https://youtu.be/hv0Ssqqi71A
- - Johannes Dienst (Ersatz für Tristan McLeay): 
+ - Johannes Dienst: 
  - Matthias Wahl: https://youtu.be/2cGhwV_sf14
  - Albert Schimpf: https://youtu.be/kHkpan4HVtk
  - Franz Thoma: 
@@ -110,7 +112,7 @@ https://youtu.be/vE1NB8z8ly8
 
 ##### Talks #2
  - Markus Wittwer: 
- - Raichoo Ketchum: 
+ - Raichoo Ketchum: live
  - pukkamustard: https://youtu.be/q88UBpFN_QY
  - Chris Penner: https://youtu.be/sIqZEmnFer8
  - Alejandro Serrano Mena: https://youtu.be/BCGrtSEGyTA
