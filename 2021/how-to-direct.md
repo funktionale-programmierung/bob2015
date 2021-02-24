@@ -32,6 +32,9 @@ language: en
   - Talk #1: [`https://bobkonf.de/2021/program-talk-1.html`](https://bobkonf.de/2021/program-talk-1.html)
   - Talk #2: [`https://bobkonf.de/2021/program-talk-2.html`](https://bobkonf.de/2021/program-talk-2.html)
 
+### In case of a Problem
+- write in ```BOB-Regie``` so your backup can take control
+
 ### Stream start
 
 - Stream starts 8:30
