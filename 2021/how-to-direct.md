@@ -45,11 +45,11 @@ language: en
 - are streamed in both rooms
 - the director of room **#2** also joins **talks #1**
 - Prepare scene: ```Welcome to BOBKonf```
-- Mike and Stephan join **talks #1** with **video**
+- Mike and Stefan join **talks #1** with **video**
 - From **talks #1** copy Mike's link into Mike's source
-- From **talks #1** copy Stephan's link into Stephan's source
+- From **talks #1** copy Stefan's link into Stefan's source
 - Show scene:  ```Welcome to BOBKonf```
-- Mike and Stephan will welcome everyone and then announce the keynote
+- Mike and Stefan will welcome everyone and then announce the keynote
 - Prepare scene: ```Keynote```
 - when Mike is done with the announcement switch scenes to ```Keynote```
 - Show scene: ```Keynote```
@@ -86,9 +86,9 @@ language: en
 - streams in both rooms
 - director from room **#2** also joins **talks #1**
 - Prepare scene: `Outro`
-- Mike and Stephan join **talks #1** with **video**
+- Mike and Stefan join **talks #1** with **video**
 - From **talks #1** copy Mike's link into Mike's source
-- From **talks #1** copy Stephan's link into Stephan's source
+- From **talks #1** copy Stefan's link into Stefan's source
 - Show scene: `Outro`
 
 ### YouTube Links
