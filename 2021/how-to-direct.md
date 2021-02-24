@@ -7,31 +7,84 @@ language: en
 
 ## How to direct
 
+### Allocation
+
+- **Talks #1**: Felix (Backup: Kaan)
+- **Talks #2**: Raoul (Backup: Marcus)
+
 ### Preparations
 
 - set the YouTube steam key in obs
   - go to **File** -> **Settings** -> **Stream**
   - select ```YouTube - RTMP```, ```Primary YouTube ingest server``` and enter the stream key for your room
   - ask Felix for the stream key for your room
-- create ```obs.ninja``` room for your track
+- set stream qualitiy in obs
+  - go to **File** -> **Settings** -> **Video**
+  - Set ``Output Scaled Resolution`` to 1280x720
+- create [`obs.ninja`](https://obs.ninja) room for your track
+  - https://obs.ninja/?director=bob_talks_1&password=bobig_talks_1
+  - https://obs.ninja/?director=bob_talks_2&password=bobig_talks_2
   - room name: ```bob_talks_1``` or ```bob_talks_2```
   - password: ```bobig_talks_1``` or ```bobig_talks_2```
-- set output to hd ???
+  - Screen share your OBS application to the room
+  - Backup directory should also join the room as directors
+- schedule
+  - Talk #1: [`https://bobkonf.de/2021/program-talk-1.html`](https://bobkonf.de/2021/program-talk-1.html)
+  - Talk #2: [`https://bobkonf.de/2021/program-talk-2.html`](https://bobkonf.de/2021/program-talk-2.html)
 
-### Introduction, Keynote & Outro
+### Stream start
+
+- Stream starts 8:30
+- Show scene: ```Welcome```
+
+### Introduction and Keynote
+
 - are streamed in both rooms
-- Mike will join **talks #1**
-- integrate Mike's link into your ```Welcome to BOBKonf``` scene
-- Mike will welcome everyone and then announce the keynote
+  FIXME: how does director of **talks #2** get all the links and timings?
+- Prepare scene: ```Welcome to BOBKonf```
+- Mike and Stephan join **talks #1** with **video**
+- From **talks #1** copy Mike's link into Mike's source
+- From **talks #1** copy Stephan's link into Stephan's source
+- Show scene:  ```Welcome to BOBKonf```
+- Mike and Stephan will welcome everyone and then announce the keynote
+- Prepare scene: ```Keynote```
 - when Mike is done with the announcement switch scenes to ```Keynote```
-- while the keynote is running integrate **video** and **webcam** ob Jeremy Gibbons into the ```Q&A``` scene
+- Show scene: ```Keynote```
+- Start a local timer to keep track of the end of the talk
+- Prepare scene: ```Q&A```
+- Jeremy joins **talks #1** with **video** and **screen sharing**
+- From **talks #1** copy Jeremy's **video** and **screen sharing** links into
+  the speaker and slides sources of the ```Q&A``` scene
 - give the speaker and moderator a heads up towards the end of the talk
-- tell them when you switch scenes to the ```Q&A``` scene
+- Show scene: ```Q&A```
+- Prepare scene: ```Break```
 - after the ```Q&A``` switch to the appropriate ```Break``` scene
-- during the break enter the new links of the moderator (webcam) and speaker (webcam and screenshare) into the ```Q&A``` and ```Talk Announcement``` scenes
-- also update the **names** and **talk title** on the ```Q&A``` scene
-- for the outro integrate Mike's link into your ```Outro``` scene with the same procedure as the ```Welcome``` scene
+- Show scene: ```Break```
 
+### Every Talk
+
+- Prepare scene: ```Talk Announcement```
+- Moderator joins **obs.ninja room** with **video**
+- From **obs.ninja room** copy moderator's **video** into moderator's source
+- Show scene: ```Talk Announcement```
+- Prepare scene: ```Talk```
+- After the moderator's introduction start talk
+- Show scene: ```Talk```
+- Start a local timer to keep track of the end of the talk
+- Prepare scene: `Q&A`
+- Speaker joins **obs.ninja room** with **video** and **screen sharing**
+- From **obs.ninja room** copy speaker's **video** and **screen sharing** links
+  into the speaker and slides sources of the ```Q&A``` scene
+- Announce end of the talk to speaker and moderator
+- Show scene: `Q&A`
+
+### Outro
+- streams in both rooms
+  FIXME: how does director of **talks #2** get all the links and timings?
+- Prepare scene: `Outro`
+- Mike and Stephan join **talks #1** with **video**
+- From **talks #1** copy Mike's link into Mike's source
+- Show scene: `Outro`
 
 ### YouTube Links
 
@@ -43,8 +96,9 @@ language: en
 As a backup the videos are already uploaded to YouTube and marked unlisted.
 
 ##### Keynote
- https://youtu.be/vE1NB8z8ly8
 
+https://youtu.be/vE1NB8z8ly8
+ 
 ##### Talks #1
  - Lars Hupel: https://youtu.be/sR1tEk5nTFU
  - Nicolas Fränkel: https://youtu.be/hv0Ssqqi71A
@@ -62,5 +116,3 @@ As a backup the videos are already uploaded to YouTube and marked unlisted.
  - Alejandro Serrano Mena: https://youtu.be/BCGrtSEGyTA
  - Christoph Schmalhofer: https://youtu.be/zd2giHn7dXQ
  - Andor Penzes: https://youtu.be/WjFIcr2ruYc
-
- 

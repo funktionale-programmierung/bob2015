@@ -13,11 +13,12 @@ language: en
 
 ### 10 minutes before your session: Connect to [obs.ninja](https://obs.ninja)
 
-- There are two ```obs.ninja``` rooms, one for **talks #1** and one for **talks #2**.
+- There are two [`obs.ninja`](https://obs.ninja) rooms, one for **talks #1** and one for **talks #2**.
 - Join the appropriate room:
-  - Go to [obs.ninja](https://obs.ninja).
-  - In the top left enter the room name: ```bob_talks_1``` or ```bob_talks_2```.
-  - Enter password: ```bobig_talks_1``` or ```bobig_talks_2```.
+  - **Talks #1**: [`https://obs.ninja/?room=bob_talks_1&password=bobig_talks_1`](https://obs.ninja/?room=bob_talks_1&password=bobig_talks_1)
+    (room name ```bob_talks_1```, password ```bobig_talks_1```).
+  - **Talks #2**: [`https://obs.ninja/?room=bob_talks_2&password=bobig_talks_2`](https://obs.ninja/?room=bob_talks_2&password=bobig_talks_2)
+    (room name ```bob_talks_2```, password ```bobig_talks_2```).
 - Select **Join Room with Camera** and follow the on screen dialog.
 - The speaker will be also in the room during the talk video streams.
 - Once in the room the moderator and speaker can see and hear each other.
@@ -27,7 +28,7 @@ language: en
 
 ### Before the talk: announce speaker and talk
 
-- Get up on the state so the speaker can find you.
+- Get up on the stage so the speaker can find you.
 - Prepare speaker and talk announcement.
 - Announce that the audience can submit questions during the talk by chatting
   via Gather's private chat to you.
@@ -36,14 +37,22 @@ language: en
 ### During the talk: 
 
 - Collect questions from audience.
+- Be prepared to ask a question yourself if audience has no questions.
 
 ### After the talk:
 
 - Thank the speaker.
 
 - Relay questions to speaker.
+  - Choose most interesting questions (might be hard).
+  - Choose most asked question.
+  - You can relay the asker's name.
+
+- Even talks that use up their whole slot with the talk video get one or two
+  short questions.
+
+- Keep an eye on the schedule and finish as timely as possible!
 
 - Thank the speaker again.
 
 - Announce what comes up next.
-

@@ -33,16 +33,23 @@ language: en
 
 ### Q&A session: Connect to [obs.ninja](https://obs.ninja) at the beginning of your talk
 
-- There are two ```obs.ninja``` rooms, one for **talks #1** and one for **talks #2**.
+- There are two [`obs.ninja`](https://obs.ninja) rooms, one for **talks #1** and one for **talks #2**.
 - Join the appropriate room:
-  - Go to [obs.ninja](https://obs.ninja).
-  - In the top left enter the room name: ```bob_talks_1``` or ```bob_talks_2```.
-  - Enter password: ```bobig_talks_1``` or ```bobig_talks_2```.
+  - **Talks #1**: [`https://obs.ninja/?room=bob_talks_1&password=bobig_talks_1`](https://obs.ninja/?room=bob_talks_1&password=bobig_talks_1)
+    (room name ```bob_talks_1```, password ```bobig_talks_1```).
+  - **Talks #2**: [`https://obs.ninja/?room=bob_talks_2&password=bobig_talks_2`](https://obs.ninja/?room=bob_talks_2&password=bobig_talks_2)
+    (room name ```bob_talks_2```, password ```bobig_talks_2```).
+- Please use Google Chrome for [`obs.ninja`](https://obs.ninja), this proved to
+  be most stable.
 - Select **Join Room with Camera** and follow the on screen dialog.
 - Please join the room at the beginning of your talk, in case there are any
   technical difficulties
-- If you want to show slides or share your screen, click the button
-  with the screen icon in OBS Ninja.  (Tooltip is "Create a Secondary Stream".)
+- If you want to show slides or share your screen, click the button with the
+  screen icon in OBS Ninja.  (Tooltip is "Create a Secondary Stream".)  We
+  recommand this so that you are able to show your slides in case there are
+  questions that target certain slides.
+- The Q&A session on the live stream will show your camera, the moderator's
+  camera and your screen.
 - The moderator will be also in the room during the talk video streams.
 - Once in the room the moderator and speaker can see and hear each other.
 - They can also talk to the room director.
