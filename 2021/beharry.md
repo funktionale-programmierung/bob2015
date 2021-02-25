@@ -74,6 +74,12 @@ are:
 - Compiling F# quotations to JavaScript and using visualization libraries like JSXGraph
 - Type-safe number-parameterized machine learning using F# type providers and TensorFlow
 
+### Preparation
+
+Clone this repository and follow the instructions there:
+
+[`https://github.com/allisterb/bob2021`](https://github.com/allisterb/bob2021)
+
 ### Allister Beharry
 
 [@allisterbeharry](http://twitter.com/allisterbeharry)
