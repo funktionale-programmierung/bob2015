@@ -107,10 +107,10 @@ https://youtu.be/vE1NB8z8ly8
 ##### Talks #1
  - Lars Hupel: https://youtu.be/sR1tEk5nTFU
  - Nicolas Fränkel: https://youtu.be/hv0Ssqqi71A
- - Johannes Dienst: 
+ - Johannes Dienst: https://youtu.be/GzZJE4ofkL4
  - Matthias Wahl: https://youtu.be/2cGhwV_sf14
  - Albert Schimpf: https://youtu.be/kHkpan4HVtk
- - Franz Thoma: 
+ - Franz Thoma: https://youtu.be/fwA0ZwWHA3U
  - Stefanie Schirmer: https://youtu.be/Vmw22ewiXio
 
 ##### Talks #2
