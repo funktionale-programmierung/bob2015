@@ -45,6 +45,21 @@ show a few examples of typical mistakes people make when they use
 these frameworks and in which parts of the app it might still be safer
 to resort to the conventional frameworks used there.
 
+### Setup
+
+If you want to try to follow coding yourself, you will unfortunately
+only be fully able to do that on MacOS, where you just need to install
+Xcode (from the App Store).
+
+If you want to try around a bit on Linux, follow the steps on
+
+[`https://github.com/SwiftWebUI/SwiftWebUI`](https://github.com/SwiftWebUI/SwiftWebUI)
+
+and have a code editor with Swift syntax highlighting (I would
+recommend VSCode, but Atom, Vim, Emacs, every other code editor
+works.)  If you are using Windows, you’ll need to use Docker or WSL,
+and then follow the Linux steps.
+
 ### Max Tharr
 
 Max is a fullstack developer at Mayflower. He develops mobile and web
