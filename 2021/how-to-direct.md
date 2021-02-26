@@ -108,13 +108,13 @@ https://youtu.be/vE1NB8z8ly8
  - Lars Hupel: https://youtu.be/sR1tEk5nTFU
  - Nicolas Fränkel: https://youtu.be/hv0Ssqqi71A
  - Johannes Dienst: https://youtu.be/GzZJE4ofkL4
- - Matthias Wahl: https://youtu.be/2cGhwV_sf14
+ - Matthias Wahl: https://youtu.be/dk2a6OxQNt0
  - Albert Schimpf: https://youtu.be/kHkpan4HVtk
  - Franz Thoma: https://youtu.be/fwA0ZwWHA3U
  - Stefanie Schirmer: https://youtu.be/Vmw22ewiXio
 
 ##### Talks #2
- - Markus Wittwer: 
+ - Markus Wittwer: https://youtu.be/IYhhfpuHiZc
  - Raichoo Ketchum: live
  - pukkamustard: https://youtu.be/q88UBpFN_QY
  - Chris Penner: https://youtu.be/sIqZEmnFer8
