@@ -29,6 +29,8 @@ leverage journaling techniques for yourself, for teams and for your
 organization. We'll even use our hands, hearts and minds to directly
 try out some of them!
 
+[Notes/Slides](slides/laube.pdf)
+
 ## Cosima Laube
 
 Cosima is an experienced independent coach, consultant and trainer
