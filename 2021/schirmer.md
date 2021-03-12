@@ -8,6 +8,7 @@ time: 17:05–17:50
 type: Vortrag
 language: english
 head: 2021
+slides-file: schirmer.pdf
 ---
 
 QubesOS is probably the most secure operating system right now,

@@ -1,0 +1,92 @@
+.darcs-logo {
+  display: block;
+  width: 8em;
+  height: 8em;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../images/darcs-logo.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.large {
+  font-size: 5rem;
+}
+
+.whatactuallyhappens {
+  font-size: 3rem;
+  text-align: left;
+  width: 100%;
+}
+
+.branches {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+.branch {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mergedirection {
+  font-size: 3rem;
+  vertical-align: middle;
+  align-self: center;
+}
+
+.contributors {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.contributor img {
+  width: 5em;
+  height: 5em;
+}
+
+.pull {
+  width: 5em;
+  margin: 1em auto;
+}
+
+
+.pull .cross {
+  position: relative;
+}
+
+.pull .left {
+  position: absolute;
+  transform: rotate(45deg) scaleY(1.5);
+}
+
+.pull .right {
+  position: absolute;
+  transform: rotate(-45deg) scaleY(1.5);
+}
+
+#-images-hikari-svg-hikari-release-model img {
+  vertical-align: middle;
+  width: 2em;
+}
+
+.block {
+  display: block;
+}
+
+.red {
+  color: red;
+}

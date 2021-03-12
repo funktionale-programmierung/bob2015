@@ -1,0 +1,111 @@
+body {
+  font-family: 'Droid Serif';
+  color: white
+}
+
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+}
+
+.remark-slide-scaler {
+  -webkit-box-shadow: 0 0 0 #888;
+  box-shadow: 0 0 0 #888;
+}
+
+.remark-slides-area {
+  background: #282C34;
+  /* color: #f3f3f3; */
+}
+
+.remark-slide-content {
+  background: #282C34;
+  /* color: #f3f3f3; */
+  text-shadow: 0 0 20px #333;
+}
+
+.remark-code, .remark-inline-code {
+  font-family: 'DejaVu Sans Mono';
+  padding: 0px 3px;
+  text-align: left;
+  width: 70ch;
+}
+
+.remark-code {
+  font-size: 0.8rem;
+}
+
+.remark-inline-code {
+  color: #F92672;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hljs-title {
+  color: #FD971F !important;
+}
+
+.hljs-string {
+  color: #E6DB74 !important;
+}
+
+.hljs-literal {
+  color: #B8E673 !important;
+}
+
+.hljs-number {
+  color: #AE81FF !important;
+}
+
+.hljs-keyword {
+  color: #F92672;
+}
+
+.hljs-meta {
+  color: #C4BE89 !important;
+}
+
+.hljs-meta-string {
+  color: #C4BE89 !important;
+}
+
+.hljs-meta-keyword {
+  color: #C4BE89;
+}
+
+#slide-stacking .slides {
+  font-size: 0.9em;
+  color: black;
+  margin-top: 5em;
+  margin-left: 5em;
+  position: absolute;
+}
+
+blockquote {
+  text-shadow: none;
+  color: black !important;
+  display: block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  font-family: Georgia,serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+  border-left: 15px solid #c76c0c;
+  border-right: 2px solid #c76c0c;
+}

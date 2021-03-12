@@ -8,6 +8,7 @@ time: 14:15–15:45
 type: Tutorial
 language: english
 head: 2020
+slides-file: laube.pdf
 ---
 
 During my career in IT and people development I had several turning
@@ -28,8 +29,6 @@ YES? Then join us to get ready for ACTion and be inspired how to
 leverage journaling techniques for yourself, for teams and for your
 organization. We'll even use our hands, hearts and minds to directly
 try out some of them!
-
-[Notes/Slides](slides/laube.pdf)
 
 ## Cosima Laube
 

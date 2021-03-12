@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>darcs! Becasue git won.
+    </title>
+    <meta charset="utf-8">
+    <style>
+      @import url(./fonts/DroidSerif.css);
+      @import url(./css/style.css);
+      @import url(./css/presentation.css);
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+layout: true
+class: center, middle
+---
+#`darcs`! Because `git` won.
+.darcs-logo[]
+---
+.left-column[
+##Who am I?
+]
+.right-column[
+* 10+ years of Haskell
+* Author of various Open Source Projects
+* Conference Speaker
+* Co-Founder Hackspace ACME Labs in Bielefeld
+* Co-Founder of antei GmbH (antei.de)
+* Twitter: @raichoo
+* E-Mail: raichoo@antei.de
+]
+---
+##What this talk is not
+* "`git` bad! `darcs` good!"
+* A transition guide.
+---
+##`darcs` image
+
+* Dead
+* Slow
+* "Exponential merge!"
+---
+##Everyone knows how to **use** `git`!
+---
+.whatactuallyhappens[
+`$ git commit -am fixes`
+
+`$ git push -f`
+]
+---
+#What's the difference anyway?
+![difference](./images/difference.gif)
+* Let's look at an example where `darcs` supports us in a distributed setting
+---
+<div class="contributors">
+  <div>
+    <img class="contributor" src="./images/bob.svg" />
+    <span>AB</span>
+  </div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/alice.svg" />
+    <span>AC</span>
+  </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/eve.svg" />
+    <span>A</span>
+  </div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/charlie.svg" />
+    <span>A</span>
+  </div>
+</div>
+---
+<div class="contributors">
+  <div>
+    <img class="contributor" src="./images/bob.svg" />
+    <span>AB</span>
+  </div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/alice.svg" />
+    <span>AC</span>
+  </div>
+  <img class="pull" src="./images/arrow.gif" />
+  <div></div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/eve.svg" />
+    <span>AB</span>
+  </div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/charlie.svg" />
+    <span>A</span>
+  </div>
+</div>
+---
+<div class="contributors">
+  <div>
+    <img class="contributor" src="./images/bob.svg" />
+    <span>AB</span>
+  </div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/alice.svg" />
+    <span>AC</span>
+  </div>
+  <div></div>
+  <div class="pull cross">
+    <img class="pull left" src="./images/arrow.gif" />
+  </div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/eve.svg" />
+    <span>ABC</span>
+  </div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/charlie.svg" />
+    <span>A</span>
+  </div>
+</div>
+---
+<div class="contributors">
+  <div>
+    <img class="contributor" src="./images/bob.svg" />
+    <span>AB</span>
+  </div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/alice.svg" />
+    <span>AC</span>
+  </div>
+  <div></div>
+  <div class="pull cross">
+  </div>
+  <img class="pull" src="./images/arrow.gif" />
+  <div>
+    <img class="contributor" src="./images/eve.svg" />
+    <span>ABC</span>
+  </div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/charlie.svg" />
+    <span>AC</span>
+  </div>
+</div>
+---
+<div class="contributors">
+  <div>
+    <img class="contributor" src="./images/bob.svg" />
+    <span>AB</span>
+  </div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/alice.svg" />
+    <span>AC</span>
+  </div>
+  <div></div>
+  <div class="pull cross">
+    <img class="pull right" src="./images/arrow.gif" />
+  </div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/eve.svg" />
+    <span>ABC</span>
+  </div>
+  <div></div>
+  <div>
+    <img class="contributor" src="./images/charlie.svg" />
+    <span>ACB</span>
+  </div>
+</div>
+---
+##`git` example
+.columns[
+.left-column[```
+alice$ git log
+
+commit 3f22f4be53758c128e908d4dac46c93a1df485c1
+Merge: bdf8671 d2134d1
+Author: alice <alice@antei.de>
+Date:   Fri Feb 12 01:10:12 2021 +0100
+
+    Merge Eve's Feature
+
+commit d2134d1038bb889adbf6c425cc4dab01c8270934
+Author: eve <eve@antei.de>
+Date:   Fri Feb 12 01:08:29 2021 +0100
+
+    Eve's Feature
+
+commit bdf867149e0df3adb26e0feb40c48f71236e87c0
+Author: charlie <charlie@antei.de>
+Date:   Fri Feb 12 01:08:13 2021 +0100
+
+    Charlie's Feature
+
+commit 1c207a33a313bdcddaa1e2b5165c183ef2026608
+Author: raichoo <raichoo@antei.de>
+Date:   Fri Feb 12 01:07:11 2021 +0100
+
+    Common starting point
+```]
+
+.right-column[```
+bob$ git log
+
+commit 29d97e1d0cf21dfb1525ece1b7bf5ba32ab2c157
+Merge: d2134d1 bdf8671
+Author: bob <bob@antei.de>
+Date:   Fri Feb 12 01:10:51 2021 +0100
+
+    Merge Charlie's Feature
+
+commit d2134d1038bb889adbf6c425cc4dab01c8270934
+Author: eve <eve@antei.de>
+Date:   Fri Feb 12 01:08:29 2021 +0100
+
+    Eve's Feature
+
+commit bdf867149e0df3adb26e0feb40c48f71236e87c0
+Author: charlie <charlie@antei.de>
+Date:   Fri Feb 12 01:08:13 2021 +0100
+
+    Charlie's Feature
+
+commit 1c207a33a313bdcddaa1e2b5165c183ef2026608
+Author: raichoo <raichoo@antei.de>
+Date:   Fri Feb 12 01:07:11 2021 +0100
+
+    Common starting point
+```]
+]
+---
+#`darcs` Demo
+---
+#For `darcs` a repository is a *Set* of patches.
+---
+#Patch Theory
+![math](./images/use-math.gif)
+---
+##Patch
+.large[
+<math xmlns = "http://www.w3.org/1998/Math/MathML">
+  <mmultiscripts>
+    <mi>A</mi>
+    <none />
+    <mi>a</mi>
+
+    <mprescripts />
+    <none />
+    <mi>o</mi>
+  </mmultiscripts>
+</math>
+]
+---
+##Composition
+<math xmlns = "http://www.w3.org/1998/Math/MathML">
+.large[
+  <mrow>
+    <mmultiscripts>
+      <mi>A</mi>
+      <none />
+      <mi>a</mi>
+
+      <mprescripts />
+      <none />
+      <mi>o</mi>
+    </mmultiscripts>
+    <mmultiscripts>
+      <mi>B</mi>
+      <none />
+      <mi>b</mi>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+  </mrow>
+]
+
+.block[
+  <mrow>
+    <mmultiscripts>
+      <mi>A</mi>
+      <none />
+      <mi>a</mi>
+
+      <mprescripts />
+      <none />
+      <mi>o</mi>
+    </mmultiscripts>
+    <mo>,</mo>
+    <mmultiscripts>
+      <mi>B</mi>
+      <none />
+      <mi>b</mi>
+
+      <mprescripts />
+      <none />
+      <mi>a</mi>
+    </mmultiscripts>
+  </mrow>
+]
+</math>
+---
+##Inverse
+.large[
+<math xmlns = "http://www.w3.org/1998/Math/MathML">
+  <mmultiscripts>
+    <mi>A</mi>
+    <none />
+    <mi>a</mi>
+
+    <mprescripts />
+    <none />
+    <mi>o</mi>
+  </mmultiscripts>
+    <mmultiscripts>
+      <mover>
+        <mi>A</mi>
+        <mo>-</mo>
+      </mover>
+      <none />
+      <mi>o</mi>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+</math>
+]
+---
+##Commutation
+<math xmlns = "http://www.w3.org/1998/Math/MathML">
+  <mrow class="large">
+    <mmultiscripts>
+      <mi>A</mi>
+      <none />
+      <mi>a</mi>
+
+      <mprescripts />
+      <none />
+      <mi>o</mi>
+    </mmultiscripts>
+    <mmultiscripts>
+      <mi>B</mi>
+      <none />
+      <mi>b</mi>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+
+    <mo>↔</mo>
+
+    <mmultiscripts>
+      <mi>B</mi>
+      <mi>1</mi>
+      <msub><mi>b</mi><mi>1</mi></msub>
+
+      <mprescripts />
+      <none />
+      <mi>o</mi>
+    </mmultiscripts>
+    <mmultiscripts>
+      <mi>A</mi>
+      <mi>1</mi>
+      <msub><mi>a</mi><mi>1</mi></msub>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+  </mrow>
+
+  <mrow>
+    <mi>A</mi>
+    <mo>~</mo>
+    <msub><mi>A</mi><mi>1</mi></msub>
+    <mo>,</mo>
+
+    <mi>B</mi>
+    <mo>~</mo>
+    <msub><mi>B</mi><mi>1</mi></msub>
+    <mo>,</mo>
+
+    <mi>b</mi>
+    <mo>=</mo>
+    <msub><mi>a</mi><mi>1</mi></msub>
+  </mrow>
+</math>
+---
+##A Merge
+<math xmlns = "http://www.w3.org/1998/Math/MathML">
+  <mrow class="large">
+    <mmultiscripts>
+      <mi>A</mi>
+      <none />
+      <mi>a</mi>
+
+      <mprescripts />
+      <none />
+      <mi>o</mi>
+    </mmultiscripts>
+    <mmultiscripts>
+      <mi>B</mi>
+      <none />
+      <mi>b</mi>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+
+    <mo>∨</mo>
+
+    <mmultiscripts>
+      <mi>A</mi>
+      <none />
+      <mi>a</mi>
+
+      <mprescripts />
+      <none />
+      <mi>o</mi>
+    </mmultiscripts>
+    <mmultiscripts>
+      <mi>C</mi>
+      <none />
+      <mi>c</mi>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+  </mrow>
+
+  <mrow>
+    <mmultiscripts>
+      <mi>A</mi>
+      <none />
+      <mi>a</mi>
+
+      <mprescripts />
+      <none />
+      <mi>o</mi>
+    </mmultiscripts>
+    <mmultiscripts>
+      <mi>B</mi>
+      <none />
+      <mi>b</mi>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+    <mmultiscripts>
+      <mover>
+        <mi>B</mi>
+          <mo>-</mo>
+      </mover>
+      <none />
+      <mi>a</mi>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+
+    <mo>⇒</mo>
+
+    <mmultiscripts>
+      <mi>A</mi>
+      <none />
+      <mi>a</mi>
+
+      <mprescripts />
+      <none />
+      <mi>o</mi>
+    </mmultiscripts>
+    <mmultiscripts>
+      <mi>B</mi>
+      <none />
+      <mi>b</mi>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+    <mmultiscripts>
+      <mover>
+        <mi>B</mi>
+        <mo>-</mo>
+      </mover>
+      <none />
+      <mi>a</mi>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+    <mmultiscripts>
+      <mi>C</mi>
+      <none />
+      <mi>c</mi>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+
+    <mo>⇒</mo>
+
+    <mmultiscripts>
+      <mi>A</mi>
+      <none />
+      <mi>a</mi>
+
+      <mprescripts />
+      <none />
+      <mi>o</mi>
+    </mmultiscripts>
+    <mmultiscripts>
+      <mi>B</mi>
+      <none />
+      <mi>b</mi>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+    <mmultiscripts>
+      <mi>C</mi>
+      <mi>1</mi>
+      <msub><mi>c</mi><mi>1</mi></msub>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+
+    <mmultiscripts>
+      <mover>
+        <mi>B</mi>
+        <mo>-</mo>
+      </mover>
+      <mi>1</mi>
+      <msub><mi>a</mi><mi>1</mi></msub>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+
+    <mo>⇒</mo>
+
+    <mmultiscripts>
+      <mi>A</mi>
+      <none />
+      <mi>a</mi>
+
+      <mprescripts />
+      <none />
+      <mi>o</mi>
+    </mmultiscripts>
+    <mmultiscripts>
+      <mi>B</mi>
+      <none />
+      <mi>b</mi>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+    <mmultiscripts>
+      <mi>C</mi>
+      <mi>1</mi>
+      <msub><mi>c</mi><mi>1</mi></msub>
+
+      <mprescripts />
+      <none />
+      <none />
+    </mmultiscripts>
+
+  </mrow>
+
+</math>
+
+Merging is **symetric**!
+---
+#Applications of `darcs`
+---
+##![](images/hikari.svg) Hikari Release Model
+<div class="branches">
+  <div class="branch"><div>RELEASE (x.y.<span class="red">z</span>)</div></div>
+  <div class="mergedirection">←</div>
+  <div class="branch"><div>STABLE (x.<span class="red">y</span>.z)</div></div>
+  <div class="mergedirection">←</div>
+  <div class="branch"><div>CURRENT (<span class="red">x</span>.y.z)</div></div>
+</div>
+hikari.acmelabs.space
+---
+##`passveil`
+---
+#Tooling (hub.darcs.net/antei)
+* darcs-gutter
+* darcs-fish
+* darcslab (WIP)
+---
+#Resources
+* `darcs` book https://darcsbook.acmelabs.space
+* Camp Patch Theory https://archives.haskell.org/projects.haskell.org/camp/files/theory.pdf
+---
+#Thank you!
+    </textarea>
+    <script src="./js/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>

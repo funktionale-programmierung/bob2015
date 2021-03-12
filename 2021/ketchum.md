@@ -8,6 +8,7 @@ time:  11:45–12:30
 type: Vortrag
 language: english
 head: 2021
+slides-link: ketchum
 ---
 
 Darcs is one of the oldest distributed version control systems which

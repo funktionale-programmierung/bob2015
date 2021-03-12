@@ -8,6 +8,7 @@ type: Vortrag
 language: english
 head: 2021
 portrait: jeremy-gibbons.jpg
+slides-file: gibbons.pdf
 ---
 
 Functional programming is full of "folk tricks" that seem inscrutable
