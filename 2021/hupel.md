@@ -8,6 +8,7 @@ time: 10:15–11:00
 type: Vortrag
 language: english
 head: 2021
+slides-file: hupel.pdf
 ---
 
 In the typed functional programming communities, there is much talk
