@@ -8,6 +8,7 @@ time: 15:05–15:50
 type: Vortrag
 language: english
 head: 2021
+slides-file: serrano.pdf
 ---
 
 [Servant](https://www.servant.dev/) is a well-known library in the Haskell ecosystem to develop

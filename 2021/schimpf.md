@@ -8,6 +8,7 @@ time: 15:05–15:50
 type: Vortrag
 language: english
 head: 2021
+slides-file: schimpf.pdf
 ---
 
 Data science often involves composing individual tasks to complex

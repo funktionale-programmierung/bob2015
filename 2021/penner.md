@@ -8,6 +8,7 @@ time: 14:15–15:00
 type: Vortrag
 language: english
 head: 2021
+slides-file: penner.pdf
 ---
 
 #### Strongly-typed highly adaptable records 
