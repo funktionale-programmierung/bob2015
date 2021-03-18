@@ -8,6 +8,7 @@ time: 12:35–13:20
 type: Vortrag
 language: german
 head: 2021
+youtube: GzZJE4ofkL4
 ---
 
 Produktentwicklung ist geprägt von kurzen Iterationszyklen und wird
