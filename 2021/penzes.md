@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2021
 slides-file: penzes.pdf
+youtube: WjFIcr2ruYc
 ---
 
 In this talk I am going to show how to combine emerging technologies
