@@ -8,7 +8,8 @@ time: 11:45–12:30
 type: Vortrag
 language: english
 head: 2021
-slides-file:fraenkel.pdf
+slides-file: fraenkel.pdf
+youtube: hv0Ssqqi71A
 ---
 
 While “software is eating the world”, those who are able to best
