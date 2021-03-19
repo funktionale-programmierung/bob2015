@@ -8,6 +8,7 @@ time: 10:15–11:00
 type: Vortrag
 language: german
 head: 2021
+youtube: IYhhfpuHiZc
 ---
 
 Agilität ist die Antwort der Organisation auf Komplexität, Achtsamkeit

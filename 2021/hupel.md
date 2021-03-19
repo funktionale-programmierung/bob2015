@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2021
 slides-file: hupel.pdf
+youtube: sR1tEk5nTFU
 ---
 
 In the typed functional programming communities, there is much talk

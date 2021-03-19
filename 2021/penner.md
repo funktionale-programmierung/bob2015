@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2021
 slides-file: penner.pdf
+youtube: sIqZEmnFer8
 ---
 
 #### Strongly-typed highly adaptable records 

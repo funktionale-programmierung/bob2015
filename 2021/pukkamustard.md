@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2021
 slides-file: pukkamustard.pdf
+youtube: q88UBpFN_QY
 ---
 
 Modern applications deal with vast amounts of data, but also with a

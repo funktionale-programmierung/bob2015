@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2021
 slides-file: schimpf.pdf
+youtube: kHkpan4HVtk
 ---
 
 Data science often involves composing individual tasks to complex

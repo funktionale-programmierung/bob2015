@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2021
 slides-link: https://blog.m7w3.de/simd/
+youtube: dk2a6OxQNt0
 ---
 
 Modern processors support Single Instruction Multiple Data techniques

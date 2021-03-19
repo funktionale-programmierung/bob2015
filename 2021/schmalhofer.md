@@ -8,6 +8,7 @@ time: 16:15–17:00
 type: Vortrag
 language: german
 head: 2021
+youtube: zd2giHn7dXQ
 ---
 
 Reacts deklaratives Programmiermodel ist zumindest seit Hooks elegant
