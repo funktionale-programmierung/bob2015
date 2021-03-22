@@ -8,7 +8,7 @@ time: 17:10-17:55
 type: Vortrag
 language: english
 head: 2017
-slides-link: http://slides.com/benjaminkampmann/bob2017-privacy-first-data-structures#/
+slides-link: /2017/slides/kampmann.html
 youtube: ND1UhSzvgAk
 ---
 
