@@ -9,6 +9,7 @@ type: Vortrag
 language: german
 head: 2021
 youtube: zd2giHn7dXQ
+slides-file: schmalhofer.pdf
 ---
 
 Reacts deklaratives Programmiermodel ist zumindest seit Hooks elegant
