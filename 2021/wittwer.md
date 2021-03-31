@@ -9,6 +9,7 @@ type: Vortrag
 language: german
 head: 2021
 youtube: IYhhfpuHiZc
+slides-file: wittwer.pdf
 ---
 
 Agilität ist die Antwort der Organisation auf Komplexität, Achtsamkeit
