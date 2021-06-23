@@ -8,7 +8,7 @@ time: 12:35–13:20
 type: Vortrag
 language: german
 head: 2021
-youtube: GzZJE4ofkL4
+video: bob2021-lessons-learned-architekturdokumentation-mit-arc42-dienst
 ---
 
 Produktentwicklung ist geprägt von kurzen Iterationszyklen und wird

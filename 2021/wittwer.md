@@ -8,8 +8,8 @@ time: 10:15–11:00
 type: Vortrag
 language: german
 head: 2021
-youtube: IYhhfpuHiZc
 slides-file: wittwer.pdf
+video: bob2021-wird-achtsam-das-neue-agil
 ---
 
 Agilität ist die Antwort der Organisation auf Komplexität, Achtsamkeit

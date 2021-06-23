@@ -9,7 +9,7 @@ type: Vortrag
 language: english
 head: 2021
 slides-file: serrano.pdf
-youtube: BCGrtSEGyTA
+video: bob2021-servant-vs-mu-a-type-level-battle-serrano
 ---
 
 [Servant](https://www.servant.dev/) is a well-known library in the Haskell ecosystem to develop

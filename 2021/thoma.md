@@ -8,7 +8,7 @@ time: 16:15–17:00
 type: Vortrag
 language: english
 head: 2021
-youtube: fwA0ZwWHA3U
+video: bob2021-guarding-your-io-boundaries-thoma
 ---
 
 At the boundaries of our applications, a lot of bad things can

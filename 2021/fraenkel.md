@@ -9,7 +9,7 @@ type: Vortrag
 language: english
 head: 2021
 slides-file: fraenkel.pdf
-youtube: hv0Ssqqi71A
+video: bob2021-a-gentle-introduction-to-stream-processing-fraenkel
 ---
 
 While “software is eating the world”, those who are able to best

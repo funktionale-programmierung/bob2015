@@ -9,7 +9,7 @@ type: Vortrag
 language: english
 head: 2021
 slides-file: hupel.pdf
-youtube: sR1tEk5nTFU
+video: bob2021-theorems-for-free-hupel
 ---
 
 In the typed functional programming communities, there is much talk

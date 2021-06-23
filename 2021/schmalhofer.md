@@ -8,8 +8,8 @@ time: 16:15–17:00
 type: Vortrag
 language: german
 head: 2021
-youtube: zd2giHn7dXQ
 slides-file: schmalhofer.pdf
+video: bob2021-react-performance-schmalhofer
 ---
 
 Reacts deklaratives Programmiermodel ist zumindest seit Hooks elegant

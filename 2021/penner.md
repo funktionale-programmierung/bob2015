@@ -9,7 +9,7 @@ type: Vortrag
 language: english
 head: 2021
 slides-file: penner.pdf
-youtube: sIqZEmnFer8
+video: bob2021-higher-kinded-data-types-by-example-penner
 ---
 
 #### Strongly-typed highly adaptable records 

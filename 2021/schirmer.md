@@ -9,7 +9,7 @@ type: Vortrag
 language: english
 head: 2021
 slides-file: schirmer.pdf
-youtube: Vmw22ewiXio
+video: bob2021-a-firewall-for-your-radical-network-schirmer
 ---
 
 QubesOS is probably the most secure operating system right now,

@@ -9,7 +9,7 @@ type: Vortrag
 language: english
 head: 2021
 slides-file: schimpf.pdf
-youtube: kHkpan4HVtk
+video: bob2021-pipes-arrows-and-the-universe-schimpf
 ---
 
 Data science often involves composing individual tasks to complex
