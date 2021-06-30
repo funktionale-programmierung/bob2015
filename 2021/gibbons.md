@@ -9,7 +9,7 @@ language: english
 head: 2021
 portrait: jeremy-gibbons.jpg
 slides-file: gibbons.pdf
-youtube: vE1NB8z8ly8
+video: bob2021-how-i-design-programs-gibbons
 ---
 
 Functional programming is full of "folk tricks" that seem inscrutable
