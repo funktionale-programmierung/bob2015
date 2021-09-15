@@ -1,0 +1,84 @@
+
+{% if page.language == "de" or page.language == null %}		
+<!-- GERMAN -->
+<div class="header-wrapper header-background-2022">
+    <div class="container">
+        
+    <div class="language">
+        Language
+        <a href="/2022/de" class="selected">Deutsch</a>
+        <a href="/2022/en">English</a>
+    </div>
+    <div class="twitter">
+	      <a class="twitter-follow-button" href="https://twitter.com/BOBKonf">
+	          @BOBKonf folgen</a>
+    </div>
+    <div class="clearfix"></div>
+    <div class="counter">
+        <h3> 11. März, Berlin (*) </h3>
+        <div class="counter-elements">
+            <div class="counter-elem">
+                <div class="value" id="counter2022-elem-days">  </div>
+                <div class="unit"> Tage </div>
+            </div>
+            <div class="counter-elem">
+                <div class="value" id="counter2022-elem-hours"> </div>
+                <div class="unit"> Stunden </div>
+            </div>
+            <div class="counter-elem">
+                <div class="value" id="counter2022-elem-minutes">  </div>
+                <div class="unit"> Minuten </div>
+            </div>
+            <div class="counter-elem">
+                <div class="value" id="counter2022-elem-seconds">  </div>
+                <div class="unit"> Sekunden </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+
+{% else %}
+<!-- ENGLISH -->
+<div class="header-wrapper header-background-2022">
+    <div class="container">
+
+    <div class="language">
+        Language
+        <a href="/2022/de">Deutsch</a>
+        <a href="/2022/en" class="selected">English</a>
+    </div>
+    <div class="twitter">
+	      <a class="twitter-follow-button" href="https://twitter.com/BOBKonf">
+	          Follow @BOBKonf</a>
+    </div>
+    <div class="clearfix"></div>
+    <div class="counter">
+        <h3> 11 March, Berlin (*)</h3>
+        <div class="counter-elements">
+            <div class="counter-elem">
+                <div class="value" id="counter2022-elem-days">  </div>
+                <div class="unit"> Days </div>
+            </div>
+            <div class="counter-elem">
+                <div class="value" id="counter2022-elem-hours"> </div>
+                <div class="unit"> Hours </div>
+            </div>
+            <div class="counter-elem">
+                <div class="value" id="counter2022-elem-minutes">  </div>
+                <div class="unit"> Minutes </div>
+            </div>
+            <div class="counter-elem">
+                <div class="value" id="counter2022-elem-seconds">  </div>
+                <div class="unit"> Seconds </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+{% endif %}
