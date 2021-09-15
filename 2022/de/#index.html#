@@ -1,0 +1,122 @@
+---
+layout: default
+active: bob2021
+title: BOB 2021
+head: 2021
+language: en
+---
+
+{% include head-2021.html %}
+
+<div class="container content">
+    <div class="row">
+        <div class="col-md-9 col-sm-12">
+            <div class="row">
+
+                <div class="col-md-4 col-sm-12 front-page-col pr-lg-5" > <h3> Info </h3> <p> The <a href="cfc.html">Call for Contributions</a> is
+	      open - deadline tba.</p>
+	     
+                    <a class="btn btn-success btn-block d-md-none
+                    mb-5" href="cfc.html"> Call for Contributions</a>
+                </div>
+
+                <div class="col-md-4 col-sm-12 front-page-col pr-lg-5"> <h3> Program </h3>
+		   <p>Our <a href="programmkomitee.html">commitee</a>
+	      consisting of experts from academia and industry will
+	      assemble the program. </p>
+                    <a class="btn btn-success btn-block d-md-none mb-5" href="programmkomitee.html"> PC </a>
+                </div>
+
+                <div class="col-md-4 col-sm-12 front-page-col pr-lg-5" >
+                    <h3> Location </h3>
+                    <p> It is likely that BOB 2021 will be an online conference in order to ensure the health and safety of all attendees. Should the global situation have improved significantly, we will be on site in Berlin. Lohmann & Birkner Health Care Consulting GmbH in Alt-Reinickendorf offers a professional, atmospheric and barrier-free ambience. </p>
+                    <a class="btn btn-success btn-block d-md-none mb-5" href="local.html"> How to find us </a>
+                </div>
+            </div>
+            <div class="row d-none d-md-flex">
+                <!-- we show the buttons as a row for alignment for everything bigger sm  -->
+
+                <div class="col-md-4 pr-lg-5" >
+                    <a class="btn btn-success btn-block"
+                    href="cfc.html"> Call for Contributions</a>
+                </div>
+
+                <div class="col-md-4 pr-lg-5" >
+                    <a class="btn btn-success btn-block" href="programmkomitee.html"> PC </a>
+                </div>
+
+                <div class="col-md-4 pr-lg-5" >
+                    <a class="btn btn-success btn-block" href="location.html"> How to find us </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-12 front-page-col pr-lg-5" >
+            <h3> News </h3>
+	          <p>
+		     <a href="https://www.cs.ox.ac.uk/people/jeremy.gibbons/">Jeremy Gibbons</a> will be our keynote speaker at BOB 2021.
+			    </p>
+        </div>
+    </div>
+</div>
+
+<div class="splash">
+    <div class="top"></div>
+    <div class="content bulb">
+        <div class="container">
+            <div class="bulb-image" ></div>
+            <h2> What happens when we use what's best for a change?</h2>
+            <div class="row">
+                <div class="col-lg-4 short-text">
+                    Are you interested in <b><u>technologies beyond the mainstream</u></b> that are a pleasure to use and effective at getting the job done?
+                </div>
+                <div class="col-lg-8 long-text">
+	                  <p class="p4">BOB is the forum for developers, architects and
+	                      builders to explore and
+	                      discover the best tools available today for building software.
+	                      Our goal is for all participants to leave the conference
+	                      with new ideas to improve development back at the ranch.
+	                  </p>
+	                  <p class="p4">We are committed to
+	                      diversity: We aim at exploring a wide
+	                      range of tools in a welcoming and
+	                      friendly crowd of diverse people.  To
+	                      that end, a number of support options
+	                      for participants from groups
+	                      under-represented in tech are available.
+	                  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom"> </div>
+</div>
+
+<div class="container sponsors">
+    {% include partner2021.html %}
+</div>
+
+
+<div class="splash">
+    <div class="top"></div>
+    <div class="content partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 pb-sm-5 pb-md-0">
+                    <h2> Organized by </h2>
+	                  <a href="http://funktionale-programmierung.de/" target="_blank" class="pr-5"><img src="/images/fp-logo.png" alt="FP"></a>
+	                  <a href="http://www.active-group.de" target="_blank" class="pr-5"><img src="/images/active-group-logo.png" alt="Active Group GmbH"></a>
+	                  <a href="http://www.checkpad.de/" target="_blank" class="pr-5"><img src="/images/factis-research-logo.png" alt="medilyse"></a>
+                </div>
+
+                <div class="col-md-6 col-sm-12 pt-sm-5 pt-md-0">
+                    <h2> Partners </h2>
+                    <a href="http://clojured.de/" target="_blank" class="pr-5"><img src="/images/clojured.png" alt=":clojureD"></a>
+                    <a href="http://www.lambdadays.org/" target="_blank" class="pr-5"><img src="/images/lambda-days-logo.png" alt="Lambda Days"></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
