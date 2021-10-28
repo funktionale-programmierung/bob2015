@@ -1,0 +1,148 @@
+Subject: Call for Contributions: BOB 2022 [11. März, Deadline 6. Dez]
+
+================================================================================
+                         BOB Konferenz 2022
+         "Was passiert, wenn wir einfach mal das Beste nehmen?"
+                  http://bobkonf.de/2022/cfc.html
+                         Berlin, 11. März
+                        Call for Contributions
+                     Deadline: 6. Dezember 2021
+================================================================================
+
+ Sie treiben Software-Entwicklung voran, lösen schwierige Probleme mit
+ Software und sind Innovationen jenseits des Mainstreams gegenüber
+ aufgeschlossen? Auf der BOB treffen Sie auf Menschen, die diese Ziele
+ teilen. Sie lernen die besten Werkzeuge, Technologien und Techniken
+ kennen, die es heute für die Entwicklung moderner Software
+ gibt. Unser Ziel ist, dass Sie die Konferenz mit vielen neuen
+ Erfahrungen verlassen und Verbesserungen für Ihr eigenes
+ Entwicklungsumfeld mit nach Hause nehmen.
+
+Falls Sie unsere Vision teilen, reichen Sie einen Vorschlag für einen
+Talk oder ein Tutorial ein!
+
+Wichtig: Für Vortragende ist die Konferenzteilnahme
+kostenlos. Reisekosten können allerdings nicht erstattet werden. (Für
+Ausnahmen siehe "Referentinnen- und Referenten-Zuschüsse".)
+
+Online oder vor Ort
+-------------------
+
+Wir gehen davon aus, dass die BOB 2022 in Berlin stattfindet. Wenn das
+nicht möglich ist, werden wir sie erfolgreich online organisieren, wie
+schon 2021. In diesem Fall werden wir wahrscheinlich um vorher
+aufgezeichnete Talks bitten, damit am Konferenztag genug Raum für
+Fragen und soziale Interaktionen bleibt. (Natürlich unterstützen wir
+bei der Anfertigung der Aufnahmen.) Tutorials werden in jedem Fall in
+einer Live-Session stattfinden.
+
+Betreuung für Vortragende
+-------------------------
+
+Das Programmkomitee bietet allen Vortragenden sogenanntes Shepherding
+an, also Hilfe bei der Vorbereitung des Vortrags und eine Durchsicht
+der Vortragsfolien. Das heißt:
+
+- Empfehlungen für Struktur und Präsentation
+- Sichtung von Folien
+- Hilfe bei der Aufnahme
+- Sichtung der Aufnahme, wenn zutreffend
+
+Referentinnen- und Referenten-Zuschüsse
+
+Die BOB bietet Referentinnen- und Referenten-Zuschüsse an. Die
+Zuschüsse sollen Gruppen fördern, die bei der BOB bisher
+unterrepräsentiert waren. Dazu gehören insbesondere Frauen, Persons of
+Color und Referenten, die die BOB aus finanziellen Gründen nicht
+besuchen könnten.
+
+Technik
+-------
+
+Wir freuen uns über Beiträge zum Besten, was die Softwaretechnik zu
+bieten hat:
+
+- Funktionale Programmierung
+- Persistente Datenstrukturen und Datenbanken
+- Event-basierte Modellierung und Architektur
+- "fancy types" (dependent types, gradual typing, lineare Typen, ...)
+- Formale Methoden für korrekte und robuste Software
+- Abstraktionen für Nebenläufigkeit und Parallelismus
+- Metaprogrammierung
+- Probabilistische Programmierung
+- Mathematik und Programmierung
+- Kontrollierte Seiteneffekte
+- Programm-Synthese
+- IDEs der nächsten Generation
+- Effektive Abstraktionen für Datenanalytik
+- ... und alles, was es sonst noch an tollen Technologien, Werkzeugen
+  und Techniken jenseits der Mainstream-Programmierung gibt
+
+Die Vorträge sollen den Zuhörern nützliche Informationen für ihren
+Entwickleralltag mitgeben.
+
+Herausforderungen
+-----------------
+
+Außerdem freuen wir uns über Beiträge zu erfolgreichen Ansätzen für
+schwierige Probleme, zum Beispiel:
+
+- Bias in Machine-Learning-Systemen
+- erfolgreiche Digitalisierung in schwierigem Umfeld
+- konsequente Barrierfreiheit
+- Systeme mit kritischen Zuverlässigkeitsanforderungen
+- ökologisch nachhaltige Softareentwicklung
+
+Wir sind besonders an Erfahrungsberichten interessiert.  Des weiteren
+sind auch andere Inhalte denkbar, zum Beispiel:
+
+- Einführungen in technische Hintergründe
+- Überblicke über ein bestimmtes Gebiet
+- Demos und How-Tos
+
+Format
+------
+
+Wir wünschen uns Vorschläge für Vorträge à 45 Minuten (40 Minuten
+Redezeit + 5 Minuten Fragen) sowie für 90-minütige Tutorials mit
+Einführungen für Einsteiger. Die Vorträge können auf Deutsch oder auf
+Englisch gehalten werden.
+
+Zur Einreichung senden Sie uns in der Sprache des Vortrags:
+
+- Einen Abstract von maximal 1500 Zeichen
+- Ihre Kurzbiografie
+- Kontaktinformationen (mindestens E-Mail-Adresse)
+- Eine Liste von 3-5 konkreten Aspekten, die Zuhörende in ihren Alltag mitnehmen können
+- Zusatzmaterialien, d.h. Links zu Webseiten, Blogs, Folien oder Videos vergangener Vorträge
+- Nicht verwirren lassen: eine Einreichung heißt im System Event.
+
+Einreichung hier:
+
+https://bobcfc.active-group.de/en/bob2022/cfp
+
+Organisation
+------------
+
+- Fragen an contact at bobkonf dot de
+- Einsendeschluss: 6. Dezember 2021
+- Benachrichtigung über Annahme: 17. Dezember 2021
+- Programm: 22. Dezember 2021
+
+Programmkomitee
+---------------
+
+(mehr Informationen hier: https://bobkonf.de/2022/programmkomitee.html)
+
+- Matthias Fischmann, Wire
+- Matthias Neubauer, SICK AG
+- Nicole Rauch, Softwareentwicklung und Entwicklungscoaching
+- Michael Sperber, Active Group
+- Stefan Wehr, medilyse
+
+Wissenschaftlicher Beirat:
+
+- Annette Bieniusa, TU Kaiserslautern
+- Torsten Grust, Uni Tübingen
+- Peter Thiemann, Uni Freiburg
+

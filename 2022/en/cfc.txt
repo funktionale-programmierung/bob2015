@@ -1,0 +1,142 @@
+Subject: Call for Contributions: BOB 2022 [March 11, Deadline Dec 6]
+
+================================================================================
+                         BOB Conference 2022
+         "What happens when we use what's best for a change?"
+                  http://bobkonf.de/2022/cfc.html
+                         Berlin, Mar 11
+                        Call for Contributions
+                     Deadline: December 6, 2021
+================================================================================
+
+You are actively engaged in advanced software engineering methods,
+solve ambitious problem with software and are open to cutting-edge
+innovation? Attend this conference, meet people that share your goals,
+and get to know the best software tools and technologies available
+today. We strive to offer a day full of new experiences and
+impressions that you can use to immediately improve your daily life as
+a software developer.
+
+If you share our vision and want to contribute, submit a proposal for
+a talk or tutorial!
+
+NOTE: The conference fee will be waived for presenters. Travel
+expenses will not be covered (for exceptions see "Speaker Grants").
+
+Online or Onsite
+----------------
+
+We expect we'll be able to hold BOB 2022 in Berlin. If that is not
+possible, we'll make BOB a successful online event, like BOB
+2021. Should BOB happen online, we will likely ask for pre-recorded
+talks to make room for questions and social interactions during the
+actual conference day. (Of course, we'll provide assistance making
+those recordings.) Tutorials will likely happen as a live-session.
+
+Shepherding
+-----------
+
+The program committee offers shepherding to all speakers. Shepherding
+provides speakers assistance with preparing their
+sessions. Specifically:
+
+- advice on structure and presentation
+- review of talk slides
+- assistance with recording
+- review of recording, if applicable
+
+Speaker Grants
+--------------
+
+BOB has Speaker Grants available to support speakers from groups
+under-represented in technology. We specifically seek women speakers,
+speakers of color, and speakers who are not able to attend the
+conference for financial reasons.
+
+Topics
+------
+
+We are looking for talks about best-of-breed software technology, e.g.:
+
+- functional programming
+- persistent data structures and databases
+- event-based modelling and architecture
+- "fancy types" (dependent types, gradual typing, linear types, ...)
+- formal methods for correctness and robustness
+- abstractions for concurrency and parallelism
+- metaprogramming
+- probabilistic programming
+- math and programming
+- controlled side effects
+- program synthesis
+- next-generation IDEs
+- effective abstractions for data analytics
+- … everything really that isn’t mainstream, but you think should be.
+
+Presenters should provide the audience with information that is
+practically useful for software developers.
+
+Challenges
+----------
+
+Furthermore, we seek contributions on successful approaches for
+solving hard problems, for example:
+
+- bias in machine-learning systems
+- digital transformation in difficult settings
+- accessibiltity
+- systems with critical reliability requirements
+- ecologically sustainable software development
+
+We're especially interested in experience reports.
+Other topics are also relevant, e.g.:
+
+- introductory talks on technical background
+- overviews of a given field
+- demos and how-tos
+
+Requirements
+------------
+
+We accept proposals for presentations of 45 minutes (40 minutes talk +
+5 minutes questions), as well as 90 minute tutorials for
+beginners. The language of presentation should be either English or
+German.
+
+Your proposal should include (in your presentation language of choice):
+
+- An abstract of max. 1500 characters.
+- A short bio/cv
+- Contact information (including at least email address)
+- A list of 3-5 concrete ideas of how your work can be applied in a developer's daily life
+- additional material (websites, blogs, slides, videos of past presentations, …)
+- Don't be confused: The system calls a submission event.
+
+Organisation
+------------
+
+- Direct questions to contact at bobkonf dot de
+- Proposal deadline: December 6, 2021
+- Notification: December 17, 2021
+- Program: December 22, 2021
+
+Submit here:
+
+https://bobcfc.active-group.de/en/bob2022/cfp
+
+Program Committee
+-----------------
+
+(more information here: https://bobkonf.de/2022/programmkomitee.html)
+
+- Matthias Fischmann, Wire
+- Matthias Neubauer, SICK AG
+- Nicole Rauch, Softwareentwicklung und Entwicklungscoaching
+- Michael Sperber, Active Group
+- Stefan Wehr, Hochschule Offenburg
+
+Scientific Advisory Board
+
+- Annette Bieniusa, TU Kaiserslautern
+- Torsten Grust, Uni Tübingen
+- Peter Thiemann, Uni Freiburg
