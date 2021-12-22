@@ -16,8 +16,12 @@
 
                     </a></li>
 		    
-  <li class="nav-item"><a class="nav-link" href="/2022/de/cfc.html">Call</a></li> 
-		    
+  {% if page.active == "onsite" %}
+                    <li class="nav-item active"><a class="nav-link" href="/2022/de/onsite.html">Vor Ort/Online</a></li>
+                    {% else %}
+                    <li class="nav-item"><a class="nav-link" href="/2022/de/onsite.html">Vor Ort/Online</a></li>
+                    {% endif %} -->
+
                   <!--  <li class="nav-item"><a class="nav-link" href="/2022/de/registration.html">Registrierung</a></li> 
 
                     {% if page.active == "program" %}
@@ -75,8 +79,13 @@
                         <img alt="" src="/images/bob_navigation.png"/>
                     </a></li>
 
-		     <li class="nav-item"><a class="nav-link" href="/2022/en/cfc.html">Call</a></li>
-                 <!--   <li class="nav-item"><a class="nav-link" href="/2022/en/registration.html">Registration</a></li>
+		     {% if page.active == "onsite" %}
+                    <li class="nav-item active"><a class="nav-link" href="/2022/en/onsite.html">Onsite/Online</a></li>
+                    {% else %}
+                    <li class="nav-item"><a class="nav-link" href="/2022/en/onsite.html">Onsite/Online</a></li>
+                    {% endif %} -->
+
+                     <!--   <li class="nav-item"><a class="nav-link" href="/2022/en/registration.html">Registration</a></li>
 
                     {% if page.active == "program" %}
                     <li class="nav-item active"><a class="nav-link" href="/2022/en/program.html">Program</a></li>
