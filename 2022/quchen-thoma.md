@@ -30,7 +30,7 @@ level)
 
 ### David Luposchainsky (quchen)
 
-[@@quch3n](https://twitter.com/quch3n)
+[@quch3n](https://twitter.com/quch3n)
 
 David has been a Haskell enthusiast ever since he (was) stumbled upon
 it in early 2012 as a physics student. After spending a lot of time
