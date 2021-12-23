@@ -20,7 +20,7 @@ allerdings noch fehlt, ist die eigentliche Software, für die man
 üblicherweise den Weg über den betriebssystemeigenen Paket-Manager
 beschreitet.
 
-home-manager ermöglicht es, User-Environments mithilfe der
+[home-manager](https://github.com/nix-community/home-manager) ermöglicht es, User-Environments mithilfe der
 Programmiersprache Nix deklarativ zu beschreiben. Dies betrifft sowohl
 Konfigurationsdateien im Home-Verzeichnis als auch die zugehörigen
 Softwarepakete. Diese Umgebung ist dann mit wenigen Befehlen
