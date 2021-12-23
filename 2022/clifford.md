@@ -21,7 +21,7 @@ last few years.
 
 [@benclifford](https://twitter.com/benclifford)
 
-Most of my professional work has been either with Haskell, and with
-the High Performance Computing. For fun, I program a lot of LEDs. I've
-worked across the world for universities and startups. My guilty
-secret is that I still take a bit of money to program PHP.
+Most of my professional work has been either with Haskell or with High
+Performance Computing. For fun, I program a lot of LEDs. I've worked
+across the world for universities and startups. My guilty secret is
+that I still take a bit of money to program PHP.
