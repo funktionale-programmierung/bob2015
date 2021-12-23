@@ -11,8 +11,11 @@ head: 2022
 ---
 
 Du brauchst ein Tool für Zeitmanagement? - Just use Emacs!
+
 Willst in [insert programming language here] coden? - Just use Emacs!
+
 E-Mails empfangen und versenden? - Just use Emacs!
+
 Texte, Notizen, Bücher, Paper verfassen? - Du ahnst es: Just use
 Emacs! 
 
