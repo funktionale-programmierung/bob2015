@@ -3,6 +3,7 @@ layout: talk
 active: bob2022
 title: "$HOME Improvement mit Nix"
 speaker: Johannes Maier
+portrait: maier.jpg
 time: 
 type: Tutorial
 language: german
