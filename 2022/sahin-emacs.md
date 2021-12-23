@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2022
-title: Just use Emacs
+title: Just use Emacs!
 speaker: Kaan Sahin
 portrait: sahin.jpg
 time: 
@@ -9,8 +9,6 @@ type: Tutorial
 language: german
 head: 2022
 ---
-
-Just use Emacs!
 
 Du brauchst ein Tool für Zeitmanagement? - Just use Emacs!
 Willst in [insert programming language here] coden? - Just use Emacs!
