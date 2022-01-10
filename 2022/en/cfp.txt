@@ -6,9 +6,9 @@ Subject: Call for Participation: BOB 2022 (March 11, Berlin or online)
 	     “What happens if we simply use what’s best?”
 		   March 11, 2022, Berlin or online
 			       0100+UTC
-		       http://bobkonf.de/2022/
+		       https://bobkonf.de/2022/
 
-	   Program: http://bobkonf.de/2022/program.html
+	   Program: https://bobkonf.de/2022/program.html
 
 		Berlin or online? Fill out our survey:
 		 https://bobkonf.de/2022/onsite.html
