@@ -10,8 +10,8 @@ Subject: Call for Participation: BOB 2022 (March 11, Berlin or online)
 	Berlin or onsite? https://bobkonf.de/2022/onsite.html
 ================================================================================
 				   
-BOB conference is a place for developers, architects and decision-makers
-to explore technologies beyond the mainstream in software development,
+BOB conference is a place for developers, architects, and decision-makers
+to explore technologies beyond the mainstream in software development
 and to find the best tools available to software developers today. Our
 goal is for all participants of BOB to return home with new insights
 that enable them to improve their own software development
@@ -29,15 +29,14 @@ Erlang, Nix, and others.
 Derek Dreyer will give the keynote talk.
 
 NOTE: We will decide on January 17 whether BOB 2022 will take place
-on-site in Berlin or online.  We're collecting feedback on the issue
+on-site in Berlin or online. Either way, we are working towards fostering a lively exchange of
+exciting ideas and enabling meaningful social interactions.
+We're collecting feedback on the issue
 here:
 
 https://bobkonf.de/2022/onsite.html
 
-If you're interested in BOB, please take a minute to fill our survey!
+If you're interested in BOB, please take a minute to fill the survey linked above!
 
-Either way, we are working towards fostering lively exchange of
-exciting ideas and enable meaningful social interactions.
-
-Registration will also open on January 17.
+Registration will also open on January 17, once the decision for on-site or online has been made.
 
