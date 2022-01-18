@@ -102,6 +102,15 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
 }
 
+.date {
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+    float: left;
+}
+
 .language a {
     font-weight: 700;
     text-decoration: none;
