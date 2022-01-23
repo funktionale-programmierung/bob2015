@@ -3,7 +3,7 @@
 
 <head><meta charset="utf-8"></head>
 
-# Call for Participation: BOB 2022 (March 11, Berlin or online)
+# Call for Participation: Virtual BOB 2022 (March 11)
 
 <hr/>
 
@@ -15,13 +15,13 @@
 
 ### “What happens if we simply use what’s best?”
 
-## March 11, 2022, Berlin or online (0100+UTC)
+## March 11, 2022, online (0100+UTC)
 
 ## [`https://bobkonf.de/2022/`](https://bobkonf.de/2022/)
 
 ### Program: [`https://bobkonf.de/2022/program.html`](https://bobkonf.de/2022/program.html)
 
-### Berlin or online? Fill out our survey: [`https://bobkonf.de/2022/onsite.html`](https://bobkonf.de/2022/onsite.html)
+### Registration: [`https://bobkonf.de/2022/registration.html`](https://bobkonf.de/2022/registration.html)
 
 <hr/>
 
@@ -43,15 +43,15 @@ Erlang, Nix, and others.
 
 Derek Dreyer will give the keynote talk.
 
-NOTE: We will decide on January 17 whether BOB 2022 will take place
-on-site in Berlin or online. Either way, we are working towards
-fostering a lively exchange of exciting ideas and enabling meaningful
-social interactions.  We're collecting feedback on the issue here:
+Due to COVID-related risks, BOB will take place online, entirely
+within a Gather Town virtual world.  We've placed special emphasis on
+enabling social, casual interaction, in addition to our stellar
+program.
 
-[`https://bobkonf.de/2022/onsite.html`](https://bobkonf.de/2022/onsite.html)
+Registration is open - early bird  student tickets are 5€, regular
+tickets are 10€.  Early-bird discounts apply until February 18.  As
+always, grants are available for members of groups underrepresented in
+tech:
 
-If you're interested in BOB, please take a minute to fill the survey
-linked above!
+[`https://bobkonf.de/2022/registration.html`](https://bobkonf.de/2022/registration.html)
 
-Registration will also open on January 17, once the decision for
-on-site or online has been made.
