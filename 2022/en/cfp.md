@@ -25,7 +25,7 @@
 
 <hr/>
 
-BOB conference is a place for developers, architects and decision-makers
+BOB conference is a place for developers, architects, and decision-makers
 to explore technologies beyond the mainstream in software development,
 and to find the best tools available to software developers today. Our
 goal is for all participants of BOB to return home with new insights
