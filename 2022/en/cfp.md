@@ -48,8 +48,8 @@ within a Gather Town virtual world.  We've placed special emphasis on
 enabling social, casual interaction, in addition to our stellar
 program.
 
-Registration is open - early bird  student tickets are 5€, regular
-tickets are 10€.  Early-bird discounts apply until February 18.  As
+Registration is open - early bird  student tickets are €5, regular
+tickets are €10.  Early-bird discounts apply until February 18.  As
 always, grants are available for members of groups underrepresented in
 tech:
 
