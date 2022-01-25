@@ -3,7 +3,7 @@
 
 <head><meta charset="utf-8"></head>
 
-# Call for Participation: Virtual BOB 2022 (March 11)
+# Call for Participation: Virtual BOB 2022 (March 11, registration open)
 
 <hr/>
 
