@@ -35,7 +35,7 @@ code samples in my prototype RFRP library written in Haskell.
 
 ## Adriaan Leijnse
 
-[@aidlns](http://twitter.com/aidlns)
+[@aidlns](http://twitter.com/aidylns)
 
 
 I'm in love with finding ways to express correct programs as
