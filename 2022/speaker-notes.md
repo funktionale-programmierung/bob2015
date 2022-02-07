@@ -23,7 +23,7 @@ postal delivery address) to `konferenz@bobkonf.de`.
 
 ![Thermos](swag/thermos.jpg){:height="500px"}
 
-### Jogging Pants
+### Jogging Pants (please let us know size!)
 
 ![Jogging pants](swag/jogging-pants.jpg){:height="500px"}
 
