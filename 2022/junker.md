@@ -19,7 +19,7 @@ sowohl die geschäftlichen als auch die technischen Anforderungen
 diskutiert, die zur Wahl dieses Architekturansatzes geführt haben.
 Weiterhin wird ein Ansatz diskutiert, wie event-getriebene
 Architekturen in Übergängen von Legacy-Anwendungen in neue
-Architekturen unterstützen können
+Architekturen unterstützen können.
 
 ### Annegret Junker
 
