@@ -74,6 +74,10 @@ show, a video feed, and a logo.
 - Generally, YouTube is full of OBS tutorials.
   [Here's](https://www.youtube.com/watch?v=zTjVBlnEiNI) one that
   explains the basics.
-  
+
+- Upload the talk to our [upload server](https://kurzlebig.active-group.de/) 
+  using the credentials you should have received, and send the
+  generated link to `konferenz@bobkonf.de`.
+
 - If you encounter any issues, get in touch with
   `michael-sperber@active-group.de`.
