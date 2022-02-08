@@ -4,18 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="BOB Konferenz, Best of Breed Konferenz für Software-Entwickler und Entscheider in der Softwareentwicklung.">
-    <meta name="author" content="Stefan Wehr">
     <meta name="google-site-verification" content="O1jBvQcfJ8Id-HYejjUMhE6LuVrWebMF9rCuME1TgXQ" />
 
     <title>BOB - {{ page.title }}</title>
     {% include head_section.html %}
   </head>
 
+  {% if page.backgroundcolor %}
+  <body style="background-color:{{ page.backgroundcolor }}">
+  {% else %}
   <body>
+  {% endif %}
       <div class="main" >
           {{ content }}
       </div>
   </body>
 
 
-</html>
+,</html>
