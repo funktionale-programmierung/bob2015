@@ -35,9 +35,9 @@ language: en
 
 - There are two [`obs.ninja`](https://obs.ninja) rooms, one for **talks #1** and one for **talks #2**.
 - Join the appropriate room:
-  - **Talks #1**: [`https://obs.ninja/?room=bob_talks_1&password=bobig_talks_1`](https://obs.ninja/?room=bob_talks_1&password=bobig_talks_1)
+  - **Talks #1**: FIXME Felix [`https://obs.ninja/?room=bob_talks_1&password=bobig_talks_1`](https://obs.ninja/?room=bob_talks_1&password=bobig_talks_1)
     (room name ```bob_talks_1```, password ```bobig_talks_1```).
-  - **Talks #2**: [`https://obs.ninja/?room=bob_talks_2&password=bobig_talks_2`](https://obs.ninja/?room=bob_talks_2&password=bobig_talks_2)
+  - **Talks #2**: FIXME Felix [`https://obs.ninja/?room=bob_talks_2&password=bobig_talks_2`](https://obs.ninja/?room=bob_talks_2&password=bobig_talks_2)
     (room name ```bob_talks_2```, password ```bobig_talks_2```).
 - Please use Google Chrome for [`obs.ninja`](https://obs.ninja), this proved to
   be most stable.
