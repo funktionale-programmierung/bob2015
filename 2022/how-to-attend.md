@@ -16,9 +16,8 @@ language: en
 <li>Venue: we will meet in a space hosted on
   <a href="https://gather.town" target="_blank">gather.town</a>. Feel free to check out their walkthrough and familiarise yourself with the site.<br />
 On the day of the conference, allow ~10 minutes for login, setting up your avatar, etc.<br />
-
-<br /><strong>The exact URL will be sent to the e-mail address you used to register for BOB 2022</strong> at some point during the 24 hours
-  before the conference starts, and also appear on this page on <strong>2022-03-11
+<strong>The exact URL will be sent to the e-mail address you used to register for BOB 2022</strong> at some point during the 24 hours
+  before the conference starts. The URL will also appear on this page on <strong>2022-03-11
   08:00 UTC+1</strong>. You will need to sign in with the e-mail address provided when buying your ticket.<br />
 	   <!-- FROM 2021-02-25:
 	   Please use the
