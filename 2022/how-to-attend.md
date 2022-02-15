@@ -26,7 +26,7 @@ e-mail-adress you used to buy your conference ticket to access [our virtual
 conference
 space](https://gather.town/app/rkUetgocVw39X6Mp/BOBkonf2021).)</br>-->
 gather.town works best in Google Chrome or Mozilla Firefox. <strong>We do not recommend using the desktop app at this time.</strong></li>
-<li>A FAQ- and help page for gather explaining features slightly more in depth will be accessible from within the space.</li></ul>
+<li>A FAQ and help page for gather explaining features slightly more in depth will be accessible from within the space.</li></ul>
 
 <h4>FIXME Sibylle Where did Gather get my name?!</h4> 
 <p>We are using the names provided on ticket purchase for the names in gather.
