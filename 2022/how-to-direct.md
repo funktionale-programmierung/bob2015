@@ -22,8 +22,8 @@ language: en
   - go to **File** -> **Settings** -> **Video**
   - Set ``Output Scaled Resolution`` to 1280x720
 - create [`obs.ninja`](https://obs.ninja) room for your track
-  - FIXME Felix https://obs.ninja/?director=bob_talks_1&password=bobig_talks_1
-  - FIXME Felix https://obs.ninja/?director=bob_talks_2&password=bobig_talks_2
+  https://obs.ninja/?director=bob_talks_1&password=bobig_talks_1
+  https://obs.ninja/?director=bob_talks_2&password=bobig_talks_2
   - room name: ```bob_talks_1``` or ```bob_talks_2```
   - password: ```bobig_talks_1``` or ```bobig_talks_2```
   - Screen share your OBS application to the room
@@ -42,8 +42,7 @@ language: en
 
 ### Introduction and Keynote
 
-- are streamed in both rooms
-- the director of room **#2** also joins **talks #1**
+- is only streamed in **talks #1**, in **talks #2** show slide `Talk Derek Dreyer`
 - Prepare scene: ```Welcome to BOBKonf```
 - Mike joins **talks #1** with **video**
 - From **talks #1** copy Mike's link into Mike's source
@@ -54,8 +53,8 @@ language: en
 - Show scene: ```Keynote```
 - Start a local timer to keep track of the end of the talk
 - Prepare scene: ```Q&A```
-- Jeremy joins **talks #1** with **video** and **screen sharing**
-- From **talks #1** copy Jeremy's **video** and **screen sharing** links into
+- Speaker joins **talks #1** with **video** and **screen sharing**
+- From **talks #1** copy Speaker's **video** and **screen sharing** links into
   the speaker and slides sources of the ```Q&A``` scene
 - give the speaker and moderator a heads up towards the end of the talk
 - Show scene: ```Q&A```
@@ -76,21 +75,22 @@ language: en
 - Prepare scene: `Q&A`
 - Speaker joins **obs.ninja room** with **video** and **screen sharing**
 - From **obs.ninja room** copy speaker's **video** and **screen sharing** links
-  into the speaker and slides sources of the ```Q&A``` scene
+  into the speaker and slides sources of the ```Q&A``` scene.
+  Some talks have two speakers, be sure to insert both **video** links into the correct
+  source.
 - Announce end of the talk to speaker and moderator
 - Show scene: `Q&A`
 
 ### Outro
-- streams in both rooms
-- director from room **#2** also joins **talks #1**
+- streams only in **talks #1**, in room **talks #2** show `Outro`
 - Prepare scene: `Outro`
 - Mike joins **talks #1** with **video**
 - From **talks #1** copy Mike's link into Mike's source
 - Show scene: `Outro`
 
-### In case of probolems
+### In case of problems
 
-FIXME Felix
+In case of problems switch to the last scene `Technical Difficulties`
 
 ### Live Stream Links
 
