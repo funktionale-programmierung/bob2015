@@ -22,8 +22,8 @@ language: en
   - go to **File** -> **Settings** -> **Video**
   - Set ``Output Scaled Resolution`` to 1280x720
 - create [`obs.ninja`](https://obs.ninja) room for your track
-  - FIXME Felix https://obs.ninja/?director=bob_talks_1&password=bobig_talks_1
-  - FIXME Felix https://obs.ninja/?director=bob_talks_2&password=bobig_talks_2
+  https://obs.ninja/?director=bob_talks_1&password=bobig_talks_1
+  https://obs.ninja/?director=bob_talks_2&password=bobig_talks_2
   - room name: ```bob_talks_1``` or ```bob_talks_2```
   - password: ```bobig_talks_1``` or ```bobig_talks_2```
   - Screen share your OBS application to the room
