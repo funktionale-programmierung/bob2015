@@ -3,7 +3,7 @@
 
 <head><meta charset="utf-8"></head>
 
-# Call for Participation: Virtual BOB 2022 (March 11, registration open)
+# 2nd Call for Participation: Virtual BOB 2022 (March 11)
 
 <hr/>
 
@@ -48,10 +48,9 @@ within a Gather Town virtual world.  We've placed special emphasis on
 enabling social, casual interaction, in addition to our stellar
 program.
 
-Registration is open - early bird  student tickets are €5, regular
-tickets are €10.  Early-bird discounts apply until February 18.  As
-always, grants are available for members of groups underrepresented in
-tech:
+Registration is open - student tickets are €10, regular tickets are
+€30.  As always, grants are available for members of groups
+underrepresented in tech:
 
 [`https://bobkonf.de/2022/registration.html`](https://bobkonf.de/2022/registration.html)
 
