@@ -88,7 +88,7 @@ language: en
 - From **talks #1** copy Mike's link into Mike's source
 - Show scene: `Outro`
 
-### In case of probolems
+### In case of problems
 
 FIXME Felix
 
