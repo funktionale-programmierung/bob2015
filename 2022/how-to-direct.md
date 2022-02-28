@@ -117,3 +117,6 @@ FIXME Felix
 
 - Joachim Breitner - Specification-driven design
   https://www.youtube.com/watch?v=_YyCUiBgEJQ
+
+- Laura M Castro, Brujo - Detecting Oxbow Code in Erlang
+  https://www.youtube.com/watch?v=ipV8zpAb0y0
