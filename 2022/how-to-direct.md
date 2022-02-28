@@ -115,4 +115,5 @@ FIXME Felix
 
 ##### Talks #2
 
-FIXME Felix
+- Joachim Breitner - Specification-driven design
+  https://www.youtube.com/watch?v=_YyCUiBgEJQ
