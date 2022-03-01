@@ -26,7 +26,7 @@ language: en
   <ol>
 	       <li><strong>FIXME Sibylle Your Name</strong> as provided on your Ticket</li>
 	       <li><strong>Your status message</strong>: pronouns & other relevant info go here.</li>
-	       <li><strong>Emoji</strong> You can set an emoji to be permanently displayed next to your name in the participant list. To remove, click the "x" that appears when modifying status message.</li>
+	       <li><strong>Emoji</strong> You can set an emoji to be permanently displayed next to your name in the participant list. To remove, click the "x" that appears when modifying the status message.</li>
 	       <li><strong>User/Video Preferences</strong>: fiddle with these if you're having performance issues. Also accessible via CTRL/CMD P or Fig. 2, c.</li>
 	       <li><strong>Turn on Quiet Mode</strong>: to listen to talks in relative quiet, or reduce the overall input from the people around you. You will only be able to interact with people within 1 tile's distance, i.e. directly next to you in 8 directions (normal interaction distance is 5 tiles in every direction).</li>
 	       <li><strong>Reset Position</strong> brings you back to the landing point of the room you're currently in.</li>
