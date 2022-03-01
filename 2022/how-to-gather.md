@@ -14,9 +14,9 @@ language: en
 	   <p> You're here, so you've signed into gather successfully. What now?</p>
  <h5>The basics</h5>
 	     <ul><li>You can search this page with the keys that activate "search on page" in your browser – usually ctrl/cmd+f.</li>
-	       <li>Set up your Avatar to your liking: click on the little avatar in the bar in the bottom of the page (shows "Change Character" on mouseover). You'll see the menu in fig. 1 pop up.<br/>"Character" changes the overall look + skin tone, "shirt" changes shirt- and hair colour.</li>
+	       <li>Set up your Avatar to your liking: click on the little avatar in the bar in the bottom of the page (shows "Change Character" on mouseover). You'll see the menu in Fig. 1 pop up.<br/>"Character" changes the overall look + skin tone, "shirt" changes shirt- and hair colour.</li>
 <li>Moving around: use <strong>wasd</strong> or <strong>arrow</strong> keys to move around. <strong>x</strong> lets you interact with select items that light up with a yellow indicator when you are near them. Press and hold <strong>g</strong> to activate "ghost mode" and walk through & past other participants – your avatar will become translucent, and you cannot participate in conversations in ghost mode.</li>
-	       <li>Optional: use your status info to share your pronouns or other info others should have about you. It will be visible to others underneath your name in the Participants menu on the left (fig. 2, b)</li>
+	       <li>Optional: use your status info to share your pronouns or other info others should have about you. It will be visible to others underneath your name in the Participants menu on the left (Fig. 2, b)</li>
 	     </ul>
 
 	    
@@ -44,7 +44,7 @@ language: en
   <ol type="a">
     <li><strong>Search</strong> for other participants here</li>
     <li><strong>Participant list</strong> – this is currently the only user in this space.</li>
-    <li><strong>User/Video Preferences</strong> – same settings as in fig. 1, 4.</li>
+    <li><strong>User/Video Preferences</strong> – same settings as in Fig. 1, 4.</li>
     <li><strong>Build</strong> (not enabled for participants)</li>
     <li><strong>Calendar</strong> - see all upcoming and current talks and tutorials at a glance</li>
     <li><strong>Chat</strong> - text chat that'll let you share with everyone in the entire space (not just your room), or "nearby" which will be visible only to you and those within talking distance.</li>
@@ -56,7 +56,7 @@ language: en
 
 <h5>Figure 3: special actions</h5>
 <p><img src="/images/gatherfig3.png" width="247" height="212"><br/>
-  This is a menu that pops up on right-click on a participant's name in the participant list (fig. 2, b)
+  This is a menu that pops up on right-click on a participant's name in the participant list (Fig. 2, b)
   <ul>
     <li><strong>Send Friend Request</strong> – what it says on the tin, doesn't seem to do much though.</li>
     <li><strong>Message …</strong> – send a private message</li>
