@@ -7,13 +7,13 @@ language: en
 
 ## How to give a talk
 
-### Preparation
+### Preparation/Testing
 
 - Please try joining VDO Ninja beforehand.
 - Go to [vdo.ninja](https://vdo.ninja).
 - In the top left corner enter a fantasy room name, click Cancel for
   password.
-- Confirm camera, audio selection.
+- Click on **Join Room with Camera** and confirm camera and audio selection.
 - If you want to show slides or share your screen, click the button
   with the screen icon (tooltip is "Create a Secondary Stream").
 - You may have to give your browser permission for screen recording:
@@ -24,7 +24,7 @@ language: en
 
 - A moderator has been assigned to you, and will contact you via chat
   early during the day.
-- Be in the room of your talk at least 5 minutes before the talk
+- Be in the Gather room of your talk at least 5 minutes before the talk
   starts. The moderator will be on the stage - go up to them.
 - The moderator will announce your talk.
 - The talk video will play in the live stream.
@@ -42,7 +42,7 @@ language: en
 - Please use Google Chrome for [`vdo.ninja`](https://vdo.ninja), this proved to
   be most stable.
 - Select **Join Room with Camera** and follow the on screen dialog.
-- Please join the room at the beginning of your talk, in case there are any
+- Please join the vdo.ninja room at the beginning of your talk, in case there are any
   technical difficulties
 - If you want to show slides or share your screen, click the button with the
   screen icon in VDO Ninja.  (Tooltip is "Create a Secondary Stream".)  We
