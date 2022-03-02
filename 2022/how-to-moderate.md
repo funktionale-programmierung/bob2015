@@ -11,13 +11,13 @@ language: en
 
 - DM your speakers with a short greeting, informing them you're the moderator.
 
-### 10 minutes before your session: Connect to [obs.ninja](https://obs.ninja)
+### 10 minutes before your session: Connect to [vdo.ninja](https://vdo.ninja)
 
-- There are two [`obs.ninja`](https://obs.ninja) rooms, one for **talks #1** and one for **talks #2**.
-- Join the appropriate room: FIXME Felix
-  - **Talks #1**: [`https://obs.ninja/?room=bob_talks_1&password=bobig_talks_1`](https://obs.ninja/?room=bob_talks_1&password=bobig_talks_1)
+- There are two [`vdo.ninja`](https://vdo.ninja) rooms, one for **talks #1** and one for **talks #2**.
+- Join the appropriate room:
+  - **Talks #1**: [`https://vdo.ninja/?room=bob_talks_1&password=bobig_talks_1`](https://vdo.ninja/?room=bob_talks_1&password=bobig_talks_1)
     (room name ```bob_talks_1```, password ```bobig_talks_1```).
-  - **Talks #2**: [`https://obs.ninja/?room=bob_talks_2&password=bobig_talks_2`](https://obs.ninja/?room=bob_talks_2&password=bobig_talks_2)
+  - **Talks #2**: [`https://vdo.ninja/?room=bob_talks_2&password=bobig_talks_2`](https://vdo.ninja/?room=bob_talks_2&password=bobig_talks_2)
     (room name ```bob_talks_2```, password ```bobig_talks_2```).
 - Select **Join Room with Camera** and follow the on screen dialog.
 - The speaker will be also in the room during the talk video streams.
