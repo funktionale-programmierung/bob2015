@@ -28,13 +28,13 @@ somewhat fluent with simple types, pattern matching, function
 application and composition, basic `IO` and `do`-notation. ["Learn you
 a haskell"](http://learnyouahaskell.com/)-level should be sufficient.
 
-<div style="font-size: 20px; line-height: 27px;">
+<div style="font-size: 20px; line-height: 27px; padding: 24px; color:white; background: black; font-weight: bold">
 To prepare for the workshop, you should have a working `stack` setup.
 To install `stack`, follow the instructions on
-https://docs.haskellstack.org/en/stable/README/. To make sure
+<a href="https://docs.haskellstack.org/en/stable/README/">docs.haskellstack.org</a>. To make sure
 everything is working, clone
-[github.com/quchen/generative-art](https://github.com/quchen/generative-art),
-and run `stack build`. This will take some time the first time you run
+<a href="https://github.com/quchen/generative-art">github.com/quchen/generative-art</a>,
+and run `stack build --haddock`. This will take some time the first time you run
 it for compiling all the dependencies, so we recommend doing it once
 before the workshop!
 </div>
