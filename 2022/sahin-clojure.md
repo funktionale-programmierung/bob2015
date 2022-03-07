@@ -35,13 +35,13 @@ auch "nur" zuschauen ist natürlich in Ordnung. Wer mitmachen möchte,
 kann
 
 - live im Browser entwickeln unter
-  https://www.tutorialspoint.com/execute_clojure_online.php oder
-- Clojure installieren
-  https://clojure.org/guides/getting_started und dann mit beliebigem
-  Texteditor und Terminal arbeiten oder
+  <https://www.tutorialspoint.com/execute_clojure_online.php> oder
+- Clojure installieren <https://clojure.org/guides/getting_started>
+  und dann mit beliebigem Texteditor und Terminal arbeiten oder
 - eine ganze Entwicklungsumgebung benutzen:
-  - Cursive: https://cursive-ide.com/
-  - Emacs + clojure-mode + CIDER: https://www.gnu.org/software/emacs/
+  - Cursive: <https://cursive-ide.com/>
+  - Emacs + clojure-mode + CIDER:
+    <https://www.gnu.org/software/emacs/>
 
 ### Kaan Sahin
 
