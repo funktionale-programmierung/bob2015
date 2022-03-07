@@ -7,7 +7,7 @@ language: en
 
 ## How to record a talk
 
-For your BOB talk, we'll need to you to provide a pre-recorded video.
+For your BOB talk, we'll need you to provide a pre-recorded video.
 If you have a working setup that you like, you can use that, as long
 as it provides reasonable output in a reasonably standard format.
 
@@ -37,7 +37,7 @@ show, a video feed, and a logo.
   
 - At the bottom, there's an Audio Mixer.  Make sure it receives the
   audio from your microphone.  If not, you neeed to add an audio
-  source.  To to that, click the `+` button in the `Sources` window in
+  source.  To do that, click the `+` button in the `Sources` window in
   the bottom row, select `Audio Input Capture`, select `Create new`,
   and give it a name.  In the next screen, you can (hopefully) select
   your audio device.

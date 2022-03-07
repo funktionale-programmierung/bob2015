@@ -27,6 +27,47 @@ und sealed traits erweitert mit Product with Serializable verloren
 waren. Für Teilnehmer ohne Scala-2-Erfahrung gibt es zu Beginn in
 Windeseile einen kleinen Syntax-Crashkurs.
 
+
+### Vorbereitung
+
+Alle Teilnehmenden sollen aktiv mitprogrammieren und werden während
+des Tutorials auch regelmäßig dazu animiniert - es sollte niemand auf
+der Strecke bleiben. Damit wir sofort beginnen können, sollten alle
+eine fertige Umgebung parat haben, um Scala 3 programmieren und Code
+ausführen zu können.
+
+Das Tutorial wird in VS Code abgehalten, aber natürlich dürfen auch
+andere Editoren verwendet werden. Auto-Vervollständigung ist
+allerdings sehr hilfreich. Daher die folgenden Einstiegspunkte,
+um ein funktionierendes Setup hinzubekommen:
+
+1. **Scala 3 installieren**
+
+   <https://docs.scala-lang.org/scala3/getting-started.html>
+   
+   Zusammenfassung:
+   
+   - `cs setup` ausführen
+   - `sbt new scala/scala3.g8` ausführen und "hello-world" als Name
+     eingeben
+   - Zur Überprüfung `sbt run` im erzeugten Verzeichnis eingeben
+
+     .
+
+2. **VS Code installieren**
+
+    <https://code.visualstudio.com/download>
+
+   Zusammenfassung:
+   
+   - VS Code herunterladen und installieren
+   - Die Erweiterung
+     [Scala Metals](https://marketplace.visualstudio.com/items?itemName=scalameta.metals) installieren
+   - Zum Überprüfen "hello-world"-Beispielprojekt über "File -> Open
+     Folder" öffnen
+     
+
+
 ### Simon Härer
 
 Simon Härer ist Softwarearchitekt bei der Active Group GmbH. Sein

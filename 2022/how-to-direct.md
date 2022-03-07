@@ -14,16 +14,16 @@ language: en
 
 ### Preparations
 
-- set the YouTube steam key in obs
+- set the YouTube steam key in vdo
   - go to **File** -> **Settings** -> **Stream**
   - select ```YouTube - RTMP```, ```Primary YouTube ingest server``` and enter the stream key for your room
   - ask Felix for the stream key for your room / pinned comment in mattermost BOB-Regie
-- set stream qualitiy in obs
+- set stream qualitiy in vdo
   - go to **File** -> **Settings** -> **Video**
   - Set ``Output Scaled Resolution`` to 1280x720
-- create [`obs.ninja`](https://obs.ninja) room for your track
-  https://obs.ninja/?director=bob_talks_1&password=bobig_talks_1
-  https://obs.ninja/?director=bob_talks_2&password=bobig_talks_2
+- create [`vdo.ninja`](https://vdo.ninja) room for your track
+  https://vdo.ninja/?director=bob_talks_1&password=bobig_talks_1
+  https://vdo.ninja/?director=bob_talks_2&password=bobig_talks_2
   - room name: ```bob_talks_1``` or ```bob_talks_2```
   - password: ```bobig_talks_1``` or ```bobig_talks_2```
   - Screen share your OBS application to the room
@@ -65,16 +65,16 @@ language: en
 ### Every Talk
 
 - Prepare scene: ```Talk Announcement```
-- Moderator joins **obs.ninja room** with **video**
-- From **obs.ninja room** copy moderator's **video** into moderator's source
+- Moderator joins **vdo.ninja room** with **video**
+- From **vdo.ninja room** copy moderator's **video** into moderator's source
 - Show scene: ```Talk Announcement```
 - Prepare scene: ```Talk```
 - After the moderator's introduction start talk
 - Show scene: ```Talk```
 - Start a local timer to keep track of the end of the talk
 - Prepare scene: `Q&A`
-- Speaker joins **obs.ninja room** with **video** and **screen sharing**
-- From **obs.ninja room** copy speaker's **video** and **screen sharing** links
+- Speaker joins **vdo.ninja room** with **video** and **screen sharing**
+- From **vdo.ninja room** copy speaker's **video** and **screen sharing** links
   into the speaker and slides sources of the ```Q&A``` scene.
   Some talks have two speakers, be sure to insert both **video** links into the correct
   source.
