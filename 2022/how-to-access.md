@@ -7,10 +7,10 @@ language: en
 
 ## How to give space access
 
-- Gahter space is configured as guest-list access only.
-- Participants will have to sign into Gather with the email address provided during registration via [ti.to](ti.to) (can be changed there, too).
+- Gather space is configured as guest-list access only.
+- Participants will have to sign into Gather with the email address provided during registration via [ti.to](https://ti.to/) (can be changed there, too).
 - Use [`tito2gather`](https://gitlab.active-group.de/ag/bob/-/tree/master/tito2gather) to convert
-  the participants list that we manage via [ti.to](ti.to) to a CSV file in the
+  the participants list that we manage via [ti.to](https://ti.to/) to a CSV file in the
   format that Gather needs for access control.
 - Staff and speaker are managed outside ti.to in two CSV files: `staff.csv` and `speaker.csv`.
 - Generate the all-participants guest list `gather.cvs` (`./staff+speaker+tito2gather <path-to-tito-csv-export-file>`).
