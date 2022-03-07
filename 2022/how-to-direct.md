@@ -10,7 +10,8 @@ language: en
 ### Setup
 
 checkout the git repo: ```ssh://git@gitlab.active-group.de:1022/ag/bob.git```
-
+run the script `setup.sh` in the directory `obs`
+e.g. `./setup.sh <ldap-name>`
 
 ### Allocation
 
