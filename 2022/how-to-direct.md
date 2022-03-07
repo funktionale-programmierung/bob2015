@@ -7,6 +7,11 @@ language: en
 
 ## How to direct
 
+### Setup
+
+checkout the git repo: ```ssh://git@gitlab.active-group.de:1022/ag/bob.git```
+
+
 ### Allocation
 
 - **Talks #1**: Felix (Backup: Heli)
@@ -22,7 +27,7 @@ language: en
   - go to **File** -> **Settings** -> **Video**
   - Set ``Output Scaled Resolution`` to 1280x720
 - create [`vdo.ninja`](https://vdo.ninja) room for your track
-  https://vdo.ninja/?director=bob_talks_1&password=bobig_talks_1
+  https://vdo.ninja/?director=bob_talks_1&password=bobig_talks_1&codirector=bobig123
   https://vdo.ninja/?director=bob_talks_2&password=bobig_talks_2
   - room name: ```bob_talks_1``` or ```bob_talks_2```
   - password: ```bobig_talks_1``` or ```bobig_talks_2```
@@ -111,7 +116,20 @@ FIXME Felix
  
 ##### Talks #1
 
-FIXME Felix
+- Michael Sperber - Event Sourcing without Responsibility
+  https://www.youtube.com/watch?v=7nDAazdGozY
+
+- Annegret Junker - Event-getriebene Architekturen
+  https://www.youtube.com/watch?v=Xq6BD-4xsLs
+
+- Tim Digel - Infrastructure as Code
+  https://www.youtube.com/watch?v=8V1-mq-pAC8
+
+- Gernot Strake - Tiger kommt: Weglaufen!
+  https://www.youtube.com/watch?v=hW3IxjnHnAs
+
+- Ben Clifford - Python Gradual Typing
+  https://www.youtube.com/watch?v=1ssiBVOzCBk
 
 ##### Talks #2
 
