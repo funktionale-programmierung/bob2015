@@ -98,6 +98,18 @@ e.g. `./setup.sh <ldap-name>`
 
 In case of problems switch to the last scene `Technical Difficulties`
 
+
+### In case of stream failure
+
+If a stream fails, the backup director selects the `Technical Difficulties` scene
+and then starts streaming.
+Recreate the last state from the stream and switch it live.
+In case the stream fails during a talk, you can edit the properties of
+the video source be double clicking the source.
+Deselect the checkbox `Restart playback when source becomes active` and save by clicking `Ok`.
+Then you can scrub through the video to the point where the stream failed.
+
+
 ### Live Stream Links
 
 #### Youtube
