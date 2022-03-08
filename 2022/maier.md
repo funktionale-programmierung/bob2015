@@ -35,6 +35,16 @@ das komplexe Tooling in diesem Bereich vereinheitlicht.
 Die Teilnehmer:innen können Wünsche äußern, welche weiteren Programme
 aufgenommen werden sollen.
 
+### Vorbereitung
+
+Wer nebenbei ein bisschen mitexperimentieren möchte, benötigt
+funktionierende Installationen von Nix und home-manager (prinzipiell
+mindestes auf Linux, macOS und auch WSL2 möglich). Anleitungen dazu
+findet ihr hier:
+
+- [Nix](https://nixos.org/download.html#download-nix)
+- [Home-Manager](https://nix-community.github.io/home-manager/index.html#sec-install-standalone)
+
 ### Johannes Maier
 
 [@kenran__](https://twitter.com/kenran__)
