@@ -21,10 +21,15 @@ reasonably efficient code. In the tutorial, we are introducing the
 language constructs of Typed Template Haskell and will look at several
 examples of how it can be used in practice.
 
-Basic familiarity with Haskell is helpful for following this
-tutorial. No previous knowledge of Template Haskell or Typed Template
-Haskell is needed, nor is experience with metaprogramming or
-familiarity with any Haskell type system extensions.
+The tutorial will consist of a significant amount of demonstration and
+discussion, but there will also be small tasks/exercises that you can
+try to solve yourself either during or after the tutorial. I will be
+using ghc 9.2.1 for this tutorial (9.2.2 should also work). The
+interface of Typed Template Haskell changed between recent versions of
+GHC, so using older versions of GHC should in principle work, but may
+require some ad-hoc adaptations. Some examples may require simple
+additional package dependencies such as e.g. containers, but nothing
+that would be difficult to install on the fly.
 
 ### Andres Löh
 
