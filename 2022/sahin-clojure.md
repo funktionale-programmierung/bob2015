@@ -4,7 +4,7 @@ active: bob2022
 title: Makros in Clojure
 speaker: Kaan Sahin
 portrait: sahin.jpg
-time: 
+time: 10:05-11:35
 type: Tutorial
 language: german
 head: 2022

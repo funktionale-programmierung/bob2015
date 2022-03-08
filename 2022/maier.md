@@ -4,7 +4,7 @@ active: bob2022
 title: "$HOME Improvement mit Nix"
 speaker: Johannes Maier
 portrait: maier.jpg
-time: 
+time: 11:45-13:20
 type: Tutorial
 language: german
 head: 2022

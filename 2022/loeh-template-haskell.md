@@ -4,7 +4,7 @@ active: bob2022
 title: Staging with Typed Template Haskell
 speaker: Andres Löh
 portrait: loeh.jpg
-time: 
+time: 16:20-17:55
 type: Tutorial
 language: english
 head: 2022

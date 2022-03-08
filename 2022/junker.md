@@ -4,7 +4,7 @@ active: bob2022
 title: Event-getriebene Architekturen @ Allianz
 speaker: Annegret Junkere
 portrait: junker.jpg
-time: 
+time: 12:35-13:20
 type: Vortrag
 language: german
 head: 2022

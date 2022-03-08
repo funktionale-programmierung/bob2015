@@ -4,7 +4,7 @@ active: bob2022
 title: Structuring effectful programs
 speaker: Andres Löh
 portrait: loeh.jpg
-time: 
+time: 10:15-11:00
 type: Vortrag
 language: english
 head: 2022

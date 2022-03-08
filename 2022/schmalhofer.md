@@ -4,7 +4,7 @@ active: bob2022
 title: Vom Probabilistic Computing zum Quantum Computing und zurück
 speaker: Christoph Schmalhofer
 portrait: schmalhofer.jpg
-time: 
+time: 11:45-13:20
 type: Tutorial
 language: german
 head: 2022
