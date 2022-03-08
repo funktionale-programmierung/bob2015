@@ -7,6 +7,31 @@ language: en
 
 ## How to direct
 
+### Setup
+
+checkout the git repo: ```ssh://git@gitlab.active-group.de:1022/ag/bob.git```
+run the script `setup.sh` in the directory `obs`
+e.g. `./setup.sh <ldap-name>`
+
+### OBS Setup
+Import the scene collection via `Scene Collection > Import`
+Enable `Studio Mode` in the bottom left corner.
+Click on the Gear Icon to the right of the transition button in the
+middle of the screen. Ensure that the checkmark for `Duplicate Scene` is set
+and the checkmark for `Swap Preview/Output Scenes After Transitioning` is **not** set.
+
+#### Streaming Setup
+Goto `File > Settings > Stream`.
+As Service select `YouTube - RTMPS`.
+As Server `Primary YouTube ingest server`
+Click `Use Stream Key (advanced)` and enter the room specific
+stream key.
+The stream keys are in the bob repo under `obs`
+
+Goto `Video` and make sure base and output resolutions are set to
+`1920x1080`.
+
+
 ### Allocation
 
 - **Talks #1**: Felix (Backup: Heli)
@@ -22,8 +47,8 @@ language: en
   - go to **File** -> **Settings** -> **Video**
   - Set ``Output Scaled Resolution`` to 1280x720
 - create [`vdo.ninja`](https://vdo.ninja) room for your track
-  https://vdo.ninja/?director=bob_talks_1&password=bobig_talks_1
-  https://vdo.ninja/?director=bob_talks_2&password=bobig_talks_2
+  https://vdo.ninja/?director=bob_talks_1&password=bobig_talks_1&codirector=bobig_director_1
+  https://vdo.ninja/?director=bob_talks_2&password=bobig_talks_2&codirector=bobig_director_2
   - room name: ```bob_talks_1``` or ```bob_talks_2```
   - password: ```bobig_talks_1``` or ```bobig_talks_2```
   - Screen share your OBS application to the room
@@ -92,6 +117,18 @@ language: en
 
 In case of problems switch to the last scene `Technical Difficulties`
 
+
+### In case of stream failure
+
+If a stream fails, the backup director selects the `Technical Difficulties` scene
+and then starts streaming.
+Recreate the last state from the stream and switch it live.
+In case the stream fails during a talk, you can edit the properties of
+the video source be double clicking the source.
+Deselect the checkbox `Restart playback when source becomes active` and save by clicking `Ok`.
+Then you can scrub through the video to the point where the stream failed.
+
+
 ### Live Stream Links
 
 #### Youtube
@@ -111,7 +148,20 @@ FIXME Felix
  
 ##### Talks #1
 
-FIXME Felix
+- Michael Sperber - Event Sourcing without Responsibility
+  https://www.youtube.com/watch?v=7nDAazdGozY
+
+- Annegret Junker - Event-getriebene Architekturen
+  https://www.youtube.com/watch?v=Xq6BD-4xsLs
+
+- Tim Digel - Infrastructure as Code
+  https://www.youtube.com/watch?v=8V1-mq-pAC8
+
+- Gernot Strake - Tiger kommt: Weglaufen!
+  https://www.youtube.com/watch?v=hW3IxjnHnAs
+
+- Ben Clifford - Python Gradual Typing
+  https://www.youtube.com/watch?v=1ssiBVOzCBk
 
 ##### Talks #2
 

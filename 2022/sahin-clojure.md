@@ -26,7 +26,22 @@ anhand von Beispielen aus der Praxis deren Nützlichkeit
 aufgezeigt. Anschließend entwickeln wir gemeinsam eigene Makros nach
 Wunsch.
 
-Vorwissen über Clojure ist keine Voraussetzung. 
+Vorwissen über Clojure ist keine Voraussetzung.
+
+### Vorbereitung
+
+Die Teilnehmer:innen können gerne am eigenen Rechner mitmachen! Aber
+auch "nur" zuschauen ist natürlich in Ordnung. Wer mitmachen möchte,
+kann
+
+- live im Browser entwickeln unter
+  <https://www.tutorialspoint.com/execute_clojure_online.php> oder
+- Clojure installieren <https://clojure.org/guides/getting_started>
+  und dann mit beliebigem Texteditor und Terminal arbeiten oder
+- eine ganze Entwicklungsumgebung benutzen:
+  - Cursive: <https://cursive-ide.com/>
+  - Emacs + clojure-mode + CIDER:
+    <https://www.gnu.org/software/emacs/>
 
 ### Kaan Sahin
 
