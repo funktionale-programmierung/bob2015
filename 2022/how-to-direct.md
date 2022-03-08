@@ -13,6 +13,25 @@ checkout the git repo: ```ssh://git@gitlab.active-group.de:1022/ag/bob.git```
 run the script `setup.sh` in the directory `obs`
 e.g. `./setup.sh <ldap-name>`
 
+### OBS Setup
+Import the scene collection via `Scene Collection > Import`
+Enable `Studio Mode` in the bottom left corner.
+Click on the Gear Icon to the right of the transition button in the
+middle of the screen. Ensure that the checkmark for `Duplicate Scene` is set
+and the checkmark for `Swap Preview/Output Scenes After Transitioning` is **not** set.
+
+#### Streaming Setup
+Goto `File > Settings > Stream`.
+As Service select `YouTube - RTMPS`.
+As Server `Primary YouTube ingest server`
+Click `Use Stream Key (advanced)` and enter the room specific
+stream key.
+The stream keys are in the bob repo under `obs`
+
+Goto `Video` and make sure base and output resolutions are set to
+`1920x1080`.
+
+
 ### Allocation
 
 - **Talks #1**: Felix (Backup: Heli)
@@ -28,8 +47,8 @@ e.g. `./setup.sh <ldap-name>`
   - go to **File** -> **Settings** -> **Video**
   - Set ``Output Scaled Resolution`` to 1280x720
 - create [`vdo.ninja`](https://vdo.ninja) room for your track
-  https://vdo.ninja/?director=bob_talks_1&password=bobig_talks_1&codirector=bobig123
-  https://vdo.ninja/?director=bob_talks_2&password=bobig_talks_2
+  https://vdo.ninja/?director=bob_talks_1&password=bobig_talks_1&codirector=bobig_director_1
+  https://vdo.ninja/?director=bob_talks_2&password=bobig_talks_2&codirector=bobig_director_2
   - room name: ```bob_talks_1``` or ```bob_talks_2```
   - password: ```bobig_talks_1``` or ```bobig_talks_2```
   - Screen share your OBS application to the room
