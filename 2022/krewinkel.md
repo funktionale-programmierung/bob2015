@@ -4,7 +4,7 @@ active: bob2022
 title: Haskell ❤️ Lua
 speaker: Albert Krewinkel
 portrait: krewinkel.png
-time: 
+time: 15:05-15:50
 type: Vortrag
 language: english
 head: 2022

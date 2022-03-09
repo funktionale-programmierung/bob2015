@@ -4,7 +4,7 @@ active: bob2022
 title: An Enigma Machine in Elm
 speaker: Ju Liu
 portrait: liu.png
-time: 
+time: 17:10-17:55
 type: Vortrag
 language: english
 head: 2022

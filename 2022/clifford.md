@@ -4,7 +4,7 @@ active: bob2022
 title: "Python Gradual Typing: The Good, The Bad and the Ugly"
 speaker: Ben Clifford
 portrait: clifford.jpg
-time: 
+time: 16:20-17:05
 type: Vortrag
 language: english
 head: 2022

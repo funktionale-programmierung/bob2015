@@ -4,7 +4,7 @@ active: bob2022
 title: Infrastructure as Code - Betrieb ohne Handarbeit
 speaker: Tim Digel
 portrait: digel.jpg
-time: 
+time: 14:15-15:00
 type: Vortrag
 language: german
 head: 2022

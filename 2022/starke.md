@@ -4,7 +4,7 @@ active: bob2022
 title: "Tiger kommt: Weglaufen!"
 speaker: Dr. Gernot Starke
 portrait: starke.jpg
-time: 
+time: 15:05-15:50
 type: Vortrag
 language: german
 head: 2022

@@ -5,7 +5,7 @@ title: Detecting Oxbow Code in Erlang Codebases with the Highest Degree of Certa
 speaker: Laura M Castro, Brujo
 portrait: castro.png
 portrait2: brujo.png
-time: 
+time: 16:20-17:05
 type: Vortrag
 language: english
 head: 2022

@@ -4,7 +4,7 @@ active: bob2022
 title: Compiling Anything to Categories
 speaker: Greg Pfeil
 portrait: pfeil.jpg
-time: 
+time: 11:45–12:30
 type: Vortrag
 language: english
 head: 2022

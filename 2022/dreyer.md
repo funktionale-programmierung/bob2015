@@ -3,6 +3,7 @@ layout: talk
 active: bob2022
 speaker: Derek Dreyer
 title: "RustBelt: Securing the Foundations of the Rust Programming Language"
+time: 9:00–10:00
 type: Vortrag
 language: english
 head: 2022

@@ -4,7 +4,7 @@ active: bob2022
 title: "io-sim: testing, simulating, and prototyping concurrent programs in Haskell"
 speaker: Philipp Kant
 portrait: kant.jpg
-time: 
+time: 12:35-13:20
 type: Vortrag
 language: english
 head: 2022
