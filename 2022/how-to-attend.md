@@ -60,7 +60,6 @@ href="https://support.gather.town/help/help-black-screen">here</a>.</p>
 <h4>I'm still having trouble – where do I get help?</h4>
 
 <p>Contact us via e-mail at <a href="mailto:konferenz@bobkonf.de">konferenz@bobkonf.de</a>, or on twitter <a href="https://twitter.com/BOBKonf" target="_blank">@bobkonf</a>, or check out <strong>Gather's own extensive <a href="https://support.gather.town/help/troubleshooting-checklist">troubleshooting checklist</a></strong> and documentation <a href="https://support.gather.town/help">here</a>.</p>
-
-Within gather, you can come to the <strong>help desk</strong> for support or private message <em>Sibylle Hasse [STAFF]</em> or <em>Michael Sperber [STAFF]</em>.</p>
+<p>Within gather, you can come to the <strong>help desk</strong> for support or private message <em>Sibylle Hasse [STAFF]</em> or <em>Michael Sperber [STAFF]</em>.</p>
 </div>
 </div>
