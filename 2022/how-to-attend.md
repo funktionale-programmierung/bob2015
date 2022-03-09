@@ -19,7 +19,7 @@ to check out their walkthrough and familiarise yourself with the
 site.<br /> On the day of the conference, allow ~10 minutes for login,
 setting up your avatar, etc.<br /> <strong>The exact URL has been sent
 to the e-mail address you used to register for BOB 2022 on Monday, 07
-March 2022, or when you registered if you registered after this
+March 2022, or when you registered</strong> if you registered after this
 point. The URL will also appear on this page on <strong>2022-03-11
 08:00 UTC+1</strong>. You will need to sign in with the e-mail address
 provided when buying your ticket.</li>
