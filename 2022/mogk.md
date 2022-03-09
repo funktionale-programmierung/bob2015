@@ -4,7 +4,7 @@ active: bob2022
 title: Local-first Distributed Applications with REScala
 speaker: Ragnar Mogk
 portrait: mogk.jpg
-time: 
+time: 17:10-17:55
 type: Vortrag
 language: english
 head: 2022

@@ -4,7 +4,7 @@ active: bob2022
 title: Just use Emacs!
 speaker: Kaan Sahin
 portrait: sahin.jpg
-time: 
+time: 16:20-17:55
 type: Tutorial
 language: german
 head: 2022

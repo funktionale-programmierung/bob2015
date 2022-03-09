@@ -5,7 +5,7 @@ title: Generative Art in Haskell
 speaker: quchen, Franz Thoma
 portrait: luposchainsky.jpg
 portrait2: thoma.jpg
-time: 
+time: 14:15-15:50
 type: Tutorial
 language: english
 head: 2022

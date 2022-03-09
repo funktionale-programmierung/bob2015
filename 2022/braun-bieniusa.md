@@ -5,7 +5,7 @@ title: Keeping CALM – Konsistenz in verteilten Systemen leichtgemacht
 speaker: Susanne Braun, Annette Bieniusa
 portrait: braun.jpg
 portrait2: bieniusa.jpg
-time: 
+time:  11:45–12:30
 type: Vortrag
 language: german
 head: 2022

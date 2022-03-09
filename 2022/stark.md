@@ -4,7 +4,7 @@ active: bob2022
 title: Introduction to Verification with the Coq Proof Assistant
 speaker: Kathrin Stark
 portrait: stark.jpg
-time: 
+time: 10:05-11:35
 type: Tutorial
 language: english
 head: 2022

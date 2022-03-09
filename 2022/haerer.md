@@ -4,7 +4,7 @@ active: bob2022
 title: Einführung in Scala 3
 speaker: Simon Härer
 portrait: haerer.jpg
-time: 
+time: 14:15-15:50
 type: Tutorial
 language: german
 head: 2022
