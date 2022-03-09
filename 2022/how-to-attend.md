@@ -11,17 +11,24 @@ language: en
   <div class="main" ><p>&nbsp;</p>
            <h1>This year's conference is a little different!</h1>
 
-<h4>How do I join the conference?</h4>
-<ul><li>Tickets: get yours <a href="https://ti.to/bob/bob2022/" target="_blank">here</a>.</li>
-<li>Venue: we will meet in a space hosted on
-  <a href="https://gather.town" target="_blank">gather.town</a>. Feel free to check out their walkthrough and familiarise yourself with the site.<br />
-On the day of the conference, allow ~10 minutes for login, setting up your avatar, etc.<br />
-<strong>The exact URL will be sent to the e-mail address you used to register for BOB 2022</strong> at some point during the 24 hours
-  before the conference starts. The URL will also appear on this page on <strong>2022-03-11
-  08:00 UTC+1</strong>. You will need to sign in with the e-mail address provided when buying your ticket.<br />
-	   
-gather.town works best in Google Chrome or Mozilla Firefox. <strong>We do not recommend using the desktop app at this time.</strong></li>
-<li>A FAQ and help page for gather explaining features slightly more in depth will be accessible from within the space.</li></ul>
+<h4>How do I join the conference?</h4> <ul><li>Tickets: get yours <a
+href="https://ti.to/bob/bob2022/" target="_blank">here</a>.</li>
+<li>Venue: we will meet in a space hosted on <a
+href="https://gather.town" target="_blank">gather.town</a>. Feel free
+to check out their walkthrough and familiarise yourself with the
+site.<br /> On the day of the conference, allow ~10 minutes for login,
+setting up your avatar, etc.<br /> <strong>The exact URL has been sent
+to the e-mail address you used to register for BOB 2022 on Monday, 07
+March 2022, or when you registered if you registered after this
+point. The URL will also appear on this page on <strong>2022-03-11
+08:00 UTC+1</strong>. You will need to sign in with the e-mail address
+provided when buying your ticket.</li>
+<li>gather.town works best in <strong>Google Chrome</strong> or <strong>Mozilla Firefox</strong>. Safari access is in beta.<br>
+<strong>We do not recommend using the desktop app or mobile devices to access BOBkonf.</strong></li>
+<li>Please make sure you can receive e-mails from Gather. To log in, you will need
+to follow the link to the Gather space, enter the e-mail address you signed up to BOB 2022
+with, and Gather wills send you a code. You need enter this into your browser window to complete the login process.</li>
+<li>A FAQ and help page for gather explaining features slightly more in depth is accessible from within the space.</li></ul>
 
 
 <h4>What do I need in order to comfortably use the conference space?</h4>
@@ -43,10 +50,17 @@ during talks (you will still be able to hear the video).<br />
 
 If that won't cut it, you can log out and back in at any time.</p>
 
+<h4>I tried to log in, but now all I see is a black screen.</h4>
+<p>This
+is a known issue; please try Gather's own troubleshooting guide that
+can be found <a
+href="https://support.gather.town/help/help-black-screen">here</a>.</p>
+
 
 <h4>I'm still having trouble – where do I get help?</h4>
 
-<p>Contact us via e-mail at FIXME Sibylle<a href="mailto:help2021@bobkonf.de">help2021@bobkonf.de</a>, or on twitter <a href="https://twitter.com/BOBKonf" target="_blank">@bobkonf</a>.
+<p>Contact us via e-mail at <a href="mailto:konferenz@bobkonf.de">konferenz@bobkonf.de</a>, or on twitter <a href="https://twitter.com/BOBKonf" target="_blank">@bobkonf</a>, or check out <strong>Gather's own extensive <a href="https://support.gather.town/help/troubleshooting-checklist">troubleshooting checklist</a></strong> and documentation <a href="https://support.gather.town/help">here</a>.</p>
+
 Within gather, you can come to the <strong>help desk</strong> for support or private message <em>Sibylle Hasse [STAFF]</em> or <em>Michael Sperber [STAFF]</em>.</p>
 </div>
 </div>
