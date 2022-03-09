@@ -116,12 +116,15 @@ the video).<br/>
 If that won't cut it, you can log out and back in at any time.</p>
 
 
-<h4>I'm still having trouble – where do I get help?</h4> <p> Within
-gather, the fastest way is to come to the <strong>help desk</strong>
-for support. If all desks are busy, send a private message to <em>Sibylle Hasse
-[STAFF]</em> or <em>Michael Sperber [STAFF]</em>.
-You can also
-contact us via e-mail at <a
-href="mailto:help2021@bobkonf.de">help2021@bobkonf.de</a>, or on
+<h4>I'm still having trouble – where do I get help?</h4>
+
+<p>Try Gather's own <strong><a
+href="https://support.gather.town/help/troubleshooting-checklist">troubleshooting
+checklist</a></strong>.</p> <p> Within Gather, come to the
+<strong>help desk</strong> (right by the landing point when you first
+enter the space) for support. If all desks are busy, send a private
+message to <em>Sibylle Hasse [STAFF]</em> or <em>Michael Sperber
+[STAFF]</em>.  You can also contact us via e-mail at <a
+href="mailto:konferenz@bobkonf.de">konferenz@bobkonf.de</a>, or on
 twitter <a href="https://twitter.com/BOBKonf"
-target="_blank">@bobkonf</a>, or check out <strong>Gather's own extensive FAQ</strong> and documentation <a href="https://support.gather.town/help">here</a>.</p>
+target="_blank">@bobkonf</a>.</p>
