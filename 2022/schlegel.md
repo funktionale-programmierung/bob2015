@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2022
-title: Composable UI components
+title: Composable UI Components
 speaker: Markus Schlegel
 portrait: schlegel.jpg
 time: 10:15-11:00
@@ -20,6 +20,8 @@ its momentary existence" so that at the end of our journey we find
 lenses and stores and true lossless composability.
 
 ### Markus Schlegel
+
+[@markus_schlegel](https://twitter.com/markus_schlegel)
 
 Markus is a software architect at Active Group GmbH in Tübingen,
 Germany. He tries to liberate programming from the von Neumann
