@@ -169,6 +169,9 @@ Keynote is live
 
 ##### Talks #2
 
+- Philipp Kant - Concurrent programs in Haskell
+  https://www.youtube.com/watch?v=uedUGeWN4ZM
+
 - Joachim Breitner - Specification-driven design
   https://www.youtube.com/watch?v=_YyCUiBgEJQ
 
