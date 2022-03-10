@@ -19,8 +19,8 @@ provided when buying your ticket.</li>
 <strong>We do not recommend using the desktop app or mobile devices to access BOBkonf.</strong></li>
 <li><strong>Please make sure you can receive e-mails from Gather</strong>. To log in, you will need
 to follow the link to the Gather space, enter the e-mail address you signed up to BOB 2022
-with, and Gather wills send you a code. You need enter this into your browser window to complete the login process.</li>
-<li>A FAQ and help page for gather explaining features slightly more in depth is accessible from within the space.</li>
+with, and Gather will send you a code. You need to enter this code into your browser window to complete the login process.</li>
+<li>A FAQ and help page for gather explaining features slightly more in depth is accessible from within the space through the steles with a question mark on them.</li>
 <li>Feel free to check out <a
 href="https://gather.town" target="_blank">gather.town</a>'s walkthrough and familiarise yourself with the
 site.</li><li> On the day of the conference, allow ~10 minutes for login,
