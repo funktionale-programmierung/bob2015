@@ -152,6 +152,9 @@ Keynote is live
 - Michael Sperber - Event Sourcing without Responsibility
   https://www.youtube.com/watch?v=7nDAazdGozY
 
+- Susanne Braun, Annette Bieniusa - Keeping CALM
+  https://www.youtube.com/watch?v=rWlsEz19hBs
+
 - Annegret Junker - Event-getriebene Architekturen
   https://www.youtube.com/watch?v=Xq6BD-4xsLs
 
@@ -169,11 +172,19 @@ Keynote is live
 
 ##### Talks #2
 
+- Markus Schlegel - Composable UI components
+
+- Greg Pfeil - Compiling Anything to Categories
+  https://www.youtube.com/watch?v=VUBj8NW7uMA
+
 - Philipp Kant - Concurrent programs in Haskell
   https://www.youtube.com/watch?v=uedUGeWN4ZM
 
 - Joachim Breitner - Specification-driven design
   https://www.youtube.com/watch?v=_YyCUiBgEJQ
+
+- Albert Krewinkel - Haskell ❤️ Lua
+  https://www.youtube.com/watch?v=Zc07Xxb6FJs
 
 - Laura M Castro, Brujo - Detecting Oxbow Code in Erlang
   https://www.youtube.com/watch?v=ipV8zpAb0y0
