@@ -29,6 +29,23 @@ and computers.
 Basic familiarity with writing programs in (any) functional language
 helps follow this tutorial. No further knowledge is required.
 
+## Tutorial preparation
+
+Before the tutorial, please have an IDE for Coq available. There are
+two recommended possibilities:
+
+- You can install the Coq proof assistant together with CoqIDE. See
+  [here](https://coq.inria.fr/download) for complete download
+  instructions. See
+  [here](https://github.com/coq/platform/releases/tag/2022.01.0) for
+  binary installers for Coq 8.14.1 for macOS/Windows and
+  [here](https://snapcraft.io/coq-prover) for Linux. For simplicity,
+  we use the CoqIDE, but interfaces for EMacs and Visual Studio Code
+  are available.
+
+- You can run Coq in your browser via the [jsCOQ
+  plugin](https://k-stark.de/BobKONFjsCOQ).
+
 ### [Kathrin Stark](http://www.k-stark.de)
 
 [@KathrinStarkCS](https://twitter.com/KathrinStarkCS)
