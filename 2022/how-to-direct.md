@@ -10,6 +10,7 @@ language: en
 ### Setup
 
 checkout the git repo: ```ssh://git@gitlab.active-group.de:1022/ag/bob.git```
+if you have already cloned the repo be sure to pull.
 run the script `setup.sh` in the directory `obs`
 e.g. `./setup.sh <ldap-name>`
 
@@ -144,7 +145,7 @@ As a backup the videos are already uploaded to YouTube and marked unlisted.
 
 ##### Keynote
 
-FIXME Felix
+Keynote is live
  
 ##### Talks #1
 
@@ -163,10 +164,19 @@ FIXME Felix
 - Ben Clifford - Python Gradual Typing
   https://www.youtube.com/watch?v=1ssiBVOzCBk
 
+- Ju Liu - An Enigma Machine in Elm
+  https://www.youtube.com/watch?v=q7j3QST_n-Q
+
 ##### Talks #2
+
+- Philipp Kant - Concurrent programs in Haskell
+  https://www.youtube.com/watch?v=uedUGeWN4ZM
 
 - Joachim Breitner - Specification-driven design
   https://www.youtube.com/watch?v=_YyCUiBgEJQ
 
 - Laura M Castro, Brujo - Detecting Oxbow Code in Erlang
   https://www.youtube.com/watch?v=ipV8zpAb0y0
+
+- Ragnar Mogk - Local-First Distributed Applications
+  https://www.youtube.com/watch?v=6_l1iAGSl4g

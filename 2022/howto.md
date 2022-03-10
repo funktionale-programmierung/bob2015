@@ -14,6 +14,7 @@ language: en
 - [How to record a talk](how-to-record.html)
 - [How to hold a tutorial](how-to-tutorial.html)
 - [How to manage access](how-to-access.html)
+- [How to staff the booth](how-to-booth.html)
 
 ## Notable changes to previous years
 

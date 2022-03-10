@@ -46,22 +46,28 @@ in either the name field (most visible) or your status info.</li>
 </ul>
 
 <h5>Control panel</h5>
-<p><img src="/images/gatheruserpanel2022.png"> <ol><li><strong>Your Avatar</strong> Click
-to customise.</li> <li><strong>Your Online Status</strong></li>
-<li><strong>Your Name & Status Message</strong> The Status Message
-indicates your online status when otherwise unset.</li>
-<li><strong>Mini Map</strong> of the room you're in.</li>
-<li><strong>Share your screen</strong> with those around you.</li>
-<li><strong>Emoji reactions</strong> 1-5 are fleeting, 6 stays up
-until you "lower" your hand by clicking the emoji again. Raised hands
-show up in the participant list.<br/> <img src="/images/gatherreactionemoji.png"></li>
-</ol>
- <h5>User menu</h5>
- <p> <img
-src="/images/gatherfig1-2022.png"> <ol> <li><strong>Your
-Name</strong> Your name and other important info go here.</li><li>The e-mail address you're signed into gather with. This is is only visible to you.</li> <li><strong>Your status
-message</strong> Other relevant info goes here -- it'll show up .</li>
-<li><strong>Emoji</strong> You can set an emoji to be permanently
+
+<p><img src="/images/gatheruserpanel2022.png"></p>
+<ol><li><strong>Your Avatar</strong> Click to customise.</li>
+<li><strong>Your Online Status</strong></li> <li><strong>Your Name &
+Status Message</strong> The Status Message indicates your online
+status when otherwise unset.</li> <li><strong>Mini Map</strong> of the
+room you're in.</li> <li><strong>Share your screen</strong> with those
+around you.</li> <li><strong>Emoji reactions</strong> 1-5 are
+fleeting, 6 stays up until you "lower" your hand by clicking the emoji
+again. Raised hands show up in the participant list.</li><img
+src="/images/gatherreactionemoji.png"></ol>
+
+
+<h5>User menu</h5>
+<p> <img src="/images/gatherfig1-2022.png">
+</p>
+<ol> <li><strong>Your
+Name</strong> Your name and other important info go here.</li><li>The
+e-mail address you're signed into gather with. This is is only visible
+to you.</li> <li><strong>Your status message</strong> Other relevant
+info goes here -- it'll show up under your name in the participant
+list.  You can also set an <strong>emoji</strong> to be permanently
 displayed next to your name in the participant list.</li>
 <li><strong>User/Video Preferences</strong> Fiddle with these if
 you're having performance issues. Also accessible via CTRL/CMD P or
@@ -70,9 +76,9 @@ talks in relative quiet, or reduce the overall input from the people
 around you. You will only be able to interact with people within 1
 tile's distance, i.e. directly next to you in 8 directions (normal
 interaction distance is 5 tiles in every direction).</li>
-<li><strong>Respawn</strong> brings you back to the landing
-point of the room you're currently in.</li> <li><strong>Sign
-Out</strong> to sign out.</li> </ol></p>
+<li><strong>Respawn</strong> brings you back to the landing point of
+the room you're currently in.</li> <li><strong>Sign Out</strong> to
+sign out.</li> </ol>
 
 <h5>Figure 2: Participant list, calendar, etc.</h5> <p><img
 src="/images/gatherfig2-2022.png"> <ol type="a">
@@ -89,7 +95,7 @@ upcoming and current talks and tutorials at a glance.</li>
 entire space (not just your room), or "nearby" which will be visible
 only to you and those within talking distance.</li>
 <li><strong>Participant list</strong></li> <li><strong>Number of users
-currently online</strong></li> </ol></p>
+currently online; opens this view.</strong></li> </ol></p>
 
 <h5>Figure 3: Special actions</h5> <p><img
 src="/images/gatherfig3-2022.png" width="246" height="250"><br/> This is a
@@ -116,12 +122,15 @@ the video).<br/>
 If that won't cut it, you can log out and back in at any time.</p>
 
 
-<h4>I'm still having trouble – where do I get help?</h4> <p> Within
-gather, the fastest way is to come to the <strong>help desk</strong>
-for support. If all desks are busy, send a private message to <em>Sibylle Hasse
-[STAFF]</em> or <em>Michael Sperber [STAFF]</em>.
-You can also
-contact us via e-mail at <a
-href="mailto:help2021@bobkonf.de">help2021@bobkonf.de</a>, or on
+<h4>I'm still having trouble – where do I get help?</h4>
+
+<p>Try Gather's own <strong><a
+href="https://support.gather.town/help/troubleshooting-checklist">troubleshooting
+checklist</a></strong>.</p> <p> Within Gather, come to the
+<strong>help desk</strong> (right by the landing point when you first
+enter the space) for support. If all desks are busy, send a private
+message to <em>Sibylle Hasse [STAFF]</em> or <em>Michael Sperber
+[STAFF]</em>.  You can also contact us via e-mail at <a
+href="mailto:konferenz@bobkonf.de">konferenz@bobkonf.de</a>, or on
 twitter <a href="https://twitter.com/BOBKonf"
-target="_blank">@bobkonf</a>, or check out <strong>Gather's own extensive FAQ</strong> and documentation <a href="https://support.gather.town/help">here</a>.</p>
+target="_blank">@bobkonf</a>.</p>
