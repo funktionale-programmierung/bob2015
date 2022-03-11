@@ -10,18 +10,21 @@ language: english
 head: 2022
 ---
 
-It's been eight years since React revolutionized frontend
-development.  The world of web development finally came into contact with
-functional programming and was in love.  Unfortunately, the promise of
-simple, understandable program logic has not materialized in many
-complex applications.  And suddenly we're back using tricks we're here
-to abandon: global mutable state, mutable data.  This talk shows that
-it doesn't have to be that way.
+It has now been a decade since React revolutionized frontend GUI
+programming with ideas from functional programming. After ten years,
+however, the promise of simple program logic for complex apps is still
+not fulfilled. State management remains an unsolved problem. In this
+talk I propose that we take to functional programming again to escape
+this misery. We analyze code "in its transient nature not less than
+its momentary existence" so that at the end of our journey we find
+lenses and stores and true lossless composability.
 
 ### Markus Schlegel
 
 [@markus_schlegel](https://twitter.com/markus_schlegel)
 
-Markus Schlegel is a software architect with Active Group.  He
-discovered functional programming in 2013, and has been sleeping
-better ever since.
+Markus is a software architect at Active Group GmbH in Tübingen,
+Germany. He tries to liberate programming from the von Neumann
+bottleneck since 1991. Markus is interested in a diverse set of
+technologies ranging from GUI design to concurrency and formal
+methods. In his spare time, Markus reads a lot of Marx.

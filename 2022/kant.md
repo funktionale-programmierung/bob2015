@@ -17,7 +17,7 @@ library provides [type
 classes](https://github.com/input-output-hk/ouroboros-network/tree/master/io-classes)
 with concurrency primitives that can either be run in IO, or executed
 in simulation. The library has been developed to help with
-QuichQueck-style property based testing of concurrent code, where the
+QuickCheck-style property based testing of concurrent code, where the
 determinism of the simulations is helpful to get minimal failing test
 cases. Subsequently, it has also turned out to be quite useful for
 prototyping distributed systems, getting performance estimates and

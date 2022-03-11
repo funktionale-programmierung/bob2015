@@ -13,22 +13,18 @@ language: en
 
 <h4>How do I join the conference?</h4> <ul><li>Tickets: get yours <a
 href="https://ti.to/bob/bob2022/" target="_blank">here</a>.</li>
-<li>Venue: we will meet in a space hosted on <a
-href="https://gather.town" target="_blank">gather.town</a>. Feel free
-to check out their walkthrough and familiarise yourself with the
-site.<br /> On the day of the conference, allow ~10 minutes for login,
-setting up your avatar, etc.<br /> <strong>The exact URL has been sent
-to the e-mail address you used to register for BOB 2022 on Monday, 07
-March 2022, or when you registered</strong> if you registered after this
-point. The URL will also appear on this page on <strong>2022-03-11
-08:00 UTC+1</strong>. You will need to sign in with the e-mail address
+<li>  <a href="https://app.gather.town/app/kaLdDo4mZ0bUWg2o/BOBkonf"><strong>Click here to access the BOB Konferenz 2022 virtual conference space</strong></a>. You will need to sign in with the e-mail address
 provided when buying your ticket.</li>
 <li>gather.town works best in <strong>Google Chrome</strong> or <strong>Mozilla Firefox</strong>. Safari access is in beta.<br>
 <strong>We do not recommend using the desktop app or mobile devices to access BOBkonf.</strong></li>
-<li>Please make sure you can receive e-mails from Gather. To log in, you will need
+<li><strong>Please make sure you can receive e-mails from Gather</strong>. To log in, you will need
 to follow the link to the Gather space, enter the e-mail address you signed up to BOB 2022
-with, and Gather wills send you a code. You need enter this into your browser window to complete the login process.</li>
-<li>A FAQ and help page for gather explaining features slightly more in depth is accessible from within the space.</li></ul>
+with, and Gather will send you a code. You need to enter this code into your browser window to complete the login process.</li>
+<li>A FAQ and help page for gather explaining features slightly more in depth is accessible from within the space through the steles with a question mark on them.</li>
+<li>Feel free to check out <a
+href="https://gather.town" target="_blank">gather.town</a>'s walkthrough and familiarise yourself with the
+site.</li><li> On the day of the conference, allow ~10 minutes for login,
+setting up your avatar, etc.<br /></li></ul>
 
 
 <h4>What do I need in order to comfortably use the conference space?</h4>

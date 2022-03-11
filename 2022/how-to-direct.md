@@ -173,6 +173,7 @@ Keynote is live
 ##### Talks #2
 
 - Markus Schlegel - Composable UI components
+  https://www.youtube.com/watch?v=953PB0L5cL4
 
 - Greg Pfeil - Compiling Anything to Categories
   https://www.youtube.com/watch?v=VUBj8NW7uMA
