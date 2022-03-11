@@ -19,7 +19,7 @@ language: en
 <li><strong>Please plug in your headphones</strong> or mute your microphone.</li>
 <li>You can <strong>search this page</strong> with the keys that activate "search
 on page" in your browser – usually ctrl/cmd+f.</li>
-<li><strong>Set your name</strong>. If everyone's "Guest", things will get confusing fast.</li>
+<li><strong>Set your name</strong>. If everyone has their name set to "Guest", things will get confusing fast.</li>
 
 <li><strong>Set up your Avatar</strong> to your liking: click on the little avatar in
  the bar in the bottom of the page (shows "Change Character" on
