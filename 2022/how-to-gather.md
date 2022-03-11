@@ -109,7 +109,8 @@ to the person you clicked on until you undo the "locate".</li>
 person you clicked on until you use your arrow or wasd keys to
 move.</li><li><strong>Request to lead</strong> The person will see a pop-up: "YOUR NAME would like to lead you around the space. Would you like to follow?" with a picture of your avatar and the options to accept or decline. </li></ul></p>
 
-
+<h4>I can't see the talks in Talks #1 and Talks #2!</h4>
+<p>Press "x" anywhere in the room to open the talk. Press "x" again to close it.</p>
 <h4>There are too many things happening and people talking on the
 screen and I'm overwhelmed.</h4> <p>Gather has a "quiet mode" that
 reduces interaction distance to one square – so only people standing
