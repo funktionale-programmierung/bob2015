@@ -16,7 +16,7 @@ language: en
 <h5>The basics</h5>
 
 <ul>
-<li><strong>Please plug in your headpones</strong> or mute your microphone.</li>
+<li><strong>Please plug in your headphones</strong> or mute your microphone.</li>
 <li>You can <strong>search this page</strong> with the keys that activate "search
 on page" in your browser – usually ctrl/cmd+f.</li>
 <li><strong>Set your name</strong>. If everyone's "Guest", things will get confusing fast.</li>
