@@ -26,7 +26,9 @@ experience is not required.
 
 Download and install [IntelliJ IDEA](https://www.jetbrains.com/).
 
-### Michael Sperber
+Code to go along with the tutorial is at [`https://github.com/active-group/kotlin-bob-2022`](https://github.com/active-group/kotlin-bob-2022).
+
+### Michael` Sperber
 
 [@sperbsen](https://twitter.com/sperbsen)
 
