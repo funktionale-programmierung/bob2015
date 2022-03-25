@@ -1,0 +1,718 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Python Gradual Typing: The Good, The Bad and the Ugly</title>
+
+		<link rel="stylesheet" href="reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="reveal.js/dist/reveal.css">
+    		<link rel="stylesheet" href="reveal.js/dist/theme/black.css" id="theme"> 
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h1>Python Gradual Typing: The Good, The Bad and The Ugly</h1>
+<p>Ben Clifford <a href="mailto:benc@hawaga.org.uk">benc@hawaga.org.uk</a></p>
+<p>BOB 2022</p>
+</section>
+
+<section><h2>Introduction</h2>
+
+<ul>
+<li>Parsl project - parallel scripting on super-computers</li>
+<li>Prototype starting 2016 to v1.2 now</li>
+<li>Mostly Python ...</li>
+<li>... but I'm a Haskell enthusiast</li>
+<li>Explore typing in Python / improve quality of code</li>
+</ul>
+
+<aside class="notes">
+i'm going to talk about my experience adding type annotations to the parsl project codebase.
+
+this has been going on for about four years, first as a side project to explore type checking
+in parsl, and then as this has become more mainstream, pushing on the code a bit harder.
+</aside>
+</section>
+
+<section>
+<h2>(dynamic) types in Python</h2>
+<p>Values have types. Variables do not.</p>
+<pre class="python"><code data-trim>
+  x = 3
+  type(x)  # ==> &lt;class 'int'>
+  x = {}
+  type(x)  # ==> &lt;class 'dict'>
+</code></pre>
+<aside class="notes">
+  * what does the type system look like in normal python? (show   x = 3 type(x) x = {} type(x)) - x has no type, 3 has a type, {} has a type
+  * "values has types, variables do not" - that's a nice dividing line between dynamic python and statically typed python where we *do* start making assertions about "this x will be an integer, even though I don't know what the value will be"
+</aside>
+</section>
+<section>
+<h2>Type syntax</h2>
+<pre class="python"><code data-trim>
+# untyped
+def square(y):
+  return y*y
+
+x = square(1.41)
+
+</code></pre>
+
+<pre class="python"><code data-trim>
+# typed
+def square(y: float) -> float:
+  return y*y
+
+x: float = square(1.41)
+</code></pre>
+</section>
+
+<section>
+<h2>Type annotations have no (immediate) effect!</h2>
+
+<pre class="python"><code data-trim>
+def square(y: float) -> float:
+  return y*y
+
+x: float = square([])
+</code></pre>
+
+<pre>
+Traceback (most recent call last):
+  File "&lt;stdin>", line 1, in <module>
+  File "&lt;stdin>", line 2, in square
+TypeError: can't multiply sequence by non-int of type 'list'
+</pre>
+
+</section>
+
+<section>
+<h2>Runtime checking</h2>
+<pre class="python"><code data-trim>
+@typeguard.typechecked
+def square(y: float) -> float:
+  return y*y
+
+x: float = square([])
+</code></pre>
+
+<pre>
+Traceback (most recent call last):
+...
+TypeError: type of argument "y" must be either float or int;
+got list instead
+</pre>
+</section>
+
+<section>
+<h2>Static checking</h2>
+<pre class="python"><code data-trim>
+def square(y: float) -> float:
+  return y*y
+
+x: float = square([])
+</code>
+</pre>
+
+<pre>
+$ mypy source.py
+source.py:4: error: Argument 1 to "square"
+has incompatible type "List[&lt;nothing>]";
+  expected "float"
+</pre>
+
+</section>
+
+<section>
+<h2>Type Hierarchy</h2>
+
+<pre class="python"><code data-trim>
+def f(x: object):
+  print(x)
+
+x: float = 1.23
+
+f(x) # typechecks ok, because float <= object
+</code>
+</pre>
+</section>
+
+<section>
+<h2>Gradual typing</h2>
+<pre class="python"><code data-trim class="language-python">
+def f(x: float):
+  print(x + 1)
+
+y: Any = []
+
+f(y)  # typechecks, because
+      # List ~ Any ~ float   (!)
+</code></pre>
+<p>but at runtime...</p>
+<pre>
+TypeError: can only concatenate list (not "int") to list
+</code>
+</pre>
+<p>Not the same as <code>object</code></p>
+<aside class="notes">
+<p>if we annotate everything with an Any type, pretty much everything will typecheck
+in mypy (and then things might break, if they would break anyway)</p>
+<p>can always infer Any as a type, even if we can't figure out anything tighter</p>
+<p>maybe think of it a bit like use of "unsafe" as a label in haskell and a keyword in rust.</p>
+</aside>
+</section>
+
+<section>
+<h2>Antipattern vs Gradual Typing</h2>
+<pre class="python"><code data-trim>
+a = planet
+a = a.pickCountry()
+a = a.pickCity()
+a = a.pickCoordinates()
+</code>
+</pre>
+
+<p>
+Rewrite this in more amenable style...<br/>
+or </p>
+<pre class="python"><code>a: Any</code></pre>
+</section>
+
+
+<section>
+<h2>Union types</h2>
+
+<pre class="python"><code data-trim>
+def f(x: Union[float, str]):
+    if isinstance(x, float):
+        print(x*2)
+    else:
+        print("not a float")
+
+y: float = 1.23
+
+f(y)  ==> 2.45
+
+# float <= Union[float, str]
+# str <= Union[float, str]
+
+</pre></code>
+
+<aside class="notes">
+    - This is not a Sum type: Union is "overlapping" - not a traditional sum type.  Union[int,int] is the same as int
+    - `if` type refinement on a union type, gives x a tighter type.
+        - special handling of this `if isinstance` idiom...
+        - type refinement can also work on subclasses...
+    - intro to next section on hasattr and duck typing
+</aside>
+</section>
+
+<section>
+<h2>Optional</h2>
+
+<pre class="python"><code>Optional[X]</code></pre>
+
+<p>is equivalent to</p>
+<pre class="python"><code>Union[X, None]</code></pre>
+
+<aside class="notes">
+<p>Nothing super serious to say here - just point out that's how we get optionals.</p>
+
+<p>Mention that "None" is the unit type in Python, with a single value also called None.</p>
+
+<p>Because we don't have sum types, we have to have an actual value here...
+and we can't express Optional[None] which you might expect expect with a Haskell "Maybe"
+or Rust Option type.
+</p>
+
+<p>X is an introduction to type variables</p>
+</aside>
+</section>
+
+<section>
+<h2>Generics</h2>
+
+<pre class="python"><code data-trim>
+x: List  # aka List[Any]
+</code></pre>
+
+<pre class="python"><code data-trim>
+x: List[str]
+</code></pre>
+
+
+</section>
+
+<section>
+<h2>Summary</h2>
+<ul>
+<li>Type annotations + pluggable enforcement</li>
+<li>Runtime: <code>typeguard</code>, Static: <code>mypy</code></li>
+<li>Generics. Unions.</li>
+<li>Gradual typing: <code>Any</code> - distinct from <code>object</code></li>
+
+</ul>
+
+</section>
+
+<section>
+<h2>Duck typing, statically</h2>
+<p>"If it walks like a duck and it quacks like a duck, then it must be a duck"</p>
+<pre class="python"><code data-trim>
+def print_len(x):
+    print(len(x))
+
+print_len([])  # => 0       empty List
+print_len({})  # => 0       empty Dict
+print_len("hello")  # => 5  str
+
+print_len(1.23)
+# => TypeError: object of type 'float' has no len()
+</code></pre>
+
+
+<aside class="notes">
+* hasattr and isinstance - or perhaps here talk more about duck typing and Protocols?
+    - hasattr fits in "duck typing" model - we can at least do a runtime check for duck types. compare to protocols where we're checking that the attribute definitely does exist statically: so 
+    - isinstance - an awfulness of nominal typing. doesn't work with duck/protocol typing...
+    ^ these aren't things that definitely need addressing in this talk, but they're tangentially relevant
+    - Protocols - extend ABCs which let you declare @abstractmethods to be checked at runtime, and this adds on static checking 
+    - class/type doesn't strictly define what members an object has - can be quite ad-hoc, so for example some instances of our executor class have "connected_workers" - some do not. Duck typing of "is this the kind of executor that uses countable workers?" - motivation for use of hasattr. Maybe that's ok in the duck typing world? It interacts awkwardly with python syntax. For example,
+       if hasattr('connected_workers'XXX):
+            print(x.connected_workers )
+      doesn't type-check, because the type of x is executor, which doesn't have a connected_workers attribute.
+      cf refinement of x's type if we perform an isinstance `if` statement.
+    - mention Protocols (and protocols are a specific instance of something else, i think, but i can't remember what)
+
+    - protocols give you supertypes that aren't in the class hierarchy, which is also what Union types are doing...
+
+</aside>
+</section>
+
+<section>
+<h2>Duck typing, statically</h2>
+<pre class="python"><code data-trim>
+class Sized(Protocol):  # (based on real Python impl)
+    def __len__(self) -> int:
+        pass
+
+def print_len(x: Sized):
+    print(len(x))
+
+print_len([])  # => 0
+print_len({})  # => 0
+print_len("hello")  # => 5
+
+isinstance({}, Sized)  # => True
+</code>
+</pre>
+
+<pre>
+print_len(100)
+s.py:13: error: Argument 1 to "print_len" has incompatible type "int";
+                expected "Sized"
+</pre>
+
+<aside class="notes">
+In haskell, this might be a usecase for typeclasses; in rust, a trait. In static, python
+some similar - protocols. But not the same.
+</aside>
+</section>
+
+<section>
+<h2>Duck typing, statically</h2>
+
+<pre class="python"><code data-trim>
+class A():
+  def __len__(self):
+    return 128
+
+a = A()
+
+print_len(a)  # => 128
+
+isinstance(a, Sized) # => True
+</code></pre>
+
+<aside class="notes">
+When I describe class A, there is no mention of sized at all - the "duck typing" bit of this is
+that A is a Sized *because* it has the len method, not because I've said it is a subclass of 
+Sized.   If this was a Haskell typeclass or a Rust trait, there would be some instance declaration
+declaring this connection.
+</aside>
+
+</section>
+
+<section>
+<h2>Dynamic arguments</h2>
+<pre class="python"><code data-trim>
+def f(*args, **kwargs):
+    print(f"There are {len(args)} regular args")
+    print(f"There are {len(kwargs)} keyword args")
+
+f()
+# There are 0 regular args
+# There are 0 keyword args
+f(1,"two",3)
+# There are 3 regular args
+# There are 0 keyword args
+f(8, greeting="hello")
+# There are 1 regular args
+# There are 1 keyword args
+</code></pre>
+
+<aside class="notes">
+* c.f. that old chestnut of "typed printf"
+
+This feels like the sort of thing to avoid as much as possible if trying to do
+static typing.
+
+I'm not going to make any commentary about whether "typed printf" is a good thing or not.
+</aside>
+</section>
+
+<section>
+<h2>Decorators</h2>
+
+<pre class="python"><code data-trim>
+# typeguard
+@typeguard.typechecked
+def square(y: float) -> float:
+  return y*y
+</code></pre>
+
+<pre class="python"><code data-trim>
+# parsl
+@parsl.bash_app
+def hostname():
+  return "/bin/hostname"
+</code></pre>
+
+
+<pre class="python"><code data-trim>
+# flask 
+@app.route('/post/&lt;int:post_id>')
+def show_post(post_id):
+    return 'Post %d' % post_id
+    # appears as URL: http://localhost/post/53
+</code></pre>
+
+<aside class="notes">
+* note on decorators:
+    - explain decorators in one slide as   @dec def f(x): return x =>  f = lambda(x) return x  =>  f = dec(lambda(x) return(x)).
+        + what comes out doesn't even need to be a function!
+        + dec can do *anything* (sideeffectful, and return value wise).
+        + they're really nice. but really hard to type. 
+        + (eg: typeguard is a decorator we should have seen earlier. here's another one, which turns a function into an HTTP endpoint)
+    - this is an example of a python idiom that works nicely in python dynamic type land
+      but is hard (?impossible) to type:
+    - what comes out is either a decorator (when invoked with parameter syntax), or it is a decorator itself - so the type signature would need to be dual "decorator factory" and "decorator". We can tell which case is which as humans - when there is no supplied function, it should make a decorator. And the way to type that is probably dependent types, which is more advanced...
+    - typing of function signatures is really awkward (function signatures are *complex* in python...) especially if we want to do things like add in a new parameter (eg. parsl's stdout handling: it's the signature of the original function *plus* a new named parameter)
+    - link to mypy issue about supporting decorator with interesting adjective in the title.
+    - note on parameterised decorators where a decorator is also a decorator-factory depending on parameters
+    - PEP612 in python 3.10-dev ... 
+```
+The first is the parameter specification variable. They are used to forward the parameter types of one callable to another callable – a pattern commonly found in higher order functions and decorators. Examples of usage can be found in typing.ParamSpec. Previously, there was no easy way to type annotate dependency of parameter types in such a precise manner.
+
+The second option is the new Concatenate operator. It’s used in conjunction with parameter specification variables to type annotate a higher order callable which adds or removes parameters of another callable. Examples of usage can be found in typing.Concatenate.
+
+```
+    I haven't tried these features out at all. https://docs.python.org/3.10/whatsnew/3.10.html
+    but the fact that they exist as new features can be a description of something that was missing in earlier python
+    and also a demonstration that this type system is still evolving even for doing "normal" things. and because gradual typing, we can get away with it for longer.
+
+</aside>
+
+</section>
+
+<section>
+<h2>Decorators</h2>
+<pre class="python"><code data-trim>
+@mydecorator
+def f(x):
+    return x+1
+</code></pre>
+
+desugars to (approx):
+
+<pre class="python"><code data-trim>
+def internal_f(x):
+    return x+1
+
+f = mydecorator(internal_f)
+</code></pre>
+
+</section>
+
+
+<section>
+<h2>Decorator typing</h2>
+<pre class="python"><code data-trim>
+@mydecorator
+def f(x: int) -> int:
+  return x+1
+
+# aka:
+
+def internal_f(x: int) -> int:
+    return x+1
+
+f = mydecorator(internal_f)
+
+def mydecorator(function: ??) -> ??
+    ...
+</code></pre>
+</section>
+
+<section>
+<h2>Decorator typing</h2>
+<pre class="python"><code data-trim>
+Sig = TypeVar('Sig')
+
+def mydecorator(func: Sig) -> Sig
+    return func
+
+def internal_f(x: int) -> int:
+    return x+1
+
+f = mydecorator(internal_f)
+</code></pre>
+</section>
+
+<section>
+<h2>Decorator typing</h2>
+
+<pre class="python"><code data-trim>
+@parsl.python_app
+def f(x: int) -> str
+  return str(x)
+
+# should have type 
+#  f(x: int) -> Future[str]
+</code></pre>
+
+but
+
+<pre class="python"><code data-trim>
+Sig = TypeVar('Sig')
+def mydecorator(func: Sig) -> Sig
+    ...
+</code></pre>
+is not expresive enough (in Python <=3.9)
+</section>
+
+<section>
+<h2>Co-/contra-variance</h2>
+<pre class="python"><code data-trim>
+class Animal:
+    pass
+
+class Dog(Animal):  # Dog <= Animal <= object
+    pass
+
+animals: List[Animal] = []
+
+def add_dog(l: List[Dog]):
+  my_dog: Dog = ...
+  l.append(my_dog)
+
+add_dog(animals)    # valid?
+</code></pre>
+
+<aside class="notes">
+contavariance and covariance exist in other languages, but i've never run into problems with them
+before. I think I've run into that here because I'm working with:
+- more class hierarchy
+- mutable structures
+
+
+* subtyping: (more subclasses in our project than i'm used to) - should introduce subclasses in the "what are typing rules" earlier, but put the complicated stuff in this section)
+  - introduce subclasses more than I've encountered in Haskell... where it would be sub-typeclasses? maybe this is a thing due to lots more mutable structures, and loose reasoning about what can go in a List in our codebase?
+  - the awkwardness of List being invariant, not co/contravariant, with demo why
+    - but Sequence[] often to the rescue - and Sequence works for Tuple too, which is something
+      it turns out I wanted because something was surprise changing concrete type in parsl
+      (is Sequence something we can always iterate over, or what?)
+  - typing of super(): super() methods don't actually go to one of the superclasses automatically...  notion of developing classes specifically to be inherited from (or multiply inherited from). is there a URL for that?
+
+</aside>
+</section>
+
+<section>
+<h2>Co-/contra-variance</h2>
+<pre class="python"><code data-trim>
+class Animal():
+    pass
+
+class Dog(Animal):  # Dog <= Animal <= object
+    pass
+
+animals: List[Animal] = [Cat(), Dog(), Dog(), Cow()]
+
+def count_dogs(l: List[Dog]):
+    print(f"There are {len(l)} dogs")
+
+count_dogs(animals)    # valid?
+</code></pre>
+
+</section>
+
+<section>
+<h2>Co-variance</h2>
+<pre>
+Dog <= Animal
+
+implies
+
+Sequence[Dog] <= Sequence[Animal]
+
+(Sequence[X] is a read only List/tuple/...)
+</pre>
+
+<aside class="notes">
+
+If every dog is an animal, then every sequence of dogs is a sequence of animals.
+
+</aside>
+</section>
+
+<section>
+<h2>Contra-variance</h2>
+
+<p><code>Dog <= Animal</code>
+<br/>
+
+imples
+<br/>
+<code>Callable[[Animal], str] <= Callable[[Dog], str]</code>
+
+</pre>
+</section>
+
+<section>
+<h2>Co-/contra-variance</h2>
+<ul>
+<li>Co-variance  eg. (read only) <code>Sequence</code></li>
+<li>Contra-variance  eg. function args</li>
+<li>Otherwise: invariant   eg. <code>List</code></li>
+</pre>
+<p>In practice, hit problems with <code>List</code>, eg replace with <code>Sequence</code></p>
+</section>
+
+<section>
+<h2>Parsl development considerations</h2>
+</section>
+
+<section>
+<h2>Parsl development considerations</h2>
+<ul>
+<li>This started as an exploration for myself ...</li>
+<li>... but now we want it in the Parsl production codebase</li>
+</ul>
+</section>
+
+<section>
+<h2>In <code>master</code>: The Easy stuff</h2>
+<ul>
+<li>Over time (years), introduce more type annotations</li>
+<li>Only simple typing - eg first part of this talk</li>
+<li>Must be understandable by other Python developers</li>
+<li>If anything gets complicated - <code>Any</code></li>
+<li>typeguard at API boundary to users, runtime</li>
+<li>mypy within the codebase, CI time</li>
+</ul>
+</section>
+<section>
+<h2>Payoffs: The Easy Stuff</h2>
+<p>
+Static typing coverage of non-integration-tested code:
+<ul>
+<li>Exception/error handling</li>
+<li>Plugins untested in our CI</li>
+</ul>
+</p>
+</section>
+<section>
+<h2>Downsides</h2>
+<p>
+Nowhere near: <br/>
+ "it typechecks so it must be correct"
+</p>
+<p>Still extremely dynamic</p>
+</section>
+
+<section>
+<h2> The hard stuff</h2>
+<ul>
+<li>eg. 2nd part of this talk</li>
+<li>Separate branch for my exploration</li>
+<li>Port discovered bugfixes to master, but not necessarily type annotations</li>
+<li>Free to use confusing types</li>
+<li>Free to use latest Python without compatibility concerns</li>
+<li>No worries about confusing other people</li>
+</ul>
+
+<aside class="notes">
+developer considerations:
+  * other developers are not experienced in types
+  * for simple type checking (eg. transcription from what they would already correctly write in a docstring) ... easy
+  * for complex typing: docstring stuff can kinda cough and get away with "white lies", but not so much
+  * complicated types are hard to read and understand, and it's not necessarily fair to force that on people who aren't either fully convinced, or fully in a position to spend time understanding what is going on in some of the more complicated situations I've previously outlined. - these needs to not be "my crazy pet project I'm forcing on others to the overall detriment of the project"
+   * describe the gradual typing process as part of describing and consolidating what the existing code does - a legitimate outcome of this work is also docstrings that capture not-obvious requirements that aren't necessarily typeable.
+   * i found typeguard an easier sell than mypy
+
+* static typechecking especially in our project has found a lot of bugs in our error handling - because those are paths that are not checked very much as part of our regular integration test suite - we're mostly checking that things *work*
+conclusion:
+   * a few bullet points
+   * net positive
+   * don't expect to end up with something like a haskell codebase
+   * other-developer considerations
+
+* compile time checking vs logging exceptions - it has often been the case in parsl that we discard exceptions silently or to an obscure/inaccessible log file. Some of those exceptions could have been statically detected - eg PR #1081 - especially in a heavily distributed environment where we can't always pass stuff around. This maybe belongs in the dev process/justification section, as an example of why "well, we logged the exception" isn't good enough.
+</aside>
+</section>
+
+<section>
+<h2>Conclusion</h2>
+<ul>
+<li>Easy stuff is easy</li>
+<li>Porting existing codebase can get hard fast when the style is wrong</li>
+<li>Worth it without complete coverage</li>
+<li>Fresh code easier to write in a checkable style</li>
+<li>You should use at least the stuff in all your code</li>
+</ul>
+</section>
+
+<section>
+- Ende -
+</section>
+
+			</div>
+		</div>
+
+		<script src="reveal.js/dist/reveal.js"></script>
+		<script src="reveal.js/plugin/notes/notes.js"></script>
+		<script src="reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="reveal.js/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+                                transition: "none",
+                                totalTime: 30 * 60,
+                                slideNumber: false,
+                                showNotes: false,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
