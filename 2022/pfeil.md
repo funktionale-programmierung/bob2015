@@ -6,6 +6,7 @@ speaker: Greg Pfeil
 portrait: pfeil.jpg
 time: 11:45–12:30
 type: Vortrag
+slides-file: pfeil.pdf
 language: english
 head: 2022
 ---

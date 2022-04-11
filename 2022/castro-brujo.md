@@ -7,6 +7,7 @@ portrait: castro.png
 portrait2: brujo.png
 time: 16:20-17:05
 type: Vortrag
+slides-file: castro-brujo.pdf
 language: english
 head: 2022
 ---

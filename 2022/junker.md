@@ -6,6 +6,7 @@ speaker: Annegret Junkere
 portrait: junker.jpg
 time: 12:35-13:20
 type: Vortrag
+slides-file: junker.pdf
 language: german
 head: 2022
 ---

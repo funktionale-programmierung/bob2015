@@ -6,6 +6,7 @@ speaker: Tim Digel
 portrait: digel.jpg
 time: 14:15-15:00
 type: Vortrag
+slides-file: digel.pdf
 language: german
 head: 2022
 ---

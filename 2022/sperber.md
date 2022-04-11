@@ -6,6 +6,7 @@ speaker: Michael Sperber
 portrait: sperber.jpg
 time: 10:15-11:00
 type: Vortrag
+slides-file: sperber.pdf
 language: english
 head: 2022
 ---

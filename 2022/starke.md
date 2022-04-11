@@ -6,6 +6,7 @@ speaker: Dr. Gernot Starke
 portrait: starke.jpg
 time: 15:05-15:50
 type: Vortrag
+slides-file: starke.pdf
 language: german
 head: 2022
 ---

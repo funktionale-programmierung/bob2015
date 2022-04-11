@@ -6,6 +6,7 @@ speaker: Ju Liu
 portrait: liu.png
 time: 17:10-17:55
 type: Vortrag
+slides-file: liu.pdf
 language: english
 head: 2022
 ---

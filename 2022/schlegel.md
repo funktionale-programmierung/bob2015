@@ -6,6 +6,7 @@ speaker: Markus Schlegel
 portrait: schlegel.jpg
 time: 10:15-11:00
 type: Vortrag
+slides-file: schlegel.pdf
 language: english
 head: 2022
 ---
