@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>presentation</title>
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+<style type="text/css">
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  text-transform: none;
+}
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 100%;
+  max-height: 95vh; }
+.reveal section img {
+  background: rgba(255, 255, 255, 0.0);
+  border: 0;
+  box-shadow: none; }
+.reveal pre {
+  height: max-content;
+  white-space: pre-wrap;
+}
+.reveal ul {
+  margin-right: 2em;
+}
+</style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section><h2 id="Local-First Distributed Applications (82fea8c)">Local-First Distributed Applications</h2><hr /><p>Ragnar Mogk <a href="mailto:mogk@cs.tu-darmstadt.de">&lt;mogk@cs.tu-darmstadt.de&gt;</a></p><p>Software Technology Group at TU Darmstadt</p></section><section><div><iframe width="400px" height="800px" style="border-radius:5px;" src="todolist.html#A" title="TodoMVC"></iframe><iframe width="400px" height="800px" style="border-radius:5px;margin-left:1em" src="todolist.html#B" title="TodoMVC"></iframe><iframe width="400px" height="800px" style="border-radius:5px;margin-left:1em" src="todolist.html#C" title="TodoMVC"></iframe></div></section><section><h2 id="Local-first applications are ubiquitous (82fea8c)">Local-first applications are ubiquitous</h2></section><section><h3 id="Business applications (82fea8c)">Business applications</h3><a href="https://www.therapeuten.software/Funktionen/Patientenverwaltung"><img src="../images/Resources/Patientenverwaltung.jpg" /></a></section><section><h3 id="Non-graphical interactive devices (82fea8c)">Non-graphical interactive devices</h3><img src="../images/Resources/streetlight.png" /></section><section><h3 id="Usage scenario (82fea8c)">Usage scenario</h3><ul><li>local computation and data</li><li>ad-hoc collaboration</li></ul></section><section><h2 id="Evolution of the platform (82fea8c)">Evolution of the platform</h2></section><section><h3 id="Mainframe model (82fea8c)">Mainframe model</h3><img src="../images/Resources/datastore/single-server.svg" /></section><section><h3 id="Personal computers (82fea8c)">Personal computers</h3><img src="../images/Resources/datastore/local-only.svg" /></section><section><h3 id="Collaboration (82fea8c)">Collaboration</h3><img src="../images/Resources/datastore/local-only-collaboration.svg" /></section><section><h3 id="Client-Server (82fea8c)">Client-Server</h3><img src="../images/Resources/datastore/client-server.svg" /></section><section><h3 id="Datacenter (82fea8c)">Datacenter</h3><img src="../images/Resources/datastore/datacenter.svg" /></section><section><h3 id="Geo-distribution (82fea8c)">Geo-distribution</h3><img src="../images/Resources/datastore/geodistribution.svg" /></section><section><h3 id="Local-first (82fea8c)">Local-first</h3><img src="../images/Resources/datastore/local-first.svg" /></section><section><h3 id="Local-first (82fea8c0)">Local-first</h3><img src="../images/Resources/datastore/cloud-collaboration.svg" /></section><section><h3 id="Platform (82fea8c)">Platform</h3><ul><li>powerful &amp; independent devices</li><li>varied network connections</li></ul></section><section><h2 id="Developing local-first applications is hard (82fea8c)">Developing local-first applications is hard</h2></section><section><h3 id="The use and platforms changed (82fea8c)">The <em>use</em> and <em>platforms</em> changed</h3><img src="../images/Resources/paradigm-mismatch.svg" /><p>    </p><h3 id="But the paradigm has not (82fea8c)">But the <em>paradigm</em> has not</h3></section><section><h2 id="What are the challenges? (82fea8c)">What are the challenges?</h2></section><section><h3 id="Interactivity (82fea8c)">Interactivity</h3><img src="../images/Resources/interaction.svg" /></section><section><h3 id="Callback hell (82fea8c)">Callback hell</h3><img src="../images/Resources/control-flow.png" /></section><section><h3 id="Glitches (82fea8c)">Glitches</h3><img src="../images/Resources/glitch-example.svg" /></section><section><h3 id="Partial failure (82fea8c)">Partial failure</h3><img src="../images/Resources/partial-failure.svg" /></section><section><h3 id="Collaboration (82fea8c1)">Collaboration</h3></section><section><img src="../images/Resources/collaboration/sequential-only.svg" /></section><section><img src="../images/Resources/collaboration/collaborative-only.svg" /></section><section><h2 id="What should a solution provide? (82fea8c)">What should a solution provide?</h2></section><section><img src="../images/Resources/consistency-border.svg" /></section><section><h2 id="How to automate reliability? (82fea8c)">How to automate reliability?</h2></section><section><img src="../images/Resources/rescala_logo_white.svg" /></section><section><h3 id="REScala provides (82fea8c)">REScala provides</h3><img src="../images/Resources/architecture.svg" /></section><section><h3 id="Reactives (82fea8c)">Reactives</h3><ul><li>time-changing value (state)</li><li>computation (functions)</li><li>depending on other reactives</li></ul><pre><code data-line-numbers="" class="language-scala">val si: Signal[String]              = Signals.fromInput(...)
+val ei: Event [Int]                 = Events.fromCallback(...)
+
+val e1: Event [F]                   = ei.map { i =&gt; f(si.value, i) }
+
+val s1: Signal[Int]                 = e1.count
+
+val s2: Signal[(String, Option[F])] = Signal { (s1.value, e1.value) }</code></pre></section><section><h3 id="Graph representation (82fea8c)">Graph representation</h3><img src="../images/Resources/flowgraph.svg" /></section><section><div><iframe width="600px" height="600px" style="border-radius:5px;" src="todolist.html" title="TodoMVC"></iframe></div></section><section><img src="../images/Resources/todo-code.svg" /></section><section><p>Replicated values require a lattice instance</p><pre><code data-line-numbers="" class="language-scala">val tasksList: Signal[ReplicatedList[Taskref]] = ...
+
+Network.replicate(tasksList, Todolist.registry)(Binding(&quot;tasklist&quot;))
+
+// the above needs a:
+val replicatedListLattice: Lattice[ReplicatedList[Taskref]]</code></pre></section><section><pre><code data-line-numbers="" class="language-scala">trait Lattice[A]:
+  /** By assumption: associative, commutative, idempotent. */
+  def merge(left: A, right: A): A</code></pre></section><section><h3 id="Lattices (82fea8c)">Lattices</h3><img src="../images/Resources/lattice.svg" /><p>merge(A, B) = merge(B, A) = merge(B, AB) = merge(AB, A) = …</p></section><section><img src="../images/Resources/collaboration/transactional-collaboration.svg" /></section><section><h2 id="Implementation of a ? (82fea8c)">Implementation of a <code>ReplicatedList</code>?</h2></section><section><p><code>ReplicatedList</code> is a composed type</p><pre><code data-line-numbers="" class="language-scala">type ReplicatedList =
+  (GList[Dot],
+   Map[Dot, RGANode[E]],
+   Set[Dot])</code></pre></section><section><h3 id="Lattices compose (82fea8c)">Lattices compose</h3><pre><code data-line-numbers="" class="language-scala">trait Lattice[A]:
+  /** By assumption: associative, commutative, idempotent. */
+  def merge(left: A, right: A): A
+
+type ReplicatedList = (GList[Dot], Map[Dot, RGANode[E]], Set[Dot])
+
+
+def setLattice[A]: Lattice[Set[A]] = (left, right) =&gt; left union right
+
+def tripleLattice[A: Lattice, B: Lattice, C: Lattice]: Lattice[(A, B, C)] =
+  (left, right) =&gt;
+    (left._1 merge right._1,
+     left._2 merge right._2,
+     left._3 merge right._3)
+</code></pre></section><section><h3 id="Operations are simple and sequential (82fea8c)">Operations are simple and sequential</h3><pre><code data-line-numbers="" class="language-scala">def insert[A](base: ReplicatedList[A], index: Int, elem: A): ReplicatedList[A] = ...
+def remove[A](base: ReplicatedList[A], index: Int)         : ReplicatedList[A] = ...
+</code></pre></section><section><h3 id="Convergent replicated data types (CRDTs) (82fea8c)">Convergent replicated data types (CRDTs)</h3><ul><li>state</li><li>merge</li><li>operations</li></ul></section><section><h2 id="How to combine reactives and replication? (82fea8c)">How to combine reactives and replication?</h2><img src="../images/Resources/architecture.svg" /></section><section><h2 id="How to combine reactives and replication? (82fea8c2)">How to combine reactives and replication?</h2><img src="../images/Resources/consistency-border-user.svg" /></section><section><h2 id="The dataflow graph is a lattice. (82fea8c)">The <em>dataflow graph</em> is a <em>lattice</em>.</h2></section><section><h3 id="State (82fea8c)">State</h3><pre><code data-line-numbers="" class="language-scala">val tasksList: Signal[ReplicatedList[Taskref]]  = ...
+val taskData : Signal[LastWriterWins[Taskdata]] = ...</code></pre><img src="../images/Resources/composition-as-flowgraph.svg" /></section><section><h3 id="Transactions (operations) (82fea8c)">Transactions (operations)</h3><p>Reactions that happen <em>at the same time</em>.</p><img src="../images/Resources/composition-as-transaction.svg" /></section><section><h3 id="Local execution model (82fea8c)">Local execution model</h3><img src="../images/Resources/transactions.svg" /></section><section><h3 id="How to merge transactions? (82fea8c)">How to merge transactions?</h3><img src="../images/Resources/merging-transactions-how.svg" /></section><section><h3 id="How to merge transactions? (82fea8c3)">How to merge transactions?</h3><img src="../images/Resources/merging-transactions.svg" /></section><section><h3 id="Transactions (82fea8c)">Transactions</h3><ul><li>determinism</li><li>isolation (parallel execution)</li><li>glitch freedom</li><li>time travel</li><li>exception / rollback semantics</li></ul></section><section><h2 id="Replication from the system side (82fea8c)">Replication from the system side</h2><img src="../images/Resources/architecture.svg" /></section><section><img src="../images/Resources/message-dissemination.svg" /></section><section><h3 id="Transparent encryption (82fea8c)">Transparent encryption</h3><img src="../images/Resources/encryption-architecture.svg" /></section><section><h3 id="Transparent encryption (82fea8c4)">Transparent encryption</h3><pre><code data-line-numbers="" class="language-scala">type EnCRDT[S] = Set[AEAD[S, VectorClock]]
+
+given [S]: Lattice[EnCRDT[S]] with
+  def merge(left: EnCRDT[S], right: EnCRDT[S]): EnCRDT[S] =
+    val combined = left union right
+    combined.filterNot(s =&gt; combined.exists(o =&gt; s.metadata &lt; o.metadata))
+
+extension [S](c: EnCRDT[S])
+  def send(data: S, key: Secret, replicaID: Defs.Id): EnCRDT[S] =
+    val causality = c.version.inc(replicaID)
+    Set(encrypt(data, causality, key))
+
+  def recombine(key: Secret)(using Lattice[S]): Option[S] =
+    c.flatMap(decrypt(_, key)).reduceOption(Lattice.merge[S])</code></pre></section><section><img src="../images/Resources/putting-it-together.svg" /></section><section><h3 id="Is it fast? (82fea8c)">Is it fast?</h3><img src="../images/scitzen.cache/f6ab8bf9e11f379f7be4b681b854a0afdb09fe4e/f6ab8bf9e11f379f7be4b681b854a0afdb09fe4e.svg" /><p>For 100 reactives.</p></section><section><h3 id="Is distribution fast? (82fea8c)">Is distribution fast?</h3><img src="../images/Resources/todoMVC-eval.svg" /><p>Flask: no consistency; Twilio: centralized</p></section><section><img src="../images/Resources/benchmark-papers.png" /></section><section><h3 id="Compilation (82fea8c)">Compilation</h3><p>overhead is only an implementation detail</p></section><p>  </p><p>      </p><p>      </p><p>      </p><p>      </p><section><p>Reliable applications – a piece in the</p><h3 id="data ownership puzzle (82fea8c)">data ownership puzzle</h3></section><section><h3 id="Data is a liability (82fea8c)">Data is a liability</h3><ul><li>many companies do not know what much of their data is about</li><li>storing data is expensive</li><li>most useful data is private data</li><li>securing private data is very expensive</li></ul></section><section><h3 id="Languages &gt; providers (82fea8c)">Languages &gt; providers</h3><dl><dt>providers</dt><dd><ul><li>centralized walled gardens</li><li>stifle competition</li><li>mediocre applications for interoperability</li></ul></dd><dt>languages</dt><dd><ul><li>data availability on users devices</li><li>fosters competition and mutual enhancement</li></ul></dd></dl></section><section><img src="../images/Resources/conclusion.svg" /></section><section><h3 id="Find more at: (82fea8c)">Find more at:</h3><ul><li>REScala: <a href="https://www.rescala-lang.com">https://www.rescala-lang.com</a></li><li>Group: <a href="https://www.stg.tu-darmstadt.de">https://www.stg.tu-darmstadt.de</a></li><li>Email: <a href="mailto:mogk@cs.tu-darmstadt.de">mogk@cs.tu-darmstadt.de</a></li></ul><p>  </p><a href="https://www.vecteezy.com/free-vector/web">Web Vectors by Vecteezy</a></section><section><img src="../images/Resources/ecoop-plf.png" /><ul><li><a href="https://2022.ecoop.org/home/plf-2022">https://2022.ecoop.org/home/plf-2022</a></li><li>Submission deadline: April 1st<ul><li>30min talks</li><li>in-progress papers (+ talk)</li></ul></li></ul></section><section><pre><code data-line-numbers="1,4,7,9,11,14,17,20,24" class="language-scala">val removeAll = Events.fromCallback[UIEvent](
+  cb =&gt; button(&quot;remove all done todos&quot;, onclick := cb))
+
+val (createTodo: Event[String],
+  todoInputField: Input) = inputFieldHandler(todoInputTag, onchange)
+
+val createTask: Event[Taskref] =
+  createTodo.map { str =&gt;
+                   maketask(TaskData(str)) }
+
+val tasksList: Signal[List[Taskref]] =
+  Events.foldAll(List(exampleTasks)) { tasks =&gt; Seq(
+
+    createTask &gt;&gt;
+      { tasks.prepend },
+
+    removeAll.event &gt;&gt;&gt;
+      { filterDone(tasks) },
+
+    tasks.value.map(_.removeClick) &gt;&gt;
+      { t =&gt; tasks.filter(_.id != t) }
+  )}
+
+UI.display(tasksList)</code></pre></section>
+      </div>
+    </div>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [ RevealHighlight, RevealZoom ],
+        width: "100%", height: "100%",
+        // minScale:0.2, maxScale:2,
+        margin: 0,
+        // Display presentation control arrows
+        controls: false,
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+        // Display a presentation progress bar
+        progress: false,
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+        // Push each slide change to the browser history. Implies `hash: true`
+        history: true,
+        // Vertical centering of slides
+        center: true,
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 2000,
+        // Transition style
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'none', // none/fade/slide/convex/concave/zoom
+        // The display mode that will be used to show slides
+        display: 'block',
+        pdfMaxPagesPerSlide: 1
+});
+    </script>
+  </body>
+</html>

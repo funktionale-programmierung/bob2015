@@ -8,6 +8,7 @@ time: 15:05-15:50
 type: Vortrag
 language: english
 head: 2022
+slides-link: /2022/slides/krewinkel.html
 ---
 
 ## Come together over FFI 
