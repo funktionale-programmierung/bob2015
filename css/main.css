@@ -160,6 +160,14 @@ h1, h2, h3, h4, h5, h6 {
     background-size: 720px 105px;
 }
 
+
+.header-background-2023 {
+    background-image: url('/images/bobkonf_header_2023.png');
+    background-repeat: no-repeat;
+    background-position: top 90px  left -50px;
+    background-size: 720px 105px;
+}
+
 @media(min-width: 400px){
     .header-wrapper {
         height: 320px;
