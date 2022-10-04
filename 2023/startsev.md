@@ -13,7 +13,7 @@ head: 2023
 
 ## Yulia Startsev
 
-[@ioctaptceb](http://twitter.com/ioctaptceb)
+[@codehag](http://twitter.com/codehag)
 
 Yulia Startsev is Senior Staff at Mozilla, and is part
 of the TC39 committee which standardizes ECMAScript (JavaScript) both as
