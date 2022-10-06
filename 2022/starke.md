@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: starke.pdf
 language: german
 head: 2022
+youtube: hW3IxjnHnAs
 ---
 
 _Wie bekannte Bugs im menschlichen Gehirn uns systematisch von besseren
