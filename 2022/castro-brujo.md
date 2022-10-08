@@ -10,6 +10,7 @@ type: Vortrag
 slides-file: castro-brujo.pdf
 language: english
 head: 2022
+youtube: ipV8zpAb0y0
 ---
 
 ## Meet Hank: The Erlang Code Cleaner 

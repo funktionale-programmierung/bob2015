@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2022
 slides-link: /2022/slides/mogk/articles/Presentation.html
+youtube: 6_l1iAGSl4g
 ---
 
 Local-first software is a new term for interactive end-user

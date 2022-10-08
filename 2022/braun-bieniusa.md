@@ -9,6 +9,7 @@ time:  11:45–12:30
 type: Vortrag
 language: german
 head: 2022
+youtube: rWlsEz19hBs
 ---
 
 Eric Brewers CAP-Theorem besagt, dass im Falle von Netzwerkpartitionen

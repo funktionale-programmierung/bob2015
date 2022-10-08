@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2022
 slides-link: /2022/slides/krewinkel.html
+youtube: Zc07Xxb6FJs
 ---
 
 ## Come together over FFI 
