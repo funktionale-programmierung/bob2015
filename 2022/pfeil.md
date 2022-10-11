@@ -9,7 +9,7 @@ type: Vortrag
 slides-file: pfeil.pdf
 language: english
 head: 2022
-youtube: VUBj8NW7uMA
+video: bob2022-compiling-anything-to-categories-pfeil
 ---
 
 Conal Elliott's _Compiling to Categories_ sparked interest in novel

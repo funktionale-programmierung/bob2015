@@ -9,7 +9,7 @@ type: Vortrag
 slides-file: sperber.pdf
 language: english
 head: 2022
-youtube: 7nDAazdGozY
+video: bob2022-event-sourcing-without-responsibility-sperber
 ---
 
 This is a follow-up to

@@ -8,7 +8,7 @@ time: 16:20-17:05
 type: Vortrag
 language: english
 head: 2022
-youtube: 1ssiBVOzCBk
+video: bob2022-python-gradual-typing-clifford
 ---
 
 Python is well known as a dynamically typed language, but it has an
