@@ -9,7 +9,7 @@ type: Vortrag
 slides-file: schlegel.pdf
 language: english
 head: 2022
-youtube: 953PB0L5cL
+video: bob2022-composable-ui-components-schlegel
 ---
 
 It has now been a decade since React revolutionized frontend GUI

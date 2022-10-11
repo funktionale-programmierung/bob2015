@@ -9,7 +9,7 @@ type: Vortrag
 language: english
 slides-file: breitner.pdf
 head: 2022
-youtube: _YyCUiBgEJQ
+video: bob2022-specification-driven-design-breitner
 ---
 
 Do you, too, think that "implementation-defined" is a derogary term?

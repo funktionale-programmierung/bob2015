@@ -9,7 +9,7 @@ type: Vortrag
 slides-file: starke.pdf
 language: german
 head: 2022
-youtube: hW3IxjnHnAs
+video: bob2022-tiger-kommt-weglaufen-starke
 ---
 
 _Wie bekannte Bugs im menschlichen Gehirn uns systematisch von besseren

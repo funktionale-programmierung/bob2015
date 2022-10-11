@@ -9,7 +9,7 @@ type: Vortrag
 slides-file: junker.pdf
 language: german
 head: 2022
-youtube: Xq6BD-4xsLs
+video: bob2022-event-getriebene-architekturen-junker
 ---
 
 Der Betrag diskutiert, ob und wie man event-getriebene Architekturen

@@ -9,7 +9,7 @@ type: Vortrag
 language: english
 head: 2022
 slides-link: /2022/slides/krewinkel.html
-youtube: Zc07Xxb6FJs
+video: bob2022-haskell-hearts-lua-krewinkel
 ---
 
 ## Come together over FFI 

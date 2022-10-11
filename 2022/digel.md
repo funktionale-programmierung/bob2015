@@ -9,7 +9,7 @@ type: Vortrag
 slides-file: digel.pdf
 language: german
 head: 2022
-youtube: 8V1-mq-pAC8
+video: bob2022-infrastructure-as-code-digel
 ---
 
 ## Mit Terraform, Ansible/Nixos und Continous Deployment per Knopfdruck zum Betrieb 

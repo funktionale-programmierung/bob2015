@@ -8,6 +8,7 @@ type: Vortrag
 language: english
 head: 2022
 portrait: derek-dreyer.jpg
+video: bob2022-rustbelt-securing-the-foundations-dreyer
 ---
 
 The Rust systems programming language promises to overcome the

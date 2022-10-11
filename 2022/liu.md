@@ -9,7 +9,7 @@ type: Vortrag
 slides-file: liu.pdf
 language: english
 head: 2022
-youtube: q7j3QST_n-Q
+video: bob2022-an-enigma-machine-in-elm-liu
 ---
 The Enigma machine was an encryption device that was used by German
 forces during WW2 to send secret messages. In this talk, we will

@@ -10,7 +10,7 @@ type: Vortrag
 slides-file: castro-brujo.pdf
 language: english
 head: 2022
-youtube: ipV8zpAb0y0
+video: bob2022-detecting-oxbow-code-in-erlang-castro-brujo
 ---
 
 ## Meet Hank: The Erlang Code Cleaner 
