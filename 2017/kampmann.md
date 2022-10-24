@@ -8,7 +8,6 @@ time: 17:10-17:55
 type: Vortrag
 language: english
 head: 2017
-slides-link: /2017/slides/kampmann.html
 youtube: ND1UhSzvgAk
 ---
 

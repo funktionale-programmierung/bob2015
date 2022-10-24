@@ -7,7 +7,6 @@ time: 10:15-11:00
 portrait: zuther.jpg
 type: Vortrag
 language: german
-slides-link: slides/zuther/slides/02_bobkonf/index.html
 youtube: G7CmsYNKP4A
 head: 2015
 ---

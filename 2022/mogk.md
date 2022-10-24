@@ -8,7 +8,6 @@ time: 17:10-17:55
 type: Vortrag
 language: english
 head: 2022
-slides-link: /2022/slides/mogk/articles/Presentation.html
 video: bob2022-local-first-distributed-applications-with-rescala-mogk
 ---
 

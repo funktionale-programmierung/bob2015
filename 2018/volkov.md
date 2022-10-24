@@ -8,7 +8,6 @@ language: english
 head: 2018
 time: 15:20-16:05
 portrait: nikita-volkov.png
-slides-link: slides/volkov.html
 youtube: L8-iC4_E5n4
 sketchnote: volkov.jpeg
 ---
