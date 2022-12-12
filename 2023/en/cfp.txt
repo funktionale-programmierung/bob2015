@@ -1,0 +1,39 @@
+Subject: Call for Participation: BOB 2022 (Berlin, March 17)
+
+=========================================================================
+			       BOB 2023
+			      Conference
+	     “What happens if we simply use what’s best?”
+		       March 17, 2023, Berlin
+		       https://bobkonf.de/2023/
+
+	   Program: https://bobkonf.de/2023/program.html
+	  Registration: https://bobkonf.de/2023/program.html
+=========================================================================
+				   
+BOB conference is a place for developers, architects, and decision-makers
+to explore technologies beyond the mainstream in software development
+and to find the best tools available to software developers today. Our
+goal is for all participants of BOB to return home with new insights
+that enable them to improve their own software development
+experience.
+
+The program features 14 talks and 8 tutorials on current topics:
+
+https://bobkonf.de/2023/program.html
+
+Talk subjects includes functional programming, software
+architecture, accessibility, digital transformation, version control,
+formal methods, and devops.
+
+BOB will feature tutorials on Elixir, Scheme, Kotlin, Agda, Domain
+Storytelling, Hexagonal Frontend Architecture, and other topics.
+
+Yulia Startsev will give the keynote talk on
+"Re-thinking Modules for the Web".
+
+Registration is open - regular early-bird tickets are 160€, student
+ticketrs are 75.  Note that many discount options are available, as
+are grants for members of groups underrepresented in tech:
+
+https://bobkonf.de/2023/registration.html
