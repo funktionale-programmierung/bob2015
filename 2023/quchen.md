@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2023
-title: "Wood instead of ivory: functional programming for CNC machines"
+title: "Wood instead of ivory—functional programming for CNC machines"
 speaker: quchen
 portrait: luposchainsky.jpg
 time: 17:10-17:55
