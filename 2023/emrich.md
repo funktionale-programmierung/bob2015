@@ -6,7 +6,7 @@ speaker: Marco Emrich
 portrait: marco-emrich.jpg
 time: 14:15-15:45
 type: Tutorial
-language: deutsch
+language: german
 head: 2023
 ---
 

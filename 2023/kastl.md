@@ -6,7 +6,7 @@ speaker: Bianca Kastl
 portrait: kastl.jpg
 time: 10:15-11:00
 type: Vortrag
-language: deutsch
+language: german
 head: 2023
 ---
 
