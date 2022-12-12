@@ -39,13 +39,13 @@ though.
 
 ### Preparation
 
-Course materials will appear in this GitHub repository: https://github.com/mnieper/scheme-macros.
+Course materials will appear in this GitHub repository: [`https://github.com/mnieper/scheme-macros`](https://github.com/mnieper/scheme-macros)
 
 Participants benefit from installing [Chez
 Scheme](https://cisco.github.io/ChezScheme/) and a good editor for
-Scheme (https://www.gnu.org/software/emacs/) on their machines.
+Scheme such as [GNU Emacs](https://www.gnu.org/software/emacs/) on their machines.
 
-An excellent introduction to Scheme is The Scheme Programming Language (https://scheme.com/tspl4/).
+An excellent introduction to Scheme is [The Scheme Programming Language](https://scheme.com/tspl4/).
 
 ### Marc Nieper-Wißkirchen
 

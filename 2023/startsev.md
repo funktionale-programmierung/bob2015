@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2023
-title: Re-thinking Modules for the Web
+title: "Keynote: Re-thinking Modules for the Web"
 speaker: Yulia Startsev
 portrait: yulia-startsev.jpg
 time: 09:00-10:00

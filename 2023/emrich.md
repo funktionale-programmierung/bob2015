@@ -1,9 +1,9 @@
 ---
 layout: talk
 active: bob2023
-title: Sechseckige Webseiten? Hexagonale Frontend Architektur!
+title: Sechseckige Webseiten? Hexagonale Frontend-Architektur!
 speaker: Marco Emrich
-portrait: marco-emrich.jpg
+portrait: emrich.jpg
 time: 14:15-15:45
 type: Tutorial
 language: german

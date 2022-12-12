@@ -3,7 +3,7 @@ layout: talk
 active: bob2023
 title: "A world to win: WebAssembly for the rest of us"
 speaker: Andy Wingo
-portrait:
+portrait: wingo.jpg
 time: 10:15-11:00
 type: Vortrag
 language: english

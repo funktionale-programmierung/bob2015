@@ -3,7 +3,7 @@ layout: talk
 active: bob2023
 title: Ist das ein Graph oder kann das weg? Funktionales Deep Learning in Haskell
 speaker: Raoul Schlotterbeck
-portrait: 
+portrait: schlotterbeck.jpg
 time: 14:15-15:00
 type: Vortrag
 language: german

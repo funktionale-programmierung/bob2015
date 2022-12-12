@@ -3,7 +3,7 @@ layout: talk
 active: bob2023
 title: Web Accessibility DeepDive
 speaker: Josefine
-portrait: josefine.png
+portrait: josefine.jpg
 time: 14:15-15:00
 type: Vortrag
 language: english

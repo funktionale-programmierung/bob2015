@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2023
-title:  Domain Storytelling—Understanding Your Users by Drawing Pictures
+title:  Domain Storytelling — Understanding Your Users by Drawing Pictures
 speaker: Henning Schwentner
 portrait: schwentner.jpg
 time: 10:05-11:35
