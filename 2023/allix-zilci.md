@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2023
-title:  Building highly available systems with Elixir: an introduction
+title:  "Building highly available systems with Elixir: an introduction"
 speaker: Pierre Allix, Ilke Zilci
 portrait: allix.jpg
 portrait2: zilci.jpg
