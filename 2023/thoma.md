@@ -3,7 +3,7 @@ layout: talk
 active: bob2023
 title: What this game taught me about software architecture
 speaker: Franz Thoma
-portrait: franz-thoma.jpg
+portrait: thoma.jpg
 time: 15:05-15:50
 type: Vortrag
 language: english
