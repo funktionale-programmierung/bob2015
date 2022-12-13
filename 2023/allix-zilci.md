@@ -38,8 +38,6 @@ Prerequisites: some experience with functional programming and Linux/Unix.
 
 ### [Pierre Allix](https://github.com/pallix)
 
-[@tnfinkakq](https://www.twitter.com/tnfinkakq)
-
 Pierre Allix works as a software engineer in the renewable energy sector.
 
 He has developed software professionally since 15 years, in the private sector
