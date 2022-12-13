@@ -8,7 +8,7 @@ Subject: Call for Participation: BOB 2022 (Berlin, March 17)
 		       https://bobkonf.de/2023/
 
 	   Program: https://bobkonf.de/2023/program.html
-	  Registration: https://bobkonf.de/2023/program.html
+	  Registration: https://bobkonf.de/2023/registration.html
 =========================================================================
 				   
 BOB conference is a place for developers, architects, and decision-makers
