@@ -4,7 +4,7 @@ active: bob2023
 title: An Introduction to Doing Software Proofs in Agda
 speaker: Sandy Maguire
 portrait: maguire.jpg
-time: 
+time: 14:15-15:45
 type: Tutorial
 language: english
 head: 2023
