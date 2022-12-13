@@ -27,8 +27,10 @@ architektonischer Robustheit.
 
 ### Bianca Lutz
 
-Bianca Lutz ist Softwarearchitektin bei der Active Group GmbH und
-arbeitet von Berlin aus. Sie hat langjährige Erfahrung in der
-Anwendungsentwicklung, der Anwendung formaler Methoden im Software
-Engineering und ist zertifizierte Expertin für Requirements
-Engineering.
+Bianca ist Softwarearchitektin bei der Active Group GmbH. Bevor sie
+2022 ins FP-Lager wechselte, hat sie ihr Skillset vor allem an
+Legacy-ERP-Systemen geschärft. Ihr besonderes Interesse gilt dem
+Einfluss, den mentale Modelle auf die Programmierpraxis haben. Seit
+dem Studium ist sie außerdem von formalen Methoden fasziniert und
+träumt heimlich davon, eines Tages den Großteil des alltäglichen
+Code-Gebastels der Maschine überlassen zu können.
