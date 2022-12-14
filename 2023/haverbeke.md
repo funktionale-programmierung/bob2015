@@ -24,7 +24,7 @@ completion), and possibly with each other.
 
 This presentation discusses the set of principles we arrived at in
 designing such an editor ([CodeMirror](https://codemirror.net)), and
-compares it to the more transitional event-style architectures. The
+compares it to the more traditional event-style architectures. The
 editor uses persistent state values and first-class transactions, both
 of them extensible by 3rd-party code, to make it straightforward by
 construction to keep the zoo of interdependent data involved in a
