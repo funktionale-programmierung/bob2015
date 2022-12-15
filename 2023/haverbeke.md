@@ -4,7 +4,7 @@ active: bob2023
 title: State Transitions in Complex Systems
 speaker: Marijn Haverbeke
 portrait: haverbeke.jpg
-time: 14:15-15:00
+time: 12:30–13:15
 type: Vortrag
 language: english
 head: 2023
