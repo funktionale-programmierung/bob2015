@@ -3,7 +3,7 @@ layout: talk
 active: bob2023
 title: OpenTelemetry Workshop
 speaker: Osher Vaknin
-portrait:
+portrait: vaknin.jpg
 time: 16:20-17:50
 type: Tutorial
 language: english
