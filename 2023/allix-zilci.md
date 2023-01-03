@@ -46,7 +46,7 @@ programming and backends, he used Clojure for 5 years and is now using Elixir
 since 5 years for the development of one of the largest virtual power plants in
 Europe.
 
-### [Ilke Zelci](ilke-zilci.github.io)
+### [Ilke Zilci](https://ilke-zilci.github.io)
 
 Developer with interests in TDD, functional programming and
 data-intensive applications. 5+ years of experience developing
