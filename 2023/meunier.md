@@ -3,7 +3,6 @@ layout: talk
 active: bob2023
 title: Version control in the age of distributed computing
 speaker: Pierre-Étienne Meunier
-portrait: meunier.jpg
 time: 15:05-15:50
 type: Vortrag
 language: english
