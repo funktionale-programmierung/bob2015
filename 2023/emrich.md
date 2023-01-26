@@ -2,8 +2,9 @@
 layout: talk
 active: bob2023
 title: Sechseckige Webseiten? Hexagonale Frontend-Architektur!
-speaker: Marco Emrich
+speaker: Marco Emrich, Sophia Cook
 portrait: emrich.jpg
+portrait2: cook.jpg
 time: 14:15-15:45
 type: Tutorial
 language: german
@@ -39,3 +40,14 @@ well-known conferences and is author of several programming
 books. When he is not organizing the Softwerkskammer Nuremberg
 (developer meetup), he is probably explaining to his son how to
 program robotic turtles.
+
+### Sophia Cook
+
+[@soisco](http://twitter.com/soisco)
+
+Sophia is a senior IT consultant with a focus on software development. Her
+aversion to frontend and especially JavaScript was cured by using Hexagonal
+Architecture in a frontend project. You could almost say that her heart is
+now burning for frontend. Sophia is also an advocate for more women in IT.
+Her newly founded munich based community  Shevelopers provides a stage for
+women by women and all supporting allies.
