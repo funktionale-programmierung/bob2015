@@ -9,7 +9,7 @@ language: english
 head: 2023
 ---
 
-This talk will be about Pijul (https://pijul.org), a version control
+This talk will be about [Pijul](https://pijul.org), a version control
 system I contributed to, based on new datastructures. Pijul is
 mathematically defined as the smallest generalisation of repositories
 that can "tolerate" conflicts. This has a number of nice consequences
