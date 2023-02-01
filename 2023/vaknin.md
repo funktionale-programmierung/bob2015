@@ -37,3 +37,6 @@ Requirements:
 
 ### Osher Vaknin
 
+Osher is an R&D team leader at Cisco.  Osher and his team are major contributors
+to the OpenTelemetry project, the biggest observability project today. For the
+last two years, Osher's job is to make developers' lives easier.
