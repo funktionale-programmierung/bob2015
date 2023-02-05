@@ -23,7 +23,7 @@ that we can (or cannot) discover with this approach.
 
 ### [Lars Hupel](https://lars.hupel.info/)
 
-[@larsr_h](https://www.twitter.com/larsr_h)
+[@lars](https://mastodon.hupel.info/@lars)
 
 Lars is an Evangelist at Giesecke+Devrient, a global company
 specialized in payments, connectivity, identities, and digital
