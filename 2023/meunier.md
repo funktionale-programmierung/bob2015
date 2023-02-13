@@ -7,6 +7,7 @@ time: 15:05-15:50
 type: Vortrag
 language: english
 head: 2023
+portrait: meunier.jpg
 ---
 
 This talk will be about [Pijul](https://pijul.org), a version control
@@ -34,3 +35,8 @@ service for repositories, and the challenges of maintaining an online
 service with a team of one person.
 
 ### Pierre-Étienne Meunier
+
+Former academic researcher on asynchronous models of computation
+and molecular computing, now co-founder of a small company
+leveraging algorithms and game theory to help people self-organise
+and efficiently share renewable energy.
