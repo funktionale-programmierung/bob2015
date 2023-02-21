@@ -36,6 +36,14 @@ improve the systems they are currently developing.
 
 Prerequisites: some experience with functional programming and Linux/Unix.
 
+### Preparation
+
+Course materials will appear here:
+[https://github.com/pallix/bobkonf2023-elixir-workshop](https://github.com/pallix/bobkonf2023-elixir-workshop)
+
+Please clone the repo and follow the provided instructions
+(`BEFORE_WORKSHOP.md`).
+
 ### [Pierre Allix](https://github.com/pallix)
 
 Pierre Allix works as a software engineer in the renewable energy sector.
