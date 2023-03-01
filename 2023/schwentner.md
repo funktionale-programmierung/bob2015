@@ -33,7 +33,7 @@ development, including non-technical people.
 
 ### Henning Schwentner
 
-[@hschwentner@mastodon.tech](https://mastodon.tech/@hschwentner)
+[@hschwentner@social.wps.de](https://mastodon.social/@hschwentner@social.wps.de)
 
 Henning loves programming in high quality. He lives this passion as
 coder, coach, and consultant at WPS – Workplace Solutions. There he

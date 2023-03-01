@@ -35,5 +35,18 @@ Requirements:
 * Basic knowledge of python
 * Laptop
 
+#### Preparations
+
+Participants should have a working [Docker setup](https://www.docker.com/) and
+prepare the workshop by following the instructions from
+[https://opentelemetry.io/docs/demo](https://opentelemetry.io/docs/demo).
+
+Note: On Apple Silicon Macs you may need to disable "Use containerd for pulling
+and storing images" under the "Features in development" section in the settings
+of your Docker Desktop Dashboard.
+
 ### Osher Vaknin
 
+Osher is an R&D team leader at Cisco.  Osher and his team are major contributors
+to the OpenTelemetry project, the biggest observability project today. For the
+last two years, Osher's job is to make developers' lives easier.
