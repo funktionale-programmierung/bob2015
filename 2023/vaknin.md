@@ -35,7 +35,7 @@ Requirements:
 * Basic knowledge of python
 * Laptop
 
-#### Preparations
+### Preparations
 
 Participants should have a working [Docker setup](https://www.docker.com/) and
 prepare the workshop by following the instructions from

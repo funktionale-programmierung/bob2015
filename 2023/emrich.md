@@ -24,10 +24,41 @@ Design ist die "Hexagonale Architektur".
 
 Sie lernen:
 
-* wann sich der Einsatz lohnt, 
-* wie sich das Mustern von anderen (z.B. Onion-Architektur)  abgrenzt 
+* wann sich der Einsatz lohnt,
+* wie sich das Mustern von anderen (z.B. Onion-Architektur)  abgrenzt
 * und wie Sie es in der Praxis umsetzen.
 
+### Vorbereitungen
+
+Zum Mitmachen beim Workshop "Sechseckige Webseiten? Hexagonale
+Frontend-Architektur!" braucht ihr folgendes:
+
+* eine halbwegs aktuelle Node Version (am Besten 16+)
+* das Beispiel-Repo
+* IDE eurer Wahl
+
+**Installationsanleitung**
+
+ 1. Node.JS installieren <https://nodejs.org>
+ 2. Das Repo auschecken unter <https://github.com/illyrica/hexa-space>
+
+```
+    > git clone git@github.com:illyrica/hexa-space.git
+    > cd hexa-space
+```
+
+ 3. Abhängigkeiten installieren
+
+```
+    > npm i
+```
+ 4. Server starten
+
+```
+    > npm run dev
+```
+
+Die Beispielseite steht auf <http://localhost:3000> zur Verfügung
 
 ### Marco Emrich
 
