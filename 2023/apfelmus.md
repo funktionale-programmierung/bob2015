@@ -4,7 +4,7 @@ active: bob2023
 title: Delta encodings help separate business logic from database operations
 speaker: Heinrich Apfelmus
 portrait: apfelmus.png
-time: 11:45-12:30
+time: 15:05-15:50
 type: Vortrag
 language: english
 head: 2023
