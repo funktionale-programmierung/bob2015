@@ -38,8 +38,29 @@ Requirements:
 ### Preparations
 
 Participants should have a working [Docker setup](https://www.docker.com/) and
-prepare the workshop by following the instructions from
-[https://opentelemetry.io/docs/demo](https://opentelemetry.io/docs/demo).
+prepare the workshop by following these instructions:
+
+1. Clone <https://github.com/epsagon/opentelemetry-workshop>
+   ```
+   git clone https://github.com/epsagon/opentelemetry-workshop
+   ```
+
+2. Change to directory
+   ```
+   cd opentelemtry-workshop
+   ```
+
+3. Build images
+   ```
+   docker-compose build
+   ```
+
+4. Pull images
+   ```
+   docker-compose pull
+   ```
+
+Then you can start all services with `docker-compose up`.
 
 Note: On Apple Silicon Macs you may need to disable "Use containerd for pulling
 and storing images" under the "Features in development" section in the settings
