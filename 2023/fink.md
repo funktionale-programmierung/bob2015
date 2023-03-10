@@ -26,6 +26,10 @@ imperative ones or even faster? If there is enough time left, I will
 even show, how the code examples are done in a pure functional
 programming language, such as Haskell.
 
+Participants should bring a laptop with a browser installed - we are
+planning coding exercises using [Kotlin
+Playgrounds](https://play.kotlinlang.org).
+
 ### Torsten Fink
 
 [@tnfinkacq](https://twitter.com/tnfinkakq)
