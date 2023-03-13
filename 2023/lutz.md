@@ -92,7 +92,7 @@ in
 Anschließend die Projektumgebung mit dem folgenden Befehl (im Projektordner)
 noch einmal bauen:
 ```
-nix-shell --run 'make -B .envrc'
+make -B .envrc
 ```
 
 Dann kann das Projekt auch wieder weg:
