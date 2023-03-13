@@ -25,6 +25,83 @@ Das Tutorial gibt eine praxisorientierte Einführung und zeigt die
 (notwendigen) Tradeoffs des Frameworks zwischen schnellem Start und
 architektonischer Robustheit.
 
+Anhand eines Beispiels schauen wir uns den grundsätzlichen Aufbau
+einer IHP-App an und lernen die wichtigsten Basisfeatures des
+Frameworks kennen.  Die Verwendung weiterer Komponenten, wie Email und
+Hintergrund-Jobs, sind ebenfalls beispielhaft ausprogrammiert. Die
+Teilnehmer:innen können Wünsche äußern, welche wir uns im Detail
+anschauen. Praxis-Tipps für den reibungslosen Einsatz der Plattform
+runden das Tutorial ab.
+
+### Vorbereitung
+
+Wer nebenbei ein bisschen mitexperimentieren möchte, benötigt eine
+funktionierende Nix-Installation. Anleitungen dazu findet ihr
+[hier](https://nixos.org/download.html#download-nix).
+Die Single-User-Installation ist einfacher zu deinstallieren
+und eignet sich deshalb besser, wenn es nur ums Experimentieren geht.
+
+IHP selbst ist als Nix-Paket verfügbar; installieren lässt es sich
+per:
+
+```
+nix-env --install ihp-new
+```
+
+Hinweise für die Editorintegration findet ihr im
+[IHP-Guide](https://ihp.digitallyinduced.com/Guide/installation.html#3-setting-up-your-editor).
+
+Um im Tutorium Zeit zu sparen, befüllt ihr am besten euren Nix-Store
+mit den Abhängigkeiten. Dazu einfach einmal ein Dummy-Projekt anlegen:
+
+```
+ihp-new dummy
+```
+
+Im Projektordner die Datei `default.nix` um die markierten drei Zeilen
+ergänzen:
+
+```
+let
+    ihp = builtins.fetchGit {
+        url = "https://github.com/digitallyinduced/ihp.git";
+        ref = "refs/tags/v1.0.1";
+    };
+    haskellEnv = import "${ihp}/NixSupport/default.nix" {
+        ihp = ihp;
+        haskellDeps = p: with p; [
+            cabal-install
+            base
+            wai
+            text
+            hlint
+            p.ihp
+            mmark                               # <-----hier
+        ];
+        otherDeps = p: with p; [
+            mailhog                             # <-----hier
+        ];
+        projectPath = ./.;
+        withHoogle = true;                      # <-----hier
+    };
+in
+    haskellEnv
+
+```
+
+Anschließend die Projektumgebung mit dem folgenden Befehl (im Projektordner)
+noch einmal bauen:
+```
+nix-shell --run 'make -B .envrc'
+```
+
+Dann kann das Projekt auch wieder weg:
+```
+cd ..
+rm -rf dummy
+```
+
+
 ### Bianca Lutz
 
 Bianca ist Softwarearchitektin bei der Active Group GmbH. Bevor sie
