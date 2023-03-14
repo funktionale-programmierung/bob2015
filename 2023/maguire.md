@@ -16,6 +16,10 @@ to use Agda to prove properties about our software, what's productive
 to prove, and show how modeling in Agda can be useful even if your day
 job doesn't buy in.
 
+### Preparation
+
+Participants should install Agda beforehand according to 
+[these instructions](https://github.com/isovector/talks/blob/master/agda/setup.md).
 
 ### [Sandy Maguire](https://reasonablypolymorphic.com/)
 
