@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2023
-title: What this game taught me about software architecture
+title: What a computer game taught me about software architecture
 speaker: Franz Thoma
 portrait: thoma.jpg
 time: 11:45-12:30
