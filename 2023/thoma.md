@@ -27,14 +27,9 @@ and about the cost of maintenance.
 
 ### Franz Thoma
 
-Franz Thoma is originally a physicist and works as a consultant and
-software engineer at TNG Technology Consulting in Munich. While
-spending time there on domain specific languages and building
-compilers, he discovered his love for functional languages and
-expressive type systems. With Haskell, Franz found a robust and
-elegant language to express himself, which he uses for his own
-personal tooling as well as a thinking tool. At TNG, he currently
-works on high-throughput ingestion of real-time data for a client's
-Big Data platform.
-
+Consultant at TNG Technology Consulting in Munich, Software Engineer
+and Product Owner (not simultaneously). Functional Programming and
+Haskell enthusiast. Playing around with compilers and domain specific
+languages both on the job and as a hobby. Interested in building and
+shaping software architecture, products and organizations.
 
