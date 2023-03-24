@@ -6,6 +6,7 @@ speaker: Heinrich Apfelmus
 portrait: apfelmus.png
 time: 15:05-15:50
 type: Vortrag
+slides-file: apfelmus.pdf
 language: english
 head: 2023
 ---

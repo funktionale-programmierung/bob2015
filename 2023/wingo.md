@@ -6,6 +6,7 @@ speaker: Andy Wingo
 portrait: wingo.jpg
 time: 10:15-11:00
 type: Vortrag
+slides-file: wingo.pdf
 language: english
 head: 2023
 ---

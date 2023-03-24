@@ -6,6 +6,7 @@ speaker: Joachim Breitner
 portrait: breitner.png
 time: 14:15-15:00
 type: Vortrag
+slides-file: breitner.pdf
 language: english
 head: 2023
 ---

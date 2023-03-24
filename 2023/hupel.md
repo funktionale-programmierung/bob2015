@@ -6,6 +6,7 @@ speaker: Lars Hupel
 portrait: hupel.jpg
 time: 17:00-17:55
 type: Vortrag
+slides-file: hupel.pdf
 language: english
 head: 2023
 ---

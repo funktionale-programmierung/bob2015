@@ -6,6 +6,7 @@ speaker: Raoul Schlotterbeck
 portrait: schlotterbeck.jpg
 time: 12:30–13:15
 type: Vortrag
+slides-file: schlotterbeck.pdf
 language: german
 head: 2023
 ---

@@ -6,6 +6,7 @@ speaker: Markus Hettich
 portrait: hettich.jpg
 time: 11:45-12:30
 type: Vortrag
+slides-file: hettich.pdf
 language: german
 head: 2023
 ---

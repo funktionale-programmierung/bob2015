@@ -6,6 +6,7 @@ speaker: Marijn Haverbeke
 portrait: haverbeke.jpg
 time: 12:30–13:15
 type: Vortrag
+slides-file: haverbeke.pdf
 language: english
 head: 2023
 ---

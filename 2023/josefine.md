@@ -6,6 +6,7 @@ speaker: Josefine
 portrait: josefine.jpg
 time: 14:15-15:00
 type: Vortrag
+slides-file: josephine.pdf
 language: english
 head: 2023
 ---
