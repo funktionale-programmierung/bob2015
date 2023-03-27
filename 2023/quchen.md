@@ -6,6 +6,7 @@ speaker: quchen
 portrait: luposchainsky.jpg
 time: 17:10-17:55
 type: Vortrag
+slides-file: quchen.pdf
 language: english
 head: 2023
 ---

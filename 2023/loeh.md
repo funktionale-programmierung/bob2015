@@ -6,6 +6,7 @@ speaker: Andres Löh
 portrait: loeh.jpg
 time: 16:15-17:00
 type: Vortrag
+slides-file: loeh.pdf
 language: english
 head: 2023
 ---

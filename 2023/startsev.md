@@ -6,6 +6,7 @@ speaker: Yulia Startsev
 portrait: yulia-startsev.jpg
 time: 09:00-10:00
 type: Vortrag
+slides-file: startsev.pdf
 language: english
 head: 2023
 ---
