@@ -5,6 +5,7 @@ title: Version control in the age of distributed computing
 speaker: Pierre-Étienne Meunier
 time: 15:05-15:50
 type: Vortrag
+slides-file: meunier.pdf
 language: english
 head: 2023
 portrait: meunier.jpg

@@ -6,6 +6,7 @@ speaker: Torsten Fink
 portrait: fink.png
 time: 11:45-13:15
 type: Tutorial
+slides-file: fink.pdf
 language: english
 head: 2023
 ---
