@@ -8,6 +8,7 @@ time: 10:15-11:00
 type: Vortrag
 language: german
 head: 2023
+video: bob2023-digitalisierung-unter-pandemischen-bedingungen-kastl
 ---
 
 Die letzten 2,5 Jahre Software-Entwicklung lassen sich vielleicht so

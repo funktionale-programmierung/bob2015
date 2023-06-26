@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: hupel.pdf
 language: english
 head: 2023
+video: bob2023-when-testing-just-doesnt-cut-it-hupel
 ---
 
 Writing unit tests is pretty much standard practice these

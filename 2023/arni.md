@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2023
 slides-link: https://docs.google.com/presentation/d/e/2PACX-1vQWLT-rDFGDsMpOY1tO-Z71KxjP-7_j-Vm-NaJDm2yo0_ntOTHUG_lhuYEYFOr4-PCXu_WbxfYZOgDz/pub?start=false&loop=false&delayms=3000
+video: bob2023-cloud-done-the-nix-way-arni
 ---
 
 Nix has proved to be a revolutionary advance in packaging. In addition

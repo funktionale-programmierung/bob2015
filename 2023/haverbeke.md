@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: haverbeke.pdf
 language: english
 head: 2023
+video: bob2023-state-transitions-in-complex-systems-haverbeke
 ---
 
 In systems whose state consists of a non-trivial number of separate

@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: hettich.pdf
 language: german
 head: 2023
+video: bob2023-softwareentwicklung-ist-kein-hexenwerk-hettich
 ---
 
 "Programmierer sind die Magier unserer Zeit" heißt es in einem Video,

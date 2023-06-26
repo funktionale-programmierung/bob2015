@@ -8,6 +8,7 @@ time: 11:45-12:30
 type: Vortrag
 language: english
 head: 2023
+video: bob2023-what-a-computer-game-taught-me-about-software-architecture-thoma
 ---
 
 Factorio is a simulation game where you build a highly automated factory,

@@ -9,6 +9,7 @@ slides-file: meunier.pdf
 language: english
 head: 2023
 portrait: meunier.jpg
+video: bob2023-version-control-in-the-age-of-distributed-computing-meunier
 ---
 
 This talk will be about [Pijul](https://pijul.org), a version control

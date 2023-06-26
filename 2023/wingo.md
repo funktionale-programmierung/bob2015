@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: wingo.pdf
 language: english
 head: 2023
+video: bob2023-web-assembly-for-the-rest-of-us-wingo
 ---
 
 WebAssembly has been around for a while, but until now it has been of

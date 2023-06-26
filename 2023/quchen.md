@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: quchen.pdf
 language: english
 head: 2023
+video: bob2023-wood-instead-of-ivory-functional-programming-for-CNC-machines-quchen
 ---
 
 Functional programming has long left the domain of academia. But what

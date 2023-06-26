@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: apfelmus.pdf
 language: english
 head: 2023
+video: bob2023-delta-encodings-help-separate-business-logic-from-database-operations-apfelmus
 ---
 
 In this talk, I describe <em>delta encodings</em> and how they helped me

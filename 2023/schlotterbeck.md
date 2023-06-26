@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: schlotterbeck.pdf
 language: german
 head: 2023
+video: bob2023-ist-das-ein-graph-oder-kann-das-weg-schlotterbeck
 ---
 
 Mathematisch betrachtet sind Neuronale Netze parametrisierte

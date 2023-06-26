@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: loeh.pdf
 language: english
 head: 2023
+video: bob2023-structuring-effectful-programs-loeh
 ---
 
 Historically, Haskell has been using monads to encode effects in

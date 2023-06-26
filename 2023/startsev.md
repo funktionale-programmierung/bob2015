@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: startsev.pdf
 language: english
 head: 2023
+video: bob2023-re-thinking-modules-for-the-web-startsev
 ---
 
 It is a truth universally acknowledged, that a programming language

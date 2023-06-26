@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: breitner.pdf
 language: english
 head: 2023
+video: bob2023-getting-recursive-definitions-off-their-bottoms-breitner
 ---
 
 Haskell claims to be a declarative language,

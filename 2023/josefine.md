@@ -9,6 +9,7 @@ type: Vortrag
 slides-file: josephine.pdf
 language: english
 head: 2023
+video: bob2023-web-accessibility-deep-dive-josefine
 ---
 
 You want to go beyond roughly meeting guidelines but actually create
