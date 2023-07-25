@@ -15,22 +15,8 @@
           withOptionalDependencies = true;
         };
       in {
-        packages = {
-          default = pkgs.stdenv.mkDerivation {
-            name = "build-blog";
-            src = pkgs.lib.cleanSource ./.;
-            buildInputs = [ jekyllFull ];
-            installPhase = ''
-              mkdir -p $out
-              cp -r . $out
-            '';
-          };
-          serve = pkgs.writeShellScriptBin "serve"
-            "${pkgs.lib.getExe jekyllFull} serve --watch --incremental";
-        };
-
-        apps.default =
-          flake-utils.lib.mkApp { drv = self.packages.${system}.serve; };
+        packages.default = pkgs.writeShellScriptBin "serve"
+          "${pkgs.lib.getExe jekyllFull} serve --watch --incremental";
 
         devShells.default =
           pkgs.mkShell { nativeBuildInputs = [ jekyllFull ]; };
