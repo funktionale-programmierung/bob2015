@@ -16,7 +16,7 @@
         };
       in {
         packages.default = pkgs.writeShellScriptBin "serve"
-          "${pkgs.lib.getExe jekyllFull} serve --watch --incremental";
+          "${pkgs.lib.getExe jekyllFull} serve --watch";
 
         devShells.default =
           pkgs.mkShell { nativeBuildInputs = [ jekyllFull ]; };
