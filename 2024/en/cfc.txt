@@ -6,7 +6,7 @@ Subject: Call for Contributions: BOB 2024 [March 15, Deadline Nov 17]
                   https://bobkonf.de/2024/cfc.html
                          Berlin, Mar 17
                         Call for Contributions
-                     Deadline: November 21, 2023
+                     Deadline: November 17, 2023
 ================================================================================
 
 You are actively engaged in advanced software engineering methods,
