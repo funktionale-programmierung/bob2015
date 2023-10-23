@@ -1,5 +1,10 @@
 Subject: Call for Contributions: BOB 2024 [March 15, Deadline Nov 17]
 
+Web version of call is here:
+
+https://bobkonf.de/2024/cfc.html
+
+```
 ================================================================================
                          BOB Conference 2024
          "What happens when we use what's best for a change?"
@@ -32,8 +37,6 @@ sessions. Specifically:
 
 - advice on structure and presentation
 - review of talk slides
-- assistance with recording
-- review of recording, if applicable
 
 Speaker Grants
 --------------
@@ -130,3 +133,4 @@ Scientific Advisory Board
 - Annette Bieniusa, TU Kaiserslautern
 - Torsten Grust, Uni Tübingen
 - Peter Thiemann, Uni Freiburg
+```
