@@ -1,0 +1,57 @@
+---
+layout: talk
+active: bob2024
+title: Recursive definitions in Lean
+speaker: Joachim Breitner
+portrait: breitner.png
+time: 
+type: Tutorial
+language: english
+head: 2024
+---
+Lean, the proof assistant, is famous for Mathlib, an ongoing effort to
+formalize vast quantities of mathematics. Nevertheless, Lean is also a
+general purpose programming language – purely functional, strictly
+evaluated and dependently typed. If that doesn’t excite you already,
+I’ll show off its interactive development experience and a selection
+of syntactic features (e.g. clever use of namespaces to allow
+extensible method syntax, innovations to monadic do-notation,
+anonymous lambda expressions and more, all made possible by a flexible
+macro system heavily inspired by Racket's).
+
+But wait, you might say, does theorem proving with dependent types not
+require that all functions are to be total and, in particular,
+terminating? How can I write real, long-running programs this way?
+
+Don’t worry: We’ll look at the various ways you can define recursive
+functions in Lean. Often Lean automatically proves that your code
+terminates for you. If it doesn’t, you can help it along with small
+hints or larger proofs. Alternatively, if you don’t plan to prove
+anything about your functions, you can also simply opt-out of
+termination checking, and write recursive functions without
+restriction. While a termination checker can be a frustrating
+colleague, it's also a useful colleague once you learn how to interact
+with it.
+
+
+### [Joachim Breitner](https://joachim-breitner.de/)
+
+[@nomeata](http://www.twitter.com/nomeata)
+
+Ever since Joachim has found beauty and elegance in Functional
+Programming, he’s been working with and on functional programming
+languages, in particular Haskell, where he is contributed to the
+compiler, helps with the steering committee and is a co-host of the
+Haskell Interlude podcast.
+
+He’s also always been fascinated by Interactive Theorem Proving and
+his academic persona used Isabelle and Coq for formalize mathematics
+and verify programs.
+
+These two interests find their natural synthesis in the Lean
+programming language, and Joachim joined the Lean FRO to work on the
+lean compiler itself.
+
+Besides such serious nerdery, you’ll find Joachim dancing Swing and
+Tango (in particular when traveling to conferences, so talk to him if
+you want to join), paragliding and unapologetically making bad puns.
