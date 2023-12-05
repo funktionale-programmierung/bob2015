@@ -33,8 +33,8 @@ data-driven software analysis!
 
 ### [Markus Harrer](https://markusharrer.de)
 
-Bluesky: [@feststelltaste.bsky.social](https://bsky.app/profile/feststelltaste.bsky.social)
-Fediverse: [@feststelltaste@mastodon.social](https://mastodon.social/@feststelltaste)
+Bluesky: [@feststelltaste.bsky.social](https://bsky.app/profile/feststelltaste.bsky.social)<br/>
+Fediverse: [@feststelltaste@mastodon.social](https://mastodon.social/@feststelltaste)<br/>
 Twitter: [@feststelltaste](https://twitter.com/feststelltaste)
 
 Markus Harrer is a software engineer who’s passionate about improving
