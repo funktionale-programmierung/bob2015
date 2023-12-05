@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2024
-title: Recursive definitions in Lean
+title: Lean for the General Programmer
 speaker: Joachim Breitner
 portrait: breitner.png
 time: 
@@ -9,29 +9,12 @@ type: Tutorial
 language: english
 head: 2024
 ---
-Lean, the proof assistant, is famous for Mathlib, an ongoing effort to
-formalize vast quantities of mathematics. Nevertheless, Lean is also a
-general purpose programming language – purely functional, strictly
-evaluated and dependently typed. If that doesn’t excite you already,
-I’ll show off its interactive development experience and a selection
-of syntactic features (e.g. clever use of namespaces to allow
-extensible method syntax, innovations to monadic do-notation,
-anonymous lambda expressions and more, all made possible by a flexible
-macro system heavily inspired by Racket's).
 
-But wait, you might say, does theorem proving with dependent types not
-require that all functions are to be total and, in particular,
-terminating? How can I write real, long-running programs this way?
-
-Don’t worry: We’ll look at the various ways you can define recursive
-functions in Lean. Often Lean automatically proves that your code
-terminates for you. If it doesn’t, you can help it along with small
-hints or larger proofs. Alternatively, if you don’t plan to prove
-anything about your functions, you can also simply opt-out of
-termination checking, and write recursive functions without
-restriction. While a termination checker can be a frustrating
-colleague, it's also a useful colleague once you learn how to interact
-with it.
+Lean isn’t just an interactive theorem prover, it is also a general
+purpose functional programming language. In this tutorial, we’ll
+explore that side of it, and write a small command line tool together.
+We’ll approach the problem in a few variations – purely functional,
+imperative-style, with no proofs or some proofs.
 
 
 ### [Joachim Breitner](https://joachim-breitner.de/)
