@@ -17,7 +17,7 @@ explores two possible approaches for domain modeling, while also
 practicing communication with different stakeholders, from POs and
 Requirement Engineers, to Domain Experts!
 
-***Part 1***
+**Part 1**
 
 In this part, you can try it out "hands-on". Our PO will explain the
 domain and we will work out a common understanding in event-storming.
@@ -49,8 +49,9 @@ to give feedback directly on the code.
 - Coding 2 (20’)
 - Retro (13’)
 
-**Tentative Schedule (Part 3)** - Intro to DDD, DM (10’)
+**Tentative Schedule (Part 3)**
 
+- Intro to DDD, DM (10’)
 - Problem Statement (5’)
 - Coding 1 (40’)
 - Revised Problem Statement (2’)
@@ -58,11 +59,14 @@ to give feedback directly on the code.
 - Retro + Comparative Analysis (13’)
 
 
-### Frank Dedden
+### Marco Emrich
 
-Frank is a programmer and researcher with a background in languages
-and compilers, with a particular interest in applying functional
-programming concepts to lower-level systems. His past experience
-includes working on the Copilot runtime verification language at NASA
-Langley Research Center, and the development of a compiler for a
-dependently-typed programming language.
+Marco is an architect and consultant at codecentric and a passionate
+advocate of software craft and code quality. He regularly speaks at
+well-known conferences and is the author of several technical books.
+When he's not buried deep in code, his children play analog board
+games with him.
+
+### Leandro Doctors
+
+Introduction to follow
