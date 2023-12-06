@@ -6,7 +6,7 @@ speaker: Irmhild Rogalla, Jolanta Paliszewska
 portrait:
 time:
 type: Vortrag
-language: deutsch
+language: german
 head: 2024
 ---
 

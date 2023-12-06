@@ -6,7 +6,7 @@ speaker: Oskar Schirmer, Felix Winkelmann
 portrait:
 time:
 type: Vortrag
-language: deutsch
+language: german
 head: 2024
 ---
 
