@@ -3,7 +3,7 @@ layout: talk
 active: bob2024
 title: Lean for the General Programmer
 speaker: Joachim Breitner
-portrait: breitner.png
+portrait: joachim-breitner.jpg
 time: 
 type: Tutorial
 language: english

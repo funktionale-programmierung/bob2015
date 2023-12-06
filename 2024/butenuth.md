@@ -3,10 +3,10 @@ layout: talk
 active: bob2024
 title: "Kommunikationsmuster für Services: Effizient und zuverlässig"
 speaker: Roger Butenuth
-portrait: 
+portrait: roger-butenuth.jpg
 time:
 type: Vortrag
-language: deutsch
+language: german
 head: 2024
 ---
 

@@ -6,7 +6,7 @@ speaker: Simon Härer
 portrait: simon-haerer.jpg
 time:
 type: Vortrag
-language: deutsch
+language: german
 head: 2024
 ---
 

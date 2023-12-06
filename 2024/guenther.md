@@ -6,7 +6,7 @@ speaker: Martin Günther
 portrait: martin-guenther.jpg
 time: 
 type: Tutorial
-language: deutsch
+language: german
 head: 2024
 ---
 
