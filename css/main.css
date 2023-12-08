@@ -87,6 +87,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: black!important;
 }
 
+.navbar-nav {
+    align-items: center;
+}
+
 
 .navbar-expand-lg .navbar-nav .nav-item {
     float: left;
