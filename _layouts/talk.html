@@ -76,9 +76,9 @@ layout: default
             </div>
              {% if page.portrait %}
             <div class="col-lg-4">
-	              <img src="portrait/{{page.portrait}}"></img>
+	              <img style="max-width: 300px; border-radius: 100%;" src="portrait/{{page.portrait}}"></img>
                 {% if page.portrait2 %}
-	              <img src="portrait/{{page.portrait2}}"></img>
+	              <img style="max-width: 300px; border-radius: 100%;" src="portrait/{{page.portrait2}}"></img>
                 {% endif %}
             </div>
             {% endif %}
