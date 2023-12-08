@@ -3,7 +3,8 @@ layout: talk
 active: bob2024
 title: "From Vision to Code: (Functional) Domain Modelling in Practice"
 speaker: Marco Emrich, Leandro Doctors
-portrait: 
+portrait: marco-emrich.jpg
+portrait2: leandro-doctors.jpg
 time:
 type: Tutorial
 language: english
@@ -69,4 +70,11 @@ games with him.
 
 ### Leandro Doctors
 
-Introduction to follow
+- Proactive and Self-Motivated Free Software and Free Culture geek.
+- Interested in the Social Impact of Science and Technology.
+- Contributions to Free Software, as part of globally distributed teams.
+- Experienced both as a Researcher and as a Lecturer.
+- Dedicated student mentor.
+- International and Multicultural experience (Europe, South America,
+  and Africa).
+
