@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2024
-title: The Unreasonable Effectiveness of Event-driven Architecture
+title: The Unreasonable Effectiveness of Events
 speaker: Lutz Hühnken
 portrait: lutz-huehnken.jpg
 time:
