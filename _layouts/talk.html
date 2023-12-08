@@ -76,9 +76,23 @@ layout: default
             </div>
              {% if page.portrait %}
             <div class="col-lg-4">
-	              <img style="max-width: 300px; border-radius: 100%;" src="portrait/{{page.portrait}}"></img>
-                {% if page.portrait2 %}
-	              <img style="max-width: 300px; border-radius: 100%;" src="portrait/{{page.portrait2}}"></img>
+	      <img style="width: 300px;
+                          height: 300px;
+                          object-fit: cover;
+                          {% if page.portrait-position %}
+                          object-position: {{ page.portrait-position }};
+                          {% endif %}
+                          border-radius: 100%;"
+                   src="portrait/{{page.portrait}}" />
+              {% if page.portrait2 %}
+	      <img style="width: 300px;
+                          height: 300px;
+                          object-fit: cover;
+                          {% if page.portrait-position2 %}
+                          object-position: {{ page.portrait-position2 }};
+                          {% endif %}
+                          border-radius: 100%;"
+                   src="portrait/{{page.portrait2}}" />
                 {% endif %}
             </div>
             {% endif %}

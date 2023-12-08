@@ -4,6 +4,7 @@ active: bob2024
 title: Software Analytics with Data Science on Software Data
 speaker: Markus Harrer
 portrait: markus-harrer.jpg
+portrait-position: top
 time:
 type: Vortrag
 language: english
