@@ -3,7 +3,8 @@ layout: talk
 active: bob2024
 title: "From Vision to Code: (Functional) Domain Modelling in Practice"
 speaker: Marco Emrich, Leandro Doctors
-portrait: 
+portrait: marco-emrich.jpg
+portrait2: leandro-doctors.jpg
 time:
 type: Tutorial
 language: english
