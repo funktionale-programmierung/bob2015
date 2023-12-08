@@ -70,4 +70,11 @@ games with him.
 
 ### Leandro Doctors
 
-Introduction to follow
+- Proactive and Self-Motivated Free Software and Free Culture geek.
+- Interested in the Social Impact of Science and Technology.
+- Contributions to Free Software, as part of globally distributed teams.
+- Experienced both as a Researcher and as a Lecturer.
+- Dedicated student mentor.
+- International and Multicultural experience (Europe, South America,
+  and Africa).
+

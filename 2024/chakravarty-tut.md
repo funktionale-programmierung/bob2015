@@ -1,37 +1,39 @@
 ---
 layout: talk
 active: bob2024
-title: Functional Programming in Swift
+title: "SwiftUI: Declarative GUIs for Mobile and Desktop Applications"
 speaker: Manuel Chakravarty
 portrait: manuel-chakravarty.jpg
 time: 
-type: Vortrag
+type: tutorial
 language: english
 head: 2024
 ---
 
-When people talk about functional programming in modern multi-paradigm
-languages, they usually mention Rust, Scala, or Kotlin. You rarely
-hear Swift being mentioned. This is odd, as one might argue that, of
-these languages, Swift places the strongest emphasis on functional
-programming.
+Modern graphical user interfaces typically require a complex balancing
+act of managing view state, during asynchronous user interactions,
+while the model state of the application may change concurrently;
+e.g., due to network activity. This necessitates a complex dance of
+coordinating UI view updates and event handlers, while trying to
+ensure that the view state always accurately reflects the
+application’s model state and that no user input gets lost.
 
-In this talk, I will explain the core functional programming features
-of Swift, including its expressive type system, value types, and
-mutability control. Furthermore, I will discuss how Swift’s language
-design is influenced by the desire to create a language that addresses
-the whole spectrum from low-level systems programming up to high-level
-applications with sophisticated graphical user interfaces. Beyond the
-core language itself, functional programming also permeates Swift’s
-rich ecosystem of libraries. To support this point, I will outline
-some FP-inspired core libraries, covering concepts from functional
-data structures over functional reactive programming to declarative
-user interfaces.
+Declarative user interfaces promise to automate much of this
+complexity by automatically and efficiently rendering the user
+interface on the basis of the current model state, thus freeing the
+programmer from manually tracking all dependencies leading to state
+and view updates. SwiftUI is Apple’s contender at realising this dream
+for complex mobile and desktop applications.
 
-Finally, I will briefly summarise practical considerations for using
-Swift in your own projects. This includes the cross-platform
-toolchain, the package manager, and interoperability with other
-languages.
+In this tutorial, I will show you how SwiftUI works and we will build
+an application together. I will explain views, view modifiers,
+bindings, observable models, previews, and more.
+
+To participate in this tutorial, you will need a Mac as we will make
+use of the Xcode IDE. However, you don’t need to know Swift. If you
+are familiar with Kotlin or Scala, or even just modern Java with some
+functional programming, I will explain the rest.
+
 
 
 ### [Manuel Chakravarty](https://JustTesting.org/)

@@ -1,9 +1,9 @@
 ---
 layout: talk
 active: bob2024
-title: 
-speaker:
-portrait: 
+title: Staging with Typed Template Haskell
+speaker: Andres Löh
+portrait: loeh.jpg
 time:
 type: Tutorial
 language: english
