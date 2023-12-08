@@ -35,4 +35,7 @@ Einzelnen besprochen.
 
 ### Felix Winkelmann
 
-(folgt)
+Felix Winkelmann is a software developer at Cologne-based bevuta IT
+GmbH and the initiator of the CHICKEN Scheme project. Over the years
+he has worked in numerous projects across the industry. His interests
+are programming languages, compilers and development environments.
