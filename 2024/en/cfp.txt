@@ -1,0 +1,39 @@
+Subject: Call for Participation: BOB 2024 (Berlin, March 15)
+
+=========================================================================
+			       BOB 2024
+			      Conference
+	     “What happens if we simply use what’s best?”
+		       March 15, 2024, Berlin
+		       https://bobkonf.de/2024/
+
+	    Program: https://bobkonf.de/2024/program.html
+	  Registration: https://bobkonf.de/2024/registration.html
+=========================================================================
+				   
+BOB conference is a place for developers, architects, and decision-makers
+to explore technologies beyond the mainstream in software development
+and to find the best tools available to software developers today. Our
+goal is for all participants of BOB to return home with new insights
+that enable them to improve their own software development
+experience.
+
+The program features 14 talks and 8 tutorials on current topics:
+
+https://bobkonf.de/2024/program.html
+
+Talk subjects includes functional programming, property-based testing,
+service API design, programming for spacecraft, accessibility,
+hypermedia, business processes, software analytics, event-based
+communication and zero-knowledge proofs.
+
+BOB will feature tutorials on F#, Haskell, Lean, SwiftUI, Copilot, the
+K Framework, functional domain modelling, and Liberating Structures.
+
+Andreas Rossberg will give the keynote talk.
+
+Registration is open - online tickets are all under 200€, and many
+discount options are available, as are grants for members of groups
+underrepresented in tech:
+
+https://bobkonf.de/2024/registration.html
