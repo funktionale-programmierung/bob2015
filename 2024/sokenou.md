@@ -4,7 +4,7 @@ active: bob2024
 title: "Cypress überall - Ein einziges Automatisierungswerkzeug für alle Teststufen?!"
 speaker: Dehla Sokenou
 portrait: dehla-sokenou.jpg
-time:
+time: 10:15–11:00
 type: Vortrag
 language: german
 head: 2024

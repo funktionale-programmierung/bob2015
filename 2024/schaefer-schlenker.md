@@ -4,7 +4,7 @@ active: bob2024
 title: "Computation Expressions in F#"
 speaker: David Schaefer, Ronald Schlenker
 portrait:
-time:
+time: 10:05–11:35
 type: Tutorial
 language: english
 head: 2024
