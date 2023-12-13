@@ -4,7 +4,7 @@ active: bob2024
 title: Functional Programming in Swift
 speaker: Manuel Chakravarty
 portrait: manuel-chakravarty.jpg
-time: 
+time: 11:45–12:30
 type: Vortrag
 language: english
 head: 2024
