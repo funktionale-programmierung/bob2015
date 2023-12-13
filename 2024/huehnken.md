@@ -4,7 +4,7 @@ active: bob2024
 title: The Unreasonable Effectiveness of Events
 speaker: Lutz Hühnken
 portrait: lutz-huehnken.jpg
-time:
+time: 17:10–17:55
 type: Vortrag
 language: english
 head: 2024

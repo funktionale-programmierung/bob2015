@@ -4,7 +4,7 @@ active: bob2024
 title: "The K Framework: A tool kit for language semantics and verification"
 speaker: Jost Berthold
 portrait: 
-time:
+time: 16:20–17:55
 type: Tutorial
 language: english
 head: 2024
