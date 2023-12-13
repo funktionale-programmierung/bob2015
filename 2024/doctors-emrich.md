@@ -23,16 +23,6 @@ Requirement Engineers, to Domain Experts!
 In this part, you can try it out "hands-on". Our PO will explain the
 domain and we will work out a common understanding in event-storming.
 
-**Tentative Schedule (Part 1)**
-
-- Intro to DDD, ES (10’)
-- Problem Statement (5’)
-- Event Storming 1 (40’)
-- Revised Problem Statement (2’)
-- Event Storming 2 (20’)
-- Retro (13’)
-
-
 **Parts 2 & 3**
 
 In this part, we will model the domain. We will first do it using
@@ -40,25 +30,6 @@ TypeScript's type system and then, using Clojure's malli specification
 library. In both cases, we will be able to perform invariant
 enforcement already at compile time, and domain experts will be able
 to give feedback directly on the code.
-
-**Tentative Schedule (Part 2)**
-
-- Intro to DDD, DM (10’)
-- Problem Statement (5’)
-- Coding 1 (40’)
-- Revised Problem Statement (2’)
-- Coding 2 (20’)
-- Retro (13’)
-
-**Tentative Schedule (Part 3)**
-
-- Intro to DDD, DM (10’)
-- Problem Statement (5’)
-- Coding 1 (40’)
-- Revised Problem Statement (2’)
-- Coding 2 (20’)
-- Retro + Comparative Analysis (13’)
-
 
 ### Marco Emrich
 
