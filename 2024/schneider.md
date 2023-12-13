@@ -5,7 +5,7 @@ title: "Hyper Hyper! Javascript fatigue und die Hypermedia Renaissance (?)"
 speaker: Marco Schneider
 portrait: marco-schneider.jpg
 portrait-position: top
-time:
+time: 15:05–15:50
 type: Vortrag
 language: german
 head: 2024

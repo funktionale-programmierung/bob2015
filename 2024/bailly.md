@@ -4,7 +4,7 @@ active: bob2024
 title: Model-Based Testing with QuickCheck
 speaker: Arnaud Bailly
 portrait: arnaud-bailly.png
-time:
+time: 14:15–15:00
 type: Vortrag
 language: english
 head: 2024

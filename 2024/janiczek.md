@@ -4,7 +4,7 @@ active: bob2024
 title: Property-testing all* the things in SerenityOS
 speaker: Martin Janiczek
 portrait: martin-janiczek.jpg
-time:
+time: 15:05–15:50
 type: Vortrag
 language: english
 head: 2024
