@@ -4,7 +4,7 @@ active: bob2024
 title: End-to-end Type-Safety with Your Own API Spec DSL
 speaker: Sabine Schmalz
 portrait: sabine-schmalz.jpg
-time: 
+time: 10:15–11:00
 type: Vortrag
 language: english
 head: 2024

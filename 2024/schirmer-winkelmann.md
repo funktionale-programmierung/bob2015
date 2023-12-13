@@ -5,7 +5,7 @@ title: "Kontrollsoftware für eine Jupitermission der ESA: Ein Erfahrungsbericht
 speaker: Oskar Schirmer, Felix Winkelmann
 portrait:
 portrait2:
-time:
+time: 11:45–12:30
 type: Vortrag
 language: german
 head: 2024
