@@ -4,7 +4,7 @@ active: bob2024
 title: Hands on Introduction to the Copilot Runtime Verification Language
 speaker: Frank Dedden
 portrait: 
-time: 11:45–13:15
+time: 10:05–11:35
 type: Tutorial
 language: english
 head: 2024
