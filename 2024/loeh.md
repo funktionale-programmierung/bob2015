@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2024
-title: Staging with Typed Template Haskell
+title: Staging Programs in Haskell
 speaker: Andres Löh
 portrait: loeh.jpg
 time: 11:45–13:15
