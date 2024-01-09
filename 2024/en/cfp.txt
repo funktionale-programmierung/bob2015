@@ -1,4 +1,4 @@
-Subject: Call for Participation: BOB 2024 (Berlin, March 15)
+Subject: 2nd Call for Participation: BOB 2024 (Berlin, Mar 15, Early Bird until Jan 30)
 
 =========================================================================
 			       BOB 2024
@@ -34,6 +34,6 @@ Andreas Rossberg will give the keynote talk.
 
 Registration is open - online tickets are all under 200€, and many
 discount options are available, as are grants for members of groups
-underrepresented in tech:
+underrepresented in tech.  Early-bird registration runs until Jan 30:
 
 https://bobkonf.de/2024/registration.html
