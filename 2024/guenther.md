@@ -29,11 +29,8 @@ vernachlässigen.
 In diesem Tutorial werden wir
 
 - mehrere Liberating Structures interaktiv ausprobieren,
-- verstehen, warum manchmal mehr Struktur zu kreativem Freiraum
-- führen kann sowie die zugrundeliegenden Prinzipien
-- kennenlernen, sodass jeder Teilnehmer am Ende mindestens eine
-- konkrete, persönliche Idee mitnimmt, um zukünftige Meetings
-- oder Workshops besser gestalten zu können.
+- verstehen, warum manchmal mehr Struktur zu kreativem Freiraum führen kann sowie
+- die zugrundeliegenden Prinzipien kennenlernen, sodass jeder Teilnehmer am Ende mindestens eine konkrete, persönliche Idee mitnimmt, um zukünftige Meetings oder Workshops besser gestalten zu können.
 
 ### Martin Günther
 
