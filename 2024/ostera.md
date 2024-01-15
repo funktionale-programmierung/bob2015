@@ -4,7 +4,7 @@ active: bob2024
 title: Erlang, OCaml, same thing 🤷
 speaker: Leandro Ostera
 portrait: leandro-ostera.jpg
-time:
+time: 12:35–13:20
 type: Vortrag
 language: english
 head: 2024

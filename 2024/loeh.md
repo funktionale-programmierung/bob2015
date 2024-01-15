@@ -1,25 +1,32 @@
 ---
 layout: talk
 active: bob2024
-title: Staging with Typed Template Haskell
+title: Staging Programs in Haskell
 speaker: Andres Löh
 portrait: loeh.jpg
-time:
+time: 11:45–13:15
 type: Tutorial
 language: english
 head: 2024
 ---
 
-Typed Template Haskell is a little known subset of Template Haskell
-that allows the creation of strongly typed metaprograms. By employing
-such metaprograms, the user gets explicit control over what parts of
-the program get evaluated at compile time, and what parts get
-evaluated a run time, without having to rely on predicting the
-heuristics of the optimiser. This, for example, allows the creation of
-staged domain-specific languages which are guaranteed to produce
-reasonably efficient code. In the tutorial, we are introducing the
-language constructs of Typed Template Haskell and will look at several
-examples of how it can be used in practice.
+Staging is a programming technique where some parts of your program
+are annotated to be executed statically, at compilation time, while
+all execution is still guaranteed to be type-correct. The main
+advantage is that this gives the programmer much more fine-grained
+control about performance than is usually the case, in that statically
+known parts of the program can also be guaranteed to be executed
+statically. This allows, for example, the creation of efficient
+domain-specific languages, where (most) abstraction overhead can be
+eliminated.
+
+In this tutorial, we will discuss the implementation of Staging in the
+context of Haskell (it is, in fact, available as a relatively little
+known subset of Template Haskell called "Typed Template Haskell", even
+though it still has some practical shortcomings). We will introduce
+some common techniques that are useful when going from unstaged to
+staged programs, and look at some simple domain-specific language
+examples.
 
 ### [Andres Löh](https://andres-loeh.de)
 

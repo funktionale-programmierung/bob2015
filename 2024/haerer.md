@@ -4,7 +4,7 @@ active: bob2024
 title: Referenziell transparente Business-Prozesse in funktional
 speaker: Simon Härer
 portrait: simon-haerer.jpg
-time:
+time: 16:20–17:05
 type: Vortrag
 language: german
 head: 2024

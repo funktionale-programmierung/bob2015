@@ -5,7 +5,7 @@ title: Software Analytics with Data Science on Software Data
 speaker: Markus Harrer
 portrait: markus-harrer.jpg
 portrait-position: top
-time:
+time: 16:20–17:05
 type: Vortrag
 language: english
 head: 2024

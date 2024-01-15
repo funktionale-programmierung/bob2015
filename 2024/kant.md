@@ -4,7 +4,7 @@ active: bob2024
 title: What are zkSNARKS, and what can they do for you?
 speaker: Philipp Kant
 portrait: philipp-kant.png
-time:
+time: 17:10–17:55
 type: Vortrag
 language: english
 head: 2024

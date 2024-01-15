@@ -5,7 +5,7 @@ title: Konsequente Barrierefreiheit durch Partizipation im Prozess
 speaker: Irmhild Rogalla, Jolanta Paliszewska
 portrait: placeholder.png
 portrait2: jolanta-paliszewska.jpg
-time:
+time: 14:15–15:00
 type: Vortrag
 language: german
 head: 2024

@@ -4,7 +4,7 @@ active: bob2024
 title: "SwiftUI: Declarative GUIs for Mobile and Desktop Applications"
 speaker: Manuel Chakravarty
 portrait: manuel-chakravarty.jpg
-time: 
+time: 14:15–15:45
 type: tutorial
 language: english
 head: 2024

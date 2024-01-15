@@ -3,8 +3,8 @@ layout: talk
 active: bob2024
 title: "Computation Expressions in F#"
 speaker: David Schaefer, Ronald Schlenker
-portrait:
-time:
+portrait: 
+time: 11:45–13:15
 type: Tutorial
 language: english
 head: 2024

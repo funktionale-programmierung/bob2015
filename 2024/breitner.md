@@ -5,7 +5,7 @@ title: Lean for the General Programmer
 speaker: Joachim Breitner, David Thrane Christiansen
 portrait: joachim-breitner.jpg
 portrait2: david-thrane-christiansen.jpg
-time: 
+time: 14:15–15:45
 type: Tutorial
 language: english
 head: 2024
