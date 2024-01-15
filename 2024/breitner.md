@@ -2,8 +2,9 @@
 layout: talk
 active: bob2024
 title: Lean for the General Programmer
-speaker: Joachim Breitner
+speaker: Joachim Breitner, David Thrane Christiansen
 portrait: joachim-breitner.jpg
+portrait2: david-thrane-christiansen.jpg
 time: 
 type: Tutorial
 language: english
@@ -38,3 +39,17 @@ lean compiler itself.
 Besides such serious nerdery, you’ll find Joachim dancing Swing and
 Tango (in particular when traveling to conferences, so talk to him if
 you want to join), paragliding and unapologetically making bad puns.
+
+
+### [David Thrane Christiansen](https://davidchristiansen.dk)
+
+David Thrane Christiansen has worked with functional programming and
+dependent types in both academia and industry, with a particular
+interest in metaprogramming and domain-specific languages. He is the
+author of Functional Programming in Lean and, together with Daniel
+P. Friedman, The Little Typer. David works full-time at the Lean FRO
+on making the process of writing and maintaining documentation as easy
+as possible. Before working at the Lean FRO, he was the Executive
+Director of the Haskell Foundation, and he has multiple years of
+industrial Haskell experience at both Deon Digital and Galois. Before
+that, David contributed extensively to the first version of Idris.
