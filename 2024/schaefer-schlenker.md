@@ -51,8 +51,22 @@ After various other jobs, I am a freelancer today and part of the
 G-Research Open Source team. There, I work full time on the F# open
 source ecosystem. My main focus is on developer tooling.
 
-### [Roland Schlenker](https://github.com/RonaldSchlenker)
+### [Roland Schlenker](https://github.com/SchlenkR)
 
-Twitter: [@SchlenkR](https://twitter.com/SchlenkR)
+Twitter: [@SchlenkR](https://twitter.com/SchlenkR)<br/>
+YouTube: [@ThePureState](https://www.youtube.com/@ThePureState)
 
-(to follow)
+
+Ronald is a Frankfurt/Germany based programmer with more than 20 years
+of professional experience. As an expert and recognized member of the
+F# community, he supports his clients in the design and implementation
+of complex business applications and technically highly sophisticated
+libraries. In addition to his day-to-day work for clients, Ronald
+consults and coaches teams in progressive fields, and he is involved
+in many successful open source projects like "Vide" (an approach for
+unified reactive UI development for Web, Avalonia, Maui and others),
+obscure stuff like "TypeFighter" (a type system (1st order logic),
+focusing structural types, set theory, and graph based solvers), daily
+workhorses like "FsHttp", or audio/music/DSP things like the DSP
+version of "Vide".
+
