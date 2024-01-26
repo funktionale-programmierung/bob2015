@@ -3,7 +3,9 @@ layout: talk
 active: bob2024
 title: "The K Framework: A tool kit for language semantics and verification"
 speaker: Jost Berthold
-portrait: 
+speaker2: Georgy Lukyanov
+portrait: jost-berthold.jpg
+portrait2: georgy-lukyanov.jpg
 time: 16:20–17:55
 type: Tutorial
 language: english
@@ -37,7 +39,7 @@ the attendees should be able to implement and verify their next
 research DSL or language of interest using K.
 
 
-### Jost Berthold
+### Jost Berthold ###
 
 Jost Berthold is a software engineer in the Haskell backend team at
 Runtime Verification Inc., the maintainers of the K framework. He
@@ -52,3 +54,15 @@ Runtime Verification, he worked on a contract language for distributed
 ledger technology, as well as a big data analytics platform for a
 major Australian bank. He believes in the superiority of
 strongly-typed functional programming.
+
+### Georgy Lukyanov ###
+
+Georgy is a software engineer with expertise in formal software
+verification and typed function programming.
+
+Currently, Georgy works at Runtime Verification Inc, where he develops
+and applies the K Framework to formal verification of smart contracts
+on the Ethereum and Algorand blockchains.
+
+Before joining RV, Georgy was a PhD student at Newcastle University,
+UK, working on formal verification of instruction-set level programs.
