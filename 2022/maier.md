@@ -50,7 +50,7 @@ findet ihr hier:
 [@kenran__](https://twitter.com/kenran__)
 
 Johannes Maier ist Softwarearchitekt bei der Active Group GmbH in
-Tübingen. Dort arbeitet er mit funktionalen Progammiersprachen,
+Tübingen. Dort arbeitet er mit funktionalen Programmiersprachen,
 vorzugsweise Haskell, und nutzt dabei Nix, um komplexe Abhängigkeiten
 zu bändigen und Continuous Deployment zu erreichen. Wenn er nicht
 gerade mit seinen Kindern Lego baut, lötet er an seiner nächsten
