@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2024
-title: Lean for the General Programmer
+title: Lean for the Functional Programmer
 speaker: Joachim Breitner, David Thrane Christiansen
 portrait: joachim-breitner.jpg
 portrait2: david-thrane-christiansen.jpg
@@ -12,11 +12,23 @@ head: 2024
 ---
 
 Lean isn’t just an interactive theorem prover, it is also a general
-purpose functional programming language. In this tutorial, we’ll
-explore that side of it, and write a small command line tool together.
-We’ll approach the problem in a few variations – purely functional,
-imperative-style, with no proofs or some proofs.
+purpose functional programming language. In this tutorial, we will
+explore both sides of Lean by first fixing a bug in a small command
+line tool that filters JSON values, proving it correct, and then
+modifying both the program and the proofs to use efficient arrays
+instead of linked lists.
 
+The tutorial is suitable for participants with some background in
+functional programming: we'll assume a background with pattern
+matching, lists, and recursion, but we won't assume any knowledge of
+advanced type system features.
+
+The tutorial will be a mix of participants individually working on
+their own and all together helping the presenter. Therefore, we ask
+participants to check out the repository at
+[https://github.com/david-christiansen/bob24](https://github.com/david-christiansen/bob24)
+and follow the “Preparing for the Tutorial” instructions before
+Bobkonf.
 
 ### [Joachim Breitner](https://joachim-breitner.de/)
 
@@ -24,7 +36,7 @@ imperative-style, with no proofs or some proofs.
 
 Ever since Joachim has found beauty and elegance in Functional
 Programming, he’s been working with and on functional programming
-languages, in particular Haskell, where he is contributed to the
+languages, in particular Haskell, where he has contributed to the
 compiler, helps with the steering committee and is a co-host of the
 Haskell Interlude podcast.
 
