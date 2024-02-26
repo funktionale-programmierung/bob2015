@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2024
-title: Hands on Introduction to the Copilot Runtime Verification Language
+title: Runtime Verification with the Copilot Language, A Hands on Introduction
 speaker: Frank Dedden
 portrait: 
 time: 10:05–11:35
