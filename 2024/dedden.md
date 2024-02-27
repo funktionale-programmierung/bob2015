@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2024
-title: Hands on Introduction to the Copilot Runtime Verification Language
+title: Runtime Verification with the Copilot Language, A Hands on Introduction
 speaker: Frank Dedden
 portrait: 
 time: 10:05–11:35
@@ -35,6 +35,23 @@ This hands-on tutorial gives a short introduction to runtime
 verification and it's challenges. Followed by writing specifications
 for ultra-critical systems using Copilot. We start with the basics of
 the language and explore monitoring embedded systems.
+
+
+**Installation**
+
+Although, Copilot is based on Haskell, no knowledge of Haskell is required.
+For the purpose of this tutorial we will use a repository containing exercises
+and a Docker-based infrastructure to run them. This makes it easy and reliable
+to participate in the tutorial.
+
+If you are interested, it is highly recommended to execute the following steps
+prior to attending the tutorial:
+
+1. Clone the repository at
+   <https://github.com/fdedden/bobkonf-2024-copilot-tutorial>
+2. Follow the steps in the included
+   [INSTALL.md](https://github.com/fdedden/bobkonf-2024-copilot-tutorial/blob/master/INSTALL.md)
+   file.
 
 
 ### Frank Dedden
