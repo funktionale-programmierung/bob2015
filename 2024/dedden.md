@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2024
-title: Runtime Verification with the Copilot Language, A Hands on Introduction
+title: Runtime Verification with the Copilot Language, A Hands-on Introduction
 speaker: Frank Dedden
 portrait: 
 time: 10:05–11:35
@@ -39,7 +39,7 @@ the language and explore monitoring embedded systems.
 
 **Installation**
 
-Although, Copilot is based on Haskell, no knowledge of Haskell is required.
+Although Copilot is based on Haskell, no knowledge of Haskell is required.
 For the purpose of this tutorial we will use a repository containing exercises
 and a Docker-based infrastructure to run them. This makes it easy and reliable
 to participate in the tutorial.
