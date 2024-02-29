@@ -1,4 +1,4 @@
-Subject: 2nd Call for Participation: BOB 2024 (Berlin, Mar 15, Early Bird until Jan 30)
+Subject: Last Call for Participation: BOB 2024 (Berlin, Mar 15)
 
 =========================================================================
 			       BOB 2024
@@ -32,8 +32,7 @@ K Framework, functional domain modelling, and Liberating Structures.
 
 Andreas Rossberg will give the keynote talk.
 
-Registration is open - online tickets are all under 200€, and many
-discount options are available, as are grants for members of groups
-underrepresented in tech.  Early-bird registration runs until Jan 30:
+Registration is open - many discount options are available, as are
+grants for members of groups underrepresented in tech.
 
 https://bobkonf.de/2024/registration.html
