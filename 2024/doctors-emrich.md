@@ -25,7 +25,7 @@ In both cases, you will be able to perform invariant enforcement already at
 compile time, and domain experts will be able to give feedback directly on the
 code.
 
-### Marco Emrich
+### Marco Emrich ([GitHub](https://github.com/marcoemrich) | [LinkedIn](https://www.linkedin.com/in/marco-emrich-47485388/))
 
 Marco is an architect and consultant at codecentric and a passionate
 advocate of software craft and code quality. He regularly speaks at
