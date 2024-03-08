@@ -33,13 +33,13 @@ well-known conferences and is the author of several technical books.
 When he's not buried deep in code, his children play analog board
 games with him.
 
-### Leandro Doctors
+### Leandro Doctors ([GitHub](https://github.com/allentiak) | [LinkedIn](https://linkedin.com/in/leandrodoctors))
 
-- Proactive and Self-Motivated Free Software and Free Culture geek.
-- Interested in the Social Impact of Science and Technology.
-- Contributions to Free Software, as part of globally distributed teams.
-- Experienced both as a Researcher and as a Lecturer.
-- Dedicated student mentor.
-- International and Multicultural experience (Europe, South America,
-  and Africa).
+Leandro Doctors is a multi-dimensional geek currently based in Berlin. After
+discovering the beauty of Functional Programming (and Clojure in particular), he
+became simply unable to imagine how a world could ever become beautiful without
+Lambda Calculus.
 
+When not dancing Tango or hiking, Leandro dreams in terms of Software Evolution,
+Software Quality and Craftspeopleship, the Social Dynamics of Technology Peer
+Production, and the Social Impacts of Technology.
