@@ -38,6 +38,10 @@ write some simple proofs over programs. By the end of this session,
 the attendees should be able to implement and verify their next
 research DSL or language of interest using K.
 
+Please use README.md of the bob24 branch in the imp-semantics
+repository:
+[https://github.com/runtimeverification/imp-semantics/tree/bob2024](https://github.com/runtimeverification/imp-semantics/tree/bob2024)
+
 
 ### Jost Berthold ###
 
