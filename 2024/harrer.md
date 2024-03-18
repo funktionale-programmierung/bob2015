@@ -9,6 +9,7 @@ time: 16:20–17:05
 type: Vortrag
 language: english
 head: 2024
+slides-file: harrer.pdf
 ---
 
 Data Science has demonstrated its value in extracting insights from
