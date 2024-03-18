@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2024
-title: What are zkSNARKS, and what can they do for you?
+title: Zero-Knowledge-Proofs for Privacy and Trust
 speaker: Philipp Kant
 portrait: philipp-kant.png
 time: 17:10–17:55

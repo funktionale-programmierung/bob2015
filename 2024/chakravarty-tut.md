@@ -34,6 +34,12 @@ use of the Xcode IDE. However, you don’t need to know Swift. If you
 are familiar with Kotlin or Scala, or even just modern Java with some
 functional programming, I will explain the rest.
 
+ To code along, please make sure to bring a Mac with macOS Sonoma and
+ the latest version of Xcode (i.e., Version 15.3), which is freely
+ available from the Mac App Store.
+
+
+
 
 
 ### [Manuel Chakravarty](https://JustTesting.org/)

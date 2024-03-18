@@ -3,7 +3,7 @@ layout: talk
 active: bob2024
 title: "Computation Expressions in F#"
 speaker: David Schaefer, Ronald Schlenker
-portrait: 
+portrait:
 time: 11:45–13:15
 type: Tutorial
 language: english
@@ -37,6 +37,29 @@ In this tutorial we will show
 - what the compiler is doing behind the scenes
 - how real world examples work successfully in the industry
 - how much fun they can be
+
+### Prior knowledge required
+
+To follow the tutorial you need the following prior knowledge:
+- basic (functional) programming knowledge
+- familiarity with the ML syntax or F# can help but is not a strict requirement
+
+### Software Requirements
+
+Please install the latest .NET SDK from
+https://dotnet.microsoft.com/en-us/download
+
+Verify that you can execute `dotnet fsi` to start the F# REPL and a
+simple `id 42` works as expected.
+
+For coding F# we recommend [VS Code](https://code.visualstudio.com/)
+with the
+[Ionide](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp)
+plugin, even though any other editor should suffice.
+
+Please clone
+[https://github.com/dawedawe/bobkonf2024](https://github.com/dawedawe/bobkonf2024)
+to have the exercises ready.
 
 ### David Schaefer
 
