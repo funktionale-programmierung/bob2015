@@ -9,6 +9,7 @@ time: 14:15–15:00
 type: Vortrag
 language: german
 head: 2024
+slides-file: rogalla.pdf
 ---
 
 **Ausgangsthesen:**
