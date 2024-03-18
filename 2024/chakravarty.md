@@ -8,6 +8,7 @@ time: 11:45–12:30
 type: Vortrag
 language: english
 head: 2024
+slides-file: chakravarty.pdf
 ---
 
 When people talk about functional programming in modern multi-paradigm

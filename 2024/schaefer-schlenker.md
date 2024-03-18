@@ -3,7 +3,7 @@ layout: talk
 active: bob2024
 title: "Computation Expressions in F#"
 speaker: David Schaefer, Ronald Schlenker
-portrait: 
+portrait:
 time: 11:45–13:15
 type: Tutorial
 language: english
@@ -56,6 +56,10 @@ For coding F# we recommend [VS Code](https://code.visualstudio.com/)
 with the
 [Ionide](https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp)
 plugin, even though any other editor should suffice.
+
+Please clone
+[https://github.com/dawedawe/bobkonf2024](https://github.com/dawedawe/bobkonf2024)
+to have the exercises ready.
 
 ### David Schaefer
 
