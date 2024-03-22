@@ -8,6 +8,7 @@ time: 14:15–15:00
 type: Vortrag
 language: english
 head: 2024
+slides-file: bailly.pdf
 ---
 
 QuickCheck is well-known as a framework for Property-Based Testing
