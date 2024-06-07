@@ -8,6 +8,7 @@ time: 10:15–11:00
 type: Vortrag
 language: german
 head: 2024
+slides-file: sokenou.pdf
 ---
 
 Das Open-Source-Werkzeug Cypress ist ursprünglich als Alternative zu

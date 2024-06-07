@@ -8,6 +8,7 @@ time: 09:00-10:00
 type: Vortrag
 language: english
 head: 2024
+slides-file: rossberg.pdf
 ---
 
 ## (And why we weren’t for WebAssembly)

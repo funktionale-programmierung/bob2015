@@ -8,6 +8,7 @@ time: 12:35–13:20
 type: Vortrag
 language: german
 head: 2024
+slides-file: butenuth.pdf
 ---
 
 Kennt jemand eine IT-Landschaft mit nur einer Anwendung? Ich nicht,

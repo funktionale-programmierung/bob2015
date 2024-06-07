@@ -8,6 +8,7 @@ time: 15:05–15:50
 type: Vortrag
 language: english
 head: 2024
+slides-file: janiczek.pdf
 ---
 
 \*: not all the things.
