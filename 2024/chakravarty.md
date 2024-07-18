@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2024
 slides-file: chakravarty.pdf
+video: bob11-2024-functional-programming-in-swift-chakravarty
 ---
 
 When people talk about functional programming in modern multi-paradigm

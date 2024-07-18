@@ -8,6 +8,7 @@ time: 16:20–17:05
 type: Vortrag
 language: german
 head: 2024
+video: bob11-2024-referenziell-transparente-business-prozesse-in-funktional-haerer
 ---
 
 Die explizite Modellierung von Business-Prozessen und deren

@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2024
 slides-file: kant.pdf
+video: bob11-2024-zero-knowledge-proofs-for-privacy-and-trust-kant
 ---
 
 Zero-knowledge proofs are cryptographic techniques that allow a prover

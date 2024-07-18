@@ -10,6 +10,7 @@ type: Vortrag
 language: english
 head: 2024
 slides-file: harrer.pdf
+video: bob11-2024-software-analytics-with-data-science-on-software-data-harrer
 ---
 
 Data Science has demonstrated its value in extracting insights from

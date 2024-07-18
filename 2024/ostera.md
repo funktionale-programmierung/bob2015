@@ -8,6 +8,7 @@ time: 12:35–13:20
 type: Vortrag
 language: english
 head: 2024
+video: bob11-2024-erlang-ocaml-same-thing-ostera
 ---
 
 Ever wondered what type-safe, massively concurrent functional

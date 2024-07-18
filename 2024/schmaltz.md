@@ -8,6 +8,7 @@ time: 10:15–11:00
 type: Vortrag
 language: english
 head: 2024
+video: bob11-2024-end-to-end-type-safety-with-your-own-api-spec-dsl-schmaltz
 ---
 
 This talk offers a deep dive into the creation of a custom
