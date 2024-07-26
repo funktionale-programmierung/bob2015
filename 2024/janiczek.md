@@ -8,6 +8,8 @@ time: 15:05–15:50
 type: Vortrag
 language: english
 head: 2024
+slides-file: janiczek.pdf
+video: bob11-2024-property-testing-all-the-things-in-serenityos-janiczek
 ---
 
 \*: not all the things.

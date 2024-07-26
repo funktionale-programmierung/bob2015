@@ -8,6 +8,8 @@ time: 12:35–13:20
 type: Vortrag
 language: german
 head: 2024
+slides-file: butenuth.pdf
+video: bob11-2024-kommunikationsmuster-fuer-services-butenuth
 ---
 
 Kennt jemand eine IT-Landschaft mit nur einer Anwendung? Ich nicht,

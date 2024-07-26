@@ -8,6 +8,8 @@ time: 17:10–17:55
 type: Vortrag
 language: english
 head: 2024
+slides-file: huehnken.pdf
+video: bob11-2024-the-unreasonale-effectiveness-of-events-huehnken
 ---
 
 For many, event-driven communication is often considered just an

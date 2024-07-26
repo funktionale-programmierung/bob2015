@@ -9,6 +9,7 @@ time: 15:05–15:50
 type: Vortrag
 language: german
 head: 2024
+video: bob11-2024-javascript-fatigue-und-die-hypermedia-renaissance-schneider
 ---
 
 Hypermedia erlebt in den letzten Jahren eine Renaissance. Das

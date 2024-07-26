@@ -9,6 +9,8 @@ time: 11:45–12:30
 type: Vortrag
 language: german
 head: 2024
+slides-file: winkelmann-schirmer.pdf
+video: bob11-2024-kontrollsoftware-fuer-eine-jupitermission-schirmer-winkelmann
 ---
 
 Die Implementierung der Steuersoftware für das Messinstrument SWI auf

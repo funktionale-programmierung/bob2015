@@ -9,7 +9,8 @@ time: 14:15–15:00
 type: Vortrag
 language: german
 head: 2024
-slides-file: rogalla.pdf
+slides-file: paliszewska-rogalla.pdf
+video: bob11-2024-konsequente-barrierefreiheit-durch-partizipation-im-prozess-paliszewska-rogalla
 ---
 
 **Ausgangsthesen:**

@@ -8,6 +8,8 @@ time: 09:00-10:00
 type: Vortrag
 language: english
 head: 2024
+slides-file: rossberg.pdf
+video: bob11-2024-whos-afraid-of-the-turnstile-rossberg
 ---
 
 ## (And why we weren’t for WebAssembly)

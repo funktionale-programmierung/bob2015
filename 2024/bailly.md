@@ -9,6 +9,7 @@ type: Vortrag
 language: english
 head: 2024
 slides-file: bailly.pdf
+video: bob11-2024-model-based-testing-with-quickcheck-bailly
 ---
 
 QuickCheck is well-known as a framework for Property-Based Testing
