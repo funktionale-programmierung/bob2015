@@ -1,0 +1,78 @@
+
+{% if page.language == "de" or page.language == null %}		
+<!-- GERMAN -->
+<div class="header-wrapper header-background-2025">
+    <div class="container">
+
+    <div class="language">
+        Language
+        <a href="/2025/de" class="selected">Deutsch</a>
+        <a href="/2025/en">English</a>
+    </div>
+   
+
+    <div class="clearfix"></div>
+    <div class="counter">
+        <h3> 14. März 2025 in Berlin</h3>
+        <div class="counter-elements">
+            <div class="counter-elem">
+                <div class="value" id="counter2025-elem-days">&nbsp;</div>
+                <div class="unit"> Tage </div>
+            </div>
+            <div class="counter-elem">
+                <div class="value" id="counter2025-elem-hours">&nbsp;</div>
+                <div class="unit"> Stunden </div>
+            </div>
+            <div class="counter-elem">
+                <div class="value" id="counter2025-elem-minutes">&nbsp;</div>
+                <div class="unit"> Minuten </div>
+            </div>
+            <div class="counter-elem">
+                <div class="value" id="counter2025-elem-seconds">&nbsp;</div>
+                <div class="unit"> Sekunden </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+
+{% else %}
+<!-- ENGLISH -->
+<div class="header-wrapper header-background-2025">
+    <div class="container">
+
+    <div class="language">
+        Language
+        <a href="/2025/de">Deutsch</a>
+        <a href="/2025/en" class="selected">English</a>
+    </div>
+    <div class="clearfix"></div>
+    <div class="counter">
+        <h3> 14 March 2025, Berlin</h3>
+        <div class="counter-elements">
+            <div class="counter-elem">
+                <div class="value" id="counter2025-elem-days">  </div>
+                <div class="unit"> Days </div>
+            </div>
+            <div class="counter-elem">
+                <div class="value" id="counter2025-elem-hours"> </div>
+                <div class="unit"> Hours </div>
+            </div>
+            <div class="counter-elem">
+                <div class="value" id="counter2025-elem-minutes">  </div>
+                <div class="unit"> Minutes </div>
+            </div>
+            <div class="counter-elem">
+                <div class="value" id="counter2025-elem-seconds">  </div>
+                <div class="unit"> Seconds </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+{% endif %}
