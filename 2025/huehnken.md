@@ -16,6 +16,6 @@ I'll show you four innovative programming languages and briefly introduce their 
 
 
 ### Lutz Hühnken
-[https://mastodon.social/@lutzhuehnken](https://mastodon.social/@lutzhuehnken)
+Fediverse: [@lutzhuehnken@mastodon.social](https://mastodon.social/@lutzhuehnken)
 
 Lutz is the Head of Engineering Excellence at Upvest, a FinTech company in Berlin that aims to democratize investment. Previously, taking on roles with titles such as "Head of Engineering" or "Chief Architect", he lead the development of software for container shipping, online retailers, financial institutions, cruise ships' in-cabin entertainment, and others. His current focus is on event-driven architecture, highly available and scalable systems, domain-driven design, and the intersection of architecture and organization.

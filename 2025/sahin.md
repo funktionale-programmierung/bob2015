@@ -3,7 +3,7 @@ layout: talk
 active: bob2025
 title: "Resiliente Systeme entwickeln mit Elixir: Fehlertoleranz von Grund auf"
 speaker: Kaan
-time: 15:00–16:30
+time: 13:00–14:30
 type: Tutorial
 language: german
 head: 2025

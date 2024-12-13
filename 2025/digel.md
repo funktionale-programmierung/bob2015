@@ -3,7 +3,7 @@ layout: talk
 active: bob2025
 title: "Ein Weg zu hoher Zuverlässigkeit von Systemen eines Netzbetreiber"
 speaker: Tim Digel
-time: 15:00–15:45
+time: 10:15–11:00
 type: Talk
 language: german
 head: 2025

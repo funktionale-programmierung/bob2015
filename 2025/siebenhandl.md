@@ -3,7 +3,7 @@ layout: talk
 active: bob2025
 title: "A Language Server for your DSL for free"
 speaker: Hannes Siebenhandl
-time: 10:15–11:00
+time: 13:50–14:35
 type: Talk
 language: english
 head: 2025

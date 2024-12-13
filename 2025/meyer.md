@@ -3,7 +3,7 @@ layout: talk
 active: bob2025
 title: "Programming with weak consistency, and dartagnan"
 speaker: Roland Meyer
-time: 13:00–14:30
+time: 17:00–18:30
 type: Tutorial
 language: english
 head: 2025

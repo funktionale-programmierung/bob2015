@@ -3,7 +3,7 @@ layout: talk
 active: bob2025
 title: "Beyond the Basics of LSP: Advanced IDE services for OCaml"
 speaker: Xavier Van de Woestyne
-time: 13:00–13:45
+time: 11:05–11:50
 type: Talk
 language: english
 head: 2025
@@ -17,6 +17,8 @@ The aim of the presentation was to show how to go beyond the default features of
 
 
 ### Xavier Van de Woestyne
-[vdwxv, @xvw@merveilles.town](vdwxv, @xvw@merveilles.town)
+[Github](https://github.com/xvw)
+X/Twitter: [@vdwxv]()
+Fediverse: [@xvw@merveilles.town](https://merveilles.town/@xvw)
 
 I am an OCaml Senior Software Engineer at [Tarides](https://tarides.com) working in the Editor team (on Merlin and OCaml LSP). I a m very interested in Functional Programming, type system and Languages tooling.

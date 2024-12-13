@@ -3,7 +3,7 @@ layout: talk
 active: bob2025
 title: "Service-less communication: is it possible?"
 speaker: Bartosz Sypytkowski
-time: 17:00–17:45
+time: 11:05–11:50
 type: Talk
 language: english
 head: 2025

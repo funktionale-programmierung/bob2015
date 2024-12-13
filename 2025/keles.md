@@ -14,6 +14,6 @@ This year marks the 25th anniversary of QuickCheck, the canonical property-based
 
 
 ### Alperen Keles
-[https://x.com/Keleesssss](https://x.com/Keleesssss)
+X/Twitter: [@Keleesssss](https://x.com/Keleesssss)
 
 I am currently a Ph.D. student at University of Maryland,  College Park advised by Leonidas Lampropoulos. My research focuses on Property-Based Testing, Fuzzing, and Semantics of Documents. I like to write on my personal blog. I also like to play chess, and do the occasional side projects.

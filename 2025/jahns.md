@@ -3,7 +3,7 @@ layout: talk
 active: bob2025
 title: "Yjs"
 speaker: Kevin Jahns
-time: 17:00–18:30
+time: 15:00–16:30
 type: Tutorial
 language: english
 head: 2025

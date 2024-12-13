@@ -3,7 +3,7 @@ layout: talk
 active: bob2025
 title: "Between Monolith and Microfrontends - Advantages of a modulithic architecture and how an incremental refactoring can succeed"
 speaker: Milena-Mercedes May
-time: 11:05–11:50
+time: 17:00–17:45
 type: Talk
 language: english
 head: 2025

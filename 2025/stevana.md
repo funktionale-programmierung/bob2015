@@ -3,7 +3,7 @@ layout: talk
 active: bob2025
 title: "Coverage-guided property-based testing"
 speaker: Stevan A
-time: 13:50–14:35
+time: 15:00–15:45
 type: Talk
 language: english
 head: 2025

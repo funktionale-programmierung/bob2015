@@ -3,7 +3,7 @@ layout: talk
 active: bob2025
 title: "Against the (formal) method?"
 speaker: Arnaud Bailly
-time: 11:05–11:50
+time: 13:50–14:35
 type: Talk
 language: english
 head: 2025
