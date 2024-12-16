@@ -31,7 +31,7 @@ BOB tutorial include sessions on frontend development, local-first
 programming, data science, Elixir, and software documentation,
 combining mob programming, TDD, and AI.
 
-Anette Bieniusa will give the keynote talk.
+Annette Bieniusa will give the keynote talk.
 
 Registration is open - many discount options are available, as are
 grants for members of groups underrepresented in tech.  Early-bird
