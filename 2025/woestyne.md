@@ -17,10 +17,8 @@ The aim of the presentation was to show how to go beyond the default features of
 
 
 ### Xavier Van de Woestyne
-[Github](https://github.com/xvw)
-
-X/Twitter: [@vdwxv](https://x.com/vdwxv)
-
+[Github](https://github.com/xvw)\
+X/Twitter: [@vdwxv](https://x.com/vdwxv)\
 Fediverse: [@xvw@merveilles.town](https://merveilles.town/@xvw)
 
 I am an OCaml Senior Software Engineer at [Tarides](https://tarides.com) working in the Editor team (on Merlin and OCaml LSP). I a m very interested in Functional Programming, type system and Languages tooling.
