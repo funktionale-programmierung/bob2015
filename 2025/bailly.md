@@ -17,6 +17,6 @@ This presentation puts formal methods (FM) in perspective within the broader dom
 
 
 ### Arnaud Bailly
-['@abailly.bsky.social]('@abailly.bsky.social)
+Bluesky: [@abailly.bsky.social](https://bsky.app/profile/abailly.bsky.social)
 
 Arnaud has been developing software and helping teams develop software for nearly three decades, in various technologies, contexts and roles. He is interested in everything software-related with a peculiar passion for strongly-typed functional programming.

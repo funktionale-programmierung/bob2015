@@ -42,7 +42,7 @@ and/or a naïve bank with concurrent cash machines.
 
 
 ### Guillaume Allais
-[https://mamot.fr/@gallais](https://mamot.fr/@gallais)
+Fediverse: [@gallais@mamot.fr](https://mamot.fr/@gallais)
 
 Guillaume Allais is a lecturer in computer science building trustworthy systems, and developing the languages, programming patterns, libraries, and tools that make it easier to develop such systems in an interactive manner. 
 

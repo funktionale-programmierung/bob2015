@@ -18,7 +18,7 @@ Join us to discover how signals and streams can transform your approach to front
 
 
 ### Mischa Koischwitz
-[VengsHub on GitHub](VengsHub on GitHub)
+Github: [VengsHub](https://github.com/VengsHub)
 
 Mischa Koischwitz is a frontend developer with a strong focus on frontend architecture.
 His passion for functional programming began with his master’s thesis on functional reactive programming, where he explored the application of these principles in modern web development. This research sparked a lasting interest in declarative programming.

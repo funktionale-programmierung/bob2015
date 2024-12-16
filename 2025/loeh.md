@@ -20,7 +20,9 @@ I will also try to explain how in the case of parametricity, making types more a
 
 
 ### Andres Löh
-[Mastodon: @kosmikus@functional.cafe / Bluesky: @kosmikus.bsky.social / X: @kosmikus](Mastodon: @kosmikus@functional.cafe / Bluesky: @kosmikus.bsky.social / X: @kosmikus)
+Fediverse: [@kosmikus@functional.cafe]()
+Bluesky: [@kosmikus.bsky.social](https://bsky.app/profile/kosmikus.bsky.social)
+X/Twitter: [@kosmikus](https://x.com/kosmikus)
 
 Andres Löh is a Haskell consultant and co-owner of Well-Typed LLP. He is based in Regensburg, Germany. He started using Haskell in 1997, when being an undergraduate student of mathematics in Konstanz, and has been an enthusiastic functional programmer ever since. Andres obtained a PhD in Computer Science from Utrecht University in 2004, on extending the Haskell language with capabilities for datatype-generic programming. After having been a university lecturer for several years, he joined Well-Typed in 2010.
 

@@ -18,7 +18,7 @@ Das Tutorial richtet sich an alle, die technische Dokumentation einfacher, kolla
 
 
 ### Benjamin Wolf
-['@ben@innoq.social]('@ben@innoq.social)
+Fediverse: [@ben@innoq.social](https//innoq.social/@ben)
 
 Benjamin Wolf arbeitet als Senior IT Consultant bei INNOQ. Seine Schwerpunkte liegen auf dem Modernisieren von Legacy-Systemen, Architekturdokumentation sowie Architekturberatung und -entwicklung. Dabei richtet er ein besonderes Augenmerk auf die Entwicklungsprozesse und die Einstellung zu Softwarequalität in Teams. 
 

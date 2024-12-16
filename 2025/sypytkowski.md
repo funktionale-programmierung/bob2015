@@ -14,6 +14,7 @@ This talk is going to focus on peer-to-peer apps. We'll try to answer the questi
 
 
 ### Bartosz Sypytkowski
-['@horusiath]('@horusiath)
+Bluesky: [@horusiath.bsky.social](https://bsky.app/profile/horusiath.bsky.social)
+X/Twitter: [@horusiath](https://x.com/horusiath)
 
 An open source software contributor for over 10 years. In the past core member of Akka.NET and F# GraphQL server. Currently: maintainer of Yrs - a library used for building collaborative, local-first applications.

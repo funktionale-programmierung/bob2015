@@ -12,6 +12,7 @@ head: 2025
 Consider the following example, where an error is triggered if some input
 bytestring starts with "bad!":
 
+```
     if input[0] == 'b' {
         if input[1] == 'a' {
             if input[2] == 'd' {
@@ -21,6 +22,8 @@ bytestring starts with "bad!":
             }
         }
     }
+
+```
 
 If we were to try to find this error using vanilla property-based testing,
 where we restrict the input strings to always be of length four, then it would

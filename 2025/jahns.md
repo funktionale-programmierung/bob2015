@@ -27,6 +27,6 @@ I'm happy to cover certain topics in more detail once I know more about the othe
 
 
 ### Kevin Jahns
-[https://x.com/kevin_jahns](https://x.com/kevin_jahns)
+X/Twitter: [@kevin_jahns](https://x.com/kevin_jahns)
 
 Independent OSS Hacker from Berlin. Author of Yjs. I like writing code.

@@ -18,6 +18,6 @@ This hands-on workshop will introduce a new way of thinking about working with d
 
 
 ### Kira Howe
-['@kirahowe.com]('@kirahowe.com)
+Bluesky: [@kirahowe.com](https://bsky.app/profile/kirahowe.com)
 
 Kira has been writing software since 2015, focusing on Clojure for the last 6 years. With a desire to pave the way for Clojure's broader recognition and adoption in the data science community, she's actively developing tools and guides aimed at showcasing the strengths of Clojure's data science toolkit. Her efforts are driven by a vision to broaden Clojure's adoption in the data world by improving the usability and effectiveness its core libraries. An advocate for Clojure's potential in the world of data science, she spent most of 2024 working exclusively on open source contributions to support and grow the Clojure data science ecosystem, supported by Clojurists Together and other generous sponsors.

@@ -21,4 +21,4 @@ Each strategy comes with its own benefits and drawbacks, and the optimal choice 
 
 ### Ziyang Liu
 
-I lead the Plutus team at Input Output Global, focused on developing smart contract languages for the Cardano blockchain and the accompanying compilers, interpreters, libraries, and costing tools. All of our work is open source and freely accessible at https://github.com/IntersectMBO/plutus.
+I lead the Plutus team at Input Output Global, focused on developing smart contract languages for the Cardano blockchain and the accompanying compilers, interpreters, libraries, and costing tools. All of our work is open source and freely accessible at [github.com/IntersectMBO/plutus](https://github.com/IntersectMBO/plutus).
