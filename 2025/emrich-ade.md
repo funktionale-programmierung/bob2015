@@ -19,7 +19,7 @@ Wir haben nicht auf alle diese Fragen definitive Antworten, aber bei dieser Sess
 
 ### Marco Emrich
 
-Marco ist Architekt und Consultant bei codecentric, Lehrbeauftragter an der FH Salzburg  und leidenschaftlicher Verfechter von SoftwareCraft & Qualität. Er hält regelmäßig Vorträge auf Konferenzen und ist Autor mehrerer Fachbücher. Wenn er mal nicht tief im Code vergraben ist, verliert er gerade gegen seine Kinder in analogen Brettspielen. Du kannst ihm unter linkedin.com/in/marco-emrich](https://linkedin.com/in/marco-emrich) folgen ;)
+Marco ist Architekt und Consultant bei codecentric, Lehrbeauftragter an der FH Salzburg  und leidenschaftlicher Verfechter von SoftwareCraft & Qualität. Er hält regelmäßig Vorträge auf Konferenzen und ist Autor mehrerer Fachbücher. Wenn er mal nicht tief im Code vergraben ist, verliert er gerade gegen seine Kinder in analogen Brettspielen. Du kannst ihm unter [linkedin.com/in/marco-emrich](https://linkedin.com/in/marco-emrich) folgen ;)
 
 ### Ferdinand Ade
 
