@@ -18,7 +18,7 @@ In this talk, I will explain the semantic difference between value and reference
 
 
 ### Manuel Chakravarty
-Bluesky: [@tacticalgrace.bsky.social](https://bsky.app/profile/tacticalgrace.bsky.social) </br>
+Bluesky: [@tacticalgrace.bsky.social](https://bsky.app/profile/tacticalgrace.bsky.social) <br/>
 X/Twitter: [@TacticalGrace](https://x.com/TacticalGrace)
 
 Manuel M T Chakravarty is a researcher and software developer with interests in programming languages, cryptography, and programming environments. He developed the interactive development environment Haskell for Mac — one of the first Swift apps on the Mac App Store. He is now working on the successor of Haskell for Mac, which leverages SwiftUI for cross-platform development. His current research work lies at the intersection of programming languages and cryptography with applications to open blockchains. Recent contributions cover smart contract and native asset support for UTxO ledgers, such as Cardano, as well as multi-party state channels. He has also published extensively on programming languages, compilers, and high-performance computing. He contributed to both the design and implementation of the Haskell programming language (most notably, type families, associated types, and the foreign function interface) as well as several Haskell tools and open source libraries. He is currently a functional programming expert at Tweag and a researcher & architect of smart contract technology at IOG. Before that he was an Associate Professor at UNSW Sydney.
