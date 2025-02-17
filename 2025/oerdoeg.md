@@ -4,7 +4,7 @@ active: bob2025
 title: "The Microservices Problem No One Warned Us About (And How You Can Avoid It)"
 speaker: Ivett Ördög
 time: 17:50–18:35
-type: Talk
+type: Vortrag
 language: english
 head: 2025
 portrait: oerdoeg.png

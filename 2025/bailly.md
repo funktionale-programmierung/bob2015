@@ -4,7 +4,7 @@ active: bob2025
 title: "Against the (formal) method?"
 speaker: Arnaud Bailly
 time: 13:50–14:35
-type: Talk
+type: Vortrag
 language: english
 head: 2025
 portrait: bailly.png

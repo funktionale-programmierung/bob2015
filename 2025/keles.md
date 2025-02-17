@@ -4,7 +4,7 @@ active: bob2025
 title: "Property-Based Testing: The Past, The Present, and The Future"
 speaker: Alperen Keles
 time: 17:00–17:45
-type: Talk
+type: Vortrag
 language: english
 head: 2025
 portrait: keles.jpg

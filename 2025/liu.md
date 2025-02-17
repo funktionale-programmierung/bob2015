@@ -4,7 +4,7 @@ active: bob2025
 title: "Developing DSLs: A Look at Three Practical Strategies with Real-World Examples"
 speaker: Ziyang Liu
 time: 13:00–13:45
-type: Talk
+type: Vortrag
 language: english
 head: 2025
 portrait: liu.jpg

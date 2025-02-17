@@ -4,7 +4,7 @@ active: bob2025
 title: "Abstraction and program design, or the power of parametricity"
 speaker: Andres Löh
 time: 10:15–11:00
-type: Talk
+type: Vortrag
 language: english
 head: 2025
 portrait: loeh.jpg

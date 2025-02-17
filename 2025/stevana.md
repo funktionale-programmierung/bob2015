@@ -4,7 +4,7 @@ active: bob2025
 title: "Coverage-guided property-based testing"
 speaker: Stevan A
 time: 15:00–15:45
-type: Talk
+type: Vortrag
 language: english
 head: 2025
 ---

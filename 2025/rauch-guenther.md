@@ -4,7 +4,7 @@ active: bob2025
 title: "Die Starre überwinden - Mit DDD zu geschmeidigem Code"
 speaker: Nicole Rauch, Martin Günther
 time: 17:50–18:35
-type: Talk
+type: Vortrag
 language: german
 head: 2025
 portrait: rauch.jpg

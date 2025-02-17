@@ -4,7 +4,7 @@ active: bob2025
 title: "Beyond the Basics of LSP: Advanced IDE services for OCaml"
 speaker: Xavier Van de Woestyne
 time: 11:05–11:50
-type: Talk
+type: Vortrag
 language: english
 head: 2025
 portrait: woestyne.jpg

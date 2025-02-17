@@ -4,7 +4,7 @@ active: bob2025
 title: "Four Fascinating Programming Languages You've Probably Never Heard Of"
 speaker: Lutz Hühnken
 time: 15:00–15:45
-type: Talk
+type: Vortrag
 language: english
 head: 2025
 portrait: huehnken.jpg

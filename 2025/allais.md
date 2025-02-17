@@ -4,7 +4,7 @@ active: bob2025
 title: "Correct by Construction Concurrent Programs in Idris 2"
 speaker: Guillaume Allais
 time: 13:00–13:45
-type: Talk
+type: Vortrag
 language: english
 head: 2025
 portrait: allais.png

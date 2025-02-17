@@ -4,7 +4,7 @@ active: bob2025
 title: "OOP is dead, long live Object Orientation!"
 speaker: Franz Thoma
 time: 15:50–16:35
-type: Talk
+type: Vortrag
 language: english
 head: 2025
 portrait: thoma.jpg

@@ -4,7 +4,7 @@ active: bob2025
 title: "Functional data structures in Swift"
 speaker: Manuel Chakravarty
 time: 15:50–16:35
-type: Talk
+type: Vortrag
 language: english
 head: 2025
 portrait: chakravarty.jpg

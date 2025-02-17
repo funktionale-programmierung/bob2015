@@ -4,7 +4,7 @@ active: bob2025
 title: "A Language Server for your DSL for free"
 speaker: Hannes Siebenhandl
 time: 13:50–14:35
-type: Talk
+type: Vortrag
 language: english
 head: 2025
 portrait: siebenhandl.jpg
