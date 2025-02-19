@@ -5,7 +5,7 @@ title: "MAD-TDD - der Wahnsinn hat Methode"
 speaker: Marco Emrich, Ferdinand Ade
 time: 10:15–11:45
 type: Tutorial
-language: english
+language: german
 head: 2025
 portrait: emrich.jpg
 ---
