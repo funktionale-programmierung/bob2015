@@ -5,7 +5,7 @@ title: "Die andere Art des Teamworks: Whole Team Ensemble Programming"
 speaker: Joshua Töpfer
 time: 17:00–18:30
 type: Tutorial
-language: deutsch
+language: german
 head: 2025
 portrait:
 ---
