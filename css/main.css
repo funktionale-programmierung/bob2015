@@ -331,8 +331,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .content .front-page-col p {
     font-size: 0.95rem;
-    line-height: 1.6rem;
-    margin-bottom: 30px;
+    line-height: 1.4rem;
+    margin-bottom: 1.5ex;
 }
 
 .splash .container {
