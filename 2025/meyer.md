@@ -2,7 +2,7 @@
 layout: talk
 active: bob2025
 title: "Programming with weak consistency, and dartagnan"
-speaker: Roland Meyer
+speaker: Roland Meyer, Thomas Haas
 time: 17:00–18:30
 type: Tutorial
 language: english
@@ -23,3 +23,5 @@ dartagnan has been instrumental in finding a bug in qspinlock, one of the major 
 ### Roland Meyer
 
 Roland is a Professor at TU Braunschweig and Head of the Institute of Theoretical Computer Science. He is interested in verification techniques for concurrent programs that can be used at industrial scale.
+
+### Thomas Haas
