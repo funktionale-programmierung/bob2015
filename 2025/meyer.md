@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2025
-title: "Programming with weak consistency, and Ddartagnan"
+title: "Programming with weak consistency, and Dartagnan"
 speaker: Roland Meyer, Thomas Haas
 time: 17:00–18:30
 type: Tutorial
