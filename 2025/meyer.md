@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2025
-title: "Programming with weak consistency, and dartagnan"
+title: "Programming with weak consistency, and Ddartagnan"
 speaker: Roland Meyer, Thomas Haas
 time: 17:00–18:30
 type: Tutorial
@@ -11,15 +11,38 @@ portrait: meyer.jpg
 portrait2: haas.png
 ---
 
-Programming with weak consistency guarantees is both a necessity and a pain.
-It is a necessity, because more and more platforms opt for weak consistency guarantees, with the Linux kernel being a prominent example, or even give the developer means to influence the consistency guarantees, as in the case of C atomics. 
-It is a pain, because well-known idioms for synchronization and communication among threads break if the consistency guarantees are chosen too weak. 
-As a consequence, the developer has to explicitly reason about the behavior of the program on the very platform.
-We introduce dartagnan, an open-source tool that helps precisely with this task. 
-dartagnan takes as input a program annotated with correctness assertions and a consistency model.
-It then checks whether all consistent executions meet the assertions, and reports bugs otherwise. 
-dartagnan has been instrumental in finding a bug in qspinlock, one of the major lock implementations of the Linux kernel, a development that ultimately lead to a new Linux kernel memory model.
+Programming with weak consistency guarantees is both a necessity and a pain. It
+is a necessity, because more and more platforms opt for weak consistency
+guarantees or even give the developer means of influencing the consistency
+guarantees. It is a pain, because well-known idioms for synchronization and
+communication break if the consistency guarantees are chosen too weak.
 
+Since its proposal in 2010, the programming language CAT has become the de-facto
+standard for formulating consistency guarantees. The Linux kernel, the languages
+C, C++, Java, and OCaml, the architectures of ARM, Intel, and IBM, as well as
+NVIDIA and Vulkan all have their consistency guarantees formulated in CAT.
+
+We introduce Dartagnan, a formal verification tool that helps the programmer
+reason about the behavior of a given (C or SPIR-V) program relative to given
+consistency guarantees (formulated in CAT). Dartagnan checks whether all
+consistent executions meet all assertions in the code, reports bugs otherwise,
+or terminates without a conclusion. Dartagnan is a bounded model checker that
+unrolls the program into an acyclic form and translates it into logical
+constraints that are solved with an SMT solver, like Microsoft's Z3 or Yices.
+
+Dartagnan has been instrumental in finding a bug in qspinlock, one of the major
+lock implementations of the Linux kernel, a development that ultimately lead to
+new consistency guarantees for the Linux kernel.
+
+We will introduce the basics of weak consistency, the CAT language, and
+Dartagnan.
+
+######  Preparations
+
+For an active participation, we suggest to download Dartagnan up-front from
+[https://github.com/hernanponcedeleon/Dat3M](https://github.com/hernanponcedeleon/Dat3M)
+and follow the installation instructions given on that site.
+ 
 
 ### Roland Meyer
 
