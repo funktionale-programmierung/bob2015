@@ -16,6 +16,8 @@ Clojure's data science ecosystem has been maturing rapidly in recent years. With
 
 This hands-on workshop will introduce a new way of thinking about working with data, demonstrating how Clojure's libraries and tooling solve many pain points in current data science workflows.
 
+If you'd like to attend this tutorial, please prepare by following the instructions at this link:  [https://kira.quarto.pub/bobkonf-2025/notebooks.installation_guide.html](https://kira.quarto.pub/bobkonf-2025/notebooks.installation_guide.html)
+
 
 ### Kira Howe
 Bluesky: [@kirahowe.com](https://bsky.app/profile/kirahowe.com)
