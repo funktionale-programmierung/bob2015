@@ -16,6 +16,12 @@ In diesem Tutorial zeige ich Euch den Ansatz, den wir beim iSAQB für die Erstel
 
 Das Tutorial richtet sich an alle, die technische Dokumentation einfacher, kollaborativer und effizienter gestalten möchten. Es ist praxisnah und interaktiv – bringt also gerne Eure Fragen und Herausforderungen mit!
 
+###### Voraussetzungen für die Teilnehmenden
+
+- Internetzugang
+- GitHub Account
+- JDK 21 oder höher installiert
+- Editor / IDE
 
 ### Benjamin Wolf
 Fediverse: [@ben@innoq.social](https//innoq.social/@ben)
