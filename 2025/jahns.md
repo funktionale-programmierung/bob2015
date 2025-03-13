@@ -10,19 +10,23 @@ head: 2025
 portrait: jahns.png
 ---
 
-Yjs is a popular technology (CRDT) for building collaborative
-applications.
+All that is meaningful is shared with others. We share our knowledge
+with note-taking apps, communicate with family via shopping lists, and
+update our websites with CMSs. But many of these tools are not
+collaborative. They should be!
 
-In this tutorial, we'll cover:
+This workshop is about Yjs, a popular technology (CRDT) for building
+local-first, collaborative apps. You will learn about Yjs data types,
+that sync automatically without merge-conflicts. Together, we will
+build a local-first, collaborative note-taking app and discuss how you
+can make your existing application collaborative.
 
-* Yjs / CRDT data structures introduction
-  * How should we represent data in a CRDT
-  * Observing data
-  * Common pitfalls
-* Syncing data with other clients using "providers"
-  * Using a standard websocket provider (setting up a backend, auth*, init of content)
-  * Using one of the p2p or e2e providers
-* Integration of Yjs with other technologies: Editors (ProseMirror, Quill), Drawing Tools (TLDraw), Jupyter Notebooks, React
+# Requirements
+
+- NodeJs
+- A code editor
+- Basic JavaScript knowledge
+- Git: `git clone https://github.com/yjs/bob-2025`
 
 ### Kevin Jahns
 X/Twitter: [@kevin_jahns](https://x.com/kevin_jahns)
