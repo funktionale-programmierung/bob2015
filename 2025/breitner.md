@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2025
-title: "Lean"
+title: "Recursive Definitions in Lean"
 speaker: Joachim Breitner
 time: 17:00–17:45
 type: Vortrag
@@ -16,7 +16,7 @@ This ses­sion will like­ly con­tain high amounts of im­pro­vised live-cod­
 
 (This spontaneous talk is based on the talk given at [Leaning in 2025](https://leaning.in/).)
 
-The material presented can be found at https://github.com/nomeata/lean-bobkonf-2025.
+The material presented can be found at <https://github.com/nomeata/lean-bobkonf-2025>.
 
 ### [Joachim Breitner](https://joachim-breitner.de/)
 
