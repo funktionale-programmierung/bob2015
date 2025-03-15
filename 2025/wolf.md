@@ -8,6 +8,7 @@ type: Tutorial
 language: german
 head: 2025
 portrait: wolf.jpg
+slides-file: wolf.pdf
 ---
 
 Das Schreiben von Dokumentation ist ein leidiges Thema: Verschiedene Werkzeuge, die Zusammenarbeit im Team oder die Integration in den Arbeitsalltag hindern uns oft daran, überhaupt damit zu beginnen.
@@ -15,6 +16,8 @@ Das Schreiben von Dokumentation ist ein leidiges Thema: Verschiedene Werkzeuge, 
 In diesem Tutorial zeige ich Euch den Ansatz, den wir beim iSAQB für die Erstellung unserer Lehrpläne entwickelt haben. Ihr lernt die Grundlagen von asciidoc und asciidoctor kennen und arbeitet Schritt für Schritt an einer Verfeinerung des Erstellungsprozesses. Das Ziel: Am Ende haltet Ihr ein ansprechendes und professionell gestaltetes Dokument in den Händen – und habt das Know-how, Eure eigene Dokumentation effizient zu erstellen.
 
 Das Tutorial richtet sich an alle, die technische Dokumentation einfacher, kollaborativer und effizienter gestalten möchten. Es ist praxisnah und interaktiv – bringt also gerne Eure Fragen und Herausforderungen mit!
+
+* Repository mit Notizen aus der Session gibt es auf [GitHub](https://github.com/programming-wolf/schoene-dokumentation-mit-text).
 
 ###### Voraussetzungen für die Teilnehmenden
 
