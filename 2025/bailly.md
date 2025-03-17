@@ -8,6 +8,7 @@ type: Vortrag
 language: english
 head: 2025
 portrait: bailly.png
+slides-file: bailly.pdf
 ---
 
 Formal methods are very often touted as a necessary evolution of software development to cope with increasing complexity, risks, and challenges. This is especially true in functional programmers' circles, as there's historically a strong link between functional programming languages and formalisation of computing. After all, if software engineers really want to be considered as "true" engineers like mechanical or nuclear engineers, they will need to embrace formalisation and root their practices and tools in solid mathematical foundations.
