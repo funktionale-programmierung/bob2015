@@ -8,6 +8,7 @@ type: Vortrag
 language: english
 head: 2025
 portrait: thoma.jpg
+slides-file: thoma.pdf
 ---
 
 I'm a functional programmer at heart, and believe that the declarative
