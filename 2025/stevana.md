@@ -7,6 +7,7 @@ time: 15:00–15:45
 type: Vortrag
 language: english
 head: 2025
+slides-file: stevana.pdf
 ---
 
 Consider the following example, where an error is triggered if some input
