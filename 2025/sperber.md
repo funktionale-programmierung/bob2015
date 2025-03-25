@@ -8,6 +8,7 @@ type: Vortrag
 language: english
 head: 2025
 portrait: sperber.jpg
+slides-file: sperber.pdf
 ---
 
 FP—what is it good for? The “P” is for “Programming”, the writing of
