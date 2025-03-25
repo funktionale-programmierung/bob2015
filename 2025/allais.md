@@ -8,6 +8,7 @@ type: Vortrag
 language: english
 head: 2025
 portrait: allais.png
+slides-file: allais.pdf
 ---
 
 Concurrent programs destructively updating shared memory are

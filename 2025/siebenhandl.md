@@ -8,6 +8,7 @@ type: Vortrag
 language: english
 head: 2025
 portrait: siebenhandl.jpg
+slides-file: siebenhandl.pdf
 ---
 
 Domain-specific languages (DSL) are well-studied tools for solving problems specific to a domain.
