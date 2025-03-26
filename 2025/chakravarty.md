@@ -8,6 +8,7 @@ type: Vortrag
 language: english
 head: 2025
 portrait: chakravarty.jpg
+slides-file: chakravarty.pdf
 ---
 
 One of the intriguing  features of Swift is its distinction between value types and reference types. Conceptually, value types are always copied in assignments and passed-by-value in function calls — i.e., they are semantically immutable. In contrast, for reference types, Swift only copies a pointer to an object on an assignment and they are being  passed-by-reference to functions. If such an object gets mutated, it changes for for all references. While most languages feature both value and reference types, Swift is unique in that (1) it makes it easy to define and use both flavours of types and (2) it supports fine-grained mutability control.
