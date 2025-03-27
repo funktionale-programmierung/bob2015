@@ -8,6 +8,7 @@ portrait: annette-bieniusa.jpg
 time: 09:00-10:00
 type: Vortrag
 head: 2025
+slides-file: bieniusa.pdf
 ---
 
 Local-first software redefines how applications handle data by
