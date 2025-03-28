@@ -8,6 +8,7 @@ type: Vortrag
 language: english
 head: 2025
 portrait: oerdoeg.png
+slides-file: oerdoeg.pdf
 ---
 
 Tired of firefighting when a downstream service throws a curveball? We
