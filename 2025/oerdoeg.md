@@ -9,6 +9,7 @@ language: english
 head: 2025
 portrait: oerdoeg.png
 slides-file: oerdoeg.pdf
+video: bob11-2025-microservices-problem-no-one-warned-us-about-oerdoeg
 ---
 
 Tired of firefighting when a downstream service throws a curveball? We

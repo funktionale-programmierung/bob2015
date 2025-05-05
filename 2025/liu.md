@@ -9,6 +9,7 @@ language: english
 head: 2025
 portrait: liu.jpg
 slides-file: liu.pdf
+video: bob11-2025-developing-dsls-liu
 ---
 
 Domain-specific languages (DSLs) are languages specialized for a particular domain, and are typically equipped with features that make them well-suited for programming within that domain. This talk explores and compares three common strategies to creating DSLs:

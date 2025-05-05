@@ -9,6 +9,7 @@ language: english
 head: 2025
 portrait: breitner.jpg
 slides-link: https://github.com/nomeata/lean-bobkonf-2025
+video: bob11-2025-recursive-definitions-in-lean-breitner
 ---
 
 The log­ic un­der­ly­ing the [Lean programming language and theorem prover](https://lean-lang.org/) does not know re­cur­sive func­tions, yet Lean users can de­fine func­tions re­cur­sive­ly. In this ses­sion we’ll get to look at how Lean trans­lates the user’s spec­i­fi­ca­tion into some­thing that the log­ic un­der­stands, whether by struc­tur­al re­cur­sion, well-found­ed re­cur­sion or the brand-new par­tial fix­point strat­e­gy. We’ll also see how this af­fects com­piled code (name­ly not at all), and the dif­fer­ence be­tween par­tial and un­safe.

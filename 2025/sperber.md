@@ -9,6 +9,7 @@ language: english
 head: 2025
 portrait: sperber.jpg
 slides-file: sperber.pdf
+video: bob11-2025-things-we-never-told-anyone-about-functional-programming-sperber
 ---
 
 FP—what is it good for? The “P” is for “Programming”, the writing of

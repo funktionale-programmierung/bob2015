@@ -9,6 +9,7 @@ language: english
 head: 2025
 portrait: thoma.jpg
 slides-file: thoma.pdf
+video: bob11-2025-oop-is-dead-long-live-object-orientation-thoma
 ---
 
 I'm a functional programmer at heart, and believe that the declarative
