@@ -9,6 +9,7 @@ language: german
 head: 2025
 portrait: digel.jpg
 slides-file: digel.pdf
+video: bob11-2025-weg-zu-hoher-zuverlaessigkeit-von-systemen-digel
 ---
 
 Die Netze BW als Verteilnetzbetreiber für Strom, Gas und Wasser in Baden-Württemberg entwickelt und betreibt Software für den Betrieb von Netzen. Als Teil kritischer Infrastruktur des öffentlichen Lebens waren die Anforderung an Zuverlässigkeit immer sehr hoch. Kombiniert mit der zunehmenden Komplexität der Energiewende müssen immer mehr und immer komplexere Prozesse abgebildet und mittels Software realisiert werden.

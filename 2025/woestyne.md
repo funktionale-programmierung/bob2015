@@ -9,6 +9,7 @@ language: english
 head: 2025
 portrait: woestyne.jpg
 slides-file: woestyne.pdf
+video: bob11-2025-beyond-the-basics-of-lsp-woestyne
 ---
 
 [LSP](https://microsoft.github.io/language-server-protocol/) has greatly standardised the behaviour of IDEs, in a good direction: we can provide, _de-facto_, decent language support in editors supporting LSP. 
