@@ -22,7 +22,15 @@
         };
       in
       {
-        packages.default = pkgs.writeShellScriptBin "serve" "${pkgs.lib.getExe jekyllFull} serve --watch";
+        packages = {
+          default = pkgs.stdenv.mkDerivation {
+            name = "bobkonf-website";
+            src = pkgs.lib.cleanSource ./.;
+            buildPhase = "${jekyllFull}/bin/jekyll build";
+            installPhase = "cp -r _site $out";
+          };
+          watch = pkgs.writeShellScriptBin "serve" "${pkgs.lib.getExe jekyllFull} serve --watch";
+        };
 
         devShells.default = pkgs.mkShell { nativeBuildInputs = [ jekyllFull ]; };
 

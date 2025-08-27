@@ -13,7 +13,7 @@ If you have an installation of [Nix](https://nixos.org), the following will
 suffice:
 
 ```shell
-nix run
+nix run .#watch
 ```
 
 ### With Jekyll
