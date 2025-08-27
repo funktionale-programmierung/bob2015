@@ -6,21 +6,27 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, flake-utils }:
-    flake-utils.lib.eachDefaultSystem (system:
+  outputs =
+    {
+      self,
+      nixpkgs,
+      flake-utils,
+    }:
+    flake-utils.lib.eachDefaultSystem (
+      system:
       let
         pkgs = import nixpkgs { inherit system; };
         jekyllFull = pkgs.jekyll.override {
           # this way jekyll knows all the necessary plugins
           withOptionalDependencies = true;
         };
-      in {
-        packages.default = pkgs.writeShellScriptBin "serve"
-          "${pkgs.lib.getExe jekyllFull} serve --watch";
+      in
+      {
+        packages.default = pkgs.writeShellScriptBin "serve" "${pkgs.lib.getExe jekyllFull} serve --watch";
 
-        devShells.default =
-          pkgs.mkShell { nativeBuildInputs = [ jekyllFull ]; };
+        devShells.default = pkgs.mkShell { nativeBuildInputs = [ jekyllFull ]; };
 
         formatter = pkgs.nixfmt;
-      });
+      }
+    );
 }
