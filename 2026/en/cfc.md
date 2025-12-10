@@ -1,0 +1,107 @@
+# BOB Conference 2026 - Call for Contributions
+
+## "What happens when we use what's best for a change?"
+
+- https://bobkonf.de/2026/cfc.html
+- Berlin, Mar 13
+- Deadline: November 17, 2025
+
+## Looking for Speakers
+
+You are actively engaged in advanced software engineering methods,
+solve ambitious problem with software and are open to cutting-edge
+innovation? Attend this conference, meet people that share your goals,
+and get to know the best software tools and technologies available
+today. We strive to offer a day full of new experiences and
+impressions that you can use to immediately improve your daily life as
+a software developer.
+
+If you share our vision and want to contribute, submit a proposal for
+a talk or tutorial!
+
+**NOTE**: The conference fee will be waived for presenters. Travel
+expenses will not be covered (for exceptions see "Speaker Grants").
+
+## Topics
+
+We are looking for talks about best-of-breed software technology, e.g.:
+
+- functional programming
+- persistent data structures and databases
+- event-based modelling and architecture
+- "fancy types" (dependent types, gradual typing, linear types, ...)
+- formal methods for correctness and robustness
+- abstractions for concurrency and parallelism
+- metaprogramming
+- probabilistic programming
+- math and programming
+- controlled side effects
+- program synthesis
+- AI beyond vibecoding and chatbots
+- linked data
+- symbolic AI
+- next-generation IDEs
+- effective abstractions for data analytics
+- ... everything really that isn't mainstream, but you think should be
+- ... including rough ideas that are worth discussing.
+
+Presenters should provide the audience with information that is practically useful for software developers.
+
+## Challenges
+
+Furthermore, we seek contributions on successful approaches for solving hard problems, for example:
+
+- bias in machine-learning systems
+- digital transformation in difficult settings
+- accessibility
+- systems with critical reliability requirements
+- ecologically sustainable software development
+
+**We're especially interested in experience reports.**
+
+Other topics are also relevant, e.g.:
+
+- introductory talks on technical background
+- overviews of a given field
+- demos and how-tos
+
+## Requirements
+
+We accept proposals for presentations of 45 minutes (40 minutes talk +
+5 minutes questions), as well as 90 minute tutorials for
+beginners. The language of presentation should be either English or
+German.
+
+Your proposal should include (in your presentation language of choice):
+
+- An abstract of max. 1500 characters.
+- A short bio/cv
+- Contact information (including at least email address)
+- A list of 3-5 concrete ideas of how your work can be applied in a developer's daily life
+- additional material (websites, blogs, slides, videos of past presentations, ...)
+
+[Submit here](https://pretalx.com/bob-2026/submit/)
+
+## Organisation
+
+- Direct questions to `konferenz at bobkonf dot de`
+- Proposal deadline: **November 17, 2025**
+- Notification: December 5, 2025
+- Program: December 12, 2025
+
+## Shepherding
+
+The program committee offers shepherding to all speakers. Shepherding
+provides speakers assistance with preparing their
+sessions. Specifically:
+
+- advice on structure and presentation
+- review of talk slides
+
+## Speaker Grants
+
+BOB has Speaker Grants available to support speakers from groups
+under-represented in technology. We specifically seek women speakers,
+speakers of color, and speakers who are not able to attend the
+conference for financial reasons.
+
