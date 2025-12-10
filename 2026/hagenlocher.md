@@ -7,6 +7,7 @@ time: 13:00–14:30
 type: Tutorial
 language: english
 head: 2026
+portrait: hagenlocher.jpg
 ---
 
 Functional programming offers powerful tools for building robust, maintainable software, and Software Development as a whole has moved more and more towards employing a functional style in its programs—yet comprehensive guides for normal work in real-world applications are still hard to find. This tutorial aspires to fill a part of this gap: It teaches functional programming patterns and shows you how to apply them immediately in your daily work, with TypeScript as a language.
