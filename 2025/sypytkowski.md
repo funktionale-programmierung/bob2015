@@ -9,6 +9,8 @@ type: Vortrag
 language: english
 head: 2025
 portrait: sypytkowski.jpg
+slides-file: sypytkowski.pdf
+video: bob11-2025-service-less-communication-sypytkowski
 ---
 
 This talk is going to focus on peer-to-peer apps. We'll try to answer the question: how to build an app that will enable information exchange between our clients without a need to maintain heavy backend infrastructure? Is it even possible? We'll walk through different ways of data exchange, from local to wide arena networks, and how to make them work for us.

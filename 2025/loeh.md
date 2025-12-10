@@ -9,6 +9,8 @@ type: Vortrag
 language: english
 head: 2025
 portrait: loeh.jpg
+slides-file: loeh.pdf
+video: bob11-2025-abstraction-and-program-design-loeh
 ---
 
 In this talk I want to revisit the parametricity theorem: from parametrically polymorphic types, i.e., types that contain type variables that can be arbitrarily instantiated, we can directly infer certain properties of the underlying functions, without ever having to look at their implementation.

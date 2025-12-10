@@ -9,6 +9,7 @@ type: Tutorial
 language: german
 head: 2025
 portrait: wolf.jpg
+slides-file: wolf.pdf
 ---
 
 Das Schreiben von Dokumentation ist ein leidiges Thema: Verschiedene Werkzeuge, die Zusammenarbeit im Team oder die Integration in den Arbeitsalltag hindern uns oft daran, überhaupt damit zu beginnen.
@@ -17,6 +18,14 @@ In diesem Tutorial zeige ich Euch den Ansatz, den wir beim iSAQB für die Erstel
 
 Das Tutorial richtet sich an alle, die technische Dokumentation einfacher, kollaborativer und effizienter gestalten möchten. Es ist praxisnah und interaktiv – bringt also gerne Eure Fragen und Herausforderungen mit!
 
+* Repository mit Notizen aus der Session gibt es auf [GitHub](https://github.com/programming-wolf/schoene-dokumentation-mit-text).
+
+###### Voraussetzungen für die Teilnehmenden
+
+- Internetzugang
+- GitHub Account
+- JDK 21 oder höher installiert
+- Editor / IDE
 
 ### Benjamin Wolf
 Fediverse: [@ben@innoq.social](https//innoq.social/@ben)

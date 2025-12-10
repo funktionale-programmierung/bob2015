@@ -17,6 +17,9 @@ Nachdem typische Ausfallszenarien identifiziert sind, optimieren wir das Prozess
 
 Dieses Tutorial richtet sich an Entwickler*innen, die das robuste Systemdesign mit Elixir kennenlernen möchten und nachvollziehen wollen, wie man stabile Anwendungen für anspruchsvolle Einsatzbereiche konzipiert.
 
+### Vorbereitung
+
+Um aktiv am Tutorial teilnehmen zu können, sollte Erlang und Elixir lokal installiert sein.
 
 ### Kaan
 

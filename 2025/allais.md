@@ -9,6 +9,8 @@ type: Vortrag
 language: english
 head: 2025
 portrait: allais.png
+slides-file: allais.pdf
+video: bob11-2025-correct-by-construction-concurrent-programs-in-idris-allais
 ---
 
 Concurrent programs destructively updating shared memory are

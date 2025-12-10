@@ -2,13 +2,15 @@
 edition: 2025
 layout: talk
 active: bob2025
-title: "A Language Server for your DSL for free"
+title: "A Language Server for your DSL for Fun and Profit"
 speaker: Hannes Siebenhandl
 time: 13:50–14:35
 type: Vortrag
 language: english
 head: 2025
 portrait: siebenhandl.jpg
+slides-file: siebenhandl.pdf
+video: bob11-2025-language-server-for-your-dsl-siebenhandl
 ---
 
 Domain-specific languages (DSL) are well-studied tools for solving problems specific to a domain.

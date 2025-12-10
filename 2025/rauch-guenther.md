@@ -10,6 +10,8 @@ language: german
 head: 2025
 portrait: rauch.jpg
 portrait2: guenther.JPG
+slides-file: rauch-guenther.pdf
+video: bob11-2025-mit-ddd-zu-geschmeidigem-code-rauch-guenther
 ---
 
 In den letzten Jahren hat das Strategische Design aus DDD einen enormen Zuspruch gewonnen, was auf jeden Fall gut und wichtig ist. Aber das bedeutet nicht, dass wir das Taktische Design von DDD vernachlässigen sollten.
