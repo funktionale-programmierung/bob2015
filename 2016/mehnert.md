@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title:  Jackline, a secure instant messaging application, functional from the ground up
+topic: functional_programming, ocaml
 speaker: Hannes Mehnert
 portrait: hannes-mehnert.jpg
 time: 17:10-17:55

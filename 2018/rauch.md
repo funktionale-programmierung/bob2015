@@ -1,4 +1,5 @@
 ---
+edition: 2018
 layout: talk
 active: bob2018
 title: "EventStorming für Domain-Driven Design"

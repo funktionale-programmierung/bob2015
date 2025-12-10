@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Elm im produktiven Einsatz
+topic: web, ui, functional_programming, haskell
 speaker: Gregor Große-Bölting
 portrait: gregor-grosse-boelting.jpg
 time: 11:45-12:30

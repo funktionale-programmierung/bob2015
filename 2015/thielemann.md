@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Praktische Erfahrungen mit GPU-Programmierung in Haskell
+topic: ui, haskell
 speaker: Henning Thielemann
 time: 15:00-15:45
 type: Vortrag

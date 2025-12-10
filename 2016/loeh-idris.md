@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: An Introduction to Idris
+topic: functional_programming, types, formal_methods
 speaker: Andres Löh
 portrait: andres-loeh.jpg
 time: 16:20-17:50

@@ -1,4 +1,5 @@
 ---
+edition: 2019
 layout: talk
 active: bob2019
 title: "Across Time and Space: Building Explorative UIs Using a Many-Worlds Interpretation of State"

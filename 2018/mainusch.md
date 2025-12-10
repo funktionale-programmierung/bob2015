@@ -1,4 +1,5 @@
 ---
+edition: 2018
 layout: talk
 active: bob2018
 title: "Vertikale Organisation - da muss sich was um 90° drehen im Kopf!"

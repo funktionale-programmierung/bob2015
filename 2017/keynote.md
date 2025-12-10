@@ -1,8 +1,10 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
-title: Keynote
+title: Why Functional Programming Matters
 speaker: John Hughes
+topic: functional_programming
 portrait: keynote2017.jpg
 time: 09:00-10:00
 type: Vortrag

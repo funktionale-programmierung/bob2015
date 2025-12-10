@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Type Classes for OO programmers, a Scala journey
+topic: scala, functional_programming, types
 speaker: Ivan Kusalic
 time: 16:20-17:05
 type: Vortrag

@@ -1,4 +1,5 @@
 ---
+edition: 2025
 layout: talk
 active: bob2025
 title: "The Microservices Problem No One Warned Us About (And How You Can Avoid It)"

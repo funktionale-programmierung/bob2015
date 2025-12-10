@@ -1,4 +1,5 @@
 ---
+edition: 2025
 title: "Keynote: Local-first Software"
 layout: talk
 active: bob2025

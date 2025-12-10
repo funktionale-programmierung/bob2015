@@ -1,4 +1,5 @@
 ---
+edition: 2023
 layout: talk
 active: bob2023
 title: When testing just doesn't cut it

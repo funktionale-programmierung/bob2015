@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Funktionales Design mit Swift
+topic: swift, functional_programming
 speaker: Stefan Wehr
 portrait: stefan-wehr.jpg
 time: 17:10-17:55

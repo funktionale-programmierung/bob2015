@@ -1,4 +1,5 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: On the other side of the clouds

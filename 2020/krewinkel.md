@@ -1,4 +1,5 @@
 ---
+edition: 2020
 layout: talk
 active: bob2020
 title: The Lessons of 14 Years of Open Source Haskell

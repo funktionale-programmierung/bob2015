@@ -1,4 +1,5 @@
 ---
+edition: 2019
 layout: talk
 active: bob2019
 title: Einstieg in die Probabilistische Programmierung

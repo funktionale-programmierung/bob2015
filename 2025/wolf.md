@@ -1,4 +1,5 @@
 ---
+edition: 2025
 layout: talk
 active: bob2025
 title: "Schöne Dokumentation – nur mit Text"

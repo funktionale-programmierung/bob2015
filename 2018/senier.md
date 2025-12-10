@@ -1,4 +1,5 @@
 ---
+edition: 2018
 layout: talk
 active: bob2018
 title: "When one beyond-mainstream technology is not enough: Combining program verification with component-based architectures"

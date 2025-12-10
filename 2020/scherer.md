@@ -1,4 +1,5 @@
 ---
+edition: 2020
 layout: talk
 active: bob2020
 title: "The Object-Oriented/Functional-Programming symmetry: theory and practice"

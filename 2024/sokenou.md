@@ -1,4 +1,5 @@
 ---
+edition: 2024
 layout: talk
 active: bob2024
 title: "Cypress überall - Ein einziges Automatisierungswerkzeug für alle Teststufen?!"

@@ -1,4 +1,5 @@
 ---
+edition: 2021
 layout: talk
 active: bob2021
 title: D.A.R.E. more, F.E.A.R. less - Journaling for Tech People

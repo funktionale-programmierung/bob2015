@@ -1,4 +1,5 @@
 ---
+edition: 2023
 layout: talk
 active: bob2023
 title: Ist das ein Graph oder kann das weg? Funktionales Deep Learning in Haskell

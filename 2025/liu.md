@@ -1,4 +1,5 @@
 ---
+edition: 2025
 layout: talk
 active: bob2025
 title: "Developing DSLs: A Look at Three Practical Strategies with Real-World Examples"

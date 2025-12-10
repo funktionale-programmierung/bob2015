@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Writing a native Mac GUI application in Haskell
+topic: haskell, functional_programming
 speaker: Nikolas Mayr
 portrait: nikolas-mayr.jpg
 time: 14:15-15:00

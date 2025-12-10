@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Einführung in Scala
+topic: scala, functional_programming
 speaker: Simon Ochsenreither
 portrait: simon-ochsenreither.jpg
 time: 11:45-13:15

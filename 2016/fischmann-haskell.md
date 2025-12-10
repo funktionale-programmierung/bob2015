@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Introductory Haskell
+topic: haskell, functional_programming
 speaker: Matthias Fischmann, Andres Löh
 portrait: matthias-fischmann.png
 portrait2: andres-loeh.jpg

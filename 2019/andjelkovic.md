@@ -1,4 +1,5 @@
 ---
+edition: 2019
 layout: talk
 active: bob2019
 title: State machine modelling and property based testing combined with fault injection 

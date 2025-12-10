@@ -1,4 +1,5 @@
 ---
+edition: 2024
 layout: talk
 active: bob2024
 title: End-to-end Type-Safety with Your Own API Spec DSL

@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Keeping Front-end Development Simple with React
+topic: ui, web, functional_programming
 speaker: Tony Tsui
 portrait: tony-tsui.jpg
 time: 10:15-11:00

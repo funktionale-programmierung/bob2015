@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Introduction to Web Programming in PureScript
+topic: web, functional_programming, haskell
 speaker: Michael Karg
 portrait: michael-karg.jpg
 time: 11:45-13:15

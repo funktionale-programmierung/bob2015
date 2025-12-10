@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Moderne typsichere Web-Entwicklung mit Haskell
+topic: web, haskell
 speaker: Alexander Thiemann
 portrait: thiemann.jpg
 time: 11:30-13:00

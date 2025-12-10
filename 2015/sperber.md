@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Streifzug durch Clojure
+topic: functional_programming, clojure
 speaker: Michael Sperber
 time: 11:30-13:00
 portrait: sperber.jpg

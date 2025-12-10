@@ -1,4 +1,5 @@
 ---
+edition: 2021
 layout: talk
 active: bob2021
 title: Nach 20 Jahren Agilität - wird Achtsam das neue Agil?

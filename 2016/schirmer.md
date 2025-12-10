@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Dynamic programming at ease - with grammars, algebras, products
+topic: functional_programming, dsl
 speaker: Stefanie Schirmer
 portrait: stefanie-schirmer.jpg
 time: 10:15-11:00

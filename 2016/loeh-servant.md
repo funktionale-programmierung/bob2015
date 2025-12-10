@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Type the web with Servant!
+topic: web, functional_programming, haskell, types
 speaker: Andres Löh
 portrait: andres-loeh.jpg
 time: 15:05-15:50

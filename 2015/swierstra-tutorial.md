@@ -1,8 +1,10 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Introductory Swift
 speaker: Wouter Swierstra, Chris Eidhof, Florian Kugler
+topic: swift, functional_programming
 portrait: swierstra.jpg
 time: 16:15-17:45
 type: Tutorial

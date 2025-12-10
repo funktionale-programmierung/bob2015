@@ -1,4 +1,5 @@
 ---
+edition: 2025
 layout: talk
 active: bob2025
 title: "Property-Based Testing: The Past, The Present, and The Future"

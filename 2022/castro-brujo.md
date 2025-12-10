@@ -1,4 +1,5 @@
 ---
+edition: 2022
 layout: talk
 active: bob2022
 title: Detecting Oxbow Code in Erlang Codebases with the Highest Degree of Certainty

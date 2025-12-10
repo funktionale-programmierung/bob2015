@@ -1,6 +1,8 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
+topic: haskell, functional_programming
 title: Introductory Haskell
 speaker: Matthias Fischmann
 portrait: matthias-fischmann.png

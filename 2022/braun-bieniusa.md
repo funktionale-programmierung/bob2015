@@ -1,4 +1,5 @@
 ---
+edition: 2022
 layout: talk
 active: bob2022
 title: Keeping CALM – Konsistenz in verteilten Systemen leichtgemacht

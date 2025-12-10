@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Synergy of IoT and BPM
+topic: performance, functional_programming
 speaker: Yevgen Pikus
 portrait: yevgen-pikus.jpg
 time: 11:45-12:30

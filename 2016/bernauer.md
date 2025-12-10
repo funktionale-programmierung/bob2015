@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Synchronisation und Immutability
+topic: distributed_systems
 speaker: Andreas Bernauer
 time: 15:05-15:50
 portrait: andreas-bernauer.jpg

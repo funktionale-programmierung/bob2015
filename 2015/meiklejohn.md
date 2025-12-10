@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Functional Web Applications with Webmachine in Erlang
+topic: functional_programming, erlang
 speaker: Christopher Meiklejohn
 portrait: meiklejohn.jpg
 time: 11:30-13:00

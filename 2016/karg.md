@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: "Functional Programming and the Web: Frontend Development in PureScript"
+topic: web, ui, functional_programming, haskell
 speaker: Michael Karg, Jürgen Nicklisch-Franken
 portrait: michael-karg.jpg
 portrait2: juergen-nicklisch-franken.jpg

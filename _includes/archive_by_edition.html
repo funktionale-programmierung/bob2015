@@ -1,0 +1,31 @@
+<div class="container content" style="padding-bottom: 2em;">
+  <h1>Bob Conference Archive – {{ include.edition }}</h1>
+  <p>This archive holds all talks of Bob {{ include.edition }}.</p>
+
+  <hr />
+
+  <h2>English</h2>
+  <ul style="display: flex; flex-direction: column; gap: 1ex; padding: 0;">
+    {% for page in site.pages %}
+    {% if page.language == "english" and page.edition == include.edition and page.type contains "Vortrag" %}
+    <li>
+      {% include talk_link.html url=page.url title=page.title speaker=page.speaker edition=page.edition language=page.language %}
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+  <hr />
+
+  <h2>German</h2>
+  <ul style="display: flex; flex-direction: column; gap: 1ex; padding: 0;">
+    {% for page in site.pages %}
+    {% if page.language == "german" and page.edition == include.edition and page.type contains "Vortrag" %}
+    <li>
+      {% include talk_link.html url=page.url title=page.title speaker=page.speaker edition=page.edition language=page.language %}
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+</div>

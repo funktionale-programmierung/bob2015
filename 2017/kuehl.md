@@ -1,8 +1,10 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: The Hidden Nature of Data 
 speaker: Martin Kühl
+topic: software_architecture, functional_programming
 portrait: martin-kuehl.jpg
 time: 17:10-17:55
 type: Vortrag

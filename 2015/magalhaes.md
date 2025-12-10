@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Advanced functional programming in industry
+topic: haskell, functional_programming
 speaker: José Pedro Magalhães
 time: 11:30-12:15
 portrait: magalhaes.jpg

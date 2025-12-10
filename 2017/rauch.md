@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: React.js and Redux
+topic: web, ui
 speaker: Nicole Rauch
 portrait: nicole-rauch.jpg
 time: 14:15-15:45

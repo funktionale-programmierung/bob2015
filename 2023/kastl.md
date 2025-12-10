@@ -1,4 +1,5 @@
 ---
+edition: 2023
 layout: talk
 active: bob2023
 title: Digitalisierung unter pandemischen Bedingungen – Learnings aus mehr als zwei Jahren Digitalprojekte im Öffentlichen Gesundheitswesen

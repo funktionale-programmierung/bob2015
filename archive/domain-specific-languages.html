@@ -1,0 +1,29 @@
+---
+title: BOB Archive – Domain-specific languages
+layout: default
+active: archive
+head: 2025
+language: en
+---
+
+<div class="container content">
+  <h1>Archive – Domain-specific languages</h1>
+  <p>This archive holds all talks from previous Bob conferences about DSL design and implementation.</p>
+
+  <hr />
+
+  <ul style="display: flex; flex-direction: column; gap: 1ex; padding: 0;">
+    {% assign pages = site.pages | sort: "head" | reverse %}
+    {% for page in pages %}
+    {% if page.topic contains "dsl" and page.type contains "Vortrag" %}
+
+    <li>
+      <a href="{{ page.url }}">{{ page.title }}<br /><i>{{ page.speaker }}</i></a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+  <hr />
+
+</div>

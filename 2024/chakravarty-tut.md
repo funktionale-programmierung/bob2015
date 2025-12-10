@@ -1,4 +1,5 @@
 ---
+edition: 2024
 layout: talk
 active: bob2024
 title: "SwiftUI: Declarative GUIs for Mobile and Desktop Applications"

@@ -1,6 +1,8 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
+topic: scala, functional_programming, web
 title: Programming REST APIs in Scala with Akka HTTP
 speaker: Johannes Rudolph
 portrait: johannes-rudolph.jpg

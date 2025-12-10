@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Wie speichert man terabyteweise Dokumente - oder der Ceph Object Store
+topic: distributed_systems
 speaker: Lukas Pustina, Daniel Schneller
 time: 15:00-15:45
 portrait: pustina.jpg

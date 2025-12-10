@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: "Tausend auf einen Streich: Einführung in QuickCheck"
+topic: testing, haskell, functional_programming, dsl
 speaker: Lars Hupel
 portrait: lars-hupel.jpg
 time: 14:15-15:45

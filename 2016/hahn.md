@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Applications of Datatype Generic Programming in Haskell
+topic: haskell, functional_programming
 speaker: Sönke Hahn
 portrait: soenke-hahn.jpg
 time: 11:45-12:30

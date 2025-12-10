@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Mikroservices mit Erlang/OTP
+topic: erlang, software_architecture
 speaker: Christoph Iserlohn
 time: 11:30-12:15
 portrait: iserlohn.jpg

@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Clojure-Web-Applikationen für Beginner
+topic: clojure, functional_programming
 speaker: Michael Vitz
 portrait: michael-vitz.jpg
 time: 12:35-13:20

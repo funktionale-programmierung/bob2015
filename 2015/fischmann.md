@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Introductory Haskell
+topic: haskell, functional_programming
 speaker: Matthias Fischmann, Alexander Ulrich
 portrait: fischmann.jpg
 portrait2: ulrich.jpg

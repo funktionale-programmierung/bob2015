@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Mehr Konsistenz für replizierte Daten!
+topic: distributed_systems
 speaker: Anette Bieniusa
 portrait: annette-bieniusa.jpg
 time: 11:45-13:15

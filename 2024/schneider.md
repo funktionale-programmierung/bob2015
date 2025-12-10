@@ -1,4 +1,5 @@
 ---
+edition: 2024
 layout: talk
 active: bob2024
 title: "Hyper Hyper! Javascript fatigue und die Hypermedia Renaissance (?)"

@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Clojure Redeployed
+topic: functional_programming, clojure
 speaker: Jan Stępień
 time: 17:00-17:45
 portrait: stepien.jpg

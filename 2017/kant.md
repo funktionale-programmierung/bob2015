@@ -1,6 +1,8 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
+topic: types, haskell, functional_programming, performance
 title: "Performance and Safety: an Example of using Liquid Haskell in the Real World"
 speaker: Philipp Kant
 portrait: philipp-kant.jpg

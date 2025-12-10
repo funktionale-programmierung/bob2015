@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Introduction to Erlang
+topic: erlang, functional_programming
 speaker: Martin Rehfeld
 portrait: rehfeld.jpg
 time: 10:00-11:30

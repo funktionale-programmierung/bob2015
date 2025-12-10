@@ -1,4 +1,5 @@
 ---
+edition: 2021
 layout: talk
 active: bob2021
 title: Funktionale Domänen-Modellierung in der Praxis

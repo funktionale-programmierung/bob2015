@@ -1,4 +1,5 @@
 ---
+edition: 2018
 layout: talk
 active: bob2018
 title: "New Hasql - a native Haskell Postgres driver faster than C"

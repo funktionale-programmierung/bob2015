@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Functional package management with GNU Guix for developers and power users
+topic: software_deployment, functional_programming
 speaker: Ricardo Wurmus
 portrait: ricardo-wurmus.jpg
 time: 15:05-15:50

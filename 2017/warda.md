@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Graph databases - why and how
+topic: databases, dsl
 speaker: Szymon Warda
 portrait: szymon-warda.jpg
 time: 16:20-16:50

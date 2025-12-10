@@ -1,4 +1,5 @@
 ---
+edition: 2021
 layout: talk
 active: bob2021
 title: Haskell Bytes – A guided tour through the heap of a Haskell program

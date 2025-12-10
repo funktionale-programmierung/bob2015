@@ -1,4 +1,5 @@
 ---
+edition: 2021
 layout: talk
 active: bob2021
 title: "Combining clojure.spec with design recipes"

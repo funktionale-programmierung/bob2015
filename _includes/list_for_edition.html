@@ -1,0 +1,9 @@
+<ul style="display: flex; flex-direction: column; gap: 1ex; padding: 0;">
+  {% for page in site.pages %}
+  {% if page.language == include.language and page.edition == include.edition and page.type contains "Vortrag" %}
+  <li>
+    {% include talk_link.html url=page.url title=page.title speaker=page.speaker edition=page.edition language=page.language %}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>

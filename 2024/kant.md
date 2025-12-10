@@ -6,6 +6,7 @@ speaker: Philipp Kant
 portrait: philipp-kant.png
 time: 17:10–17:55
 type: Vortrag
+edition: 2024
 language: english
 head: 2024
 slides-file: kant.pdf

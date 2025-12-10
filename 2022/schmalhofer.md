@@ -1,4 +1,5 @@
 ---
+edition: 2022
 layout: talk
 active: bob2022
 title: Vom Probabilistic Computing zum Quantum Computing und zurück

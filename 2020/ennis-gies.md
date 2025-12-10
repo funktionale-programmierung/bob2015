@@ -1,4 +1,5 @@
 ---
+edition: 2020
 layout: talk
 active: bob2020
 title: Criminally fast Rust and Breaking Safety for Fun and Profit

@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Verdict - Reified refinement
+topic: haskell, dsl, types
 speaker: Julian Arni
 portrait: julian-arni.jpg
 time: 12:35-13:20

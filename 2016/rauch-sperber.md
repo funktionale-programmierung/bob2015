@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Design on Steroids
+topic: software_architecture, ddd
 speaker: Nicole Rauch, Michael Sperber
 portrait: nicole-rauch.jpg
 portrait2: michael-sperber.jpg

@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Funktionale Programmierung mit Swift
+topic: swift, functional_programming
 speaker: Stefan Wehr
 portrait: stefan-wehr.jpg
 time: 10:05-11:35

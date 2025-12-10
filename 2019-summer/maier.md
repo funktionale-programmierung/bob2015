@@ -1,4 +1,5 @@
 ---
+edition: "2019 Summer"
 layout: talk
 active: bob2019-summer
 title: From idea to working product in 7 days

@@ -1,8 +1,10 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Mit Monaden die Zukunft im Blick
 speaker: Joachim Breitner
+topic: haskell, functional_programming, dsl
 portrait: joachim-breitner.jpg
 time: 14:15-15:00
 type: Vortrag

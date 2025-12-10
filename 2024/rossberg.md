@@ -1,4 +1,5 @@
 ---
+edition: 2024
 title: Who’s Afraid of the Turnstile?
 layout: talk
 active: bob2024

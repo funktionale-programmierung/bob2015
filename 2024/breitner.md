@@ -1,6 +1,7 @@
 ---
 layout: talk
 active: bob2024
+edition: 2024
 title: Lean for the Functional Programmer
 speaker: Joachim Breitner, David Thrane Christiansen
 portrait: joachim-breitner.jpg

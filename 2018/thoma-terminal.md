@@ -1,4 +1,5 @@
 ---
+edition: 2018
 layout: talk
 active: bob2018
 title: "Terminal GUIs with Haskell: <tt>vty</tt> and <tt>brick</tt>"

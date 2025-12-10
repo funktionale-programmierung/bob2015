@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Testing business logic using DSLs in Clojure 
+topic: testing, dsl, clojure, functional_programming
 speaker: Mayank Jain
 portrait: mayank-jain.jpg
 time: 16:20-17:05

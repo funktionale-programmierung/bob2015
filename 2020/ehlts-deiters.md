@@ -1,4 +1,5 @@
 ---
+edition: 2020
 layout: talk
 active: bob2020
 title: Integration und Migration von unternehmenskritischen Legacy-Anwendungen

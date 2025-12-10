@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Microservices und die Jagd nach mehr Konversion - Fluch oder Segen für den Entwickler
+topic: software_architecture
 speaker: Bernd Zuther
 time: 10:15-11:00
 portrait: zuther.jpg

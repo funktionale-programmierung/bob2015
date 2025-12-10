@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Functional Reactive Programming
+topic: dsl, functional_programming, haskell
 speaker: Heinrich Apfelmus
 portrait: heinrich-apfelmus.png
 time: 16:20-17:05

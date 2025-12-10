@@ -1,4 +1,5 @@
 ---
+edition: 2021
 layout: talk
 active: bob2021
 title: "Sylvester: computer-based math via F# meta-programming"

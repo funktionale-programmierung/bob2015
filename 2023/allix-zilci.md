@@ -1,4 +1,5 @@
 ---
+edition: 2023
 layout: talk
 active: bob2023
 title:  "Building highly available systems with Elixir: an introduction"

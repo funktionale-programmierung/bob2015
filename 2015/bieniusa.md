@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Scalable consistency for replicated data
+topic: distributed_systems
 speaker: Annette Bieniusa
 portrait: bieniusa.jpg
 time: 16:15-17:45

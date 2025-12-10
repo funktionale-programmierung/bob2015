@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Clojures Implementation von STM
+topic: programming_languages
 speaker: Stefan Kamphausen
 time: 16:15-17:00
 portrait: kamphausen.jpg

@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: "Immutable Hash Maps: Plenty of room at the bottom"
+topic: performance, functional_programming
 speaker: Peter Schuck, Cliff Rodgers
 portrait: peter-schuck.jpg
 portrait2: cliff-rodgers.jpg

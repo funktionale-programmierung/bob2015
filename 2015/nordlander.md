@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Clutching a grip on AUTOSAR using Haskell
+topic: haskell, functional_programming
 speaker: Johan Nordlander
 time: 16:15-17:00
 portrait: nordlander.jpg

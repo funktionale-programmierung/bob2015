@@ -1,4 +1,5 @@
 ---
+edition: 2025
 layout: talk
 active: bob2025
 title: "Beyond the Basics of LSP: Advanced IDE services for OCaml"

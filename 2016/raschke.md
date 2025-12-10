@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Erlang overview
+topic: erlang, functional_programming
 speaker: Robby Raschke
 portrait: robby-raschke.jpg
 time: 10:15-11:45

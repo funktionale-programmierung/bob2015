@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Break the Monolith - Service Extraction at SoundCloud
+topic: software-architecture
 speaker: Jan Kischkel
 time: 17:00-17:45
 portrait: kischkel.jpg

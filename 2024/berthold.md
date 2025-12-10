@@ -1,4 +1,5 @@
 ---
+edition: 2024
 layout: talk
 active: bob2024
 title: "The K Framework: A tool kit for language semantics and verification"

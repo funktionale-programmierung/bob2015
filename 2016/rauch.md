@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Specification by Example
+topic: process
 speaker: Nicole Rauch
 portrait: nicole-rauch.jpg
 time: 14:15-15:45

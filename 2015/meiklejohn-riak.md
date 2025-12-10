@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Introduction to Riak
+topic: distributed_systems
 speaker: Christopher Meiklejohn
 portrait: meiklejohn.jpg
 time: 14:00-15:30

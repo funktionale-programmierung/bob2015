@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Und wer testet die Tests? - Mutationstesten mit PIT 
+topic: testing
 speaker: Johannes Dienst
 portrait: johannes-dienst.jpg
 time: 10:15-11:00

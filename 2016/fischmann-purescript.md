@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Introduction to web programming in PureScript
+topic: web, haskell, functional_programming
 speaker: Matthias Fischmann
 portrait: matthias-fischmann.png
 time: 16:20-17:50

@@ -2,6 +2,8 @@
 layout: talk
 active: bob2019
 title: Inspection Testing
+topic: haskell
+edition: 2019
 speaker: Joachim Breitner
 portrait: joachim-breitner.jpg
 time: 11:45-12:30

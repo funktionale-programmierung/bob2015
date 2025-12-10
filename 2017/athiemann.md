@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: "The Future of Front-end Development: A comparison"
+topic: web, ui, functional_programming, haskell
 speaker: Alexander Thiemann
 portrait: alexander-thiemann.jpg
 time: 10:15-11:00

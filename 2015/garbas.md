@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Package management rethought - Nix
+topic: software_deployment, functional_programming
 speaker: Rok Garbas
 time: 14:00-14:45
 portrait: garbas.jpg

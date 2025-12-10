@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Functional Programming in Swift
+topic: functional_programming, swift
 speaker: Wouter Swierstra
 portrait: swierstra.jpg
 time: 10:15-11:00

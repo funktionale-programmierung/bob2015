@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Der Widerspenstigen Zähmung - Funktionale Programmierung in einer kleinen Firma
+topic: functional_programming, haskell
 speaker: Raichoo Ketchum
 portrait: raichoo-ketchum.jpg
 time: 16:20-17:05

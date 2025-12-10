@@ -1,7 +1,9 @@
 ---
+edition: 2016
 layout: talk
 active: bob2016
 title: Verifikation mit Isabelle
+topic: formal_methods
 speaker: Joachim Breitner
 portrait: joachim-breitner.jpg
 time: 11:45-13:15

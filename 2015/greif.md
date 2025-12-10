@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: "Eins nach dem anderen: Konfiguration mit modellbasierten Abhängigkeiten"
+topic: dsl
 speaker: Gabor Greif
 time: 12:15-13:00
 portrait: greif.jpg

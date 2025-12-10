@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: Programming Workflows with Grammars
+topic: functional_programming, dsl
 speaker: Arie Middelkoop
 time: 12:15-13:00
 type: Vortrag

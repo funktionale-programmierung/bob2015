@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: The purely functional fab
+topic: functional_programming
 speaker: Michael Sperber
 time: 14:45-15:00
 portrait: sperber.jpg

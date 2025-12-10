@@ -1,4 +1,5 @@
 ---
+edition: "2019 Summer"
 layout: talk
 active: bob2019-summer
 title: Cleaning the big picture

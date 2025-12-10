@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Einführung in Agda
+topic: formal_methods, functional_programming
 speaker: Peter Thiemann
 portrait: peter-thiemann.jpg
 time: 16:20-17:50

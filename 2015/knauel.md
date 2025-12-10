@@ -1,7 +1,9 @@
 ---
+edition: 2015
 layout: talk
 active: bob2015
 title: A Database Application Without NoSQL And SQL - An Experience Report
+topic: dsl
 speaker: Eric Knauel
 time: 14:00-14:45
 portrait: knauel.jpg

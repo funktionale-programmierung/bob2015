@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Write one program, get two (or three, or many) 
+topic: haskell, functional_programming
 speaker: Andres Löh
 portrait: andres-loeh.jpg
 time: 15:05-15:50

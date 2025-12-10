@@ -1,4 +1,5 @@
 ---
+edition: 2025
 layout: talk
 active: bob2025
 title: "Between Monolith and Microfrontends - Advantages of a modulithic architecture and how an incremental refactoring can succeed"

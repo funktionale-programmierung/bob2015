@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: An introduction to Servant
+topic: web, functional_programming, haskell
 speaker: Andres Löh
 portrait: andres-loeh.jpg
 time: 16:20-17:50

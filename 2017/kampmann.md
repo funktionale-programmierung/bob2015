@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: Privacy-first data structures on SAFE 
+topic: distributed_systems, functional_programming
 speaker: Benjamin Kampmann
 portrait: benjamin-kampmann.jpg
 time: 17:10-17:55

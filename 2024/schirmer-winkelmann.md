@@ -1,4 +1,5 @@
 ---
+edition: 2024
 layout: talk
 active: bob2024
 title: "Kontrollsoftware für eine Jupitermission der ESA: Ein Erfahrungsbericht"

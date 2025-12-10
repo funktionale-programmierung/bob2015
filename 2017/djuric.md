@@ -1,7 +1,9 @@
 ---
+edition: 2017
 layout: talk
 active: bob2017
 title: "Bayadera: Bayes + Clojure + GPU"
+topic: Clojure, dsl
 speaker: Dragan Djuric
 portrait: dragan-djuric.jpg
 time: 14:15-15:00

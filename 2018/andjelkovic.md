@@ -1,4 +1,5 @@
 ---
+edition: 2018
 layout: talk
 active: bob2018
 title: "Testing monadic programs using QuickCheck and state machine based models"

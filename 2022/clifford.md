@@ -1,4 +1,5 @@
 ---
+edition: 2022
 layout: talk
 active: bob2022
 title: "Python Gradual Typing: The Good, The Bad and the Ugly"
