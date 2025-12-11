@@ -7,9 +7,12 @@ language: en
 ---
 
 
-<div class="container content">
-  <h1>Bob Conference Archive</h1>
-  <p>This archive holds all previous talks from Bob 2015 to Bob 2025.</p>
+<div class="container content" style="padding-bottom: 6ex;">
+  <h1 style="font-weight: bold; margin-bottom: 1ex;">Bob Conference Archive</h1>
+  <p>
+    This archive holds all previous talks from Bob 2015 to Bob
+    2025. There are more than 150 talks from over 10 years.
+  </p>
 
   <hr />
 
@@ -71,9 +74,62 @@ language: en
 
   <hr />
 
-  <h2>In the spotlight</h2>
+  <h2 style="margin-bottom: 1ex;">In the spotlight</h2>
 
-  <hr />
+  <p style="margin-bottom: 4ex;">
+    Bob likes to host talks with enduring relevance. Here we regularly
+    feature talks from past Bob Conf installments, which we deem
+    especially relevant today.
+  </p>
 
-  <h2>New to Bob?</h2>
+  <div class="row">
+    <div class="col-md-3">
+      {% include spotlight.html
+      url="/2019-summer/elliott"
+      img="a-functional-reboot-for-deep-learning.png"
+      title="A Functional Reboot for Deep Learning"
+      speaker="Conal Elliott"
+      edition="2019-summer"
+      language="english"
+      length="49:42"
+      %}
+    </div>
+
+    <div class="col-md-3">
+      {% include spotlight.html
+      url="/2019-summer/leroy"
+      img="in-search-of-software-perfection.png"
+      title="In Search of Software Perfection"
+      speaker="Xavier Leroy"
+      edition="2019-summer"
+      length="48:06"
+      language="english" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include spotlight.html
+      url="/2025/siebenhandl.html"
+      img="a-language-server-for-your-dsl.png"
+      title="A Language Server for your DSL for Fun and Profit"
+      speaker="Hannes Siebenhandl"
+      edition=2025
+      length="41:32"
+      language="english" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include spotlight.html
+      url="/2024/ostera.html"
+      img="erlang-ocaml-same-thing.png"
+      title="Erlang, OCaml, same thing"
+      speaker="Leandro Ostera"
+      edition=2024
+      length="46:21"
+      language="english" %}
+    </div>
+  </div>
+
+  <!-- <hr /> -->
+
+  <!-- <h2>New to Bob?</h2> -->
 </div>
