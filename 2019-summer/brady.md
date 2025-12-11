@@ -1,5 +1,5 @@
 ---
-edition: "2019 Summer"
+edition: "2019-summer"
 layout: talk
 active: bob2019-summer
 title: "Programming as a Conversation: Type-driven Development in Action"
