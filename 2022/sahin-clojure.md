@@ -1,4 +1,5 @@
 ---
+topic: clojure, metaprogramming
 edition: 2022
 layout: talk
 active: bob2022

@@ -1,4 +1,5 @@
 ---
+topic: prototyping, software_architecture
 edition: "2019-summer"
 layout: talk
 active: bob2019-summer

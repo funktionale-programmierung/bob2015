@@ -1,4 +1,5 @@
 ---
+topic: security
 layout: talk
 active: bob2024
 title: Zero-Knowledge-Proofs for Privacy and Trust

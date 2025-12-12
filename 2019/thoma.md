@@ -1,4 +1,5 @@
 ---
+topic: dsl, functional_programming, haskell
 edition: 2019
 layout: talk
 active: bob2019

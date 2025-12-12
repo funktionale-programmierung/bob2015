@@ -1,4 +1,5 @@
 ---
+topic: software_architecture, case_study
 edition: 2023
 layout: talk
 active: bob2023

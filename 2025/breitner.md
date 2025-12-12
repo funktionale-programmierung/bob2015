@@ -1,4 +1,5 @@
 ---
+topic: lean, formal_methods
 layout: talk
 active: bob2025
 title: "Recursive Definitions in Lean"

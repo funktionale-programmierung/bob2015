@@ -1,4 +1,5 @@
 ---
+topic: haskell, functional_programming, web
 edition: 2022
 layout: talk
 active: bob2022

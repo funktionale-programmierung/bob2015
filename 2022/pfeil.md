@@ -1,4 +1,5 @@
 ---
+topic: types, software_architecture
 edition: 2022
 layout: talk
 active: bob2022

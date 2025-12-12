@@ -1,4 +1,5 @@
 ---
+topic: software_architecture, distributed_systems
 edition: 2024
 layout: talk
 active: bob2024

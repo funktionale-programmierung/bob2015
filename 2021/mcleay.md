@@ -1,4 +1,5 @@
 ---
+topic: hardware, haskell, low_level, functional_programming, nix
 edition: 2021
 layout: talk
 active: bob2021

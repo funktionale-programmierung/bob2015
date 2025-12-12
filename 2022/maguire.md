@@ -1,4 +1,5 @@
 ---
+topic: types, hardware
 edition: 2022
 layout: talk
 active: bob2022

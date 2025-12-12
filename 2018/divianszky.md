@@ -1,4 +1,5 @@
 ---
+topic: functional_programming, frp, haskell
 edition: 2018
 layout: talk
 active: bob2018

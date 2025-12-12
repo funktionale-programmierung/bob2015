@@ -1,4 +1,5 @@
 ---
+topic: io, functional_programming, scala
 edition: 2018
 layout: talk
 active: bob2018

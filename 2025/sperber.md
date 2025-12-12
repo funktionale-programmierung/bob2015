@@ -1,4 +1,5 @@
 ---
+topic: software_architecture
 layout: talk
 active: bob2025
 title: "Things We Never Told Anyone About Functional Programming"

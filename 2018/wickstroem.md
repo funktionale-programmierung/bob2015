@@ -1,4 +1,5 @@
 ---
+topic: formal_methods, types, haskell, functional_programming, compilers
 edition: 2018
 layout: talk
 active: bob2018

@@ -1,4 +1,5 @@
 ---
+topic: music, art, types
 edition: 2019
 layout: talk
 active: bob2019

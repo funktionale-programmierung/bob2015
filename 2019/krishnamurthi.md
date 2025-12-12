@@ -1,4 +1,5 @@
 ---
+topic: formal_methods, logic_programming
 edition: 2019
 layout: talk
 active: bob2019

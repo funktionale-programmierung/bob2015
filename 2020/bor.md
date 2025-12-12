@@ -1,4 +1,5 @@
 ---
+topic: haskell, introduction, functional_programming
 edition: 2020
 layout: talk
 active: bob2020

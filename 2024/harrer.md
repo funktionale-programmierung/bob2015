@@ -1,4 +1,5 @@
 ---
+topic: data_science
 edition: 2024
 layout: talk
 active: bob2024

@@ -1,4 +1,5 @@
 ---
+topic: haskell, compilers, functional_programming, low_level, performance
 edition: 2021
 layout: talk
 active: bob2021

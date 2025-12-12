@@ -1,4 +1,5 @@
 ---
+topic: rust, formal_methods, low_level, systems_programming
 edition: 2022
 layout: talk
 active: bob2022

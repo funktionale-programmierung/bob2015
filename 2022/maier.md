@@ -1,4 +1,5 @@
 ---
+topic: software_deployment, nix
 edition: 2022
 layout: talk
 active: bob2022

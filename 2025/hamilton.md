@@ -1,4 +1,5 @@
 ---
+topic: haskell, frp
 edition: 2025
 layout: talk
 active: bob2025

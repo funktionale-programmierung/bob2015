@@ -1,4 +1,5 @@
 ---
+topic: compilers, programming_languages
 edition: 2019
 layout: talk
 active: bob2019

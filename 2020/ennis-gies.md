@@ -1,4 +1,5 @@
 ---
+topic: performance, rust
 edition: 2020
 layout: talk
 active: bob2020

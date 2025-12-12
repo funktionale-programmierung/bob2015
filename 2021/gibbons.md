@@ -1,4 +1,5 @@
 ---
+topic: software_architecture, functional_programming, haskell
 edition: 2021
 layout: talk
 active: bob2021

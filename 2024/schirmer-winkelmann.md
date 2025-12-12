@@ -1,4 +1,5 @@
 ---
+topic: case_study, scheme
 edition: 2024
 layout: talk
 active: bob2024

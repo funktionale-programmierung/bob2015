@@ -1,4 +1,5 @@
 ---
+topic: software_architecture, haskell, functional_programming
 edition: 2023
 layout: talk
 active: bob2023

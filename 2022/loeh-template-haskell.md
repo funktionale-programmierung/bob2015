@@ -1,4 +1,5 @@
 ---
+topic: metaprogramming, haskell, functional_programming
 edition: 2022
 layout: talk
 active: bob2022

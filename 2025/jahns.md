@@ -1,4 +1,5 @@
 ---
+topic: local_first, web
 edition: 2025
 layout: talk
 active: bob2025

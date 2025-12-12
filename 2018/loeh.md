@@ -1,4 +1,5 @@
 ---
+topic: haskell, types, functional_programming
 edition: 2018
 layout: talk
 active: bob2018

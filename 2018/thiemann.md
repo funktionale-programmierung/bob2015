@@ -1,4 +1,5 @@
 ---
+topic: agda, formal_methods, functional_programming, types
 edition: 2018
 layout: talk
 active: bob2018

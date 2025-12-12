@@ -1,4 +1,5 @@
 ---
+topic: haskell, functional_programming, software_architecture, case_study
 edition: 2020
 layout: talk
 active: bob2020

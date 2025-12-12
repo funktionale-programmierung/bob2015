@@ -1,4 +1,5 @@
 ---
+topic: local_first, distributed_systems
 edition: 2025
 title: "Keynote: Local-first Software"
 layout: talk

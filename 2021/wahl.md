@@ -1,4 +1,5 @@
 ---
+topic: performance, low_level, programming_languages
 edition: 2021
 layout: talk
 active: bob2021

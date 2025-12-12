@@ -1,4 +1,5 @@
 ---
+topic: formal_methods, programming_languages
 edition: 2024
 title: Who’s Afraid of the Turnstile?
 layout: talk

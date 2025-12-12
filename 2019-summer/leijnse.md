@@ -1,4 +1,5 @@
 ---
+topic: functional_programming, distributed_systems, haskell
 edition: "2019-summer"
 layout: talk
 active: bob2019-summer

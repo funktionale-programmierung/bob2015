@@ -1,4 +1,5 @@
 ---
+topic: idris, formal_methods, introduction
 edition: 2020
 layout: talk
 active: bob2020

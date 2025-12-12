@@ -1,29 +1,19 @@
 ---
-title: BOB Archive – Software Architecture
+title: BOB Archive – Software architecture
+about_topic: haskell
 layout: default
 active: archive
 head: 2025
 language: en
 ---
 
-<div class="container content">
-  <h1>Bob Conference Archive – Software Architecture</h1>
-  <p>This archive holds all talks from previous Bob conferences about software architecture.</p>
+<div class="container content" style="padding-bottom: 10ex;">
+  <h1>Bob Conference Archive – Software architecture</h1>
+  <p>This archive holds all talks from previous Bob conferences about
+  software architecture, software design and related topics.</p>
 
   <hr />
 
-  <ul style="display: flex; flex-direction: column; gap: 1ex; padding: 0;">
-    {% assign pages = site.pages | sort: "head" | reverse %}
-    {% for page in pages %}
-    {% if page.topic contains "software_architecture" and page.type contains "Vortrag" %}
-
-    <li>
-      {% include talk_link.html title=page.title speaker=page.speaker year=page.head language=page.language %}
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-
-  <hr />
+  {% include archive_by_topic.html topic="software_architecture" %}
 
 </div>

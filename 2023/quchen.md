@@ -1,4 +1,5 @@
 ---
+topic: hardware, functional_programming
 edition: 2023
 layout: talk
 active: bob2023

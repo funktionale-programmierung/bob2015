@@ -1,4 +1,5 @@
 ---
+topic: types, idris, formal_methods
 edition: "2019-summer"
 layout: talk
 active: bob2019-summer

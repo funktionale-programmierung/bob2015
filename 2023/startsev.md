@@ -1,4 +1,5 @@
 ---
+topic: software_architecture, web, javascript
 edition: 2023
 layout: talk
 active: bob2023

@@ -1,4 +1,5 @@
 ---
+topic: functional_programming, performance
 edition: 2018
 layout: talk
 active: bob2018

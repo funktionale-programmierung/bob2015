@@ -3,7 +3,7 @@ edition: 2016
 layout: talk
 active: bob2016
 title: How to Make Front-End More Functional
-topic: web, functional_programming, ui
+topic: web, functional_programming, ui, clojure
 speaker: Julia Gao
 portrait: julia-gao.jpg
 time: 10:15-11:00

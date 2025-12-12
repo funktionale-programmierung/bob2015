@@ -1,4 +1,5 @@
 ---
+topic: data_science, clojure
 edition: 2025
 layout: talk
 active: bob2025

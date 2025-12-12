@@ -1,4 +1,5 @@
 ---
+topic: web, haskell, functional_programming, types
 edition: 2021
 layout: talk
 active: bob2021

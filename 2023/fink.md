@@ -1,4 +1,5 @@
 ---
+topic: kotlin, functional_programming, introduction
 edition: 2023
 layout: talk
 active: bob2023

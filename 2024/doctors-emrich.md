@@ -1,4 +1,5 @@
 ---
+topic: process, software_architecture
 edition: 2024
 layout: talk
 active: bob2024

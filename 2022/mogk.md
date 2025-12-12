@@ -1,4 +1,5 @@
 ---
+topic: local_first, distributed_systems, scala
 edition: 2022
 layout: talk
 active: bob2022

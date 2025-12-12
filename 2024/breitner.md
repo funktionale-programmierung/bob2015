@@ -1,4 +1,5 @@
 ---
+topic: lean, formal_methods, functional_programming
 layout: talk
 active: bob2024
 edition: 2024

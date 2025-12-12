@@ -1,4 +1,5 @@
 ---
+topic: types, functional_programming, formal_methods
 edition: 2021
 layout: talk
 active: bob2021

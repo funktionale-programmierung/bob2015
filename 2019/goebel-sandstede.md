@@ -1,4 +1,5 @@
 ---
+topic: functional_programming, web, software_architecture, clojure, rust
 edition: 2019
 layout: talk
 active: bob2019

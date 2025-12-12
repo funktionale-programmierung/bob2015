@@ -1,4 +1,5 @@
 ---
+topic: version_control_systems, distributed_systems
 edition: 2023
 layout: talk
 active: bob2023

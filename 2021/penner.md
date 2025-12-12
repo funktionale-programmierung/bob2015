@@ -1,4 +1,5 @@
 ---
+topic: types, Haskell, functional_programming
 layout: talk
 active: bob2021
 title: Higher-Kinded Data Types By Example

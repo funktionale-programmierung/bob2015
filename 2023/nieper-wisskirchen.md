@@ -1,4 +1,5 @@
 ---
+topic: metaprogramming, scheme, dsl
 edition: 2023
 layout: talk
 active: bob2023

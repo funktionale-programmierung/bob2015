@@ -1,4 +1,5 @@
 ---
+topic: types, haskell, functional_programming, compilers
 layout: talk
 active: bob2019
 title: Inspection Testing

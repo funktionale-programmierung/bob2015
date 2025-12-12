@@ -1,4 +1,5 @@
 ---
+topic: performance, hardware, functional_programming, erlang, distributed_systems
 edition: 2018
 layout: talk
 active: bob2018

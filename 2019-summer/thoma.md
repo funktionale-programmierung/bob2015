@@ -1,4 +1,5 @@
 ---
+topic: software_architecture, functional_programming, haskell
 edition: "2019-summer"
 layout: talk
 active: bob2019-summer
