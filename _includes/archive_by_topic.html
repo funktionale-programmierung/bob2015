@@ -1,25 +1,36 @@
+{% assign pages = site.pages
+| where: "language", "english"
+| where_exp: "item", "item.topic contains include.topic"
+| where: "type", "Vortrag" %}
+{% if pages.size > 0 %}
 <h2>English</h2>
 <ul style="display: flex; flex-direction: column; gap: 1ex; padding: 0;">
-  {% for page in site.pages %}
-  {% if page.language == "english" and page.topic contains include.topic and page.type contains "Vortrag" %}
+  {% for page in pages %}
   <li>
     {% include talk_link.html url=page.url title=page.title speaker=page.speaker edition=page.edition language=page.language %}
   </li>
-  {% endif %}
   {% endfor %}
 </ul>
+{% else %}
+No English talks for this topic
+{% endif %}
 
 <hr />
 
+{% assign pages = site.pages
+| where: "language", "german"
+| where_exp: "item", "item.topic contains include.topic"
+| where: "type", "Vortrag" %}
+{% if pages.size > 0 %}
 <h2>German</h2>
 <ul style="display: flex; flex-direction: column; gap: 1ex; padding: 0;">
-  {% for page in site.pages %}
-  {% if page.language == "german" and page.topic contains include.topic and page.type contains "Vortrag" %}
+  {% for page in pages %}
   <li>
     {% include talk_link.html url=page.url title=page.title speaker=page.speaker edition=page.edition language=page.language %}
   </li>
-  {% endif %}
   {% endfor %}
 </ul>
-
+{% else %}
+No German talks for this topic
+{% endif %}
 
