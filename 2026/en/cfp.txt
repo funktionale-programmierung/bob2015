@@ -10,7 +10,7 @@ Subject: Call for Participation: BOB 2026 (Berlin, Mar 13)
 	    Program: https://bobkonf.de/2026/program.html
 	  Registration: https://bobkonf.de/2026/registration.html
 =========================================================================
-				   
+
 BOB conference is a place for developers, architects, and
 decision-makers to explore technologies beyond the mainstream in
 software development and to find the best tools available to software
@@ -29,10 +29,10 @@ domain-driven design.
 BOB tutorial include sessions on TypeScript, OCaml, Haskell, Agda,
 accessibility, and reactive systems.
 
-Stefan Kaufmann will give the keynote talk.
+Stefan Kaufmann will give the keynote talk on digital sovereignty.
 
-Registration is open - many discount options are available, as are
-grants for members of groups underrepresented in tech.  Early-bird
-discounts apply until Jan 16.
+Registration is open - many discount options - including limited
+early-bird discounts - are available, as are grants for members of
+groups underrepresented in tech.
 
 https://bobkonf.de/2026/registration.html
