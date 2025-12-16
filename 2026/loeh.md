@@ -10,6 +10,25 @@ head: 2026
 portrait: loeh.webp
 ---
 
+This is going to be an introductory tutorial to the Haskell language,
+assuming some general programming knowledge, but no particular
+knowledge about Haskell.
+
+Haskell is a large language, and one cannot really learn it in a 90
+minutes tutorial. However, we'll try to build a small example web
+backend application (either a web client or a web server, I haven't
+decided yet), and we'll see the most important Haskell features along
+the way:
+
+- easy-to-define domain-specific datatypes,
+- functions defined by means of pattern matching and/or by applying higher-order functions,
+- explicit (side) effects, visible in the types of functions,
+- the power of polymorphic types,
+- ... and a little bit of lazy evaluation.
+
+Along the way, we'll also use a few common libraries, such as e.g. for
+http or JSON encoding / decoding.
+
 ### Andres Löh
 [https://functional.cafe/@kosmikus / kosmikus.bsky.social / kosmikus](https://functional.cafe/@kosmikus / kosmikus.bsky.social / kosmikus)
 
