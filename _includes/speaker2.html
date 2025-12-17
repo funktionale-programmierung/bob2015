@@ -1,6 +1,6 @@
 <div style="display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             gap: 2ex;">
   <div style="width: 150px; height: 150px; position: relative;">
     <img style="width: 100px;
@@ -22,7 +22,11 @@
                 box-shadow: 0 4px 16px rgba(0,0,0,0.3);"
          src="{{ include.portrait2 }}" />
   </div>
-  <b>{{ include.speaker1 }} & {{ include.speaker2 }}</b>
+  <b>
+    <a href="{{ include.url }}" style="color: inherit;">
+      {{ include.speaker1 }} & {{ include.speaker2 }}
+    </a>
+  </b>
   <h5 style="font-size: 1.2em; line-height: 1.3em; font-weight: normal;">
     <a href="{{ include.url }}" style="color: inherit;">
       {{ include.title }}
