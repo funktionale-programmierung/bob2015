@@ -9,27 +9,33 @@ language: en
 {% include head-2026.html %}
 
 <div class="container content">
-  <h1 align="center">The software development conference for everyone dissatisfied with the status quo.</h1>
-    <div class="row">
+  <h1 style="font-weight: bold;">The software development conference for everyone dissatisfied with the status quo.</h1>
+  <p>
+    BOB is the forum for software developers, software architects and
+    builders to explore and discover the best tools available today for
+    building software. Our goal is for all participants to leave the
+    conference with new ideas to improve development back at the ranch.
+  </p>
+    <div class="row" style="margin-top: 4em;">
       <div class="col-md-3 col-sm-12 front-page-col pr-lg-5">
 	<h3> Program </h3>
 	<p>Our <a href="program.html">program</a> features two talk
 	tracks and two tutorials tracks.
 	  
 	     <p><a href="https://stefan.bloggt.es/">Stefan Kaufmann</a> will be our keynote speaker!</p>
-        <a class="btn btn-success btn-block d-md-none mb-5" href="program.html"> Program </a>
+        <a class="btn btn-block d-md-none mb-5" href="program.html"> Program </a>
       </div>
 
       <div class="col-md-3 col-sm-12 front-page-col pr-lg-5" >
         <h3> Location </h3>
         <p>BOB 2026 will take place at Scandic Hotel Potsdamer Platz in Berlin.</p>
 
-	        <a class="btn btn-success btn-block d-md-none mb-5" href="local.html"> How to find us </a>        
+	        <a class="btn btn-block d-md-none mb-5" href="local.html"> How to find us </a>        
       </div>
       <div class="col-md-3 col-sm-12 front-page-col pr-lg-5" >
         <h3> Call </h3>
 		<p>The <a href="cfc.html">Call for Contributions</a> is closed! Thank you for many wonderful submissions.</p>		   
-        <a class="btn btn-success btn-block d-md-none mb-5" href="cfc.html"> Call </a>
+        <a class="btn btn-block d-md-none mb-5" href="cfc.html"> Call </a>
 	</div>
  
  <div class="col-md-3 col-sm-12 front-page-col pr-lg-5" >
@@ -47,15 +53,15 @@ language: en
       <!-- we show the buttons as a row for alignment for everything bigger sm  -->
       
       <div class="col-md-3 pr-lg-5" >
-     <a class="btn btn-success btn-block" href="program.html"> Program </a> 
+     <a class="btn btn-light btn-block" href="program.html"> Program </a> 
       </div> 
       
       <div class="col-md-3 pr-lg-5" >
-        <a class="btn btn-success btn-block" href="local.html"> How to find us </a>
+        <a class="btn btn-light btn-block" href="local.html"> How to find us </a>
       </div>
 
  <div class="col-md-3 pr-lg-5" >
-        <a class="btn btn-success btn-block" href="cfc.html"> Call </a>
+        <a class="btn btn-light btn-block" href="cfc.html"> Call </a>
       </div>
       
       <div class="col-md-3 pr-lg-5" >
@@ -64,6 +70,155 @@ language: en
 
     </div>
 </div>
+
+
+
+<div class="container content" style="margin-top: 8em;">
+  <h2>Speaker line up 2026</h2>
+  <p>We are proud of the <a href="program.html">program,</a> although we had to reject many other great submissions to create it. As usual, there are four tracks – two talk tracks with a total of 16 talks and two tutorial tracks with a total of 8 tutorials.</p>
+  <div class="row" style="margin-top: 4em;">
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Stefan Kaufmann"
+      title="„Digitale Souveränität“ – Auf der Suche nach der Bedeutung in einem Magischen Konzept"
+      portrait="/2026/portrait/stk.jpg"
+      url="/2026/stk.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Xavier Van de Woestyne"
+      title="A crash course on the OCaml module language"
+      portrait="/2026/portrait/woestyne.webp"
+      url="/2026/woestyne.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Ariadne Engelbrecht"
+      title="Accessibility by Design: Practical A11y for Everyday Software Engineering"
+      portrait="/2026/portrait/engelbrecht.webp"
+      url="/2026/engelbrecht.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Johannes Dienst"
+      title="Architecting Scalable CI Pipelines for Enterprises: Lessons Learned"
+      portrait="/2026/portrait/dienst.webp"
+      url="/2026/dienst.html" %}
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 2em;">
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Franz Thoma"
+      title="Bridging the Gap Between UX Design and Development: Atomic Design & Storybook"
+      portrait="/2026/portrait/thoma.webp"
+      url="/2026/thoma.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker2.html
+      speaker1="Falk Sippach"
+      speaker1="Till Rauch"
+      title="Functional Programming for the Busy Java Developer"
+      portrait1="/2026/portrait/rauch.jpg"
+      portrait2="/2026/portrait/sippach.webp"
+      url="/2026/sippach-rauch.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Lutz Hühnken"
+      title="Four Fascinating Programming Languages You've Probably Never Heard Of"
+      portrait="/2026/portrait/huehnken.webp"
+      url="/2026/huehnken.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Nicolas Osborne"
+      title="Generating tests from formal specification"
+      url="/2026/osborne.html" %}
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 2em;">
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Markus Himmel"
+      title="Proofs for programs, programs for proofs"
+      portrait="/2026/portrait/himmel.webp"
+      url="/2026/himmel.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Fritz Henglein"
+      title="Programming Efficient Joins"
+      portrait="/2026/portrait/henglein.webp"
+      url="/2026/henglein.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Olaf Klinke"
+      title="Refinement types for the digital information age"
+      portrait="/2026/portrait/klinke.webp"
+      url="/2026/klinke.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Manuel Chakravarty"
+      title="SwiftUI is functional"
+      portrait="/2026/portrait/chakravarty.webp"
+      url="/2026/chakravarty.html" %}
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 2em;">
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Hannes Mehnert"
+      title="Run your own digital infrastructure using MirageOS unikernels"
+      url="/2026/mehnert.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Alexander Thiemann"
+      title="Using Domain Driven Design to Refactor Stripe Billing"
+      portrait="/2026/portrait/alex-thiemann.webp"
+      url="/2026/alex-thiemann.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Nicolas Rinaudo"
+      title="Encoding Effects as Capabilities"
+      portrait="/2026/portrait/rinaudo.webp"
+      url="/2026/rinaudo.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Martin Grotzke"
+      title="Reactive Systems im Einsatz für E-Mobility"
+      portrait="/2026/portrait/grotzke.webp"
+      url="/2026/grotzke.html" %}
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: center; margin-top: 4em;">
+    <div>
+      <a class="btn btn-success btn-block" href="program.html">Full program schedule</a>
+    </div>
+  </div>
+</div>
+
 
 <div class="splash">
     <div class="top"></div>
@@ -91,6 +246,9 @@ language: en
 	                      for participants from groups
 	                      under-represented in tech are available.
 	                  </p>
+                  <p>
+                    <a class="btn btn-success btn-block" href="registration.html">Buy a ticket for Bob 2026</a>
+                  </p>
                 </div>
             </div>
         </div>
@@ -102,7 +260,7 @@ language: en
     {% include partner2026.html %}
 </div> -->
 
-<div class="splash">
+<div style="margin-bottom: 6em;">
     <div class="top"></div>
     <div class="content partners">
       <div class="container">

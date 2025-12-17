@@ -6,18 +6,20 @@ head: 2026
 language: de
 ---
 
-
-
-
-
 {% include head-2026.html %}
 
-
 <div class="container content">
- <h1 align="center">Die Software&shy;entwick&shy;lungs&shy;konferenz
+ <h1 style="font-weight: bold;">Die Software&shy;entwick&shy;lungs&shy;konferenz
  für alle, denen der Status Quo nicht&nbsp;reicht.</h1>
+ <p>
+   Softwareentwicklerinnen, Softwarearchitekten und Macherinnen treffen
+   sich, um gemeinsam die besten Werkzeuge aufzuspüren, die es heute für
+   die Entwicklung moderner Software gibt. Alle, die dabei sind, sollen
+   viele neue Erfahrungen und Verbesserungen für das eigene
+   Entwicklungsumfeld mitnehmen.
+ </p>
  
- <div class="row">
+ <div class="row" style="margin-top: 4em;">
    <div class="col-md-3 col-sm-12 front-page-col pr-lg-5">
      <h3> Programm </h3>
 
@@ -26,7 +28,7 @@ language: de
 
      <p><a href="https://stefan.bloggt.es/">Stefan Kaufmann</a> wird die Keynote halten!</p>
 
-     <a class="btn btn-success btn-block d-md-none
+     <a class="btn btn-light btn-block d-md-none
                mb-5" href="program.html"> Programm </a>
    </div>
    <div class="col-md-3 col-sm-12 front-page-col pr-lg-5" >
@@ -35,7 +37,7 @@ language: de
      statt.
      </p>
      
-     <a class="btn btn-success btn-block d-md-none mb-5"
+     <a class="btn btn-light btn-block d-md-none mb-5"
      href="local.html"> Anfahrt </a>
    </div>
    <div class="col-md-3 col-sm-12 front-page-col pr-lg-5">
@@ -45,7 +47,7 @@ language: de
            geschlossen! Vielen Dank für die wunderbaren Einreichungen.</p>
    
 
-     <a class="btn btn-success btn-block d-md-none mb-5"
+     <a class="btn btn-light btn-block d-md-none mb-5"
      href="cfc.html"> Call </a>
    </div>
  <div class="col-md-3 col-sm-12 front-page-col pr-lg-5" >
@@ -67,17 +69,17 @@ language: de
    
    
    <div class="col-md-3 pr-lg-5" >
-     <a class="btn btn-success btn-block" href="programmkomitee">
-        Programmkomitee </a>
+     <a class="btn btn-light btn-block" href="program.html">
+        Programm </a>
    </div>
    
    <div class="col-md-3 pr-lg-5" >
-     <a class="btn btn-success btn-block" href="local.html">
+     <a class="btn btn-light btn-block" href="local.html">
        Zur Anfahrt </a>
    </div>
    
    <div class="col-md-3 pr-lg-5" >
-     <a class="btn btn-success btn-block" href="cfc.html"> Call </a>
+     <a class="btn btn-light btn-block" href="cfc.html"> Call </a>
    </div>
 
     <div class="col-md-3 pr-lg-5" >
@@ -88,42 +90,193 @@ language: de
  </div>
 
 
-
-
-         <div class="splash">
-     <div class="top"></div>
-    <div class="content bulb">
-        <div class="container">
-            <div class="bulb-image" ></div>
-            <h2> Was passiert, wenn wir einfach mal das Beste
-            nehmen? </h2>
-            <div class="row">
-                <div class="col-lg-4 short-text">
-                    Sind Sie an <b><u>Technologien jenseits des
-                    Mainstream</u></b> interessiert? Die zu benutzen
-                    eine Freude ist und die Sie effektiv bei der
-                    Arbeit unterstützen?
-                </div>
-                <div class="col-lg-8 long-text"><p class="p4">
-                   Softwareentwicklerinnen, Softwarearchitekten und
-                   Macherinnen treffen sich, um gemeinsam die besten
-                   Werkzeuge aufzuspüren, die es heute für die
-                   Entwicklung moderner Software gibt. Alle, die dabei
-                   sind, sollen viele neue Erfahrungen und
-                   Verbesserungen für das eigene Entwicklungsumfeld
-                   mitnehmen.</p>
-		  <p class="p4"> Wir sind der Vielfalt verpflichtet:
-                    Wir wollen eine Vielzahl von Werkzeugen in
-                    freundlicher und offener Gesellschaft erforschen.
-                    Eine Reihe von Förderungsmöglichkeiten für
-                    Teilnehmerinnen und Teilnehmer aus sonst
-                    unterrepräsentierten Gruppen stehen zur Verfügung.
-		  </p>
-                </div>
-            </div>
-        </div>
+<div class="container content" style="margin-top: 8em;">
+  <h2>Speaker line up 2026</h2>
+  <p>Wir sind stolz auf das <a href="program.html">Programm,</a> für dessen Entstehung wir
+  allerdings viele tolle weitere Einreichungen ablehnen mußten. Es
+  gibt wie gewohnt vier Tracks – zwei Tracks mit insgesamt 16
+  Vorträgen, zwei Tracks mit insgesamt 8 Tutorials.</p>
+  <div class="row" style="margin-top: 4em;">
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Stefan Kaufmann"
+      title="„Digitale Souveränität“ – Auf der Suche nach der Bedeutung in einem Magischen Konzept"
+      portrait="/2026/portrait/stk.jpg"
+      url="/2026/stk.html" %}
     </div>
-    <div class="bottom"> </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Xavier Van de Woestyne"
+      title="A crash course on the OCaml module language"
+      portrait="/2026/portrait/woestyne.webp"
+      url="/2026/woestyne.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Ariadne Engelbrecht"
+      title="Accessibility by Design: Practical A11y for Everyday Software Engineering"
+      portrait="/2026/portrait/engelbrecht.webp"
+      url="/2026/engelbrecht.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Johannes Dienst"
+      title="Architecting Scalable CI Pipelines for Enterprises: Lessons Learned"
+      portrait="/2026/portrait/dienst.webp"
+      url="/2026/dienst.html" %}
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 2em;">
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Franz Thoma"
+      title="Bridging the Gap Between UX Design and Development: Atomic Design & Storybook"
+      portrait="/2026/portrait/thoma.webp"
+      url="/2026/thoma.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker2.html
+      speaker1="Falk Sippach"
+      speaker1="Till Rauch"
+      title="Functional Programming for the Busy Java Developer"
+      portrait1="/2026/portrait/rauch.jpg"
+      portrait2="/2026/portrait/sippach.webp"
+      url="/2026/sippach-rauch.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Lutz Hühnken"
+      title="Four Fascinating Programming Languages You've Probably Never Heard Of"
+      portrait="/2026/portrait/huehnken.webp"
+      url="/2026/huehnken.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Nicolas Osborne"
+      title="Generating tests from formal specification"
+      url="/2026/osborne.html" %}
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 2em;">
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Markus Himmel"
+      title="Proofs for programs, programs for proofs"
+      portrait="/2026/portrait/himmel.webp"
+      url="/2026/himmel.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Fritz Henglein"
+      title="Programming Efficient Joins"
+      portrait="/2026/portrait/henglein.webp"
+      url="/2026/henglein.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Olaf Klinke"
+      title="Refinement types for the digital information age"
+      portrait="/2026/portrait/klinke.webp"
+      url="/2026/klinke.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Manuel Chakravarty"
+      title="SwiftUI is functional"
+      portrait="/2026/portrait/chakravarty.webp"
+      url="/2026/chakravarty.html" %}
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 2em;">
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Hannes Mehnert"
+      title="Run your own digital infrastructure using MirageOS unikernels"
+      url="/2026/mehnert.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Alexander Thiemann"
+      title="Using Domain Driven Design to Refactor Stripe Billing"
+      portrait="/2026/portrait/alex-thiemann.webp"
+      url="/2026/alex-thiemann.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Nicolas Rinaudo"
+      title="Encoding Effects as Capabilities"
+      portrait="/2026/portrait/rinaudo.webp"
+      url="/2026/rinaudo.html" %}
+    </div>
+
+    <div class="col-md-3">
+      {% include speaker.html
+      speaker="Martin Grotzke"
+      title="Reactive Systems im Einsatz für E-Mobility"
+      portrait="/2026/portrait/grotzke.webp"
+      url="/2026/grotzke.html" %}
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: center; margin-top: 4em;">
+    <div>
+      <a class="btn btn-success btn-block" href="program.html">Gesamtes Programm</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="splash">
+  <div class="top"></div>
+  <div class="content bulb">
+    <div class="container">
+      <div class="bulb-image" ></div>
+      <h2> Was passiert, wenn wir einfach mal das Beste
+        nehmen? </h2>
+      <div class="row">
+        <div class="col-lg-4 short-text">
+          Sind Sie an <b><u>Technologien jenseits des
+              Mainstream</u></b> interessiert? Die zu benutzen
+          eine Freude ist und die Sie effektiv bei der
+          Arbeit unterstützen?
+        </div>
+        <div class="col-lg-8 long-text"><p class="p4">
+            Softwareentwicklerinnen, Softwarearchitekten und
+            Macherinnen treffen sich, um gemeinsam die besten
+            Werkzeuge aufzuspüren, die es heute für die
+            Entwicklung moderner Software gibt. Alle, die dabei
+            sind, sollen viele neue Erfahrungen und
+            Verbesserungen für das eigene Entwicklungsumfeld
+            mitnehmen.</p>
+          <p class="p4"> Wir sind der Vielfalt verpflichtet:
+            Wir wollen eine Vielzahl von Werkzeugen in
+            freundlicher und offener Gesellschaft erforschen.
+            Eine Reihe von Förderungsmöglichkeiten für
+            Teilnehmerinnen und Teilnehmer aus sonst
+            unterrepräsentierten Gruppen stehen zur Verfügung.
+          </p>
+          <p>
+            <a class="btn btn-success btn-block" href="registration.html">Ticket kaufen</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom"> </div>
 </div>
 
 
@@ -138,7 +291,7 @@ language: de
 </div> -->
 
 
-<div class="splash">
+<div style="margin-bottom: 6em;">
     <div class="top"></div>
     <div class="content partners">
       <div class="container">
