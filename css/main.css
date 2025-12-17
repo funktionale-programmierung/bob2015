@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .navbar {
-    background-color: black!important;
+    background-color: #222 !important;
 }
 
 .navbar-nav {
@@ -490,7 +490,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .footer {
-    background-color: black;
+    background-color: #222;
     padding: 1rem 0;
     color: white;
     font-family: 'Poppins';
