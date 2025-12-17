@@ -1,0 +1,38 @@
+Subject: Call for Participation: BOB 2026 (Berlin, Mar 13)
+
+=========================================================================
+			       BOB 2026
+			      Conference
+	     “What happens if we simply use what’s best?”
+		       March 13, 2026, Berlin
+		       https://bobkonf.de/2026/
+
+	    Program: https://bobkonf.de/2026/program.html
+	  Registration: https://bobkonf.de/2026/registration.html
+=========================================================================
+
+BOB conference is a place for developers, architects, and
+decision-makers to explore technologies beyond the mainstream in
+software development and to find the best tools available to software
+developers today. Our goal is for all participants of BOB to return
+home with new insights that enable them to improve their own software
+development experience.
+
+The program features 16 talks and 8 tutorials on current topics:
+
+https://bobkonf.de/2026/program.html
+
+Talk subjects includes functional programming, software architecture,
+formal methods, accessibility, UI programming, reactive systems, and
+domain-driven design.
+
+BOB tutorial include sessions on TypeScript, OCaml, Haskell, Agda,
+accessibility, and reactive systems.
+
+Stefan Kaufmann will give the keynote talk on digital sovereignty.
+
+Registration is open - many discount options - including limited
+early-bird discounts - are available, as are grants for members of
+groups underrepresented in tech.
+
+https://bobkonf.de/2026/registration.html
