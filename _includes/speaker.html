@@ -1,0 +1,35 @@
+<div style="display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2ex;">
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 2ex;">
+    <a href="{{ include.url }}">
+      {% if include.portrait %}
+      <img style="width: 150px;
+                  height: 150px;
+                  object-fit: cover;
+                  border-radius: 100%;
+                  box-shadow: 0 4px 16px rgba(0,0,0,0.3);"
+           src="{{ include.portrait }}" />
+      {% else %}
+      <div style="width: 150px;
+                  height: 150px;
+                  border-radius: 100%;
+                  border: 3px solid black;
+                  box-shadow: 0 4px 16px rgba(0,0,0,0.3);">
+
+        <img style="width: 100%;
+                    height: 100%;
+                    border-radius: 100%;"
+             src="/images/BOB-only.svg" />
+      </div>
+      {% endif %}
+    </a>
+    <b><a href="{{ include.url }}" style="color: inherit;">{{ include.speaker }}</a></b>
+  </div>
+  <h5 style="font-size: 1.2em; line-height: 1.3em; font-weight: normal;">
+    <a href="{{ include.url }}" style="color: inherit;">
+      {{ include.title }}
+    </a>
+  </h5>
+</div>
