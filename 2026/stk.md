@@ -1,33 +1,32 @@
 ---
-title: "Keynote: „Digitale Souveränität“ – Auf der Suche nach der Bedeutung in einem Magischen Konzept"
+title: "Keynote: „Digital Sovereignty“ – Searching for Meaning in a Magical Concept"
 layout: talk
 active: bob2026
 speaker: Stefan Kaufmann
-language: german
+language: english
 portrait: stk.jpg
 time: 09:00-10:00
 type: Vortrag
 head: 2026
 ---
 
-Seit 10 Jahren ist der Begriff kaum mehr aus der Diskussion
-wegzudenken – aber was soll „Digitale Souveränität“ eigentlich sein?
-Ein Blick in die Forschung rund um den Begriff zeigt, dass er seit
-Anbeginn als Argument für ganz verschiedene, sich teilweise diametral
-entgegenstehende Ziele und Ideen verwendet wird. Kann es daher
-überhaupt sinnvoll sein, ihn weiter als Chiffre zu verwenden?
+We've been using the term "digital sovereignty" going on ten years
+now.  But what does that "digital sovereignty" even mean? Looking at
+research connected to the term shows that it has been used as an
+argument for very different, sometimes diametrically opposed goals and
+ideas.  Does it even make sense to use it anymore?
 
 ## Stefan Kaufmann
 
-Stefan Kaufmann studierte Medieninformatik in Ulm. Bereits während des
-Studiums war er Mitgründer einer Open-Data-Arbeitsgruppe, die
-überregionale Austauschveranstaltungen zum Thema organisierte und sich
-bis heute aktiv für mehr Freies Wissen einsetzt. Gemeinsam mit dieser
-Gruppe gestaltete er von 2016 bis 2021 als städtischer Projektleiter
-einen Austauschort für die Vernetzung zwischen Digitalem Ehrenamt und
-öffentlicher Verwaltung, der deutschlandweit Beachtung fand. Seit 2022
-ist er Referent im Team Politik und öffentlicher Sektor bei Wikimedia
-Deutschland und beleuchtet vor allem Datenflüsse und IT-Architekturen
-des öffentlichen Sektors – seit 2024 auch mit einem kritischen Blick
-auf den Hype rund um generative KI-Systeme. Er arbeitete zudem als
-Sachverständiger und Berater zu Open Data.
+Stefan Kaufmann studied media informatics in Ulm.  During his studies
+he founded a working group on open data that organized cross-regional
+events for knowledge exchange on the subject. The group advocates for
+open knowledge to this day.  Stefan was project manager for the city
+of Ulm from 2016 to 2021.  During his tenure and jointly with the
+group, he created an institution for networking between digital
+volunteers and public administration that gained national attention.
+Since 2022, he has worked for the Politics and Public Sector team at
+Wikimedia Germany.  His focus is on shining a light on the data flows
+and IT architectures in the public sector - since 2024 specifically
+with a critical view on the hype around generative AI systems.  He
+also works as an authorized expert and consultant on open data.
