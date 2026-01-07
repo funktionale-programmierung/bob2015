@@ -19,7 +19,7 @@ Am Ende wisst ihr, welche funktionalen Prinzipien sich sinnvoll auf Java übertr
 
 
 ### Falk Sippach
-[sippsack](sippsack)
+[sippsack](https://www.sippsack.de)
 
 Falk arbeitet bei embarc als Softwarearchitekt, Berater und Trainer. Bereits seit 20 Jahren unterstützt er in meist agilen Softwareentwicklungsprojekten im Java-Umfeld. Als aktiver Bestandteil der Community (iSAQB, JUG Darmstadt, Java Champion) teilt er sein Wissen in Artikeln, Blogs, sowie bei Vorträgen auf Konferenzen oder Usergroups und unterstützt bei der Organisation diverser Veranstaltungen.
 
