@@ -16,7 +16,7 @@ Along the way, we’ll build familiarity with key concepts such as functors, app
 
 
 ### Xavier Van de Woestyne
-Bluesky: [@xvw.lol](https://bsky.app/profile/xvw.lol)/br/>
+Bluesky: [@xvw.lol](https://bsky.app/profile/xvw.lol)<br/>
 Fediverse: [@xvw@merveilles.town](https://merveilles.town/@xvw)<br/>
 X: [@vdwxv](https://x.com/vdexv)
 
