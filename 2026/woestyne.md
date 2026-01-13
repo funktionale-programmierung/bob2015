@@ -16,8 +16,10 @@ Along the way, we’ll build familiarity with key concepts such as functors, app
 
 
 ### Xavier Van de Woestyne
-['@vdwxv (X), @xvw.lol (Bluesky), @xvw@merveilles.town (Mastodon)]('@vdwxv (X), @xvw.lol (Bluesky), @xvw@merveilles.town (Mastodon))
+Bluesky: [@xvw.lol](https://bsky.app/profile/xvw.lol)/br/>
+Fediverse: [@xvw@merveilles.town](https://merveilles.town/@xvw)<br/>
+X: [@vdwxv](https://x.com/vdexv)
 
 I am an OCaml Senior Software Engineer at Tarides working in the Editor team, especially on OCaml, (on Merlin and OCaml LSP and I maitain the Emacs mode for OCaml). I a m very interested in Functional Programming, type system and Languages tooling.
 
-I have a website : https://xvw.lol
+I have a website : [https://xvw.lol](https://xvw.lol)
