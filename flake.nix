@@ -2,7 +2,7 @@
   description = "Commands for development of the BOBKonf website";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs";
+    nixpkgs.url = "github:nixos/nixpkgs/release-25.11";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
