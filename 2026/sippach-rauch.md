@@ -1,7 +1,7 @@
 ---
 layout: talk
 active: bob2026
-title: "Functional Programming for the Busy Java Developer"
+title: "Funktionale Programmierung für vielbeschäftigte Javaentwickler"
 speaker: Falk Sippach, Till Rauch
 time: 13:00–13:45
 type: Talk
