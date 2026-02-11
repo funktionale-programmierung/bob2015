@@ -22,6 +22,21 @@ sacr3d relies on [guile-hoot](https://www.spritely.institute/hoot/), a scheme to
 -   embedded shader/GPU DLS in Lisp: varjo / 3bgl
 -   node user interface: Blender nodes / vvvv / cable.js
 
+###### Preparations
+
+Participants should have a working [Docker setup](https://www.docker.com/) and
+prepare the workshop by following these instructions:
+
+- Download Docker image: `docker pull teddd/sacr3d`
+
+- Clone repository: `git clone https://codeberg.org/theottm/sacr3d`
+
+- Inside the repository build the example: `docker run --rm -v $(pwd):/project teddd/sacr3d make -C project build build-source=examples/julia`
+
+- And run the webserver: `docker run --rm -v $(pwd):/project -p 8088:8088 -it teddd/sacr3d make -C project serve`
+
+You are done preparing when the app shows a graphic under [http://localhost:8088/build/examples/julia/](http://localhost:8088/build/examples/julia/).
+
 
 ### Théo Tyburn
 [https://mathstodon.xyz/@theotyburn](https://mathstodon.xyz/@theotyburn)
