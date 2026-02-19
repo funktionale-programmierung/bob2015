@@ -3,7 +3,7 @@ layout: talk
 active: bob2026
 title: "SwiftUI is functional"
 speaker: Manuel Chakravarty
-time: 15:50–16:35
+time: 17:50–18:35
 type: Talk
 language: english
 head: 2026

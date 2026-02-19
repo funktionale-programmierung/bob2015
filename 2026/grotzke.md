@@ -3,7 +3,7 @@ layout: talk
 active: bob2026
 title: "Zuverlässig laden – Reactive Systems im Einsatz für E-Mobility"
 speaker: Martin Grotzke
-time: 17:50–18:35
+time: 15:50–16:35
 type: Talk
 language: german
 head: 2026
