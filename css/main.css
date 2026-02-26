@@ -842,15 +842,32 @@ h1, h2, h3, h4, h5, h6 {
     color: #aaa;
 }
 
+.talk h1,
+.talk h2,
+.talk h3,
+.talk h4,
+.talk h5,
+.talk h6 {
+    margin-top: 2ex;
+    margin-bottom: 2ex;
+}
+
+.talk h2 {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
 
 .talk h3 {
     text-transform: uppercase;
     margin-top: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
 .talk h4 {
     text-transform: uppercase;
+    font-size: 1.0rem;
+    font-weight: normal;
+    font-style: italic;
 }
 
 
@@ -909,4 +926,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mstdn > span:before{
   content:"@";
+}
+
+pre {
+    border-left: 3px solid #cecece;
+    padding: 4px 8px;
+    background: #f3f3f3;
 }
