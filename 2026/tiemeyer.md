@@ -16,6 +16,10 @@ Im Verlauf des Workshops entsteht eine kompakte fachliche Modellierung, die zun√
 
 Das Ergebnis ist ein funktionsf√§higes Beispielprojekt, das die praktische Umsetzung funktional-reaktiver Microservices demonstriert und exemplarisch verdeutlicht, wie klar strukturierte Architektur jenseits etablierter Javamuster entstehen kann.
 
+### Preparation
+
+Before the tutorial, please install prerequisites according to the
+[README here](https://github.com/htiemeyer/bob2026).
 
 ### Holger Tiemeyer
 
