@@ -2,13 +2,13 @@
 layout: talk
 active: bob2026
 title: "Parallelism without panic: a user’s guide to multicore safety in OCaml"
-speaker: Carine Morel, Cuihtlauac Alvarado
+speaker: Carine Morel, Sudha Parimala
 time: 13:00–14:30
 type: Tutorial
 language: english
 head: 2026
 portrait: morel.webp
-portrait2: alvarado.webp
+portrait2: parimala.jpg
 ---
 
 OCaml has a reputation for keeping its promises: strong types, solid
@@ -58,8 +58,10 @@ programming with OCaml and resurfaced as a software engineer. When
 OCaml gained shared-memory parallelism, I discovered a new passion,
 and I’ve been diving deeper ever since.
 
-### Cuihtlauac Alvarado 
+### Sudha Parimala
 
-Senior Software Engineer at Tarides. PhD in Computer Science with
-experience in functional programming, mobile platforms and
-applications, computer security, and standardisation.
+Sudha has been programming with OCaml for 6+ years. These days she’s mostly
+into build tooling, and multicore OCaml. She’s based in the Netherlands
+these days. Outside of programming, she likes reading, making art, and
+visiting museums.
+
