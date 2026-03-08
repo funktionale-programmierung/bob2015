@@ -19,14 +19,23 @@ By the end, you'll understand not only functional programming patterns, but _how
 
 ---
 
-This tutorial hardly relies on TypeScript-specific features at all (most of it can be easily applied in other programming languages).
+This tutorial hardly relies on TypeScript-specific features at all—most of it can be applied easily in other programming languages.
+
+---
+
+### Preparation
+
+Before joining this tutorial, you should get this repo set up:  
+
+- [https://github.com/haglobah/functional-programming-typescript](https://github.com/haglobah/functional-programming-typescript)
 
 ### Beat Hagenlocher
+
 [https://bsky.app/profile/beathagenlocher.com](https://bsky.app/profile/beathagenlocher.com)
 
 **Beat Hagenlocher** is a Software Architect at Active Group GmbH.
 
-Always on the lookout for the perfect programming stack to code his projects in, he currently has conceded that TypeScript is actually "good enough for most things for now" and writes his frontend software with that.
+Always on the lookout for the perfect programming stack to code his projects in, he currently has conceded that TypeScript is actually "good enough for most things, for now" and writes his frontend software with that.
 
 Apart from writing software, he hosts [Tü.λ - Functional Programming Night Tübingen](https://tu-lambda.github.io/) and tends to [his digital garden](https://beathagenlocher.com).
 
