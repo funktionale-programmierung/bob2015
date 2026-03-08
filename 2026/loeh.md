@@ -29,6 +29,16 @@ the way:
 Along the way, we'll also use a few common libraries, such as e.g. for
 http or JSON encoding / decoding.
 
+### Preparation
+
+For the Haskell tutorial, we will use [this GitHub
+repository](https://github.com/well-typed/haskell-bobkonf2026).
+It doesn't yet have the actual contents of the tutorial, but it
+already comes with setup instructions so that you can try
+to have Haskell installed and all time-consuming downloads and
+build processes out of the way prior to the conference. Best of
+luck and hope to see you all in Berlin soon.
+
 ### Andres Löh
 [https://functional.cafe/@kosmikus / kosmikus.bsky.social / kosmikus](https://functional.cafe/@kosmikus / kosmikus.bsky.social / kosmikus)
 
