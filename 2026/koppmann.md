@@ -21,7 +21,7 @@ In this tutorial, I will show concrete TypeScript examples of how we can model b
 For the tutorial, we will use [this GitHub
 repository](https://github.com/mkoppmann/Type-Driven-TypeScript-Development). It
 contains instructions to get you prepared for the tutorial. We recommend
-checking out the repository and installing all requireed software beforehand if
+checking out the repository and installing all required software beforehand if
 you plan on attending.
 
 ### Michael Koppmann
