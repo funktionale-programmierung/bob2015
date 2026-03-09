@@ -16,6 +16,13 @@ Over the last decades, type systems have become surprisingly powerful. Nowadays,
 
 In this tutorial, I will show concrete TypeScript examples of how we can model business workflows and constraints with types. Making illegal states unrepresentable, designing internal APIs that are harder to misuse, and capturing security invariants so they’re enforced automatically. The approach is not tied to a single language but is a practical design technique that can make your programming life easier.
 
+### Prepraration
+
+For the tutorial, we will use [this GitHub
+repository](https://github.com/mkoppmann/Type-Driven-TypeScript-Development). It
+contains instructions to get you prepared for the tutorial. We recommend
+checking out the repository and installing all requireed software beforehand if
+you plan on attending.
 
 ### Michael Koppmann
 [Fediverse: @shibayashi@communicating.cypherpunk.observer](Fediverse: @shibayashi@communicating.cypherpunk.observer)
