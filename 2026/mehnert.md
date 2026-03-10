@@ -19,6 +19,6 @@ I will show the general idea, what is available right now (and how easy to use i
 
 
 ### Hannes Mehnert
-['@hannes@social.coop]('@hannes@social.coop)
+[@hannes@social.coop](https://social.coop/@hannes)
 
 In computer security since >20 years. PhD "formal verification of the correctness of OO code" (separation logic & Coq). Learned that verifiying existing code is tedious (mutable state). Redeveloping OS in FP brings trustworthy systems. Works full-time on MirageOS since >10 years, now at robur.coop. Since 2025 leading the OCaml Security team.
