@@ -51,7 +51,7 @@ browser and takes only a few minutes. A local devcontainer setup and a
 manual local setup are also available.
 
 ### Carine Morel
-[lyrm.bsky.social](lyrm.bsky.social)
+Bluesky:[@lyrm.bsky.social](https://bsky.app/@lyrm.bsky.social)
 
 I started out as a physicist, then got happily lost in functional
 programming with OCaml and resurfaced as a software engineer. When
