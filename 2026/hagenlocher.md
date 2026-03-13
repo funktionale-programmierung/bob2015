@@ -24,6 +24,10 @@ This tutorial hardly relies on TypeScript-specific features at all—most of it 
 
 ---
 
+[Link to the slides](https://haglobah.github.io/talks/functional-programming-typescript/).
+
+---
+
 ### Preparation
 
 Before joining this tutorial, you should get this repo set up:  
