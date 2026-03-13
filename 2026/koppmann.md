@@ -25,7 +25,7 @@ checking out the repository and installing all required software beforehand if
 you plan on attending.
 
 ### Michael Koppmann
-[Fediverse: @shibayashi@communicating.cypherpunk.observer](Fediverse: @shibayashi@communicating.cypherpunk.observer)
+Fediverse: [@shibayashi@communicating.cypherpunk.observer](https://communicating.cypherpunk.observer/@shibayashi)
 
 Michael Koppmann is a senior information security consultant at SBA Research. Michael’s consulting activities are focused on the technical aspects of information security. He frequently conducts penetration tests on a wide range of computer systems, including web, mobile, and cloud application security, source code audits, architecture reviews and more.
 

@@ -40,7 +40,8 @@ build processes out of the way prior to the conference. Best of
 luck and hope to see you all in Berlin soon.
 
 ### Andres Löh
-[https://functional.cafe/@kosmikus / kosmikus.bsky.social / kosmikus](https://functional.cafe/@kosmikus / kosmikus.bsky.social / kosmikus)
+Fediverse: [@kosmikus@functional.cafe](https://functional.cafe/@kosmikus)<br/>
+Bluesky: [@kosmikus.bsky.social](https://bsky.app/@kosmikus.bsky.social)
 
 Andres Löh is a Haskell consultant and co-owner of Well-Typed LLP. He is based in Regensburg, Germany. He started using Haskell in 1997, when being an undergraduate student of mathematics in Konstanz, and has been an enthusiastic functional programmer ever since. Andres obtained a PhD in Computer Science from Utrecht University in 2004, on extending the Haskell language with capabilities for datatype-generic programming. After having been a university lecturer for several years, he joined Well-Typed in 2010.
 
