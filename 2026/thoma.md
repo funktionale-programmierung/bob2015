@@ -8,7 +8,6 @@ type: Talk
 language: english
 head: 2026
 portrait: thoma.webp
-slides-file: thoma.pdf
 ---
 
 We have the pixel-perfect designs, the implementation is done to the tee. And yet, a seemingly small change in the designs suddenly leads to huge development efforts?
