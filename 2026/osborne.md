@@ -7,7 +7,6 @@ time: 13:50–14:35
 type: Talk
 language: english
 head: 2026
-slides-file: osborne.pdf
 ---
 
 This talk will present how to generate model-based testing from formal

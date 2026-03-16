@@ -8,7 +8,6 @@ type: Talk
 language: english
 head: 2026
 portrait: engelbrecht.webp
-slides-file: engelbrecht.pdf
 ---
 
 Accessibility is often treated as a mere compliance checkbox or something the “UI people” worry about at the end of a project. In reality, accessibility is a core quality attribute of software systems, and many of the biggest wins come from small decisions developers make every day: how we structure HTML, name components, log errors, design APIs, or write tests.
