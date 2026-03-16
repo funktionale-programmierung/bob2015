@@ -2,12 +2,13 @@
 layout: talk
 active: bob2026
 title: "Functional Programming in TypeScript"
-speaker: Beat Hagenlocher
+speaker: Beat Hagenlocher, Marco Schneider
 time: 13:00–14:30
 type: Tutorial
 language: english
 head: 2026
 portrait: hagenlocher.jpg
+portrait2: schneider.jpg
 ---
 
 Functional programming offers powerful tools for building robust, maintainable software, and Software Development as a whole has moved towards employing a functional style—yet comprehensive guides for normal work in real-world applications are still hard to find. This tutorial aspires to fill (a part of) this gap: It teaches functional programming patterns and shows you how to apply them immediately in your daily work, with TypeScript as a language.
@@ -19,15 +20,36 @@ By the end, you'll understand not only functional programming patterns, but _how
 
 ---
 
-This tutorial hardly relies on TypeScript-specific features at all (most of it can be easily applied in other programming languages).
+This tutorial hardly relies on TypeScript-specific features at all—most of it can be applied easily in other programming languages.
+
+---
+
+[Link to the slides](https://haglobah.github.io/talks/functional-programming-typescript/).
+
+---
+
+### Preparation
+
+Before joining this tutorial, you should get this repo set up:  
+
+- [https://github.com/haglobah/functional-programming-typescript](https://github.com/haglobah/functional-programming-typescript)
 
 ### Beat Hagenlocher
+
 [https://bsky.app/profile/beathagenlocher.com](https://bsky.app/profile/beathagenlocher.com)
 
 **Beat Hagenlocher** is a Software Architect at Active Group GmbH.
 
-Always on the lookout for the perfect programming stack to code his projects in, he currently has conceded that TypeScript is actually "good enough for most things for now" and writes his frontend software with that.
+Always on the lookout for the perfect programming stack to code his projects in, he currently has conceded that TypeScript is actually "good enough for most things, for now" and writes his frontend software with that.
 
 Apart from writing software, he hosts [Tü.λ - Functional Programming Night Tübingen](https://tu-lambda.github.io/) and tends to [his digital garden](https://beathagenlocher.com).
 
 When not at the computer, he can be found doing sports, learning new skills or adding to [his book list](https://beathagenlocher.com/books-you-probably-want-to-read).
+
+### Marco Schneider
+
+[@anarres@chaos.social](https://chaos.social/@anarres)
+
+[**Marco Schneider**](https://defmarco.com/en/) is a Software Architect at
+[Active Group GmbH](https://active-group.de/team/marco-schneider/) and is on a quest to find Zen
+in software development and architecture.

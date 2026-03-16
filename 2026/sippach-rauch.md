@@ -17,6 +17,11 @@ In diesem Vortrag untersuchen wir, wie weit man mit modernem Java funktional den
 
 Am Ende wisst ihr, welche funktionalen Prinzipien sich sinnvoll auf Java übertragen lassen, wo Workarounds nötig sind und wie ihr durch kluge Datenmodellierung ungültige Zustände vermeidet, natürlichere Kontrollflüsse erzeugt und die Wartbarkeit eurer Anwendungen verbessert – ohne das Java-Ökosystem zu verlassen.
 
+---
+
+[Link zu den Slides](https://embarc-downloads.s3.eu-central-1.amazonaws.com/folien/fs/2026/Sippach-Rauch_Funktionale-Programmierung-mit-Java.pdf)
+
+---
 
 ### Falk Sippach
 [sippsack](https://www.sippsack.de)

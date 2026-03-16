@@ -784,6 +784,10 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid #b9b9b9;
 }
 
+.program table tr td {
+    border-left: 1px solid #b9b9b9;
+}
+
 .program table h3 {
     text-transform: uppercase;
     padding-top: 10px;
@@ -833,6 +837,10 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 3px double #b9b9b9;
 }
 
+.program table .kind-row {
+    border-bottom: 0;
+}
+
 .program table .room-row td {
     padding-top: 3px;
     padding-bottom: 3px;
@@ -840,6 +848,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .program table .room-row h5 {
     color: #aaa;
+}
+
+.program .no-border td {
+    border: 0;
 }
 
 .talk h1,

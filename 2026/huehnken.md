@@ -10,9 +10,21 @@ head: 2026
 portrait: huehnken.webp
 ---
 
-There’s a world outside of Java and C#. Well, you know there is, because you know there's the dreadful PHP, there are JavaScript, TypeScript, Go, Kotlin, Scala and Swift.
-But let's look at bit further. If you're interested in programming languages, you probably heard about Haskell with its pure functions and lazy evaluation. And about Rust, with it's ownership and borrowing based memory management. Let's skip even those and go just a tiny bit less mainstream, so you have something to think about.
-I'll show you four innovative programming languages and briefly introduce their concepts. And not silly ones like Whitespace or Brainf**k. Serious ones, pushing the boundaries, truly innovating. I won't name them now, to not spoil the surprise. I can't guarantee it, but I think there’s a very good chance that there's going to be at least one you've never heard of, but that will capture your interest.
+There’s a world outside of Java and C#. Well, you know there is,
+ because you know there are JavaScript, TypeScript, Go, Kotlin, Scala
+ and Swift. But let’s look at bit further.
+
+If you're interested in programming languages, you probably heard
+ about Haskell with its pure functions and lazy evaluation. And about
+ Rust, with it's ownership and borrowing based memory management.
+ Let's skip even those and go just a tiny bit less mainstream, so you
+ have something to think about. I'll show you four innovative
+ programming languages and briefly introduce their concepts. And not
+ silly ones like Whitespace or Brainf**k. Serious ones, pushing the
+ boundaries, truly innovating. I won't name them now, to not spoil the
+ surprise. I can't guarantee it, but I think there’s a very good
+ chance that there's going to be at least one you've never heard of,
+ but that will capture your interest.
 
 
 ### Lutz Hühnken

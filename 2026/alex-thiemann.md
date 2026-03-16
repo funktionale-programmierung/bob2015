@@ -16,6 +16,6 @@ This talk will walk through the journey of why we reached for Domain Driven Desi
 
 
 ### Alexander Thiemann
-['@agrafix]('@agrafix)
+[@agrafix](https://x.com/agrafix)
 
 Principal software engineer at Stripe working on Stripe Billing. Enjoys API design, functional programming and vibe coding.
