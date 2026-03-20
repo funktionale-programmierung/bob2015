@@ -8,6 +8,7 @@ type: Tutorial
 language: english
 head: 2026
 portrait: koppmann.webp
+slides-file: koppmann.pdf
 ---
 
 Types in programming languages are meant to protect us, but how often do we still end up chasing silly bugs caused by a single misplaced value? A common culprit is the code smell “Primitive Obsession”: representing everything as integers, strings, and Booleans instead of meaningful domain types. It works until an order ID gets passed where a customer ID was expected, or missing access control is exploited, and nobody notices until it is too late.
