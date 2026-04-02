@@ -2,7 +2,7 @@
 layout: talk
 active: bob2026
 title: "Proofs for programs, programs for proofs"
-speaker: Markus Himmel
+speaker: Julia Himmel
 time: 15:00–15:45
 type: Talk
 language: english
@@ -15,6 +15,6 @@ Proofs about programs are great, but what happens if we let programs and proofs 
 Thanks to Lean being a competent interactive theorem prover, this is now quite practical, and we can reason about complex properties like balancing properties of binary search trees or UTF-8 decoding and encoding right as we implement them, and use proofs to make the implementations even better. In my presentation, I will walk through many examples in the Lean standard library where this interaction has enabled us to write code that is safe, fast and user-friendly all at once.
 
 
-### Markus Himmel
+### Julia Himmel
 
-Markus is a tech lead at the Lean Focused Research Organization, the non-profit behind the Lean theorem prover and programming language. He leads the standard library team, helping advance Lean as a tool for developing production-ready formally verified software.
+Julia is a tech lead at the Lean Focused Research Organization, the non-profit behind the Lean theorem prover and programming language. She leads the standard library team, helping advance Lean as a tool for developing production-ready formally verified software.
