@@ -9,6 +9,7 @@ language: english
 head: 2026
 portrait: hagenlocher.jpg
 portrait2: schneider.jpg
+slides-link: https://haglobah.github.io/talks/functional-programming-typescript/
 ---
 
 Functional programming offers powerful tools for building robust, maintainable software, and Software Development as a whole has moved towards employing a functional style—yet comprehensive guides for normal work in real-world applications are still hard to find. This tutorial aspires to fill (a part of) this gap: It teaches functional programming patterns and shows you how to apply them immediately in your daily work, with TypeScript as a language.
@@ -21,12 +22,6 @@ By the end, you'll understand not only functional programming patterns, but _how
 ---
 
 This tutorial hardly relies on TypeScript-specific features at all—most of it can be applied easily in other programming languages.
-
----
-
-[Link to the slides](https://haglobah.github.io/talks/functional-programming-typescript/).
-
----
 
 ### Preparation
 

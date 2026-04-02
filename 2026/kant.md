@@ -8,6 +8,8 @@ type: Talk
 language: english
 head: 2026
 portrait: kant.webp
+slides-file: kant.pdf
+slides-link: https://kantp.github.io/presentation-zkps
 ---
 
 To the contrary! Zero-knowledge proofs (ZKPs) let you prove that
