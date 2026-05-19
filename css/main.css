@@ -145,7 +145,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins';
     text-transform: uppercase;
     font-size: 0.8rem;
-    margin-top: 0.9rem;
     float: right;
 }
 
@@ -488,7 +487,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 2em;
 }
 
-
 .footer {
     background-color: #222;
     padding: 1rem 0;
@@ -537,6 +535,30 @@ h1, h2, h3, h4, h5, h6 {
 
 .organizer-footer-logo {
     height: 1.6em;
+    width: auto;
+    margin-left: 0.2em;
+    vertical-align: middle;
+}
+
+.organizer-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.15s ease;
+}
+
+.organizer-link:hover {
+    color: #d6214a;
+    text-decoration: none;
+}
+
+.organizer-prefix {
+    letter-spacing: 0.02em;
+}
+
+.organizer-logo {
+    height: 2em;
     width: auto;
     margin-left: 0.2em;
     vertical-align: middle;
