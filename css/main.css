@@ -545,6 +545,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     font-size: 0.8rem;
     font-family: 'Poppins', sans-serif;
+    color: #222;
     transition: color 0.15s ease;
 }
 
@@ -554,6 +555,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .organizer-prefix {
+    color: inherit;
     letter-spacing: 0.02em;
 }
 

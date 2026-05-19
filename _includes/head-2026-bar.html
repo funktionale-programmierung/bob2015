@@ -1,0 +1,16 @@
+{% assign de_url = page.url | replace: "/2026/en/", "/2026/de/" %}
+{% assign en_url = page.url | replace: "/2026/de/", "/2026/en/" %}
+
+<div class="container" style="position: absolute; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); z-index: 10; display: flex; justify-content: space-between; align-items: center; height: 2.5rem;">
+  <a href="http://www.active-group.de" target="_blank" class="organizer-link" style="font-weight: initial; margin-left: 2px;">
+    <span class="organizer-prefix">{% if page.language == "en" %}with{% else %}mit{% endif %}</span>
+    <span style="margin: 0 0.5rem;color: #d6214a;font-size: 1.5em;line-height: 1;">❤</span>
+    <span class="organizer-prefix">{% if page.language == "en" %}by{% else %}von der{% endif %}</span>
+    <img src="/images/active-group-logo.png" alt="Active Group" class="organizer-logo">
+  </a>
+  <div class="language">
+    Language
+    <a href="{{ de_url }}" class="{% unless page.language == "en" %}selected{% endunless %}">Deutsch</a>
+    <a href="{{ en_url }}" class="{% if page.language == "en" %}selected{% endif %}">English</a>
+  </div>
+</div>
