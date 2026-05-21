@@ -2,7 +2,7 @@
 {% assign en_url = page.url | replace: "/2026/de/", "/2026/en/" %}
 
 <div class="container head-bar">
-  <a href="http://www.active-group.de" target="_blank" class="organizer-link">
+  <a href={% if page.language == "en" %}"http://www.active-group.de/en/"{% else %}"http://www.active-group.de/de/"{% endif %} target="_blank" class="organizer-link">
     <span class="organizer-prefix">{% if page.language == "en" %}with{% else %}mit{% endif %}</span>
     <span class="organizer-heart">❤</span>
     <span class="organizer-prefix">{% if page.language == "en" %}by{% else %}von der{% endif %}</span>
