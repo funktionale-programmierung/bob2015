@@ -8,6 +8,7 @@ type: Talk
 language: english
 head: 2026
 portrait: chakravarty.webp
+video: bob11-2026-swift-ui-chakravarty
 ---
 
 Scaling modern user interfaces is hard. GUI libraries simplify getting complex interfaces on the screen, but keeping UI state in sync with application state is a challenge, exacerbated by asynchronous state changes (e.g., network activity). Avoiding callback hell, while keeping the application modular, avoiding UI glitches, and preventing data loss can quickly turn into a nightmare.

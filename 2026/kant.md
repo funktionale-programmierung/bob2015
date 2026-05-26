@@ -10,6 +10,7 @@ head: 2026
 portrait: kant.webp
 slides-file: kant.pdf
 slides-link: https://kantp.github.io/presentation-zkps
+video: bob11-2026-zero-knowledge-proof-kant
 ---
 
 To the contrary! Zero-knowledge proofs (ZKPs) let you prove that

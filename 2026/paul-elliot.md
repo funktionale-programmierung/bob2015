@@ -8,6 +8,7 @@ type: Talk
 language: english
 head: 2026
 portrait: paul-elliot.webp
+video: bob11-2026-undoable-monad-elliot
 ---
 
 Slipshow is a presentation tool. One of its specificity is that it is

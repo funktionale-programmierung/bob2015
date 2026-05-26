@@ -8,6 +8,7 @@ type: Talk
 language: english
 head: 2026
 portrait: schlegel.webp
+video: bob11-2026-git-linked-data-schlegel
 ---
 
 In 2025 we wrote a software system supporting an EU funded research

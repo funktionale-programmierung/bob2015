@@ -8,6 +8,7 @@ type: Talk
 language: german
 head: 2026
 portrait: grotzke.webp
+video: bob11-2026-reactive-systems-grotzke
 ---
 
 Wer ein Elektroauto lädt, erwartet, dass alles einfach funktioniert: App öffnen, Ladesäule anschließen, Strom fließt. Hinter diesem scheinbar simplen Vorgang steckt jedoch ein kompliziertes, verteiltes System mit hohen Zuverlässigkeitsanforderungen – von der App über Backend-Services bis zur Ladesäule.

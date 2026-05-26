@@ -8,6 +8,7 @@ type: Talk
 language: english
 head: 2026
 portrait: rinaudo.webp
+video: bob11-2026-encoding-effects-rinaudo
 ---
 
 Capabilities are an exciting development for the future of Scala, but are still misunderstood and a little abstract.

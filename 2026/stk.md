@@ -9,6 +9,7 @@ time: 09:00-10:00
 type: Vortrag
 head: 2026
 slides-file: stk.pdf
+video: bob11-2026-digital-sovereignity-kaufmann
 ---
 
 We've been using the term "digital sovereignty" going on ten years

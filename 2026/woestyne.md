@@ -8,6 +8,7 @@ type: Talk
 language: english
 head: 2026
 portrait: woestyne.webp
+video: bob11-2026-ocaml-module-language-woestyne
 ---
 
 Many programming languages offer modules, namespaces, or package systems. But very few provide **a true module language**. In this talk, we’ll explore OCaml’s powerful module system as a core language feature. We’ll learn how to use modules effectively, understand their design principles and limitations, and discuss the challenges posed by type equalities, type preservation, and strengthening. We’ll also look at ongoing work clarifying their semantics, including recursive modules, type anchoring, and signature avoidance. We’ll see how modules solve real problems, discover clever and expressive encodings, and identify their practical limits. 
