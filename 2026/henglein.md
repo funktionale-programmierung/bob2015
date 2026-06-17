@@ -8,6 +8,7 @@ type: Talk
 language: english
 head: 2026
 portrait: henglein.webp
+slides-file: henglein.pdf
 video: bob11-2026-efficient-joins-henglein
 ---
 

@@ -8,6 +8,7 @@ type: Talk
 language: english
 head: 2026
 portrait: huehnken.webp
+slides-file: huehnken.pdf
 video: bob11-2026-fascinating-programming-languages-huehnken
 ---
 

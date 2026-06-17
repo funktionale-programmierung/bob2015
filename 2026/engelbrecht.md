@@ -8,6 +8,7 @@ type: Talk
 language: english
 head: 2026
 portrait: engelbrecht.webp
+slides-file: engelbrecht.pdf
 video: bob11-2026-accessibility-design-engelbrecht
 ---
 

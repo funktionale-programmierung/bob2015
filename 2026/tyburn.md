@@ -8,6 +8,7 @@ type: Tutorial
 language: english
 head: 2026
 portrait: tyburn.webp
+slides-file: tyburn.pdf
 ---
 
 In this tutorial we will learn how to write advanced 3d graphics pipelines for the browser using the [sacr3d](https://codeberg.org/theottm/sacr3d) library for [guile scheme](https://www.gnu.org/software/guile/). We will go from a simple point to astonishing interactive fractals !  
