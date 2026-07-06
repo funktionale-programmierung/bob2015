@@ -1,7 +1,7 @@
 {% include navbar.html %}
 
-{% if page.head == 2026 %}
-{% include head-2026-bar.html %}
+{% if page.head >= 2026 %}
+{% include head-{{ page.head }}-bar.html %}
 {% endif %}
 
 {{ content }}
