@@ -4,12 +4,13 @@ active: bob2026
 title: "Funktionale Programmierung für vielbeschäftigte Javaentwickler"
 speaker: Falk Sippach, Till Rauch
 time: 13:00–13:45
-type: Talk
+type: Vortrag
 language: german
 head: 2026
 portrait: sippach.webp
 portrait2: rauch.jpg
 video: bob11-2026-fp-fuer-java-sippach-rauch
+edition: "2026"
 ---
 
 Seit Java 8 halten funktionale Konzepte zunehmend Einzug in die Java-Welt. Trotz moderner Features wie Lambdas, Pattern Matching, Records oder Sealed Classes bleibt in vielen Projekten jedoch Skepsis: Die Lernkurve wirkt hoch und der resultierende Code angeblich unlesbar oder „nicht Java-typisch“. Dabei verspricht funktionale Programmierung geringere Komplexität, klarere Datenflüsse, erwartungskonformes Verhalten und eine deutlich bessere Testbarkeit – Vorteile, die sich gerade in größeren Systemen auszahlen.

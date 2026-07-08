@@ -1,10 +1,12 @@
 ---
+topic: web
 layout: talk
 active: bob2026
 title: "Bridging the Gap Between UX Design and Development: Atomic Design & Storybook"
 speaker: Franz Thoma
 time: 11:05–11:50
-type: Talk
+type: Vortrag
+edition: 2026
 language: english
 head: 2026
 portrait: thoma.webp
