@@ -4,10 +4,11 @@ active: bob2026
 title: "Generating tests from formal specification: the good, the bad and the messy"
 speaker: Nicolas Osborne
 time: 13:50–14:35
-type: Talk
+type: Vortrag
 language: english
 head: 2026
 slides-file: osborne.pdf
+edition: 2026
 ---
 
 This talk will present how to generate model-based testing from formal

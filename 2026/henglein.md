@@ -4,12 +4,13 @@ active: bob2026
 title: "Programming Efficient Joins"
 speaker: Fritz Henglein
 time: 15:00–15:45
-type: Talk
+type: Vortrag
 language: english
 head: 2026
 portrait: henglein.webp
 slides-file: henglein.pdf
 video: bob11-2026-efficient-joins-henglein
+edition: 2026
 ---
 
 A relational join is a function that combines data from multiple sources and joins them by programmer-defined attributes they share.  They are everywhere data records are stored and processed, also outside database systems.  Common examples include joining customers and orders; connecting genes, mutations, and experiments; and combining songs, artists and plays.   Joins have a reputation of being tricky to program and difficult to implement efficiently.  For example, computing the set of triangles (x, y, z) where x likes y, y likes z and z likes x, cannot be implemented efficiently using techniques employed in standard SQL query engines such as binary hash joins and any form of query plan optimization.  

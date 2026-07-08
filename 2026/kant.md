@@ -4,13 +4,14 @@ active: bob2026
 title: "Zero Knowledge Proof? That Sounds Useless!"
 speaker: Philipp Kant
 time: 15:50–16:35
-type: Talk
+type: Vortrag
 language: english
 head: 2026
 portrait: kant.webp
 slides-file: kant.pdf
 slides-link: https://kantp.github.io/presentation-zkps
 video: bob11-2026-zero-knowledge-proof-kant
+edition: 2026
 ---
 
 To the contrary! Zero-knowledge proofs (ZKPs) let you prove that

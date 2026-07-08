@@ -4,12 +4,13 @@ active: bob2026
 title: "Four Fascinating Programming Languages You've Probably Never Heard Of"
 speaker: Lutz Hühnken
 time: 13:00–13:45
-type: Talk
+type: Vortrag
 language: english
 head: 2026
 portrait: huehnken.webp
 slides-file: huehnken.pdf
 video: bob11-2026-fascinating-programming-languages-huehnken
+edition: 2026
 ---
 
 There’s a world outside of Java and C#. Well, you know there is,

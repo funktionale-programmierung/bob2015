@@ -4,10 +4,11 @@ active: bob2026
 title: "Refinement types for the digital information age"
 speaker: Olaf Klinke
 time: 15:50–16:35
-type: Talk
+type: Vortrag
 language: english
 head: 2026
 portrait: klinke.webp
+edition: 2026
 ---
 
 Digitalization is, at least to some extent,

@@ -4,10 +4,11 @@ active: bob2026
 title: "Architecting Scalable CI Pipelines for Enterprises: Lessons Learned"
 speaker: Johannes Dienst
 time: 11:05–11:50
-type: Talk
+type: Vortrag
 language: english
 head: 2026
 portrait: dienst.webp
+edition: 2026
 ---
 
 Build, test, release—this might work for a simple app or a startup. But in regulated enterprises? Things get a lot more complicated. You’re not just shipping code; you’re juggling a maze of processes and expectations. Think about automatically generating a Software Bill of Materials (SBOM), navigating complex change processes with human approvals, or implementing branching strategies that track every ticket across multiple environments. And you still need to keep your pipelines evolvable and find errors fast.

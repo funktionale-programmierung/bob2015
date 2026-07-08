@@ -4,12 +4,13 @@ active: bob2026
 title: "Zuverlässig laden – Reactive Systems im Einsatz für E-Mobility"
 speaker: Martin Grotzke
 time: 15:50–16:35
-type: Talk
+type: Vortrag
 language: german
 head: 2026
 portrait: grotzke.webp
 video: bob11-2026-reactive-systems-grotzke
 slides-file: koppmann.pdf
+edition: 2026
 ---
 
 Wer ein Elektroauto lädt, erwartet, dass alles einfach funktioniert: App öffnen, Ladesäule anschließen, Strom fließt. Hinter diesem scheinbar simplen Vorgang steckt jedoch ein kompliziertes, verteiltes System mit hohen Zuverlässigkeitsanforderungen – von der App über Backend-Services bis zur Ladesäule.

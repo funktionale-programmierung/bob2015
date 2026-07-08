@@ -4,11 +4,12 @@ active: bob2026
 title: "Encoding Effects as Capabilities"
 speaker: NicolasRinaudo
 time: 17:50–18:35
-type: Talk
+type: Vortrag
 language: english
 head: 2026
 portrait: rinaudo.webp
 video: bob11-2026-encoding-effects-rinaudo
+edition: 2026
 ---
 
 Capabilities are an exciting development for the future of Scala, but are still misunderstood and a little abstract.
