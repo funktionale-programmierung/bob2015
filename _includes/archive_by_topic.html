@@ -2,7 +2,7 @@
 | where: "language", "english"
 | where_exp: "item", "item.topic contains include.topic"
 | where: "type", "Vortrag"
-| sort: "edition"
+| sort_natural: "edition"
 | reverse %}
 {% if pages.size > 0 %}
 <h2>English</h2>
@@ -23,7 +23,7 @@ No English talks for this topic
 | where: "language", "german"
 | where_exp: "item", "item.topic contains include.topic"
 | where: "type", "Vortrag"
-| sort: "edition"
+| sort_natural: "edition"
 | reverse %}
 {% if pages.size > 0 %}
 <h2>German</h2>
