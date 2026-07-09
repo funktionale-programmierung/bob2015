@@ -1,7 +1,9 @@
 {% assign pages = site.pages
 | where: "language", "english"
 | where_exp: "item", "item.topic contains include.topic"
-| where: "type", "Vortrag" %}
+| where: "type", "Vortrag"
+| sort: "edition"
+| reverse %}
 {% if pages.size > 0 %}
 <h2>English</h2>
 <ul style="display: flex; flex-direction: column; gap: 1ex; padding: 0;">
@@ -20,7 +22,9 @@ No English talks for this topic
 {% assign pages = site.pages
 | where: "language", "german"
 | where_exp: "item", "item.topic contains include.topic"
-| where: "type", "Vortrag" %}
+| where: "type", "Vortrag"
+| sort: "edition"
+| reverse %}
 {% if pages.size > 0 %}
 <h2>German</h2>
 <ul style="display: flex; flex-direction: column; gap: 1ex; padding: 0;">
