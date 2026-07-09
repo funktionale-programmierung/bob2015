@@ -1,4 +1,5 @@
 ---
+topic: scala, software-architecture
 layout: talk
 active: bob2026
 title: "Encoding Effects as Capabilities"

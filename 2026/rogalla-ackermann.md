@@ -1,4 +1,5 @@
 ---
+topic: web
 layout: talk
 active: bob2026
 title: "Unter der Haube - Barrierefreiheitsanforderungen an Software und IT-Systeme"

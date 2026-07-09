@@ -1,4 +1,5 @@
 ---
+topic: case-studies, software-architecture, distributed-systems
 layout: talk
 active: bob2026
 title: "Zuverlässig laden – Reactive Systems im Einsatz für E-Mobility"

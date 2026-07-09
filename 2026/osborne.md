@@ -1,4 +1,5 @@
 ---
+topic: formal-methods
 layout: talk
 active: bob2026
 title: "Generating tests from formal specification: the good, the bad and the messy"

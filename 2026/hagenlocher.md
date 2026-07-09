@@ -1,4 +1,5 @@
 ---
+topic: web
 layout: talk
 active: bob2026
 title: "Functional Programming in TypeScript"

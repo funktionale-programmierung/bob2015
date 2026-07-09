@@ -10,6 +10,7 @@ head: 2026
 portrait: alex-thiemann.webp
 video: bob11-2026-ddd-stripe-billing-thiemann
 edition: 2026
+topic: process
 ---
 
 At the beginning of 2025 we started a large refactoring project to rewrite the billing engine powering Stripe Billing using Domain Driven Design. Beyond establishing best practices and processes within our teams, we developed a fork of and tooling around the ContextMapper DSL to generate code and verify that our implementation aligned with our design specifications.

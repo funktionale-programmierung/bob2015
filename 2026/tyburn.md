@@ -1,4 +1,5 @@
 ---
+topic: systems-programming
 layout: talk
 active: bob2026
 title: "Functional 3D graphics for the browser in scheme"

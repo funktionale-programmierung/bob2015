@@ -1,4 +1,5 @@
 ---
+topic: dsl, software-architecture
 layout: talk
 active: bob2026
 title: "SwiftUI is functional"

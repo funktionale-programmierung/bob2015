@@ -1,4 +1,5 @@
 ---
+topic: ocaml, software-architecture
 layout: talk
 active: bob2026
 title: "A crash course on the OCaml module language"

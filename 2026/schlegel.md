@@ -1,4 +1,5 @@
 ---
+topic: clojure, software-architecture
 layout: talk
 active: bob2026
 title: "Git meets Linked Data – A Tale of an Unusual Architecture"

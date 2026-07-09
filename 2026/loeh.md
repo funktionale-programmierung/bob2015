@@ -1,4 +1,5 @@
 ---
+topic: haskell
 layout: talk
 active: bob2026
 title: "Haskell Tutorial"

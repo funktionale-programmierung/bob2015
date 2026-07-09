@@ -1,4 +1,5 @@
 ---
+topic: formal-methods
 layout: talk
 active: bob2026
 title: "Agda by Example: Programming and Proving with Dependent Types"

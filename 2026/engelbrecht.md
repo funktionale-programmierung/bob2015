@@ -1,4 +1,5 @@
 ---
+topic: web
 layout: talk
 active: bob2026
 title: "Accessibility by Design: Practical A11y for Everyday Software Engineering"

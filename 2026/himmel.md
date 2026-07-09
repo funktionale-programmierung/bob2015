@@ -1,4 +1,5 @@
 ---
+topic: formal-methods
 layout: talk
 active: bob2026
 title: "Proofs for programs, programs for proofs"

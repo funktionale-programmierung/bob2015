@@ -1,4 +1,5 @@
 ---
+topic: software-architecture
 layout: talk
 active: bob2026
 title: "Illegal States Are My Favorite Security Vulnerabilities (to Delete at Compile Time)"

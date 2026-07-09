@@ -1,4 +1,5 @@
 ---
+topic: databases
 layout: talk
 active: bob2026
 title: "Programming Efficient Joins"

@@ -1,4 +1,5 @@
 ---
+topic: ocaml
 layout: talk
 active: bob2026
 title: "Parallelism without panic: a user’s guide to multicore safety in OCaml"

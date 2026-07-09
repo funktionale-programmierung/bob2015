@@ -1,4 +1,5 @@
 ---
+topic: software-architecture
 layout: talk
 active: bob2026
 title: "Architecting Scalable CI Pipelines for Enterprises: Lessons Learned"
