@@ -4,12 +4,13 @@ active: bob2026
 title: "Accessibility by Design: Practical A11y for Everyday Software Engineering"
 speaker: Ariadne Engelbrecht
 time: 10:15–11:00
-type: Talk
+type: Vortrag
 language: english
 head: 2026
 portrait: engelbrecht.webp
 slides-file: engelbrecht.pdf
 video: bob11-2026-accessibility-design-engelbrecht
+edition: 2026
 ---
 
 Accessibility is often treated as a mere compliance checkbox or something the “UI people” worry about at the end of a project. In reality, accessibility is a core quality attribute of software systems, and many of the biggest wins come from small decisions developers make every day: how we structure HTML, name components, log errors, design APIs, or write tests.

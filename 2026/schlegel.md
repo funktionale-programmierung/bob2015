@@ -4,11 +4,12 @@ active: bob2026
 title: "Git meets Linked Data – A Tale of an Unusual Architecture"
 speaker: Markus Schlegel
 time: 13:50–14:35
-type: Talk
+type: Vortrag
 language: english
 head: 2026
 portrait: schlegel.webp
 video: bob11-2026-git-linked-data-schlegel
+edition: 2026
 ---
 
 In 2025 we wrote a software system supporting an EU funded research

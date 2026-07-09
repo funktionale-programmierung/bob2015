@@ -4,11 +4,12 @@ active: bob2026
 title: "A crash course on the OCaml module language"
 speaker: Xavier Van de Woestyne
 time: 10:15–11:00
-type: Talk
+type: Vortrag
 language: english
 head: 2026
 portrait: woestyne.webp
 video: bob11-2026-ocaml-module-language-woestyne
+edition: 2026
 ---
 
 Many programming languages offer modules, namespaces, or package systems. But very few provide **a true module language**. In this talk, we’ll explore OCaml’s powerful module system as a core language feature. We’ll learn how to use modules effectively, understand their design principles and limitations, and discuss the challenges posed by type equalities, type preservation, and strengthening. We’ll also look at ongoing work clarifying their semantics, including recursive modules, type anchoring, and signature avoidance. We’ll see how modules solve real problems, discover clever and expressive encodings, and identify their practical limits. 

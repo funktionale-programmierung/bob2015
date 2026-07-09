@@ -4,10 +4,11 @@ active: bob2026
 title: "Run your own digital infrastructure using MirageOS unikernels"
 speaker: Hannes Mehnert
 time: 17:00–17:45
-type: Talk
+type: Vortrag
 language: english
 head: 2026
 video: bob11-2026-digital-infrastructure-mirageos-mehnert
+edition: 2026
 ---
 
 MirageOS started more than a decade ago as a research project at University of Cambridge. Nowadays it provides various useful services, from web server over DNS & DHCP, eMail server (including mailing lists), VPN, CalDAV (calendar), firewall, ... Security is built-in: few attack vectors (by using the memory-safe and type-safe programming language OCaml), tiny attack surface (much smaller binaries), reproducible builds (supply chain security).

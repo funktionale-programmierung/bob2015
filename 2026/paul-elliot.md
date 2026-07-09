@@ -4,11 +4,12 @@ active: bob2026
 title: "Going back in time with the Undoable Monad"
 speaker: Paul-Elliot
 time: 11:05–11:50
-type: Talk
+type: Vortrag
 language: english
 head: 2026
 portrait: paul-elliot.webp
 video: bob11-2026-undoable-monad-elliot
+edition: 2026
 ---
 
 Slipshow is a presentation tool. One of its specificity is that it is
